@@ -1,0 +1,20 @@
+{
+  "student": "S-OWNER",
+  "mode": "ssh",
+  "logs": [
+    "~/vcm_bench_kit/bench.log"
+  ],
+  "log_cmds": [],
+  "proc": "vcm_bench_assistant.py",
+  "host": "heydelta@Hey-Delta.local",
+  "wake_word": "Hey Delta",
+  "wake_gap": 0.8,
+  "started": "20261002-135144",
+  "size": "full",
+  "seed": 79276,
+  "speaker": 2,
+  "timing_waived": false,
+  "model_path": "pi:~/vcm_bench_kit/models/bcresnet6_hf_plus/command_bcresnet6_hf_plus.onnx",
+  "delete_audio": true,
+  "t_start": 1790920392.037388
+}
