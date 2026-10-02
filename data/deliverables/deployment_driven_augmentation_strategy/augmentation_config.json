@@ -1,0 +1,389 @@
+{
+  "schema_version": "3.0",
+  "task": "deployment_driven_wakeword_augmentation",
+  "wakeword": "Hey Delta",
+  "version": "4.0",
+  "updated": "2026-09-29",
+  "supersedes": "archive/v3_2026-09-29/augmentation_config.json",
+  "changelog": [
+    "Waveform measurements added (measure_deployment_levels.py); v1 treated level, SNR, clipping and device as unknown.",
+    "gain: REJECT FOR NOW -> ENABLE as device_level_gain, targeting the measured RPI speech peak range.",
+    "background_noise_mixing: SNR 5-25 dB (RMS SNR, unmeasured) -> target peak_over_floor 5.4-25.7 dB measured on RPI positives, hard floor 4.5 dB from owner-verified audible clips; real RPI background added as a noise source; probability 0.35 -> 0.6.",
+    "New transform device_noise_floor: fills digital silence (exact zeros) with real device background at the measured device floor.",
+    "microphone_frequency_response: REJECT FOR NOW -> DEFER, now measurable but confounded; the required recording is specified.",
+    "clipping_distortion: REJECT confirmed by measurement (no real recording contains clipped samples).",
+    "Preprocessing added: resample everything to 16 kHz first (1,249 manifest rows are not 48 kHz as listed).",
+    "Evaluation reporting added: real-device subset reported separately.",
+    "Manual-BG-RPI1/RPI2 (all-zero) relabelled negatives_silence at the recording owner's request; kept, splits unchanged.",
+    "2026-09-28: measurements re-run after the owner relabelled Manual-Fil-RPI40 to negatives_confusable (RPI positives 63 -> 62) and marked wakeword bounds by ear (located RPI positives 22 -> 54). Transform ranges unchanged at the cited precision.",
+    "v3 (2026-09-28): condition matching. evaluation/diagnostics/source_confound.py showed a model scoring the device recording condition (quiet speech over a noise floor) instead of the wakeword: that condition was mostly positives in training (every real RPI positive has it; ~30% of augmented synthetic examples did). device_level_gain p 0.5 -> 0.9 and target up to the measured max (-18.8 dB) so real clips can also be raised; background_noise_mixing p 0.6 -> 0.9, adding noise only to examples cleaner than the target. Both stay identical across labels. The dataloader sampler also splits the positive quota between real and synthetic sources (dataloading/dataloader_config.json).",
+    "v4 (2026-09-29): random_mic_coloring added (owner-approved). After v3, a baseline CNN still accepted real 'Hey/Hi + word' phrases (Qualcomm corpus) once they carried the device condition, and every real positive carries the owner's microphones' colour. The device's own frequency response is still unmeasured (microphone_frequency_response stays DEFERRED until a simultaneous RPI + reference recording exists), so v4 applies a mild random spectral colouring with one probability to every category: colour becomes uninformative about the label without claiming to reproduce the RPI microphone. Also 2026-09-29: rir_reverberation now has a curated bank (132 MIT IR Survey responses, data/rir/rir_bank.csv)."
+  ],
+  "generation": {
+    "audio_generation": false,
+    "strategy_only": true
+  },
+  "evidence_scope": {
+    "manifest": "manifest.csv",
+    "manifest_rows": 7044,
+    "v1_manifest_rows": 6961,
+    "real_recordings": 83,
+    "real_recordings_by_label_after_review": {
+      "positive": 67,
+      "negative": 16
+    },
+    "devices_from_filenames": [
+      "Macmic",
+      "Phonemic",
+      "RPI"
+    ],
+    "deployment_device": "RPI",
+    "measurement_script": "measure_deployment_levels.py",
+    "measurements": "deployment_level_measurements.csv",
+    "measurement_summary": "deployment_level_summary.json",
+    "segmentation_inputs": "../segmentation_windowing/outputs/{recording_inventory,resolved_annotations,windows}.csv",
+    "header_sample_rates_hz": [
+      16000,
+      22050,
+      24000,
+      48000
+    ],
+    "waveform_level_measurements_available": true,
+    "metric_definitions": "Speech band 150-4000 Hz, 20 ms frames, dB re full scale. peak_db = 98th percentile frame level; floor_db = 20th percentile; peak_over_floor_db = peak_db - floor_db. Not a conventional RMS SNR.",
+    "measured_values": {
+      "rpi_positive_peak_db": {
+        "n": 62,
+        "min": -59.38,
+        "p10": -49.74,
+        "median": -39.77,
+        "p90": -27.5,
+        "max": -18.76
+      },
+      "rpi_positive_floor_db": {
+        "n": 62,
+        "min": -65.57,
+        "p10": -58.06,
+        "median": -54.2,
+        "p90": -51.36,
+        "max": -48.74
+      },
+      "rpi_positive_peak_over_floor_db": {
+        "n": 62,
+        "min": 3.42,
+        "p10": 5.41,
+        "median": 14.75,
+        "p90": 25.7,
+        "max": 36.38
+      },
+      "owner_verified_audible_lowest_peak_over_floor_db": 4.42,
+      "tts_positive_peak_db_median": -10.85,
+      "level_gap_tts_vs_rpi_db": 28.9
+    }
+  },
+  "coverage_policy": {
+    "well_represented": "Keep natural/source diversity; do not augment solely for count.",
+    "partially_represented": "Use augmentation only when it targets a concrete missing deployment dimension.",
+    "unknown": "Do not enable a transform until waveform/deployment measurements establish the gap.",
+    "missing": "Prefer real recordings when the transform would otherwise be fabricating speaker/device/room identity."
+  },
+  "preprocessing": {
+    "resample_all_to_hz": 16000,
+    "channels": "mono",
+    "order": "before any transform",
+    "reason": "Headers show 16/22.05/24/48 kHz while manifest.csv lists 48 kHz for all rows. Mixed rates make bandwidth a class cue (band-limited TTS positives vs full-band negatives). Matches segmentation_windowing window.output_sample_rate."
+  },
+  "enabled_transforms": [
+    {
+      "name": "random_mic_coloring",
+      "purpose": "Make microphone colour (spectral tilt / resonances) uninformative about the label.",
+      "deployment_gap": "All real positives come from the owner's own microphones (mostly the RPI), while most negatives come from other microphones or from TTS, so microphone colour can act as a class cue. The RPI's true frequency response is unmeasured.",
+      "measured_evidence": [
+        "evaluation/diagnostics/hey_phrase_negatives_report.md (2026-09-29): real 'Hey/Hi + word' phrases given device level + floor were accepted on 4.0% of clips (Hi Galaxy 13.1%) at a like-for-like threshold, versus 0.12% as recorded.",
+        "deployment_level_summary.json: preliminary octave-band spectra differ by device (RPI: more 125 Hz, less 1 kHz than Macmic), but speaker/room/session are confounded with device."
+      ],
+      "probability": 0.5,
+      "parameters": {
+        "low_shelf": {
+          "corner_hz": {
+            "min": 100,
+            "max": 400
+          },
+          "gain_db": {
+            "min": -6,
+            "max": 6
+          }
+        },
+        "high_shelf": {
+          "corner_hz": {
+            "min": 2000,
+            "max": 6000
+          },
+          "gain_db": {
+            "min": -6,
+            "max": 6
+          }
+        },
+        "peak": {
+          "center_hz": {
+            "min": 300,
+            "max": 3000
+          },
+          "gain_db": {
+            "min": -4,
+            "max": 4
+          },
+          "bandwidth_octaves": {
+            "min": 0.5,
+            "max": 2.0
+          }
+        },
+        "shelf_slope_per_octave": 4.0,
+        "implementation": "zero-phase gain curve applied in the FFT domain; each parameter uniform in its range (corners and centre uniform in log-frequency)"
+      },
+      "apply_to": [
+        "all categories"
+      ],
+      "constraints": [
+        "Identical probability and parameter ranges for every category and label (it must not become a class cue itself).",
+        "Applied first, before device_level_gain, so every later level is set on the coloured signal.",
+        "Interim: replace with the measured RPI response once microphone_frequency_response is measured.",
+        "Never applied to validation, test or streaming evaluation audio."
+      ]
+    },
+    {
+      "name": "device_level_gain",
+      "purpose": "Bring training examples to the speech level the deployment device actually captures.",
+      "deployment_gap": "Synthetic speech peaks at a median of -10.9 dB; the RPI captures the wakeword at a median of -39.8 dB (p10 -49.7, p90 -27.5), about 29 dB quieter. Without this, device-level speech is rare in training.",
+      "measured_evidence": [
+        "rpi_positive_peak_db",
+        "level_gap_tts_vs_rpi_db"
+      ],
+      "probability": 0.9,
+      "parameters": {
+        "mode": "scale the example so that its peak_db equals a sampled target",
+        "target_peak_db": {
+          "min": -49.7,
+          "max": -18.8,
+          "distribution": "uniform"
+        },
+        "range_source": "p10 of rpi_positive_peak_db (-49.7) to its maximum (-18.76). v2 stopped at p90 (-27.5), so gain could only lower levels; the wider range can also raise quiet real clips, so level no longer separates real positives from synthetic audio."
+      },
+      "apply_to": [
+        "positive_wakeword",
+        "negative_general_speech",
+        "negative_media",
+        "negative_confusable",
+        "negative_partial_wakeword",
+        "negative_silence_noise"
+      ],
+      "constraints": [
+        "Identical probability and target range for positive and negative categories, so level never predicts the label.",
+        "Apply before noise mixing and device_noise_floor so their levels are set relative to the final speech level.",
+        "Never scale above full scale (no clipping).",
+        "Real RPI recordings are already at device level; they may receive the transform like any example, since the target range is their own measured range.",
+        "v3: applied to 90% of examples in every listed category, so almost every training example is at a device-plausible level regardless of source or label."
+      ]
+    },
+    {
+      "name": "background_noise_mixing",
+      "purpose": "Create speech-plus-background mixtures at the signal-over-background levels measured on the deployment device.",
+      "deployment_gap": "On the RPI, wakeword peaks sit a median 14.8 dB above the background (p10 5.4, p90 25.7). Synthetic speech sits 18-40 dB above its floor, or above digital silence. v3: a model trained with mixing at p=0.6 learned 'speech over a noise floor' as a positive cue, because every real RPI positive has that condition; at p=0.9 synthetic examples of both labels carry it too.",
+      "measured_evidence": [
+        "rpi_positive_peak_over_floor_db",
+        "owner_verified_audible_lowest_peak_over_floor_db"
+      ],
+      "probability": 0.9,
+      "parameters": {
+        "target_peak_over_floor_db": {
+          "min": 5.4,
+          "max": 25.7,
+          "hard_min": 4.5,
+          "distribution": "uniform",
+          "range_source": "p10-p90 of rpi_positive_peak_over_floor_db",
+          "hard_min_source": "lowest owner-verified audible positive (Manual-Fil-RPI20, 4.42 dB); nothing quieter is verified audible"
+        },
+        "level_setting": "Scale the noise so the mixture's peak_over_floor_db equals the target. Quiet frames are noise-dominated, so the noise sets floor_db.",
+        "noise_sources": {
+          "real_device_background": {
+            "weight": 0.5,
+            "bank": "real_noise_bank.csv"
+          },
+          "synthetic": {
+            "weight": 0.5,
+            "sources": [
+              "synth_white",
+              "synth_pink",
+              "synth_hum",
+              "synth_fan",
+              "synth_clicks"
+            ]
+          }
+        },
+        "only_if_cleaner_than_target": true,
+        "condition_note": "Noise is added only when the example's peak_over_floor_db exceeds the sampled target, i.e. it is cleaner than device audio. Real device recordings already sit in the target range and are left as they are, instead of being pushed below it."
+      },
+      "apply_to": [
+        "positive_wakeword",
+        "negative_general_speech",
+        "negative_media",
+        "negative_confusable",
+        "negative_partial_wakeword"
+      ],
+      "constraints": [
+        "Never apply to negative_silence_noise.",
+        "One noise source per augmented example.",
+        "Never go below hard_min: a positive quieter than any owner-verified audible clip may no longer contain an audible wakeword.",
+        "Real background windows come only from train-split recordings and exclude every wakeword-like annotation plus a 0.5 s guard (segmentation_windowing negative rules).",
+        "All-zero recordings (Manual-BG-RPI1, Manual-BG-RPI2; now negatives_silence) are not device noise and are never in the bank.",
+        "Do not combine the lowest-SNR draws with extreme RIR conditions.",
+        "Preserve label semantics; a positive remains a complete Hey Delta occurrence."
+      ]
+    },
+    {
+      "name": "device_noise_floor",
+      "purpose": "Replace digital silence with the device's real background.",
+      "deployment_gap": "Real recordings never contain exact-zero audio (0/62 RPI positives), but it occurs in 150/150 sampled partial-wakeword negatives, 17/50 TTS positives, 33/150 confusables, and in every zero-padded window. A model could learn 'digital silence -> negative', a cue absent on the device.",
+      "measured_evidence": [
+        "rpi_positive_floor_db",
+        "digital_silence_floor"
+      ],
+      "probability": 1.0,
+      "condition": "Example contains a run of exact-zero samples >= 20 ms, including window padding.",
+      "parameters": {
+        "target_floor_db": {
+          "min": -58.2,
+          "max": -51.4,
+          "distribution": "uniform",
+          "range_source": "p10-p90 of rpi_positive_floor_db"
+        },
+        "noise_source": "real_noise_bank.csv"
+      },
+      "apply_to": [
+        "all categories"
+      ],
+      "constraints": [
+        "Add the noise over the whole example at the target floor, not only inside the zero runs, so no splice boundary is created.",
+        "Applied after background_noise_mixing; skip if mixing already produced a floor >= target.",
+        "Same condition and parameters for positive and negative categories."
+      ]
+    },
+    {
+      "name": "rir_reverberation",
+      "purpose": "Approximate missing room/reverberation variability using curated RIRs.",
+      "deployment_gap": "No room/RIR representation is present; the real recordings carry no room metadata.",
+      "measured_evidence": [],
+      "probability": 0.2,
+      "parameters": {
+        "rt60_s": {
+          "min": 0.15,
+          "max": 0.6
+        },
+        "direct_to_reverberant_ratio_db": {
+          "min": 6,
+          "max": 18
+        },
+        "rir_selection": "curated deployment-relevant RIR bank"
+      },
+      "apply_to": [
+        "positive_wakeword",
+        "negative_general_speech",
+        "negative_media",
+        "negative_confusable",
+        "negative_partial_wakeword"
+      ],
+      "constraints": [
+        "One RIR per example.",
+        "Do not invent RIRs from unsupported room labels.",
+        "Avoid simultaneous extreme reverberation and target_peak_over_floor_db < 10 dB.",
+        "Do not apply to real RPI recordings: they already contain the deployment room.",
+        "Prefer measured/curated RIRs over procedurally generated room responses.",
+        "RIR assets must be versioned and kept outside validation/test."
+      ]
+    }
+  ],
+  "deferred_transforms": {
+    "microphone_frequency_response": {
+      "decision": "DEFER",
+      "status": "measurable, but current data cannot isolate the device",
+      "preliminary_measurement": "Median speech-spectrum shape by device (octave bands, dB relative to total) in deployment_level_summary.json. The RPI shows relatively more 125 Hz and less 1 kHz energy than Macmic. Only 2 Macmic and 3 Phonemic recordings exist, taken in different sessions, so speaker, distance and room differences are confounded with the device.",
+      "next_measurement": "Record the same utterances simultaneously on the RPI and a reference microphone at the deployment distance; the ratio of their spectra is the device response.",
+      "interim": "v4 random_mic_coloring (label-agnostic random EQ) until the device response is measured."
+    }
+  },
+  "rejected_transforms": {
+    "pitch_shift": "reject_existing_pitch_grid_already_covers_documented_synthetic_variation",
+    "time_stretch": "reject_existing_speed_grid_already_covers_documented_synthetic_variation",
+    "clipping_distortion": "reject_measured: 0 of 83 real recordings contain clipped samples; clipping occurs only in synthetic files (<=0.05% of samples)"
+  },
+  "composition_rules": {
+    "order": [
+      "preprocessing",
+      "random_mic_coloring",
+      "device_level_gain",
+      "rir_reverberation",
+      "background_noise_mixing",
+      "device_noise_floor"
+    ],
+    "max_enabled_transforms_per_example": 5,
+    "disallowed_combinations": [
+      "rir_reverberation at rt60 > 0.45 s together with target_peak_over_floor_db < 10 dB"
+    ],
+    "note": "Colouring comes first (it models the microphone), then gain, so every later level is set relative to the final speech level."
+  },
+  "split_inheritance": {
+    "split_unit": "source_group",
+    "source_group_rule": "If parent_filepath exists, use the parent's recording_id; otherwise use row recording_id.",
+    "manual_recordings": "Splits for the 83 manual recordings come from segmentation_windowing/outputs/split_extension.csv; recording relabels never change splits.",
+    "train": "Only training source groups may produce augmented audio.",
+    "validation": "No augmentation; retain original validation source groups only.",
+    "test": "No augmentation; retain original test source groups only.",
+    "streaming_eval_holdout": "Never augmented and never used as an augmentation input.",
+    "derived_children": "All descendants inherit the parent/source-group split.",
+    "cross_split_assets": "Never mix source audio, noise, or RIR assets in a way that transfers content from validation/test source groups into training.",
+    "real_noise_bank": "Built only from train-split real background recordings (real_noise_bank.csv). Validation/test background recordings are never used as noise.",
+    "external_noise_and_rir": "Noise/RIR assets may be shared only if they are independent external assets and contain no source-group-specific speech content."
+  },
+  "evaluation_reporting": {
+    "report_separately": [
+      "all",
+      "real_device_rpi",
+      "synthetic"
+    ],
+    "reason": "Validation and test each hold 27 synthetic positive windows but only 8 from real recordings, so a pooled score mostly reflects synthetic speech.",
+    "low_signal_subset": "Owner-verified low-signal RPI positives (RPI19 validation; RPI20, RPI21 test) should also be reported individually."
+  },
+  "data_quality_actions": [
+    "Manual-BG-RPI1 (validation) and Manual-BG-RPI2 (train) contain only zeros. Resolved: relabelled negatives_silence (segmentation_windowing/review/recording_label_overrides.csv), splits unchanged, never used as noise. device_noise_floor makes RPI2 realistic in training; RPI1 stays pure zeros in validation (unaugmented), an easy negative the device never produces.",
+    "32 low-signal RPI positives (27 train) still need wakeword timing before they yield positive windows; they are the main source of real device-level training positives.",
+    "Correct manifest.csv sample_rate for 1,249 rows.",
+    "Check whether the RPI capture level reflects the intended deployment configuration (mic gain, distance). If deployment will be louder, fix the device setting first; the gain and noise ranges here assume the recorded level is representative."
+  ],
+  "new_data_requirements": [
+    "Real wakeword recordings from additional speakers; speaker metadata is absent for the manual recordings.",
+    "More RPI recordings at the deployment distance and gain, including far-field positions.",
+    "Simultaneous RPI + reference-microphone recordings of the same utterances (needed for the deferred device-response measurement).",
+    "Multiple rooms/environments with documented acoustic conditions.",
+    "Real RPI background environments beyond the 6 usable train-split RPI background recordings (the bank also holds 1 Macmic recording).",
+    "Real hard negatives on the RPI: near-miss phrases and partial wakewords (so far only Manual-Fil-RPI13 'Delta', Manual-Fil-RPI40 (not a complete 'Hey Delta') and one 'Hey, Michelle.')."
+  ],
+  "priority": [
+    "1. Resolve remaining data-quality actions (missing timing for 32 RPI positives, capture-level check).",
+    "2. Preprocessing: resample everything to 16 kHz.",
+    "3. device_noise_floor and device_level_gain: remove the digital-silence and level cues.",
+    "4. background_noise_mixing at measured device levels.",
+    "5. More real RPI recordings, speakers, rooms and hard negatives.",
+    "6. Curated RIR augmentation for training only.",
+    "7. Device-response measurement, then revisit microphone simulation."
+  ],
+  "condition_balance": {
+    "finding": "evaluation/diagnostics/source_confound_report.md (baseline CNN, validation only): making synthetic negatives quiet AND adding a device floor raised windows above threshold 6 -> 46 (confusables 6 -> 28); either change alone had little effect. Real RPI positives raised to synthetic level lost detections (13 -> 9 of 15).",
+    "principle": "Deployment audio is always device-conditioned, so training audio of BOTH labels should be too: the recording condition must not predict the label.",
+    "actions": [
+      "device_level_gain p 0.9, range to measured max",
+      "background_noise_mixing p 0.9, only when cleaner than target",
+      "sampler: positive quota split real/synthetic, larger real-device negative share (dataloading)"
+    ],
+    "remaining_gap": "Real device negatives are scarce (~320 training windows from a few recordings), so real audio stays more common among positives than negatives. Only new RPI recordings without the wakeword close this.",
+    "check": "Rerun evaluation/diagnostics/source_confound.py for every trained model."
+  }
+}

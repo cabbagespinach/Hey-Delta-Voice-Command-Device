@@ -1,0 +1,28 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/positives/tts2_en_US-libritts_r-medium_spk191_pos0.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-29T13:39:24+00:00",
+ "duration_sec": 0.626938775510204,
+ "input_peak": 0.9997450113296509,
+ "chunks": [
+  {
+   "chunk_start": 0.0,
+   "chunk_end": 0.627,
+   "text": "Hey dotha.",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 0.0,
+     "end": 0.1,
+     "probability": 0.8237
+    },
+    {
+     "word": "dotha.",
+     "start": 0.1,
+     "end": 0.38,
+     "probability": 0.5922
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/positives/tts2_en_GB-vctk-medium_spk74_pos0.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-29T13:38:59+00:00",
+ "duration_sec": 0.9868480725623583,
+ "input_peak": 1.000746726989746,
+ "chunks": [
+  {
+   "chunk_start": 0.0,
+   "chunk_end": 0.987,
+   "text": "Hey, Belter.",
+   "words": [
+    {
+     "word": "Hey,",
+     "start": 0.0,
+     "end": 0.14,
+     "probability": 0.8447
+    },
+    {
+     "word": "Belter.",
+     "start": 0.16,
+     "end": 0.58,
+     "probability": 0.8586
+    }
+   ]
+  }
+ ]
+}

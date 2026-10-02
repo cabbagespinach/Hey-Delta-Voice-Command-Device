@@ -1,0 +1,682 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/negatives_general/Manual-BG-RPI17.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-28T13:29:30+00:00",
+ "duration_sec": 111.02933333333333,
+ "input_peak": 0.24572399258613586,
+ "chunks": [
+  {
+   "chunk_start": 0.0,
+   "chunk_end": 1.132,
+   "text": "long shot",
+   "words": [
+    {
+     "word": "long",
+     "start": 0.0,
+     "end": 0.38,
+     "probability": 0.3081
+    },
+    {
+     "word": "shot",
+     "start": 0.38,
+     "end": 0.54,
+     "probability": 0.6641
+    }
+   ]
+  },
+  {
+   "chunk_start": 1.684,
+   "chunk_end": 4.108,
+   "text": "And then she said to Claude that...",
+   "words": [
+    {
+     "word": "And",
+     "start": 1.684,
+     "end": 2.044,
+     "probability": 0.5854
+    },
+    {
+     "word": "then",
+     "start": 2.044,
+     "end": 2.144,
+     "probability": 0.918
+    },
+    {
+     "word": "she",
+     "start": 2.144,
+     "end": 2.204,
+     "probability": 0.3071
+    },
+    {
+     "word": "said",
+     "start": 2.204,
+     "end": 2.404,
+     "probability": 0.1368
+    },
+    {
+     "word": "to",
+     "start": 2.404,
+     "end": 2.644,
+     "probability": 0.4136
+    },
+    {
+     "word": "Claude",
+     "start": 2.644,
+     "end": 3.164,
+     "probability": 0.9602
+    },
+    {
+     "word": "that...",
+     "start": 3.164,
+     "end": 3.424,
+     "probability": 0.4557
+    }
+   ]
+  },
+  {
+   "chunk_start": 4.404,
+   "chunk_end": 6.576,
+   "text": "I don't know why there's no sound",
+   "words": [
+    {
+     "word": "I",
+     "start": 4.404,
+     "end": 4.624,
+     "probability": 0.1062
+    },
+    {
+     "word": "don't",
+     "start": 4.624,
+     "end": 4.844,
+     "probability": 0.6167
+    },
+    {
+     "word": "know",
+     "start": 4.844,
+     "end": 4.864,
+     "probability": 0.6084
+    },
+    {
+     "word": "why",
+     "start": 4.864,
+     "end": 5.144,
+     "probability": 0.3286
+    },
+    {
+     "word": "there's",
+     "start": 5.144,
+     "end": 5.344,
+     "probability": 0.5569
+    },
+    {
+     "word": "no",
+     "start": 5.344,
+     "end": 5.484,
+     "probability": 0.937
+    },
+    {
+     "word": "sound",
+     "start": 5.484,
+     "end": 5.804,
+     "probability": 0.98
+    }
+   ]
+  },
+  {
+   "chunk_start": 6.576,
+   "chunk_end": 7.232,
+   "text": "What?",
+   "words": [
+    {
+     "word": "What?",
+     "start": 6.576,
+     "end": 6.896,
+     "probability": 0.1329
+    }
+   ]
+  },
+  {
+   "chunk_start": 7.232,
+   "chunk_end": 15.984,
+   "text": "so close able to detect if my son or a lot it has my liberation",
+   "words": [
+    {
+     "word": "so",
+     "start": 8.552,
+     "end": 9.032,
+     "probability": 0.1075
+    },
+    {
+     "word": "close",
+     "start": 9.032,
+     "end": 9.312,
+     "probability": 0.49
+    },
+    {
+     "word": "able",
+     "start": 9.312,
+     "end": 9.612,
+     "probability": 0.3403
+    },
+    {
+     "word": "to",
+     "start": 9.612,
+     "end": 9.892,
+     "probability": 0.9863
+    },
+    {
+     "word": "detect",
+     "start": 9.892,
+     "end": 10.152,
+     "probability": 0.8882
+    },
+    {
+     "word": "if",
+     "start": 10.152,
+     "end": 10.392,
+     "probability": 0.8667
+    },
+    {
+     "word": "my",
+     "start": 10.392,
+     "end": 10.532,
+     "probability": 0.9805
+    },
+    {
+     "word": "son",
+     "start": 10.532,
+     "end": 10.772,
+     "probability": 0.7495
+    },
+    {
+     "word": "or",
+     "start": 10.772,
+     "end": 10.952,
+     "probability": 0.5942
+    },
+    {
+     "word": "a",
+     "start": 10.952,
+     "end": 10.992,
+     "probability": 0.2439
+    },
+    {
+     "word": "lot",
+     "start": 10.992,
+     "end": 11.212,
+     "probability": 0.9805
+    },
+    {
+     "word": "it",
+     "start": 11.212,
+     "end": 11.452,
+     "probability": 0.5767
+    },
+    {
+     "word": "has",
+     "start": 11.452,
+     "end": 11.572,
+     "probability": 0.8628
+    },
+    {
+     "word": "my",
+     "start": 11.572,
+     "end": 12.172,
+     "probability": 0.1628
+    },
+    {
+     "word": "liberation",
+     "start": 12.172,
+     "end": 14.352,
+     "probability": 0.7427
+    }
+   ]
+  },
+  {
+   "chunk_start": 15.984,
+   "chunk_end": 18.156,
+   "text": "Yeah, yeah, yeah.",
+   "words": [
+    {
+     "word": "Yeah,",
+     "start": 16.564,
+     "end": 16.864,
+     "probability": 0.132
+    },
+    {
+     "word": "yeah,",
+     "start": 17.264,
+     "end": 17.424,
+     "probability": 0.9438
+    },
+    {
+     "word": "yeah.",
+     "start": 17.464,
+     "end": 17.584,
+     "probability": 0.9946
+    }
+   ]
+  },
+  {
+   "chunk_start": 19.284,
+   "chunk_end": 21.644,
+   "text": "There's a sound signal.",
+   "words": [
+    {
+     "word": "There's",
+     "start": 19.284,
+     "end": 19.644,
+     "probability": 0.3817
+    },
+    {
+     "word": "a",
+     "start": 19.644,
+     "end": 19.724,
+     "probability": 0.8882
+    },
+    {
+     "word": "sound",
+     "start": 19.724,
+     "end": 19.944,
+     "probability": 0.9736
+    },
+    {
+     "word": "signal.",
+     "start": 19.944,
+     "end": 20.444,
+     "probability": 0.9746
+    }
+   ]
+  },
+  {
+   "chunk_start": 22.964,
+   "chunk_end": 23.788,
+   "text": "What are you talking about?",
+   "words": [
+    {
+     "word": "What",
+     "start": 22.964,
+     "end": 22.964,
+     "probability": 0.0595
+    },
+    {
+     "word": "are",
+     "start": 22.964,
+     "end": 23.084,
+     "probability": 0.2822
+    },
+    {
+     "word": "you",
+     "start": 23.084,
+     "end": 23.164,
+     "probability": 0.873
+    },
+    {
+     "word": "talking",
+     "start": 23.164,
+     "end": 23.384,
+     "probability": 0.2507
+    },
+    {
+     "word": "about?",
+     "start": 23.384,
+     "end": 23.524,
+     "probability": 0.9834
+    }
+   ]
+  },
+  {
+   "chunk_start": 25.556,
+   "chunk_end": 28.016,
+   "text": "Today I learned the code of accept.",
+   "words": [
+    {
+     "word": "Today",
+     "start": 25.556,
+     "end": 25.916,
+     "probability": 0.8008
+    },
+    {
+     "word": "I",
+     "start": 25.916,
+     "end": 26.076,
+     "probability": 0.7305
+    },
+    {
+     "word": "learned",
+     "start": 26.076,
+     "end": 26.276,
+     "probability": 0.8853
+    },
+    {
+     "word": "the",
+     "start": 26.276,
+     "end": 26.416,
+     "probability": 0.3601
+    },
+    {
+     "word": "code",
+     "start": 26.416,
+     "end": 26.696,
+     "probability": 0.6421
+    },
+    {
+     "word": "of",
+     "start": 26.696,
+     "end": 26.776,
+     "probability": 0.3611
+    },
+    {
+     "word": "accept.",
+     "start": 26.776,
+     "end": 27.356,
+     "probability": 0.4121
+    }
+   ]
+  },
+  {
+   "chunk_start": 28.016,
+   "chunk_end": 30.636,
+   "text": "voice recordings as input file",
+   "words": [
+    {
+     "word": "voice",
+     "start": 28.016,
+     "end": 28.416,
+     "probability": 0.6606
+    },
+    {
+     "word": "recordings",
+     "start": 28.416,
+     "end": 28.856,
+     "probability": 0.5449
+    },
+    {
+     "word": "as",
+     "start": 28.856,
+     "end": 29.196,
+     "probability": 0.8521
+    },
+    {
+     "word": "input",
+     "start": 29.196,
+     "end": 29.776,
+     "probability": 0.9653
+    },
+    {
+     "word": "file",
+     "start": 29.776,
+     "end": 30.076,
+     "probability": 0.7563
+    }
+   ]
+  },
+  {
+   "chunk_start": 30.996,
+   "chunk_end": 33.516,
+   "text": "So you can actually talk.",
+   "words": [
+    {
+     "word": "So",
+     "start": 31.696,
+     "end": 32.116,
+     "probability": 0.3743
+    },
+    {
+     "word": "you",
+     "start": 32.116,
+     "end": 32.276,
+     "probability": 0.8604
+    },
+    {
+     "word": "can",
+     "start": 32.276,
+     "end": 32.396,
+     "probability": 0.9248
+    },
+    {
+     "word": "actually",
+     "start": 32.396,
+     "end": 32.656,
+     "probability": 0.9883
+    },
+    {
+     "word": "talk.",
+     "start": 32.656,
+     "end": 32.956,
+     "probability": 0.6597
+    }
+   ]
+  },
+  {
+   "chunk_start": 35.892,
+   "chunk_end": 38.592,
+   "text": "You can voice command code. No, you can't.",
+   "words": [
+    {
+     "word": "You",
+     "start": 35.892,
+     "end": 36.132,
+     "probability": 0.459
+    },
+    {
+     "word": "can",
+     "start": 36.132,
+     "end": 36.252,
+     "probability": 0.9897
+    },
+    {
+     "word": "voice",
+     "start": 36.252,
+     "end": 36.472,
+     "probability": 0.9297
+    },
+    {
+     "word": "command",
+     "start": 36.472,
+     "end": 36.792,
+     "probability": 0.9482
+    },
+    {
+     "word": "code.",
+     "start": 36.792,
+     "end": 37.172,
+     "probability": 0.5933
+    },
+    {
+     "word": "No,",
+     "start": 37.332,
+     "end": 37.812,
+     "probability": 0.8833
+    },
+    {
+     "word": "you",
+     "start": 37.812,
+     "end": 37.932,
+     "probability": 0.9717
+    },
+    {
+     "word": "can't.",
+     "start": 37.932,
+     "end": 38.312,
+     "probability": 0.9753
+    }
+   ]
+  },
+  {
+   "chunk_start": 38.592,
+   "chunk_end": 48.108,
+   "text": "You can, right? There's an option. He can't understand the audio. He can only see if there's a signal. But there's an option now, right? Yes, that's new.",
+   "words": [
+    {
+     "word": "You",
+     "start": 38.592,
+     "end": 38.792,
+     "probability": 0.1056
+    },
+    {
+     "word": "can,",
+     "start": 38.792,
+     "end": 38.932,
+     "probability": 0.6655
+    },
+    {
+     "word": "right?",
+     "start": 39.072,
+     "end": 39.152,
+     "probability": 0.79
+    },
+    {
+     "word": "There's",
+     "start": 39.332,
+     "end": 39.732,
+     "probability": 0.7725
+    },
+    {
+     "word": "an",
+     "start": 39.732,
+     "end": 39.732,
+     "probability": 0.9624
+    },
+    {
+     "word": "option.",
+     "start": 39.732,
+     "end": 40.032,
+     "probability": 0.9917
+    },
+    {
+     "word": "He",
+     "start": 40.172,
+     "end": 40.212,
+     "probability": 0.1793
+    },
+    {
+     "word": "can't",
+     "start": 40.212,
+     "end": 40.212,
+     "probability": 0.4965
+    },
+    {
+     "word": "understand",
+     "start": 40.212,
+     "end": 40.392,
+     "probability": 0.7588
+    },
+    {
+     "word": "the",
+     "start": 40.392,
+     "end": 40.772,
+     "probability": 0.7622
+    },
+    {
+     "word": "audio.",
+     "start": 40.772,
+     "end": 41.212,
+     "probability": 0.9712
+    },
+    {
+     "word": "He",
+     "start": 41.372,
+     "end": 41.592,
+     "probability": 0.873
+    },
+    {
+     "word": "can",
+     "start": 41.592,
+     "end": 41.632,
+     "probability": 0.6611
+    },
+    {
+     "word": "only",
+     "start": 41.632,
+     "end": 42.012,
+     "probability": 0.8242
+    },
+    {
+     "word": "see",
+     "start": 42.012,
+     "end": 42.152,
+     "probability": 0.8882
+    },
+    {
+     "word": "if",
+     "start": 42.152,
+     "end": 42.392,
+     "probability": 0.6812
+    },
+    {
+     "word": "there's",
+     "start": 42.392,
+     "end": 42.852,
+     "probability": 0.8413
+    },
+    {
+     "word": "a",
+     "start": 42.852,
+     "end": 42.892,
+     "probability": 0.9155
+    },
+    {
+     "word": "signal.",
+     "start": 42.892,
+     "end": 43.412,
+     "probability": 0.9917
+    },
+    {
+     "word": "But",
+     "start": 43.832,
+     "end": 44.172,
+     "probability": 0.8945
+    },
+    {
+     "word": "there's",
+     "start": 44.172,
+     "end": 44.692,
+     "probability": 0.468
+    },
+    {
+     "word": "an",
+     "start": 44.692,
+     "end": 44.792,
+     "probability": 0.7041
+    },
+    {
+     "word": "option",
+     "start": 44.792,
+     "end": 45.012,
+     "probability": 0.9937
+    },
+    {
+     "word": "now,",
+     "start": 45.012,
+     "end": 45.232,
+     "probability": 0.4622
+    },
+    {
+     "word": "right?",
+     "start": 45.452,
+     "end": 45.612,
+     "probability": 0.9067
+    },
+    {
+     "word": "Yes,",
+     "start": 45.972,
+     "end": 46.372,
+     "probability": 0.0553
+    },
+    {
+     "word": "that's",
+     "start": 46.492,
+     "end": 46.652,
+     "probability": 0.6274
+    },
+    {
+     "word": "new.",
+     "start": 46.652,
+     "end": 46.772,
+     "probability": 0.7075
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,205 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0072.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:28:41+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8845411539077759,
+ "chunks": [
+  {
+   "chunk_start": 0.404,
+   "chunk_end": 4.364,
+   "text": "The store closes earlier on weekends.",
+   "words": [
+    {
+     "word": "The",
+     "start": 0.404,
+     "end": 0.744,
+     "probability": 0.853
+    },
+    {
+     "word": "store",
+     "start": 0.744,
+     "end": 0.944,
+     "probability": 0.9316
+    },
+    {
+     "word": "closes",
+     "start": 0.944,
+     "end": 1.144,
+     "probability": 0.9873
+    },
+    {
+     "word": "earlier",
+     "start": 1.144,
+     "end": 1.824,
+     "probability": 0.9658
+    },
+    {
+     "word": "on",
+     "start": 1.824,
+     "end": 2.124,
+     "probability": 0.9692
+    },
+    {
+     "word": "weekends.",
+     "start": 2.124,
+     "end": 2.484,
+     "probability": 0.7773
+    }
+   ]
+  },
+  {
+   "chunk_start": 6.228,
+   "chunk_end": 8.876,
+   "text": "I left the package beside the front door.",
+   "words": [
+    {
+     "word": "I",
+     "start": 6.228,
+     "end": 6.588,
+     "probability": 0.9043
+    },
+    {
+     "word": "left",
+     "start": 6.588,
+     "end": 6.788,
+     "probability": 0.9946
+    },
+    {
+     "word": "the",
+     "start": 6.788,
+     "end": 6.908,
+     "probability": 0.9717
+    },
+    {
+     "word": "package",
+     "start": 6.908,
+     "end": 7.188,
+     "probability": 0.9941
+    },
+    {
+     "word": "beside",
+     "start": 7.188,
+     "end": 7.568,
+     "probability": 0.9595
+    },
+    {
+     "word": "the",
+     "start": 7.568,
+     "end": 7.868,
+     "probability": 0.9976
+    },
+    {
+     "word": "front",
+     "start": 7.868,
+     "end": 8.048,
+     "probability": 0.9902
+    },
+    {
+     "word": "door.",
+     "start": 8.048,
+     "end": 8.308,
+     "probability": 0.9971
+    }
+   ]
+  },
+  {
+   "chunk_start": 10.836,
+   "chunk_end": 13.74,
+   "text": "That sounds like a reasonable idea to me.",
+   "words": [
+    {
+     "word": "That",
+     "start": 10.836,
+     "end": 11.156,
+     "probability": 0.8027
+    },
+    {
+     "word": "sounds",
+     "start": 11.156,
+     "end": 11.476,
+     "probability": 0.9902
+    },
+    {
+     "word": "like",
+     "start": 11.476,
+     "end": 11.676,
+     "probability": 0.9976
+    },
+    {
+     "word": "a",
+     "start": 11.676,
+     "end": 11.676,
+     "probability": 0.9976
+    },
+    {
+     "word": "reasonable",
+     "start": 11.676,
+     "end": 12.036,
+     "probability": 0.9961
+    },
+    {
+     "word": "idea",
+     "start": 12.036,
+     "end": 12.436,
+     "probability": 0.9961
+    },
+    {
+     "word": "to",
+     "start": 12.436,
+     "end": 12.616,
+     "probability": 0.9951
+    },
+    {
+     "word": "me.",
+     "start": 12.616,
+     "end": 12.876,
+     "probability": 0.9976
+    }
+   ]
+  },
+  {
+   "chunk_start": 14.964,
+   "chunk_end": 18.636,
+   "text": "Then it should say something more.",
+   "words": [
+    {
+     "word": "Then",
+     "start": 14.964,
+     "end": 15.384,
+     "probability": 0.1326
+    },
+    {
+     "word": "it",
+     "start": 15.384,
+     "end": 15.744,
+     "probability": 0.834
+    },
+    {
+     "word": "should",
+     "start": 15.744,
+     "end": 16.204,
+     "probability": 0.1942
+    },
+    {
+     "word": "say",
+     "start": 16.204,
+     "end": 16.764,
+     "probability": 0.3638
+    },
+    {
+     "word": "something",
+     "start": 16.764,
+     "end": 17.264,
+     "probability": 0.9502
+    },
+    {
+     "word": "more.",
+     "start": 17.264,
+     "end": 17.984,
+     "probability": 0.7803
+    }
+   ]
+  }
+ ]
+}

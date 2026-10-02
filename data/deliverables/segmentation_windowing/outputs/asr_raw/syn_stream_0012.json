@@ -1,0 +1,258 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0012.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:27:10+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8905813694000244,
+ "chunks": [
+  {
+   "chunk_start": 1.556,
+   "chunk_end": 5.708,
+   "text": "The children are playing outside. The meeting starts in about 10 minutes.",
+   "words": [
+    {
+     "word": "The",
+     "start": 1.556,
+     "end": 1.876,
+     "probability": 0.8179
+    },
+    {
+     "word": "children",
+     "start": 1.876,
+     "end": 2.156,
+     "probability": 0.7476
+    },
+    {
+     "word": "are",
+     "start": 2.156,
+     "end": 2.496,
+     "probability": 0.9268
+    },
+    {
+     "word": "playing",
+     "start": 2.496,
+     "end": 2.776,
+     "probability": 0.9106
+    },
+    {
+     "word": "outside.",
+     "start": 2.776,
+     "end": 3.256,
+     "probability": 0.9697
+    },
+    {
+     "word": "The",
+     "start": 3.356,
+     "end": 3.576,
+     "probability": 0.958
+    },
+    {
+     "word": "meeting",
+     "start": 3.576,
+     "end": 3.676,
+     "probability": 0.8442
+    },
+    {
+     "word": "starts",
+     "start": 3.676,
+     "end": 4.016,
+     "probability": 0.9951
+    },
+    {
+     "word": "in",
+     "start": 4.016,
+     "end": 4.276,
+     "probability": 0.998
+    },
+    {
+     "word": "about",
+     "start": 4.276,
+     "end": 4.476,
+     "probability": 0.9951
+    },
+    {
+     "word": "10",
+     "start": 4.476,
+     "end": 4.776,
+     "probability": 0.7212
+    },
+    {
+     "word": "minutes.",
+     "start": 4.776,
+     "end": 5.056,
+     "probability": 0.998
+    }
+   ]
+  },
+  {
+   "chunk_start": 12.276,
+   "chunk_end": 17.484,
+   "text": "I was looking for a quiet place to work.",
+   "words": [
+    {
+     "word": "I",
+     "start": 12.276,
+     "end": 12.556,
+     "probability": 0.8286
+    },
+    {
+     "word": "was",
+     "start": 12.556,
+     "end": 12.656,
+     "probability": 0.9951
+    },
+    {
+     "word": "looking",
+     "start": 12.656,
+     "end": 12.836,
+     "probability": 0.9956
+    },
+    {
+     "word": "for",
+     "start": 12.836,
+     "end": 13.096,
+     "probability": 0.998
+    },
+    {
+     "word": "a",
+     "start": 13.096,
+     "end": 13.196,
+     "probability": 0.9697
+    },
+    {
+     "word": "quiet",
+     "start": 13.196,
+     "end": 13.496,
+     "probability": 0.9512
+    },
+    {
+     "word": "place",
+     "start": 13.496,
+     "end": 13.676,
+     "probability": 0.9888
+    },
+    {
+     "word": "to",
+     "start": 13.676,
+     "end": 13.976,
+     "probability": 0.9976
+    },
+    {
+     "word": "work.",
+     "start": 13.976,
+     "end": 14.276,
+     "probability": 0.998
+    }
+   ]
+  },
+  {
+   "chunk_start": 23.54,
+   "chunk_end": 29.036,
+   "text": "Can you send me the address when you arrive? The road was busy because of the rain.",
+   "words": [
+    {
+     "word": "Can",
+     "start": 23.54,
+     "end": 23.7,
+     "probability": 0.7012
+    },
+    {
+     "word": "you",
+     "start": 23.7,
+     "end": 23.86,
+     "probability": 0.9961
+    },
+    {
+     "word": "send",
+     "start": 23.86,
+     "end": 24.14,
+     "probability": 0.9956
+    },
+    {
+     "word": "me",
+     "start": 24.14,
+     "end": 24.3,
+     "probability": 0.9907
+    },
+    {
+     "word": "the",
+     "start": 24.3,
+     "end": 24.42,
+     "probability": 0.9663
+    },
+    {
+     "word": "address",
+     "start": 24.42,
+     "end": 24.66,
+     "probability": 0.9702
+    },
+    {
+     "word": "when",
+     "start": 24.66,
+     "end": 25.1,
+     "probability": 0.9321
+    },
+    {
+     "word": "you",
+     "start": 25.1,
+     "end": 25.16,
+     "probability": 0.9971
+    },
+    {
+     "word": "arrive?",
+     "start": 25.16,
+     "end": 25.4,
+     "probability": 0.9951
+    },
+    {
+     "word": "The",
+     "start": 25.84,
+     "end": 26.36,
+     "probability": 0.9077
+    },
+    {
+     "word": "road",
+     "start": 26.36,
+     "end": 26.66,
+     "probability": 0.9956
+    },
+    {
+     "word": "was",
+     "start": 26.66,
+     "end": 26.96,
+     "probability": 0.9941
+    },
+    {
+     "word": "busy",
+     "start": 26.96,
+     "end": 27.28,
+     "probability": 0.9956
+    },
+    {
+     "word": "because",
+     "start": 27.28,
+     "end": 27.64,
+     "probability": 0.9927
+    },
+    {
+     "word": "of",
+     "start": 27.64,
+     "end": 27.94,
+     "probability": 0.999
+    },
+    {
+     "word": "the",
+     "start": 27.94,
+     "end": 28.06,
+     "probability": 0.9985
+    },
+    {
+     "word": "rain.",
+     "start": 28.06,
+     "end": 28.34,
+     "probability": 0.9971
+    }
+   ]
+  }
+ ]
+}

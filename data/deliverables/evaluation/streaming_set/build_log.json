@@ -1,0 +1,49 @@
+{
+  "created_at": "2026-09-28T11:15:34+00:00",
+  "seed": 20260929,
+  "piper_voices": [
+    "en_US-lessac-medium",
+    "en_US-amy-medium",
+    "en_US-ryan-medium",
+    "en_GB-alan-medium",
+    "en_GB-alba-medium",
+    "vi_VN-vivos-x_low",
+    "id_ID-news_tts-medium"
+  ],
+  "text_banks": {
+    "sentences": 40,
+    "confusables": 30,
+    "prefixes": 8,
+    "suffixes": 8
+  },
+  "n_streams": {
+    "A_phase1_holdout": 120,
+    "B_composed": 60
+  },
+  "hours": {
+    "A_phase1_holdout": 1.0,
+    "B_composed": 1.0
+  },
+  "events": {
+    "A": {
+      "confusable": 0,
+      "partial_head": 0,
+      "partial_tail": 0,
+      "speech_snippet": 0,
+      "wakeword": 128,
+      "wakeword_embedded": 0
+    },
+    "B": {
+      "confusable": 176,
+      "partial_head": 60,
+      "partial_tail": 67,
+      "speech_snippet": 43,
+      "wakeword": 58,
+      "wakeword_embedded": 23
+    }
+  },
+  "near_duplicate_xcorr_max": 0.592,
+  "near_duplicate_xcorr_median": 0.3107,
+  "build_seconds": 325.6,
+  "note": "Piper synthesis is stochastic; this set is frozen by the sha256 values in streams.csv."
+}

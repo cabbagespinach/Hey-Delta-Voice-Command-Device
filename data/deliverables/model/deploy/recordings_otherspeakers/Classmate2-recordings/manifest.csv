@@ -1,0 +1,73 @@
+speaker_id,prompt_id,label,type,text,slot_value,take,filename,recorded_at,whisper_transcript,wer,status
+classmate2,PAUSE_V1,PAUSE,fixed,Pause,,1,PAUSE_V1_t1.wav,2026-09-24T10:19:03+00:00,pause,0.000,approved
+classmate2,PAUSE_V1,PAUSE,fixed,Pause,,2,PAUSE_V1_t2.wav,2026-09-24T10:19:11+00:00,Pause.,0.000,approved
+classmate2,PAUSE_V1,PAUSE,fixed,Pause,,3,PAUSE_V1_t3.wav,2026-09-24T10:19:18+00:00,Pause.,0.000,approved
+classmate2,PAUSE_V2,PAUSE,fixed,Pause the music,,1,PAUSE_V2_t1.wav,2026-09-24T10:19:26+00:00,Pause the music.,0.000,approved
+classmate2,PAUSE_V2,PAUSE,fixed,Pause the music,,2,PAUSE_V2_t2.wav,2026-09-24T10:19:33+00:00,Pause the music.,0.000,approved
+classmate2,PAUSE_V2,PAUSE,fixed,Pause the music,,3,PAUSE_V2_t3.wav,2026-09-24T10:19:48+00:00,Pause the music.,0.000,approved
+classmate2,PAUSE_V3,PAUSE,fixed,Pause this song,,1,PAUSE_V3_t1.wav,2026-09-24T10:19:55+00:00,Pause this song.,0.000,approved
+classmate2,PAUSE_V3,PAUSE,fixed,Pause this song,,2,PAUSE_V3_t2.wav,2026-09-24T10:20:10+00:00,Pause this song.,0.000,approved
+classmate2,PAUSE_V3,PAUSE,fixed,Pause this song,,3,PAUSE_V3_t3.wav,2026-09-24T10:20:34+00:00,Boss this song.,0.333,approved
+classmate2,STOP_V1,STOP,fixed,Stop song,,1,STOP_V1_t1.wav,2026-09-24T10:20:44+00:00,Stop song.,0.000,approved
+classmate2,STOP_V1,STOP,fixed,Stop song,,2,STOP_V1_t2.wav,2026-09-24T10:20:51+00:00,Stop song.,0.000,approved
+classmate2,STOP_V1,STOP,fixed,Stop song,,3,STOP_V1_t3.wav,2026-09-24T10:20:58+00:00,Stop song.,0.000,approved
+classmate2,STOP_V2,STOP,fixed,Stop music,,1,STOP_V2_t1.wav,2026-09-24T10:21:05+00:00,Stop music.,0.000,approved
+classmate2,STOP_V2,STOP,fixed,Stop music,,2,STOP_V2_t2.wav,2026-09-24T10:21:12+00:00,Stop music.,0.000,approved
+classmate2,STOP_V2,STOP,fixed,Stop music,,3,STOP_V2_t3.wav,2026-09-24T10:21:19+00:00,Stop music.,0.000,approved
+classmate2,STOP_V3,STOP,fixed,Stop playing music,,1,STOP_V3_t1.wav,2026-09-24T10:21:25+00:00,Stop playing music.,0.000,approved
+classmate2,STOP_V3,STOP,fixed,Stop playing music,,2,STOP_V3_t2.wav,2026-09-24T10:21:32+00:00,Stop playing music.,0.000,approved
+classmate2,STOP_V3,STOP,fixed,Stop playing music,,3,STOP_V3_t3.wav,2026-09-24T10:21:39+00:00,Stop playing music.,0.000,approved
+classmate2,NEXT_V1,NEXT,fixed,Skip song,,1,NEXT_V1_t1.wav,2026-09-24T10:21:46+00:00,Skip Song,0.000,approved
+classmate2,NEXT_V1,NEXT,fixed,Skip song,,2,NEXT_V1_t2.wav,2026-09-24T10:22:03+00:00,Skip Song.,0.000,approved
+classmate2,NEXT_V1,NEXT,fixed,Skip song,,3,NEXT_V1_t3.wav,2026-09-24T10:22:10+00:00,Skip Song,0.000,approved
+classmate2,NEXT_V2,NEXT,fixed,Next song,,1,NEXT_V2_t1.wav,2026-09-24T10:22:18+00:00,Next song.,0.000,approved
+classmate2,NEXT_V2,NEXT,fixed,Next song,,2,NEXT_V2_t2.wav,2026-09-24T10:22:27+00:00,Next song.,0.000,approved
+classmate2,NEXT_V2,NEXT,fixed,Next song,,3,NEXT_V2_t3.wav,2026-09-24T10:22:34+00:00,Next song.,0.000,approved
+classmate2,NEXT_V3,NEXT,fixed,Play next song,,1,NEXT_V3_t1.wav,2026-09-24T10:22:41+00:00,Play next song.,0.000,approved
+classmate2,NEXT_V3,NEXT,fixed,Play next song,,2,NEXT_V3_t2.wav,2026-09-24T10:22:49+00:00,Play next song.,0.000,approved
+classmate2,NEXT_V3,NEXT,fixed,Play next song,,3,NEXT_V3_t3.wav,2026-09-24T10:24:03+00:00,Play next song.,0.000,approved
+classmate2,VOLUME_DOWN_V1,VOLUME_DOWN,fixed,Volume down,,1,VOLUME_DOWN_V1_t1.wav,2026-09-24T10:24:13+00:00,Volume Down.,0.000,approved
+classmate2,VOLUME_DOWN_V1,VOLUME_DOWN,fixed,Volume down,,2,VOLUME_DOWN_V1_t2.wav,2026-09-24T10:24:20+00:00,Volume Down,0.000,approved
+classmate2,VOLUME_DOWN_V1,VOLUME_DOWN,fixed,Volume down,,3,VOLUME_DOWN_V1_t3.wav,2026-09-24T10:24:27+00:00,Volume Down,0.000,approved
+classmate2,VOLUME_DOWN_V2,VOLUME_DOWN,fixed,Lower the volume,,1,VOLUME_DOWN_V2_t1.wav,2026-09-24T10:24:35+00:00,Lower the volume.,0.000,approved
+classmate2,VOLUME_DOWN_V2,VOLUME_DOWN,fixed,Lower the volume,,2,VOLUME_DOWN_V2_t2.wav,2026-09-24T10:24:42+00:00,Lower the volume.,0.000,approved
+classmate2,VOLUME_DOWN_V2,VOLUME_DOWN,fixed,Lower the volume,,3,VOLUME_DOWN_V2_t3.wav,2026-09-24T10:24:49+00:00,Lower the volume.,0.000,approved
+classmate2,VOLUME_DOWN_V3,VOLUME_DOWN,fixed,Turn the volume down,,1,VOLUME_DOWN_V3_t1.wav,2026-09-24T10:24:56+00:00,Surrender volume down.,0.500,approved
+classmate2,VOLUME_DOWN_V3,VOLUME_DOWN,fixed,Turn the volume down,,2,VOLUME_DOWN_V3_t2.wav,2026-09-24T10:25:07+00:00,Turn the volume down.,0.000,approved
+classmate2,VOLUME_DOWN_V3,VOLUME_DOWN,fixed,Turn the volume down,,3,VOLUME_DOWN_V3_t3.wav,2026-09-24T10:25:13+00:00,Turn the volume down.,0.000,approved
+classmate2,CALL_V1,CALL,fixed,Call,,1,CALL_V1_t1.wav,2026-09-24T10:25:20+00:00,Call,0.000,approved
+classmate2,CALL_V1,CALL,fixed,Call,,2,CALL_V1_t2.wav,2026-09-24T10:25:53+00:00,Call.,0.000,approved
+classmate2,CALL_V1,CALL,fixed,Call,,3,CALL_V1_t3.wav,2026-09-24T10:26:02+00:00,Call,0.000,approved
+classmate2,CALL_V2,CALL,fixed,Make a call,,1,CALL_V2_t1.wav,2026-09-24T10:26:09+00:00,Make a call.,0.000,approved
+classmate2,CALL_V2,CALL,fixed,Make a call,,2,CALL_V2_t2.wav,2026-09-24T10:26:16+00:00,Make a call,0.000,approved
+classmate2,CALL_V2,CALL,fixed,Make a call,,3,CALL_V2_t3.wav,2026-09-24T10:26:24+00:00,Make a call.,0.000,approved
+classmate2,CALL_V3,CALL,fixed,Make a phone call,,1,CALL_V3_t1.wav,2026-09-24T10:26:32+00:00,Make a phone call.,0.000,approved
+classmate2,CALL_V3,CALL,fixed,Make a phone call,,2,CALL_V3_t2.wav,2026-09-24T10:26:48+00:00,Make a phone call.,0.000,approved
+classmate2,CALL_V3,CALL,fixed,Make a phone call,,3,CALL_V3_t3.wav,2026-09-24T10:27:06+00:00,Make a phone call.,0.000,approved
+classmate2,COLOR_V1_1,COLOR,slotted,Color Red,Red,1,COLOR_V1_1_t1.wav,2026-09-24T10:27:24+00:00,Call a red.,1.000,approved
+classmate2,COLOR_V1_1,COLOR,slotted,Color Red,Red,2,COLOR_V1_1_t2.wav,2026-09-24T10:27:39+00:00,Collarid,1.000,approved
+classmate2,COLOR_V1_1,COLOR,slotted,Color Red,Red,3,COLOR_V1_1_t3.wav,2026-09-24T10:27:46+00:00,Collar red.,0.500,approved
+classmate2,COLOR_V1_2,COLOR,slotted,Color Blue,Blue,1,COLOR_V1_2_t1.wav,2026-09-24T10:27:53+00:00,Color blue.,0.000,approved
+classmate2,COLOR_V1_2,COLOR,slotted,Color Blue,Blue,2,COLOR_V1_2_t2.wav,2026-09-24T10:28:01+00:00,color blue,0.000,approved
+classmate2,COLOR_V1_2,COLOR,slotted,Color Blue,Blue,3,COLOR_V1_2_t3.wav,2026-09-24T10:28:08+00:00,Color blue.,0.000,approved
+classmate2,COLOR_V1_3,COLOR,slotted,Color Green,Green,1,COLOR_V1_3_t1.wav,2026-09-24T10:28:14+00:00,Color Green.,0.000,approved
+classmate2,COLOR_V1_3,COLOR,slotted,Color Green,Green,2,COLOR_V1_3_t2.wav,2026-09-24T10:28:21+00:00,Color green.,0.000,approved
+classmate2,COLOR_V1_3,COLOR,slotted,Color Green,Green,3,COLOR_V1_3_t3.wav,2026-09-24T10:28:28+00:00,Color Green.,0.000,approved
+classmate2,COLOR_V2_1,COLOR,slotted,Change the lights to Red,Red,1,COLOR_V2_1_t1.wav,2026-09-24T10:28:34+00:00,Change the lights to red.,0.000,approved
+classmate2,COLOR_V2_1,COLOR,slotted,Change the lights to Red,Red,2,COLOR_V2_1_t2.wav,2026-09-24T10:28:41+00:00,Change the lights to red.,0.000,approved
+classmate2,COLOR_V2_1,COLOR,slotted,Change the lights to Red,Red,3,COLOR_V2_1_t3.wav,2026-09-24T10:28:47+00:00,Change delights the red.,0.600,approved
+classmate2,COLOR_V2_2,COLOR,slotted,Change the lights to Blue,Blue,1,COLOR_V2_2_t1.wav,2026-09-24T10:28:53+00:00,Change the lights to blue.,0.000,approved
+classmate2,COLOR_V2_2,COLOR,slotted,Change the lights to Blue,Blue,2,COLOR_V2_2_t2.wav,2026-09-24T10:29:00+00:00,Change the lights to blue.,0.000,approved
+classmate2,COLOR_V2_2,COLOR,slotted,Change the lights to Blue,Blue,3,COLOR_V2_2_t3.wav,2026-09-24T10:29:06+00:00,Change the lights to blue.,0.000,approved
+classmate2,COLOR_V2_3,COLOR,slotted,Change the lights to Green,Green,1,COLOR_V2_3_t1.wav,2026-09-24T10:29:12+00:00,Change the lights to green.,0.000,approved
+classmate2,COLOR_V2_3,COLOR,slotted,Change the lights to Green,Green,2,COLOR_V2_3_t2.wav,2026-09-24T10:29:19+00:00,Change the lights to green.,0.000,approved
+classmate2,COLOR_V2_3,COLOR,slotted,Change the lights to Green,Green,3,COLOR_V2_3_t3.wav,2026-09-24T10:29:26+00:00,Change the lights to green.,0.000,approved
+classmate2,COLOR_V3_1,COLOR,slotted,Set the lights to Red,Red,1,COLOR_V3_1_t1.wav,2026-09-24T10:29:41+00:00,Set the lights to red.,0.000,approved
+classmate2,COLOR_V3_1,COLOR,slotted,Set the lights to Red,Red,2,COLOR_V3_1_t2.wav,2026-09-24T10:29:50+00:00,Set the lights to red.,0.000,approved
+classmate2,COLOR_V3_1,COLOR,slotted,Set the lights to Red,Red,3,COLOR_V3_1_t3.wav,2026-09-24T10:29:57+00:00,Set the lights to red.,0.000,approved
+classmate2,COLOR_V3_2,COLOR,slotted,Set the lights to Blue,Blue,1,COLOR_V3_2_t1.wav,2026-09-24T10:30:04+00:00,Set the lights to blue.,0.000,approved
+classmate2,COLOR_V3_2,COLOR,slotted,Set the lights to Blue,Blue,2,COLOR_V3_2_t2.wav,2026-09-24T10:30:12+00:00,Set the lights to blue.,0.000,approved
+classmate2,COLOR_V3_2,COLOR,slotted,Set the lights to Blue,Blue,3,COLOR_V3_2_t3.wav,2026-09-24T10:30:19+00:00,Set the lights to blue.,0.000,approved
+classmate2,COLOR_V3_3,COLOR,slotted,Set the lights to Green,Green,1,COLOR_V3_3_t1.wav,2026-09-24T10:30:25+00:00,Set the lights to green.,0.000,approved
+classmate2,COLOR_V3_3,COLOR,slotted,Set the lights to Green,Green,2,COLOR_V3_3_t2.wav,2026-09-24T10:30:31+00:00,Set the lights to green.,0.000,approved
+classmate2,COLOR_V3_3,COLOR,slotted,Set the lights to Green,Green,3,COLOR_V3_3_t3.wav,2026-09-24T10:30:38+00:00,Set the lights to green.,0.000,approved

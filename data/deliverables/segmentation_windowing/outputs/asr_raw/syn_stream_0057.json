@@ -1,0 +1,322 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0057.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:28:19+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8640628457069397,
+ "chunks": [
+  {
+   "chunk_start": 1.012,
+   "chunk_end": 4.204,
+   "text": "The store closes earlier on weekends.",
+   "words": [
+    {
+     "word": "The",
+     "start": 1.012,
+     "end": 1.292,
+     "probability": 0.7046
+    },
+    {
+     "word": "store",
+     "start": 1.292,
+     "end": 1.612,
+     "probability": 0.9663
+    },
+    {
+     "word": "closes",
+     "start": 1.612,
+     "end": 1.992,
+     "probability": 0.9868
+    },
+    {
+     "word": "earlier",
+     "start": 1.992,
+     "end": 2.492,
+     "probability": 0.9277
+    },
+    {
+     "word": "on",
+     "start": 2.492,
+     "end": 2.892,
+     "probability": 0.9902
+    },
+    {
+     "word": "weekends.",
+     "start": 2.892,
+     "end": 3.352,
+     "probability": 0.9849
+    }
+   ]
+  },
+  {
+   "chunk_start": 7.604,
+   "chunk_end": 10.028,
+   "text": "We can take the train after lunch.",
+   "words": [
+    {
+     "word": "We",
+     "start": 7.604,
+     "end": 7.924,
+     "probability": 0.7998
+    },
+    {
+     "word": "can",
+     "start": 7.924,
+     "end": 8.064,
+     "probability": 0.9951
+    },
+    {
+     "word": "take",
+     "start": 8.064,
+     "end": 8.284,
+     "probability": 0.9956
+    },
+    {
+     "word": "the",
+     "start": 8.284,
+     "end": 8.424,
+     "probability": 0.9868
+    },
+    {
+     "word": "train",
+     "start": 8.424,
+     "end": 8.704,
+     "probability": 0.9912
+    },
+    {
+     "word": "after",
+     "start": 8.704,
+     "end": 9.024,
+     "probability": 0.9907
+    },
+    {
+     "word": "lunch.",
+     "start": 9.024,
+     "end": 9.364,
+     "probability": 0.9985
+    }
+   ]
+  },
+  {
+   "chunk_start": 12.052,
+   "chunk_end": 13.324,
+   "text": "Hey Delta!",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 12.052,
+     "end": 12.392,
+     "probability": 0.8301
+    },
+    {
+     "word": "Delta!",
+     "start": 12.392,
+     "end": 12.692,
+     "probability": 0.856
+    }
+   ]
+  },
+  {
+   "chunk_start": 13.364,
+   "chunk_end": 16.108,
+   "text": "The next episode starts after the commercial.",
+   "words": [
+    {
+     "word": "The",
+     "start": 13.364,
+     "end": 13.744,
+     "probability": 0.4409
+    },
+    {
+     "word": "next",
+     "start": 13.744,
+     "end": 13.904,
+     "probability": 0.9839
+    },
+    {
+     "word": "episode",
+     "start": 13.904,
+     "end": 14.184,
+     "probability": 0.9946
+    },
+    {
+     "word": "starts",
+     "start": 14.184,
+     "end": 14.604,
+     "probability": 0.9971
+    },
+    {
+     "word": "after",
+     "start": 14.604,
+     "end": 15.024,
+     "probability": 0.9961
+    },
+    {
+     "word": "the",
+     "start": 15.024,
+     "end": 15.224,
+     "probability": 0.9976
+    },
+    {
+     "word": "commercial.",
+     "start": 15.224,
+     "end": 15.464,
+     "probability": 0.999
+    }
+   ]
+  },
+  {
+   "chunk_start": 16.404,
+   "chunk_end": 21.216,
+   "text": "The battery should last for another hour.",
+   "words": [
+    {
+     "word": "The",
+     "start": 18.724,
+     "end": 19.284,
+     "probability": 0.6006
+    },
+    {
+     "word": "battery",
+     "start": 19.284,
+     "end": 19.504,
+     "probability": 0.96
+    },
+    {
+     "word": "should",
+     "start": 19.504,
+     "end": 19.824,
+     "probability": 0.9907
+    },
+    {
+     "word": "last",
+     "start": 19.824,
+     "end": 20.144,
+     "probability": 0.9985
+    },
+    {
+     "word": "for",
+     "start": 20.144,
+     "end": 20.284,
+     "probability": 0.9873
+    },
+    {
+     "word": "another",
+     "start": 20.284,
+     "end": 20.524,
+     "probability": 0.9922
+    },
+    {
+     "word": "hour.",
+     "start": 20.524,
+     "end": 20.904,
+     "probability": 0.9951
+    }
+   ]
+  },
+  {
+   "chunk_start": 21.216,
+   "chunk_end": 23.948,
+   "text": "The weather is changing again this afternoon.",
+   "words": [
+    {
+     "word": "The",
+     "start": 21.216,
+     "end": 21.476,
+     "probability": 0.8774
+    },
+    {
+     "word": "weather",
+     "start": 21.476,
+     "end": 21.676,
+     "probability": 0.9985
+    },
+    {
+     "word": "is",
+     "start": 21.676,
+     "end": 21.856,
+     "probability": 0.9966
+    },
+    {
+     "word": "changing",
+     "start": 21.856,
+     "end": 22.196,
+     "probability": 0.9985
+    },
+    {
+     "word": "again",
+     "start": 22.196,
+     "end": 22.536,
+     "probability": 0.9976
+    },
+    {
+     "word": "this",
+     "start": 22.536,
+     "end": 22.796,
+     "probability": 0.9966
+    },
+    {
+     "word": "afternoon.",
+     "start": 22.796,
+     "end": 23.196,
+     "probability": 0.9976
+    }
+   ]
+  },
+  {
+   "chunk_start": 24.116,
+   "chunk_end": 27.5,
+   "text": "That sounds like a reasonable idea to me.",
+   "words": [
+    {
+     "word": "That",
+     "start": 24.116,
+     "end": 24.496,
+     "probability": 0.3801
+    },
+    {
+     "word": "sounds",
+     "start": 24.496,
+     "end": 24.776,
+     "probability": 0.9209
+    },
+    {
+     "word": "like",
+     "start": 24.776,
+     "end": 25.076,
+     "probability": 0.9902
+    },
+    {
+     "word": "a",
+     "start": 25.076,
+     "end": 25.256,
+     "probability": 0.9946
+    },
+    {
+     "word": "reasonable",
+     "start": 25.256,
+     "end": 25.716,
+     "probability": 0.8975
+    },
+    {
+     "word": "idea",
+     "start": 25.716,
+     "end": 26.396,
+     "probability": 0.9829
+    },
+    {
+     "word": "to",
+     "start": 26.396,
+     "end": 26.616,
+     "probability": 0.6025
+    },
+    {
+     "word": "me.",
+     "start": 26.616,
+     "end": 26.896,
+     "probability": 0.9927
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+downloaded data/holdout-00000-of-00001.parquet (15 MB)
+downloaded data/test-00000-of-00001.parquet (284 MB)
+downloaded data/train-00000-of-00002.parquet (315 MB)
+downloaded data/train-00001-of-00002.parquet (397 MB)
+downloaded README.md (0 MB)
+downloaded variations.csv (0 MB)
+holdout-00000-of-00001.parquet: 196 clips so far in holdout
+test-00000-of-00001.parquet: 4418 clips so far in test
+train-00000-of-00002.parquet: 5341 clips so far in train
+train-00001-of-00002.parquet: 10682 clips so far in train
+split
+train      10682
+test        4418
+holdout      196
+15296 clips -> /mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/commands_hf/manifest.csv (0 converted, the rest written as-is)

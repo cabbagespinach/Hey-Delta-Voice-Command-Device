@@ -1,0 +1,229 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0104.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:29:32+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8921724557876587,
+ "chunks": [
+  {
+   "chunk_start": 10.036,
+   "chunk_end": 12.588,
+   "text": "I think the blue one is slightly cheaper.",
+   "words": [
+    {
+     "word": "I",
+     "start": 10.036,
+     "end": 10.336,
+     "probability": 0.958
+    },
+    {
+     "word": "think",
+     "start": 10.336,
+     "end": 10.556,
+     "probability": 0.999
+    },
+    {
+     "word": "the",
+     "start": 10.556,
+     "end": 10.636,
+     "probability": 0.9956
+    },
+    {
+     "word": "blue",
+     "start": 10.636,
+     "end": 10.856,
+     "probability": 0.9844
+    },
+    {
+     "word": "one",
+     "start": 10.856,
+     "end": 11.036,
+     "probability": 0.9951
+    },
+    {
+     "word": "is",
+     "start": 11.036,
+     "end": 11.216,
+     "probability": 0.9995
+    },
+    {
+     "word": "slightly",
+     "start": 11.216,
+     "end": 11.516,
+     "probability": 0.998
+    },
+    {
+     "word": "cheaper.",
+     "start": 11.516,
+     "end": 11.976,
+     "probability": 0.9995
+    }
+   ]
+  },
+  {
+   "chunk_start": 12.852,
+   "chunk_end": 17.964,
+   "text": "He doubted. That sounds like a reasonable idea to me.",
+   "words": [
+    {
+     "word": "He",
+     "start": 12.852,
+     "end": 13.212,
+     "probability": 0.6953
+    },
+    {
+     "word": "doubted.",
+     "start": 13.212,
+     "end": 13.652,
+     "probability": 0.8164
+    },
+    {
+     "word": "That",
+     "start": 14.132,
+     "end": 14.192,
+     "probability": 0.7354
+    },
+    {
+     "word": "sounds",
+     "start": 14.192,
+     "end": 14.452,
+     "probability": 0.9839
+    },
+    {
+     "word": "like",
+     "start": 14.452,
+     "end": 14.592,
+     "probability": 0.9585
+    },
+    {
+     "word": "a",
+     "start": 14.592,
+     "end": 14.712,
+     "probability": 0.9932
+    },
+    {
+     "word": "reasonable",
+     "start": 14.712,
+     "end": 15.032,
+     "probability": 0.874
+    },
+    {
+     "word": "idea",
+     "start": 15.032,
+     "end": 15.452,
+     "probability": 0.9966
+    },
+    {
+     "word": "to",
+     "start": 15.452,
+     "end": 15.532,
+     "probability": 0.6411
+    },
+    {
+     "word": "me.",
+     "start": 15.532,
+     "end": 15.812,
+     "probability": 0.8574
+    }
+   ]
+  },
+  {
+   "chunk_start": 18.42,
+   "chunk_end": 21.74,
+   "text": "This machine makes a sound like this.",
+   "words": [
+    {
+     "word": "This",
+     "start": 18.42,
+     "end": 18.72,
+     "probability": 0.0629
+    },
+    {
+     "word": "machine",
+     "start": 18.72,
+     "end": 19.18,
+     "probability": 0.5845
+    },
+    {
+     "word": "makes",
+     "start": 19.18,
+     "end": 19.44,
+     "probability": 0.1571
+    },
+    {
+     "word": "a",
+     "start": 19.44,
+     "end": 19.72,
+     "probability": 0.1281
+    },
+    {
+     "word": "sound",
+     "start": 19.72,
+     "end": 20.16,
+     "probability": 0.2249
+    },
+    {
+     "word": "like",
+     "start": 20.16,
+     "end": 20.66,
+     "probability": 0.2198
+    },
+    {
+     "word": "this.",
+     "start": 20.66,
+     "end": 21.02,
+     "probability": 0.6968
+    }
+   ]
+  },
+  {
+   "chunk_start": 21.876,
+   "chunk_end": 24.78,
+   "text": "Let us compare the two options carefully.",
+   "words": [
+    {
+     "word": "Let",
+     "start": 21.876,
+     "end": 22.276,
+     "probability": 0.915
+    },
+    {
+     "word": "us",
+     "start": 22.276,
+     "end": 22.436,
+     "probability": 0.9692
+    },
+    {
+     "word": "compare",
+     "start": 22.436,
+     "end": 22.756,
+     "probability": 0.9941
+    },
+    {
+     "word": "the",
+     "start": 22.756,
+     "end": 22.996,
+     "probability": 0.9941
+    },
+    {
+     "word": "two",
+     "start": 22.996,
+     "end": 23.156,
+     "probability": 0.9604
+    },
+    {
+     "word": "options",
+     "start": 23.156,
+     "end": 23.596,
+     "probability": 0.9966
+    },
+    {
+     "word": "carefully.",
+     "start": 23.596,
+     "end": 24.036,
+     "probability": 0.9941
+    }
+   ]
+  }
+ ]
+}

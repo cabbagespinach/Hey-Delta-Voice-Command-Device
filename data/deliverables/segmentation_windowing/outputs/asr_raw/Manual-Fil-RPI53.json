@@ -1,0 +1,28 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/positives/Manual-Fil-RPI53.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:26:36+00:00",
+ "duration_sec": 1.856,
+ "input_peak": 0.02710699290037155,
+ "chunks": [
+  {
+   "chunk_start": 0.0,
+   "chunk_end": 1.856,
+   "text": "Thank you.",
+   "words": [
+    {
+     "word": "Thank",
+     "start": 0.46,
+     "end": 0.86,
+     "probability": 0.0675
+    },
+    {
+     "word": "you.",
+     "start": 0.86,
+     "end": 1.06,
+     "probability": 0.9912
+    }
+   ]
+  }
+ ]
+}

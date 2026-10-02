@@ -1,0 +1,28 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/positives/fil-PH-AngeloNeural_spd0.85_pit0.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:26:47+00:00",
+ "duration_sec": 1.968,
+ "input_peak": 0.5241650342941284,
+ "chunks": [
+  {
+   "chunk_start": 0.0,
+   "chunk_end": 1.968,
+   "text": "Hey Delta!",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 0.0,
+     "end": 0.32,
+     "probability": 0.5962
+    },
+    {
+     "word": "Delta!",
+     "start": 0.32,
+     "end": 0.64,
+     "probability": 0.9102
+    }
+   ]
+  }
+ ]
+}

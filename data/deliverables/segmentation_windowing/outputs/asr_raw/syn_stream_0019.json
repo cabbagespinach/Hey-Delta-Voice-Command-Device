@@ -1,0 +1,229 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0019.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:27:19+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.9000365138053894,
+ "chunks": [
+  {
+   "chunk_start": 0.66,
+   "chunk_end": 2.764,
+   "text": "I will call you when I get back home.",
+   "words": [
+    {
+     "word": "I",
+     "start": 0.66,
+     "end": 0.94,
+     "probability": 0.9072
+    },
+    {
+     "word": "will",
+     "start": 0.94,
+     "end": 1.04,
+     "probability": 0.9761
+    },
+    {
+     "word": "call",
+     "start": 1.04,
+     "end": 1.24,
+     "probability": 0.999
+    },
+    {
+     "word": "you",
+     "start": 1.24,
+     "end": 1.38,
+     "probability": 0.9937
+    },
+    {
+     "word": "when",
+     "start": 1.38,
+     "end": 1.5,
+     "probability": 0.9946
+    },
+    {
+     "word": "I",
+     "start": 1.5,
+     "end": 1.54,
+     "probability": 0.9858
+    },
+    {
+     "word": "get",
+     "start": 1.54,
+     "end": 1.74,
+     "probability": 0.9985
+    },
+    {
+     "word": "back",
+     "start": 1.74,
+     "end": 1.88,
+     "probability": 0.9971
+    },
+    {
+     "word": "home.",
+     "start": 1.88,
+     "end": 2.18,
+     "probability": 0.9985
+    }
+   ]
+  },
+  {
+   "chunk_start": 3.764,
+   "chunk_end": 7.024,
+   "text": "He was looking for a quick budget award.",
+   "words": [
+    {
+     "word": "He",
+     "start": 3.764,
+     "end": 4.104,
+     "probability": 0.6812
+    },
+    {
+     "word": "was",
+     "start": 4.104,
+     "end": 4.344,
+     "probability": 0.9941
+    },
+    {
+     "word": "looking",
+     "start": 4.344,
+     "end": 4.704,
+     "probability": 0.9609
+    },
+    {
+     "word": "for",
+     "start": 4.704,
+     "end": 5.164,
+     "probability": 0.9966
+    },
+    {
+     "word": "a",
+     "start": 5.164,
+     "end": 5.364,
+     "probability": 0.8423
+    },
+    {
+     "word": "quick",
+     "start": 5.364,
+     "end": 5.624,
+     "probability": 0.2573
+    },
+    {
+     "word": "budget",
+     "start": 5.624,
+     "end": 6.004,
+     "probability": 0.5488
+    },
+    {
+     "word": "award.",
+     "start": 6.004,
+     "end": 6.384,
+     "probability": 0.8989
+    }
+   ]
+  },
+  {
+   "chunk_start": 7.024,
+   "chunk_end": 10.188,
+   "text": "The battery should last for another hour.",
+   "words": [
+    {
+     "word": "The",
+     "start": 7.024,
+     "end": 7.304,
+     "probability": 0.812
+    },
+    {
+     "word": "battery",
+     "start": 7.304,
+     "end": 7.724,
+     "probability": 0.9868
+    },
+    {
+     "word": "should",
+     "start": 7.724,
+     "end": 8.044,
+     "probability": 0.9985
+    },
+    {
+     "word": "last",
+     "start": 8.044,
+     "end": 8.384,
+     "probability": 0.999
+    },
+    {
+     "word": "for",
+     "start": 8.384,
+     "end": 8.724,
+     "probability": 0.998
+    },
+    {
+     "word": "another",
+     "start": 8.724,
+     "end": 9.024,
+     "probability": 0.9966
+    },
+    {
+     "word": "hour.",
+     "start": 9.024,
+     "end": 9.544,
+     "probability": 0.9971
+    }
+   ]
+  },
+  {
+   "chunk_start": 25.748,
+   "chunk_end": 29.9,
+   "text": "We ordered dinner and waited near the entrance.",
+   "words": [
+    {
+     "word": "We",
+     "start": 25.748,
+     "end": 26.388,
+     "probability": 0.752
+    },
+    {
+     "word": "ordered",
+     "start": 26.388,
+     "end": 26.948,
+     "probability": 0.9907
+    },
+    {
+     "word": "dinner",
+     "start": 26.948,
+     "end": 27.428,
+     "probability": 0.9922
+    },
+    {
+     "word": "and",
+     "start": 27.428,
+     "end": 27.748,
+     "probability": 0.978
+    },
+    {
+     "word": "waited",
+     "start": 27.748,
+     "end": 28.128,
+     "probability": 0.9976
+    },
+    {
+     "word": "near",
+     "start": 28.128,
+     "end": 28.448,
+     "probability": 0.9937
+    },
+    {
+     "word": "the",
+     "start": 28.448,
+     "end": 28.688,
+     "probability": 0.9961
+    },
+    {
+     "word": "entrance.",
+     "start": 28.688,
+     "end": 29.048,
+     "probability": 0.9956
+    }
+   ]
+  }
+ ]
+}

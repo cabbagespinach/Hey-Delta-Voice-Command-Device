@@ -1,0 +1,271 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0061.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:28:25+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.9008680582046509,
+ "chunks": [
+  {
+   "chunk_start": 3.636,
+   "chunk_end": 9.452,
+   "text": "I will call you when I get back home. There is enough time to finish this today.",
+   "words": [
+    {
+     "word": "I",
+     "start": 3.636,
+     "end": 3.956,
+     "probability": 0.8408
+    },
+    {
+     "word": "will",
+     "start": 3.956,
+     "end": 4.056,
+     "probability": 0.854
+    },
+    {
+     "word": "call",
+     "start": 4.056,
+     "end": 4.296,
+     "probability": 0.9976
+    },
+    {
+     "word": "you",
+     "start": 4.296,
+     "end": 4.456,
+     "probability": 0.9932
+    },
+    {
+     "word": "when",
+     "start": 4.456,
+     "end": 4.576,
+     "probability": 0.9746
+    },
+    {
+     "word": "I",
+     "start": 4.576,
+     "end": 4.676,
+     "probability": 0.9351
+    },
+    {
+     "word": "get",
+     "start": 4.676,
+     "end": 4.796,
+     "probability": 0.9893
+    },
+    {
+     "word": "back",
+     "start": 4.796,
+     "end": 4.996,
+     "probability": 0.9971
+    },
+    {
+     "word": "home.",
+     "start": 4.996,
+     "end": 5.316,
+     "probability": 0.998
+    },
+    {
+     "word": "There",
+     "start": 6.276,
+     "end": 6.676,
+     "probability": 0.7568
+    },
+    {
+     "word": "is",
+     "start": 6.676,
+     "end": 6.936,
+     "probability": 0.9878
+    },
+    {
+     "word": "enough",
+     "start": 6.936,
+     "end": 7.116,
+     "probability": 0.9932
+    },
+    {
+     "word": "time",
+     "start": 7.116,
+     "end": 7.596,
+     "probability": 0.998
+    },
+    {
+     "word": "to",
+     "start": 7.596,
+     "end": 7.816,
+     "probability": 0.9971
+    },
+    {
+     "word": "finish",
+     "start": 7.816,
+     "end": 8.256,
+     "probability": 0.998
+    },
+    {
+     "word": "this",
+     "start": 8.256,
+     "end": 8.416,
+     "probability": 0.9907
+    },
+    {
+     "word": "today.",
+     "start": 8.416,
+     "end": 8.676,
+     "probability": 0.9907
+    }
+   ]
+  },
+  {
+   "chunk_start": 10.964,
+   "chunk_end": 13.868,
+   "text": "The machine makes a strange sound sometimes.",
+   "words": [
+    {
+     "word": "The",
+     "start": 10.964,
+     "end": 11.304,
+     "probability": 0.8608
+    },
+    {
+     "word": "machine",
+     "start": 11.304,
+     "end": 11.544,
+     "probability": 0.9727
+    },
+    {
+     "word": "makes",
+     "start": 11.544,
+     "end": 11.844,
+     "probability": 0.9956
+    },
+    {
+     "word": "a",
+     "start": 11.844,
+     "end": 11.984,
+     "probability": 0.9756
+    },
+    {
+     "word": "strange",
+     "start": 11.984,
+     "end": 12.244,
+     "probability": 0.9985
+    },
+    {
+     "word": "sound",
+     "start": 12.244,
+     "end": 12.624,
+     "probability": 0.9907
+    },
+    {
+     "word": "sometimes.",
+     "start": 12.624,
+     "end": 13.004,
+     "probability": 0.9922
+    }
+   ]
+  },
+  {
+   "chunk_start": 20.884,
+   "chunk_end": 25.696,
+   "text": "We ordered dinner and waited near the entrance.",
+   "words": [
+    {
+     "word": "We",
+     "start": 21.824,
+     "end": 22.504,
+     "probability": 0.4646
+    },
+    {
+     "word": "ordered",
+     "start": 22.504,
+     "end": 22.884,
+     "probability": 0.9902
+    },
+    {
+     "word": "dinner",
+     "start": 22.884,
+     "end": 23.244,
+     "probability": 0.9893
+    },
+    {
+     "word": "and",
+     "start": 23.244,
+     "end": 23.524,
+     "probability": 0.9873
+    },
+    {
+     "word": "waited",
+     "start": 23.524,
+     "end": 23.884,
+     "probability": 0.9966
+    },
+    {
+     "word": "near",
+     "start": 23.884,
+     "end": 24.224,
+     "probability": 0.9961
+    },
+    {
+     "word": "the",
+     "start": 24.224,
+     "end": 24.504,
+     "probability": 0.998
+    },
+    {
+     "word": "entrance.",
+     "start": 24.504,
+     "end": 24.744,
+     "probability": 0.9922
+    }
+   ]
+  },
+  {
+   "chunk_start": 25.696,
+   "chunk_end": 28.524,
+   "text": "We can take the train after lunch.",
+   "words": [
+    {
+     "word": "We",
+     "start": 25.696,
+     "end": 25.976,
+     "probability": 0.5537
+    },
+    {
+     "word": "can",
+     "start": 25.976,
+     "end": 26.176,
+     "probability": 0.9907
+    },
+    {
+     "word": "take",
+     "start": 26.176,
+     "end": 26.456,
+     "probability": 0.9946
+    },
+    {
+     "word": "the",
+     "start": 26.456,
+     "end": 26.656,
+     "probability": 0.9922
+    },
+    {
+     "word": "train",
+     "start": 26.656,
+     "end": 26.956,
+     "probability": 0.9932
+    },
+    {
+     "word": "after",
+     "start": 26.956,
+     "end": 27.376,
+     "probability": 0.9927
+    },
+    {
+     "word": "lunch.",
+     "start": 27.376,
+     "end": 27.776,
+     "probability": 0.999
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,288 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0073.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:28:43+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8926694989204407,
+ "chunks": [
+  {
+   "chunk_start": 0.788,
+   "chunk_end": 4.108,
+   "text": "I think the blue one is slightly cheaper.",
+   "words": [
+    {
+     "word": "I",
+     "start": 0.788,
+     "end": 1.148,
+     "probability": 0.9521
+    },
+    {
+     "word": "think",
+     "start": 1.148,
+     "end": 1.468,
+     "probability": 0.9971
+    },
+    {
+     "word": "the",
+     "start": 1.468,
+     "end": 1.708,
+     "probability": 0.9961
+    },
+    {
+     "word": "blue",
+     "start": 1.708,
+     "end": 1.948,
+     "probability": 0.9878
+    },
+    {
+     "word": "one",
+     "start": 1.948,
+     "end": 2.228,
+     "probability": 0.9922
+    },
+    {
+     "word": "is",
+     "start": 2.228,
+     "end": 2.548,
+     "probability": 0.999
+    },
+    {
+     "word": "slightly",
+     "start": 2.548,
+     "end": 2.848,
+     "probability": 0.9951
+    },
+    {
+     "word": "cheaper.",
+     "start": 2.848,
+     "end": 3.368,
+     "probability": 0.999
+    }
+   ]
+  },
+  {
+   "chunk_start": 5.78,
+   "chunk_end": 9.9,
+   "text": "The meeting starts in about 10 minutes.",
+   "words": [
+    {
+     "word": "The",
+     "start": 5.78,
+     "end": 6.08,
+     "probability": 0.8643
+    },
+    {
+     "word": "meeting",
+     "start": 6.08,
+     "end": 6.4,
+     "probability": 0.9883
+    },
+    {
+     "word": "starts",
+     "start": 6.4,
+     "end": 6.84,
+     "probability": 0.9966
+    },
+    {
+     "word": "in",
+     "start": 6.84,
+     "end": 7.28,
+     "probability": 0.9946
+    },
+    {
+     "word": "about",
+     "start": 7.28,
+     "end": 7.52,
+     "probability": 0.9951
+    },
+    {
+     "word": "10",
+     "start": 7.52,
+     "end": 7.92,
+     "probability": 0.6675
+    },
+    {
+     "word": "minutes.",
+     "start": 7.92,
+     "end": 8.2,
+     "probability": 0.979
+    }
+   ]
+  },
+  {
+   "chunk_start": 14.036,
+   "chunk_end": 22.444,
+   "text": "We can take the green after lunch, the blue one is slightly cheaper. That sounds like a reasonable idea to me. The weather is changing again this afternoon.",
+   "words": [
+    {
+     "word": "We",
+     "start": 14.036,
+     "end": 14.356,
+     "probability": 0.7358
+    },
+    {
+     "word": "can",
+     "start": 14.356,
+     "end": 15.116,
+     "probability": 0.1321
+    },
+    {
+     "word": "take",
+     "start": 15.116,
+     "end": 15.436,
+     "probability": 0.9619
+    },
+    {
+     "word": "the",
+     "start": 15.436,
+     "end": 15.616,
+     "probability": 0.8535
+    },
+    {
+     "word": "green",
+     "start": 15.616,
+     "end": 15.816,
+     "probability": 0.2852
+    },
+    {
+     "word": "after",
+     "start": 15.816,
+     "end": 15.996,
+     "probability": 0.8135
+    },
+    {
+     "word": "lunch,",
+     "start": 15.996,
+     "end": 16.396,
+     "probability": 0.9971
+    },
+    {
+     "word": "the",
+     "start": 16.496,
+     "end": 16.636,
+     "probability": 0.9033
+    },
+    {
+     "word": "blue",
+     "start": 16.636,
+     "end": 16.816,
+     "probability": 0.9956
+    },
+    {
+     "word": "one",
+     "start": 16.816,
+     "end": 17.056,
+     "probability": 0.9771
+    },
+    {
+     "word": "is",
+     "start": 17.056,
+     "end": 17.196,
+     "probability": 0.9023
+    },
+    {
+     "word": "slightly",
+     "start": 17.196,
+     "end": 17.396,
+     "probability": 0.9932
+    },
+    {
+     "word": "cheaper.",
+     "start": 17.396,
+     "end": 17.956,
+     "probability": 0.998
+    },
+    {
+     "word": "That",
+     "start": 18.116,
+     "end": 18.376,
+     "probability": 0.4282
+    },
+    {
+     "word": "sounds",
+     "start": 18.376,
+     "end": 18.736,
+     "probability": 0.9858
+    },
+    {
+     "word": "like",
+     "start": 18.736,
+     "end": 19.076,
+     "probability": 0.9922
+    },
+    {
+     "word": "a",
+     "start": 19.076,
+     "end": 19.156,
+     "probability": 0.9893
+    },
+    {
+     "word": "reasonable",
+     "start": 19.156,
+     "end": 19.496,
+     "probability": 0.9741
+    },
+    {
+     "word": "idea",
+     "start": 19.496,
+     "end": 19.936,
+     "probability": 0.9707
+    },
+    {
+     "word": "to",
+     "start": 19.936,
+     "end": 19.956,
+     "probability": 0.4226
+    },
+    {
+     "word": "me.",
+     "start": 19.956,
+     "end": 19.956,
+     "probability": 0.9873
+    },
+    {
+     "word": "The",
+     "start": 19.956,
+     "end": 19.996,
+     "probability": 0.832
+    },
+    {
+     "word": "weather",
+     "start": 19.996,
+     "end": 20.316,
+     "probability": 0.9956
+    },
+    {
+     "word": "is",
+     "start": 20.316,
+     "end": 20.516,
+     "probability": 0.9941
+    },
+    {
+     "word": "changing",
+     "start": 20.516,
+     "end": 20.816,
+     "probability": 0.9971
+    },
+    {
+     "word": "again",
+     "start": 20.816,
+     "end": 21.176,
+     "probability": 0.9932
+    },
+    {
+     "word": "this",
+     "start": 21.176,
+     "end": 21.396,
+     "probability": 0.9946
+    },
+    {
+     "word": "afternoon.",
+     "start": 21.396,
+     "end": 21.816,
+     "probability": 0.9961
+    }
+   ]
+  }
+ ]
+}

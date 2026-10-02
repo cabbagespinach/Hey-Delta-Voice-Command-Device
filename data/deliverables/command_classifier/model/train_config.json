@@ -1,0 +1,13 @@
+{
+  "_description": "Training recipe for the BC-ResNet command classifier (2026-09-30), adapted from the wakeword recipe (../../model/train_config.json). Keys starting with '_' are documentation.",
+  "seed": 20260930,
+  "epochs": 60,
+  "_epochs": "60 x 375 steps = 22,500 steps. Measured 2026-09-30 over 300 steps from scratch: training loss 3.1 -> 2.0 on clean clips, 3.2 -> 2.8 with the Pi-like augmentation, 3.2 -> 2.9 with augmentation + SpecAugment: the augmentation makes each example harder, so it needs many more steps than the clean data would.",
+  "optimizer": {"name": "AdamW", "lr": 0.002, "weight_decay": 0.001},
+  "schedule": {"warmup_epochs": 2, "then": "cosine to 0"},
+  "label_smoothing": 0.05,
+  "spec_augment": {"freq_masks": 2, "max_freq_bins": 6, "time_masks": 2, "max_time_frames": 15, "probability": 0.8},
+  "_spec_augment": "Time masks up to 150 ms: shorter than any deciding word (a number, 'Jane', 'up'/'down'), so a mask cannot turn a command into another one; it can hide a syllable.",
+  "selection": "mean of owner / public / synthetic command macro accuracy and 1 - unknown false-action rate on validation (argmax)",
+  "_selection": "Validation only. The owner validation clips are one session of one speaker (13:36-13:55), so the selection is not tuned to speaker2 or to the test session."
+}

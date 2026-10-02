@@ -1,0 +1,296 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0087.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:29:03+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8806670308113098,
+ "chunks": [
+  {
+   "chunk_start": 0.18,
+   "chunk_end": 2.54,
+   "text": "I was looking for a quiet place to work.",
+   "words": [
+    {
+     "word": "I",
+     "start": 0.18,
+     "end": 0.52,
+     "probability": 0.9751
+    },
+    {
+     "word": "was",
+     "start": 0.52,
+     "end": 0.68,
+     "probability": 0.9985
+    },
+    {
+     "word": "looking",
+     "start": 0.68,
+     "end": 0.94,
+     "probability": 0.9995
+    },
+    {
+     "word": "for",
+     "start": 0.94,
+     "end": 1.18,
+     "probability": 0.9995
+    },
+    {
+     "word": "a",
+     "start": 1.18,
+     "end": 1.26,
+     "probability": 0.9956
+    },
+    {
+     "word": "quiet",
+     "start": 1.26,
+     "end": 1.48,
+     "probability": 0.9966
+    },
+    {
+     "word": "place",
+     "start": 1.48,
+     "end": 1.72,
+     "probability": 1.0
+    },
+    {
+     "word": "to",
+     "start": 1.72,
+     "end": 1.88,
+     "probability": 0.9995
+    },
+    {
+     "word": "work.",
+     "start": 1.88,
+     "end": 2.12,
+     "probability": 0.999
+    }
+   ]
+  },
+  {
+   "chunk_start": 5.044,
+   "chunk_end": 8.236,
+   "text": "I think the blue one is slightly cheaper.",
+   "words": [
+    {
+     "word": "I",
+     "start": 5.044,
+     "end": 5.404,
+     "probability": 0.8813
+    },
+    {
+     "word": "think",
+     "start": 5.404,
+     "end": 5.724,
+     "probability": 0.9927
+    },
+    {
+     "word": "the",
+     "start": 5.724,
+     "end": 5.904,
+     "probability": 0.9844
+    },
+    {
+     "word": "blue",
+     "start": 5.904,
+     "end": 6.124,
+     "probability": 0.9409
+    },
+    {
+     "word": "one",
+     "start": 6.124,
+     "end": 6.404,
+     "probability": 0.9863
+    },
+    {
+     "word": "is",
+     "start": 6.404,
+     "end": 6.744,
+     "probability": 0.9937
+    },
+    {
+     "word": "slightly",
+     "start": 6.744,
+     "end": 7.084,
+     "probability": 0.9731
+    },
+    {
+     "word": "cheaper.",
+     "start": 7.084,
+     "end": 7.524,
+     "probability": 0.9741
+    }
+   ]
+  },
+  {
+   "chunk_start": 10.612,
+   "chunk_end": 12.108,
+   "text": "He's here.",
+   "words": [
+    {
+     "word": "He's",
+     "start": 10.612,
+     "end": 11.112,
+     "probability": 0.255
+    },
+    {
+     "word": "here.",
+     "start": 11.112,
+     "end": 11.452,
+     "probability": 0.9731
+    }
+   ]
+  },
+  {
+   "chunk_start": 14.996,
+   "chunk_end": 22.828,
+   "text": "The next episode starts after the commercial. The children are playing OTD in the garden.",
+   "words": [
+    {
+     "word": "The",
+     "start": 14.996,
+     "end": 15.756,
+     "probability": 0.1113
+    },
+    {
+     "word": "next",
+     "start": 15.756,
+     "end": 17.136,
+     "probability": 0.6694
+    },
+    {
+     "word": "episode",
+     "start": 17.136,
+     "end": 17.496,
+     "probability": 0.9141
+    },
+    {
+     "word": "starts",
+     "start": 17.496,
+     "end": 18.056,
+     "probability": 0.9536
+    },
+    {
+     "word": "after",
+     "start": 18.056,
+     "end": 18.776,
+     "probability": 0.9639
+    },
+    {
+     "word": "the",
+     "start": 18.776,
+     "end": 19.016,
+     "probability": 0.9805
+    },
+    {
+     "word": "commercial.",
+     "start": 19.016,
+     "end": 19.396,
+     "probability": 0.9497
+    },
+    {
+     "word": "The",
+     "start": 19.616,
+     "end": 19.676,
+     "probability": 0.6377
+    },
+    {
+     "word": "children",
+     "start": 19.676,
+     "end": 20.056,
+     "probability": 0.9839
+    },
+    {
+     "word": "are",
+     "start": 20.056,
+     "end": 20.436,
+     "probability": 0.9932
+    },
+    {
+     "word": "playing",
+     "start": 20.436,
+     "end": 20.736,
+     "probability": 0.9814
+    },
+    {
+     "word": "OTD",
+     "start": 20.736,
+     "end": 21.576,
+     "probability": 0.6365
+    },
+    {
+     "word": "in",
+     "start": 21.576,
+     "end": 21.776,
+     "probability": 0.9858
+    },
+    {
+     "word": "the",
+     "start": 21.776,
+     "end": 21.816,
+     "probability": 0.8716
+    },
+    {
+     "word": "garden.",
+     "start": 21.816,
+     "end": 22.176,
+     "probability": 0.9878
+    }
+   ]
+  },
+  {
+   "chunk_start": 24.98,
+   "chunk_end": 27.788,
+   "text": "There are several things we need to discuss.",
+   "words": [
+    {
+     "word": "There",
+     "start": 24.98,
+     "end": 25.36,
+     "probability": 0.8057
+    },
+    {
+     "word": "are",
+     "start": 25.36,
+     "end": 25.52,
+     "probability": 0.9971
+    },
+    {
+     "word": "several",
+     "start": 25.52,
+     "end": 25.84,
+     "probability": 0.998
+    },
+    {
+     "word": "things",
+     "start": 25.84,
+     "end": 26.1,
+     "probability": 0.9976
+    },
+    {
+     "word": "we",
+     "start": 26.1,
+     "end": 26.44,
+     "probability": 0.9897
+    },
+    {
+     "word": "need",
+     "start": 26.44,
+     "end": 26.64,
+     "probability": 0.9985
+    },
+    {
+     "word": "to",
+     "start": 26.64,
+     "end": 26.8,
+     "probability": 0.9995
+    },
+    {
+     "word": "discuss.",
+     "start": 26.8,
+     "end": 27.1,
+     "probability": 0.9956
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,218 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0094.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:29:14+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8647370934486389,
+ "chunks": [
+  {
+   "chunk_start": 0.756,
+   "chunk_end": 3.852,
+   "text": "I will call you when I get back home.",
+   "words": [
+    {
+     "word": "I",
+     "start": 1.236,
+     "end": 1.656,
+     "probability": 0.6636
+    },
+    {
+     "word": "will",
+     "start": 1.656,
+     "end": 1.796,
+     "probability": 0.9575
+    },
+    {
+     "word": "call",
+     "start": 1.796,
+     "end": 2.036,
+     "probability": 0.9985
+    },
+    {
+     "word": "you",
+     "start": 2.036,
+     "end": 2.256,
+     "probability": 0.9941
+    },
+    {
+     "word": "when",
+     "start": 2.256,
+     "end": 2.456,
+     "probability": 0.98
+    },
+    {
+     "word": "I",
+     "start": 2.456,
+     "end": 2.536,
+     "probability": 0.9824
+    },
+    {
+     "word": "get",
+     "start": 2.536,
+     "end": 2.716,
+     "probability": 0.998
+    },
+    {
+     "word": "back",
+     "start": 2.716,
+     "end": 2.976,
+     "probability": 0.9951
+    },
+    {
+     "word": "home.",
+     "start": 2.976,
+     "end": 3.256,
+     "probability": 0.9966
+    }
+   ]
+  },
+  {
+   "chunk_start": 4.532,
+   "chunk_end": 7.148,
+   "text": "Thank you, Mr. King.",
+   "words": [
+    {
+     "word": "Thank",
+     "start": 4.532,
+     "end": 4.932,
+     "probability": 0.1281
+    },
+    {
+     "word": "you,",
+     "start": 4.932,
+     "end": 5.172,
+     "probability": 0.9194
+    },
+    {
+     "word": "Mr.",
+     "start": 5.172,
+     "end": 5.672,
+     "probability": 0.2668
+    },
+    {
+     "word": "King.",
+     "start": 6.052,
+     "end": 6.272,
+     "probability": 0.4541
+    }
+   ]
+  },
+  {
+   "chunk_start": 14.004,
+   "chunk_end": 15.212,
+   "text": "Hey Delta!",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 14.004,
+     "end": 14.304,
+     "probability": 0.8354
+    },
+    {
+     "word": "Delta!",
+     "start": 14.304,
+     "end": 14.604,
+     "probability": 0.7964
+    }
+   ]
+  },
+  {
+   "chunk_start": 16.66,
+   "chunk_end": 19.34,
+   "text": "I think the blue one is slightly cheaper.",
+   "words": [
+    {
+     "word": "I",
+     "start": 16.66,
+     "end": 17.0,
+     "probability": 0.9688
+    },
+    {
+     "word": "think",
+     "start": 17.0,
+     "end": 17.16,
+     "probability": 0.999
+    },
+    {
+     "word": "the",
+     "start": 17.16,
+     "end": 17.26,
+     "probability": 0.9976
+    },
+    {
+     "word": "blue",
+     "start": 17.26,
+     "end": 17.48,
+     "probability": 0.9907
+    },
+    {
+     "word": "one",
+     "start": 17.48,
+     "end": 17.72,
+     "probability": 0.9961
+    },
+    {
+     "word": "is",
+     "start": 17.72,
+     "end": 17.98,
+     "probability": 0.9985
+    },
+    {
+     "word": "slightly",
+     "start": 17.98,
+     "end": 18.26,
+     "probability": 0.9976
+    },
+    {
+     "word": "cheaper.",
+     "start": 18.26,
+     "end": 18.72,
+     "probability": 0.9995
+    }
+   ]
+  },
+  {
+   "chunk_start": 26.772,
+   "chunk_end": 29.612,
+   "text": "The store closes earlier on weekends.",
+   "words": [
+    {
+     "word": "The",
+     "start": 26.772,
+     "end": 27.112,
+     "probability": 0.8857
+    },
+    {
+     "word": "store",
+     "start": 27.112,
+     "end": 27.352,
+     "probability": 0.9863
+    },
+    {
+     "word": "closes",
+     "start": 27.352,
+     "end": 27.712,
+     "probability": 0.9956
+    },
+    {
+     "word": "earlier",
+     "start": 27.712,
+     "end": 28.112,
+     "probability": 0.9707
+    },
+    {
+     "word": "on",
+     "start": 28.112,
+     "end": 28.532,
+     "probability": 0.9966
+    },
+    {
+     "word": "weekends.",
+     "start": 28.532,
+     "end": 28.832,
+     "probability": 0.9902
+    }
+   ]
+  }
+ ]
+}

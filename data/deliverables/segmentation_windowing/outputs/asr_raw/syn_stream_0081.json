@@ -1,0 +1,279 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0081.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:28:54+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8987382054328918,
+ "chunks": [
+  {
+   "chunk_start": 0.852,
+   "chunk_end": 5.452,
+   "text": "The report contains several useful examples.",
+   "words": [
+    {
+     "word": "The",
+     "start": 0.852,
+     "end": 1.172,
+     "probability": 0.855
+    },
+    {
+     "word": "report",
+     "start": 1.172,
+     "end": 1.452,
+     "probability": 0.9888
+    },
+    {
+     "word": "contains",
+     "start": 1.452,
+     "end": 1.972,
+     "probability": 0.9976
+    },
+    {
+     "word": "several",
+     "start": 1.972,
+     "end": 2.532,
+     "probability": 0.998
+    },
+    {
+     "word": "useful",
+     "start": 2.532,
+     "end": 2.932,
+     "probability": 0.9951
+    },
+    {
+     "word": "examples.",
+     "start": 2.932,
+     "end": 3.272,
+     "probability": 0.9863
+    }
+   ]
+  },
+  {
+   "chunk_start": 6.74,
+   "chunk_end": 8.3,
+   "text": "Hey, shit, huh?",
+   "words": [
+    {
+     "word": "Hey,",
+     "start": 6.74,
+     "end": 7.14,
+     "probability": 0.7812
+    },
+    {
+     "word": "shit,",
+     "start": 7.18,
+     "end": 7.42,
+     "probability": 0.1304
+    },
+    {
+     "word": "huh?",
+     "start": 7.52,
+     "end": 7.74,
+     "probability": 0.1661
+    }
+   ]
+  },
+  {
+   "chunk_start": 9.684,
+   "chunk_end": 12.332,
+   "text": "Thank you for watching!",
+   "words": [
+    {
+     "word": "Thank",
+     "start": 9.684,
+     "end": 9.924,
+     "probability": 0.0621
+    },
+    {
+     "word": "you",
+     "start": 9.924,
+     "end": 10.204,
+     "probability": 0.8623
+    },
+    {
+     "word": "for",
+     "start": 10.204,
+     "end": 10.524,
+     "probability": 0.708
+    },
+    {
+     "word": "watching!",
+     "start": 10.524,
+     "end": 10.784,
+     "probability": 0.7661
+    }
+   ]
+  },
+  {
+   "chunk_start": 14.1,
+   "chunk_end": 16.428,
+   "text": "I will call you when get back home.",
+   "words": [
+    {
+     "word": "I",
+     "start": 14.1,
+     "end": 14.42,
+     "probability": 0.9756
+    },
+    {
+     "word": "will",
+     "start": 14.42,
+     "end": 14.58,
+     "probability": 0.9595
+    },
+    {
+     "word": "call",
+     "start": 14.58,
+     "end": 14.82,
+     "probability": 0.9995
+    },
+    {
+     "word": "you",
+     "start": 14.82,
+     "end": 14.98,
+     "probability": 0.999
+    },
+    {
+     "word": "when",
+     "start": 14.98,
+     "end": 15.16,
+     "probability": 0.998
+    },
+    {
+     "word": "get",
+     "start": 15.16,
+     "end": 15.38,
+     "probability": 0.9785
+    },
+    {
+     "word": "back",
+     "start": 15.38,
+     "end": 15.62,
+     "probability": 0.9995
+    },
+    {
+     "word": "home.",
+     "start": 15.62,
+     "end": 15.96,
+     "probability": 0.999
+    }
+   ]
+  },
+  {
+   "chunk_start": 21.588,
+   "chunk_end": 24.528,
+   "text": "I forgot to record this morning.",
+   "words": [
+    {
+     "word": "I",
+     "start": 21.588,
+     "end": 22.208,
+     "probability": 0.623
+    },
+    {
+     "word": "forgot",
+     "start": 22.208,
+     "end": 22.428,
+     "probability": 0.9702
+    },
+    {
+     "word": "to",
+     "start": 22.428,
+     "end": 22.588,
+     "probability": 0.7661
+    },
+    {
+     "word": "record",
+     "start": 22.588,
+     "end": 22.828,
+     "probability": 0.6279
+    },
+    {
+     "word": "this",
+     "start": 22.828,
+     "end": 23.348,
+     "probability": 0.3721
+    },
+    {
+     "word": "morning.",
+     "start": 23.348,
+     "end": 23.808,
+     "probability": 0.5449
+    }
+   ]
+  },
+  {
+   "chunk_start": 24.528,
+   "chunk_end": 27.884,
+   "text": "Se-dai-ba-ee-hi-bu-shai-dee-so-ji-yong",
+   "words": [
+    {
+     "word": "Se",
+     "start": 24.528,
+     "end": 24.688,
+     "probability": 0.0108
+    },
+    {
+     "word": "-dai",
+     "start": 24.688,
+     "end": 25.228,
+     "probability": 0.3031
+    },
+    {
+     "word": "-ba",
+     "start": 25.228,
+     "end": 25.348,
+     "probability": 0.6941
+    },
+    {
+     "word": "-ee",
+     "start": 25.348,
+     "end": 25.628,
+     "probability": 0.473
+    },
+    {
+     "word": "-hi",
+     "start": 25.628,
+     "end": 25.808,
+     "probability": 0.4136
+    },
+    {
+     "word": "-bu",
+     "start": 25.808,
+     "end": 25.948,
+     "probability": 0.5994
+    },
+    {
+     "word": "-shai",
+     "start": 25.948,
+     "end": 26.208,
+     "probability": 0.7731
+    },
+    {
+     "word": "-dee",
+     "start": 26.208,
+     "end": 26.548,
+     "probability": 0.729
+    },
+    {
+     "word": "-so",
+     "start": 26.548,
+     "end": 26.708,
+     "probability": 0.5104
+    },
+    {
+     "word": "-ji",
+     "start": 26.708,
+     "end": 26.928,
+     "probability": 0.423
+    },
+    {
+     "word": "-yong",
+     "start": 26.928,
+     "end": 27.388,
+     "probability": 0.7048
+    }
+   ]
+  }
+ ]
+}

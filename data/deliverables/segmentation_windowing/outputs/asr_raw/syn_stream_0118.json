@@ -1,0 +1,230 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0118.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:30:00+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.89082270860672,
+ "chunks": [
+  {
+   "chunk_start": 5.46,
+   "chunk_end": 8.396,
+   "text": "Te pakhi chung lechwa na yao.",
+   "words": [
+    {
+     "word": "Te",
+     "start": 5.46,
+     "end": 5.72,
+     "probability": 0.1561
+    },
+    {
+     "word": "pakhi",
+     "start": 5.72,
+     "end": 6.28,
+     "probability": 0.157
+    },
+    {
+     "word": "chung",
+     "start": 6.28,
+     "end": 6.62,
+     "probability": 0.5084
+    },
+    {
+     "word": "lechwa",
+     "start": 6.62,
+     "end": 7.02,
+     "probability": 0.3144
+    },
+    {
+     "word": "na",
+     "start": 7.02,
+     "end": 7.28,
+     "probability": 0.4492
+    },
+    {
+     "word": "yao.",
+     "start": 7.28,
+     "end": 7.66,
+     "probability": 0.3622
+    }
+   ]
+  },
+  {
+   "chunk_start": 11.54,
+   "chunk_end": 14.22,
+   "text": "The children are playing outside in the garden.",
+   "words": [
+    {
+     "word": "The",
+     "start": 11.54,
+     "end": 11.88,
+     "probability": 0.7954
+    },
+    {
+     "word": "children",
+     "start": 11.88,
+     "end": 12.18,
+     "probability": 0.9912
+    },
+    {
+     "word": "are",
+     "start": 12.18,
+     "end": 12.38,
+     "probability": 0.9976
+    },
+    {
+     "word": "playing",
+     "start": 12.38,
+     "end": 12.58,
+     "probability": 0.999
+    },
+    {
+     "word": "outside",
+     "start": 12.58,
+     "end": 13.02,
+     "probability": 0.998
+    },
+    {
+     "word": "in",
+     "start": 13.02,
+     "end": 13.32,
+     "probability": 0.9897
+    },
+    {
+     "word": "the",
+     "start": 13.32,
+     "end": 13.4,
+     "probability": 0.9985
+    },
+    {
+     "word": "garden.",
+     "start": 13.4,
+     "end": 13.66,
+     "probability": 0.9966
+    }
+   ]
+  },
+  {
+   "chunk_start": 14.804,
+   "chunk_end": 16.108,
+   "text": "He dealt her.",
+   "words": [
+    {
+     "word": "He",
+     "start": 14.804,
+     "end": 15.144,
+     "probability": 0.7637
+    },
+    {
+     "word": "dealt",
+     "start": 15.144,
+     "end": 15.424,
+     "probability": 0.8853
+    },
+    {
+     "word": "her.",
+     "start": 15.424,
+     "end": 15.644,
+     "probability": 0.9902
+    }
+   ]
+  },
+  {
+   "chunk_start": 16.468,
+   "chunk_end": 20.14,
+   "text": "Please remember to bring the documents tomorrow.",
+   "words": [
+    {
+     "word": "Please",
+     "start": 16.468,
+     "end": 17.588,
+     "probability": 0.2101
+    },
+    {
+     "word": "remember",
+     "start": 17.588,
+     "end": 18.068,
+     "probability": 0.9697
+    },
+    {
+     "word": "to",
+     "start": 18.068,
+     "end": 18.448,
+     "probability": 0.9946
+    },
+    {
+     "word": "bring",
+     "start": 18.448,
+     "end": 18.648,
+     "probability": 0.999
+    },
+    {
+     "word": "the",
+     "start": 18.648,
+     "end": 18.748,
+     "probability": 0.9858
+    },
+    {
+     "word": "documents",
+     "start": 18.748,
+     "end": 19.128,
+     "probability": 0.9902
+    },
+    {
+     "word": "tomorrow.",
+     "start": 19.128,
+     "end": 19.448,
+     "probability": 0.9907
+    }
+   ]
+  },
+  {
+   "chunk_start": 23.348,
+   "chunk_end": 26.412,
+   "text": "The meeting starts in about 10 minutes.",
+   "words": [
+    {
+     "word": "The",
+     "start": 23.348,
+     "end": 23.668,
+     "probability": 0.9731
+    },
+    {
+     "word": "meeting",
+     "start": 23.668,
+     "end": 23.928,
+     "probability": 0.9985
+    },
+    {
+     "word": "starts",
+     "start": 23.928,
+     "end": 24.308,
+     "probability": 0.9995
+    },
+    {
+     "word": "in",
+     "start": 24.308,
+     "end": 24.708,
+     "probability": 0.9995
+    },
+    {
+     "word": "about",
+     "start": 24.708,
+     "end": 24.948,
+     "probability": 0.9995
+    },
+    {
+     "word": "10",
+     "start": 24.948,
+     "end": 25.288,
+     "probability": 0.79
+    },
+    {
+     "word": "minutes.",
+     "start": 25.288,
+     "end": 25.648,
+     "probability": 0.9995
+    }
+   ]
+  }
+ ]
+}

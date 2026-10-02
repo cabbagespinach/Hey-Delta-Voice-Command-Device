@@ -1,0 +1,651 @@
+file,label,end_reason,duration_sec,heard,expected,edit_ratio,verdict,cmd_start,cmd_end,max_word_gap
+play_music/play_music_owner_20260930-122543-079.wav,play_music,end_of_speech,3.6,like really greedy and you just get like a really,Play music,4.2,other,0.0,3.36,0.0
+weather/weather_owner_20260930-122549-366.wav,weather,end_of_speech,3.1,What's the rule in this case?,What's the weather?,0.737,other,1.1200000000000006,2.44,0.0
+time/time_owner_20260930-122555-350.wav,time,end_of_speech,2.6,What time is it?,What time is it?,0.0,complete,1.0,2.02,0.0
+lights_on/lights_on_owner_20260930-122626-084.wav,lights_on,end_of_speech,2.5,we'll be waiting for lights,Turn on lights,1.214,other,0.9399999999999997,2.0,0.0
+lights_off/lights_off_owner_20260930-122631-151.wav,lights_off,end_of_speech,2.3,Turn off your light.,Turn off lights,0.4,other,0.8600000000000003,1.9,0.0
+dim_lights_20/dim_lights_20_owner_20260930-122641-599.wav,dim_lights_20,end_of_speech,2.9,that give light to 20 percent.,Dim lights to 20 percent / Dim lights to 20%,0.321,other,0.0,2.74,0.0
+dim_lights_50/dim_lights_50_owner_20260930-122646-870.wav,dim_lights_50,end_of_speech,2.4,,Dim lights to 50 percent / Dim lights to 50%,1.0,empty,,,0.0
+play_music/play_music_owner_20260930-122802-381.wav,play_music,no_speech_detected,3.4,,Play music,1.0,empty,,,0.0
+weather/weather_owner_20260930-122820-733.wav,weather,end_of_speech,2.6,What's the weather?,What's the weather?,0.0,complete,0.7999999999999998,1.7,0.0
+time/time_owner_20260930-122825-297.wav,time,end_of_speech,2.3,What time is it?,What time is it?,0.0,complete,0.78,1.88,0.0
+lights_on/lights_on_owner_20260930-122829-553.wav,lights_on,end_of_speech,2.2,There's no lights.,Turn on lights,0.429,other,0.8200000000000001,1.58,0.0
+lights_off/lights_off_owner_20260930-122833-404.wav,lights_off,end_of_speech,2.1,turn off lights,Turn off lights,0.0,complete,0.9200000000000002,1.74,0.0
+dim_lights_20/dim_lights_20_owner_20260930-122839-188.wav,dim_lights_20,end_of_speech,2.7,dim light to 20%,Dim lights to 20 percent / Dim lights to 20%,0.036,complete,0.76,2.52,0.0
+dim_lights_50/dim_lights_50_owner_20260930-122844-966.wav,dim_lights_50,end_of_speech,3.3,dim light to 50%,Dim lights to 50 percent / Dim lights to 50%,0.037,complete,0.7600000000000002,2.94,0.0
+set_timer_1/set_timer_1_owner_20260930-123012-075.wav,set_timer_1,end_of_speech,3.2,Set the timer for one minute.,Set a timer for 1 minute,0.115,complete,0.6799999999999995,2.92,0.0
+set_timer_5/set_timer_5_owner_20260930-123017-247.wav,set_timer_5,end_of_speech,3.2,Let's set the timer for 5 minutes.,Set a timer for 5 minutes,0.357,other,0.0,2.84,0.0
+set_timer_10/set_timer_10_owner_20260930-123022-307.wav,set_timer_10,end_of_speech,3.3,Set the timer for 10 minutes.,Set a timer for 10 minutes,0.111,complete,0.7800000000000002,2.96,0.0
+set_alarm_7am/set_alarm_7am_owner_20260930-123043-004.wav,set_alarm_7am,end_of_speech,3.2,"Delta, set an alarm at 70.",Set an alarm at 7 AM,0.16,complete,0.22,2.66,0.0
+set_alarm_9pm/set_alarm_9pm_owner_20260930-123048-785.wav,set_alarm_9pm,end_of_speech,3.6,Set an alarm at 9 p.m.,Set an alarm at 9 PM,0.0,complete,0.9199999999999995,2.94,0.0
+set_temperature_18/set_temperature_18_owner_20260930-123056-085.wav,set_temperature_18,end_of_speech,3.0,Set temperature to 18 degrees.,Set temperature to 18 degrees,0.0,complete,0.0,2.72,0.0
+set_temperature_22/set_temperature_22_owner_20260930-123101-865.wav,set_temperature_22,end_of_speech,3.5,"Delta, set temperature to 22 degrees.",Set temperature to 22 degrees,0.0,complete,0.22,3.0,0.0
+set_temperature_26/set_temperature_26_owner_20260930-123107-138.wav,set_temperature_26,end_of_speech,3.2,Set temperature to 26 degrees.,Set temperature to 26 degrees,0.0,complete,0.0,3.04,0.0
+pause/pause_owner_20260930-123112-816.wav,pause,no_speech_detected,3.4,Boss.,Pause,0.8,other,0.0,1.1,0.0
+stop/stop_owner_20260930-123118-190.wav,stop,no_speech_detected,3.4,Stop.,Stop,0.0,complete,0.0,0.32,0.0
+next/next_owner_20260930-123134-320.wav,next,no_speech_detected,3.4,Next.,Next,0.0,complete,0.0,0.46,0.0
+skip/skip_owner_20260930-123142-032.wav,skip,no_speech_detected,3.4,"uh, skip.",Skip,0.75,other,0.0,1.26,0.0
+volume_up/volume_up_owner_20260930-123149-035.wav,volume_up,end_of_speech,2.4,Hold him up.,Volume up,0.667,other,0.8600000000000001,1.66,0.0
+louder/louder_owner_20260930-123152-889.wav,louder,end_of_speech,2.1,Louder.,Louder,0.0,complete,0.0,1.46,0.0
+volume_down/volume_down_owner_20260930-123156-632.wav,volume_down,end_of_speech,2.0,I want that volume down.,Volume down,1.091,other,0.0,1.72,0.0
+remind_trash/remind_trash_owner_20260930-123201-818.wav,remind_trash,no_speech_detected,3.4,Reminds me to take out the trash.,Remind me to take out the trash,0.032,complete,1.0799999999999998,2.56,0.0
+remind_study/remind_study_owner_20260930-123207-197.wav,remind_study,no_speech_detected,3.4,Remind you to study for my exam.,Remind me to study for my exam,0.1,complete,1.2200000000000002,2.86,0.0
+list_reminders/list_reminders_owner_20260930-123211-765.wav,list_reminders,end_of_speech,2.5,What are my reminders?,What are my reminders?,0.0,complete,0.8400000000000001,1.94,0.0
+call_jane/call_jane_owner_20260930-123215-718.wav,call_jane,end_of_speech,2.1,called Jane.,Call Jane,0.222,complete,0.8200000000000001,1.48,0.0
+text_jane/text_jane_owner_20260930-123220-791.wav,text_jane,no_speech_detected,3.3,Thank you.,Text Jane,0.889,other,0.0,1.38,0.0
+unknown_silent/unknown_silent_owner_20260930-123226-882.wav,unknown_silent,no_speech_detected,3.3,There's a bit more to get.,,1.0,other,0.0,1.5,0.0
+unknown_other/unknown_other_owner_20260930-123234-186.wav,unknown_other,end_of_speech,2.1,I love you.,,1.0,other,0.54,1.28,0.0
+play_music/play_music_owner_20260930-123314-277.wav,play_music,no_speech_detected,3.3,Thank you for watching.,Play music,1.8,other,0.0,2.34,0.0
+weather/weather_owner_20260930-123323-401.wav,weather,no_speech_detected,3.3,What's your name?,What's the weather?,0.474,other,0.6800000000000002,1.64,0.0
+time/time_owner_20260930-123328-575.wav,time,no_speech_detected,3.3,Thank you.,What time is it?,0.8,other,1.0999999999999999,2.12,0.0
+lights_on/lights_on_owner_20260930-123333-750.wav,lights_on,no_speech_detected,3.3,Thank you.,Turn on lights,0.786,other,0.0,0.58,0.0
+lights_off/lights_off_owner_20260930-123337-609.wav,lights_off,end_of_speech,2.2,Put it off the light.,Turn off lights,0.667,other,0.8599999999999999,1.78,0.0
+dim_lights_20/dim_lights_20_owner_20260930-123342-172.wav,dim_lights_20,end_of_speech,2.4,,Dim lights to 20 percent / Dim lights to 20%,1.0,empty,,,0.0
+dim_lights_50/dim_lights_50_owner_20260930-123347-345.wav,dim_lights_50,no_speech_detected,3.3,Thank you.,Dim lights to 50 percent / Dim lights to 50%,0.889,other,0.0,0.52,0.0
+set_timer_1/set_timer_1_owner_20260930-123357-994.wav,set_timer_1,no_speech_detected,3.3,Thank you.,Set a timer for 1 minute,0.808,other,0.0,0.36,0.0
+set_timer_5/set_timer_5_owner_20260930-123402-762.wav,set_timer_5,no_speech_detected,3.3,,Set a timer for 5 minutes,1.0,empty,,,0.0
+set_timer_10/set_timer_10_owner_20260930-123407-733.wav,set_timer_10,no_speech_detected,3.3,That's one of the most awesome things I've ever seen.,Set a timer for 10 minutes,1.444,other,0.0,2.2,0.0
+set_alarm_6am/set_alarm_6am_owner_20260930-123415-342.wav,set_alarm_6am,no_speech_detected,3.3,Thank you.,Set an alarm at 6 AM,0.826,other,0.0,0.9,0.0
+set_alarm_7am/set_alarm_7am_owner_20260930-123420-108.wav,set_alarm_7am,end_of_speech,2.8,Thank you.,Set an alarm at 7 AM,0.84,other,0.0,1.42,0.0
+set_alarm_9pm/set_alarm_9pm_owner_20260930-123429-540.wav,set_alarm_9pm,no_speech_detected,3.3,,Set an alarm at 9 PM,1.0,empty,,,0.0
+set_temperature_18/set_temperature_18_owner_20260930-123435-109.wav,set_temperature_18,end_of_speech,3.8,"Delta, set temperature to 18 degrees.",Set temperature to 18 degrees,0.0,complete,0.18,2.5,0.0
+set_temperature_22/set_temperature_22_owner_20260930-123439-991.wav,set_temperature_22,no_speech_detected,3.3,,Set temperature to 22 degrees,1.0,empty,,,0.0
+set_temperature_26/set_temperature_26_owner_20260930-123444-960.wav,set_temperature_26,no_speech_detected,3.3,,Set temperature to 26 degrees,1.0,empty,,,0.0
+pause/pause_owner_20260930-123450-239.wav,pause,no_speech_detected,3.3,,Pause,1.0,empty,,,0.0
+stop/stop_owner_20260930-123457-844.wav,stop,end_of_speech,3.7,,Stop,1.0,empty,,,0.0
+next/next_owner_20260930-123504-440.wav,next,end_of_speech,2.0,,Next,1.0,empty,,,0.0
+skip/skip_owner_20260930-123509-510.wav,skip,no_speech_detected,3.3,Thank you.,Skip,2.0,other,0.0,0.38,0.0
+volume_up/volume_up_owner_20260930-123513-060.wav,volume_up,end_of_speech,2.0,,Volume up,1.0,empty,,,0.0
+louder/louder_owner_20260930-123523-814.wav,louder,no_speech_detected,3.3,,Louder,1.0,empty,,,0.0
+volume_down/volume_down_owner_20260930-123528-075.wav,volume_down,end_of_speech,2.5,Thank you.,Volume down,0.818,other,0.74,1.42,0.0
+remind_trash/remind_trash_owner_20260930-123538-317.wav,remind_trash,end_of_speech,2.7,There might be to take off the trash.,Remind me to take out the trash,0.323,other,0.8800000000000006,2.46,0.0
+list_reminders/list_reminders_owner_20260930-123548-260.wav,list_reminders,no_speech_detected,3.3,,What are my reminders?,1.0,empty,,,0.0
+call_jane/call_jane_owner_20260930-123553-636.wav,call_jane,no_speech_detected,3.3,,Call Jane,1.0,empty,,,0.0
+text_jane/text_jane_owner_20260930-123558-098.wav,text_jane,no_speech_detected,3.3,Thank you.,Text Jane,0.889,other,0.0,0.5,0.0
+unknown_silent/unknown_silent_owner_20260930-123602-866.wav,unknown_silent,end_of_speech,1.4,Thank you so much. Thank you.,,1.0,other,0.0,0.62,0.14
+unknown_other/unknown_other_owner_20260930-123616-048.wav,unknown_other,end_of_speech,2.3,Play Netflix,,1.0,other,0.0,1.5,0.0
+play_music/play_music_owner_20260930-123830-742.wav,play_music,no_speech_detected,3.3,Play music.,Play music,0.0,complete,0.0,1.64,0.0
+weather/weather_owner_20260930-123835-296.wav,weather,end_of_speech,2.8,What's the weather?,What's the weather?,0.0,complete,1.1999999999999997,2.24,0.0
+time/time_owner_20260930-123839-465.wav,time,end_of_speech,2.3,What time is it?,What time is it?,0.0,complete,0.8,1.92,0.0
+lights_on/lights_on_owner_20260930-123843-420.wav,lights_on,end_of_speech,2.3,Turn on the light.,Turn on lights,0.357,other,0.8399999999999994,1.8,0.0
+lights_off/lights_off_owner_20260930-123848-290.wav,lights_off,no_speech_detected,3.3,Turn off the lights.,Turn off lights,0.267,other,0.6400000000000001,1.84,0.0
+dim_lights_20/dim_lights_20_owner_20260930-123852-657.wav,dim_lights_20,end_of_speech,2.9,BIM lights to 20%.,Dim lights to 20 percent / Dim lights to 20%,0.036,complete,0.0,2.3,0.0
+dim_lights_50/dim_lights_50_owner_20260930-123857-723.wav,dim_lights_50,end_of_speech,3.4,been led to 50%.,Dim lights to 50 percent / Dim lights to 50%,0.333,other,0.0,2.48,0.0
+dim_lights_80/dim_lights_80_owner_20260930-123901-781.wav,dim_lights_80,end_of_speech,2.5,green lights to 80%,Dim lights to 80 percent / Dim lights to 80%,0.179,complete,0.0,2.28,0.0
+set_timer_1/set_timer_1_owner_20260930-123906-241.wav,set_timer_1,end_of_speech,2.9,Set the timer for one minute.,Set a timer for 1 minute,0.115,complete,0.7599999999999996,2.52,0.0
+set_timer_5/set_timer_5_owner_20260930-123910-804.wav,set_timer_5,end_of_speech,2.9,Set a timer for 5 minutes.,Set a timer for 5 minutes,0.0,complete,0.6999999999999995,2.5,0.0
+set_timer_10/set_timer_10_owner_20260930-123915-368.wav,set_timer_10,end_of_speech,2.9,Set a timer for 10 minutes.,Set a timer for 10 minutes,0.0,complete,0.0,2.34,0.0
+set_alarm_6am/set_alarm_6am_owner_20260930-123919-730.wav,set_alarm_6am,end_of_speech,3.0,Set an alarm at 6 a.m.,Set an alarm at 6 AM,0.0,complete,0.7199999999999998,2.5,0.0
+set_alarm_7am/set_alarm_7am_owner_20260930-123923-887.wav,set_alarm_7am,end_of_speech,2.5,Set an alarm at 7 a.m.,Set an alarm at 7 AM,0.0,complete,0.6599999999999999,2.48,0.0
+set_alarm_9pm/set_alarm_9pm_owner_20260930-123928-236.wav,set_alarm_9pm,end_of_speech,2.6,Set an alarm at 9 p.m.,Set an alarm at 9 PM,0.0,complete,0.7199999999999998,2.46,0.0
+set_temperature_18/set_temperature_18_owner_20260930-123932-405.wav,set_temperature_18,end_of_speech,2.4,Set temperature to 80 degrees.,Set temperature to 18 degrees,0.086,complete,0.0,2.38,0.0
+set_temperature_22/set_temperature_22_owner_20260930-123937-276.wav,set_temperature_22,end_of_speech,2.6,Set temperature to 22 degrees.,Set temperature to 22 degrees,0.0,complete,0.0,2.46,0.0
+set_temperature_26/set_temperature_26_owner_20260930-123941-331.wav,set_temperature_26,end_of_speech,2.3,,Set temperature to 26 degrees,1.0,empty,,,0.0
+pause/pause_owner_20260930-123946-812.wav,pause,no_speech_detected,3.3,Oh,Pause,1.0,other,0.0,1.02,0.0
+stop/stop_owner_20260930-123951-373.wav,stop,no_speech_detected,3.3,Stop.,Stop,0.0,complete,0.0,0.6,0.0
+next/next_owner_20260930-123956-037.wav,next,no_speech_detected,3.3,Thanks.,Next,1.5,other,0.0,1.14,0.0
+skip/skip_owner_20260930-124000-706.wav,skip,no_speech_detected,3.3,Thank you.,Skip,2.0,other,0.0,1.18,0.0
+volume_up/volume_up_owner_20260930-124004-150.wav,volume_up,end_of_speech,2.1,Volume up.,Volume up,0.0,complete,0.0,1.66,0.0
+louder/louder_owner_20260930-124007-597.wav,louder,end_of_speech,2.0,because I was there.,Louder,2.667,other,0.6399999999999997,1.56,0.0
+volume_down/volume_down_owner_20260930-124011-349.wav,volume_down,end_of_speech,2.3,Thank you very much.,Volume down,1.455,other,0.0,1.56,0.0
+remind_trash/remind_trash_owner_20260930-124015-510.wav,remind_trash,end_of_speech,2.8,Remind me to take off the flash.,Remind me to take out the trash,0.129,complete,0.9600000000000002,2.18,0.0
+remind_study/remind_study_owner_20260930-124020-281.wav,remind_study,end_of_speech,3.1,Remind me to study for my exam.,Remind me to study for my exam,0.0,complete,1.1,2.6,0.0
+list_reminders/list_reminders_owner_20260930-124024-030.wav,list_reminders,end_of_speech,2.2,What are my reminders?,What are my reminders?,0.0,complete,0.0,1.72,0.0
+call_jane/call_jane_owner_20260930-124028-289.wav,call_jane,end_of_speech,2.7,Cold drink.,Call Jane,0.667,other,0.78,1.44,0.0
+text_jane/text_jane_owner_20260930-124032-957.wav,text_jane,no_speech_detected,3.3,"Thanks, Jake.",Text Jane,0.667,other,0.6800000000000002,1.5,0.12
+unknown_silent/unknown_silent_owner_20260930-124038-635.wav,unknown_silent,no_speech_detected,3.3,,,1.0,empty,,,0.0
+unknown_other/unknown_other_owner_20260930-124051-921.wav,unknown_other,no_speech_detected,3.3,Thank you for watching.,,1.0,other,0.0,1.64,0.0
+play_music/play_music_owner_20260930-124135-230.wav,play_music,end_of_speech,2.5,Play music,Play music,0.0,complete,0.0,1.6,0.0
+weather/weather_owner_20260930-124152-672.wav,weather,end_of_speech,2.7,What's the weather?,What's the weather?,0.0,complete,0.8400000000000001,1.84,0.0
+time/time_owner_20260930-124156-727.wav,time,end_of_speech,2.3,"Zelda, what time is it?",What time is it?,0.4,other,0.0,1.66,0.0
+lights_on/lights_on_owner_20260930-124200-580.wav,lights_on,end_of_speech,2.3,Turn on lights.,Turn on lights,0.0,complete,0.0,1.66,0.0
+lights_off/lights_off_owner_20260930-124204-434.wav,lights_off,end_of_speech,2.2,Turn off lights.,Turn off lights,0.0,complete,0.72,1.84,0.0
+dim_lights_20/dim_lights_20_owner_20260930-124209-098.wav,dim_lights_20,end_of_speech,3.0,"Delta, dim lights to 20%.",Dim lights to 20 percent / Dim lights to 20%,0.0,complete,0.24,2.36,0.0
+dim_lights_50/dim_lights_50_owner_20260930-124213-865.wav,dim_lights_50,end_of_speech,3.0,dim lights to 50%,Dim lights to 50 percent / Dim lights to 50%,0.0,complete,0.7200000000000004,2.44,0.0
+dim_lights_80/dim_lights_80_owner_20260930-124218-836.wav,dim_lights_80,end_of_speech,2.9,dim lights to 80%,Dim lights to 80 percent / Dim lights to 80%,0.0,complete,0.9200000000000004,2.48,0.0
+set_timer_1/set_timer_1_owner_20260930-124223-707.wav,set_timer_1,end_of_speech,3.0,Set the timer for one minute,Set a timer for 1 minute,0.115,complete,0.78,2.58,0.0
+set_timer_5/set_timer_5_owner_20260930-124228-267.wav,set_timer_5,end_of_speech,2.9,Set the timer for 5 minutes.,Set a timer for 5 minutes,0.107,complete,0.6399999999999995,2.5,0.0
+set_timer_10/set_timer_10_owner_20260930-124232-836.wav,set_timer_10,end_of_speech,2.9,Set a timer for 10 minutes.,Set a timer for 10 minutes,0.0,complete,0.7599999999999996,2.54,0.0
+set_alarm_6am/set_alarm_6am_owner_20260930-124238-513.wav,set_alarm_6am,end_of_speech,3.0,"Delta, set an alarm at 6 a.m.",Set an alarm at 6 AM,0.0,complete,0.2,2.48,0.0
+set_alarm_7am/set_alarm_7am_owner_20260930-124242-768.wav,set_alarm_7am,end_of_speech,2.8,set an alarm at 7 a.m.,Set an alarm at 7 AM,0.0,complete,0.6400000000000006,2.56,0.0
+set_alarm_9pm/set_alarm_9pm_owner_20260930-124247-235.wav,set_alarm_9pm,end_of_speech,2.7,Set an alarm at 9pm.,Set an alarm at 9 PM,0.0,complete,0.6399999999999995,2.3,0.0
+set_temperature_18/set_temperature_18_owner_20260930-124251-999.wav,set_temperature_18,end_of_speech,2.9,set temperature to 18 degrees,Set temperature to 18 degrees,0.0,complete,0.0,2.4,0.0
+set_temperature_22/set_temperature_22_owner_20260930-124256-972.wav,set_temperature_22,end_of_speech,3.4,a set temperature to 22 degrees,Set temperature to 22 degrees,0.054,complete,0.0,2.76,0.0
+set_temperature_26/set_temperature_26_owner_20260930-124301-638.wav,set_temperature_26,end_of_speech,3.1,set temperature to 26 degrees,Set temperature to 26 degrees,0.0,complete,0.0,2.84,0.0
+pause/pause_owner_20260930-124306-710.wav,pause,no_speech_detected,3.3,Pause.,Pause,0.0,complete,0.0,0.9,0.0
+stop/stop_owner_20260930-124311-171.wav,stop,no_speech_detected,3.3,It's all done. Stop.,Stop,3.75,other,0.0,1.2,0.7
+next/next_owner_20260930-124315-938.wav,next,no_speech_detected,3.3,Next.,Next,0.0,complete,0.0,1.24,0.0
+skip/skip_owner_20260930-124320-807.wav,skip,no_speech_detected,3.3,Skip.,Skip,0.0,complete,0.0,1.08,0.0
+volume_up/volume_up_owner_20260930-124324-965.wav,volume_up,end_of_speech,2.4,up. Volume up.,Volume up,0.333,other,0.0,1.72,0.6
+louder/louder_owner_20260930-124329-427.wav,louder,end_of_speech,2.6,Louder,Louder,0.0,complete,0.0,1.86,0.0
+volume_down/volume_down_owner_20260930-124333-685.wav,volume_down,end_of_speech,2.6,up volume down,Volume down,0.273,other,0.0,1.92,0.0
+remind_trash/remind_trash_owner_20260930-124338-352.wav,remind_trash,end_of_speech,2.9,Remind me to take out the trash.,Remind me to take out the trash,0.0,complete,1.1799999999999997,2.46,0.0
+remind_study/remind_study_owner_20260930-124342-918.wav,remind_study,end_of_speech,2.9,Remind me to study for my exam.,Remind me to study for my exam,0.0,complete,1.0599999999999996,2.56,0.0
+list_reminders/list_reminders_owner_20260930-124347-076.wav,list_reminders,end_of_speech,2.5,What are my reminders?,What are my reminders?,0.0,complete,0.0,1.8,0.0
+call_jane/call_jane_owner_20260930-124350-723.wav,call_jane,end_of_speech,2.1,Cold drink,Call Jane,0.667,other,0.0,1.48,0.0
+text_jane/text_jane_owner_20260930-124355-492.wav,text_jane,no_speech_detected,3.3,Text Jane.,Text Jane,0.0,complete,0.8199999999999998,1.66,0.0
+unknown_silent/unknown_silent_owner_20260930-124400-358.wav,unknown_silent,no_speech_detected,3.3,,,1.0,empty,,,0.0
+unknown_other/unknown_other_owner_20260930-124406-140.wav,unknown_other,end_of_speech,3.2,What is the recipe for adobo?,,1.0,other,0.0,2.62,0.0
+play_music/play_music_owner_20260930-124414-253.wav,play_music,end_of_speech,2.5,Play music.,Play music,0.0,complete,0.0,1.56,0.0
+weather/weather_owner_20260930-124418-614.wav,weather,end_of_speech,2.3,That's the weather.,What's the weather?,0.105,complete,0.0,1.38,0.0
+time/time_owner_20260930-124425-610.wav,time,end_of_speech,2.4,What time is it?,What time is it?,0.0,complete,0.9800000000000002,1.8,0.0
+lights_on/lights_on_owner_20260930-124429-871.wav,lights_on,end_of_speech,2.3,Turn on lights.,Turn on lights,0.0,complete,0.76,1.64,0.0
+lights_off/lights_off_owner_20260930-124433-624.wav,lights_off,end_of_speech,2.2,Turn off lights.,Turn off lights,0.0,complete,0.6599999999999999,1.6,0.0
+dim_lights_20/dim_lights_20_owner_20260930-124438-390.wav,dim_lights_20,end_of_speech,2.8,dim lights to 20%,Dim lights to 20 percent / Dim lights to 20%,0.0,complete,0.0,2.24,0.0
+dim_lights_50/dim_lights_50_owner_20260930-124443-258.wav,dim_lights_50,end_of_speech,2.9,dim lights to 50%,Dim lights to 50 percent / Dim lights to 50%,0.0,complete,0.76,2.36,0.0
+dim_lights_80/dim_lights_80_owner_20260930-124447-823.wav,dim_lights_80,end_of_speech,2.9,dim lights to 80%,Dim lights to 80 percent / Dim lights to 80%,0.0,complete,0.8000000000000005,2.34,0.0
+set_timer_1/set_timer_1_owner_20260930-124452-488.wav,set_timer_1,end_of_speech,3.0,Set a timer for 1 minute.,Set a timer for 1 minute,0.0,complete,0.6599999999999999,2.48,0.0
+set_timer_5/set_timer_5_owner_20260930-124456-950.wav,set_timer_5,end_of_speech,2.9,Set a timer for 5 minutes.,Set a timer for 5 minutes,0.0,complete,0.7399999999999995,2.42,0.0
+set_timer_10/set_timer_10_owner_20260930-124501-717.wav,set_timer_10,end_of_speech,3.0,Set a timer for 10 minutes.,Set a timer for 10 minutes,0.0,complete,0.7399999999999995,2.46,0.0
+set_alarm_6am/set_alarm_6am_owner_20260930-124506-585.wav,set_alarm_6am,end_of_speech,3.1,Set an alarm at 6 a.m.,Set an alarm at 6 AM,0.0,complete,0.5800000000000001,2.62,0.0
+set_alarm_7am/set_alarm_7am_owner_20260930-124511-251.wav,set_alarm_7am,end_of_speech,2.9,set an alarm at 7am,Set an alarm at 7 AM,0.0,complete,0.8600000000000001,2.46,0.0
+set_alarm_9pm/set_alarm_9pm_owner_20260930-124515-912.wav,set_alarm_9pm,end_of_speech,3.0,Set an alarm at 9pm.,Set an alarm at 9 PM,0.0,complete,0.78,2.23,0.0
+set_temperature_18/set_temperature_18_owner_20260930-124521-289.wav,set_temperature_18,end_of_speech,3.5,Set temperature to 18 degrees,Set temperature to 18 degrees,0.0,complete,0.0,2.88,0.0
+set_temperature_22/set_temperature_22_owner_20260930-124528-493.wav,set_temperature_22,end_of_speech,3.3,set temperature to 22 degrees,Set temperature to 22 degrees,0.0,complete,0.0,2.78,0.0
+set_temperature_26/set_temperature_26_owner_20260930-124533-665.wav,set_temperature_26,end_of_speech,3.3,set temperature to 26 degrees,Set temperature to 26 degrees,0.0,complete,0.0,2.86,0.0
+pause/pause_owner_20260930-124538-936.wav,pause,no_speech_detected,3.4,Boss.,Pause,0.8,other,0.0,1.2,0.0
+stop/stop_owner_20260930-124543-601.wav,stop,no_speech_detected,3.4,Stop.,Stop,0.0,complete,0.0,0.78,0.0
+next/next_owner_20260930-124548-366.wav,next,no_speech_detected,3.4,Next.,Next,0.0,complete,0.0,1.04,0.0
+skip/skip_owner_20260930-124553-437.wav,skip,no_speech_detected,3.4,Skip.,Skip,0.0,complete,0.0,1.26,0.0
+volume_up/volume_up_owner_20260930-124557-194.wav,volume_up,end_of_speech,2.3,Volume up.,Volume up,0.0,complete,0.0,1.6,0.0
+louder/louder_owner_20260930-124600-944.wav,louder,end_of_speech,2.2,Louder.,Louder,0.0,complete,0.0,1.54,0.0
+volume_down/volume_down_owner_20260930-124604-797.wav,volume_down,end_of_speech,2.5,Volume down.,Volume down,0.0,complete,0.0,1.78,0.0
+remind_trash/remind_trash_owner_20260930-124609-056.wav,remind_trash,end_of_speech,2.7,Remind me to take out the trash.,Remind me to take out the trash,0.0,complete,1.2399999999999998,2.6,0.0
+remind_study/remind_study_owner_20260930-124613-621.wav,remind_study,end_of_speech,2.9,Remind me to study for my exam.,Remind me to study for my exam,0.0,complete,0.9599999999999997,2.54,0.0
+list_reminders/list_reminders_owner_20260930-124617-679.wav,list_reminders,end_of_speech,2.3,what are my reminders,What are my reminders?,0.0,complete,0.72,1.66,0.0
+call_jane/call_jane_owner_20260930-124621-227.wav,call_jane,end_of_speech,2.1,called Jane.,Call Jane,0.222,complete,0.78,1.44,0.0
+text_jane/text_jane_owner_20260930-124626-097.wav,text_jane,no_speech_detected,3.4,Next team.,Text Jane,0.556,other,0.0,1.6,0.0
+unknown_silent/unknown_silent_owner_20260930-124701-793.wav,unknown_silent,no_speech_detected,3.4,Thank you for watching.,,1.0,other,0.0,2.84,0.0
+unknown_other/unknown_other_owner_20260930-124708-994.wav,unknown_other,end_of_speech,2.9,Bring me the cup.,,1.0,other,1.2399999999999995,2.16,0.0
+play_music/play_music_owner_20260930-124724-610.wav,play_music,end_of_speech,2.5,Play music.,Play music,0.0,complete,0.0,1.6,0.0
+weather/weather_owner_20260930-124728-565.wav,weather,end_of_speech,2.5,What's the weather?,What's the weather?,0.0,complete,0.8600000000000001,1.82,0.0
+time/time_owner_20260930-124732-320.wav,time,end_of_speech,2.3,What time is it?,What time is it?,0.0,complete,0.8599999999999997,1.8,0.0
+lights_on/lights_on_owner_20260930-124736-273.wav,lights_on,end_of_speech,2.5,Turn on lights,Turn on lights,0.0,complete,0.0,1.76,0.0
+lights_off/lights_off_owner_20260930-124740-228.wav,lights_off,end_of_speech,2.6,Turn off lights,Turn off lights,0.0,complete,0.0,1.86,0.0
+dim_lights_20/dim_lights_20_owner_20260930-124744-792.wav,dim_lights_20,end_of_speech,3.2,dim lights to 20%,Dim lights to 20 percent / Dim lights to 20%,0.0,complete,0.0,2.62,0.0
+dim_lights_50/dim_lights_50_owner_20260930-124749-155.wav,dim_lights_50,end_of_speech,2.9,the dim lights to 50 percent,Dim lights to 50 percent / Dim lights to 50%,0.148,complete,0.0,2.44,0.0
+dim_lights_80/dim_lights_80_owner_20260930-124753-823.wav,dim_lights_80,end_of_speech,3.2,dim light to 80%,Dim lights to 80 percent / Dim lights to 80%,0.036,complete,0.0,2.64,0.0
+set_timer_1/set_timer_1_owner_20260930-124758-687.wav,set_timer_1,end_of_speech,3.4,Let's set the timer for one minute.,Set a timer for 1 minute,0.385,other,0.0,2.68,0.0
+set_timer_5/set_timer_5_owner_20260930-124803-455.wav,set_timer_5,end_of_speech,3.3,Set a timer for five minutes,Set a timer for 5 minutes,0.0,complete,0.0,2.66,0.0
+set_timer_10/set_timer_10_owner_20260930-124807-914.wav,set_timer_10,end_of_speech,3.2,set the timer for 10 minutes,Set a timer for 10 minutes,0.111,complete,0.0,2.52,0.0
+set_alarm_6am/set_alarm_6am_owner_20260930-124812-684.wav,set_alarm_6am,end_of_speech,3.5,set an alarm for 6 a.m.,Set an alarm at 6 AM,0.13,complete,0.0,2.96,0.0
+set_alarm_7am/set_alarm_7am_owner_20260930-124817-448.wav,set_alarm_7am,end_of_speech,3.2,set an alarm at 7 a.m.,Set an alarm at 7 AM,0.0,complete,0.0,2.66,0.0
+set_alarm_9pm/set_alarm_9pm_owner_20260930-124822-317.wav,set_alarm_9pm,end_of_speech,3.4,set an alarm at 9 p.m.,Set an alarm at 9 PM,0.0,complete,0.0,2.86,0.0
+set_temperature_18/set_temperature_18_owner_20260930-124827-084.wav,set_temperature_18,end_of_speech,3.2,set temperature to 18 degrees,Set temperature to 18 degrees,0.0,complete,0.0,2.62,0.0
+set_temperature_22/set_temperature_22_owner_20260930-124832-364.wav,set_temperature_22,end_of_speech,3.7,set temperature to 22 degrees,Set temperature to 22 degrees,0.0,complete,0.0,2.92,0.0
+set_temperature_26/set_temperature_26_owner_20260930-124837-533.wav,set_temperature_26,end_of_speech,3.8,set temperature to 26 degrees,Set temperature to 26 degrees,0.0,complete,0.0,3.02,0.0
+pause/pause_owner_20260930-124841-284.wav,pause,end_of_speech,2.2,Pause.,Pause,0.0,complete,0.0,1.26,0.0
+stop/stop_owner_20260930-124844-940.wav,stop,end_of_speech,2.2,Stop!,Stop,0.0,complete,0.8200000000000001,1.3,0.0
+next/next_owner_20260930-124848-592.wav,next,end_of_speech,2.2,See you next time!,Next,3.25,other,0.0,1.8,0.0
+skip/skip_owner_20260930-124853-261.wav,skip,no_speech_detected,3.4,skip,Skip,0.0,complete,0.0,1.26,0.0
+volume_up/volume_up_owner_20260930-124857-420.wav,volume_up,end_of_speech,2.4,the volume up.,Volume up,0.444,other,0.0,1.72,0.0
+louder/louder_owner_20260930-124901-073.wav,louder,end_of_speech,2.3,louder,Louder,0.0,complete,0.0,1.14,0.0
+volume_down/volume_down_owner_20260930-124904-927.wav,volume_down,end_of_speech,2.5,the volume down,Volume down,0.364,other,0.0,1.76,0.0
+remind_trash/remind_trash_owner_20260930-124910-203.wav,remind_trash,end_of_speech,4.0,Remind me to take out the trash,Remind me to take out the trash,0.0,complete,1.0399999999999996,2.96,0.0
+remind_study/remind_study_owner_20260930-124915-582.wav,remind_study,end_of_speech,3.9,But remind me to study for my exam.,Remind me to study for my exam,0.133,complete,0.8200000000000001,3.2,0.0
+list_reminders/list_reminders_owner_20260930-124920-047.wav,list_reminders,end_of_speech,2.9,what are my reminders,What are my reminders?,0.0,complete,0.76,1.98,0.0
+call_jane/call_jane_owner_20260930-124923-898.wav,call_jane,end_of_speech,2.5,the call chain,Call Jane,0.889,other,0.0,1.7,0.0
+text_jane/text_jane_owner_20260930-124927-957.wav,text_jane,end_of_speech,2.6,text chain,Text Jane,0.444,other,0.0,1.82,0.0
+unknown_silent/unknown_silent_owner_20260930-124932-627.wav,unknown_silent,no_speech_detected,3.4,Ta-ta.,,1.0,other,0.0,0.34,0.0
+unknown_other/unknown_other_owner_20260930-124936-988.wav,unknown_other,end_of_speech,2.5,I love Bebby.,,1.0,other,0.0,1.94,0.0
+play_music/play_music_owner_20260930-124941-148.wav,play_music,end_of_speech,2.5,play music,Play music,0.0,complete,0.0,1.58,0.0
+weather/weather_owner_20260930-124945-511.wav,weather,end_of_speech,2.6,What's the weather?,What's the weather?,0.0,complete,1.04,1.84,0.0
+time/time_owner_20260930-125346-449.wav,time,no_speech_detected,3.4,What time is it?,What time is it?,0.0,complete,0.9000000000000001,1.94,0.0
+lights_on/lights_on_owner_20260930-125355-475.wav,lights_on,no_speech_detected,3.4,They're not lights.,Turn on lights,0.5,other,0.8400000000000003,2.0,0.0
+lights_off/lights_off_owner_20260930-125421-032.wav,lights_off,no_speech_detected,3.4,Ten of Flags.,Turn off lights,0.467,other,0.9400000000000004,2.26,0.0
+dim_lights_20/dim_lights_20_owner_20260930-125427-731.wav,dim_lights_20,no_speech_detected,3.4,,Dim lights to 20 percent / Dim lights to 20%,1.0,empty,,,0.0
+set_timer_1/set_timer_1_owner_20260930-125546-946.wav,set_timer_1,no_speech_detected,3.4,"Now, set the timer for one minute.",Set a timer for 1 minute,0.269,other,0.0,2.76,0.04
+set_timer_5/set_timer_5_owner_20260930-125552-424.wav,set_timer_5,no_speech_detected,3.4,I'm gonna set the timer for 5 minutes.,Set a timer for 5 minutes,0.5,other,0.0,2.7,0.0
+set_timer_10/set_timer_10_owner_20260930-125600-333.wav,set_timer_10,no_speech_detected,3.4,"Santa, set the timer for 10 minutes.",Set a timer for 10 minutes,0.333,other,0.0,2.7,0.04
+set_alarm_6am/set_alarm_6am_owner_20260930-125605-396.wav,set_alarm_6am,no_speech_detected,3.4,Set an alarm at 6 a.m.,Set an alarm at 6 AM,0.0,complete,0.72,2.74,0.0
+set_alarm_7am/set_alarm_7am_owner_20260930-125613-214.wav,set_alarm_7am,no_speech_detected,3.4,set an alarm and send an email,Set an alarm at 7 AM,0.4,other,0.8800000000000001,2.42,0.0
+set_alarm_9pm/set_alarm_9pm_owner_20260930-125618-085.wav,set_alarm_9pm,no_speech_detected,3.4,Set an alarm at 9pm.,Set an alarm at 9 PM,0.0,complete,0.8800000000000001,2.62,0.0
+set_temperature_18/set_temperature_18_owner_20260930-125625-999.wav,set_temperature_18,no_speech_detected,3.4,Set the temperature to 80 degrees.,Set temperature to 18 degrees,0.2,complete,0.8999999999999999,2.64,0.0
+set_temperature_22/set_temperature_22_owner_20260930-125631-373.wav,set_temperature_22,no_speech_detected,3.4,"Now, set the temperature to 20 degrees.",Set temperature to 22 degrees,0.324,other,0.0,2.96,0.04
+set_temperature_26/set_temperature_26_owner_20260930-125636-950.wav,set_temperature_26,no_speech_detected,3.4,"September 12th, 2068.",Set temperature to 26 degrees,0.676,other,0.0,3.12,0.16
+pause/pause_owner_20260930-125642-428.wav,pause,no_speech_detected,3.4,Thanks for watching!,Pause,3.4,other,0.0,2.18,0.0
+stop/stop_owner_20260930-125647-396.wav,stop,no_speech_detected,3.4,"Yeah, I'll post that one.",Stop,5.0,other,0.0,1.56,0.12
+next/next_owner_20260930-125652-166.wav,next,no_speech_detected,3.4,Thanks.,Next,1.5,other,0.0,1.44,0.0
+skip/skip_owner_20260930-125659-973.wav,skip,no_speech_detected,3.4,He's cute.,Skip,2.0,other,0.8200000000000001,1.42,0.0
+volume_up/volume_up_owner_20260930-125704-841.wav,volume_up,no_speech_detected,3.4,I am mom.,Volume up,0.889,other,0.6199999999999999,1.7,0.0
+louder/louder_owner_20260930-125709-913.wav,louder,no_speech_detected,3.4,Louder.,Louder,0.0,complete,0.0,1.64,0.0
+volume_down/volume_down_owner_20260930-125714-882.wav,volume_down,no_speech_detected,3.4,What do you want?,Volume down,1.091,other,1.0799999999999996,1.86,0.0
+remind_trash/remind_trash_owner_20260930-125719-753.wav,remind_trash,no_speech_detected,3.4,"Well, you might need to think about the cash.",Remind me to take out the trash,0.71,other,0.0,2.7,0.0
+remind_study/remind_study_owner_20260930-125724-923.wav,remind_study,no_speech_detected,3.4,,Remind me to study for my exam,1.0,empty,,,0.0
+list_reminders/list_reminders_owner_20260930-125730-300.wav,list_reminders,no_speech_detected,3.4,What are my reminders?,What are my reminders?,0.0,complete,0.8200000000000003,2.2,0.0
+call_jane/call_jane_owner_20260930-125735-372.wav,call_jane,no_speech_detected,3.4,I love you.,Call Jane,1.0,other,0.0,1.64,0.0
+text_jane/text_jane_owner_20260930-125740-345.wav,text_jane,no_speech_detected,3.4,See you next time!,Text Jane,1.333,other,0.0,1.62,0.0
+unknown_silent/unknown_silent_owner_20260930-125745-411.wav,unknown_silent,no_speech_detected,3.4,Thank you.,,1.0,other,1.1400000000000003,1.32,0.0
+unknown_other/unknown_other_owner_20260930-125750-380.wav,unknown_other,no_speech_detected,3.4,I love my movie.,,1.0,other,0.0,1.92,0.0
+play_music/play_music_owner_20260930-125954-729.wav,play_music,end_of_speech,2.5,Play music.,Play music,0.0,complete,0.8599999999999999,1.76,0.0
+weather/weather_owner_20260930-125959-499.wav,weather,end_of_speech,2.8,What's the weather?,What's the weather?,0.0,complete,0.98,1.94,0.0
+time/time_owner_20260930-130004-264.wav,time,end_of_speech,3.0,What time is it?,What time is it?,0.0,complete,1.16,2.26,0.0
+lights_on/lights_on_owner_20260930-130008-727.wav,lights_on,end_of_speech,2.6,Turn on lights.,Turn on lights,0.0,complete,1.0199999999999998,2.04,0.0
+lights_off/lights_off_owner_20260930-130012-882.wav,lights_off,end_of_speech,2.4,Turn off the lights.,Turn off lights,0.267,other,0.8400000000000001,1.86,0.0
+dim_lights_20/dim_lights_20_owner_20260930-130017-547.wav,dim_lights_20,end_of_speech,3.2,dim lights to 20%,Dim lights to 20 percent / Dim lights to 20%,0.0,complete,0.6800000000000004,2.54,0.0
+dim_lights_50/dim_lights_50_owner_20260930-130022-315.wav,dim_lights_50,end_of_speech,3.2,dim lights to 50%,Dim lights to 50 percent / Dim lights to 50%,0.0,complete,0.7399999999999998,2.54,0.0
+dim_lights_80/dim_lights_80_owner_20260930-130027-081.wav,dim_lights_80,end_of_speech,3.1,dim lights to 80%,Dim lights to 80 percent / Dim lights to 80%,0.0,complete,0.8799999999999999,2.42,0.0
+set_timer_1/set_timer_1_owner_20260930-130031-848.wav,set_timer_1,end_of_speech,3.1,Set the timer for 1 minute.,Set a timer for 1 minute,0.115,complete,0.8799999999999994,2.74,0.0
+set_timer_5/set_timer_5_owner_20260930-130036-718.wav,set_timer_5,end_of_speech,3.3,Set the timer for 5 minutes.,Set a timer for 5 minutes,0.107,complete,0.8000000000000005,2.74,0.0
+set_timer_10/set_timer_10_owner_20260930-130041-787.wav,set_timer_10,end_of_speech,3.2,Set the timer for 10 minutes.,Set a timer for 10 minutes,0.111,complete,0.72,2.66,0.0
+set_alarm_6am/set_alarm_6am_owner_20260930-130047-670.wav,set_alarm_6am,end_of_speech,3.9,Set an alarm at 6 a.m.,Set an alarm at 6 AM,0.0,complete,0.96,3.16,0.0
+set_alarm_7am/set_alarm_7am_owner_20260930-130052-640.wav,set_alarm_7am,end_of_speech,3.2,Set an alarm at 7 a.m.,Set an alarm at 7 AM,0.0,complete,0.8200000000000001,2.78,0.0
+set_alarm_9pm/set_alarm_9pm_owner_20260930-130058-525.wav,set_alarm_9pm,end_of_speech,3.8,set an alarm at 9pm,Set an alarm at 9 PM,0.0,complete,1.1999999999999995,2.82,0.0
+set_temperature_18/set_temperature_18_owner_20260930-130103-798.wav,set_temperature_18,end_of_speech,3.4,set temperature to 18 degrees,Set temperature to 18 degrees,0.0,complete,0.0,2.78,0.0
+set_temperature_22/set_temperature_22_owner_20260930-130109-374.wav,set_temperature_22,end_of_speech,3.9,set temperature to 22 degrees,Set temperature to 22 degrees,0.0,complete,0.0,3.0,0.0
+set_temperature_26/set_temperature_26_owner_20260930-130114-345.wav,set_temperature_26,end_of_speech,3.2,set temperature to 26 degrees,Set temperature to 26 degrees,0.0,complete,0.0,2.92,0.0
+pause/pause_owner_20260930-130119-618.wav,pause,no_speech_detected,3.4,Pause.,Pause,0.0,complete,0.0,1.28,0.0
+stop/stop_owner_20260930-130124-387.wav,stop,no_speech_detected,3.4,Stop.,Stop,0.0,complete,0.0,0.8,0.0
+next/next_owner_20260930-130129-253.wav,next,no_speech_detected,3.4,Next.,Next,0.0,complete,0.0,1.4,0.0
+skip/skip_owner_20260930-130134-021.wav,skip,no_speech_detected,3.4,Skip.,Skip,0.0,complete,0.0,1.24,0.0
+volume_up/volume_up_owner_20260930-130137-977.wav,volume_up,end_of_speech,2.4,Volume up!,Volume up,0.0,complete,1.0,1.72,0.0
+louder/louder_owner_20260930-130141-526.wav,louder,end_of_speech,2.0,That's all. Now do it.,Louder,2.833,other,0.0,1.6,0.92
+volume_down/volume_down_owner_20260930-130145-584.wav,volume_down,end_of_speech,2.4,,Volume down,1.0,empty,,,0.0
+remind_trash/remind_trash_owner_20260930-130150-652.wav,remind_trash,end_of_speech,3.4,Remind me to take out the trash.,Remind me to take out the trash,0.0,complete,1.02,2.42,0.0
+remind_study/remind_study_owner_20260930-130155-522.wav,remind_study,end_of_speech,3.3,Remind me to study for my exam.,Remind me to study for my exam,0.0,complete,1.1,2.8,0.0
+list_reminders/list_reminders_owner_20260930-130200-292.wav,list_reminders,end_of_speech,2.9,What are my reminders?,What are my reminders?,0.0,complete,0.0,1.98,0.0
+call_jane/call_jane_owner_20260930-130204-348.wav,call_jane,end_of_speech,2.4,Call Jane.,Call Jane,0.0,complete,0.0,1.68,0.0
+text_jane/text_jane_owner_20260930-130208-401.wav,text_jane,end_of_speech,2.4,"Thanks, Jane.",Text Jane,0.556,other,0.9199999999999997,1.58,0.02
+unknown_silent/unknown_silent_owner_20260930-130213-470.wav,unknown_silent,no_speech_detected,3.4,Thank you for watching.,,1.0,other,0.0,2.94,0.0
+unknown_other/unknown_other_owner_20260930-130218-745.wav,unknown_other,end_of_speech,3.1,A command that you don't recognize.,,1.0,other,0.8,2.4,0.0
+play_music/play_music_owner_20260930-130256-679.wav,play_music,max_length,5.3,Play music.,Play music,0.0,complete,0.0,1.66,0.0
+weather/weather_owner_20260930-130303-679.wav,weather,max_length,4.9,what's the weather but they look so gentle,What's the weather?,1.263,other,1.02,3.94,0.0
+time/time_owner_20260930-130313-214.wav,time,max_length,5.4,What time is it?,What time is it?,0.0,complete,0.8600000000000001,1.9,0.0
+lights_on/lights_on_owner_20260930-130318-185.wav,lights_on,end_of_speech,3.2,and,Turn on lights,0.929,other,1.7800000000000002,2.4800000000000004,0.0
+lights_off/lights_off_owner_20260930-130329-643.wav,lights_off,max_length,4.8,I don't know.,Turn off lights,0.867,cut_off,0.0,4.76,0.0
+dim_lights_20/dim_lights_20_owner_20260930-130337-046.wav,dim_lights_20,max_length,5.5,The lights to 20%.,Dim lights to 20 percent / Dim lights to 20%,0.107,complete,0.0,2.44,0.0
+dim_lights_50/dim_lights_50_owner_20260930-130344-146.wav,dim_lights_50,end_of_speech,5.5,"I study there, they select very few, even before you go there.",Dim lights to 50 percent / Dim lights to 50%,1.778,other,0.0,4.68,0.18
+set_timer_1/set_timer_1_owner_20260930-130358-648.wav,set_timer_1,max_length,5.0,how powerful you are,Set a timer for 1 minute,0.731,other,0.0,3.92,0.0
+set_timer_5/set_timer_5_owner_20260930-130405-141.wav,set_timer_5,max_length,4.9,Set the timer for 5 minutes.,Set a timer for 5 minutes,0.107,complete,0.0,2.68,0.0
+set_timer_10/set_timer_10_owner_20260930-130414-068.wav,set_timer_10,end_of_speech,3.7,set the timer for 10 minutes,Set a timer for 10 minutes,0.111,complete,0.7799999999999998,2.58,0.0
+set_alarm_6am/set_alarm_6am_owner_20260930-130425-627.wav,set_alarm_6am,end_of_speech,4.0,set an alarm at 6am it's fine,Set an alarm at 6 AM,0.478,other,0.9199999999999999,3.22,0.0
+set_alarm_7am/set_alarm_7am_owner_20260930-130431-205.wav,set_alarm_7am,end_of_speech,3.7,7am,Set an alarm at 7 AM,0.64,other,0.0,2.2,0.0
+set_alarm_9pm/set_alarm_9pm_owner_20260930-130436-175.wav,set_alarm_9pm,end_of_speech,3.1,Set an alarm at 9 p.m.,Set an alarm at 9 PM,0.0,complete,0.94,2.88,0.0
+set_temperature_18/set_temperature_18_owner_20260930-130442-770.wav,set_temperature_18,end_of_speech,4.5,Set temperature to 18 degrees.,Set temperature to 18 degrees,0.0,complete,0.0,2.88,0.0
+set_temperature_22/set_temperature_22_owner_20260930-130447-027.wav,set_temperature_22,end_of_speech,2.9,the temperature to 22 degrees,Set temperature to 22 degrees,0.081,complete,0.0,2.6,0.0
+set_temperature_26/set_temperature_26_owner_20260930-130452-101.wav,set_temperature_26,end_of_speech,3.4,Set temperature to 26 degrees.,Set temperature to 26 degrees,0.0,complete,0.0,2.78,0.0
+pause/pause_owner_20260930-130501-943.wav,pause,max_length,4.9,Ask from all the Philippines and all over the world. Thank you. Thank you. Thank you,Pause,15.6,other,0.0,4.66,0.16
+stop/stop_owner_20260930-130508-332.wav,stop,max_length,4.8,"Our community, and as we always say, even though.",Stop,10.75,other,0.0,4.02,0.2
+next/next_owner_20260930-130515-123.wav,next,max_length,5.3,we encourage you to use our videos as your background audio when you're doing other,Next,20.0,other,0.0,5.08,0.0
+skip/skip_owner_20260930-130518-368.wav,skip,end_of_speech,1.5,Thank you.,Skip,2.0,other,0.0,0.3,0.0
+volume_up/volume_up_owner_20260930-130523-645.wav,volume_up,end_of_speech,3.5,,Volume up,1.0,empty,,,0.0
+louder/louder_owner_20260930-130531-352.wav,louder,max_length,5.4,"Please, please, and of course, we encourage you to also binge watch.",Louder,9.833,other,0.0,5.08,0.06
+volume_down/volume_down_owner_20260930-130538-351.wav,volume_down,max_length,5.5,episode and today get ready to be inspired,Volume down,3.273,other,1.7400000000000007,5.02,0.0
+remind_trash/remind_trash_owner_20260930-130545-244.wav,remind_trash,max_length,5.4,"Hi everyone, welcome to another Pasabog na episode na Teng Talks Yo",Remind me to take out the trash,1.548,cut_off,0.8599999999999994,5.26,0.0
+remind_study/remind_study_owner_20260930-130558-428.wav,remind_study,max_length,5.4,Remind me to study for my exam.,Remind me to study for my exam,0.0,complete,1.08,2.58,0.0
+list_reminders/list_reminders_owner_20260930-130608-671.wav,list_reminders,end_of_speech,4.5,Not our high reminders. The intro.,What are my reminders?,0.952,other,0.0,3.68,0.32
+call_jane/call_jane_owner_20260930-130615-872.wav,call_jane,max_length,5.7,"Thank you to this wonderful woman. She is a veteran actress, multi-award winning.",Call Jane,8.0,cut_off,0.0,5.68,0.26
+text_jane/text_jane_owner_20260930-130621-448.wav,text_jane,end_of_speech,4.2,"Thanks, Jay. Thanks, Jay. For me...",Text Jane,2.444,other,0.6200000000000001,3.12,0.2
+unknown_silent/unknown_silent_owner_20260930-130628-338.wav,unknown_silent,max_length,5.2,fact that you offer me one of the more,,1.0,other,0.0,2.7,0.0
+unknown_other/unknown_other_owner_20260930-130634-932.wav,unknown_other,max_length,4.9,Turn on the refrigerator.,,1.0,other,0.9400000000000004,2.06,0.0
+play_music/play_music_owner_20260930-133641-286.wav,play_music,end_of_speech,2.5,and play music,Play music,0.4,other,0.0,1.86,0.0
+weather/weather_owner_20260930-133648-778.wav,weather,no_speech_detected,3.4,What's the weather?,What's the weather?,0.0,complete,0.8,1.76,0.0
+time/time_owner_20260930-133653-940.wav,time,no_speech_detected,3.3,"Delta, what time is it?",What time is it?,0.0,complete,0.26,1.84,0.0
+lights_on/lights_on_owner_20260930-133658-698.wav,lights_on,no_speech_detected,3.3,Turn on the light,Turn on lights,0.357,other,0.0,1.64,0.0
+lights_off/lights_off_owner_20260930-133703-455.wav,lights_off,no_speech_detected,3.3,Turn off lights.,Turn off lights,0.0,complete,0.0,1.9,0.0
+dim_lights_20/dim_lights_20_owner_20260930-133708-109.wav,dim_lights_20,no_speech_detected,3.3,and dim lights to 20%,Dim lights to 20 percent / Dim lights to 20%,0.143,complete,0.0,2.7,0.0
+dim_lights_50/dim_lights_50_owner_20260930-133713-171.wav,dim_lights_50,no_speech_detected,3.3,He lights the 50%.,Dim lights to 50 percent / Dim lights to 50%,0.185,complete,0.0,2.42,0.0
+dim_lights_80/dim_lights_80_owner_20260930-133718-029.wav,dim_lights_80,no_speech_detected,3.3,dim lights to 80%,Dim lights to 80 percent / Dim lights to 80%,0.0,complete,0.7999999999999998,2.58,0.0
+set_timer_1/set_timer_1_owner_20260930-133723-091.wav,set_timer_1,no_speech_detected,3.3,Set the timer for one minute.,Set a timer for 1 minute,0.115,complete,0.7200000000000004,2.66,0.0
+set_timer_5/set_timer_5_owner_20260930-133728-153.wav,set_timer_5,no_speech_detected,3.3,Set the timer for 5 minutes.,Set a timer for 5 minutes,0.107,complete,0.6400000000000003,2.74,0.0
+set_timer_10/set_timer_10_owner_20260930-133733-214.wav,set_timer_10,no_speech_detected,3.3,Set the timer for 10 minutes.,Set a timer for 10 minutes,0.111,complete,0.7400000000000004,2.72,0.0
+set_alarm_6am/set_alarm_6am_owner_20260930-133738-378.wav,set_alarm_6am,end_of_speech,3.5,and set an alarm at 6 a.m.,Set an alarm at 6 AM,0.174,complete,0.8199999999999996,2.8,0.0
+set_alarm_7am/set_alarm_7am_owner_20260930-133743-527.wav,set_alarm_7am,no_speech_detected,3.4,and set an alarm at 7 a.m.,Set an alarm at 7 AM,0.16,complete,0.6200000000000001,2.76,0.0
+set_alarm_9pm/set_alarm_9pm_owner_20260930-133748-499.wav,set_alarm_9pm,no_speech_detected,3.4,Set an alarm at 9pm.,Set an alarm at 9 PM,0.0,complete,0.7200000000000002,2.26,0.0
+set_temperature_18/set_temperature_18_owner_20260930-133753-463.wav,set_temperature_18,no_speech_detected,3.4,"Well, set temperature to 80 degrees.",Set temperature to 18 degrees,0.229,complete,0.0,2.82,0.0
+set_temperature_22/set_temperature_22_owner_20260930-133758-421.wav,set_temperature_22,no_speech_detected,3.4,set temperature to 22 degrees.,Set temperature to 22 degrees,0.0,complete,0.0,3.06,0.0
+set_temperature_26/set_temperature_26_owner_20260930-133803-482.wav,set_temperature_26,no_speech_detected,3.4,Set temperature to 26 degrees.,Set temperature to 26 degrees,0.0,complete,0.0,2.86,0.0
+pause/pause_owner_20260930-133808-553.wav,pause,no_speech_detected,3.4,"Ah, boss.",Pause,1.2,other,0.0,1.24,0.0
+stop/stop_owner_20260930-133813-212.wav,stop,no_speech_detected,3.4,Stop.,Stop,0.0,complete,0.0,1.1,0.0
+next/next_owner_20260930-133817-164.wav,next,end_of_speech,2.7,"12, next.",Next,1.75,other,0.0,1.18,0.02
+skip/skip_owner_20260930-133821-926.wav,skip,no_speech_detected,3.4,"And, uh, see ya.",Skip,3.0,other,0.0,1.3,0.16
+volume_up/volume_up_owner_20260930-133826-587.wav,volume_up,no_speech_detected,3.4,the volume up.,Volume up,0.444,other,0.0,1.52,0.0
+louder/louder_owner_20260930-133831-439.wav,louder,no_speech_detected,3.4,,Louder,1.0,empty,,,0.0
+volume_down/volume_down_owner_20260930-133836-214.wav,volume_down,no_speech_detected,3.4,Going down.,Volume down,0.455,other,0.0,1.84,0.0
+remind_trash/remind_trash_owner_20260930-133840-973.wav,remind_trash,no_speech_detected,3.4,"I don't know about that, but it might be to take out the trash.",Remind me to take out the trash,1.129,other,0.0,2.46,0.0
+remind_study/remind_study_owner_20260930-133845-941.wav,remind_study,no_speech_detected,3.4,Remind me to study for my exam.,Remind me to study for my exam,0.0,complete,1.22,2.88,0.0
+list_reminders/list_reminders_owner_20260930-133851-103.wav,list_reminders,no_speech_detected,3.4,What are my reminders?,What are my reminders?,0.0,complete,0.0,1.98,0.0
+call_jane/call_jane_owner_20260930-133856-067.wav,call_jane,no_speech_detected,3.4,4G,Call Jane,0.889,other,0.0,1.38,0.0
+text_jane/text_jane_owner_20260930-133900-729.wav,text_jane,no_speech_detected,3.4,"about that. Thanks, Gina.",Text Jane,1.889,other,0.0,1.74,0.52
+unknown_silent/unknown_silent_owner_20260930-133905-592.wav,unknown_silent,no_speech_detected,3.4,Thank you.,,1.0,other,0.0,0.48,0.0
+unknown_other/unknown_other_owner_20260930-133924-227.wav,unknown_other,no_speech_detected,3.4,Set a timer for 20 minutes.,,1.0,other,0.0,2.78,0.0
+play_music/play_music_owner_20260930-134607-242.wav,play_music,no_speech_detected,3.4,I love the clean music,Play music,1.4,other,0.0,1.66,0.0
+weather/weather_owner_20260930-134612-708.wav,weather,no_speech_detected,3.3,What's the weather?,What's the weather?,0.0,complete,0.0,1.78,0.0
+time/time_owner_20260930-134617-565.wav,time,no_speech_detected,3.3,What time is it? Time is up.,What time is it?,0.733,other,0.9199999999999997,2.66,0.08
+lights_on/lights_on_owner_20260930-134622-325.wav,lights_on,no_speech_detected,3.3,Turn on lights.,Turn on lights,0.0,complete,0.0,1.64,0.0
+lights_off/lights_off_owner_20260930-134626-260.wav,lights_off,end_of_speech,2.2,Turn off lights.,Turn off lights,0.0,complete,0.6000000000000001,1.6,0.0
+dim_lights_20/dim_lights_20_owner_20260930-134631-029.wav,dim_lights_20,end_of_speech,2.9,Green lights to 20%,Dim lights to 20 percent / Dim lights to 20%,0.179,complete,0.0,2.6,0.0
+dim_lights_50/dim_lights_50_owner_20260930-134640-748.wav,dim_lights_50,no_speech_detected,3.3,Dim light to 50%,Dim lights to 50 percent / Dim lights to 50%,0.037,complete,0.6799999999999999,2.5,0.0
+dim_lights_80/dim_lights_80_owner_20260930-134645-104.wav,dim_lights_80,end_of_speech,2.6,Dim lights to 80%,Dim lights to 80 percent / Dim lights to 80%,0.0,complete,0.78,2.26,0.0
+set_timer_1/set_timer_1_owner_20260930-134650-266.wav,set_timer_1,no_speech_detected,3.3,Set the timer for one minute.,Set a timer for 1 minute,0.115,complete,0.5799999999999996,2.48,0.0
+set_timer_5/set_timer_5_owner_20260930-134655-026.wav,set_timer_5,no_speech_detected,3.3,Set the timer for 5 minutes.,Set a timer for 5 minutes,0.107,complete,0.6399999999999999,2.58,0.0
+set_timer_10/set_timer_10_owner_20260930-134659-481.wav,set_timer_10,end_of_speech,2.7,Set the timer for 10 minutes.,Set a timer for 10 minutes,0.111,complete,0.7000000000000004,2.42,0.0
+set_alarm_6am/set_alarm_6am_owner_20260930-134704-137.wav,set_alarm_6am,end_of_speech,2.6,,Set an alarm at 6 AM,1.0,empty,,,0.0
+set_alarm_7am/set_alarm_7am_owner_20260930-134712-744.wav,set_alarm_7am,no_speech_detected,3.4,Set an alarm at 7am.,Set an alarm at 7 AM,0.0,complete,0.0,3.1,0.0
+set_temperature_18/set_temperature_18_owner_20260930-134723-170.wav,set_temperature_18,end_of_speech,2.8,Set temperature to 18 degrees.,Set temperature to 18 degrees,0.0,complete,0.0,2.68,0.0
+set_temperature_22/set_temperature_22_owner_20260930-134728-742.wav,set_temperature_22,no_speech_detected,3.4,Set temperature to 22 degrees.,Set temperature to 22 degrees,0.0,complete,0.0,3.14,0.0
+set_temperature_26/set_temperature_26_owner_20260930-134733-905.wav,set_temperature_26,no_speech_detected,3.4,Set temperature to 26 degrees.,Set temperature to 26 degrees,0.0,complete,0.0,2.78,0.0
+pause/pause_owner_20260930-134739-874.wav,pause,end_of_speech,3.9,Boss Boss,Pause,1.6,other,0.0,3.14,0.7
+stop/stop_owner_20260930-134743-418.wav,stop,end_of_speech,1.9,"Stop, stop.",Stop,1.25,other,0.0,1.14,0.0
+next/next_owner_20260930-134748-681.wav,next,end_of_speech,3.9,Next. Next.,Next,1.25,other,0.0,3.0,1.18
+skip/skip_owner_20260930-134753-645.wav,skip,no_speech_detected,3.4,,Skip,1.0,empty,,,0.0
+volume_up/volume_up_owner_20260930-134757-590.wav,volume_up,end_of_speech,2.3,Volume up!,Volume up,0.0,complete,0.0,1.64,0.0
+louder/louder_owner_20260930-134804-069.wav,louder,end_of_speech,2.1,,Louder,1.0,empty,,,0.0
+volume_down/volume_down_owner_20260930-134811-158.wav,volume_down,no_speech_detected,3.4,I'm going to go to the bathroom and I'm going to clean up.,Volume down,4.818,other,0.0,1.6,0.0
+remind_trash/remind_trash_owner_20260930-134816-118.wav,remind_trash,no_speech_detected,3.4,Remind them to take out the trash.,Remind me to take out the trash,0.097,complete,1.1600000000000004,2.64,0.0
+remind_study/remind_study_owner_20260930-134821-078.wav,remind_study,no_speech_detected,3.4,Remind me to study for my exam.,Remind me to study for my exam,0.0,complete,1.0,2.66,0.0
+list_reminders/list_reminders_owner_20260930-134825-230.wav,list_reminders,end_of_speech,2.5,What are my reminders?,What are my reminders?,0.0,complete,0.9199999999999997,2.04,0.0
+call_jane/call_jane_owner_20260930-134830-393.wav,call_jane,no_speech_detected,3.4,Let's go to the living room.,Call Jane,2.889,other,0.0,1.54,0.0
+text_jane/text_jane_owner_20260930-134835-054.wav,text_jane,no_speech_detected,3.4,"Thanks, James.",Text Jane,0.778,other,0.0,1.48,0.04
+unknown_silent/unknown_silent_owner_20260930-134839-710.wav,unknown_silent,no_speech_detected,3.4,,,1.0,empty,,,0.0
+unknown_other/unknown_other_owner_20260930-134845-278.wav,unknown_other,no_speech_detected,3.4,It's called Michelle.,,1.0,other,0.0,1.5,0.0
+play_music/play_music_owner_20260930-134906-435.wav,play_music,end_of_speech,3.2,Play music,Play music,0.0,complete,0.0,2.18,0.0
+weather/weather_owner_20260930-134911-495.wav,weather,end_of_speech,3.0,What's the weather?,What's the weather?,0.0,complete,1.5,2.34,0.0
+time/time_owner_20260930-134916-661.wav,time,end_of_speech,3.3,What time is it?,What time is it?,0.0,complete,1.5400000000000005,2.62,0.0
+lights_on/lights_on_owner_20260930-134921-318.wav,lights_on,end_of_speech,2.8,Turn on lights.,Turn on lights,0.0,complete,0.0,2.24,0.0
+lights_off/lights_off_owner_20260930-134925-468.wav,lights_off,end_of_speech,2.5,Turn off lights,Turn off lights,0.0,complete,0.0,2.14,0.0
+dim_lights_20/dim_lights_20_owner_20260930-134931-951.wav,dim_lights_20,end_of_speech,4.6,dim lights to 20%,Dim lights to 20 percent / Dim lights to 20%,0.0,complete,0.9600000000000002,4.3,0.0
+dim_lights_50/dim_lights_50_owner_20260930-134938-126.wav,dim_lights_50,end_of_speech,4.3,dim lights to 50%,Dim lights to 50 percent / Dim lights to 50%,0.0,complete,1.1000000000000003,3.56,0.0
+dim_lights_80/dim_lights_80_owner_20260930-134943-492.wav,dim_lights_80,end_of_speech,3.6,dim lights to 80%,Dim lights to 80 percent / Dim lights to 80%,0.0,complete,0.9399999999999995,3.1,0.0
+set_timer_1/set_timer_1_owner_20260930-134948-653.wav,set_timer_1,end_of_speech,3.3,Set the timer.,Set a timer for 1 minute,0.692,other,1.04,2.08,0.0
+set_timer_10/set_timer_10_owner_20260930-135001-716.wav,set_timer_10,end_of_speech,3.7,set a timer for 10 minutes,Set a timer for 10 minutes,0.0,complete,0.0,3.14,0.0
+set_alarm_6am/set_alarm_6am_owner_20260930-135007-486.wav,set_alarm_6am,end_of_speech,4.1,set an alarm at 6 a.m.,Set an alarm at 6 AM,0.0,complete,0.0,3.66,0.0
+set_alarm_9pm/set_alarm_9pm_owner_20260930-135019-335.wav,set_alarm_9pm,end_of_speech,3.9,Set an alarm at 9 p.m.,Set an alarm at 9 PM,0.0,complete,0.0,3.74,0.0
+set_temperature_18/set_temperature_18_owner_20260930-135025-510.wav,set_temperature_18,end_of_speech,4.4,set temperature to 18 degrees,Set temperature to 18 degrees,0.0,complete,0.0,3.78,0.0
+set_temperature_22/set_temperature_22_owner_20260930-135031-582.wav,set_temperature_22,end_of_speech,4.4,set temperature to 22 degrees,Set temperature to 22 degrees,0.0,complete,0.0,3.68,0.0
+set_temperature_26/set_temperature_26_owner_20260930-135037-859.wav,set_temperature_26,end_of_speech,4.6,set temperature to 26 degrees,Set temperature to 26 degrees,0.0,complete,0.0,3.84,0.0
+pause/pause_owner_20260930-135042-822.wav,pause,no_speech_detected,3.3,pause,Pause,0.0,complete,0.0,1.0,0.0
+stop/stop_owner_20260930-135047-479.wav,stop,no_speech_detected,3.3,Stop.,Stop,0.0,complete,0.0,0.96,0.0
+next/next_owner_20260930-135052-334.wav,next,no_speech_detected,3.3,Next.,Next,0.0,complete,0.0,1.08,0.0
+skip/skip_owner_20260930-135057-599.wav,skip,no_speech_detected,3.3,skip,Skip,0.0,complete,0.0,1.1,0.0
+volume_up/volume_up_owner_20260930-135101-143.wav,volume_up,end_of_speech,2.4,Volume up,Volume up,0.0,complete,0.0,1.64,0.0
+louder/louder_owner_20260930-135105-094.wav,louder,end_of_speech,2.2,Louder,Louder,0.0,complete,0.0,1.46,0.0
+volume_down/volume_down_owner_20260930-135109-854.wav,volume_down,end_of_speech,3.2,"Okay, volume down.",Volume down,0.455,other,0.0,2.32,0.0
+remind_trash/remind_trash_owner_20260930-135116-433.wav,remind_trash,end_of_speech,4.9,Remind me to take out the trash.,Remind me to take out the trash,0.0,complete,1.0999999999999999,4.16,0.0
+list_reminders/list_reminders_owner_20260930-135127-366.wav,list_reminders,end_of_speech,2.9,What are my reminders?,What are my reminders?,0.0,complete,0.0,1.9,0.0
+call_jane/call_jane_owner_20260930-135131-314.wav,call_jane,end_of_speech,2.3,Call Jane.,Call Jane,0.0,complete,0.0,1.58,0.0
+text_jane/text_jane_owner_20260930-135135-261.wav,text_jane,end_of_speech,2.4,Texting.,Text Jane,0.444,other,0.0,1.74,0.0
+unknown_silent/unknown_silent_owner_20260930-135140-123.wav,unknown_silent,no_speech_detected,3.3,Thank you.,,1.0,other,0.8999999999999999,0.96,0.0
+unknown_other/unknown_other_owner_20260930-135150-246.wav,unknown_other,end_of_speech,3.8,Set an alarm for 1.30pm,,1.0,other,0.0,3.5,0.0
+play_music/play_music_owner_20260930-135209-074.wav,play_music,end_of_speech,2.8,the play news,Play music,0.9,other,0.0,2.26,0.0
+weather/weather_owner_20260930-135217-680.wav,weather,end_of_speech,2.6,What's that?,What's the weather?,0.368,other,1.5200000000000005,2.2,0.0
+time/time_owner_20260930-135224-160.wav,time,no_speech_detected,3.3,What time is it?,What time is it?,0.0,complete,0.0,2.96,0.0
+lights_on/lights_on_owner_20260930-135231-955.wav,lights_on,end_of_speech,3.3,Turn on lights.,Turn on lights,0.0,complete,0.0,2.84,0.0
+lights_off/lights_off_owner_20260930-135237-627.wav,lights_off,end_of_speech,3.6,turn off lights,Turn off lights,0.0,complete,0.0,2.94,0.0
+dim_lights_20/dim_lights_20_owner_20260930-135242-086.wav,dim_lights_20,end_of_speech,2.8,The lights,Dim lights to 20 percent / Dim lights to 20%,0.75,other,0.0,2.04,0.0
+dim_lights_50/dim_lights_50_owner_20260930-135248-763.wav,dim_lights_50,end_of_speech,2.6,The lights,Dim lights to 50 percent / Dim lights to 50%,0.741,other,0.0,1.92,0.0
+dim_lights_80/dim_lights_80_owner_20260930-135255-241.wav,dim_lights_80,no_speech_detected,3.3,dim lights to 80%,Dim lights to 80 percent / Dim lights to 80%,0.0,complete,0.0,2.42,0.0
+set_timer_1/set_timer_1_owner_20260930-135301-217.wav,set_timer_1,end_of_speech,4.3,Set the timer for one minute,Set a timer for 1 minute,0.115,complete,0.0,3.9,0.0
+set_timer_5/set_timer_5_owner_20260930-135306-682.wav,set_timer_5,no_speech_detected,3.3,Set the timer for five minutes,Set a timer for 5 minutes,0.107,complete,0.0,2.96,0.0
+set_timer_10/set_timer_10_owner_20260930-135311-237.wav,set_timer_10,end_of_speech,2.7,set the timer for 10,Set a timer for 10 minutes,0.407,other,0.0,2.5,0.0
+set_alarm_6am/set_alarm_6am_owner_20260930-135316-810.wav,set_alarm_6am,no_speech_detected,3.3,Set an alarm at 6 a.m.,Set an alarm at 6 AM,0.0,complete,0.0,2.52,0.0
+set_alarm_7am/set_alarm_7am_owner_20260930-135324-903.wav,set_alarm_7am,end_of_speech,2.4,Set an alarm at 7 a.m.,Set an alarm at 7 AM,0.0,complete,0.8600000000000001,2.38,0.0
+set_alarm_9pm/set_alarm_9pm_owner_20260930-135330-065.wav,set_alarm_9pm,no_speech_detected,3.3,Set an alarm at 9pm,Set an alarm at 9 PM,0.0,complete,0.0,2.52,0.0
+set_temperature_18/set_temperature_18_owner_20260930-135335-031.wav,set_temperature_18,no_speech_detected,3.3,set temperature to 18 degrees,Set temperature to 18 degrees,0.0,complete,0.0,2.7,0.0
+set_temperature_22/set_temperature_22_owner_20260930-135339-484.wav,set_temperature_22,end_of_speech,2.7,set temperature to 22,Set temperature to 22 degrees,0.216,complete,0.0,2.5,0.0
+set_temperature_26/set_temperature_26_owner_20260930-135344-950.wav,set_temperature_26,end_of_speech,3.3,temperature to 26,Set temperature to 26 degrees,0.324,other,0.0,3.06,0.0
+pause/pause_owner_20260930-135350-924.wav,pause,no_speech_detected,3.3,force,Pause,0.8,other,0.0,1.22,0.0
+stop/stop_owner_20260930-135355-580.wav,stop,no_speech_detected,3.3,Stop.,Stop,0.0,complete,0.0,1.14,0.0
+next/next_owner_20260930-135400-137.wav,next,no_speech_detected,3.3,Next.,Next,0.0,complete,0.0,1.36,0.0
+skip/skip_owner_20260930-135410-059.wav,skip,no_speech_detected,3.3,Skip.,Skip,0.0,complete,0.0,1.28,0.0
+louder/louder_owner_20260930-135419-882.wav,louder,no_speech_detected,3.3,No other.,Louder,0.833,other,0.5999999999999999,1.44,0.0
+volume_down/volume_down_owner_20260930-135423-320.wav,volume_down,end_of_speech,2.2,Volume down.,Volume down,0.0,complete,0.0,1.7,0.0
+remind_trash/remind_trash_owner_20260930-135428-387.wav,remind_trash,no_speech_detected,3.3,Remind me to take out the trash.,Remind me to take out the trash,0.0,complete,0.9199999999999999,2.44,0.0
+remind_study/remind_study_owner_20260930-135433-445.wav,remind_study,no_speech_detected,3.3,Remind me to study for my exam.,Remind me to study for my exam,0.0,complete,1.22,2.92,0.0
+list_reminders/list_reminders_owner_20260930-135441-443.wav,list_reminders,no_speech_detected,3.3,What are my reminders?,What are my reminders?,0.0,complete,0.0,2.22,0.0
+call_jane/call_jane_owner_20260930-135446-506.wav,call_jane,no_speech_detected,3.3,Call Jane.,Call Jane,0.0,complete,0.0,1.44,0.0
+text_jane/text_jane_owner_20260930-135451-059.wav,text_jane,no_speech_detected,3.3,them. Thanks Jane.,Text Jane,0.889,other,0.0,1.64,0.7
+unknown_silent/unknown_silent_owner_20260930-135507-660.wav,unknown_silent,no_speech_detected,3.3,,,1.0,empty,,,0.0
+unknown_other/unknown_other_owner_20260930-135512-114.wav,unknown_other,end_of_speech,2.3,Remind me...,,1.0,other,0.0,2.06,0.0
+play_music/play_music_owner_20260930-161850-266.wav,play_music,end_of_speech,2.7,Play music,Play music,0.0,complete,0.0,1.58,0.0
+weather/weather_owner_20260930-161855-224.wav,weather,end_of_speech,3.0,What's the weather?,What's the weather?,0.0,complete,0.6800000000000002,1.6,0.0
+time/time_owner_20260930-161900-388.wav,time,end_of_speech,3.6,What time is it?,What time is it?,0.0,complete,0.76,1.8,0.0
+lights_on/lights_on_owner_20260930-161906-954.wav,lights_on,end_of_speech,5.1,Turn on lights.,Turn on lights,0.0,complete,0.98,2.1,0.0
+lights_off/lights_off_owner_20260930-161914-663.wav,lights_off,end_of_speech,5.6,Turn off lights.,Turn off lights,0.0,complete,0.7800000000000002,1.9,0.0
+dim_lights_20/dim_lights_20_owner_20260930-161920-935.wav,dim_lights_20,end_of_speech,4.5,"For the top, dim the lights to 20%.",Dim lights to 20 percent / Dim lights to 20%,0.571,other,0.0,2.66,0.16
+dim_lights_50/dim_lights_50_owner_20260930-161926-406.wav,dim_lights_50,end_of_speech,3.5,"In Delta, dim lights to 50%.",Dim lights to 50 percent / Dim lights to 50%,0.333,other,0.0,2.6,0.0
+set_timer_1/set_timer_1_owner_20260930-161936-933.wav,set_timer_1,end_of_speech,3.6,"Delta, set a timer for one minute.",Set a timer for 1 minute,0.0,complete,0.22,2.76,0.0
+set_timer_5/set_timer_5_owner_20260930-161942-701.wav,set_timer_5,end_of_speech,4.2,Set the timer for 5 minutes.,Set a timer for 5 minutes,0.107,complete,0.7999999999999996,2.76,0.0
+set_timer_10/set_timer_10_owner_20260930-161947-561.wav,set_timer_10,no_speech_detected,3.4,Set a timer for 10 minutes.,Set a timer for 10 minutes,0.0,complete,0.7799999999999996,2.56,0.0
+set_alarm_6am/set_alarm_6am_owner_20260930-161952-527.wav,set_alarm_6am,no_speech_detected,3.4,Set an alarm at 6 a.m.,Set an alarm at 6 AM,0.0,complete,0.7199999999999995,2.72,0.0
+set_alarm_7am/set_alarm_7am_owner_20260930-161957-480.wav,set_alarm_7am,no_speech_detected,3.4,Set an alarm at 7am.,Set an alarm at 7 AM,0.0,complete,0.6199999999999997,2.42,0.0
+set_alarm_9pm/set_alarm_9pm_owner_20260930-162002-540.wav,set_alarm_9pm,end_of_speech,3.4,"Delta, set an alarm at 9 p.m.",Set an alarm at 9 PM,0.0,complete,0.2,2.62,0.0
+set_temperature_18/set_temperature_18_owner_20260930-162007-506.wav,set_temperature_18,no_speech_detected,3.4,Set temperature to 80 degrees.,Set temperature to 18 degrees,0.086,complete,0.7600000000000002,2.84,0.0
+set_temperature_22/set_temperature_22_owner_20260930-162013-071.wav,set_temperature_22,no_speech_detected,3.4,It's at temperature 22 degrees.,Set temperature to 22 degrees,0.243,complete,0.0,2.86,0.0
+set_temperature_26/set_temperature_26_owner_20260930-162018-434.wav,set_temperature_26,no_speech_detected,3.4,Set temperature to 26 degrees.,Set temperature to 26 degrees,0.0,complete,0.0,2.86,0.0
+pause/pause_owner_20260930-162023-698.wav,pause,no_speech_detected,3.4,Well done. Boss.,Pause,2.6,other,0.0,1.24,0.72
+stop/stop_owner_20260930-162028-454.wav,stop,no_speech_detected,3.4,Stop. Stop.,Stop,1.25,other,0.0,1.02,0.14
+next/next_owner_20260930-162033-113.wav,next,no_speech_detected,3.4,Next.,Next,0.0,complete,0.0,1.12,0.0
+skip/skip_owner_20260930-162037-870.wav,skip,no_speech_detected,3.4,"And uh, skip.",Skip,1.75,other,0.0,1.22,0.12
+volume_up/volume_up_owner_20260930-162042-829.wav,volume_up,no_speech_detected,3.4,I'm gonna turn the volume up.,Volume up,2.222,other,0.0,1.76,0.0
+louder/louder_owner_20260930-162047-791.wav,louder,no_speech_detected,3.4,a little bit louder,Louder,2.167,other,0.0,1.34,0.0
+volume_down/volume_down_owner_20260930-162055-285.wav,volume_down,no_speech_detected,3.4,Now we're going to go back to volume down.,Volume down,2.727,other,0.0,1.74,0.0
+remind_trash/remind_trash_owner_20260930-162105-105.wav,remind_trash,no_speech_detected,3.4,Remind me to take out the trash.,Remind me to take out the trash,0.0,complete,1.02,2.4,0.0
+remind_study/remind_study_owner_20260930-162110-153.wav,remind_study,no_speech_detected,3.4,Remind me to study for my exam.,Remind me to study for my exam,0.0,complete,1.1,2.88,0.0
+list_reminders/list_reminders_owner_20260930-162115-730.wav,list_reminders,no_speech_detected,3.4,What are my reminders?,What are my reminders?,0.0,complete,0.0,2.04,0.0
+call_jane/call_jane_owner_20260930-162122-110.wav,call_jane,no_speech_detected,3.4,,Call Jane,1.0,empty,,,0.0
+text_jane/text_jane_owner_20260930-162127-779.wav,text_jane,no_speech_detected,3.4,"Thanks, Jane.",Text Jane,0.556,other,0.98,1.78,0.08
+unknown_silent/unknown_silent_owner_20260930-162133-247.wav,unknown_silent,no_speech_detected,3.4,I don't know about that.,,1.0,other,0.0,0.16,0.0
+unknown_other/unknown_other_owner_20260930-162558-449.wav,unknown_other,no_speech_detected,3.3,"Okay, set a timer.",,1.0,other,0.0,2.46,0.1
+play_music/play_music_owner_20260930-162606-967.wav,play_music,no_speech_detected,3.3,Play music.,Play music,0.0,complete,0.0,1.66,0.0
+weather/weather_owner_20260930-162612-130.wav,weather,no_speech_detected,3.3,What's the weather?,What's the weather?,0.0,complete,0.0,2.08,0.0
+time/time_owner_20260930-162617-593.wav,time,no_speech_detected,3.3,What time is it?,What time is it?,0.0,complete,0.8999999999999999,2.4,0.0
+lights_on/lights_on_owner_20260930-162622-858.wav,lights_on,no_speech_detected,3.3,Turn on the lights.,Turn on lights,0.286,other,0.0,2.36,0.0
+lights_off/lights_off_owner_20260930-162628-009.wav,lights_off,no_speech_detected,3.3,Turn off lights.,Turn off lights,0.0,complete,0.0,2.46,0.0
+dim_lights_20/dim_lights_20_owner_20260930-162653-836.wav,dim_lights_20,no_speech_detected,3.3,dim light to 20%,Dim lights to 20 percent / Dim lights to 20%,0.036,complete,0.0,2.8,0.0
+dim_lights_50/dim_lights_50_owner_20260930-162659-506.wav,dim_lights_50,no_speech_detected,3.3,take lights to 50%,Dim lights to 50 percent / Dim lights to 50%,0.148,cut_off,0.0,3.16,0.0
+set_timer_1/set_timer_1_owner_20260930-162718-940.wav,set_timer_1,no_speech_detected,3.3,Set the timer for one minute.,Set a timer for 1 minute,0.115,complete,0.0,2.66,0.0
+set_timer_5/set_timer_5_owner_20260930-162724-003.wav,set_timer_5,no_speech_detected,3.3,set the timer for 5 minutes,Set a timer for 5 minutes,0.107,complete,0.0,2.84,0.0
+set_timer_10/set_timer_10_owner_20260930-162728-961.wav,set_timer_10,no_speech_detected,3.3,and set the timer for 10 minutes.,Set a timer for 10 minutes,0.259,other,0.0,2.64,0.0
+set_alarm_6am/set_alarm_6am_owner_20260930-162734-025.wav,set_alarm_6am,no_speech_detected,3.3,Set an alarm at 6 a.m.,Set an alarm at 6 AM,0.0,cut_off,0.0,3.18,0.0
+set_alarm_7am/set_alarm_7am_owner_20260930-162739-187.wav,set_alarm_7am,no_speech_detected,3.3,and set an alarm at 7 p.m.,Set an alarm at 7 AM,0.2,complete,0.0,3.1,0.0
+set_alarm_9pm/set_alarm_9pm_owner_20260930-162744-248.wav,set_alarm_9pm,no_speech_detected,3.3,Set an alarm at 9 p.m.,Set an alarm at 9 PM,0.0,cut_off,0.0,3.2,0.0
+set_temperature_18/set_temperature_18_owner_20260930-162749-611.wav,set_temperature_18,no_speech_detected,3.3,Set temperature to 80 degrees.,Set temperature to 18 degrees,0.086,complete,0.0,2.68,0.0
+set_temperature_22/set_temperature_22_owner_20260930-162806-012.wav,set_temperature_22,no_speech_detected,3.3,set temperature to 22 degrees.,Set temperature to 22 degrees,0.0,complete,0.0,2.92,0.0
+set_temperature_26/set_temperature_26_owner_20260930-162811-076.wav,set_temperature_26,no_speech_detected,3.3,Set the temperature to 26 degrees.,Set temperature to 26 degrees,0.108,complete,0.0,2.94,0.0
+pause/pause_owner_20260930-162816-038.wav,pause,no_speech_detected,3.3,that loss.,Pause,1.4,other,0.0,1.16,0.0
+stop/stop_owner_20260930-162820-694.wav,stop,no_speech_detected,3.3,Stop. Stop.,Stop,1.25,other,0.0,1.32,0.02
+next/next_owner_20260930-162825-654.wav,next,no_speech_detected,3.3,Thanks.,Next,1.5,other,0.0,1.44,0.0
+skip/skip_owner_20260930-162830-410.wav,skip,no_speech_detected,3.3,That's it.,Skip,1.75,other,0.6400000000000001,1.24,0.0
+volume_up/volume_up_owner_20260930-162834-863.wav,volume_up,no_speech_detected,3.3,"Pull it up, pull it up.",Volume up,1.778,other,0.0,1.68,0.0
+louder/louder_owner_20260930-162839-626.wav,louder,no_speech_detected,3.3,I love it.,Louder,1.167,other,0.6000000000000001,1.6,0.0
+volume_down/volume_down_owner_20260930-162844-178.wav,volume_down,no_speech_detected,3.3,Hold him down.,Volume down,0.545,other,0.0,1.68,0.0
+remind_trash/remind_trash_owner_20260930-162848-935.wav,remind_trash,no_speech_detected,3.3,I might be the take of the trash.,Remind me to take out the trash,0.323,other,0.6800000000000006,2.58,0.0
+remind_study/remind_study_owner_20260930-162854-100.wav,remind_study,no_speech_detected,3.3,Remind me to study for my exam.,Remind me to study for my exam,0.0,complete,1.18,2.9,0.0
+list_reminders/list_reminders_owner_20260930-162859-268.wav,list_reminders,no_speech_detected,3.3,What are my reminders?,What are my reminders?,0.0,complete,0.6400000000000003,2.04,0.0
+call_jane/call_jane_owner_20260930-162904-224.wav,call_jane,no_speech_detected,3.3,Good day.,Call Jane,0.778,other,0.7,1.54,0.0
+text_jane/text_jane_owner_20260930-162909-084.wav,text_jane,end_of_speech,3.6,"Next, Jane.",Text Jane,0.111,complete,0.72,1.56,0.14
+unknown_silent/unknown_silent_owner_20260930-162913-942.wav,unknown_silent,no_speech_detected,3.3,Thank you for watching.,,1.0,other,0.0,2.82,0.0
+unknown_other/unknown_other_owner_20260930-162929-331.wav,unknown_other,no_speech_detected,3.3,I don't know about all of you.,,1.0,other,0.0,1.7,0.0
+play_music/play_music_owner_20260930-163027-538.wav,play_music,no_speech_detected,3.3,Play music,Play music,0.0,complete,0.0,1.78,0.0
+weather/weather_owner_20260930-163033-206.wav,weather,no_speech_detected,3.3,What's the weather?,What's the weather?,0.0,complete,0.8400000000000003,1.88,0.0
+time/time_owner_20260930-163037-660.wav,time,end_of_speech,2.7,What time is it?,What time is it?,0.0,complete,0.6799999999999999,1.96,0.0
+lights_on/lights_on_owner_20260930-163042-824.wav,lights_on,no_speech_detected,3.3,Turn on lights.,Turn on lights,0.0,complete,0.8400000000000001,1.88,0.0
+lights_off/lights_off_owner_20260930-163047-886.wav,lights_off,end_of_speech,3.4,Turn off the lights.,Turn off lights,0.267,other,1.4400000000000002,2.34,0.0
+dim_lights_20/dim_lights_20_owner_20260930-163052-950.wav,dim_lights_20,no_speech_detected,3.3,"In the meantime, team lights to 20%.",Dim lights to 20 percent / Dim lights to 20%,0.643,other,0.0,2.76,0.0
+dim_lights_50/dim_lights_50_owner_20260930-163058-114.wav,dim_lights_50,no_speech_detected,3.3,This is the data. Deadlines to 50%,Dim lights to 50 percent / Dim lights to 50%,0.778,other,0.0,2.54,1.1
+set_timer_1/set_timer_1_owner_20260930-163108-846.wav,set_timer_1,end_of_speech,3.6,Set the timer for one minute.,Set a timer for 1 minute,0.115,complete,0.7000000000000004,2.58,0.0
+set_timer_5/set_timer_5_owner_20260930-163113-902.wav,set_timer_5,end_of_speech,3.5,Send a timer for 5 minutes.,Set a timer for 5 minutes,0.071,complete,0.7600000000000005,2.62,0.0
+set_timer_10/set_timer_10_owner_20260930-163119-068.wav,set_timer_10,no_speech_detected,3.3,Set a timer for 10 minutes.,Set a timer for 10 minutes,0.0,complete,0.6599999999999995,2.58,0.0
+set_alarm_6am/set_alarm_6am_owner_20260930-163124-529.wav,set_alarm_6am,end_of_speech,3.4,Set an alarm and succeed.,Set an alarm at 6 AM,0.348,other,0.7800000000000002,2.32,0.0
+set_alarm_7am/set_alarm_7am_owner_20260930-163130-404.wav,set_alarm_7am,end_of_speech,3.9,Set an alarm at 17.,Set an alarm at 7 AM,0.16,complete,0.8200000000000003,2.26,0.0
+set_alarm_9pm/set_alarm_9pm_owner_20260930-163135-871.wav,set_alarm_9pm,end_of_speech,3.7,Set an alarm at 9 p.m.,Set an alarm at 9 PM,0.0,complete,0.8600000000000001,2.48,0.0
+set_temperature_18/set_temperature_18_owner_20260930-163140-935.wav,set_temperature_18,no_speech_detected,3.3,Set temperature to 80 degrees.,Set temperature to 18 degrees,0.086,complete,0.0,2.66,0.0
+set_temperature_22/set_temperature_22_owner_20260930-163152-575.wav,set_temperature_22,end_of_speech,4.1,at a set temperature of 22 degrees.,Set temperature to 22 degrees,0.189,complete,0.0,3.02,0.0
+set_temperature_26/set_temperature_26_owner_20260930-163158-749.wav,set_temperature_26,end_of_speech,4.6,Set temperature to 26 degrees.,Set temperature to 26 degrees,0.0,complete,0.0,2.92,0.0
+pause/pause_owner_20260930-163204-013.wav,pause,no_speech_detected,3.3,,Pause,1.0,empty,,,0.0
+stop/stop_owner_20260930-163208-468.wav,stop,no_speech_detected,3.3,,Stop,1.0,empty,,,0.0
+next/next_owner_20260930-163213-631.wav,next,end_of_speech,3.8,,Next,1.0,empty,,,0.0
+skip/skip_owner_20260930-163218-286.wav,skip,no_speech_detected,3.3,,Skip,1.0,empty,,,0.0
+volume_up/volume_up_owner_20260930-163223-853.wav,volume_up,end_of_speech,4.1,,Volume up,1.0,empty,,,0.0
+louder/louder_owner_20260930-163228-414.wav,louder,end_of_speech,3.2,Louder,Louder,0.0,complete,0.0,1.88,0.0
+volume_down/volume_down_owner_20260930-163237-423.wav,volume_down,end_of_speech,6.4,,Volume down,1.0,empty,,,0.0
+remind_trash/remind_trash_owner_20260930-163243-295.wav,remind_trash,end_of_speech,4.1,Reminds me to take out the trash.,Remind me to take out the trash,0.032,complete,1.18,2.7,0.0
+remind_study/remind_study_owner_20260930-163250-177.wav,remind_study,end_of_speech,5.0,Remind me to study for my exam.,Remind me to study for my exam,0.0,complete,1.1,2.9,0.0
+list_reminders/list_reminders_owner_20260930-163256-354.wav,list_reminders,end_of_speech,4.4,What are my reminders?,What are my reminders?,0.0,complete,0.0,2.04,0.0
+call_jane/call_jane_owner_20260930-163301-212.wav,call_jane,no_speech_detected,3.3,,Call Jane,1.0,empty,,,0.0
+text_jane/text_jane_owner_20260930-163306-175.wav,text_jane,no_speech_detected,3.3,"Okay. Thanks, Jane. No problem. Thank you.",Text Jane,3.444,other,0.0,2.86,0.44
+unknown_silent/unknown_silent_owner_20260930-163311-336.wav,unknown_silent,no_speech_detected,3.3,Thank you very much.,,1.0,other,0.0,0.52,0.0
+unknown_other/unknown_other_owner_20260930-163323-788.wav,unknown_other,no_speech_detected,3.3,that. Never mind.,,1.0,other,0.0,1.88,0.6
+dim_lights_80/dim_lights_80_owner_20260930-164342-940.wav,dim_lights_80,end_of_speech,2.9,Team likes to 80%,Dim lights to 80 percent / Dim lights to 80%,0.214,complete,0.9399999999999995,2.52,0.0
+dim_lights_80/dim_lights_80_owner_20260930-164358-327.wav,dim_lights_80,max_length,7.4,and dim lights to 80%,Dim lights to 80 percent / Dim lights to 80%,0.143,complete,0.0,2.28,0.0
+dim_lights_80/dim_lights_80_owner_20260930-164405-918.wav,dim_lights_80,end_of_speech,5.8,dim lights to 80%,Dim lights to 80 percent / Dim lights to 80%,0.0,complete,0.0,2.46,0.0
+dim_lights_80/dim_lights_80_owner_20260930-164413-106.wav,dim_lights_80,end_of_speech,5.3,It shows dim light in 80% of the time.,Dim lights to 80 percent / Dim lights to 80%,0.857,other,0.0,3.86,0.0
+dim_lights_80/dim_lights_80_owner_20260930-164423-641.wav,dim_lights_80,end_of_speech,5.1,dim lights to 80%,Dim lights to 80 percent / Dim lights to 80%,0.0,complete,0.0,3.28,0.0
+dim_lights_80/dim_lights_80_owner_20260930-164431-115.wav,dim_lights_80,end_of_speech,4.0,green lights by 80%,Dim lights to 80 percent / Dim lights to 80%,0.25,complete,0.0,2.5,0.0
+dim_lights_80/dim_lights_80_owner_20260930-164444-390.wav,dim_lights_80,no_speech_detected,3.4,Team likes the 80%,Dim lights to 80 percent / Dim lights to 80%,0.286,other,0.0,2.3,0.0
+play_music/play_music_owner_20260930-164917-070.wav,play_music,end_of_speech,2.9,Play music,Play music,0.0,complete,0.0,1.5,0.0
+weather/weather_owner_20260930-164921-738.wav,weather,end_of_speech,2.9,What's the weather?,What's the weather?,0.0,complete,0.0,1.6,0.0
+time/time_owner_20260930-164926-396.wav,time,end_of_speech,3.0,What time is it?,What time is it?,0.0,complete,0.76,1.88,0.0
+lights_on/lights_on_owner_20260930-164935-611.wav,lights_on,end_of_speech,2.9,Turn on lights,Turn on lights,0.0,complete,0.0,1.72,0.0
+lights_off/lights_off_owner_20260930-164941-179.wav,lights_off,end_of_speech,3.0,Turn off lights.,Turn off lights,0.0,complete,0.0,1.82,0.0
+dim_lights_20/dim_lights_20_owner_20260930-164946-849.wav,dim_lights_20,end_of_speech,4.0,beam lights to 20%,Dim lights to 20 percent / Dim lights to 20%,0.107,complete,0.0,2.64,0.0
+dim_lights_50/dim_lights_50_owner_20260930-164952-110.wav,dim_lights_50,end_of_speech,3.8,dim lights to 50%,Dim lights to 50 percent / Dim lights to 50%,0.0,complete,0.0,2.54,0.0
+dim_lights_80/dim_lights_80_owner_20260930-165234-390.wav,dim_lights_80,end_of_speech,3.9,beam lights to 80%,Dim lights to 80 percent / Dim lights to 80%,0.107,complete,0.7599999999999996,2.58,0.0
+set_timer_1/set_timer_1_owner_20260930-165242-799.wav,set_timer_1,end_of_speech,6.4,Set a timer for one minute.,Set a timer for 1 minute,0.0,complete,0.6599999999999999,2.64,0.0
+set_timer_5/set_timer_5_owner_20260930-165248-766.wav,set_timer_5,end_of_speech,4.2,Set a timer for 5 minutes.,Set a timer for 5 minutes,0.0,complete,0.6799999999999995,2.76,0.0
+set_timer_10/set_timer_10_owner_20260930-165257-674.wav,set_timer_10,max_length,7.4,Set a timer for 10 minutes.,Set a timer for 10 minutes,0.0,complete,0.6200000000000003,2.6,0.0
+set_alarm_6am/set_alarm_6am_owner_20260930-165306-783.wav,set_alarm_6am,end_of_speech,7.4,"Delta, set an alarm at 6 a.m.",Set an alarm at 6 AM,0.0,complete,0.22,3.24,0.0
+set_alarm_7am/set_alarm_7am_owner_20260930-165315-690.wav,set_alarm_7am,max_length,7.1,Set an alarm at 7 am.,Set an alarm at 7 AM,0.0,complete,0.8,2.64,0.0
+set_alarm_9pm/set_alarm_9pm_owner_20260930-165322-066.wav,set_alarm_9pm,end_of_speech,4.1,Set an alarm at 9pm.,Set an alarm at 9 PM,0.0,complete,0.6800000000000002,2.64,0.0
+set_temperature_18/set_temperature_18_owner_20260930-165328-547.wav,set_temperature_18,end_of_speech,4.7,set temperature to 80 degrees,Set temperature to 18 degrees,0.086,complete,0.0,2.62,0.0
+set_temperature_22/set_temperature_22_owner_20260930-165336-042.wav,set_temperature_22,end_of_speech,6.0,It's a temperature to 22 degrees.,Set temperature to 22 degrees,0.162,complete,0.0,2.86,0.0
+set_temperature_26/set_temperature_26_owner_20260930-165342-823.wav,set_temperature_26,end_of_speech,5.2,set temperature to 26 degrees,Set temperature to 26 degrees,0.0,complete,0.0,2.92,0.0
+pause/pause_owner_20260930-165346-567.wav,pause,end_of_speech,2.5,Pause.,Pause,0.0,complete,0.0,1.22,0.0
+stop/stop_owner_20260930-165351-122.wav,stop,end_of_speech,3.0,Stop that. Stop.,Stop,2.5,other,0.0,1.18,0.82
+next/next_owner_20260930-165355-373.wav,next,end_of_speech,3.1,Next.,Next,0.0,complete,0.0,0.9,0.0
+skip/skip_owner_20260930-165401-955.wav,skip,end_of_speech,5.4,Skit,Skip,0.25,complete,0.0,1.32,0.0
+volume_up/volume_up_owner_20260930-165407-116.wav,volume_up,end_of_speech,3.9,That's it. Volume up.,Volume up,1.111,other,0.0,1.76,1.08
+louder/louder_owner_20260930-165415-118.wav,louder,max_length,6.8,Louder.,Louder,0.0,complete,0.0,1.52,0.0
+volume_down/volume_down_owner_20260930-165423-214.wav,volume_down,end_of_speech,6.7,volume down,Volume down,0.0,complete,0.0,1.64,0.0
+remind_trash/remind_trash_owner_20260930-165432-121.wav,remind_trash,end_of_speech,7.2,They might be to take out the trash,Remind me to take out the trash,0.258,other,0.8000000000000003,2.68,0.0
+remind_study/remind_study_owner_20260930-165440-323.wav,remind_study,end_of_speech,6.8,Remind me to study for my exam.,Remind me to study for my exam,0.0,complete,1.0999999999999999,3.04,0.0
+list_reminders/list_reminders_owner_20260930-165449-741.wav,list_reminders,end_of_speech,3.5,What are my reminders?,What are my reminders?,0.0,complete,0.0,1.84,0.0
+call_jane/call_jane_owner_20260930-165454-394.wav,call_jane,end_of_speech,3.1,Call Jane.,Call Jane,0.0,complete,0.0,1.54,0.0
+text_jane/text_jane_owner_20260930-165459-659.wav,text_jane,end_of_speech,3.9,with the next gene.,Text Jane,1.222,other,0.0,1.56,0.0
+unknown_silent/unknown_silent_owner_20260930-165505-325.wav,unknown_silent,end_of_speech,4.3,,,1.0,empty,,,0.0
+unknown_other/unknown_other_owner_20260930-165513-324.wav,unknown_other,end_of_speech,4.5,"Ah, nothing, nothing.",,1.0,other,1.4000000000000004,2.82,0.18
+play_music/play_music_owner_20260930-165801-970.wav,play_music,end_of_speech,3.3,Play music,Play music,0.0,complete,0.0,1.68,0.0
+weather/weather_owner_20260930-165808-451.wav,weather,end_of_speech,4.1,What's the weather?,What's the weather?,0.0,complete,0.0,2.22,0.0
+time/time_owner_20260930-165814-511.wav,time,end_of_speech,4.1,What time is it?,What time is it?,0.0,complete,0.0,2.5,0.0
+lights_on/lights_on_owner_20260930-165820-279.wav,lights_on,end_of_speech,3.8,Turn on lights.,Turn on lights,0.0,complete,0.0,2.38,0.0
+lights_off/lights_off_owner_20260930-165825-556.wav,lights_off,end_of_speech,3.6,turn off lights.,Turn off lights,0.0,complete,0.0,2.42,0.0
+dim_lights_20/dim_lights_20_owner_20260930-165832-337.wav,dim_lights_20,end_of_speech,4.8,uh...,Dim lights to 20 percent / Dim lights to 20%,0.964,cut_off,3.3800000000000003,4.78,0.0
+dim_lights_50/dim_lights_50_owner_20260930-165838-819.wav,dim_lights_50,end_of_speech,4.8,a dim light to 50%,Dim lights to 50 percent / Dim lights to 50%,0.111,complete,0.0,3.44,0.0
+dim_lights_80/dim_lights_80_owner_20260930-165845-298.wav,dim_lights_80,end_of_speech,4.6,uh dim lights to 80,Dim lights to 80 percent / Dim lights to 80%,0.393,other,0.0,2.68,0.0
+set_timer_1/set_timer_1_owner_20260930-165852-485.wav,set_timer_1,end_of_speech,5.5,Set a timer for one minute.,Set a timer for 1 minute,0.0,complete,0.0,3.54,0.0
+set_timer_5/set_timer_5_owner_20260930-165901-390.wav,set_timer_5,max_length,7.5,and set a timer for 5 minutes.,Set a timer for 5 minutes,0.143,complete,0.0,3.32,0.0
+set_timer_10/set_timer_10_owner_20260930-165910-502.wav,set_timer_10,max_length,7.5,And set a timer for 10 minutes.,Set a timer for 10 minutes,0.148,complete,0.0,3.44,0.0
+set_alarm_6am/set_alarm_6am_owner_20260930-165917-588.wav,set_alarm_6am,end_of_speech,5.3,And set an alarm at 6am.,Set an alarm at 6 AM,0.174,complete,0.0,2.9,0.0
+set_alarm_7am/set_alarm_7am_owner_20260930-165924-472.wav,set_alarm_7am,end_of_speech,5.2,and set an alarm at 7 am,Set an alarm at 7 AM,0.16,complete,0.0,3.16,0.0
+set_alarm_9pm/set_alarm_9pm_owner_20260930-165931-358.wav,set_alarm_9pm,end_of_speech,4.9,and set an alarm at 9pm.,Set an alarm at 9 PM,0.167,complete,0.0,3.0,0.0
+set_temperature_18/set_temperature_18_owner_20260930-165938-737.wav,set_temperature_18,end_of_speech,4.8,set temperature to 18 degrees.,Set temperature to 18 degrees,0.0,complete,0.0,3.22,0.0
+set_temperature_22/set_temperature_22_owner_20260930-165945-933.wav,set_temperature_22,end_of_speech,5.3,set temperature to 22 degrees,Set temperature to 22 degrees,0.0,complete,0.0,3.58,0.0
+set_temperature_26/set_temperature_26_owner_20260930-165952-923.wav,set_temperature_26,end_of_speech,4.8,Set temperature to 26 degrees.,Set temperature to 26 degrees,0.0,complete,0.0,3.48,0.0
+pause/pause_owner_20260930-165958-690.wav,pause,end_of_speech,3.7,That's all I've got to say about that. Pause.,Pause,7.6,other,0.0,1.34,0.58
+stop/stop_owner_20260930-170002-838.wav,stop,end_of_speech,2.7,Stop.,Stop,0.0,complete,0.0,1.12,0.0
+next/next_owner_20260930-170006-990.wav,next,end_of_speech,2.4,Next.,Next,0.0,complete,0.0,1.06,0.0
+skip/skip_owner_20260930-170011-039.wav,skip,end_of_speech,2.5,skip,Skip,0.0,complete,0.0,1.1,0.0
+volume_up/volume_up_owner_20260930-170015-494.wav,volume_up,end_of_speech,3.0,the volume up.,Volume up,0.444,other,0.0,1.68,0.0
+louder/louder_owner_20260930-170024-409.wav,louder,max_length,7.5,Louder,Louder,0.0,complete,0.0,1.72,0.0
+volume_down/volume_down_owner_20260930-170033-010.wav,volume_down,end_of_speech,3.3,"So, volume down.",Volume down,0.273,other,0.0,1.84,0.14
+remind_trash/remind_trash_owner_20260930-170038-879.wav,remind_trash,end_of_speech,4.1,it's a bit more teicote it's more teicote at the back,Remind me to take out the trash,1.194,other,0.9799999999999998,2.7,0.0
+remind_study/remind_study_owner_20260930-170044-449.wav,remind_study,end_of_speech,4.3,to remind me to study for my exam.,Remind me to study for my exam,0.1,complete,0.0,2.82,0.0
+list_reminders/list_reminders_owner_20260930-170050-421.wav,list_reminders,end_of_speech,4.7,What are my reminders?,What are my reminders?,0.0,complete,0.0,1.86,0.0
+call_jane/call_jane_owner_20260930-170055-282.wav,call_jane,end_of_speech,3.5,Oh,Call Jane,1.0,cut_off,2.08,3.48,0.0
+text_jane/text_jane_owner_20260930-170059-629.wav,text_jane,end_of_speech,3.1,that extreme,Text Jane,0.889,other,0.0,1.4,0.0
+unknown_silent/unknown_silent_owner_20260930-170104-493.wav,unknown_silent,no_speech_detected,3.3,Thank you.,,1.0,other,0.6799999999999999,0.74,0.0
+unknown_other/unknown_other_owner_20260930-170116-031.wav,unknown_other,end_of_speech,7.7,But it's all over the rainbow.,,1.0,other,0.0,3.54,0.0
+play/play_owner_20260930-170502-855.wav,play,end_of_speech,2.4,Subtitles by the Amara.org community,,1.0,other,0.0,2.16,0.0
+play/play_owner_20260930-170507-726.wav,play,end_of_speech,3.6,Play.,,1.0,other,0.0,1.02,0.0
+play/play_owner_20260930-170511-472.wav,play,end_of_speech,2.5,,,1.0,empty,,,0.0
+play/play_owner_20260930-170515-218.wav,play,end_of_speech,2.6,"Uh, play.",,1.0,other,0.0,1.12,0.16
+play/play_owner_20260930-170518-862.wav,play,end_of_speech,2.5,Play!,,1.0,other,0.0,1.18,0.0
+play/play_owner_20260930-170529-897.wav,play,end_of_speech,4.7,Play.,,1.0,other,0.0,1.2,0.0
+play/play_owner_20260930-170538-503.wav,play,max_length,6.8,I'm going to ask you to vote between two options for each step of the day.,,1.0,other,0.8600000000000003,6.52,0.0
+play/play_owner_20260930-170546-602.wav,play,end_of_speech,6.7,It's a play.,,1.0,other,0.0,1.08,0.0
+play/play_owner_20260930-170640-148.wav,play,end_of_speech,3.5,Play,,1.0,other,0.0,1.06,0.0
+play/play_owner_20260930-170655-334.wav,play,max_length,6.8,"This is not your typical Chagall vlog, no perfect drone shots, no...",,1.0,cut_off,2.5600000000000005,6.68,0.1
+play/play_owner_20260930-170715-174.wav,play,max_length,7.2,"Delta, play.",,1.0,other,0.26,1.12,0.0
+play/play_owner_20260930-170726-413.wav,play,max_length,7.2,Play,,1.0,other,0.0,1.14,0.0
+play/play_owner_20260930-170741-596.wav,play,max_length,7.2,and the bling,,1.0,other,0.0,1.36,0.0
+play/play_owner_20260930-170751-414.wav,play,max_length,7.6,Play,,1.0,other,0.0,1.44,0.0
+play_music/play_music_owner_20260930-170944-438.wav,play_music,end_of_speech,3.5,the play music,Play music,0.4,other,0.0,2.04,0.0
+weather/weather_owner_20260930-170950-207.wav,weather,end_of_speech,4.1,What's the weather?,What's the weather?,0.0,complete,0.94,1.84,0.0
+time/time_owner_20260930-170959-419.wav,time,max_length,6.8,What time is it? What time is it?,What time is it?,1.067,other,0.6000000000000001,6.5,3.14
+lights_on/lights_on_owner_20260930-171004-581.wav,lights_on,end_of_speech,3.5,Turn on lights.,Turn on lights,0.0,complete,0.6399999999999999,1.88,0.0
+lights_off/lights_off_owner_20260930-171011-160.wav,lights_off,end_of_speech,5.0,Turn off lights,Turn off lights,0.0,complete,0.0,2.06,0.0
+dim_lights_20/dim_lights_20_owner_20260930-171020-069.wav,dim_lights_20,max_length,7.2,dim lights to 20%,Dim lights to 20 percent / Dim lights to 20%,0.0,complete,0.0,2.4,0.0
+dim_lights_50/dim_lights_50_owner_20260930-171025-535.wav,dim_lights_50,end_of_speech,3.8,game lights to 50%,Dim lights to 50 percent / Dim lights to 50%,0.111,complete,0.0,2.4,0.0
+dim_lights_80/dim_lights_80_owner_20260930-171032-622.wav,dim_lights_80,end_of_speech,5.3,dim lights to 80%,Dim lights to 80 percent / Dim lights to 80%,0.0,complete,0.0,2.34,0.0
+set_timer_1/set_timer_1_owner_20260930-171038-090.wav,set_timer_1,end_of_speech,4.0,set a timer for one minute,Set a timer for 1 minute,0.0,complete,0.0,2.74,0.0
+set_timer_5/set_timer_5_owner_20260930-171043-847.wav,set_timer_5,end_of_speech,4.1,Set a timer for 5 minutes.,Set a timer for 5 minutes,0.0,complete,0.6000000000000003,2.66,0.0
+set_timer_10/set_timer_10_owner_20260930-171049-425.wav,set_timer_10,end_of_speech,4.1,Set a timer for 10 minutes.,Set a timer for 10 minutes,0.0,complete,0.5999999999999999,2.64,0.0
+set_alarm_6am/set_alarm_6am_owner_20260930-171105-419.wav,set_alarm_6am,end_of_speech,4.1,Set an alarm at 6 a.m,Set an alarm at 6 AM,0.0,complete,0.6799999999999999,2.86,0.0
+set_alarm_7am/set_alarm_7am_owner_20260930-171111-493.wav,set_alarm_7am,end_of_speech,4.1,Set an alarm at 7 a.m.,Set an alarm at 7 AM,0.0,complete,0.0,2.84,0.0
+set_alarm_9pm/set_alarm_9pm_owner_20260930-171117-974.wav,set_alarm_9pm,end_of_speech,5.1,set an alarm at 9pm,Set an alarm at 9 PM,0.0,complete,0.0,2.88,0.0
+set_temperature_18/set_temperature_18_owner_20260930-171125-261.wav,set_temperature_18,end_of_speech,5.8,set temperature to 18 degrees,Set temperature to 18 degrees,0.0,complete,0.0,2.88,0.0
+set_temperature_22/set_temperature_22_owner_20260930-171131-335.wav,set_temperature_22,end_of_speech,4.6,set temperature to 22 degrees,Set temperature to 22 degrees,0.0,complete,0.0,3.06,0.0
+set_temperature_26/set_temperature_26_owner_20260930-171138-016.wav,set_temperature_26,end_of_speech,5.0,set temperature to 26 degrees,Set temperature to 26 degrees,0.0,complete,0.0,3.28,0.0
+pause/pause_owner_20260930-171142-773.wav,pause,end_of_speech,3.0,Pause.,Pause,0.0,complete,0.0,1.42,0.0
+stop/stop_owner_20260930-171147-215.wav,stop,end_of_speech,2.8,Stop.,Stop,0.0,complete,0.0,1.02,0.0
+next/next_owner_20260930-171151-479.wav,next,end_of_speech,2.8,next,Next,0.0,complete,0.0,1.22,0.0
+skip/skip_owner_20260930-171155-832.wav,skip,end_of_speech,2.8,the skip.,Skip,1.0,other,0.0,1.48,0.0
+volume_up/volume_up_owner_20260930-171200-792.wav,volume_up,end_of_speech,3.3,volume up,Volume up,0.0,complete,0.0,2.04,0.0
+louder/louder_owner_20260930-171205-655.wav,louder,end_of_speech,3.2,Louder,Louder,0.0,complete,0.0,1.82,0.0
+volume_down/volume_down_owner_20260930-171210-613.wav,volume_down,end_of_speech,3.4,the volume down,Volume down,0.364,other,0.0,1.98,0.0
+remind_trash/remind_trash_owner_20260930-171219-722.wav,remind_trash,end_of_speech,6.7,Remind me to take out the trash.,Remind me to take out the trash,0.0,complete,1.1000000000000003,3.28,0.0
+remind_study/remind_study_owner_20260930-171228-124.wav,remind_study,max_length,6.8,remind me to study for my exam,Remind me to study for my exam,0.0,complete,0.0,3.56,0.0
+list_reminders/list_reminders_owner_20260930-171234-197.wav,list_reminders,end_of_speech,3.8,What are my reminders?,What are my reminders?,0.0,complete,0.0,2.06,0.0
+call_jane/call_jane_owner_20260930-171240-575.wav,call_jane,end_of_speech,4.3,Call Jane.,Call Jane,0.0,complete,0.8000000000000003,1.88,0.0
+text_jane/text_jane_owner_20260930-171246-144.wav,text_jane,end_of_speech,3.6,Text Jane,Text Jane,0.0,complete,0.0,2.06,0.0
+unknown_silent/unknown_silent_owner_20260930-171251-813.wav,unknown_silent,no_speech_detected,3.4,,,1.0,empty,,,0.0
+unknown_other/unknown_other_owner_20260930-171258-089.wav,unknown_other,end_of_speech,3.5,I love baby,,1.0,other,0.0,1.96,0.0
+play/play_owner_20260930-171320-639.wav,play,end_of_speech,3.2,Play,,1.0,other,0.0,1.58,0.0
+play/play_owner_20260930-171328-128.wav,play,end_of_speech,2.9,Play.,,1.0,other,0.0,1.52,0.0
+play/play_owner_20260930-171359-006.wav,play,max_length,6.8,Play.,,1.0,other,0.0,1.62,0.0
+play/play_owner_20260930-171408-217.wav,play,max_length,7.2,Play,,1.0,other,0.0,1.48,0.0
+party/party_owner_20260930-171430-687.wav,party,max_length,7.3,party party,,1.0,other,0.0,1.68,0.0
+party/party_owner_20260930-171439-902.wav,party,end_of_speech,3.3,"Party, party.",,1.0,other,1.0599999999999998,1.86,0.14
+party/party_owner_20260930-171445-667.wav,party,end_of_speech,3.1,party party,,1.0,other,0.0,1.62,0.0
+party/party_owner_20260930-171457-817.wav,party,max_length,6.9,Party party,,1.0,other,0.0,1.8,0.0
+party/party_owner_20260930-171515-428.wav,party,end_of_speech,3.8,Party party,,1.0,other,0.0,1.78,0.0
+party/party_owner_20260930-172229-660.wav,party,end_of_speech,4.8,party party,,1.0,other,0.0,1.72,0.0
+party/party_owner_20260930-172237-964.wav,party,end_of_speech,2.8,party party,,1.0,other,0.0,1.52,0.0
+party/party_owner_20260930-172245-756.wav,party,end_of_speech,4.0,"Party, party!",,1.0,other,0.0,1.94,0.14
+party/party_owner_20260930-172250-616.wav,party,end_of_speech,3.2,"Party, party.",,1.0,other,0.0,1.92,0.14
+party/party_owner_20260930-172311-775.wav,party,end_of_speech,3.3,Party party!,,1.0,other,0.0,1.62,0.0
+party/party_owner_20260930-172321-292.wav,party,max_length,7.3,"So, party party.",,1.0,other,0.0,1.6,0.0
+party/party_owner_20260930-172330-400.wav,party,max_length,7.3,party party,,1.0,other,0.0,1.56,0.0
+party/party_owner_20260930-172341-334.wav,party,end_of_speech,2.8,Party party.,,1.0,other,0.0,1.5,0.0
+party/party_owner_20260930-172423-748.wav,party,end_of_speech,2.7,party party,,1.0,other,0.0,1.42,0.0
+party/party_owner_20260930-172429-522.wav,party,end_of_speech,3.0,Let's go party party!,,1.0,other,0.0,1.46,0.0
+party/party_owner_20260930-172435-394.wav,party,end_of_speech,2.7,"Party, party.",,1.0,other,0.72,1.5,0.12
+play/play_owner_20260930-172511-602.wav,play,end_of_speech,2.3,Play.,,1.0,other,0.0,0.86,0.0
+play/play_owner_20260930-172516-263.wav,play,no_speech_detected,3.4,"and I'll see you in the next video, play.",,1.0,other,0.0,0.98,0.0
+play/play_owner_20260930-172520-208.wav,play,end_of_speech,2.5,I'm going to start. Play.,,1.0,other,0.0,1.1,0.64
+play/play_owner_20260930-172524-460.wav,play,end_of_speech,2.4,Play,,1.0,other,0.0,0.88,0.0
+play/play_owner_20260930-172536-812.wav,play,max_length,7.0,Okay.,,1.0,other,0.0,1.14,0.0
+play/play_owner_20260930-172543-700.wav,play,end_of_speech,5.2,,,1.0,empty,,,0.0
+unknown_silent/unknown_silent_owner_20260930-172740-643.wav,unknown_silent,max_length,8.6,to basically do the same thing on to that now even if they trade right here on our free it's no problem they still have to battle this beat they try to neutralize,,1.0,cut_off,0.0,8.5,0.0
+unknown_silent/unknown_silent_owner_20260930-172749-853.wav,unknown_silent,end_of_speech,3.3,,,1.0,empty,,,0.0
+unknown_silent/unknown_silent_owner_20260930-172801-598.wav,unknown_silent,end_of_speech,4.6,How are you? I'm good.,,1.0,other,0.0,0.76,0.0
+unknown_silent/unknown_silent_owner_20260930-172808-380.wav,unknown_silent,end_of_speech,4.5,,,1.0,empty,,,0.0
+unknown_silent/unknown_silent_owner_20260930-172822-651.wav,unknown_silent,no_speech_detected,3.3,,,1.0,empty,,,0.0
+unknown_silent/unknown_silent_owner_20260930-172830-446.wav,unknown_silent,end_of_speech,5.5,I don't know.,,1.0,other,0.0,0.94,0.0
+unknown_other/unknown_other_owner_20260930-172929-917.wav,unknown_other,end_of_speech,3.0,Thank you.,,1.0,other,0.0,1.64,0.0
+unknown_other/unknown_other_owner_20260930-172939-031.wav,unknown_other,end_of_speech,3.6,See you later!,,1.0,other,0.0,0.5,0.0
+unknown_other/unknown_other_owner_20260930-172947-129.wav,unknown_other,end_of_speech,2.8,I'll see you later.,,1.0,other,0.0,1.38,0.0
+unknown_other/unknown_other_owner_20260930-173011-021.wav,unknown_other,end_of_speech,3.6,I have an exam next week.,,1.0,other,0.0,2.4,0.0
+unknown_other/unknown_other_owner_20260930-173015-980.wav,unknown_other,no_speech_detected,3.4,,,1.0,empty,,,0.0
+unknown_other/unknown_other_owner_20260930-173024-165.wav,unknown_other,end_of_speech,2.9,Whatever.,,1.0,other,0.0,0.88,0.0
+unknown_other/unknown_other_owner_20260930-173029-242.wav,unknown_other,end_of_speech,2.9,"But uh, whatever.",,1.0,other,0.0,1.38,0.14
+play/play_owner_20260930-173053-749.wav,play,end_of_speech,2.6,play,,1.0,other,0.0,1.32,0.0
+play/play_owner_20260930-173108-517.wav,play,end_of_speech,4.2,I'm going to go to the bathroom. I'm going to go to the bathroom because I'm going to have a shower.,,1.0,other,0.0,3.26,0.86
+play/play_owner_20260930-173122-802.wav,play,end_of_speech,3.3,Play.,,1.0,other,0.0,1.88,0.0
+party/party_owner_20260930-173146-748.wav,party,end_of_speech,3.3,Let's go to the party.,,1.0,other,0.0,1.48,0.0
+party/party_owner_20260930-173151-912.wav,party,end_of_speech,2.9,Party party!,,1.0,other,0.0,1.38,0.0
+party/party_owner_20260930-173204-769.wav,party,end_of_speech,4.2,party party,,1.0,other,0.0,1.76,0.0
+party/party_owner_20260930-173211-147.wav,party,end_of_speech,4.8,party party,,1.0,other,0.0,1.36,0.0
+party/party_owner_20260930-173216-904.wav,party,end_of_speech,2.6,party party,,1.0,other,0.0,1.42,0.0
+party/party_owner_20260930-173222-281.wav,party,end_of_speech,2.6,It's a party party.,,1.0,other,0.0,1.4,0.0

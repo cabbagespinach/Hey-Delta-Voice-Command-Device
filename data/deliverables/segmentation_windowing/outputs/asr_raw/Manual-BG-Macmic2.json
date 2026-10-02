@@ -1,0 +1,789 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/negatives_general/Manual-BG-Macmic2.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-29T10:33:11+00:00",
+ "duration_sec": 121.344,
+ "input_peak": 0.6830261945724487,
+ "chunks": [
+  {
+   "chunk_start": 0.98,
+   "chunk_end": 3.888,
+   "text": "Ayan, kailangan nating mag-usap, Bab.",
+   "words": [
+    {
+     "word": "Ayan,",
+     "start": 0.98,
+     "end": 1.56,
+     "probability": 0.575
+    },
+    {
+     "word": "kailangan",
+     "start": 1.58,
+     "end": 2.16,
+     "probability": 0.9712
+    },
+    {
+     "word": "nating",
+     "start": 2.16,
+     "end": 2.5,
+     "probability": 0.769
+    },
+    {
+     "word": "mag",
+     "start": 2.5,
+     "end": 2.74,
+     "probability": 0.9272
+    },
+    {
+     "word": "-usap,",
+     "start": 2.74,
+     "end": 3.16,
+     "probability": 0.9377
+    },
+    {
+     "word": "Bab.",
+     "start": 3.16,
+     "end": 3.34,
+     "probability": 0.3777
+    }
+   ]
+  },
+  {
+   "chunk_start": 3.888,
+   "chunk_end": 5.488,
+   "text": "Para maalo.",
+   "words": [
+    {
+     "word": "Para",
+     "start": 3.888,
+     "end": 4.268,
+     "probability": 0.1097
+    },
+    {
+     "word": "maalo.",
+     "start": 4.268,
+     "end": 4.848,
+     "probability": 0.5963
+    }
+   ]
+  },
+  {
+   "chunk_start": 5.488,
+   "chunk_end": 8.652,
+   "text": "I don't have to say the word.",
+   "words": [
+    {
+     "word": "I",
+     "start": 6.668,
+     "end": 7.008,
+     "probability": 0.2808
+    },
+    {
+     "word": "don't",
+     "start": 7.008,
+     "end": 7.348,
+     "probability": 0.9109
+    },
+    {
+     "word": "have",
+     "start": 7.348,
+     "end": 7.388,
+     "probability": 0.981
+    },
+    {
+     "word": "to",
+     "start": 7.388,
+     "end": 7.548,
+     "probability": 0.9932
+    },
+    {
+     "word": "say",
+     "start": 7.548,
+     "end": 7.728,
+     "probability": 0.9961
+    },
+    {
+     "word": "the",
+     "start": 7.728,
+     "end": 7.808,
+     "probability": 0.8306
+    },
+    {
+     "word": "word.",
+     "start": 7.808,
+     "end": 8.068,
+     "probability": 0.9277
+    }
+   ]
+  },
+  {
+   "chunk_start": 8.692,
+   "chunk_end": 10.7,
+   "text": "Yeah",
+   "words": [
+    {
+     "word": "Yeah",
+     "start": 8.692,
+     "end": 9.152,
+     "probability": 0.6523
+    }
+   ]
+  },
+  {
+   "chunk_start": 11.828,
+   "chunk_end": 12.748,
+   "text": "oh",
+   "words": [
+    {
+     "word": "oh",
+     "start": 11.828,
+     "end": 12.088,
+     "probability": 0.3564
+    }
+   ]
+  },
+  {
+   "chunk_start": 13.972,
+   "chunk_end": 17.964,
+   "text": "No, just don't say the word.",
+   "words": [
+    {
+     "word": "No,",
+     "start": 13.972,
+     "end": 14.732,
+     "probability": 0.5718
+    },
+    {
+     "word": "just",
+     "start": 14.752,
+     "end": 14.872,
+     "probability": 0.9346
+    },
+    {
+     "word": "don't",
+     "start": 14.872,
+     "end": 15.232,
+     "probability": 0.9878
+    },
+    {
+     "word": "say",
+     "start": 15.232,
+     "end": 15.252,
+     "probability": 0.9448
+    },
+    {
+     "word": "the",
+     "start": 15.252,
+     "end": 15.512,
+     "probability": 0.7568
+    },
+    {
+     "word": "word.",
+     "start": 15.512,
+     "end": 15.752,
+     "probability": 0.9907
+    }
+   ]
+  },
+  {
+   "chunk_start": 19.22,
+   "chunk_end": 24.716,
+   "text": "No, it's okay. No, it will get recorded. By the way...",
+   "words": [
+    {
+     "word": "No,",
+     "start": 19.22,
+     "end": 19.3,
+     "probability": 0.0811
+    },
+    {
+     "word": "it's",
+     "start": 19.3,
+     "end": 19.52,
+     "probability": 0.8738
+    },
+    {
+     "word": "okay.",
+     "start": 19.52,
+     "end": 19.66,
+     "probability": 0.5728
+    },
+    {
+     "word": "No,",
+     "start": 20.44,
+     "end": 20.92,
+     "probability": 0.2883
+    },
+    {
+     "word": "it",
+     "start": 21.06,
+     "end": 21.42,
+     "probability": 0.6353
+    },
+    {
+     "word": "will",
+     "start": 21.42,
+     "end": 21.66,
+     "probability": 0.6943
+    },
+    {
+     "word": "get",
+     "start": 21.66,
+     "end": 21.82,
+     "probability": 0.9761
+    },
+    {
+     "word": "recorded.",
+     "start": 21.82,
+     "end": 22.14,
+     "probability": 0.7661
+    },
+    {
+     "word": "By",
+     "start": 22.48,
+     "end": 22.8,
+     "probability": 0.9004
+    },
+    {
+     "word": "the",
+     "start": 22.8,
+     "end": 23.04,
+     "probability": 0.9883
+    },
+    {
+     "word": "way...",
+     "start": 23.04,
+     "end": 23.58,
+     "probability": 0.707
+    }
+   ]
+  },
+  {
+   "chunk_start": 31.06,
+   "chunk_end": 32.172,
+   "text": "making soap.",
+   "words": [
+    {
+     "word": "making",
+     "start": 31.06,
+     "end": 31.38,
+     "probability": 0.2622
+    },
+    {
+     "word": "soap.",
+     "start": 31.38,
+     "end": 31.56,
+     "probability": 0.604
+    }
+   ]
+  },
+  {
+   "chunk_start": 34.1,
+   "chunk_end": 34.988,
+   "text": "Thank you.",
+   "words": [
+    {
+     "word": "Thank",
+     "start": 34.1,
+     "end": 34.28,
+     "probability": 0.1399
+    },
+    {
+     "word": "you.",
+     "start": 34.28,
+     "end": 34.4,
+     "probability": 0.98
+    }
+   ]
+  },
+  {
+   "chunk_start": 48.916,
+   "chunk_end": 50.924,
+   "text": "more synthetic data",
+   "words": [
+    {
+     "word": "more",
+     "start": 48.916,
+     "end": 49.136,
+     "probability": 0.7466
+    },
+    {
+     "word": "synthetic",
+     "start": 49.136,
+     "end": 49.596,
+     "probability": 0.9834
+    },
+    {
+     "word": "data",
+     "start": 49.596,
+     "end": 50.196,
+     "probability": 0.9468
+    }
+   ]
+  },
+  {
+   "chunk_start": 71.828,
+   "chunk_end": 73.484,
+   "text": "Hey Martha!",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 71.828,
+     "end": 72.208,
+     "probability": 0.7881
+    },
+    {
+     "word": "Martha!",
+     "start": 72.208,
+     "end": 72.468,
+     "probability": 0.5854
+    }
+   ]
+  },
+  {
+   "chunk_start": 73.812,
+   "chunk_end": 75.82,
+   "text": "This is the suggestion",
+   "words": [
+    {
+     "word": "This",
+     "start": 73.812,
+     "end": 74.172,
+     "probability": 0.1428
+    },
+    {
+     "word": "is",
+     "start": 74.172,
+     "end": 74.232,
+     "probability": 0.9019
+    },
+    {
+     "word": "the",
+     "start": 74.232,
+     "end": 74.312,
+     "probability": 0.7388
+    },
+    {
+     "word": "suggestion",
+     "start": 74.312,
+     "end": 74.712,
+     "probability": 0.9814
+    }
+   ]
+  },
+  {
+   "chunk_start": 76.116,
+   "chunk_end": 77.708,
+   "text": "Hey Delia!",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 76.116,
+     "end": 76.496,
+     "probability": 0.7822
+    },
+    {
+     "word": "Delia!",
+     "start": 76.496,
+     "end": 76.956,
+     "probability": 0.9021
+    }
+   ]
+  },
+  {
+   "chunk_start": 78.484,
+   "chunk_end": 80.108,
+   "text": "Hey, Michelle.",
+   "words": [
+    {
+     "word": "Hey,",
+     "start": 78.484,
+     "end": 78.864,
+     "probability": 0.8081
+    },
+    {
+     "word": "Michelle.",
+     "start": 78.864,
+     "end": 79.164,
+     "probability": 0.8994
+    }
+   ]
+  },
+  {
+   "chunk_start": 80.628,
+   "chunk_end": 82.252,
+   "text": "Hey Martha.",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 80.628,
+     "end": 81.008,
+     "probability": 0.8135
+    },
+    {
+     "word": "Martha.",
+     "start": 81.008,
+     "end": 81.308,
+     "probability": 0.7139
+    }
+   ]
+  },
+  {
+   "chunk_start": 83.252,
+   "chunk_end": 84.428,
+   "text": "the belly.",
+   "words": [
+    {
+     "word": "the",
+     "start": 83.252,
+     "end": 83.492,
+     "probability": 0.0582
+    },
+    {
+     "word": "belly.",
+     "start": 83.492,
+     "end": 83.692,
+     "probability": 0.5029
+    }
+   ]
+  },
+  {
+   "chunk_start": 85.14,
+   "chunk_end": 86.444,
+   "text": "Hey, Poopie.",
+   "words": [
+    {
+     "word": "Hey,",
+     "start": 85.14,
+     "end": 85.56,
+     "probability": 0.5728
+    },
+    {
+     "word": "Poopie.",
+     "start": 85.56,
+     "end": 86.12,
+     "probability": 0.4023
+    }
+   ]
+  },
+  {
+   "chunk_start": 90.996,
+   "chunk_end": 92.204,
+   "text": "Biggie, look up.",
+   "words": [
+    {
+     "word": "Biggie,",
+     "start": 91.276,
+     "end": 91.476,
+     "probability": 0.3818
+    },
+    {
+     "word": "look",
+     "start": 91.476,
+     "end": 91.556,
+     "probability": 0.6733
+    },
+    {
+     "word": "up.",
+     "start": 91.556,
+     "end": 91.676,
+     "probability": 0.7305
+    }
+   ]
+  },
+  {
+   "chunk_start": 92.788,
+   "chunk_end": 93.9,
+   "text": "Bye.",
+   "words": [
+    {
+     "word": "Bye.",
+     "start": 92.788,
+     "end": 93.208,
+     "probability": 0.4478
+    }
+   ]
+  },
+  {
+   "chunk_start": 94.132,
+   "chunk_end": 95.532,
+   "text": "Hey Delia!",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 94.132,
+     "end": 94.492,
+     "probability": 0.8403
+    },
+    {
+     "word": "Delia!",
+     "start": 94.492,
+     "end": 94.892,
+     "probability": 0.8513
+    }
+   ]
+  },
+  {
+   "chunk_start": 95.924,
+   "chunk_end": 96.812,
+   "text": "Ah!",
+   "words": [
+    {
+     "word": "Ah!",
+     "start": 95.924,
+     "end": 96.304,
+     "probability": 0.1136
+    }
+   ]
+  },
+  {
+   "chunk_start": 96.884,
+   "chunk_end": 99.724,
+   "text": "Hey Delia Skin music, Delia",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 96.884,
+     "end": 97.244,
+     "probability": 0.4941
+    },
+    {
+     "word": "Delia",
+     "start": 97.244,
+     "end": 97.744,
+     "probability": 0.8181
+    },
+    {
+     "word": "Skin",
+     "start": 97.744,
+     "end": 98.364,
+     "probability": 0.0275
+    },
+    {
+     "word": "music,",
+     "start": 98.364,
+     "end": 98.644,
+     "probability": 0.4595
+    },
+    {
+     "word": "Delia",
+     "start": 98.704,
+     "end": 99.064,
+     "probability": 0.9299
+    }
+   ]
+  },
+  {
+   "chunk_start": 100.404,
+   "chunk_end": 101.42,
+   "text": "See ya.",
+   "words": [
+    {
+     "word": "See",
+     "start": 100.404,
+     "end": 100.784,
+     "probability": 0.7896
+    },
+    {
+     "word": "ya.",
+     "start": 100.784,
+     "end": 100.864,
+     "probability": 0.5444
+    }
+   ]
+  },
+  {
+   "chunk_start": 103.22,
+   "chunk_end": 104.684,
+   "text": "Hey, Denta.",
+   "words": [
+    {
+     "word": "Hey,",
+     "start": 103.22,
+     "end": 103.6,
+     "probability": 0.7275
+    },
+    {
+     "word": "Denta.",
+     "start": 103.6,
+     "end": 103.94,
+     "probability": 0.3925
+    }
+   ]
+  },
+  {
+   "chunk_start": 104.788,
+   "chunk_end": 107.66,
+   "text": "Huh? Hey, Kenta. Come in.",
+   "words": [
+    {
+     "word": "Huh?",
+     "start": 104.788,
+     "end": 105.128,
+     "probability": 0.3921
+    },
+    {
+     "word": "Hey,",
+     "start": 105.308,
+     "end": 105.748,
+     "probability": 0.708
+    },
+    {
+     "word": "Kenta.",
+     "start": 105.768,
+     "end": 106.108,
+     "probability": 0.8865
+    },
+    {
+     "word": "Come",
+     "start": 106.368,
+     "end": 106.808,
+     "probability": 0.2805
+    },
+    {
+     "word": "in.",
+     "start": 106.808,
+     "end": 107.028,
+     "probability": 0.8364
+    }
+   ]
+  },
+  {
+   "chunk_start": 107.732,
+   "chunk_end": 108.94,
+   "text": "See you in the next video.",
+   "words": [
+    {
+     "word": "See",
+     "start": 107.732,
+     "end": 107.892,
+     "probability": 0.4753
+    },
+    {
+     "word": "you",
+     "start": 107.892,
+     "end": 107.992,
+     "probability": 0.8037
+    },
+    {
+     "word": "in",
+     "start": 107.992,
+     "end": 108.132,
+     "probability": 0.1182
+    },
+    {
+     "word": "the",
+     "start": 108.132,
+     "end": 108.192,
+     "probability": 0.4858
+    },
+    {
+     "word": "next",
+     "start": 108.192,
+     "end": 108.332,
+     "probability": 0.4707
+    },
+    {
+     "word": "video.",
+     "start": 108.332,
+     "end": 108.432,
+     "probability": 0.6143
+    }
+   ]
+  },
+  {
+   "chunk_start": 109.716,
+   "chunk_end": 110.7,
+   "text": "It's done",
+   "words": [
+    {
+     "word": "It's",
+     "start": 109.716,
+     "end": 110.116,
+     "probability": 0.752
+    },
+    {
+     "word": "done",
+     "start": 110.116,
+     "end": 110.116,
+     "probability": 0.8955
+    }
+   ]
+  },
+  {
+   "chunk_start": 110.74,
+   "chunk_end": 112.812,
+   "text": "My bestie, Kenta.",
+   "words": [
+    {
+     "word": "My",
+     "start": 110.74,
+     "end": 111.1,
+     "probability": 0.5151
+    },
+    {
+     "word": "bestie,",
+     "start": 111.1,
+     "end": 111.56,
+     "probability": 0.9551
+    },
+    {
+     "word": "Kenta.",
+     "start": 111.56,
+     "end": 112.14,
+     "probability": 0.5084
+    }
+   ]
+  },
+  {
+   "chunk_start": 113.204,
+   "chunk_end": 116.076,
+   "text": "Okay, hey tattoo",
+   "words": [
+    {
+     "word": "Okay,",
+     "start": 113.204,
+     "end": 113.804,
+     "probability": 0.3589
+    },
+    {
+     "word": "hey",
+     "start": 113.864,
+     "end": 114.904,
+     "probability": 0.6719
+    },
+    {
+     "word": "tattoo",
+     "start": 114.904,
+     "end": 115.184,
+     "probability": 0.8901
+    }
+   ]
+  },
+  {
+   "chunk_start": 117.076,
+   "chunk_end": 118.572,
+   "text": "He tells you.",
+   "words": [
+    {
+     "word": "He",
+     "start": 117.076,
+     "end": 117.396,
+     "probability": 0.3027
+    },
+    {
+     "word": "tells",
+     "start": 117.396,
+     "end": 117.696,
+     "probability": 0.3352
+    },
+    {
+     "word": "you.",
+     "start": 117.696,
+     "end": 117.836,
+     "probability": 0.9331
+    }
+   ]
+  }
+ ]
+}

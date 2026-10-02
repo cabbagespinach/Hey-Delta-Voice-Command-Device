@@ -1,0 +1,264 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0035.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:27:43+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8805887699127197,
+ "chunks": [
+  {
+   "chunk_start": 0.564,
+   "chunk_end": 3.276,
+   "text": "That sounds like a reasonable idea to me.",
+   "words": [
+    {
+     "word": "That",
+     "start": 0.564,
+     "end": 0.924,
+     "probability": 0.9058
+    },
+    {
+     "word": "sounds",
+     "start": 0.924,
+     "end": 1.224,
+     "probability": 0.9971
+    },
+    {
+     "word": "like",
+     "start": 1.224,
+     "end": 1.444,
+     "probability": 0.9976
+    },
+    {
+     "word": "a",
+     "start": 1.444,
+     "end": 1.544,
+     "probability": 0.5439
+    },
+    {
+     "word": "reasonable",
+     "start": 1.544,
+     "end": 1.944,
+     "probability": 0.9961
+    },
+    {
+     "word": "idea",
+     "start": 1.944,
+     "end": 2.404,
+     "probability": 0.998
+    },
+    {
+     "word": "to",
+     "start": 2.404,
+     "end": 2.604,
+     "probability": 0.9966
+    },
+    {
+     "word": "me.",
+     "start": 2.604,
+     "end": 2.764,
+     "probability": 0.9995
+    }
+   ]
+  },
+  {
+   "chunk_start": 7.476,
+   "chunk_end": 12.652,
+   "text": "The children are playing outside in the garden. I forgot where I put the keys this morning.",
+   "words": [
+    {
+     "word": "The",
+     "start": 7.476,
+     "end": 7.816,
+     "probability": 0.3154
+    },
+    {
+     "word": "children",
+     "start": 7.816,
+     "end": 8.136,
+     "probability": 0.9751
+    },
+    {
+     "word": "are",
+     "start": 8.136,
+     "end": 8.436,
+     "probability": 0.9966
+    },
+    {
+     "word": "playing",
+     "start": 8.436,
+     "end": 8.676,
+     "probability": 0.9985
+    },
+    {
+     "word": "outside",
+     "start": 8.676,
+     "end": 9.316,
+     "probability": 0.9951
+    },
+    {
+     "word": "in",
+     "start": 9.316,
+     "end": 9.616,
+     "probability": 0.9834
+    },
+    {
+     "word": "the",
+     "start": 9.616,
+     "end": 9.736,
+     "probability": 0.9941
+    },
+    {
+     "word": "garden.",
+     "start": 9.736,
+     "end": 10.156,
+     "probability": 0.9844
+    },
+    {
+     "word": "I",
+     "start": 10.276,
+     "end": 10.356,
+     "probability": 0.9707
+    },
+    {
+     "word": "forgot",
+     "start": 10.356,
+     "end": 10.656,
+     "probability": 0.9873
+    },
+    {
+     "word": "where",
+     "start": 10.656,
+     "end": 10.976,
+     "probability": 0.9951
+    },
+    {
+     "word": "I",
+     "start": 10.976,
+     "end": 11.056,
+     "probability": 0.9546
+    },
+    {
+     "word": "put",
+     "start": 11.056,
+     "end": 11.236,
+     "probability": 0.9966
+    },
+    {
+     "word": "the",
+     "start": 11.236,
+     "end": 11.396,
+     "probability": 0.9971
+    },
+    {
+     "word": "keys",
+     "start": 11.396,
+     "end": 11.576,
+     "probability": 0.9941
+    },
+    {
+     "word": "this",
+     "start": 11.576,
+     "end": 11.796,
+     "probability": 0.9956
+    },
+    {
+     "word": "morning.",
+     "start": 11.796,
+     "end": 12.156,
+     "probability": 0.9976
+    }
+   ]
+  },
+  {
+   "chunk_start": 18.676,
+   "chunk_end": 23.98,
+   "text": "The weather is changing again this afternoon. The battery should last for another hour.",
+   "words": [
+    {
+     "word": "The",
+     "start": 18.676,
+     "end": 18.956,
+     "probability": 0.7246
+    },
+    {
+     "word": "weather",
+     "start": 18.956,
+     "end": 19.176,
+     "probability": 0.6353
+    },
+    {
+     "word": "is",
+     "start": 19.176,
+     "end": 19.356,
+     "probability": 0.9946
+    },
+    {
+     "word": "changing",
+     "start": 19.356,
+     "end": 19.616,
+     "probability": 0.9956
+    },
+    {
+     "word": "again",
+     "start": 19.616,
+     "end": 19.976,
+     "probability": 0.9648
+    },
+    {
+     "word": "this",
+     "start": 19.976,
+     "end": 20.196,
+     "probability": 0.9341
+    },
+    {
+     "word": "afternoon.",
+     "start": 20.196,
+     "end": 20.436,
+     "probability": 0.4807
+    },
+    {
+     "word": "The",
+     "start": 21.316,
+     "end": 21.556,
+     "probability": 0.9741
+    },
+    {
+     "word": "battery",
+     "start": 21.556,
+     "end": 21.856,
+     "probability": 0.9546
+    },
+    {
+     "word": "should",
+     "start": 21.856,
+     "end": 22.116,
+     "probability": 0.9956
+    },
+    {
+     "word": "last",
+     "start": 22.116,
+     "end": 22.416,
+     "probability": 0.999
+    },
+    {
+     "word": "for",
+     "start": 22.416,
+     "end": 22.576,
+     "probability": 0.9897
+    },
+    {
+     "word": "another",
+     "start": 22.576,
+     "end": 22.736,
+     "probability": 0.9951
+    },
+    {
+     "word": "hour.",
+     "start": 22.736,
+     "end": 23.156,
+     "probability": 0.9961
+    }
+   ]
+  }
+ ]
+}

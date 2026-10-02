@@ -1,0 +1,343 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0069.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:28:37+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8867993354797363,
+ "chunks": [
+  {
+   "chunk_start": 0.756,
+   "chunk_end": 6.668,
+   "text": "We ordered dinner and waited near the entrance. Can you send me the address when you arrive?",
+   "words": [
+    {
+     "word": "We",
+     "start": 0.756,
+     "end": 1.496,
+     "probability": 0.5469
+    },
+    {
+     "word": "ordered",
+     "start": 1.496,
+     "end": 1.716,
+     "probability": 0.9771
+    },
+    {
+     "word": "dinner",
+     "start": 1.716,
+     "end": 2.096,
+     "probability": 0.9932
+    },
+    {
+     "word": "and",
+     "start": 2.096,
+     "end": 2.356,
+     "probability": 0.9531
+    },
+    {
+     "word": "waited",
+     "start": 2.356,
+     "end": 2.616,
+     "probability": 0.9912
+    },
+    {
+     "word": "near",
+     "start": 2.616,
+     "end": 2.856,
+     "probability": 0.9927
+    },
+    {
+     "word": "the",
+     "start": 2.856,
+     "end": 3.036,
+     "probability": 0.998
+    },
+    {
+     "word": "entrance.",
+     "start": 3.036,
+     "end": 3.396,
+     "probability": 0.9951
+    },
+    {
+     "word": "Can",
+     "start": 3.596,
+     "end": 3.796,
+     "probability": 0.3689
+    },
+    {
+     "word": "you",
+     "start": 3.796,
+     "end": 3.916,
+     "probability": 0.9951
+    },
+    {
+     "word": "send",
+     "start": 3.916,
+     "end": 4.136,
+     "probability": 0.9932
+    },
+    {
+     "word": "me",
+     "start": 4.136,
+     "end": 4.456,
+     "probability": 0.9951
+    },
+    {
+     "word": "the",
+     "start": 4.456,
+     "end": 4.636,
+     "probability": 0.9922
+    },
+    {
+     "word": "address",
+     "start": 4.636,
+     "end": 5.056,
+     "probability": 0.9976
+    },
+    {
+     "word": "when",
+     "start": 5.056,
+     "end": 5.396,
+     "probability": 0.9917
+    },
+    {
+     "word": "you",
+     "start": 5.396,
+     "end": 5.536,
+     "probability": 0.9961
+    },
+    {
+     "word": "arrive?",
+     "start": 5.536,
+     "end": 5.836,
+     "probability": 0.9966
+    }
+   ]
+  },
+  {
+   "chunk_start": 7.668,
+   "chunk_end": 10.028,
+   "text": "I was looking for a quiet place to work.",
+   "words": [
+    {
+     "word": "I",
+     "start": 7.668,
+     "end": 7.948,
+     "probability": 0.9751
+    },
+    {
+     "word": "was",
+     "start": 7.948,
+     "end": 8.108,
+     "probability": 0.999
+    },
+    {
+     "word": "looking",
+     "start": 8.108,
+     "end": 8.348,
+     "probability": 0.999
+    },
+    {
+     "word": "for",
+     "start": 8.348,
+     "end": 8.608,
+     "probability": 1.0
+    },
+    {
+     "word": "a",
+     "start": 8.608,
+     "end": 8.688,
+     "probability": 0.9976
+    },
+    {
+     "word": "quiet",
+     "start": 8.688,
+     "end": 8.948,
+     "probability": 0.9966
+    },
+    {
+     "word": "place",
+     "start": 8.948,
+     "end": 9.168,
+     "probability": 0.9995
+    },
+    {
+     "word": "to",
+     "start": 9.168,
+     "end": 9.368,
+     "probability": 0.9995
+    },
+    {
+     "word": "work.",
+     "start": 9.368,
+     "end": 9.608,
+     "probability": 0.9995
+    }
+   ]
+  },
+  {
+   "chunk_start": 10.036,
+   "chunk_end": 13.376,
+   "text": "They were up there isangin again this afternoon.",
+   "words": [
+    {
+     "word": "They",
+     "start": 10.036,
+     "end": 10.416,
+     "probability": 0.49
+    },
+    {
+     "word": "were",
+     "start": 10.416,
+     "end": 10.676,
+     "probability": 0.6821
+    },
+    {
+     "word": "up",
+     "start": 10.676,
+     "end": 10.816,
+     "probability": 0.7788
+    },
+    {
+     "word": "there",
+     "start": 10.816,
+     "end": 10.996,
+     "probability": 0.9971
+    },
+    {
+     "word": "isangin",
+     "start": 10.996,
+     "end": 11.536,
+     "probability": 0.5395
+    },
+    {
+     "word": "again",
+     "start": 11.536,
+     "end": 11.836,
+     "probability": 0.8984
+    },
+    {
+     "word": "this",
+     "start": 11.836,
+     "end": 12.156,
+     "probability": 0.9722
+    },
+    {
+     "word": "afternoon.",
+     "start": 12.156,
+     "end": 12.576,
+     "probability": 0.9766
+    }
+   ]
+  },
+  {
+   "chunk_start": 13.376,
+   "chunk_end": 20.716,
+   "text": "He was looking for a place like a tower. I will call you when I get up.",
+   "words": [
+    {
+     "word": "He",
+     "start": 14.116,
+     "end": 14.476,
+     "probability": 0.6348
+    },
+    {
+     "word": "was",
+     "start": 14.476,
+     "end": 14.776,
+     "probability": 0.9844
+    },
+    {
+     "word": "looking",
+     "start": 14.776,
+     "end": 14.896,
+     "probability": 0.9551
+    },
+    {
+     "word": "for",
+     "start": 14.896,
+     "end": 15.576,
+     "probability": 0.9966
+    },
+    {
+     "word": "a",
+     "start": 15.576,
+     "end": 15.736,
+     "probability": 0.5981
+    },
+    {
+     "word": "place",
+     "start": 15.736,
+     "end": 15.876,
+     "probability": 0.0582
+    },
+    {
+     "word": "like",
+     "start": 15.876,
+     "end": 16.456,
+     "probability": 0.8843
+    },
+    {
+     "word": "a",
+     "start": 16.456,
+     "end": 16.516,
+     "probability": 0.9194
+    },
+    {
+     "word": "tower.",
+     "start": 16.516,
+     "end": 16.756,
+     "probability": 0.7983
+    },
+    {
+     "word": "I",
+     "start": 17.136,
+     "end": 17.496,
+     "probability": 0.9595
+    },
+    {
+     "word": "will",
+     "start": 17.496,
+     "end": 17.576,
+     "probability": 0.9351
+    },
+    {
+     "word": "call",
+     "start": 17.576,
+     "end": 17.676,
+     "probability": 0.9717
+    },
+    {
+     "word": "you",
+     "start": 17.676,
+     "end": 17.836,
+     "probability": 0.895
+    },
+    {
+     "word": "when",
+     "start": 17.836,
+     "end": 18.036,
+     "probability": 0.9453
+    },
+    {
+     "word": "I",
+     "start": 18.036,
+     "end": 18.256,
+     "probability": 0.394
+    },
+    {
+     "word": "get",
+     "start": 18.256,
+     "end": 18.416,
+     "probability": 0.9678
+    },
+    {
+     "word": "up.",
+     "start": 18.416,
+     "end": 18.576,
+     "probability": 0.5137
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+  "run": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/deliverables/command_classifier/model/runs/bcresnet6_schema_b",
+  "best_epoch": 51,
+  "tau": 6.0,
+  "classes": 32,
+  "opset": 17,
+  "input": "audio float32 [B, 80000] @16 kHz",
+  "output": "probs float32 [B, 32]",
+  "check_clips": 600,
+  "cutoffs": {
+    "cautious": 0.99,
+    "balanced": 0.945
+  },
+  "frontend_max_abs_diff_normalised_units": 0.00018525123596191406,
+  "prob_max_abs_diff_onnx_vs_torch": 3.3974647521972656e-06,
+  "decisions_changed_argmax": 0,
+  "accuracy_argmax_onnx": 0.955,
+  "decisions_changed_cautious": 0,
+  "accuracy_cautious_onnx": 0.7033333333333334,
+  "decisions_changed_balanced": 0,
+  "accuracy_balanced_onnx": 0.8916666666666667,
+  "file_bytes": 2003328
+}

@@ -1,0 +1,1119 @@
+{
+  "model": "pipeline-check baseline CNN (`baseline_model.py`, train split only) \u2014 not the project model",
+  "isolated": {
+    "split": "validation",
+    "n_windows": 1013,
+    "n_positive": 42,
+    "n_negative": 971,
+    "roc_auc": 0.9681477122259821,
+    "average_precision": 0.664214442801818,
+    "threshold": 0.33427843451499945,
+    "threshold_source": "chosen on isolated validation: lowest threshold with FPR <= 0.01",
+    "positives": {
+      "n": 42,
+      "detected": 24,
+      "detection_rate": 0.5714285714285714,
+      "ci95": [
+        0.40961127076287,
+        0.7227932522003722
+      ],
+      "score_mean": 0.5170316410949454,
+      "score_p99": 0.9993572163581849,
+      "score_max": 0.9993628859519958
+    },
+    "negatives": {
+      "n": 971,
+      "false_positives": 9,
+      "fpr": 0.009268795056642637,
+      "ci95": [
+        0.004246793168118117,
+        0.017521856869752307
+      ],
+      "score_mean": 0.018253416027632918,
+      "score_p99": 0.31149132251739353,
+      "score_max": 0.9998502731323242
+    },
+    "positives_by_subset": {
+      "real_device_rpi": {
+        "n": 15,
+        "detected": 11,
+        "detection_rate": 0.7333333333333333,
+        "ci95": [
+          0.4489967589630295,
+          0.9221284537089564
+        ],
+        "score_mean": 0.7343788648645083,
+        "score_p99": 0.9993609499931335,
+        "score_max": 0.9993628859519958
+      },
+      "synthetic": {
+        "n": 27,
+        "detected": 13,
+        "detection_rate": 0.48148148148148145,
+        "ci95": [
+          0.28667254813193965,
+          0.6805034538666164
+        ],
+        "score_mean": 0.3962831834451882,
+        "score_p99": 0.9491954112052917,
+        "score_max": 0.9586317539215088
+      }
+    },
+    "negatives_by_category": {
+      "negative_confusable": {
+        "n": 125,
+        "false_positives": 5,
+        "fpr": 0.04,
+        "ci95": [
+          0.01311344466571413,
+          0.09087836968882779
+        ],
+        "score_mean": 0.0757731835766499,
+        "score_p99": 0.8108142423629763,
+        "score_max": 0.9998502731323242
+      },
+      "negative_general_speech": {
+        "n": 276,
+        "false_positives": 0,
+        "fpr": 0.0,
+        "ci95": [
+          0.0,
+          0.013276583505266882
+        ],
+        "score_mean": 0.0018933627260778756,
+        "score_p99": 0.02106315502896905,
+        "score_max": 0.07141104340553284
+      },
+      "negative_media": {
+        "n": 126,
+        "false_positives": 0,
+        "fpr": 0.0,
+        "ci95": [
+          0.0,
+          0.028852406856721004
+        ],
+        "score_mean": 0.007186652410844487,
+        "score_p99": 0.03888969961553812,
+        "score_max": 0.12050487101078033
+      },
+      "negative_partial_wakeword": {
+        "n": 147,
+        "false_positives": 2,
+        "fpr": 0.013605442176870748,
+        "ci95": [
+          0.0016519500881567529,
+          0.048281835479508164
+        ],
+        "score_mean": 0.008618118968822525,
+        "score_p99": 0.2773956719040848,
+        "score_max": 0.7129829525947571
+      },
+      "negative_real_background": {
+        "n": 191,
+        "false_positives": 2,
+        "fpr": 0.010471204188481676,
+        "ci95": [
+          0.0012706365722760396,
+          0.03731175933697558
+        ],
+        "score_mean": 0.019750773198159013,
+        "score_p99": 0.21994150131940765,
+        "score_max": 0.7345104813575745
+      },
+      "negative_silence_noise": {
+        "n": 106,
+        "false_positives": 0,
+        "fpr": 0.0,
+        "ci95": [
+          0.0,
+          0.03420216727635029
+        ],
+        "score_mean": 0.01684029745585988,
+        "score_p99": 0.07033026665449145,
+        "score_max": 0.07479394972324371
+      }
+    },
+    "negatives_by_category_and_subset": {
+      "negative_confusable | real_device_rpi": {
+        "n": 1,
+        "false_positives": 1,
+        "fpr": 1.0,
+        "ci95": [
+          0.025000000000000022,
+          1.0
+        ],
+        "score_mean": 0.9998502731323242,
+        "score_p99": 0.9998502731323242,
+        "score_max": 0.9998502731323242
+      },
+      "negative_confusable | synthetic": {
+        "n": 124,
+        "false_positives": 4,
+        "fpr": 0.03225806451612903,
+        "ci95": [
+          0.008857847606447098,
+          0.0805344665609147
+        ],
+        "score_mean": 0.06832094898345897,
+        "score_p99": 0.7421894741058344,
+        "score_max": 0.8210412263870239
+      },
+      "negative_general_speech | synthetic": {
+        "n": 276,
+        "false_positives": 0,
+        "fpr": 0.0,
+        "ci95": [
+          0.0,
+          0.013276583505266882
+        ],
+        "score_mean": 0.0018933627260778756,
+        "score_p99": 0.02106315502896905,
+        "score_max": 0.07141104340553284
+      },
+      "negative_media | synthetic": {
+        "n": 126,
+        "false_positives": 0,
+        "fpr": 0.0,
+        "ci95": [
+          0.0,
+          0.028852406856721004
+        ],
+        "score_mean": 0.007186652410844487,
+        "score_p99": 0.03888969961553812,
+        "score_max": 0.12050487101078033
+      },
+      "negative_partial_wakeword | real_device_rpi": {
+        "n": 3,
+        "false_positives": 2,
+        "fpr": 0.6666666666666666,
+        "ci95": [
+          0.09429932405024613,
+          0.9915962413403874
+        ],
+        "score_mean": 0.41503822306791943,
+        "score_p99": 0.7068770641088485,
+        "score_max": 0.7129829525947571
+      },
+      "negative_partial_wakeword | synthetic": {
+        "n": 144,
+        "false_positives": 0,
+        "fpr": 0.0,
+        "ci95": [
+          0.0,
+          0.02529188148751663
+        ],
+        "score_mean": 0.00015103346675800675,
+        "score_p99": 0.0019150249310769128,
+        "score_max": 0.003595974761992693
+      },
+      "negative_real_background | real_device_rpi": {
+        "n": 191,
+        "false_positives": 2,
+        "fpr": 0.010471204188481676,
+        "ci95": [
+          0.0012706365722760396,
+          0.03731175933697558
+        ],
+        "score_mean": 0.019750773198159013,
+        "score_p99": 0.21994150131940765,
+        "score_max": 0.7345104813575745
+      },
+      "negative_silence_noise | real_device_rpi": {
+        "n": 6,
+        "false_positives": 0,
+        "fpr": 0.0,
+        "ci95": [
+          0.0,
+          0.45925812643990044
+        ],
+        "score_mean": 0.00012367092131171376,
+        "score_p99": 0.00012367092131171376,
+        "score_max": 0.00012367092131171376
+      },
+      "negative_silence_noise | synthetic": {
+        "n": 100,
+        "false_positives": 0,
+        "fpr": 0.0,
+        "ci95": [
+          0.0,
+          0.03621669264517641
+        ],
+        "score_mean": 0.01784329504793277,
+        "score_p99": 0.0708463851362467,
+        "score_max": 0.07479394972324371
+      }
+    },
+    "low_signal_rpi": {
+      "Manual-Fil-RPI19": {
+        "window_id": "Manual-Fil-RPI19@-55ms_p",
+        "score": 0.18782515823841095,
+        "detected": false
+      }
+    },
+    "fingerprint": {
+      "n_windows": 1013,
+      "n_positive": 42,
+      "manifest_sha256": "614d936270951b5970e823a78919276f9494b28747a6eb274b2152d85d0896a0",
+      "preprocessing_feature_hash": "e697d07bc6531278",
+      "normalization_stats_sha256": "d0846d28be890c38c1e7a34046cba623da388ead1d31804ccfc6e5565abef6ea"
+    },
+    "sweep": [
+      {
+        "threshold": 2.0606004014211976e-08,
+        "detection_rate": 1.0,
+        "fpr": 1.0
+      },
+      {
+        "threshold": 5.26723353987571e-07,
+        "detection_rate": 1.0,
+        "fpr": 0.9814624098867147
+      },
+      {
+        "threshold": 1.880436805981459e-06,
+        "detection_rate": 1.0,
+        "fpr": 0.9639546858908342
+      },
+      {
+        "threshold": 3.908329591020879e-06,
+        "detection_rate": 1.0,
+        "fpr": 0.9464469618949537
+      },
+      {
+        "threshold": 7.442971640927481e-06,
+        "detection_rate": 1.0,
+        "fpr": 0.9289392378990731
+      },
+      {
+        "threshold": 1.364205136423599e-05,
+        "detection_rate": 1.0,
+        "fpr": 0.9114315139031925
+      },
+      {
+        "threshold": 2.5980367631823125e-05,
+        "detection_rate": 1.0,
+        "fpr": 0.893923789907312
+      },
+      {
+        "threshold": 4.1206827918975224e-05,
+        "detection_rate": 1.0,
+        "fpr": 0.8753861997940268
+      },
+      {
+        "threshold": 5.826885584826676e-05,
+        "detection_rate": 1.0,
+        "fpr": 0.8578784757981462
+      },
+      {
+        "threshold": 8.47359433310438e-05,
+        "detection_rate": 1.0,
+        "fpr": 0.8403707518022657
+      },
+      {
+        "threshold": 0.00010518387174115406,
+        "detection_rate": 1.0,
+        "fpr": 0.8228630278063852
+      },
+      {
+        "threshold": 0.00012532236292303177,
+        "detection_rate": 1.0,
+        "fpr": 0.8053553038105047
+      },
+      {
+        "threshold": 0.0001505044712172032,
+        "detection_rate": 1.0,
+        "fpr": 0.787847579814624
+      },
+      {
+        "threshold": 0.00019800377949496132,
+        "detection_rate": 1.0,
+        "fpr": 0.7703398558187435
+      },
+      {
+        "threshold": 0.00024319652535052875,
+        "detection_rate": 1.0,
+        "fpr": 0.7518022657054583
+      },
+      {
+        "threshold": 0.0002806037264852389,
+        "detection_rate": 1.0,
+        "fpr": 0.7342945417095778
+      },
+      {
+        "threshold": 0.0003365031700044618,
+        "detection_rate": 1.0,
+        "fpr": 0.7167868177136972
+      },
+      {
+        "threshold": 0.00037833132289776244,
+        "detection_rate": 1.0,
+        "fpr": 0.6992790937178167
+      },
+      {
+        "threshold": 0.0004182470433603404,
+        "detection_rate": 1.0,
+        "fpr": 0.6817713697219362
+      },
+      {
+        "threshold": 0.0004817712395964979,
+        "detection_rate": 1.0,
+        "fpr": 0.6642636457260556
+      },
+      {
+        "threshold": 0.0005516478045985608,
+        "detection_rate": 1.0,
+        "fpr": 0.6457260556127703
+      },
+      {
+        "threshold": 0.0006109124791445368,
+        "detection_rate": 1.0,
+        "fpr": 0.6282183316168898
+      },
+      {
+        "threshold": 0.0006862264619824492,
+        "detection_rate": 1.0,
+        "fpr": 0.6107106076210093
+      },
+      {
+        "threshold": 0.000773517379410944,
+        "detection_rate": 1.0,
+        "fpr": 0.5932028836251287
+      },
+      {
+        "threshold": 0.0008704315109367847,
+        "detection_rate": 1.0,
+        "fpr": 0.5756951596292482
+      },
+      {
+        "threshold": 0.000972217005101364,
+        "detection_rate": 1.0,
+        "fpr": 0.5581874356333677
+      },
+      {
+        "threshold": 0.0011051811072659695,
+        "detection_rate": 1.0,
+        "fpr": 0.5406797116374872
+      },
+      {
+        "threshold": 0.0012159569808518733,
+        "detection_rate": 1.0,
+        "fpr": 0.5221421215242018
+      },
+      {
+        "threshold": 0.0013120966387312797,
+        "detection_rate": 1.0,
+        "fpr": 0.5046343975283213
+      },
+      {
+        "threshold": 0.0015187694659551322,
+        "detection_rate": 1.0,
+        "fpr": 0.48712667353244077
+      },
+      {
+        "threshold": 0.0016968847051168144,
+        "detection_rate": 1.0,
+        "fpr": 0.46961894953656025
+      },
+      {
+        "threshold": 0.001848743383977878,
+        "detection_rate": 1.0,
+        "fpr": 0.45211122554067973
+      },
+      {
+        "threshold": 0.002067348904023736,
+        "detection_rate": 1.0,
+        "fpr": 0.43460350154479915
+      },
+      {
+        "threshold": 0.0023148694880685563,
+        "detection_rate": 1.0,
+        "fpr": 0.4160659114315139
+      },
+      {
+        "threshold": 0.002487260453655559,
+        "detection_rate": 1.0,
+        "fpr": 0.39855818743563337
+      },
+      {
+        "threshold": 0.002799704323633242,
+        "detection_rate": 1.0,
+        "fpr": 0.38105046343975285
+      },
+      {
+        "threshold": 0.003411131678149104,
+        "detection_rate": 1.0,
+        "fpr": 0.3635427394438723
+      },
+      {
+        "threshold": 0.003829408551455808,
+        "detection_rate": 0.9761904761904762,
+        "fpr": 0.3470648815653965
+      },
+      {
+        "threshold": 0.004596724695825978,
+        "detection_rate": 0.9761904761904762,
+        "fpr": 0.329557157569516
+      },
+      {
+        "threshold": 0.005054698081024117,
+        "detection_rate": 0.9761904761904762,
+        "fpr": 0.3120494335736354
+      },
+      {
+        "threshold": 0.005751594972117978,
+        "detection_rate": 0.9761904761904762,
+        "fpr": 0.29351184346035014
+      },
+      {
+        "threshold": 0.00668580211320166,
+        "detection_rate": 0.9761904761904762,
+        "fpr": 0.2760041194644696
+      },
+      {
+        "threshold": 0.0080067501482317,
+        "detection_rate": 0.9761904761904762,
+        "fpr": 0.2584963954685891
+      },
+      {
+        "threshold": 0.009180014242686458,
+        "detection_rate": 0.9761904761904762,
+        "fpr": 0.24098867147270855
+      },
+      {
+        "threshold": 0.010450838117907616,
+        "detection_rate": 0.9761904761904762,
+        "fpr": 0.223480947476828
+      },
+      {
+        "threshold": 0.012050077098153405,
+        "detection_rate": 0.9523809523809523,
+        "fpr": 0.2070030895983522
+      },
+      {
+        "threshold": 0.014342564584340101,
+        "detection_rate": 0.9523809523809523,
+        "fpr": 0.18846549948506694
+      },
+      {
+        "threshold": 0.017204885228963223,
+        "detection_rate": 0.9523809523809523,
+        "fpr": 0.1709577754891864
+      },
+      {
+        "threshold": 0.020999720162254275,
+        "detection_rate": 0.9523809523809523,
+        "fpr": 0.15345005149330587
+      },
+      {
+        "threshold": 0.026008840492468772,
+        "detection_rate": 0.9285714285714286,
+        "fpr": 0.13697219361483007
+      },
+      {
+        "threshold": 0.029266382236096816,
+        "detection_rate": 0.9285714285714286,
+        "fpr": 0.11946446961894953
+      },
+      {
+        "threshold": 0.03419834451150086,
+        "detection_rate": 0.9285714285714286,
+        "fpr": 0.101956745623069
+      },
+      {
+        "threshold": 0.040182994457624736,
+        "detection_rate": 0.9285714285714286,
+        "fpr": 0.08444902162718847
+      },
+      {
+        "threshold": 0.05223076841083625,
+        "detection_rate": 0.8571428571428571,
+        "fpr": 0.0690010298661174
+      },
+      {
+        "threshold": 0.07240872148234956,
+        "detection_rate": 0.8571428571428571,
+        "fpr": 0.05149330587023687
+      },
+      {
+        "threshold": 0.10318097636356191,
+        "detection_rate": 0.7857142857142857,
+        "fpr": 0.037075180226570546
+      },
+      {
+        "threshold": 0.15323354202812015,
+        "detection_rate": 0.7142857142857143,
+        "fpr": 0.02265705458290422
+      },
+      {
+        "threshold": 0.31391030145903664,
+        "detection_rate": 0.5952380952380952,
+        "fpr": 0.010298661174047374
+      },
+      {
+        "threshold": 0.7606291356733316,
+        "detection_rate": 0.35714285714285715,
+        "fpr": 0.003089598352214212
+      },
+      {
+        "threshold": 0.9998502731323242,
+        "detection_rate": 0.0,
+        "fpr": 0.0010298661174047373
+      }
+    ]
+  },
+  "streaming": {
+    "threshold": 0.33427843451499945,
+    "detection_config": {
+      "threshold_policy": {
+        "mode": "validation_fpr",
+        "target_fpr": 0.01
+      },
+      "_threshold_policy": "Operating threshold = the lowest score threshold whose false-positive rate on isolated validation negatives is <= target_fpr. Streaming data never influences it.",
+      "smoothing_windows": 1,
+      "refractory_sec": 1.0,
+      "hit_zone": {
+        "before_start_sec": 0.0,
+        "after_end_sec": 1.5
+      },
+      "_hit_zone": "A trigger at time t (end of the triggering 1.5 s window) detects a wakeword if wake_start - before <= t <= wake_end + after. The first trigger in the zone is the detection (latency = t - wake_end); later ones in the zone are duplicates, not false accepts. Triggers outside every zone are false accepts.",
+      "fa_attribution_window_sec": 1.5,
+      "sweep_points": 60,
+      "stream_chunk_sec": 0.5,
+      "_stream_chunk_sec": "Audio is fed to StreamingPreprocessor in 0.5 s chunks, as a live capture loop would; results are identical for any chunk size."
+    },
+    "overall": {
+      "streams": 180,
+      "exposure_hours": 1.7874,
+      "false_accepts": 213,
+      "fa_per_hour": 119.16421494015012,
+      "fa_per_hour_ci95": [
+        103.69741123837909,
+        136.28743646853593
+      ],
+      "wakewords": 209,
+      "detected": 43,
+      "misses": 166,
+      "detection_rate": 0.20574162679425836,
+      "detection_rate_ci95": [
+        0.15307932778053868,
+        0.2669531292091809
+      ],
+      "false_reject_rate": 0.7942583732057417,
+      "duplicate_triggers": 2,
+      "latency_sec": {
+        "median": -0.1004999999999967,
+        "p90": 0.661323333333334,
+        "mean": -0.1775406976744181,
+        "min": -1.324395833333332,
+        "max": 1.4081999999999972
+      }
+    },
+    "by_set": {
+      "A_phase1_holdout": {
+        "streams": 120,
+        "exposure_hours": 0.8623,
+        "false_accepts": 15,
+        "fa_per_hour": 17.395654078371837,
+        "fa_per_hour_ci95": [
+          9.736215534683893,
+          28.691485954104976
+        ],
+        "wakewords": 128,
+        "detected": 25,
+        "misses": 103,
+        "detection_rate": 0.1953125,
+        "detection_rate_ci95": [
+          0.13056455236574627,
+          0.2746720180684449
+        ],
+        "false_reject_rate": 0.8046875,
+        "duplicate_triggers": 1,
+        "latency_sec": {
+          "median": -0.13302083333333314,
+          "p90": 0.12333750000000068,
+          "mean": -0.42490999999999957,
+          "min": -1.324395833333332,
+          "max": 1.3134583333333332
+        }
+      },
+      "B_composed": {
+        "streams": 60,
+        "exposure_hours": 0.9252,
+        "false_accepts": 198,
+        "fa_per_hour": 214.01587182298795,
+        "fa_per_hour_ci95": [
+          185.24249594138976,
+          245.9921419251739
+        ],
+        "wakewords": 81,
+        "detected": 18,
+        "misses": 63,
+        "detection_rate": 0.2222222222222222,
+        "detection_rate_ci95": [
+          0.13734189202394656,
+          0.3282777537974119
+        ],
+        "false_reject_rate": 0.7777777777777778,
+        "duplicate_triggers": 1,
+        "latency_sec": {
+          "median": 0.029999999999999805,
+          "p90": 1.2027700000000026,
+          "mean": 0.16602777777777836,
+          "min": -0.7398000000000002,
+          "max": 1.4081999999999972
+        }
+      }
+    },
+    "by_condition": {
+      "continuous_speech": {
+        "streams": 10,
+        "exposure_hours": 0.1533,
+        "false_accepts": 57,
+        "fa_per_hour": 371.90075904364954,
+        "fa_per_hour_ci95": [
+          281.6740030794707,
+          481.8405699336833
+        ],
+        "wakewords": 15,
+        "detected": 4,
+        "misses": 11,
+        "detection_rate": 0.26666666666666666,
+        "detection_rate_ci95": [
+          0.0778715462910436,
+          0.5510032410369705
+        ],
+        "false_reject_rate": 0.7333333333333334,
+        "duplicate_triggers": 0,
+        "latency_sec": {
+          "median": 0.3637000000000028,
+          "p90": 1.1083000000000007,
+          "mean": 0.5381500000000017,
+          "min": 0.020199999999999996,
+          "max": 1.4050000000000011
+        }
+      },
+      "environmental_noise": {
+        "streams": 10,
+        "exposure_hours": 0.1513,
+        "false_accepts": 14,
+        "fa_per_hour": 92.51439250442516,
+        "fa_per_hour_ci95": [
+          50.578479270226936,
+          155.22343058898088
+        ],
+        "wakewords": 18,
+        "detected": 5,
+        "misses": 13,
+        "detection_rate": 0.2777777777777778,
+        "detection_rate_ci95": [
+          0.09694921252555941,
+          0.5348019655830561
+        ],
+        "false_reject_rate": 0.7222222222222222,
+        "duplicate_triggers": 0,
+        "latency_sec": {
+          "median": -0.1004999999999967,
+          "p90": 0.6855800000000017,
+          "mean": 0.13530000000000159,
+          "min": -0.23900000000000077,
+          "max": 1.116100000000003
+        }
+      },
+      "loud_continuous_speech": {
+        "streams": 120,
+        "exposure_hours": 0.8623,
+        "false_accepts": 15,
+        "fa_per_hour": 17.395654078371837,
+        "fa_per_hour_ci95": [
+          9.736215534683893,
+          28.691485954104976
+        ],
+        "wakewords": 128,
+        "detected": 25,
+        "misses": 103,
+        "detection_rate": 0.1953125,
+        "detection_rate_ci95": [
+          0.13056455236574627,
+          0.2746720180684449
+        ],
+        "false_reject_rate": 0.8046875,
+        "duplicate_triggers": 1,
+        "latency_sec": {
+          "median": -0.13302083333333314,
+          "p90": 0.12333750000000068,
+          "mean": -0.42490999999999957,
+          "min": -1.324395833333332,
+          "max": 1.3134583333333332
+        }
+      },
+      "media": {
+        "streams": 10,
+        "exposure_hours": 0.1537,
+        "false_accepts": 43,
+        "fa_per_hour": 279.71017111468484,
+        "fa_per_hour_ci95": [
+          202.42763775560033,
+          376.76776487971574
+        ],
+        "wakewords": 14,
+        "detected": 3,
+        "misses": 11,
+        "detection_rate": 0.21428571428571427,
+        "detection_rate_ci95": [
+          0.04657928788986731,
+          0.5079756770484718
+        ],
+        "false_reject_rate": 0.7857142857142857,
+        "duplicate_triggers": 1,
+        "latency_sec": {
+          "median": -0.7242999999999995,
+          "p90": -0.36238000000000026,
+          "mean": -0.5786666666666668,
+          "min": -0.7398000000000002,
+          "max": -0.2719000000000005
+        }
+      },
+      "mixed": {
+        "streams": 10,
+        "exposure_hours": 0.1556,
+        "false_accepts": 38,
+        "fa_per_hour": 244.17496349869882,
+        "fa_per_hour_ci95": [
+          172.79273672781656,
+          335.14921465859163
+        ],
+        "wakewords": 12,
+        "detected": 2,
+        "misses": 10,
+        "detection_rate": 0.16666666666666666,
+        "detection_rate_ci95": [
+          0.02086252546009238,
+          0.48413774868596704
+        ],
+        "false_reject_rate": 0.8333333333333334,
+        "duplicate_triggers": 0,
+        "latency_sec": {
+          "median": -0.09104999999999919,
+          "p90": 0.0893099999999997,
+          "mean": -0.09104999999999919,
+          "min": -0.3164999999999978,
+          "max": 0.1343999999999994
+        }
+      },
+      "noisy_speech": {
+        "streams": 10,
+        "exposure_hours": 0.1563,
+        "false_accepts": 24,
+        "fa_per_hour": 153.56453682962817,
+        "fa_per_hour_ci95": [
+          98.3916963475835,
+          228.49185821356383
+        ],
+        "wakewords": 10,
+        "detected": 1,
+        "misses": 9,
+        "detection_rate": 0.1,
+        "detection_rate_ci95": [
+          0.0025285785444617865,
+          0.4450161170281954
+        ],
+        "false_reject_rate": 0.9,
+        "duplicate_triggers": 0,
+        "latency_sec": {
+          "median": 1.4081999999999972,
+          "p90": 1.4081999999999972,
+          "mean": 1.4081999999999972,
+          "min": 1.4081999999999972,
+          "max": 1.4081999999999972
+        }
+      },
+      "quiet": {
+        "streams": 10,
+        "exposure_hours": 0.1549,
+        "false_accepts": 22,
+        "fa_per_hour": 142.0016495141105,
+        "fa_per_hour_ci95": [
+          88.9916777351931,
+          214.99220388290394
+        ],
+        "wakewords": 12,
+        "detected": 3,
+        "misses": 9,
+        "detection_rate": 0.25,
+        "detection_rate_ci95": [
+          0.05486064452799274,
+          0.5718584618781891
+        ],
+        "false_reject_rate": 0.75,
+        "duplicate_triggers": 0,
+        "latency_sec": {
+          "median": 0.08780000000000143,
+          "p90": 0.4705199999999998,
+          "mean": 0.22309999999999905,
+          "min": 0.015299999999996317,
+          "max": 0.5661999999999994
+        }
+      }
+    },
+    "detection_by_wake_type": {
+      "wakeword": {
+        "rate": 0.20430107526881722,
+        "lo": 0.14881765480796497,
+        "hi": 0.2694606378508904,
+        "n": 186
+      },
+      "wakeword_embedded": {
+        "rate": 0.21739130434782608,
+        "lo": 0.07460340764880372,
+        "hi": 0.4370307262368146,
+        "n": 23
+      }
+    },
+    "detection_by_level": {
+      "high (>=18 dB)": {
+        "rate": 0.23809523809523808,
+        "lo": 0.1205161864921799,
+        "hi": 0.3945024290215759,
+        "n": 42
+      },
+      "low (<10 dB)": {
+        "rate": 0.0,
+        "lo": 0.0,
+        "hi": 0.3084971078187607,
+        "n": 10
+      },
+      "mid (10-18 dB)": {
+        "rate": 0.27586206896551724,
+        "lo": 0.12734011410223015,
+        "hi": 0.47238448243003384,
+        "n": 29
+      },
+      "unmeasured (Set A)": {
+        "rate": 0.1953125,
+        "lo": 0.13056455236574627,
+        "hi": 0.2746720180684449,
+        "n": 128
+      }
+    },
+    "detection_by_voice": {
+      "en_GB-alan-medium": {
+        "rate": 0.038461538461538464,
+        "lo": 0.0009732878933350311,
+        "hi": 0.19636964676253893,
+        "n": 26
+      },
+      "en_GB-alba-medium": {
+        "rate": 0.03225806451612903,
+        "lo": 0.0008163700718466137,
+        "hi": 0.16702111623022772,
+        "n": 31
+      },
+      "en_US-amy-medium": {
+        "rate": 0.08333333333333333,
+        "lo": 0.010256341281250152,
+        "hi": 0.26997280155760356,
+        "n": 24
+      },
+      "en_US-lessac-medium": {
+        "rate": 0.2647058823529412,
+        "lo": 0.12881739158350816,
+        "hi": 0.44361536830510667,
+        "n": 34
+      },
+      "en_US-ryan-medium": {
+        "rate": 0.39285714285714285,
+        "lo": 0.21504282916096093,
+        "hi": 0.5942317935124368,
+        "n": 28
+      },
+      "fil-PH-AngeloNeural": {
+        "rate": 0.4,
+        "lo": 0.1215522581198272,
+        "hi": 0.7376219233930549,
+        "n": 10
+      },
+      "fil-PH-BlessicaNeural": {
+        "rate": 0.5333333333333333,
+        "lo": 0.26586134727739663,
+        "hi": 0.7873332704806921,
+        "n": 15
+      },
+      "id_ID-news_tts-medium": {
+        "rate": 0.2,
+        "lo": 0.05733399705003278,
+        "hi": 0.4366140029966683,
+        "n": 20
+      },
+      "vi_VN-vivos-x_low": {
+        "rate": 0.14285714285714285,
+        "lo": 0.03048896762151556,
+        "hi": 0.363423987016981,
+        "n": 21
+      }
+    },
+    "false_accepts_by_category": [
+      {
+        "category": "background:continuous_speech",
+        "false_accepts": 43,
+        "share_of_false_accepts": 0.20187793427230047,
+        "fa_per_hour_of_all_audio": 24.056625551297913,
+        "sets": "B_composed",
+        "condition_exposure_hours": 0.15326669444444446,
+        "fa_per_hour_in_condition": 280.5567129627532,
+        "fa_per_hour_in_condition_ci95": [
+          203.0402842885556,
+          377.9080511935913
+        ]
+      },
+      {
+        "category": "confusable",
+        "false_accepts": 36,
+        "share_of_false_accepts": 0.16901408450704225,
+        "fa_per_hour_of_all_audio": 20.140430694109877,
+        "sets": "B_composed",
+        "events_of_this_type": 176,
+        "events_triggering_fa": 34,
+        "fa_per_event": 0.19318181818181818,
+        "fa_per_event_ci95": [
+          0.13764966949240148,
+          0.25934828268804944
+        ]
+      },
+      {
+        "category": "background:media",
+        "false_accepts": 32,
+        "share_of_false_accepts": 0.15023474178403756,
+        "fa_per_hour_of_all_audio": 17.902605061431004,
+        "sets": "B_composed",
+        "condition_exposure_hours": 0.15373055555555554,
+        "fa_per_hour_in_condition": 208.15640641092824,
+        "fa_per_hour_in_condition_ci95": [
+          142.37882789264123,
+          293.85473770108905
+        ]
+      },
+      {
+        "category": "background:mixed",
+        "false_accepts": 30,
+        "share_of_false_accepts": 0.14084507042253522,
+        "fa_per_hour_of_all_audio": 16.783692245091565,
+        "sets": "B_composed",
+        "condition_exposure_hours": 0.1556261111111111,
+        "fa_per_hour_in_condition": 192.76970802528854,
+        "fa_per_hour_in_condition_ci95": [
+          130.06091250953193,
+          275.1907445931802
+        ]
+      },
+      {
+        "category": "background:noisy_speech",
+        "false_accepts": 19,
+        "share_of_false_accepts": 0.0892018779342723,
+        "fa_per_hour_of_all_audio": 10.629671755224658,
+        "sets": "B_composed",
+        "condition_exposure_hours": 0.1562860833333333,
+        "fa_per_hour_in_condition": 121.57192499012231,
+        "fa_per_hour_in_condition_ci95": [
+          73.19424046201642,
+          189.84962025251085
+        ]
+      },
+      {
+        "category": "speech_snippet",
+        "false_accepts": 17,
+        "share_of_false_accepts": 0.07981220657276995,
+        "fa_per_hour_of_all_audio": 9.510758938885221,
+        "sets": "B_composed",
+        "events_of_this_type": 43,
+        "events_triggering_fa": 13,
+        "fa_per_event": 0.3023255813953488,
+        "fa_per_event_ci95": [
+          0.1718249924852135,
+          0.46125330573403234
+        ]
+      },
+      {
+        "category": "background:loud_continuous_speech",
+        "false_accepts": 15,
+        "share_of_false_accepts": 0.07042253521126761,
+        "fa_per_hour_of_all_audio": 8.391846122545783,
+        "sets": "A_phase1_holdout",
+        "condition_exposure_hours": 0.8622843344907407,
+        "fa_per_hour_in_condition": 17.395654078371837,
+        "fa_per_hour_in_condition_ci95": [
+          9.736215534683893,
+          28.691485954104976
+        ]
+      },
+      {
+        "category": "partial_head",
+        "false_accepts": 10,
+        "share_of_false_accepts": 0.046948356807511735,
+        "fa_per_hour_of_all_audio": 5.594564081697189,
+        "sets": "B_composed",
+        "events_of_this_type": 60,
+        "events_triggering_fa": 8,
+        "fa_per_event": 0.13333333333333333,
+        "fa_per_event_ci95": [
+          0.0593644227053572,
+          0.24592222113041984
+        ]
+      },
+      {
+        "category": "partial_tail",
+        "false_accepts": 9,
+        "share_of_false_accepts": 0.04225352112676056,
+        "fa_per_hour_of_all_audio": 5.035107673527469,
+        "sets": "B_composed",
+        "events_of_this_type": 67,
+        "events_triggering_fa": 8,
+        "fa_per_event": 0.11940298507462686,
+        "fa_per_event_ci95": [
+          0.05298480594316102,
+          0.22178513843994277
+        ]
+      },
+      {
+        "category": "background:environmental_noise",
+        "false_accepts": 2,
+        "share_of_false_accepts": 0.009389671361502348,
+        "fa_per_hour_of_all_audio": 1.1189128163394377,
+        "sets": "B_composed",
+        "condition_exposure_hours": 0.15132780555555558,
+        "fa_per_hour_in_condition": 13.216341786346453,
+        "fa_per_hour_in_condition_ci95": [
+          1.6005603045307164,
+          47.741970758121035
+        ]
+      }
+    ],
+    "wakeword_position": {
+      "relative_start_min": 0.013776666666666666,
+      "relative_start_max": 0.9801766666666667,
+      "relative_start_quartiles": [
+        0.33124333333333333,
+        0.47682833333333335,
+        0.653325
+      ],
+      "by_set": {
+        "A_phase1_holdout": [
+          0.21020416666666666,
+          0.7685354166666667
+        ],
+        "B_composed": [
+          0.013776666666666666,
+          0.9801766666666667
+        ]
+      }
+    }
+  },
+  "streaming_set_verification": {
+    "streams": 180,
+    "sha256_verified": true,
+    "independent_of": [
+      "train",
+      "validation",
+      "test",
+      "isolated sets"
+    ]
+  }
+}

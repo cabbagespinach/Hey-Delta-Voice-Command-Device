@@ -1,0 +1,394 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0089.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:29:06+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8957463502883911,
+ "chunks": [
+  {
+   "chunk_start": 0.084,
+   "chunk_end": 3.436,
+   "text": "Can you send me the address when you arrive?",
+   "words": [
+    {
+     "word": "Can",
+     "start": 0.084,
+     "end": 0.444,
+     "probability": 0.8984
+    },
+    {
+     "word": "you",
+     "start": 0.444,
+     "end": 0.644,
+     "probability": 0.9971
+    },
+    {
+     "word": "send",
+     "start": 0.644,
+     "end": 0.924,
+     "probability": 0.9985
+    },
+    {
+     "word": "me",
+     "start": 0.924,
+     "end": 1.144,
+     "probability": 0.9976
+    },
+    {
+     "word": "the",
+     "start": 1.144,
+     "end": 1.324,
+     "probability": 0.9966
+    },
+    {
+     "word": "address",
+     "start": 1.324,
+     "end": 1.724,
+     "probability": 0.998
+    },
+    {
+     "word": "when",
+     "start": 1.724,
+     "end": 2.184,
+     "probability": 0.9839
+    },
+    {
+     "word": "you",
+     "start": 2.184,
+     "end": 2.324,
+     "probability": 0.999
+    },
+    {
+     "word": "arrive?",
+     "start": 2.324,
+     "end": 2.584,
+     "probability": 0.9985
+    }
+   ]
+  },
+  {
+   "chunk_start": 4.98,
+   "chunk_end": 8.076,
+   "text": "We ordered dinner and waited near the entrance.",
+   "words": [
+    {
+     "word": "We",
+     "start": 4.98,
+     "end": 5.34,
+     "probability": 0.8989
+    },
+    {
+     "word": "ordered",
+     "start": 5.34,
+     "end": 5.6,
+     "probability": 0.9932
+    },
+    {
+     "word": "dinner",
+     "start": 5.6,
+     "end": 5.96,
+     "probability": 0.9951
+    },
+    {
+     "word": "and",
+     "start": 5.96,
+     "end": 6.24,
+     "probability": 0.9932
+    },
+    {
+     "word": "waited",
+     "start": 6.24,
+     "end": 6.5,
+     "probability": 0.999
+    },
+    {
+     "word": "near",
+     "start": 6.5,
+     "end": 6.8,
+     "probability": 0.9976
+    },
+    {
+     "word": "the",
+     "start": 6.8,
+     "end": 6.98,
+     "probability": 0.9971
+    },
+    {
+     "word": "entrance.",
+     "start": 6.98,
+     "end": 7.28,
+     "probability": 0.9971
+    }
+   ]
+  },
+  {
+   "chunk_start": 9.268,
+   "chunk_end": 11.724,
+   "text": "The battery should last for another hour.",
+   "words": [
+    {
+     "word": "The",
+     "start": 9.268,
+     "end": 9.608,
+     "probability": 0.873
+    },
+    {
+     "word": "battery",
+     "start": 9.608,
+     "end": 9.968,
+     "probability": 0.9961
+    },
+    {
+     "word": "should",
+     "start": 9.968,
+     "end": 10.208,
+     "probability": 0.998
+    },
+    {
+     "word": "last",
+     "start": 10.208,
+     "end": 10.468,
+     "probability": 0.9995
+    },
+    {
+     "word": "for",
+     "start": 10.468,
+     "end": 10.668,
+     "probability": 0.998
+    },
+    {
+     "word": "another",
+     "start": 10.668,
+     "end": 10.868,
+     "probability": 0.9966
+    },
+    {
+     "word": "hour.",
+     "start": 10.868,
+     "end": 11.228,
+     "probability": 0.9976
+    }
+   ]
+  },
+  {
+   "chunk_start": 11.892,
+   "chunk_end": 14.156,
+   "text": "We can take the train after lunch.",
+   "words": [
+    {
+     "word": "We",
+     "start": 11.892,
+     "end": 12.212,
+     "probability": 0.7827
+    },
+    {
+     "word": "can",
+     "start": 12.212,
+     "end": 12.372,
+     "probability": 0.9922
+    },
+    {
+     "word": "take",
+     "start": 12.372,
+     "end": 12.472,
+     "probability": 0.9443
+    },
+    {
+     "word": "the",
+     "start": 12.472,
+     "end": 12.652,
+     "probability": 0.9917
+    },
+    {
+     "word": "train",
+     "start": 12.652,
+     "end": 12.912,
+     "probability": 0.9951
+    },
+    {
+     "word": "after",
+     "start": 12.912,
+     "end": 13.192,
+     "probability": 0.9658
+    },
+    {
+     "word": "lunch.",
+     "start": 13.192,
+     "end": 13.472,
+     "probability": 0.998
+    }
+   ]
+  },
+  {
+   "chunk_start": 15.284,
+   "chunk_end": 17.964,
+   "text": "I left the package beside the front door.",
+   "words": [
+    {
+     "word": "I",
+     "start": 15.284,
+     "end": 15.664,
+     "probability": 0.9438
+    },
+    {
+     "word": "left",
+     "start": 15.664,
+     "end": 15.844,
+     "probability": 0.9971
+    },
+    {
+     "word": "the",
+     "start": 15.844,
+     "end": 15.964,
+     "probability": 0.9902
+    },
+    {
+     "word": "package",
+     "start": 15.964,
+     "end": 16.224,
+     "probability": 0.9961
+    },
+    {
+     "word": "beside",
+     "start": 16.224,
+     "end": 16.624,
+     "probability": 0.979
+    },
+    {
+     "word": "the",
+     "start": 16.624,
+     "end": 16.884,
+     "probability": 0.9854
+    },
+    {
+     "word": "front",
+     "start": 16.884,
+     "end": 17.064,
+     "probability": 0.9932
+    },
+    {
+     "word": "door.",
+     "start": 17.064,
+     "end": 17.344,
+     "probability": 0.9966
+    }
+   ]
+  },
+  {
+   "chunk_start": 22.644,
+   "chunk_end": 25.164,
+   "text": "I left the package beside the front door.",
+   "words": [
+    {
+     "word": "I",
+     "start": 22.644,
+     "end": 22.924,
+     "probability": 0.75
+    },
+    {
+     "word": "left",
+     "start": 22.924,
+     "end": 23.124,
+     "probability": 0.9966
+    },
+    {
+     "word": "the",
+     "start": 23.124,
+     "end": 23.244,
+     "probability": 0.9912
+    },
+    {
+     "word": "package",
+     "start": 23.244,
+     "end": 23.504,
+     "probability": 0.9858
+    },
+    {
+     "word": "beside",
+     "start": 23.504,
+     "end": 23.924,
+     "probability": 0.9893
+    },
+    {
+     "word": "the",
+     "start": 23.924,
+     "end": 24.184,
+     "probability": 0.9976
+    },
+    {
+     "word": "front",
+     "start": 24.184,
+     "end": 24.384,
+     "probability": 0.9966
+    },
+    {
+     "word": "door.",
+     "start": 24.384,
+     "end": 24.644,
+     "probability": 0.998
+    }
+   ]
+  },
+  {
+   "chunk_start": 25.364,
+   "chunk_end": 29.74,
+   "text": "He was looking for a free planet or war.",
+   "words": [
+    {
+     "word": "He",
+     "start": 25.364,
+     "end": 25.864,
+     "probability": 0.6665
+    },
+    {
+     "word": "was",
+     "start": 25.864,
+     "end": 25.984,
+     "probability": 0.9805
+    },
+    {
+     "word": "looking",
+     "start": 25.984,
+     "end": 26.304,
+     "probability": 0.939
+    },
+    {
+     "word": "for",
+     "start": 26.304,
+     "end": 26.804,
+     "probability": 0.9819
+    },
+    {
+     "word": "a",
+     "start": 26.804,
+     "end": 27.024,
+     "probability": 0.3706
+    },
+    {
+     "word": "free",
+     "start": 27.024,
+     "end": 27.124,
+     "probability": 0.2915
+    },
+    {
+     "word": "planet",
+     "start": 27.124,
+     "end": 27.584,
+     "probability": 0.425
+    },
+    {
+     "word": "or",
+     "start": 27.584,
+     "end": 28.904,
+     "probability": 0.2659
+    },
+    {
+     "word": "war.",
+     "start": 28.904,
+     "end": 29.144,
+     "probability": 0.9097
+    }
+   ]
+  }
+ ]
+}

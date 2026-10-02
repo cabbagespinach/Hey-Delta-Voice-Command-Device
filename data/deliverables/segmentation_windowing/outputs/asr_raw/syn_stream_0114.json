@@ -1,0 +1,279 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0114.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:29:50+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.9001472592353821,
+ "chunks": [
+  {
+   "chunk_start": 6.1,
+   "chunk_end": 9.1,
+   "text": "I was looking for a quiet place to work.",
+   "words": [
+    {
+     "word": "I",
+     "start": 6.1,
+     "end": 6.4,
+     "probability": 0.8857
+    },
+    {
+     "word": "was",
+     "start": 6.4,
+     "end": 6.62,
+     "probability": 0.9961
+    },
+    {
+     "word": "looking",
+     "start": 6.62,
+     "end": 6.9,
+     "probability": 0.9961
+    },
+    {
+     "word": "for",
+     "start": 6.9,
+     "end": 7.22,
+     "probability": 0.999
+    },
+    {
+     "word": "a",
+     "start": 7.22,
+     "end": 7.34,
+     "probability": 0.9956
+    },
+    {
+     "word": "quiet",
+     "start": 7.34,
+     "end": 7.62,
+     "probability": 0.9932
+    },
+    {
+     "word": "place",
+     "start": 7.62,
+     "end": 7.9,
+     "probability": 0.9985
+    },
+    {
+     "word": "to",
+     "start": 7.9,
+     "end": 8.18,
+     "probability": 0.999
+    },
+    {
+     "word": "work.",
+     "start": 8.18,
+     "end": 8.48,
+     "probability": 0.9985
+    }
+   ]
+  },
+  {
+   "chunk_start": 11.604,
+   "chunk_end": 14.412,
+   "text": "The road was busy because of the rain.",
+   "words": [
+    {
+     "word": "The",
+     "start": 11.604,
+     "end": 11.904,
+     "probability": 0.8838
+    },
+    {
+     "word": "road",
+     "start": 11.904,
+     "end": 12.184,
+     "probability": 0.9727
+    },
+    {
+     "word": "was",
+     "start": 12.184,
+     "end": 12.564,
+     "probability": 0.9873
+    },
+    {
+     "word": "busy",
+     "start": 12.564,
+     "end": 12.904,
+     "probability": 0.9243
+    },
+    {
+     "word": "because",
+     "start": 12.904,
+     "end": 13.204,
+     "probability": 0.9722
+    },
+    {
+     "word": "of",
+     "start": 13.204,
+     "end": 13.484,
+     "probability": 0.998
+    },
+    {
+     "word": "the",
+     "start": 13.484,
+     "end": 13.604,
+     "probability": 0.9971
+    },
+    {
+     "word": "rain.",
+     "start": 13.604,
+     "end": 13.844,
+     "probability": 0.9966
+    }
+   ]
+  },
+  {
+   "chunk_start": 16.564,
+   "chunk_end": 17.836,
+   "text": "Hey, Delta.",
+   "words": [
+    {
+     "word": "Hey,",
+     "start": 16.564,
+     "end": 16.924,
+     "probability": 0.8589
+    },
+    {
+     "word": "Delta.",
+     "start": 16.964,
+     "end": 17.184,
+     "probability": 0.8989
+    }
+   ]
+  },
+  {
+   "chunk_start": 18.388,
+   "chunk_end": 19.724,
+   "text": "Hey DILTA!",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 18.388,
+     "end": 18.768,
+     "probability": 0.4946
+    },
+    {
+     "word": "DILTA!",
+     "start": 18.768,
+     "end": 19.168,
+     "probability": 0.5402
+    }
+   ]
+  },
+  {
+   "chunk_start": 19.924,
+   "chunk_end": 24.172,
+   "text": "Can you send me your address when you arrive?",
+   "words": [
+    {
+     "word": "Can",
+     "start": 20.944,
+     "end": 21.464,
+     "probability": 0.0658
+    },
+    {
+     "word": "you",
+     "start": 21.464,
+     "end": 21.904,
+     "probability": 0.9629
+    },
+    {
+     "word": "send",
+     "start": 21.904,
+     "end": 21.984,
+     "probability": 0.9878
+    },
+    {
+     "word": "me",
+     "start": 21.984,
+     "end": 22.184,
+     "probability": 0.8218
+    },
+    {
+     "word": "your",
+     "start": 22.184,
+     "end": 22.404,
+     "probability": 0.8306
+    },
+    {
+     "word": "address",
+     "start": 22.404,
+     "end": 22.744,
+     "probability": 0.9751
+    },
+    {
+     "word": "when",
+     "start": 22.744,
+     "end": 23.104,
+     "probability": 0.9404
+    },
+    {
+     "word": "you",
+     "start": 23.104,
+     "end": 23.244,
+     "probability": 0.998
+    },
+    {
+     "word": "arrive?",
+     "start": 23.244,
+     "end": 23.464,
+     "probability": 0.9976
+    }
+   ]
+  },
+  {
+   "chunk_start": 24.34,
+   "chunk_end": 27.084,
+   "text": "The children are playing outside in the garden.",
+   "words": [
+    {
+     "word": "The",
+     "start": 24.34,
+     "end": 24.64,
+     "probability": 0.9102
+    },
+    {
+     "word": "children",
+     "start": 24.64,
+     "end": 24.92,
+     "probability": 0.9844
+    },
+    {
+     "word": "are",
+     "start": 24.92,
+     "end": 25.18,
+     "probability": 0.9985
+    },
+    {
+     "word": "playing",
+     "start": 25.18,
+     "end": 25.42,
+     "probability": 0.9995
+    },
+    {
+     "word": "outside",
+     "start": 25.42,
+     "end": 25.88,
+     "probability": 0.999
+    },
+    {
+     "word": "in",
+     "start": 25.88,
+     "end": 26.16,
+     "probability": 0.9946
+    },
+    {
+     "word": "the",
+     "start": 26.16,
+     "end": 26.28,
+     "probability": 0.999
+    },
+    {
+     "word": "garden.",
+     "start": 26.28,
+     "end": 26.6,
+     "probability": 0.9971
+    }
+   ]
+  }
+ ]
+}

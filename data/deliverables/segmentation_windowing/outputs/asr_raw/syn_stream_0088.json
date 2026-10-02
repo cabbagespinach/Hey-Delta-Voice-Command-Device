@@ -1,0 +1,143 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0088.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:29:04+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.9047427177429199,
+ "chunks": [
+  {
+   "chunk_start": 11.06,
+   "chunk_end": 18.124,
+   "text": "That sounds like a reasonable idea to me. He dealt her.",
+   "words": [
+    {
+     "word": "That",
+     "start": 11.06,
+     "end": 11.4,
+     "probability": 0.771
+    },
+    {
+     "word": "sounds",
+     "start": 11.4,
+     "end": 11.8,
+     "probability": 0.9937
+    },
+    {
+     "word": "like",
+     "start": 11.8,
+     "end": 12.16,
+     "probability": 0.9985
+    },
+    {
+     "word": "a",
+     "start": 12.16,
+     "end": 12.3,
+     "probability": 0.9976
+    },
+    {
+     "word": "reasonable",
+     "start": 12.3,
+     "end": 12.76,
+     "probability": 0.9834
+    },
+    {
+     "word": "idea",
+     "start": 12.76,
+     "end": 13.12,
+     "probability": 0.9873
+    },
+    {
+     "word": "to",
+     "start": 13.12,
+     "end": 13.38,
+     "probability": 0.917
+    },
+    {
+     "word": "me.",
+     "start": 13.38,
+     "end": 13.86,
+     "probability": 0.9478
+    },
+    {
+     "word": "He",
+     "start": 14.2,
+     "end": 14.36,
+     "probability": 0.4912
+    },
+    {
+     "word": "dealt",
+     "start": 14.36,
+     "end": 15.28,
+     "probability": 0.6738
+    },
+    {
+     "word": "her.",
+     "start": 15.28,
+     "end": 15.56,
+     "probability": 0.7842
+    }
+   ]
+  },
+  {
+   "chunk_start": 18.324,
+   "chunk_end": 22.572,
+   "text": "There is enough time to finish this today.",
+   "words": [
+    {
+     "word": "There",
+     "start": 18.324,
+     "end": 18.704,
+     "probability": 0.8247
+    },
+    {
+     "word": "is",
+     "start": 18.704,
+     "end": 18.844,
+     "probability": 0.6909
+    },
+    {
+     "word": "enough",
+     "start": 18.844,
+     "end": 19.064,
+     "probability": 0.9634
+    },
+    {
+     "word": "time",
+     "start": 19.064,
+     "end": 19.344,
+     "probability": 0.9961
+    },
+    {
+     "word": "to",
+     "start": 19.344,
+     "end": 19.504,
+     "probability": 0.9941
+    },
+    {
+     "word": "finish",
+     "start": 19.504,
+     "end": 19.784,
+     "probability": 0.9961
+    },
+    {
+     "word": "this",
+     "start": 19.784,
+     "end": 19.984,
+     "probability": 0.9951
+    },
+    {
+     "word": "today.",
+     "start": 19.984,
+     "end": 20.304,
+     "probability": 0.9722
+    }
+   ]
+  },
+  {
+   "chunk_start": 24.212,
+   "chunk_end": 27.628,
+   "text": "",
+   "words": []
+  }
+ ]
+}

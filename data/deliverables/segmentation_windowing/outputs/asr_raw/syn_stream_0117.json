@@ -1,0 +1,259 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0117.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:29:53+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8993173241615295,
+ "chunks": [
+  {
+   "chunk_start": 0.532,
+   "chunk_end": 3.82,
+   "text": "We ordered dinner and waited near the entrance.",
+   "words": [
+    {
+     "word": "We",
+     "start": 0.532,
+     "end": 0.852,
+     "probability": 0.8691
+    },
+    {
+     "word": "ordered",
+     "start": 0.852,
+     "end": 1.152,
+     "probability": 0.9878
+    },
+    {
+     "word": "dinner",
+     "start": 1.152,
+     "end": 1.492,
+     "probability": 0.9849
+    },
+    {
+     "word": "and",
+     "start": 1.492,
+     "end": 2.032,
+     "probability": 0.7432
+    },
+    {
+     "word": "waited",
+     "start": 2.032,
+     "end": 2.312,
+     "probability": 0.8975
+    },
+    {
+     "word": "near",
+     "start": 2.312,
+     "end": 2.592,
+     "probability": 0.9932
+    },
+    {
+     "word": "the",
+     "start": 2.592,
+     "end": 2.712,
+     "probability": 0.9766
+    },
+    {
+     "word": "entrance.",
+     "start": 2.712,
+     "end": 3.032,
+     "probability": 0.9897
+    }
+   ]
+  },
+  {
+   "chunk_start": 5.524,
+   "chunk_end": 10.092,
+   "text": "We can take the train after lunch. I was looking for a quiet place to work.",
+   "words": [
+    {
+     "word": "We",
+     "start": 5.524,
+     "end": 5.844,
+     "probability": 0.7603
+    },
+    {
+     "word": "can",
+     "start": 5.844,
+     "end": 6.004,
+     "probability": 0.9985
+    },
+    {
+     "word": "take",
+     "start": 6.004,
+     "end": 6.284,
+     "probability": 0.9971
+    },
+    {
+     "word": "the",
+     "start": 6.284,
+     "end": 6.504,
+     "probability": 0.998
+    },
+    {
+     "word": "train",
+     "start": 6.504,
+     "end": 6.804,
+     "probability": 0.9966
+    },
+    {
+     "word": "after",
+     "start": 6.804,
+     "end": 7.204,
+     "probability": 0.998
+    },
+    {
+     "word": "lunch.",
+     "start": 7.204,
+     "end": 7.624,
+     "probability": 0.9995
+    },
+    {
+     "word": "I",
+     "start": 7.884,
+     "end": 8.064,
+     "probability": 0.9922
+    },
+    {
+     "word": "was",
+     "start": 8.064,
+     "end": 8.244,
+     "probability": 0.9995
+    },
+    {
+     "word": "looking",
+     "start": 8.244,
+     "end": 8.484,
+     "probability": 0.9995
+    },
+    {
+     "word": "for",
+     "start": 8.484,
+     "end": 8.724,
+     "probability": 0.9995
+    },
+    {
+     "word": "a",
+     "start": 8.724,
+     "end": 8.824,
+     "probability": 0.9971
+    },
+    {
+     "word": "quiet",
+     "start": 8.824,
+     "end": 9.044,
+     "probability": 0.9917
+    },
+    {
+     "word": "place",
+     "start": 9.044,
+     "end": 9.284,
+     "probability": 0.9995
+    },
+    {
+     "word": "to",
+     "start": 9.284,
+     "end": 9.464,
+     "probability": 0.999
+    },
+    {
+     "word": "work.",
+     "start": 9.464,
+     "end": 9.684,
+     "probability": 0.999
+    }
+   ]
+  },
+  {
+   "chunk_start": 14.74,
+   "chunk_end": 17.548,
+   "text": "We can take the train after lunch.",
+   "words": [
+    {
+     "word": "We",
+     "start": 14.74,
+     "end": 15.06,
+     "probability": 0.8398
+    },
+    {
+     "word": "can",
+     "start": 15.06,
+     "end": 15.26,
+     "probability": 0.9966
+    },
+    {
+     "word": "take",
+     "start": 15.26,
+     "end": 15.58,
+     "probability": 0.9971
+    },
+    {
+     "word": "the",
+     "start": 15.58,
+     "end": 15.74,
+     "probability": 0.9722
+    },
+    {
+     "word": "train",
+     "start": 15.74,
+     "end": 16.04,
+     "probability": 0.9961
+    },
+    {
+     "word": "after",
+     "start": 16.04,
+     "end": 16.5,
+     "probability": 0.9971
+    },
+    {
+     "word": "lunch.",
+     "start": 16.5,
+     "end": 16.86,
+     "probability": 0.9985
+    }
+   ]
+  },
+  {
+   "chunk_start": 17.556,
+   "chunk_end": 20.716,
+   "text": "The report contains several useful examples.",
+   "words": [
+    {
+     "word": "The",
+     "start": 17.556,
+     "end": 17.856,
+     "probability": 0.9043
+    },
+    {
+     "word": "report",
+     "start": 17.856,
+     "end": 18.136,
+     "probability": 0.9854
+    },
+    {
+     "word": "contains",
+     "start": 18.136,
+     "end": 18.576,
+     "probability": 0.9883
+    },
+    {
+     "word": "several",
+     "start": 18.576,
+     "end": 19.036,
+     "probability": 0.9897
+    },
+    {
+     "word": "useful",
+     "start": 19.036,
+     "end": 19.396,
+     "probability": 0.9971
+    },
+    {
+     "word": "examples.",
+     "start": 19.396,
+     "end": 19.836,
+     "probability": 0.998
+    }
+   ]
+  }
+ ]
+}

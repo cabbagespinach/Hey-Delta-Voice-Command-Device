@@ -1,0 +1,295 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0036.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:27:44+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8967776298522949,
+ "chunks": [
+  {
+   "chunk_start": 0.436,
+   "chunk_end": 4.108,
+   "text": "Please remember to bring 10 documents tomorrow.",
+   "words": [
+    {
+     "word": "Please",
+     "start": 0.436,
+     "end": 0.836,
+     "probability": 0.7651
+    },
+    {
+     "word": "remember",
+     "start": 0.836,
+     "end": 1.176,
+     "probability": 0.9268
+    },
+    {
+     "word": "to",
+     "start": 1.176,
+     "end": 1.716,
+     "probability": 0.9858
+    },
+    {
+     "word": "bring",
+     "start": 1.716,
+     "end": 1.976,
+     "probability": 0.9917
+    },
+    {
+     "word": "10",
+     "start": 1.976,
+     "end": 2.296,
+     "probability": 0.3999
+    },
+    {
+     "word": "documents",
+     "start": 2.296,
+     "end": 2.576,
+     "probability": 0.8779
+    },
+    {
+     "word": "tomorrow.",
+     "start": 2.576,
+     "end": 3.256,
+     "probability": 0.9648
+    }
+   ]
+  },
+  {
+   "chunk_start": 6.356,
+   "chunk_end": 11.404,
+   "text": "Hey Delta, this recording is only being used as synthetic data.",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 6.356,
+     "end": 6.716,
+     "probability": 0.7651
+    },
+    {
+     "word": "Delta,",
+     "start": 6.716,
+     "end": 6.996,
+     "probability": 0.8794
+    },
+    {
+     "word": "this",
+     "start": 7.236,
+     "end": 7.696,
+     "probability": 0.8667
+    },
+    {
+     "word": "recording",
+     "start": 7.696,
+     "end": 8.216,
+     "probability": 0.9971
+    },
+    {
+     "word": "is",
+     "start": 8.216,
+     "end": 8.556,
+     "probability": 0.9985
+    },
+    {
+     "word": "only",
+     "start": 8.556,
+     "end": 8.896,
+     "probability": 0.9932
+    },
+    {
+     "word": "being",
+     "start": 8.896,
+     "end": 9.236,
+     "probability": 0.9985
+    },
+    {
+     "word": "used",
+     "start": 9.236,
+     "end": 9.716,
+     "probability": 0.9995
+    },
+    {
+     "word": "as",
+     "start": 9.716,
+     "end": 10.036,
+     "probability": 0.9976
+    },
+    {
+     "word": "synthetic",
+     "start": 10.036,
+     "end": 10.376,
+     "probability": 0.9697
+    },
+    {
+     "word": "data.",
+     "start": 10.376,
+     "end": 10.816,
+     "probability": 0.9966
+    }
+   ]
+  },
+  {
+   "chunk_start": 11.668,
+   "chunk_end": 16.812,
+   "text": "Hey Delta, please remember to bring the documents tomorrow.",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 12.568,
+     "end": 13.248,
+     "probability": 0.3147
+    },
+    {
+     "word": "Delta,",
+     "start": 13.248,
+     "end": 13.648,
+     "probability": 0.6445
+    },
+    {
+     "word": "please",
+     "start": 13.848,
+     "end": 14.388,
+     "probability": 0.9087
+    },
+    {
+     "word": "remember",
+     "start": 14.388,
+     "end": 14.788,
+     "probability": 0.9858
+    },
+    {
+     "word": "to",
+     "start": 14.788,
+     "end": 15.088,
+     "probability": 0.9966
+    },
+    {
+     "word": "bring",
+     "start": 15.088,
+     "end": 15.288,
+     "probability": 0.9995
+    },
+    {
+     "word": "the",
+     "start": 15.288,
+     "end": 15.408,
+     "probability": 0.9893
+    },
+    {
+     "word": "documents",
+     "start": 15.408,
+     "end": 15.748,
+     "probability": 0.9912
+    },
+    {
+     "word": "tomorrow.",
+     "start": 15.748,
+     "end": 16.088,
+     "probability": 0.9951
+    }
+   ]
+  },
+  {
+   "chunk_start": 17.588,
+   "chunk_end": 22.508,
+   "text": "The children are playing outside in the garden. We ordered dinner and waited near the entrance.",
+   "words": [
+    {
+     "word": "The",
+     "start": 17.588,
+     "end": 17.928,
+     "probability": 0.897
+    },
+    {
+     "word": "children",
+     "start": 17.928,
+     "end": 18.168,
+     "probability": 0.998
+    },
+    {
+     "word": "are",
+     "start": 18.168,
+     "end": 18.408,
+     "probability": 0.999
+    },
+    {
+     "word": "playing",
+     "start": 18.408,
+     "end": 18.628,
+     "probability": 0.9995
+    },
+    {
+     "word": "outside",
+     "start": 18.628,
+     "end": 19.048,
+     "probability": 0.9995
+    },
+    {
+     "word": "in",
+     "start": 19.048,
+     "end": 19.288,
+     "probability": 0.9951
+    },
+    {
+     "word": "the",
+     "start": 19.288,
+     "end": 19.368,
+     "probability": 0.999
+    },
+    {
+     "word": "garden.",
+     "start": 19.368,
+     "end": 19.628,
+     "probability": 0.999
+    },
+    {
+     "word": "We",
+     "start": 19.768,
+     "end": 19.968,
+     "probability": 0.9902
+    },
+    {
+     "word": "ordered",
+     "start": 19.968,
+     "end": 20.248,
+     "probability": 0.9868
+    },
+    {
+     "word": "dinner",
+     "start": 20.248,
+     "end": 20.508,
+     "probability": 0.9985
+    },
+    {
+     "word": "and",
+     "start": 20.508,
+     "end": 20.788,
+     "probability": 0.9951
+    },
+    {
+     "word": "waited",
+     "start": 20.788,
+     "end": 21.048,
+     "probability": 0.9995
+    },
+    {
+     "word": "near",
+     "start": 21.048,
+     "end": 21.268,
+     "probability": 0.9985
+    },
+    {
+     "word": "the",
+     "start": 21.268,
+     "end": 21.428,
+     "probability": 0.9995
+    },
+    {
+     "word": "entrance.",
+     "start": 21.428,
+     "end": 21.728,
+     "probability": 0.999
+    }
+   ]
+  }
+ ]
+}

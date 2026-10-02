@@ -1,0 +1,28 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/positives/tts2_en_US-bryce-medium_spk0_pos0.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-29T13:39:12+00:00",
+ "duration_sec": 1.18421768707483,
+ "input_peak": 1.0233368873596191,
+ "chunks": [
+  {
+   "chunk_start": 0.0,
+   "chunk_end": 1.184,
+   "text": "K-Delta",
+   "words": [
+    {
+     "word": "K",
+     "start": 0.0,
+     "end": 0.28,
+     "probability": 0.3884
+    },
+    {
+     "word": "-Delta",
+     "start": 0.28,
+     "end": 0.76,
+     "probability": 0.6968
+    }
+   ]
+  }
+ ]
+}

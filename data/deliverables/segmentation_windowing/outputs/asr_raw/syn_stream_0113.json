@@ -1,0 +1,308 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0113.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:29:48+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8907570242881775,
+ "chunks": [
+  {
+   "chunk_start": 4.02,
+   "chunk_end": 8.64,
+   "text": "The battery should last for another hour.",
+   "words": [
+    {
+     "word": "The",
+     "start": 4.02,
+     "end": 4.64,
+     "probability": 0.3787
+    },
+    {
+     "word": "battery",
+     "start": 4.64,
+     "end": 5.12,
+     "probability": 0.9473
+    },
+    {
+     "word": "should",
+     "start": 5.12,
+     "end": 5.28,
+     "probability": 0.9966
+    },
+    {
+     "word": "last",
+     "start": 5.28,
+     "end": 5.58,
+     "probability": 0.9976
+    },
+    {
+     "word": "for",
+     "start": 5.58,
+     "end": 5.84,
+     "probability": 0.9858
+    },
+    {
+     "word": "another",
+     "start": 5.84,
+     "end": 6.06,
+     "probability": 0.9512
+    },
+    {
+     "word": "hour.",
+     "start": 6.06,
+     "end": 6.38,
+     "probability": 0.9565
+    }
+   ]
+  },
+  {
+   "chunk_start": 8.64,
+   "chunk_end": 13.804,
+   "text": "We can take the train after lunch. See you later. See you later.",
+   "words": [
+    {
+     "word": "We",
+     "start": 8.64,
+     "end": 8.9,
+     "probability": 0.7065
+    },
+    {
+     "word": "can",
+     "start": 8.9,
+     "end": 9.04,
+     "probability": 0.9937
+    },
+    {
+     "word": "take",
+     "start": 9.04,
+     "end": 9.24,
+     "probability": 0.9922
+    },
+    {
+     "word": "the",
+     "start": 9.24,
+     "end": 9.38,
+     "probability": 0.9824
+    },
+    {
+     "word": "train",
+     "start": 9.38,
+     "end": 9.62,
+     "probability": 0.9956
+    },
+    {
+     "word": "after",
+     "start": 9.62,
+     "end": 9.88,
+     "probability": 0.9893
+    },
+    {
+     "word": "lunch.",
+     "start": 9.88,
+     "end": 10.22,
+     "probability": 0.9985
+    },
+    {
+     "word": "See",
+     "start": 10.3,
+     "end": 10.38,
+     "probability": 0.157
+    },
+    {
+     "word": "you",
+     "start": 10.38,
+     "end": 10.48,
+     "probability": 0.3323
+    },
+    {
+     "word": "later.",
+     "start": 10.48,
+     "end": 11.22,
+     "probability": 0.3345
+    },
+    {
+     "word": "See",
+     "start": 11.78,
+     "end": 11.96,
+     "probability": 0.4036
+    },
+    {
+     "word": "you",
+     "start": 11.96,
+     "end": 13.04,
+     "probability": 0.9658
+    },
+    {
+     "word": "later.",
+     "start": 13.04,
+     "end": 13.14,
+     "probability": 0.897
+    }
+   ]
+  },
+  {
+   "chunk_start": 14.996,
+   "chunk_end": 17.58,
+   "text": "The weather is changing again this afternoon.",
+   "words": [
+    {
+     "word": "The",
+     "start": 14.996,
+     "end": 15.336,
+     "probability": 0.8599
+    },
+    {
+     "word": "weather",
+     "start": 15.336,
+     "end": 15.556,
+     "probability": 0.9956
+    },
+    {
+     "word": "is",
+     "start": 15.556,
+     "end": 15.716,
+     "probability": 0.9956
+    },
+    {
+     "word": "changing",
+     "start": 15.716,
+     "end": 15.996,
+     "probability": 0.9941
+    },
+    {
+     "word": "again",
+     "start": 15.996,
+     "end": 16.376,
+     "probability": 0.9966
+    },
+    {
+     "word": "this",
+     "start": 16.376,
+     "end": 16.576,
+     "probability": 0.9966
+    },
+    {
+     "word": "afternoon.",
+     "start": 16.576,
+     "end": 16.896,
+     "probability": 0.9985
+    }
+   ]
+  },
+  {
+   "chunk_start": 20.372,
+   "chunk_end": 23.436,
+   "text": "There is enough time to finish this today.",
+   "words": [
+    {
+     "word": "There",
+     "start": 20.372,
+     "end": 20.712,
+     "probability": 0.8735
+    },
+    {
+     "word": "is",
+     "start": 20.712,
+     "end": 20.932,
+     "probability": 0.9961
+    },
+    {
+     "word": "enough",
+     "start": 20.932,
+     "end": 21.212,
+     "probability": 0.9971
+    },
+    {
+     "word": "time",
+     "start": 21.212,
+     "end": 21.532,
+     "probability": 0.999
+    },
+    {
+     "word": "to",
+     "start": 21.532,
+     "end": 21.832,
+     "probability": 0.999
+    },
+    {
+     "word": "finish",
+     "start": 21.832,
+     "end": 22.132,
+     "probability": 0.9985
+    },
+    {
+     "word": "this",
+     "start": 22.132,
+     "end": 22.432,
+     "probability": 0.9995
+    },
+    {
+     "word": "today.",
+     "start": 22.432,
+     "end": 22.772,
+     "probability": 0.9961
+    }
+   ]
+  },
+  {
+   "chunk_start": 25.716,
+   "chunk_end": 28.492,
+   "text": "Can you send me the address when you arrive?",
+   "words": [
+    {
+     "word": "Can",
+     "start": 25.716,
+     "end": 26.036,
+     "probability": 0.8364
+    },
+    {
+     "word": "you",
+     "start": 26.036,
+     "end": 26.196,
+     "probability": 0.9946
+    },
+    {
+     "word": "send",
+     "start": 26.196,
+     "end": 26.396,
+     "probability": 0.9937
+    },
+    {
+     "word": "me",
+     "start": 26.396,
+     "end": 26.596,
+     "probability": 0.9932
+    },
+    {
+     "word": "the",
+     "start": 26.596,
+     "end": 26.716,
+     "probability": 0.9927
+    },
+    {
+     "word": "address",
+     "start": 26.716,
+     "end": 27.056,
+     "probability": 0.9951
+    },
+    {
+     "word": "when",
+     "start": 27.056,
+     "end": 27.416,
+     "probability": 0.9141
+    },
+    {
+     "word": "you",
+     "start": 27.416,
+     "end": 27.536,
+     "probability": 0.9985
+    },
+    {
+     "word": "arrive?",
+     "start": 27.536,
+     "end": 27.716,
+     "probability": 0.998
+    }
+   ]
+  }
+ ]
+}

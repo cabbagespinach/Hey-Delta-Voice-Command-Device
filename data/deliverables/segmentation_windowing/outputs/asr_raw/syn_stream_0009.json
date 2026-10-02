@@ -1,0 +1,107 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0009.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:27:05+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8373731970787048,
+ "chunks": [
+  {
+   "chunk_start": 5.46,
+   "chunk_end": 9.484,
+   "text": "The next episode starts after the commercial.",
+   "words": [
+    {
+     "word": "The",
+     "start": 5.46,
+     "end": 5.76,
+     "probability": 0.833
+    },
+    {
+     "word": "next",
+     "start": 5.76,
+     "end": 5.98,
+     "probability": 0.9756
+    },
+    {
+     "word": "episode",
+     "start": 5.98,
+     "end": 6.5,
+     "probability": 0.9751
+    },
+    {
+     "word": "starts",
+     "start": 6.5,
+     "end": 6.9,
+     "probability": 0.9927
+    },
+    {
+     "word": "after",
+     "start": 6.9,
+     "end": 7.46,
+     "probability": 0.9199
+    },
+    {
+     "word": "the",
+     "start": 7.46,
+     "end": 7.72,
+     "probability": 0.9888
+    },
+    {
+     "word": "commercial.",
+     "start": 7.72,
+     "end": 8.14,
+     "probability": 0.9873
+    }
+   ]
+  },
+  {
+   "chunk_start": 10.996,
+   "chunk_end": 15.276,
+   "text": "The weather is changing again this afternoon.",
+   "words": [
+    {
+     "word": "The",
+     "start": 10.996,
+     "end": 11.856,
+     "probability": 0.2446
+    },
+    {
+     "word": "weather",
+     "start": 11.856,
+     "end": 12.156,
+     "probability": 0.9893
+    },
+    {
+     "word": "is",
+     "start": 12.156,
+     "end": 12.356,
+     "probability": 0.9448
+    },
+    {
+     "word": "changing",
+     "start": 12.356,
+     "end": 12.936,
+     "probability": 0.9937
+    },
+    {
+     "word": "again",
+     "start": 12.936,
+     "end": 13.376,
+     "probability": 0.5791
+    },
+    {
+     "word": "this",
+     "start": 13.376,
+     "end": 13.616,
+     "probability": 0.9351
+    },
+    {
+     "word": "afternoon.",
+     "start": 13.616,
+     "end": 13.996,
+     "probability": 0.9824
+    }
+   ]
+  }
+ ]
+}

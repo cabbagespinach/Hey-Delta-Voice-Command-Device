@@ -1,0 +1,707 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/negatives_general/Manual-BG-RPI36.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-29T03:03:52+00:00",
+ "duration_sec": 124.40533333333333,
+ "input_peak": 0.13659940659999847,
+ "chunks": [
+  {
+   "chunk_start": 1.972,
+   "chunk_end": 3.168,
+   "text": "Hello everyone and welcome to the",
+   "words": [
+    {
+     "word": "Hello",
+     "start": 1.972,
+     "end": 2.312,
+     "probability": 0.1307
+    },
+    {
+     "word": "everyone",
+     "start": 2.312,
+     "end": 2.312,
+     "probability": 0.7427
+    },
+    {
+     "word": "and",
+     "start": 2.312,
+     "end": 2.492,
+     "probability": 0.5615
+    },
+    {
+     "word": "welcome",
+     "start": 2.492,
+     "end": 2.752,
+     "probability": 0.978
+    },
+    {
+     "word": "to",
+     "start": 2.752,
+     "end": 2.972,
+     "probability": 0.9038
+    },
+    {
+     "word": "the",
+     "start": 2.972,
+     "end": 3.052,
+     "probability": 0.3965
+    }
+   ]
+  },
+  {
+   "chunk_start": 3.168,
+   "chunk_end": 9.036,
+   "text": "very special game from the final round of the phs olympia the 2026 we",
+   "words": [
+    {
+     "word": "very",
+     "start": 3.168,
+     "end": 3.308,
+     "probability": 0.1702
+    },
+    {
+     "word": "special",
+     "start": 3.308,
+     "end": 3.608,
+     "probability": 0.9956
+    },
+    {
+     "word": "game",
+     "start": 3.608,
+     "end": 4.008,
+     "probability": 0.9404
+    },
+    {
+     "word": "from",
+     "start": 4.008,
+     "end": 4.248,
+     "probability": 0.9746
+    },
+    {
+     "word": "the",
+     "start": 4.248,
+     "end": 4.368,
+     "probability": 0.9966
+    },
+    {
+     "word": "final",
+     "start": 4.368,
+     "end": 4.688,
+     "probability": 0.9897
+    },
+    {
+     "word": "round",
+     "start": 4.688,
+     "end": 4.968,
+     "probability": 0.9727
+    },
+    {
+     "word": "of",
+     "start": 4.968,
+     "end": 5.188,
+     "probability": 0.7534
+    },
+    {
+     "word": "the",
+     "start": 5.188,
+     "end": 5.308,
+     "probability": 0.937
+    },
+    {
+     "word": "phs",
+     "start": 5.308,
+     "end": 5.788,
+     "probability": 0.8333
+    },
+    {
+     "word": "olympia",
+     "start": 5.788,
+     "end": 6.408,
+     "probability": 0.8665
+    },
+    {
+     "word": "the",
+     "start": 6.408,
+     "end": 6.568,
+     "probability": 0.7129
+    },
+    {
+     "word": "2026",
+     "start": 6.568,
+     "end": 7.408,
+     "probability": 0.9651
+    },
+    {
+     "word": "we",
+     "start": 7.408,
+     "end": 8.188,
+     "probability": 0.814
+    }
+   ]
+  },
+  {
+   "chunk_start": 9.268,
+   "chunk_end": 10.636,
+   "text": "Say that this is the game.",
+   "words": [
+    {
+     "word": "Say",
+     "start": 9.268,
+     "end": 9.668,
+     "probability": 0.1667
+    },
+    {
+     "word": "that",
+     "start": 9.668,
+     "end": 9.808,
+     "probability": 0.8945
+    },
+    {
+     "word": "this",
+     "start": 9.808,
+     "end": 10.028,
+     "probability": 0.9106
+    },
+    {
+     "word": "is",
+     "start": 10.028,
+     "end": 10.308,
+     "probability": 0.9839
+    },
+    {
+     "word": "the",
+     "start": 10.308,
+     "end": 10.428,
+     "probability": 0.9248
+    },
+    {
+     "word": "game.",
+     "start": 10.428,
+     "end": 10.548,
+     "probability": 0.5942
+    }
+   ]
+  },
+  {
+   "chunk_start": 11.508,
+   "chunk_end": 13.152,
+   "text": "Now everyone has their own preference.",
+   "words": [
+    {
+     "word": "Now",
+     "start": 11.508,
+     "end": 11.788,
+     "probability": 0.3137
+    },
+    {
+     "word": "everyone",
+     "start": 11.788,
+     "end": 12.088,
+     "probability": 0.8696
+    },
+    {
+     "word": "has",
+     "start": 12.088,
+     "end": 12.508,
+     "probability": 0.9751
+    },
+    {
+     "word": "their",
+     "start": 12.508,
+     "end": 12.688,
+     "probability": 0.9307
+    },
+    {
+     "word": "own",
+     "start": 12.688,
+     "end": 12.828,
+     "probability": 0.9971
+    },
+    {
+     "word": "preference.",
+     "start": 12.828,
+     "end": 12.988,
+     "probability": 0.4207
+    }
+   ]
+  },
+  {
+   "chunk_start": 13.152,
+   "chunk_end": 20.288,
+   "text": "Of course and for you it might be some other game, but it has to be",
+   "words": [
+    {
+     "word": "Of",
+     "start": 13.152,
+     "end": 13.432,
+     "probability": 0.11
+    },
+    {
+     "word": "course",
+     "start": 13.432,
+     "end": 13.692,
+     "probability": 0.9731
+    },
+    {
+     "word": "and",
+     "start": 13.692,
+     "end": 13.852,
+     "probability": 0.6138
+    },
+    {
+     "word": "for",
+     "start": 13.852,
+     "end": 14.052,
+     "probability": 0.9932
+    },
+    {
+     "word": "you",
+     "start": 14.052,
+     "end": 14.292,
+     "probability": 0.9976
+    },
+    {
+     "word": "it",
+     "start": 14.292,
+     "end": 14.452,
+     "probability": 0.6938
+    },
+    {
+     "word": "might",
+     "start": 14.452,
+     "end": 14.652,
+     "probability": 0.9961
+    },
+    {
+     "word": "be",
+     "start": 14.652,
+     "end": 14.812,
+     "probability": 0.9976
+    },
+    {
+     "word": "some",
+     "start": 14.812,
+     "end": 14.992,
+     "probability": 0.9912
+    },
+    {
+     "word": "other",
+     "start": 14.992,
+     "end": 15.192,
+     "probability": 0.9932
+    },
+    {
+     "word": "game,",
+     "start": 15.192,
+     "end": 15.372,
+     "probability": 0.9624
+    },
+    {
+     "word": "but",
+     "start": 15.552,
+     "end": 16.352,
+     "probability": 0.9951
+    },
+    {
+     "word": "it",
+     "start": 16.352,
+     "end": 16.812,
+     "probability": 0.9824
+    },
+    {
+     "word": "has",
+     "start": 16.812,
+     "end": 16.992,
+     "probability": 0.9756
+    },
+    {
+     "word": "to",
+     "start": 16.992,
+     "end": 17.192,
+     "probability": 0.9971
+    },
+    {
+     "word": "be",
+     "start": 17.192,
+     "end": 17.332,
+     "probability": 0.9985
+    }
+   ]
+  },
+  {
+   "chunk_start": 20.288,
+   "chunk_end": 21.296,
+   "text": "special place in your life.",
+   "words": [
+    {
+     "word": "special",
+     "start": 20.288,
+     "end": 20.628,
+     "probability": 0.5278
+    },
+    {
+     "word": "place",
+     "start": 20.628,
+     "end": 20.848,
+     "probability": 0.9834
+    },
+    {
+     "word": "in",
+     "start": 20.848,
+     "end": 21.088,
+     "probability": 0.771
+    },
+    {
+     "word": "your",
+     "start": 21.088,
+     "end": 21.188,
+     "probability": 0.9155
+    },
+    {
+     "word": "life.",
+     "start": 21.188,
+     "end": 21.268,
+     "probability": 0.5913
+    }
+   ]
+  },
+  {
+   "chunk_start": 21.296,
+   "chunk_end": 22.38,
+   "text": "hard to end",
+   "words": [
+    {
+     "word": "hard",
+     "start": 21.296,
+     "end": 21.676,
+     "probability": 0.1857
+    },
+    {
+     "word": "to",
+     "start": 21.676,
+     "end": 21.776,
+     "probability": 0.8638
+    },
+    {
+     "word": "end",
+     "start": 21.776,
+     "end": 21.996,
+     "probability": 0.9546
+    }
+   ]
+  },
+  {
+   "chunk_start": 23.092,
+   "chunk_end": 23.98,
+   "text": "just speaks to you.",
+   "words": [
+    {
+     "word": "just",
+     "start": 23.092,
+     "end": 23.252,
+     "probability": 0.2397
+    },
+    {
+     "word": "speaks",
+     "start": 23.252,
+     "end": 23.472,
+     "probability": 0.894
+    },
+    {
+     "word": "to",
+     "start": 23.472,
+     "end": 23.652,
+     "probability": 0.9961
+    },
+    {
+     "word": "you.",
+     "start": 23.652,
+     "end": 23.832,
+     "probability": 0.9712
+    }
+   ]
+  },
+  {
+   "chunk_start": 24.724,
+   "chunk_end": 26.284,
+   "text": "I mean, this is definitely one.",
+   "words": [
+    {
+     "word": "I",
+     "start": 24.724,
+     "end": 24.844,
+     "probability": 0.1001
+    },
+    {
+     "word": "mean,",
+     "start": 24.844,
+     "end": 24.844,
+     "probability": 0.7622
+    },
+    {
+     "word": "this",
+     "start": 24.844,
+     "end": 25.064,
+     "probability": 0.9922
+    },
+    {
+     "word": "is",
+     "start": 25.064,
+     "end": 25.324,
+     "probability": 0.9937
+    },
+    {
+     "word": "definitely",
+     "start": 25.324,
+     "end": 25.784,
+     "probability": 0.7114
+    },
+    {
+     "word": "one.",
+     "start": 25.784,
+     "end": 26.164,
+     "probability": 0.9355
+    }
+   ]
+  },
+  {
+   "chunk_start": 69.588,
+   "chunk_end": 71.052,
+   "text": "It's okay, we can talk.",
+   "words": [
+    {
+     "word": "It's",
+     "start": 69.588,
+     "end": 69.668,
+     "probability": 0.6301
+    },
+    {
+     "word": "okay,",
+     "start": 69.668,
+     "end": 69.808,
+     "probability": 0.6914
+    },
+    {
+     "word": "we",
+     "start": 69.828,
+     "end": 69.988,
+     "probability": 0.9736
+    },
+    {
+     "word": "can",
+     "start": 69.988,
+     "end": 70.088,
+     "probability": 0.9971
+    },
+    {
+     "word": "talk.",
+     "start": 70.088,
+     "end": 70.348,
+     "probability": 0.9814
+    }
+   ]
+  },
+  {
+   "chunk_start": 71.956,
+   "chunk_end": 76.748,
+   "text": "Just don't say the word that I want. How about the thing that you want?",
+   "words": [
+    {
+     "word": "Just",
+     "start": 71.956,
+     "end": 72.316,
+     "probability": 0.6899
+    },
+    {
+     "word": "don't",
+     "start": 72.316,
+     "end": 72.636,
+     "probability": 0.9541
+    },
+    {
+     "word": "say",
+     "start": 72.636,
+     "end": 72.716,
+     "probability": 0.9971
+    },
+    {
+     "word": "the",
+     "start": 72.716,
+     "end": 72.996,
+     "probability": 0.9399
+    },
+    {
+     "word": "word",
+     "start": 72.996,
+     "end": 73.276,
+     "probability": 0.937
+    },
+    {
+     "word": "that",
+     "start": 73.276,
+     "end": 73.756,
+     "probability": 0.9175
+    },
+    {
+     "word": "I",
+     "start": 73.756,
+     "end": 73.956,
+     "probability": 0.9292
+    },
+    {
+     "word": "want.",
+     "start": 73.956,
+     "end": 74.236,
+     "probability": 0.9956
+    },
+    {
+     "word": "How",
+     "start": 74.876,
+     "end": 75.276,
+     "probability": 0.8701
+    },
+    {
+     "word": "about",
+     "start": 75.276,
+     "end": 75.496,
+     "probability": 0.8975
+    },
+    {
+     "word": "the",
+     "start": 75.496,
+     "end": 75.676,
+     "probability": 0.8643
+    },
+    {
+     "word": "thing",
+     "start": 75.676,
+     "end": 75.836,
+     "probability": 0.9722
+    },
+    {
+     "word": "that",
+     "start": 75.836,
+     "end": 75.996,
+     "probability": 0.98
+    },
+    {
+     "word": "you",
+     "start": 75.996,
+     "end": 76.176,
+     "probability": 0.9907
+    },
+    {
+     "word": "want?",
+     "start": 76.176,
+     "end": 76.316,
+     "probability": 0.9009
+    }
+   ]
+  },
+  {
+   "chunk_start": 83.572,
+   "chunk_end": 84.46,
+   "text": "aircon",
+   "words": [
+    {
+     "word": "aircon",
+     "start": 83.572,
+     "end": 83.972,
+     "probability": 0.3798
+    }
+   ]
+  },
+  {
+   "chunk_start": 86.1,
+   "chunk_end": 87.628,
+   "text": "You can hear it from here.",
+   "words": [
+    {
+     "word": "You",
+     "start": 86.1,
+     "end": 86.28,
+     "probability": 0.2393
+    },
+    {
+     "word": "can",
+     "start": 86.28,
+     "end": 86.36,
+     "probability": 0.6606
+    },
+    {
+     "word": "hear",
+     "start": 86.36,
+     "end": 86.52,
+     "probability": 0.8013
+    },
+    {
+     "word": "it",
+     "start": 86.52,
+     "end": 86.7,
+     "probability": 0.6216
+    },
+    {
+     "word": "from",
+     "start": 86.7,
+     "end": 86.82,
+     "probability": 0.4839
+    },
+    {
+     "word": "here.",
+     "start": 86.82,
+     "end": 86.96,
+     "probability": 0.6792
+    }
+   ]
+  },
+  {
+   "chunk_start": 88.212,
+   "chunk_end": 90.284,
+   "text": "because we're done with the dry corn.",
+   "words": [
+    {
+     "word": "because",
+     "start": 88.212,
+     "end": 88.312,
+     "probability": 0.4016
+    },
+    {
+     "word": "we're",
+     "start": 88.312,
+     "end": 88.512,
+     "probability": 0.5919
+    },
+    {
+     "word": "done",
+     "start": 88.512,
+     "end": 88.572,
+     "probability": 0.918
+    },
+    {
+     "word": "with",
+     "start": 88.572,
+     "end": 88.812,
+     "probability": 0.5352
+    },
+    {
+     "word": "the",
+     "start": 88.812,
+     "end": 88.992,
+     "probability": 0.5757
+    },
+    {
+     "word": "dry",
+     "start": 88.992,
+     "end": 89.192,
+     "probability": 0.5918
+    },
+    {
+     "word": "corn.",
+     "start": 89.192,
+     "end": 89.312,
+     "probability": 0.6826
+    }
+   ]
+  }
+ ]
+}

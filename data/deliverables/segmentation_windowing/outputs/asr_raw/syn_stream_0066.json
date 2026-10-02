@@ -1,0 +1,290 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0066.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:28:33+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.9005239009857178,
+ "chunks": [
+  {
+   "chunk_start": 2.388,
+   "chunk_end": 5.164,
+   "text": "Please remember to bring the documents tomorrow.",
+   "words": [
+    {
+     "word": "Please",
+     "start": 2.388,
+     "end": 2.708,
+     "probability": 0.8892
+    },
+    {
+     "word": "remember",
+     "start": 2.708,
+     "end": 2.988,
+     "probability": 0.9883
+    },
+    {
+     "word": "to",
+     "start": 2.988,
+     "end": 3.248,
+     "probability": 0.9971
+    },
+    {
+     "word": "bring",
+     "start": 3.248,
+     "end": 3.448,
+     "probability": 0.9995
+    },
+    {
+     "word": "the",
+     "start": 3.448,
+     "end": 3.588,
+     "probability": 0.9912
+    },
+    {
+     "word": "documents",
+     "start": 3.588,
+     "end": 3.968,
+     "probability": 0.9946
+    },
+    {
+     "word": "tomorrow.",
+     "start": 3.968,
+     "end": 4.408,
+     "probability": 0.9907
+    }
+   ]
+  },
+  {
+   "chunk_start": 5.716,
+   "chunk_end": 10.22,
+   "text": "The road was busy because of the rain. We can take the train after lunch.",
+   "words": [
+    {
+     "word": "The",
+     "start": 5.716,
+     "end": 6.036,
+     "probability": 0.8511
+    },
+    {
+     "word": "road",
+     "start": 6.036,
+     "end": 6.296,
+     "probability": 0.9937
+    },
+    {
+     "word": "was",
+     "start": 6.296,
+     "end": 6.676,
+     "probability": 0.7964
+    },
+    {
+     "word": "busy",
+     "start": 6.676,
+     "end": 6.916,
+     "probability": 0.9692
+    },
+    {
+     "word": "because",
+     "start": 6.916,
+     "end": 7.256,
+     "probability": 0.9849
+    },
+    {
+     "word": "of",
+     "start": 7.256,
+     "end": 7.496,
+     "probability": 0.9976
+    },
+    {
+     "word": "the",
+     "start": 7.496,
+     "end": 7.636,
+     "probability": 0.9971
+    },
+    {
+     "word": "rain.",
+     "start": 7.636,
+     "end": 7.896,
+     "probability": 0.998
+    },
+    {
+     "word": "We",
+     "start": 8.036,
+     "end": 8.236,
+     "probability": 0.9771
+    },
+    {
+     "word": "can",
+     "start": 8.236,
+     "end": 8.396,
+     "probability": 0.9961
+    },
+    {
+     "word": "take",
+     "start": 8.396,
+     "end": 8.616,
+     "probability": 0.998
+    },
+    {
+     "word": "the",
+     "start": 8.616,
+     "end": 8.736,
+     "probability": 0.9956
+    },
+    {
+     "word": "train",
+     "start": 8.736,
+     "end": 8.976,
+     "probability": 0.9971
+    },
+    {
+     "word": "after",
+     "start": 8.976,
+     "end": 9.316,
+     "probability": 0.9966
+    },
+    {
+     "word": "lunch.",
+     "start": 9.316,
+     "end": 9.636,
+     "probability": 0.999
+    }
+   ]
+  },
+  {
+   "chunk_start": 12.02,
+   "chunk_end": 15.5,
+   "text": "Hey, Dalton.",
+   "words": [
+    {
+     "word": "Hey,",
+     "start": 12.02,
+     "end": 12.44,
+     "probability": 0.6855
+    },
+    {
+     "word": "Dalton.",
+     "start": 12.44,
+     "end": 13.48,
+     "probability": 0.7202
+    }
+   ]
+  },
+  {
+   "chunk_start": 15.892,
+   "chunk_end": 19.788,
+   "text": "I'm gonna have to remember to bring the documents tomorrow",
+   "words": [
+    {
+     "word": "I'm",
+     "start": 15.892,
+     "end": 16.252,
+     "probability": 0.0805
+    },
+    {
+     "word": "gonna",
+     "start": 16.252,
+     "end": 16.712,
+     "probability": 0.2455
+    },
+    {
+     "word": "have",
+     "start": 16.712,
+     "end": 16.712,
+     "probability": 0.9014
+    },
+    {
+     "word": "to",
+     "start": 16.712,
+     "end": 16.892,
+     "probability": 0.9956
+    },
+    {
+     "word": "remember",
+     "start": 16.892,
+     "end": 17.012,
+     "probability": 0.9849
+    },
+    {
+     "word": "to",
+     "start": 17.012,
+     "end": 17.432,
+     "probability": 0.9141
+    },
+    {
+     "word": "bring",
+     "start": 17.432,
+     "end": 17.652,
+     "probability": 0.9932
+    },
+    {
+     "word": "the",
+     "start": 17.652,
+     "end": 17.872,
+     "probability": 0.2595
+    },
+    {
+     "word": "documents",
+     "start": 17.872,
+     "end": 18.392,
+     "probability": 0.9248
+    },
+    {
+     "word": "tomorrow",
+     "start": 18.392,
+     "end": 18.912,
+     "probability": 0.9551
+    }
+   ]
+  },
+  {
+   "chunk_start": 22.516,
+   "chunk_end": 25.164,
+   "text": "Please remember to bring the documents tomorrow.",
+   "words": [
+    {
+     "word": "Please",
+     "start": 22.516,
+     "end": 22.876,
+     "probability": 0.9409
+    },
+    {
+     "word": "remember",
+     "start": 22.876,
+     "end": 23.196,
+     "probability": 0.9829
+    },
+    {
+     "word": "to",
+     "start": 23.196,
+     "end": 23.436,
+     "probability": 0.9971
+    },
+    {
+     "word": "bring",
+     "start": 23.436,
+     "end": 23.596,
+     "probability": 0.9985
+    },
+    {
+     "word": "the",
+     "start": 23.596,
+     "end": 23.756,
+     "probability": 0.9834
+    },
+    {
+     "word": "documents",
+     "start": 23.756,
+     "end": 24.116,
+     "probability": 0.9902
+    },
+    {
+     "word": "tomorrow.",
+     "start": 24.116,
+     "end": 24.516,
+     "probability": 0.9917
+    }
+   ]
+  }
+ ]
+}

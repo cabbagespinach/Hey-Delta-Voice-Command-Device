@@ -1,0 +1,155 @@
+{
+  "schema_version": "1.0",
+  "task": "deployment_driven_wakeword_augmentation",
+  "wakeword": "Hey Delta",
+  "generation": {
+    "audio_generation": false,
+    "strategy_only": true
+  },
+  "evidence_scope": {
+    "manifest_rows": 6961,
+    "positive_rows": 50,
+    "negative_rows": 6911,
+    "recording_ids": 2650,
+    "speaker_id_values_non_null": 74,
+    "positive_speaker_id_values_non_null": 7,
+    "parent_child_rows": 800,
+    "sample_rates_hz": [
+      48000
+    ],
+    "waveform_level_measurements_available_in_manifest": false
+  },
+  "coverage_policy": {
+    "well_represented": "Keep natural/source diversity; do not augment solely for count.",
+    "partially_represented": "Use augmentation only when it targets a concrete missing deployment dimension.",
+    "unknown": "Do not enable a transform until waveform/deployment measurements establish the gap.",
+    "missing": "Prefer real recordings when the transform would otherwise be fabricating speaker/device/room identity."
+  },
+  "enabled_transforms": [
+    {
+      "name": "background_noise_mixing",
+      "purpose": "Create speech-plus-background mixtures from the existing standalone noise inventory.",
+      "deployment_gap": "Standalone noise exists, but speech+noise mixtures and deployment SNR coverage are absent.",
+      "probability": 0.35,
+      "parameters": {
+        "snr_db": {
+          "min": 5,
+          "max": 25,
+          "recommended_mode": "sample_continuously",
+          "preferred_band_db": [
+            12,
+            20
+          ]
+        },
+        "noise_sources": [
+          "synth_white",
+          "synth_pink",
+          "synth_hum",
+          "synth_fan",
+          "synth_clicks"
+        ]
+      },
+      "apply_to": [
+        "positive_wakeword",
+        "negative_general_speech",
+        "negative_media",
+        "negative_confusable",
+        "negative_partial_wakeword"
+      ],
+      "constraints": [
+        "Never apply to negative_silence_noise.",
+        "One noise source per augmented example.",
+        "Do not create SNR < 5 dB.",
+        "Do not combine this transform with extreme RIR conditions.",
+        "Preserve label semantics; a positive remains a complete Hey Delta occurrence."
+      ]
+    },
+    {
+      "name": "rir_reverberation",
+      "purpose": "Approximate missing room/reverberation variability using curated RIRs.",
+      "deployment_gap": "No room/RIR representation is present.",
+      "probability": 0.2,
+      "parameters": {
+        "rt60_s": {
+          "min": 0.15,
+          "max": 0.6
+        },
+        "direct_to_reverberant_ratio_db": {
+          "min": 6,
+          "max": 18
+        },
+        "rir_selection": "curated deployment-relevant RIR bank"
+      },
+      "apply_to": [
+        "positive_wakeword",
+        "negative_general_speech",
+        "negative_media",
+        "negative_confusable",
+        "negative_partial_wakeword"
+      ],
+      "constraints": [
+        "One RIR per example.",
+        "Do not invent RIRs from unsupported room labels.",
+        "Avoid simultaneous extreme reverberation and SNR < 10 dB.",
+        "Prefer measured/curated RIRs over procedurally generated room responses.",
+        "RIR assets must be versioned and kept outside validation/test."
+      ]
+    }
+  ],
+  "rejected_transforms": {
+    "gain_amplitude": "defer_until_waveform_level_and_deployment_level_measurements",
+    "pitch_shift": "reject_existing_pitch_grid_already_covers_documented_synthetic_variation",
+    "time_stretch": "reject_existing_speed_grid_already_covers_documented_synthetic_variation",
+    "microphone_frequency_response": "defer_until_device_response_measurements_or_multi_device_recordings",
+    "clipping_distortion": "reject_until_deployment_evidence_exists"
+  },
+  "composition_rules": {
+    "max_enabled_transforms_per_example": 2,
+    "allowed_combinations": [
+      [
+        "background_noise_mixing"
+      ],
+      [
+        "rir_reverberation"
+      ],
+      [
+        "background_noise_mixing",
+        "rir_reverberation"
+      ]
+    ],
+    "disallowed_combinations": [
+      [
+        "background_noise_mixing",
+        "rir_reverberation"
+      ]
+    ],
+    "note": "The disallowed pair refers to simultaneous extreme parameter draws; ordinary moderate noise+RIR composition may be allowed."
+  },
+  "split_inheritance": {
+    "split_unit": "source_group",
+    "source_group_rule": "If parent_filepath exists, use the parent's recording_id; otherwise use row recording_id.",
+    "train": "Only training source groups may produce augmented audio.",
+    "validation": "No augmentation; retain original validation source groups only.",
+    "test": "No augmentation; retain original test source groups only.",
+    "derived_children": "All descendants inherit the parent/source-group split.",
+    "cross_split_assets": "Never mix source audio, noise, or RIR assets in a way that transfers content from validation/test source groups into training.",
+    "external_noise_and_rir": "Noise/RIR assets may be shared only if they are independent external assets and contain no source-group-specific speech content."
+  },
+  "new_data_requirements": [
+    "Real human wakeword recordings from speakers not represented by the current TTS voices.",
+    "Real microphone/device captures, including the intended deployment device and at least a few materially different capture chains.",
+    "Real near-field and far-field recordings with documented source-to-microphone distance.",
+    "Multiple rooms/environments with documented acoustic conditions.",
+    "Measured recording level/SPL or waveform loudness statistics for deployment-relevant distance/level conditions.",
+    "Real background environments and speech+noise mixtures, especially hard negatives recorded under the same deployment conditions.",
+    "Real hard negatives: near-miss phrases, partial wakewords, and naturally occurring confusable speech.",
+    "If possible, real device/room captures of the same speaker across conditions to separate speaker effects from channel/room effects."
+  ],
+  "priority": [
+    "1. Real human wakeword and hard-negative recordings.",
+    "2. Deployment-device and room/distance coverage.",
+    "3. Speech+noise mixtures using the existing standalone noise inventory.",
+    "4. Curated RIR augmentation for training only.",
+    "5. Revisit gain/microphone/distortion transforms after waveform/deployment measurement."
+  ]
+}

@@ -1,0 +1,180 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0077.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:28:48+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8890067934989929,
+ "chunks": [
+  {
+   "chunk_start": 6.484,
+   "chunk_end": 14.636,
+   "text": "Can you send me the address when you arrive?",
+   "words": [
+    {
+     "word": "Can",
+     "start": 11.184,
+     "end": 11.724,
+     "probability": 0.4368
+    },
+    {
+     "word": "you",
+     "start": 11.724,
+     "end": 12.264,
+     "probability": 0.9917
+    },
+    {
+     "word": "send",
+     "start": 12.264,
+     "end": 12.524,
+     "probability": 0.9932
+    },
+    {
+     "word": "me",
+     "start": 12.524,
+     "end": 12.724,
+     "probability": 0.9897
+    },
+    {
+     "word": "the",
+     "start": 12.724,
+     "end": 12.864,
+     "probability": 0.9834
+    },
+    {
+     "word": "address",
+     "start": 12.864,
+     "end": 13.184,
+     "probability": 0.9941
+    },
+    {
+     "word": "when",
+     "start": 13.184,
+     "end": 13.464,
+     "probability": 0.9912
+    },
+    {
+     "word": "you",
+     "start": 13.464,
+     "end": 13.624,
+     "probability": 0.9976
+    },
+    {
+     "word": "arrive?",
+     "start": 13.624,
+     "end": 13.884,
+     "probability": 0.9932
+    }
+   ]
+  },
+  {
+   "chunk_start": 15.188,
+   "chunk_end": 16.46,
+   "text": "He dealt her.",
+   "words": [
+    {
+     "word": "He",
+     "start": 15.188,
+     "end": 15.528,
+     "probability": 0.8179
+    },
+    {
+     "word": "dealt",
+     "start": 15.528,
+     "end": 15.748,
+     "probability": 0.5103
+    },
+    {
+     "word": "her.",
+     "start": 15.748,
+     "end": 16.008,
+     "probability": 0.6719
+    }
+   ]
+  },
+  {
+   "chunk_start": 17.684,
+   "chunk_end": 23.212,
+   "text": "The battery should last for another hour. We'll probably take the Cedula 5th.",
+   "words": [
+    {
+     "word": "The",
+     "start": 17.684,
+     "end": 17.964,
+     "probability": 0.1885
+    },
+    {
+     "word": "battery",
+     "start": 17.964,
+     "end": 18.304,
+     "probability": 0.9448
+    },
+    {
+     "word": "should",
+     "start": 18.304,
+     "end": 18.544,
+     "probability": 0.9893
+    },
+    {
+     "word": "last",
+     "start": 18.544,
+     "end": 18.864,
+     "probability": 0.9927
+    },
+    {
+     "word": "for",
+     "start": 18.864,
+     "end": 19.024,
+     "probability": 0.938
+    },
+    {
+     "word": "another",
+     "start": 19.024,
+     "end": 19.244,
+     "probability": 0.9722
+    },
+    {
+     "word": "hour.",
+     "start": 19.244,
+     "end": 19.764,
+     "probability": 0.9927
+    },
+    {
+     "word": "We'll",
+     "start": 19.844,
+     "end": 20.324,
+     "probability": 0.3246
+    },
+    {
+     "word": "probably",
+     "start": 20.324,
+     "end": 20.724,
+     "probability": 0.7598
+    },
+    {
+     "word": "take",
+     "start": 20.724,
+     "end": 21.484,
+     "probability": 0.5757
+    },
+    {
+     "word": "the",
+     "start": 21.484,
+     "end": 21.764,
+     "probability": 0.437
+    },
+    {
+     "word": "Cedula",
+     "start": 21.764,
+     "end": 22.364,
+     "probability": 0.6602
+    },
+    {
+     "word": "5th.",
+     "start": 22.364,
+     "end": 22.764,
+     "probability": 0.5681
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/positives/Manual-Fil-RPI10.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:26:25+00:00",
+ "duration_sec": 1.5786666666666667,
+ "input_peak": 0.14566130936145782,
+ "chunks": [
+  {
+   "chunk_start": 0.0,
+   "chunk_end": 1.579,
+   "text": "Let's take that back.",
+   "words": [
+    {
+     "word": "Let's",
+     "start": 0.0,
+     "end": 0.44,
+     "probability": 0.4934
+    },
+    {
+     "word": "take",
+     "start": 0.44,
+     "end": 0.6,
+     "probability": 0.6484
+    },
+    {
+     "word": "that",
+     "start": 0.6,
+     "end": 0.82,
+     "probability": 0.4399
+    },
+    {
+     "word": "back.",
+     "start": 0.82,
+     "end": 1.1,
+     "probability": 0.2976
+    }
+   ]
+  }
+ ]
+}

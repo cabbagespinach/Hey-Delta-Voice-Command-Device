@@ -1,0 +1,421 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0091.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:29:10+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.882064163684845,
+ "chunks": [
+  {
+   "chunk_start": 4.404,
+   "chunk_end": 9.42,
+   "text": "The weather is changing again this afternoon. The next episode starts after the commercial.",
+   "words": [
+    {
+     "word": "The",
+     "start": 4.404,
+     "end": 4.744,
+     "probability": 0.9189
+    },
+    {
+     "word": "weather",
+     "start": 4.744,
+     "end": 4.984,
+     "probability": 0.9771
+    },
+    {
+     "word": "is",
+     "start": 4.984,
+     "end": 5.144,
+     "probability": 0.998
+    },
+    {
+     "word": "changing",
+     "start": 5.144,
+     "end": 5.464,
+     "probability": 0.999
+    },
+    {
+     "word": "again",
+     "start": 5.464,
+     "end": 5.924,
+     "probability": 0.998
+    },
+    {
+     "word": "this",
+     "start": 5.924,
+     "end": 6.144,
+     "probability": 0.9956
+    },
+    {
+     "word": "afternoon.",
+     "start": 6.144,
+     "end": 6.564,
+     "probability": 0.9995
+    },
+    {
+     "word": "The",
+     "start": 6.724,
+     "end": 6.964,
+     "probability": 0.9917
+    },
+    {
+     "word": "next",
+     "start": 6.964,
+     "end": 7.184,
+     "probability": 0.9995
+    },
+    {
+     "word": "episode",
+     "start": 7.184,
+     "end": 7.504,
+     "probability": 0.9985
+    },
+    {
+     "word": "starts",
+     "start": 7.504,
+     "end": 7.984,
+     "probability": 0.9985
+    },
+    {
+     "word": "after",
+     "start": 7.984,
+     "end": 8.324,
+     "probability": 0.998
+    },
+    {
+     "word": "the",
+     "start": 8.324,
+     "end": 8.504,
+     "probability": 0.9956
+    },
+    {
+     "word": "commercial.",
+     "start": 8.504,
+     "end": 8.764,
+     "probability": 0.9985
+    }
+   ]
+  },
+  {
+   "chunk_start": 10.132,
+   "chunk_end": 15.792,
+   "text": "We can take the train after lunch. I think the blue one is slightly cheaper. Please remember to bring the documents tomorrow.",
+   "words": [
+    {
+     "word": "We",
+     "start": 10.132,
+     "end": 10.452,
+     "probability": 0.7876
+    },
+    {
+     "word": "can",
+     "start": 10.452,
+     "end": 10.572,
+     "probability": 0.998
+    },
+    {
+     "word": "take",
+     "start": 10.572,
+     "end": 10.792,
+     "probability": 0.9966
+    },
+    {
+     "word": "the",
+     "start": 10.792,
+     "end": 10.912,
+     "probability": 0.9922
+    },
+    {
+     "word": "train",
+     "start": 10.912,
+     "end": 11.132,
+     "probability": 0.9946
+    },
+    {
+     "word": "after",
+     "start": 11.132,
+     "end": 11.432,
+     "probability": 0.9951
+    },
+    {
+     "word": "lunch.",
+     "start": 11.432,
+     "end": 11.872,
+     "probability": 0.9985
+    },
+    {
+     "word": "I",
+     "start": 12.012,
+     "end": 12.252,
+     "probability": 0.8774
+    },
+    {
+     "word": "think",
+     "start": 12.252,
+     "end": 12.472,
+     "probability": 0.9985
+    },
+    {
+     "word": "the",
+     "start": 12.472,
+     "end": 12.592,
+     "probability": 0.958
+    },
+    {
+     "word": "blue",
+     "start": 12.592,
+     "end": 12.792,
+     "probability": 0.9727
+    },
+    {
+     "word": "one",
+     "start": 12.792,
+     "end": 13.032,
+     "probability": 0.9893
+    },
+    {
+     "word": "is",
+     "start": 13.032,
+     "end": 13.272,
+     "probability": 0.9966
+    },
+    {
+     "word": "slightly",
+     "start": 13.272,
+     "end": 13.552,
+     "probability": 0.9771
+    },
+    {
+     "word": "cheaper.",
+     "start": 13.552,
+     "end": 14.092,
+     "probability": 0.9922
+    },
+    {
+     "word": "Please",
+     "start": 14.212,
+     "end": 14.232,
+     "probability": 0.9341
+    },
+    {
+     "word": "remember",
+     "start": 14.232,
+     "end": 14.232,
+     "probability": 0.981
+    },
+    {
+     "word": "to",
+     "start": 14.232,
+     "end": 14.232,
+     "probability": 0.9609
+    },
+    {
+     "word": "bring",
+     "start": 14.232,
+     "end": 14.232,
+     "probability": 0.9995
+    },
+    {
+     "word": "the",
+     "start": 14.232,
+     "end": 14.432,
+     "probability": 0.9868
+    },
+    {
+     "word": "documents",
+     "start": 14.432,
+     "end": 14.792,
+     "probability": 0.9951
+    },
+    {
+     "word": "tomorrow.",
+     "start": 14.792,
+     "end": 15.192,
+     "probability": 0.9932
+    }
+   ]
+  },
+  {
+   "chunk_start": 15.792,
+   "chunk_end": 23.116,
+   "text": "The next episode starts after the commercial. The weather is changing again this afternoon. Please remember to bring the documents tomorrow.",
+   "words": [
+    {
+     "word": "The",
+     "start": 15.792,
+     "end": 16.072,
+     "probability": 0.7642
+    },
+    {
+     "word": "next",
+     "start": 16.072,
+     "end": 16.252,
+     "probability": 0.8633
+    },
+    {
+     "word": "episode",
+     "start": 16.252,
+     "end": 16.732,
+     "probability": 0.9932
+    },
+    {
+     "word": "starts",
+     "start": 16.732,
+     "end": 17.152,
+     "probability": 0.9907
+    },
+    {
+     "word": "after",
+     "start": 17.152,
+     "end": 17.552,
+     "probability": 0.9839
+    },
+    {
+     "word": "the",
+     "start": 17.552,
+     "end": 17.732,
+     "probability": 0.9526
+    },
+    {
+     "word": "commercial.",
+     "start": 17.732,
+     "end": 17.912,
+     "probability": 0.688
+    },
+    {
+     "word": "The",
+     "start": 17.932,
+     "end": 18.012,
+     "probability": 0.8618
+    },
+    {
+     "word": "weather",
+     "start": 18.012,
+     "end": 18.192,
+     "probability": 0.999
+    },
+    {
+     "word": "is",
+     "start": 18.192,
+     "end": 18.432,
+     "probability": 0.9995
+    },
+    {
+     "word": "changing",
+     "start": 18.432,
+     "end": 18.872,
+     "probability": 0.9995
+    },
+    {
+     "word": "again",
+     "start": 18.872,
+     "end": 19.372,
+     "probability": 0.9863
+    },
+    {
+     "word": "this",
+     "start": 19.372,
+     "end": 19.532,
+     "probability": 0.8486
+    },
+    {
+     "word": "afternoon.",
+     "start": 19.532,
+     "end": 19.932,
+     "probability": 0.9189
+    },
+    {
+     "word": "Please",
+     "start": 19.932,
+     "end": 20.212,
+     "probability": 0.9531
+    },
+    {
+     "word": "remember",
+     "start": 20.212,
+     "end": 20.512,
+     "probability": 0.998
+    },
+    {
+     "word": "to",
+     "start": 20.512,
+     "end": 20.872,
+     "probability": 0.9995
+    },
+    {
+     "word": "bring",
+     "start": 20.872,
+     "end": 21.092,
+     "probability": 1.0
+    },
+    {
+     "word": "the",
+     "start": 21.092,
+     "end": 21.372,
+     "probability": 0.9995
+    },
+    {
+     "word": "documents",
+     "start": 21.372,
+     "end": 21.832,
+     "probability": 0.9995
+    },
+    {
+     "word": "tomorrow.",
+     "start": 21.832,
+     "end": 22.312,
+     "probability": 0.999
+    }
+   ]
+  },
+  {
+   "chunk_start": 25.172,
+   "chunk_end": 27.916,
+   "text": "The next episode starts after the commercial.",
+   "words": [
+    {
+     "word": "The",
+     "start": 25.172,
+     "end": 25.492,
+     "probability": 0.9595
+    },
+    {
+     "word": "next",
+     "start": 25.492,
+     "end": 25.692,
+     "probability": 0.999
+    },
+    {
+     "word": "episode",
+     "start": 25.692,
+     "end": 26.072,
+     "probability": 0.999
+    },
+    {
+     "word": "starts",
+     "start": 26.072,
+     "end": 26.392,
+     "probability": 0.9985
+    },
+    {
+     "word": "after",
+     "start": 26.392,
+     "end": 26.812,
+     "probability": 0.9985
+    },
+    {
+     "word": "the",
+     "start": 26.812,
+     "end": 26.972,
+     "probability": 0.999
+    },
+    {
+     "word": "commercial.",
+     "start": 26.972,
+     "end": 27.212,
+     "probability": 0.9995
+    }
+   ]
+  }
+ ]
+}

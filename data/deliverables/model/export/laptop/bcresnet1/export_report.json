@@ -1,0 +1,35 @@
+{
+  "model": "bcresnet1",
+  "checkpoint": "runs/bcresnet1/best.pt",
+  "threshold": 0.94379460811615,
+  "opset": 17,
+  "parameters": 8869,
+  "input": "audio float32 [B, 24000] @16 kHz",
+  "output": "prob float32 [B]",
+  "frontend_max_abs_diff_normalised_units": 0.0006564855575561523,
+  "frontend_mean_abs_diff_normalised_units": 3.4858013009397837e-07,
+  "prob_max_abs_diff_fp32_vs_torch": 0.00012511014938354492,
+  "decisions_changed_fp32_vs_torch": 0,
+  "torch": {
+    "auc": 0.9939344516930724,
+    "detected_by_subset": {
+      "real_device_rpi": 35,
+      "real_other_device": 0,
+      "synthetic": 139
+    },
+    "false_positives": 3
+  },
+  "onnx_fp32": {
+    "auc": 0.9939344516930724,
+    "detected_by_subset": {
+      "real_device_rpi": 35,
+      "real_other_device": 0,
+      "synthetic": 139
+    },
+    "false_positives": 3
+  },
+  "int8_accepted": false,
+  "files": {
+    "heydelta_fp32.onnx": 1240400
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "_description": "Central preprocessing configuration, loaded by PreprocessConfig.from_json(). Keys starting with '_' are documentation and ignored by the loader. Changing any feature field changes config_feature_hash and requires rerunning compute_normalization_stats.py (the loader refuses mismatched statistics).",
+  "version": "1.0",
+
+  "sample_rate": 16000,
+  "_sample_rate": "augmentation_config.json preprocessing.resample_all_to_hz and segmentation window.output_sample_rate. Sources are 16/22.05/24/48 kHz on disk; resampling everything to one rate first removes bandwidth as a class cue.",
+  "window_sec": 1.5,
+  "_window_sec": "segmentation_windowing window.duration_sec (1.5 s = 24000 samples). windows.csv already fixes every example's start; preprocessing never re-places or truncates a dataset window.",
+  "pad_mode": "noise",
+  "_pad_mode": "Positions of a window outside the source audio (windows.csv pad_left/right_sec) are filled with deterministic Gaussian noise (seed = window id), identically in train, validation and test; streaming never pads. Chosen over 'zeros' (segmentation window.pad_mode) because exact digital silence never occurs on the device, and padded windows are 56-100% of positives vs ~12% of negatives, plus 29% of confusable audio time. See README 'Padding'.",
+  "pad_noise_dbfs": -50.6,
+  "_pad_noise_dbfs": "Broadband RMS of the fill, calibrated so its floor_db under the deployment metric (150-4000 Hz band-pass, 20 ms frames, 20th percentile; measure_deployment_levels.py) equals the measured median RPI floor, -54.2 dB (augmentation_config.json rpi_positive_floor_db). The band-pass removes 3.6 dB of white-noise energy at 16 kHz, hence -50.6. Tested in test_pad_noise_matches_measured_device_floor.",
+  "short_clip_placement": "center",
+  "_short_clip_placement": "Isolated clips (not from windows.csv) shorter than a window are centred, the same rule as segmentation negative.short_clip_policy.",
+  "long_clip_policy": "error",
+  "_long_clip_policy": "Isolated clips longer than a window are never cut silently (a cut could remove part of a wakeword). 'sliding' uses the streaming schedule plus an end-aligned tail window.",
+
+  "resampling_method": "sinc_interp_hann",
+  "lowpass_filter_width": 6,
+  "rolloff": 0.99,
+  "_resampling": "torchaudio.functional.resample defaults, pinned so they cannot drift with library versions. The same kernel is used offline and, via StreamResampler, on a live stream.",
+
+  "n_fft": 512,
+  "win_length": 400,
+  "hop_length": 160,
+  "_stft": "25 ms Hann window, 10 ms hop, 512-point FFT (31.25 Hz bins): the usual keyword-spotting front end. center=false: frames only use samples inside the window, so a window's features do not depend on reflection padding at its edges.",
+  "n_mels": 40,
+  "f_min": 20.0,
+  "f_max": 7600.0,
+  "_mel": "40 HTK mel bands. f_max 7600 Hz stays below the resampler's roll-off near the 8 kHz Nyquist, whose shape differs slightly between 48, 24 and 22.05 kHz sources; excluding it keeps the source rate out of the features.",
+  "power": 2.0,
+  "mel_scale": "htk",
+  "center": false,
+
+  "db_amin": 1e-10,
+  "db_multiplier": 10.0,
+  "_db": "10*log10(max(mel_power, 1e-10)): fixed reference 1.0, fixed floor -100 dB, no top_db (top_db clamps relative to each window's own maximum and would remove absolute level).",
+
+  "norm_eps": 1e-05,
+  "_normalization": "Per-mel-bin mean/std over all frames of the unaugmented train-split windows, frozen in normalization_stats.json. A single global affine map per bin: absolute level is preserved (a 6 dB louder input stays 6 dB louder). No per-utterance normalization: the deployment device captures the wakeword ~29 dB below synthetic speech and 5-26 dB above its background, and that level is information the model should see; per-window normalization would also make a streaming window's features depend on whatever else is in that window.",
+
+  "stream_hop_sec": 0.1,
+  "_stream_hop_sec": "Streaming emits one window every 100 ms. Positive training windows place the wakeword end 0.10-0.40 s before the window end (segmentation positive.post_roll_offsets_sec), so with a 100 ms hop every utterance lands in some streaming window within 50 ms of a trained placement."
+}

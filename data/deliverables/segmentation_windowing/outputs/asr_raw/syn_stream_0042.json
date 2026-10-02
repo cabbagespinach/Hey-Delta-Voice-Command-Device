@@ -1,0 +1,387 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0042.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:27:56+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8915206789970398,
+ "chunks": [
+  {
+   "chunk_start": 0.084,
+   "chunk_end": 2.732,
+   "text": "Please remember to bring the documents tomorrow.",
+   "words": [
+    {
+     "word": "Please",
+     "start": 0.084,
+     "end": 0.444,
+     "probability": 0.9575
+    },
+    {
+     "word": "remember",
+     "start": 0.444,
+     "end": 0.724,
+     "probability": 0.9863
+    },
+    {
+     "word": "to",
+     "start": 0.724,
+     "end": 1.024,
+     "probability": 0.9985
+    },
+    {
+     "word": "bring",
+     "start": 1.024,
+     "end": 1.184,
+     "probability": 0.9995
+    },
+    {
+     "word": "the",
+     "start": 1.184,
+     "end": 1.304,
+     "probability": 0.9976
+    },
+    {
+     "word": "documents",
+     "start": 1.304,
+     "end": 1.704,
+     "probability": 0.9976
+    },
+    {
+     "word": "tomorrow.",
+     "start": 1.704,
+     "end": 2.024,
+     "probability": 0.9961
+    }
+   ]
+  },
+  {
+   "chunk_start": 3.7,
+   "chunk_end": 9.36,
+   "text": "The machine makes a strange sound sometimes. We can take the train after lunch.",
+   "words": [
+    {
+     "word": "The",
+     "start": 3.7,
+     "end": 4.06,
+     "probability": 0.6812
+    },
+    {
+     "word": "machine",
+     "start": 4.06,
+     "end": 4.38,
+     "probability": 0.9243
+    },
+    {
+     "word": "makes",
+     "start": 4.38,
+     "end": 4.98,
+     "probability": 0.9736
+    },
+    {
+     "word": "a",
+     "start": 4.98,
+     "end": 5.18,
+     "probability": 0.9824
+    },
+    {
+     "word": "strange",
+     "start": 5.18,
+     "end": 5.56,
+     "probability": 0.9976
+    },
+    {
+     "word": "sound",
+     "start": 5.56,
+     "end": 6.16,
+     "probability": 0.9849
+    },
+    {
+     "word": "sometimes.",
+     "start": 6.16,
+     "end": 6.74,
+     "probability": 0.9717
+    },
+    {
+     "word": "We",
+     "start": 6.86,
+     "end": 7.38,
+     "probability": 0.8345
+    },
+    {
+     "word": "can",
+     "start": 7.38,
+     "end": 7.52,
+     "probability": 0.9873
+    },
+    {
+     "word": "take",
+     "start": 7.52,
+     "end": 7.76,
+     "probability": 0.9956
+    },
+    {
+     "word": "the",
+     "start": 7.76,
+     "end": 7.88,
+     "probability": 0.9951
+    },
+    {
+     "word": "train",
+     "start": 7.88,
+     "end": 8.16,
+     "probability": 0.9946
+    },
+    {
+     "word": "after",
+     "start": 8.16,
+     "end": 8.5,
+     "probability": 0.9966
+    },
+    {
+     "word": "lunch.",
+     "start": 8.5,
+     "end": 8.78,
+     "probability": 0.999
+    }
+   ]
+  },
+  {
+   "chunk_start": 9.36,
+   "chunk_end": 12.428,
+   "text": "I was looking for a quiet place to work.",
+   "words": [
+    {
+     "word": "I",
+     "start": 9.36,
+     "end": 9.66,
+     "probability": 0.8613
+    },
+    {
+     "word": "was",
+     "start": 9.66,
+     "end": 9.82,
+     "probability": 0.9946
+    },
+    {
+     "word": "looking",
+     "start": 9.82,
+     "end": 10.04,
+     "probability": 0.9941
+    },
+    {
+     "word": "for",
+     "start": 10.04,
+     "end": 10.38,
+     "probability": 0.9985
+    },
+    {
+     "word": "a",
+     "start": 10.38,
+     "end": 10.54,
+     "probability": 0.9951
+    },
+    {
+     "word": "quiet",
+     "start": 10.54,
+     "end": 10.86,
+     "probability": 0.9927
+    },
+    {
+     "word": "place",
+     "start": 10.86,
+     "end": 11.22,
+     "probability": 0.998
+    },
+    {
+     "word": "to",
+     "start": 11.22,
+     "end": 11.5,
+     "probability": 0.9976
+    },
+    {
+     "word": "work.",
+     "start": 11.5,
+     "end": 11.8,
+     "probability": 0.999
+    }
+   ]
+  },
+  {
+   "chunk_start": 15.252,
+   "chunk_end": 17.836,
+   "text": "I forgot where I put the keys this morning.",
+   "words": [
+    {
+     "word": "I",
+     "start": 15.252,
+     "end": 15.552,
+     "probability": 0.9136
+    },
+    {
+     "word": "forgot",
+     "start": 15.552,
+     "end": 15.832,
+     "probability": 0.9883
+    },
+    {
+     "word": "where",
+     "start": 15.832,
+     "end": 16.132,
+     "probability": 0.9951
+    },
+    {
+     "word": "I",
+     "start": 16.132,
+     "end": 16.212,
+     "probability": 0.9634
+    },
+    {
+     "word": "put",
+     "start": 16.212,
+     "end": 16.392,
+     "probability": 0.9966
+    },
+    {
+     "word": "the",
+     "start": 16.392,
+     "end": 16.532,
+     "probability": 0.9951
+    },
+    {
+     "word": "keys",
+     "start": 16.532,
+     "end": 16.732,
+     "probability": 0.9966
+    },
+    {
+     "word": "this",
+     "start": 16.732,
+     "end": 16.952,
+     "probability": 0.9961
+    },
+    {
+     "word": "morning.",
+     "start": 16.952,
+     "end": 17.332,
+     "probability": 0.9961
+    }
+   ]
+  },
+  {
+   "chunk_start": 19.444,
+   "chunk_end": 20.716,
+   "text": "He dealt her.",
+   "words": [
+    {
+     "word": "He",
+     "start": 19.444,
+     "end": 19.784,
+     "probability": 0.8511
+    },
+    {
+     "word": "dealt",
+     "start": 19.784,
+     "end": 20.004,
+     "probability": 0.9937
+    },
+    {
+     "word": "her.",
+     "start": 20.004,
+     "end": 20.244,
+     "probability": 0.9995
+    }
+   ]
+  },
+  {
+   "chunk_start": 22.58,
+   "chunk_end": 26.604,
+   "text": "The weather is changing again this afternoon. The battery should last for another hour.",
+   "words": [
+    {
+     "word": "The",
+     "start": 22.58,
+     "end": 22.92,
+     "probability": 0.8184
+    },
+    {
+     "word": "weather",
+     "start": 22.92,
+     "end": 23.14,
+     "probability": 0.9546
+    },
+    {
+     "word": "is",
+     "start": 23.14,
+     "end": 23.34,
+     "probability": 0.999
+    },
+    {
+     "word": "changing",
+     "start": 23.34,
+     "end": 23.7,
+     "probability": 0.9995
+    },
+    {
+     "word": "again",
+     "start": 23.7,
+     "end": 24.08,
+     "probability": 0.999
+    },
+    {
+     "word": "this",
+     "start": 24.08,
+     "end": 24.32,
+     "probability": 0.9844
+    },
+    {
+     "word": "afternoon.",
+     "start": 24.32,
+     "end": 24.56,
+     "probability": 0.9995
+    },
+    {
+     "word": "The",
+     "start": 24.94,
+     "end": 24.96,
+     "probability": 0.8066
+    },
+    {
+     "word": "battery",
+     "start": 24.96,
+     "end": 24.96,
+     "probability": 0.9971
+    },
+    {
+     "word": "should",
+     "start": 24.96,
+     "end": 24.98,
+     "probability": 0.7842
+    },
+    {
+     "word": "last",
+     "start": 24.98,
+     "end": 25.34,
+     "probability": 1.0
+    },
+    {
+     "word": "for",
+     "start": 25.34,
+     "end": 25.48,
+     "probability": 0.9995
+    },
+    {
+     "word": "another",
+     "start": 25.48,
+     "end": 25.68,
+     "probability": 0.9995
+    },
+    {
+     "word": "hour.",
+     "start": 25.68,
+     "end": 26.06,
+     "probability": 1.0
+    }
+   ]
+  }
+ ]
+}

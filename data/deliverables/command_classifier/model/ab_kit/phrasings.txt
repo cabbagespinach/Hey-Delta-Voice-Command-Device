@@ -1,0 +1,123 @@
+# Other ways of saying each command: label | words to say. The first line of each label is the trained one.
+lights_on | Turn on lights
+lights_on | Turn on the lights
+lights_on | Turn the lights on
+lights_on | Switch on the lights
+lights_on | Switch the lights on
+lights_on | Lights on
+lights_off | Turn off lights
+lights_off | Turn off the lights
+lights_off | Turn the lights off
+lights_off | Switch off the lights
+lights_off | Switch the lights off
+lights_off | Lights off
+play_music | Play music
+play_music | Play some music
+play_music | Put on some music
+play_music | Start the music
+weather | What's the weather?
+weather | How's the weather?
+weather | What's the weather like today?
+weather | Weather today
+time | What time is it?
+time | What's the time?
+time | Tell me the time
+time | What's the time now?
+dim_lights_20 | Dim lights to twenty percent
+dim_lights_20 | Dim the lights to twenty percent
+dim_lights_20 | Set the lights to twenty percent
+dim_lights_20 | Lights at twenty percent
+dim_lights_50 | Dim lights to fifty percent
+dim_lights_50 | Dim the lights to fifty percent
+dim_lights_50 | Set the lights to fifty percent
+dim_lights_50 | Lights at fifty percent
+dim_lights_80 | Dim lights to eighty percent
+dim_lights_80 | Dim the lights to eighty percent
+dim_lights_80 | Set the lights to eighty percent
+dim_lights_80 | Lights at eighty percent
+set_timer_1 | Set a timer for one minute
+set_timer_1 | Set a one minute timer
+set_timer_1 | Start a timer for one minute
+set_timer_1 | Timer for one minute
+set_timer_5 | Set a timer for five minutes
+set_timer_5 | Set a five minute timer
+set_timer_5 | Start a timer for five minutes
+set_timer_5 | Timer for five minutes
+set_timer_10 | Set a timer for ten minutes
+set_timer_10 | Set a ten minute timer
+set_timer_10 | Start a timer for ten minutes
+set_timer_10 | Timer for ten minutes
+set_alarm_6am | Set an alarm at six A M
+set_alarm_6am | Set an alarm for six A M
+set_alarm_6am | Wake me up at six A M
+set_alarm_6am | Set an alarm for six in the morning
+set_alarm_7am | Set an alarm at seven A M
+set_alarm_7am | Set an alarm for seven A M
+set_alarm_7am | Wake me up at seven A M
+set_alarm_7am | Set an alarm for seven in the morning
+set_alarm_9pm | Set an alarm at nine P M
+set_alarm_9pm | Set an alarm for nine P M
+set_alarm_9pm | Set an alarm for nine tonight
+set_alarm_9pm | Set an alarm for nine in the evening
+set_temperature_18 | Set temperature to eighteen degrees
+set_temperature_18 | Set the temperature to eighteen degrees
+set_temperature_18 | Make it eighteen degrees
+set_temperature_18 | Change the temperature to eighteen
+set_temperature_22 | Set temperature to twenty two degrees
+set_temperature_22 | Set the temperature to twenty two degrees
+set_temperature_22 | Make it twenty two degrees
+set_temperature_22 | Change the temperature to twenty two
+set_temperature_26 | Set temperature to twenty six degrees
+set_temperature_26 | Set the temperature to twenty six degrees
+set_temperature_26 | Make it twenty six degrees
+set_temperature_26 | Change the temperature to twenty six
+pause | Pause
+pause | Pause the music
+pause | Pause it
+stop | Stop
+stop | Stop the music
+stop | Stop playing
+next | Next
+next | Next song
+next | Play the next song
+skip | Skip
+skip | Skip this song
+skip | Skip the song
+volume_up | Volume up
+volume_up | Turn up the volume
+volume_up | Turn it up
+louder | Louder
+louder | Make it louder
+louder | A bit louder
+volume_down | Volume down
+volume_down | Turn down the volume
+volume_down | Turn it down
+volume_down | Quieter
+volume_down | Lower the volume
+remind_trash | Remind me to take out the trash
+remind_trash | Remind me to take the trash out
+remind_trash | Remind me about the trash
+remind_study | Remind me to study for my exam
+remind_study | Remind me to study for my test
+remind_study | Remind me to study
+list_reminders | What are my reminders?
+list_reminders | What reminders do I have?
+list_reminders | Do I have any reminders?
+list_reminders | Read my reminders
+call_jane | Call Jane
+call_jane | Phone Jane
+call_jane | Give Jane a call
+call_jane | Call Jane please
+text_jane | Text Jane
+text_jane | Send Jane a text
+text_jane | Message Jane
+text_jane | Send a message to Jane
+play | Play
+play | Resume
+play | Keep playing
+play | Continue playing
+party | Party party
+party | Party mode
+party | Let's party
+party | Party time
+unknown_other | (say something that is NOT a command)

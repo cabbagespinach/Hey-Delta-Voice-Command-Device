@@ -1,0 +1,325 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0084.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:28:59+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.900736391544342,
+ "chunks": [
+  {
+   "chunk_start": 0.212,
+   "chunk_end": 5.388,
+   "text": "I forgot where I put the keys this morning. The store closes earlier on weekends.",
+   "words": [
+    {
+     "word": "I",
+     "start": 0.212,
+     "end": 0.512,
+     "probability": 0.7866
+    },
+    {
+     "word": "forgot",
+     "start": 0.512,
+     "end": 0.792,
+     "probability": 0.9814
+    },
+    {
+     "word": "where",
+     "start": 0.792,
+     "end": 1.112,
+     "probability": 0.9927
+    },
+    {
+     "word": "I",
+     "start": 1.112,
+     "end": 1.192,
+     "probability": 0.9536
+    },
+    {
+     "word": "put",
+     "start": 1.192,
+     "end": 1.332,
+     "probability": 0.9956
+    },
+    {
+     "word": "the",
+     "start": 1.332,
+     "end": 1.512,
+     "probability": 0.9922
+    },
+    {
+     "word": "keys",
+     "start": 1.512,
+     "end": 1.672,
+     "probability": 0.9937
+    },
+    {
+     "word": "this",
+     "start": 1.672,
+     "end": 1.912,
+     "probability": 0.9932
+    },
+    {
+     "word": "morning.",
+     "start": 1.912,
+     "end": 2.312,
+     "probability": 0.9976
+    },
+    {
+     "word": "The",
+     "start": 2.432,
+     "end": 2.512,
+     "probability": 0.9341
+    },
+    {
+     "word": "store",
+     "start": 2.512,
+     "end": 2.772,
+     "probability": 0.9883
+    },
+    {
+     "word": "closes",
+     "start": 2.772,
+     "end": 3.232,
+     "probability": 0.9897
+    },
+    {
+     "word": "earlier",
+     "start": 3.232,
+     "end": 3.712,
+     "probability": 0.9497
+    },
+    {
+     "word": "on",
+     "start": 3.712,
+     "end": 4.112,
+     "probability": 0.9966
+    },
+    {
+     "word": "weekends.",
+     "start": 4.112,
+     "end": 4.472,
+     "probability": 0.9839
+    }
+   ]
+  },
+  {
+   "chunk_start": 6.1,
+   "chunk_end": 11.34,
+   "text": "This recording is only being used as synthetic data.",
+   "words": [
+    {
+     "word": "This",
+     "start": 7.34,
+     "end": 8.04,
+     "probability": 0.4053
+    },
+    {
+     "word": "recording",
+     "start": 8.04,
+     "end": 8.56,
+     "probability": 0.9912
+    },
+    {
+     "word": "is",
+     "start": 8.56,
+     "end": 8.9,
+     "probability": 0.9917
+    },
+    {
+     "word": "only",
+     "start": 8.9,
+     "end": 9.14,
+     "probability": 0.9907
+    },
+    {
+     "word": "being",
+     "start": 9.14,
+     "end": 9.5,
+     "probability": 0.9946
+    },
+    {
+     "word": "used",
+     "start": 9.5,
+     "end": 9.86,
+     "probability": 0.999
+    },
+    {
+     "word": "as",
+     "start": 9.86,
+     "end": 10.1,
+     "probability": 0.9966
+    },
+    {
+     "word": "synthetic",
+     "start": 10.1,
+     "end": 10.38,
+     "probability": 0.9829
+    },
+    {
+     "word": "data.",
+     "start": 10.38,
+     "end": 10.8,
+     "probability": 0.998
+    }
+   ]
+  },
+  {
+   "chunk_start": 14.612,
+   "chunk_end": 18.124,
+   "text": "Whistle probably kicked the acid in the fist.",
+   "words": [
+    {
+     "word": "Whistle",
+     "start": 14.612,
+     "end": 15.312,
+     "probability": 0.5199
+    },
+    {
+     "word": "probably",
+     "start": 15.312,
+     "end": 15.752,
+     "probability": 0.5488
+    },
+    {
+     "word": "kicked",
+     "start": 15.752,
+     "end": 16.272,
+     "probability": 0.6582
+    },
+    {
+     "word": "the",
+     "start": 16.272,
+     "end": 16.552,
+     "probability": 0.1605
+    },
+    {
+     "word": "acid",
+     "start": 16.552,
+     "end": 16.892,
+     "probability": 0.2174
+    },
+    {
+     "word": "in",
+     "start": 16.892,
+     "end": 17.032,
+     "probability": 0.4824
+    },
+    {
+     "word": "the",
+     "start": 17.032,
+     "end": 17.132,
+     "probability": 0.833
+    },
+    {
+     "word": "fist.",
+     "start": 17.132,
+     "end": 17.512,
+     "probability": 0.7261
+    }
+   ]
+  },
+  {
+   "chunk_start": 20.692,
+   "chunk_end": 26.956,
+   "text": "Let us compare the two options carefully. Hey, Delta. The meeting starts in about 10 minutes.",
+   "words": [
+    {
+     "word": "Let",
+     "start": 20.692,
+     "end": 21.032,
+     "probability": 0.6372
+    },
+    {
+     "word": "us",
+     "start": 21.032,
+     "end": 21.232,
+     "probability": 0.9805
+    },
+    {
+     "word": "compare",
+     "start": 21.232,
+     "end": 21.532,
+     "probability": 0.9912
+    },
+    {
+     "word": "the",
+     "start": 21.532,
+     "end": 21.772,
+     "probability": 0.9702
+    },
+    {
+     "word": "two",
+     "start": 21.772,
+     "end": 21.872,
+     "probability": 0.9795
+    },
+    {
+     "word": "options",
+     "start": 21.872,
+     "end": 22.232,
+     "probability": 0.9912
+    },
+    {
+     "word": "carefully.",
+     "start": 22.232,
+     "end": 22.732,
+     "probability": 0.9434
+    },
+    {
+     "word": "Hey,",
+     "start": 22.912,
+     "end": 23.092,
+     "probability": 0.6855
+    },
+    {
+     "word": "Delta.",
+     "start": 23.132,
+     "end": 23.392,
+     "probability": 0.9756
+    },
+    {
+     "word": "The",
+     "start": 23.892,
+     "end": 24.432,
+     "probability": 0.9609
+    },
+    {
+     "word": "meeting",
+     "start": 24.432,
+     "end": 24.752,
+     "probability": 0.999
+    },
+    {
+     "word": "starts",
+     "start": 24.752,
+     "end": 25.052,
+     "probability": 0.9995
+    },
+    {
+     "word": "in",
+     "start": 25.052,
+     "end": 25.452,
+     "probability": 0.998
+    },
+    {
+     "word": "about",
+     "start": 25.452,
+     "end": 25.652,
+     "probability": 0.998
+    },
+    {
+     "word": "10",
+     "start": 25.652,
+     "end": 25.932,
+     "probability": 0.6074
+    },
+    {
+     "word": "minutes.",
+     "start": 25.932,
+     "end": 26.232,
+     "probability": 0.9985
+    }
+   ]
+  }
+ ]
+}

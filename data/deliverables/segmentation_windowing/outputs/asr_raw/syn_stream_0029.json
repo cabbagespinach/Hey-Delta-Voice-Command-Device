@@ -1,0 +1,327 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0029.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:27:35+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8946728110313416,
+ "chunks": [
+  {
+   "chunk_start": 2.548,
+   "chunk_end": 5.28,
+   "text": "They think that our faith is great.",
+   "words": [
+    {
+     "word": "They",
+     "start": 2.548,
+     "end": 2.888,
+     "probability": 0.048
+    },
+    {
+     "word": "think",
+     "start": 2.888,
+     "end": 3.328,
+     "probability": 0.1597
+    },
+    {
+     "word": "that",
+     "start": 3.328,
+     "end": 3.708,
+     "probability": 0.2778
+    },
+    {
+     "word": "our",
+     "start": 3.708,
+     "end": 4.008,
+     "probability": 0.4668
+    },
+    {
+     "word": "faith",
+     "start": 4.008,
+     "end": 4.208,
+     "probability": 0.75
+    },
+    {
+     "word": "is",
+     "start": 4.208,
+     "end": 4.468,
+     "probability": 0.8721
+    },
+    {
+     "word": "great.",
+     "start": 4.468,
+     "end": 4.768,
+     "probability": 0.1897
+    }
+   ]
+  },
+  {
+   "chunk_start": 5.28,
+   "chunk_end": 8.972,
+   "text": "I left the package beside the front door.",
+   "words": [
+    {
+     "word": "I",
+     "start": 5.28,
+     "end": 5.52,
+     "probability": 0.918
+    },
+    {
+     "word": "left",
+     "start": 5.52,
+     "end": 5.78,
+     "probability": 0.4771
+    },
+    {
+     "word": "the",
+     "start": 5.78,
+     "end": 6.06,
+     "probability": 0.9961
+    },
+    {
+     "word": "package",
+     "start": 6.06,
+     "end": 6.42,
+     "probability": 0.9976
+    },
+    {
+     "word": "beside",
+     "start": 6.42,
+     "end": 6.78,
+     "probability": 0.8872
+    },
+    {
+     "word": "the",
+     "start": 6.78,
+     "end": 7.12,
+     "probability": 0.9233
+    },
+    {
+     "word": "front",
+     "start": 7.12,
+     "end": 7.36,
+     "probability": 0.9829
+    },
+    {
+     "word": "door.",
+     "start": 7.36,
+     "end": 7.92,
+     "probability": 0.9346
+    }
+   ]
+  },
+  {
+   "chunk_start": 9.044,
+   "chunk_end": 10.412,
+   "text": "Hey DILTA!",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 9.044,
+     "end": 9.444,
+     "probability": 0.8223
+    },
+    {
+     "word": "DILTA!",
+     "start": 9.444,
+     "end": 9.924,
+     "probability": 0.6326
+    }
+   ]
+  },
+  {
+   "chunk_start": 16.212,
+   "chunk_end": 19.52,
+   "text": "Let us compare these two options fully.",
+   "words": [
+    {
+     "word": "Let",
+     "start": 16.212,
+     "end": 16.572,
+     "probability": 0.9268
+    },
+    {
+     "word": "us",
+     "start": 16.572,
+     "end": 16.752,
+     "probability": 0.9321
+    },
+    {
+     "word": "compare",
+     "start": 16.752,
+     "end": 17.172,
+     "probability": 0.9922
+    },
+    {
+     "word": "these",
+     "start": 17.172,
+     "end": 17.512,
+     "probability": 0.3411
+    },
+    {
+     "word": "two",
+     "start": 17.512,
+     "end": 17.832,
+     "probability": 0.6865
+    },
+    {
+     "word": "options",
+     "start": 17.832,
+     "end": 18.212,
+     "probability": 0.9917
+    },
+    {
+     "word": "fully.",
+     "start": 18.212,
+     "end": 18.652,
+     "probability": 0.4446
+    }
+   ]
+  },
+  {
+   "chunk_start": 19.52,
+   "chunk_end": 21.964,
+   "text": "I was looking for a quiet place to work.",
+   "words": [
+    {
+     "word": "I",
+     "start": 19.52,
+     "end": 19.84,
+     "probability": 0.7095
+    },
+    {
+     "word": "was",
+     "start": 19.84,
+     "end": 19.94,
+     "probability": 0.9927
+    },
+    {
+     "word": "looking",
+     "start": 19.94,
+     "end": 20.16,
+     "probability": 0.9951
+    },
+    {
+     "word": "for",
+     "start": 20.16,
+     "end": 20.36,
+     "probability": 0.999
+    },
+    {
+     "word": "a",
+     "start": 20.36,
+     "end": 20.5,
+     "probability": 0.9946
+    },
+    {
+     "word": "quiet",
+     "start": 20.5,
+     "end": 20.76,
+     "probability": 0.9897
+    },
+    {
+     "word": "place",
+     "start": 20.76,
+     "end": 21.02,
+     "probability": 0.9985
+    },
+    {
+     "word": "to",
+     "start": 21.02,
+     "end": 21.2,
+     "probability": 0.9937
+    },
+    {
+     "word": "work.",
+     "start": 21.2,
+     "end": 21.42,
+     "probability": 0.999
+    }
+   ]
+  },
+  {
+   "chunk_start": 24.724,
+   "chunk_end": 29.516,
+   "text": "We ordered dinner and waited near the entrance with the keys this morning.",
+   "words": [
+    {
+     "word": "We",
+     "start": 24.724,
+     "end": 25.064,
+     "probability": 0.8242
+    },
+    {
+     "word": "ordered",
+     "start": 25.064,
+     "end": 25.304,
+     "probability": 0.9849
+    },
+    {
+     "word": "dinner",
+     "start": 25.304,
+     "end": 25.584,
+     "probability": 0.9932
+    },
+    {
+     "word": "and",
+     "start": 25.584,
+     "end": 25.824,
+     "probability": 0.9316
+    },
+    {
+     "word": "waited",
+     "start": 25.824,
+     "end": 26.104,
+     "probability": 0.9961
+    },
+    {
+     "word": "near",
+     "start": 26.104,
+     "end": 26.284,
+     "probability": 0.9653
+    },
+    {
+     "word": "the",
+     "start": 26.284,
+     "end": 26.424,
+     "probability": 0.9858
+    },
+    {
+     "word": "entrance",
+     "start": 26.424,
+     "end": 26.704,
+     "probability": 0.4998
+    },
+    {
+     "word": "with",
+     "start": 26.704,
+     "end": 27.124,
+     "probability": 0.5425
+    },
+    {
+     "word": "the",
+     "start": 27.124,
+     "end": 27.264,
+     "probability": 0.9766
+    },
+    {
+     "word": "keys",
+     "start": 27.264,
+     "end": 27.484,
+     "probability": 0.9712
+    },
+    {
+     "word": "this",
+     "start": 27.484,
+     "end": 27.724,
+     "probability": 0.9355
+    },
+    {
+     "word": "morning.",
+     "start": 27.724,
+     "end": 28.024,
+     "probability": 0.999
+    }
+   ]
+  }
+ ]
+}

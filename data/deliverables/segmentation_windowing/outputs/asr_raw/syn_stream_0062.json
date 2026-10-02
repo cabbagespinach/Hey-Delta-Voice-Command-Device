@@ -1,0 +1,288 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0062.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:28:26+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8797369003295898,
+ "chunks": [
+  {
+   "chunk_start": 12.468,
+   "chunk_end": 19.948,
+   "text": "i was looking for a quiet this recording is only being used as synthetic data blue one is slightly",
+   "words": [
+    {
+     "word": "i",
+     "start": 12.468,
+     "end": 12.688,
+     "probability": 0.0928
+    },
+    {
+     "word": "was",
+     "start": 12.688,
+     "end": 12.908,
+     "probability": 0.9922
+    },
+    {
+     "word": "looking",
+     "start": 12.908,
+     "end": 13.208,
+     "probability": 0.9956
+    },
+    {
+     "word": "for",
+     "start": 13.208,
+     "end": 13.548,
+     "probability": 0.9922
+    },
+    {
+     "word": "a",
+     "start": 13.548,
+     "end": 13.668,
+     "probability": 0.7373
+    },
+    {
+     "word": "quiet",
+     "start": 13.668,
+     "end": 13.888,
+     "probability": 0.5962
+    },
+    {
+     "word": "this",
+     "start": 13.888,
+     "end": 14.088,
+     "probability": 0.502
+    },
+    {
+     "word": "recording",
+     "start": 14.088,
+     "end": 14.588,
+     "probability": 0.9966
+    },
+    {
+     "word": "is",
+     "start": 14.588,
+     "end": 14.928,
+     "probability": 0.9873
+    },
+    {
+     "word": "only",
+     "start": 14.928,
+     "end": 15.168,
+     "probability": 0.9971
+    },
+    {
+     "word": "being",
+     "start": 15.168,
+     "end": 15.468,
+     "probability": 0.999
+    },
+    {
+     "word": "used",
+     "start": 15.468,
+     "end": 15.888,
+     "probability": 0.999
+    },
+    {
+     "word": "as",
+     "start": 15.888,
+     "end": 16.188,
+     "probability": 0.9883
+    },
+    {
+     "word": "synthetic",
+     "start": 16.188,
+     "end": 16.548,
+     "probability": 0.9839
+    },
+    {
+     "word": "data",
+     "start": 16.548,
+     "end": 17.028,
+     "probability": 0.6328
+    },
+    {
+     "word": "blue",
+     "start": 17.028,
+     "end": 17.448,
+     "probability": 0.0724
+    },
+    {
+     "word": "one",
+     "start": 17.448,
+     "end": 17.808,
+     "probability": 0.9761
+    },
+    {
+     "word": "is",
+     "start": 17.808,
+     "end": 18.028,
+     "probability": 0.981
+    },
+    {
+     "word": "slightly",
+     "start": 18.028,
+     "end": 18.248,
+     "probability": 0.9863
+    }
+   ]
+  },
+  {
+   "chunk_start": 20.852,
+   "chunk_end": 23.984,
+   "text": "Let us compare the two options. Hey Delta.",
+   "words": [
+    {
+     "word": "Let",
+     "start": 20.852,
+     "end": 21.252,
+     "probability": 0.4773
+    },
+    {
+     "word": "us",
+     "start": 21.252,
+     "end": 21.472,
+     "probability": 0.9888
+    },
+    {
+     "word": "compare",
+     "start": 21.472,
+     "end": 21.812,
+     "probability": 0.9941
+    },
+    {
+     "word": "the",
+     "start": 21.812,
+     "end": 22.152,
+     "probability": 0.9961
+    },
+    {
+     "word": "two",
+     "start": 22.152,
+     "end": 22.372,
+     "probability": 0.9609
+    },
+    {
+     "word": "options.",
+     "start": 22.372,
+     "end": 22.792,
+     "probability": 0.9917
+    },
+    {
+     "word": "Hey",
+     "start": 22.852,
+     "end": 23.012,
+     "probability": 0.8892
+    },
+    {
+     "word": "Delta.",
+     "start": 23.012,
+     "end": 23.332,
+     "probability": 0.7134
+    }
+   ]
+  },
+  {
+   "chunk_start": 23.984,
+   "chunk_end": 29.42,
+   "text": "The children are playing outside in the garden. That sounds like a reasonable idea to me.",
+   "words": [
+    {
+     "word": "The",
+     "start": 23.984,
+     "end": 24.184,
+     "probability": 0.5151
+    },
+    {
+     "word": "children",
+     "start": 24.184,
+     "end": 24.444,
+     "probability": 0.9873
+    },
+    {
+     "word": "are",
+     "start": 24.444,
+     "end": 24.644,
+     "probability": 0.9976
+    },
+    {
+     "word": "playing",
+     "start": 24.644,
+     "end": 24.864,
+     "probability": 0.999
+    },
+    {
+     "word": "outside",
+     "start": 24.864,
+     "end": 25.324,
+     "probability": 0.9976
+    },
+    {
+     "word": "in",
+     "start": 25.324,
+     "end": 25.564,
+     "probability": 0.9873
+    },
+    {
+     "word": "the",
+     "start": 25.564,
+     "end": 25.644,
+     "probability": 0.9976
+    },
+    {
+     "word": "garden.",
+     "start": 25.644,
+     "end": 25.944,
+     "probability": 0.9961
+    },
+    {
+     "word": "That",
+     "start": 26.044,
+     "end": 26.264,
+     "probability": 0.9487
+    },
+    {
+     "word": "sounds",
+     "start": 26.264,
+     "end": 26.704,
+     "probability": 0.9907
+    },
+    {
+     "word": "like",
+     "start": 26.704,
+     "end": 27.084,
+     "probability": 0.9976
+    },
+    {
+     "word": "a",
+     "start": 27.084,
+     "end": 27.284,
+     "probability": 0.9985
+    },
+    {
+     "word": "reasonable",
+     "start": 27.284,
+     "end": 27.744,
+     "probability": 0.9956
+    },
+    {
+     "word": "idea",
+     "start": 27.744,
+     "end": 28.304,
+     "probability": 0.9976
+    },
+    {
+     "word": "to",
+     "start": 28.304,
+     "end": 28.604,
+     "probability": 0.9966
+    },
+    {
+     "word": "me.",
+     "start": 28.604,
+     "end": 28.804,
+     "probability": 0.9995
+    }
+   ]
+  }
+ ]
+}

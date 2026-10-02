@@ -1,0 +1,204 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0116.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:29:52+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8984094262123108,
+ "chunks": [
+  {
+   "chunk_start": 3.06,
+   "chunk_end": 5.676,
+   "text": "That sounds like a reasonable idea to me.",
+   "words": [
+    {
+     "word": "That",
+     "start": 3.06,
+     "end": 3.42,
+     "probability": 0.8809
+    },
+    {
+     "word": "sounds",
+     "start": 3.42,
+     "end": 3.74,
+     "probability": 0.9956
+    },
+    {
+     "word": "like",
+     "start": 3.74,
+     "end": 3.98,
+     "probability": 0.9985
+    },
+    {
+     "word": "a",
+     "start": 3.98,
+     "end": 4.04,
+     "probability": 0.9985
+    },
+    {
+     "word": "reasonable",
+     "start": 4.04,
+     "end": 4.42,
+     "probability": 0.9951
+    },
+    {
+     "word": "idea",
+     "start": 4.42,
+     "end": 4.78,
+     "probability": 0.9985
+    },
+    {
+     "word": "to",
+     "start": 4.78,
+     "end": 5.02,
+     "probability": 0.9971
+    },
+    {
+     "word": "me.",
+     "start": 5.02,
+     "end": 5.18,
+     "probability": 0.9995
+    }
+   ]
+  },
+  {
+   "chunk_start": 8.244,
+   "chunk_end": 14.124,
+   "text": "The weather is changing again this afternoon. The report contains several useful examples.",
+   "words": [
+    {
+     "word": "The",
+     "start": 8.244,
+     "end": 8.544,
+     "probability": 0.8408
+    },
+    {
+     "word": "weather",
+     "start": 8.544,
+     "end": 8.744,
+     "probability": 0.9736
+    },
+    {
+     "word": "is",
+     "start": 8.744,
+     "end": 8.944,
+     "probability": 0.999
+    },
+    {
+     "word": "changing",
+     "start": 8.944,
+     "end": 9.284,
+     "probability": 0.999
+    },
+    {
+     "word": "again",
+     "start": 9.284,
+     "end": 9.644,
+     "probability": 0.9985
+    },
+    {
+     "word": "this",
+     "start": 9.644,
+     "end": 9.944,
+     "probability": 0.9858
+    },
+    {
+     "word": "afternoon.",
+     "start": 9.944,
+     "end": 10.324,
+     "probability": 0.9609
+    },
+    {
+     "word": "The",
+     "start": 10.704,
+     "end": 11.104,
+     "probability": 0.9648
+    },
+    {
+     "word": "report",
+     "start": 11.104,
+     "end": 11.384,
+     "probability": 0.9985
+    },
+    {
+     "word": "contains",
+     "start": 11.384,
+     "end": 11.784,
+     "probability": 0.9976
+    },
+    {
+     "word": "several",
+     "start": 11.784,
+     "end": 12.424,
+     "probability": 0.999
+    },
+    {
+     "word": "useful",
+     "start": 12.424,
+     "end": 12.864,
+     "probability": 0.999
+    },
+    {
+     "word": "examples.",
+     "start": 12.864,
+     "end": 13.304,
+     "probability": 0.9995
+    }
+   ]
+  },
+  {
+   "chunk_start": 21.844,
+   "chunk_end": 24.172,
+   "text": "The road was busy because of the rain.",
+   "words": [
+    {
+     "word": "The",
+     "start": 21.844,
+     "end": 22.164,
+     "probability": 0.6704
+    },
+    {
+     "word": "road",
+     "start": 22.164,
+     "end": 22.164,
+     "probability": 0.9238
+    },
+    {
+     "word": "was",
+     "start": 22.164,
+     "end": 22.364,
+     "probability": 0.9546
+    },
+    {
+     "word": "busy",
+     "start": 22.364,
+     "end": 22.624,
+     "probability": 0.5786
+    },
+    {
+     "word": "because",
+     "start": 22.624,
+     "end": 22.944,
+     "probability": 0.9595
+    },
+    {
+     "word": "of",
+     "start": 22.944,
+     "end": 23.224,
+     "probability": 0.9971
+    },
+    {
+     "word": "the",
+     "start": 23.224,
+     "end": 23.344,
+     "probability": 0.9927
+    },
+    {
+     "word": "rain.",
+     "start": 23.344,
+     "end": 23.584,
+     "probability": 0.9946
+    }
+   ]
+  }
+ ]
+}

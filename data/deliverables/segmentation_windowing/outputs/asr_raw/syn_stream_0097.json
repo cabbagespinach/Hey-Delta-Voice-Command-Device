@@ -1,0 +1,318 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0097.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:29:20+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.9025706648826599,
+ "chunks": [
+  {
+   "chunk_start": 1.556,
+   "chunk_end": 10.732,
+   "text": "There are several things we need to discuss. We should probably check the schedule first. Let us compare the two options carefully.",
+   "words": [
+    {
+     "word": "There",
+     "start": 1.556,
+     "end": 1.976,
+     "probability": 0.8218
+    },
+    {
+     "word": "are",
+     "start": 1.976,
+     "end": 2.136,
+     "probability": 0.9971
+    },
+    {
+     "word": "several",
+     "start": 2.136,
+     "end": 2.516,
+     "probability": 0.9966
+    },
+    {
+     "word": "things",
+     "start": 2.516,
+     "end": 2.876,
+     "probability": 0.9946
+    },
+    {
+     "word": "we",
+     "start": 2.876,
+     "end": 3.296,
+     "probability": 0.9878
+    },
+    {
+     "word": "need",
+     "start": 3.296,
+     "end": 3.576,
+     "probability": 0.9951
+    },
+    {
+     "word": "to",
+     "start": 3.576,
+     "end": 3.836,
+     "probability": 0.999
+    },
+    {
+     "word": "discuss.",
+     "start": 3.836,
+     "end": 4.296,
+     "probability": 0.9922
+    },
+    {
+     "word": "We",
+     "start": 4.656,
+     "end": 4.956,
+     "probability": 0.8462
+    },
+    {
+     "word": "should",
+     "start": 4.956,
+     "end": 5.096,
+     "probability": 0.8521
+    },
+    {
+     "word": "probably",
+     "start": 5.096,
+     "end": 5.476,
+     "probability": 0.9824
+    },
+    {
+     "word": "check",
+     "start": 5.476,
+     "end": 5.836,
+     "probability": 0.9946
+    },
+    {
+     "word": "the",
+     "start": 5.836,
+     "end": 6.016,
+     "probability": 0.9893
+    },
+    {
+     "word": "schedule",
+     "start": 6.016,
+     "end": 6.316,
+     "probability": 0.999
+    },
+    {
+     "word": "first.",
+     "start": 6.316,
+     "end": 6.736,
+     "probability": 0.9976
+    },
+    {
+     "word": "Let",
+     "start": 7.016,
+     "end": 7.356,
+     "probability": 0.8755
+    },
+    {
+     "word": "us",
+     "start": 7.356,
+     "end": 7.996,
+     "probability": 0.9907
+    },
+    {
+     "word": "compare",
+     "start": 7.996,
+     "end": 8.316,
+     "probability": 0.9941
+    },
+    {
+     "word": "the",
+     "start": 8.316,
+     "end": 8.656,
+     "probability": 0.9966
+    },
+    {
+     "word": "two",
+     "start": 8.656,
+     "end": 8.856,
+     "probability": 0.9878
+    },
+    {
+     "word": "options",
+     "start": 8.856,
+     "end": 9.356,
+     "probability": 0.9985
+    },
+    {
+     "word": "carefully.",
+     "start": 9.356,
+     "end": 9.836,
+     "probability": 0.9932
+    }
+   ]
+  },
+  {
+   "chunk_start": 12.788,
+   "chunk_end": 17.676,
+   "text": "Hey Delta, I was looking for a quiet place to work.",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 12.788,
+     "end": 13.108,
+     "probability": 0.8506
+    },
+    {
+     "word": "Delta,",
+     "start": 13.108,
+     "end": 13.388,
+     "probability": 0.8687
+    },
+    {
+     "word": "I",
+     "start": 13.568,
+     "end": 14.628,
+     "probability": 0.9282
+    },
+    {
+     "word": "was",
+     "start": 14.628,
+     "end": 14.788,
+     "probability": 0.9995
+    },
+    {
+     "word": "looking",
+     "start": 14.788,
+     "end": 14.988,
+     "probability": 0.999
+    },
+    {
+     "word": "for",
+     "start": 14.988,
+     "end": 15.228,
+     "probability": 0.9995
+    },
+    {
+     "word": "a",
+     "start": 15.228,
+     "end": 15.348,
+     "probability": 0.9951
+    },
+    {
+     "word": "quiet",
+     "start": 15.348,
+     "end": 15.548,
+     "probability": 0.9946
+    },
+    {
+     "word": "place",
+     "start": 15.548,
+     "end": 15.788,
+     "probability": 0.9897
+    },
+    {
+     "word": "to",
+     "start": 15.788,
+     "end": 15.948,
+     "probability": 0.9985
+    },
+    {
+     "word": "work.",
+     "start": 15.948,
+     "end": 16.188,
+     "probability": 0.999
+    }
+   ]
+  },
+  {
+   "chunk_start": 23.124,
+   "chunk_end": 27.852,
+   "text": "The children are playing outside in the garden. We can take the train after lunch.",
+   "words": [
+    {
+     "word": "The",
+     "start": 23.124,
+     "end": 23.424,
+     "probability": 0.4465
+    },
+    {
+     "word": "children",
+     "start": 23.424,
+     "end": 23.684,
+     "probability": 0.9854
+    },
+    {
+     "word": "are",
+     "start": 23.684,
+     "end": 23.864,
+     "probability": 0.9966
+    },
+    {
+     "word": "playing",
+     "start": 23.864,
+     "end": 24.104,
+     "probability": 0.9971
+    },
+    {
+     "word": "outside",
+     "start": 24.104,
+     "end": 24.644,
+     "probability": 0.9922
+    },
+    {
+     "word": "in",
+     "start": 24.644,
+     "end": 24.884,
+     "probability": 0.9399
+    },
+    {
+     "word": "the",
+     "start": 24.884,
+     "end": 24.944,
+     "probability": 0.9912
+    },
+    {
+     "word": "garden.",
+     "start": 24.944,
+     "end": 24.964,
+     "probability": 0.9805
+    },
+    {
+     "word": "We",
+     "start": 24.964,
+     "end": 25.044,
+     "probability": 0.6357
+    },
+    {
+     "word": "can",
+     "start": 25.044,
+     "end": 25.084,
+     "probability": 0.9971
+    },
+    {
+     "word": "take",
+     "start": 25.084,
+     "end": 25.284,
+     "probability": 0.9951
+    },
+    {
+     "word": "the",
+     "start": 25.284,
+     "end": 25.444,
+     "probability": 0.9976
+    },
+    {
+     "word": "train",
+     "start": 25.444,
+     "end": 25.704,
+     "probability": 0.9912
+    },
+    {
+     "word": "after",
+     "start": 25.704,
+     "end": 26.044,
+     "probability": 0.9961
+    },
+    {
+     "word": "lunch.",
+     "start": 26.044,
+     "end": 26.384,
+     "probability": 0.9985
+    }
+   ]
+  }
+ ]
+}

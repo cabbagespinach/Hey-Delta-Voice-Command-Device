@@ -1,0 +1,14 @@
+=== bcresnet6: train (22:45) ===
+epoch  0 loss 0.5567 | val AUC 0.9600 thr 0.714 RPI 0.081 syn 0.010 * | 25s
+epoch  1 loss 0.4120 | val AUC 0.9839 thr 0.989 RPI 0.649 syn 0.381 * | 42s
+epoch  2 loss 0.2985 | val AUC 0.9827 thr 0.918 RPI 0.568 syn 0.747 * | 59s
+epoch  3 loss 0.2449 | val AUC 0.9897 thr 0.823 RPI 0.919 syn 0.814 * | 75s
+epoch  4 loss 0.2196 | val AUC 0.9892 thr 0.778 RPI 0.919 syn 0.835 * | 93s
+epoch  5 loss 0.2059 | val AUC 0.9855 thr 0.863 RPI 0.919 syn 0.881 * | 111s
+epoch  6 loss 0.1960 | val AUC 0.9877 thr 0.792 RPI 1.000 syn 0.881 * | 131s
+epoch 12 loss 0.1739 | val AUC 0.9925 thr 0.860 RPI 1.000 syn 0.897 * | 247s
+epoch 17 loss 0.1660 | val AUC 0.9895 thr 0.800 RPI 1.000 syn 0.923 * | 345s
+best epoch 17: selection 0.961, AUC 0.9895 -> /home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/deliverables/model/runs/bcresnet6/best.pt
+=== bcresnet6: evaluate (23:12) ===
+[isolated] AUC 0.9895, threshold 0.7999
+[streaming] 10.07 FA/h, detection 0.129

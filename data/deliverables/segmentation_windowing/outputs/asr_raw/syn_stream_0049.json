@@ -1,0 +1,211 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0049.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:28:07+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8828152418136597,
+ "chunks": [
+  {
+   "chunk_start": 1.076,
+   "chunk_end": 7.532,
+   "text": "The meeting's battery should last for another hour.",
+   "words": [
+    {
+     "word": "The",
+     "start": 3.496,
+     "end": 4.136,
+     "probability": 0.2263
+    },
+    {
+     "word": "meeting's",
+     "start": 4.136,
+     "end": 4.436,
+     "probability": 0.391
+    },
+    {
+     "word": "battery",
+     "start": 4.436,
+     "end": 4.756,
+     "probability": 0.2908
+    },
+    {
+     "word": "should",
+     "start": 4.756,
+     "end": 5.096,
+     "probability": 0.9219
+    },
+    {
+     "word": "last",
+     "start": 5.096,
+     "end": 5.416,
+     "probability": 0.9907
+    },
+    {
+     "word": "for",
+     "start": 5.416,
+     "end": 5.616,
+     "probability": 0.9663
+    },
+    {
+     "word": "another",
+     "start": 5.616,
+     "end": 6.476,
+     "probability": 0.9878
+    },
+    {
+     "word": "hour.",
+     "start": 6.476,
+     "end": 6.756,
+     "probability": 0.9971
+    }
+   ]
+  },
+  {
+   "chunk_start": 8.276,
+   "chunk_end": 11.244,
+   "text": "Hey Delta!",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 9.336,
+     "end": 10.056,
+     "probability": 0.4675
+    },
+    {
+     "word": "Delta!",
+     "start": 10.056,
+     "end": 10.416,
+     "probability": 0.8687
+    }
+   ]
+  },
+  {
+   "chunk_start": 12.308,
+   "chunk_end": 15.82,
+   "text": "The road was busy because of the rain. He dealt her.",
+   "words": [
+    {
+     "word": "The",
+     "start": 12.308,
+     "end": 12.668,
+     "probability": 0.7959
+    },
+    {
+     "word": "road",
+     "start": 12.668,
+     "end": 12.968,
+     "probability": 0.998
+    },
+    {
+     "word": "was",
+     "start": 12.968,
+     "end": 13.208,
+     "probability": 1.0
+    },
+    {
+     "word": "busy",
+     "start": 13.208,
+     "end": 13.528,
+     "probability": 0.9995
+    },
+    {
+     "word": "because",
+     "start": 13.528,
+     "end": 13.888,
+     "probability": 0.998
+    },
+    {
+     "word": "of",
+     "start": 13.888,
+     "end": 14.208,
+     "probability": 1.0
+    },
+    {
+     "word": "the",
+     "start": 14.208,
+     "end": 14.328,
+     "probability": 1.0
+    },
+    {
+     "word": "rain.",
+     "start": 14.328,
+     "end": 14.608,
+     "probability": 0.9995
+    },
+    {
+     "word": "He",
+     "start": 14.748,
+     "end": 14.828,
+     "probability": 0.9873
+    },
+    {
+     "word": "dealt",
+     "start": 14.828,
+     "end": 15.068,
+     "probability": 0.6802
+    },
+    {
+     "word": "her.",
+     "start": 15.068,
+     "end": 15.328,
+     "probability": 0.9937
+    }
+   ]
+  },
+  {
+   "chunk_start": 17.844,
+   "chunk_end": 21.036,
+   "text": "There is enough time to finish this today.",
+   "words": [
+    {
+     "word": "There",
+     "start": 17.844,
+     "end": 18.204,
+     "probability": 0.8789
+    },
+    {
+     "word": "is",
+     "start": 18.204,
+     "end": 18.404,
+     "probability": 0.9976
+    },
+    {
+     "word": "enough",
+     "start": 18.404,
+     "end": 18.724,
+     "probability": 0.998
+    },
+    {
+     "word": "time",
+     "start": 18.724,
+     "end": 19.024,
+     "probability": 0.9995
+    },
+    {
+     "word": "to",
+     "start": 19.024,
+     "end": 19.344,
+     "probability": 0.999
+    },
+    {
+     "word": "finish",
+     "start": 19.344,
+     "end": 19.664,
+     "probability": 0.9985
+    },
+    {
+     "word": "this",
+     "start": 19.664,
+     "end": 19.984,
+     "probability": 0.999
+    },
+    {
+     "word": "today.",
+     "start": 19.984,
+     "end": 20.344,
+     "probability": 0.9971
+    }
+   ]
+  }
+ ]
+}

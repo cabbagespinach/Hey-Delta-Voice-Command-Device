@@ -1,0 +1,253 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0083.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:28:57+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8852445483207703,
+ "chunks": [
+  {
+   "chunk_start": 3.828,
+   "chunk_end": 8.012,
+   "text": "The children are playing outside the garden beside the front door.",
+   "words": [
+    {
+     "word": "The",
+     "start": 3.828,
+     "end": 4.148,
+     "probability": 0.7012
+    },
+    {
+     "word": "children",
+     "start": 4.148,
+     "end": 4.408,
+     "probability": 0.9961
+    },
+    {
+     "word": "are",
+     "start": 4.408,
+     "end": 4.668,
+     "probability": 0.999
+    },
+    {
+     "word": "playing",
+     "start": 4.668,
+     "end": 4.948,
+     "probability": 0.9995
+    },
+    {
+     "word": "outside",
+     "start": 4.948,
+     "end": 5.388,
+     "probability": 0.9971
+    },
+    {
+     "word": "the",
+     "start": 5.388,
+     "end": 5.628,
+     "probability": 0.3535
+    },
+    {
+     "word": "garden",
+     "start": 5.628,
+     "end": 5.968,
+     "probability": 0.9678
+    },
+    {
+     "word": "beside",
+     "start": 5.968,
+     "end": 6.408,
+     "probability": 0.4551
+    },
+    {
+     "word": "the",
+     "start": 6.408,
+     "end": 6.968,
+     "probability": 0.9985
+    },
+    {
+     "word": "front",
+     "start": 6.968,
+     "end": 7.208,
+     "probability": 0.999
+    },
+    {
+     "word": "door.",
+     "start": 7.208,
+     "end": 7.488,
+     "probability": 0.999
+    }
+   ]
+  },
+  {
+   "chunk_start": 9.652,
+   "chunk_end": 12.108,
+   "text": "We should probably check the schedule first.",
+   "words": [
+    {
+     "word": "We",
+     "start": 9.652,
+     "end": 9.972,
+     "probability": 0.5718
+    },
+    {
+     "word": "should",
+     "start": 9.972,
+     "end": 10.112,
+     "probability": 0.9956
+    },
+    {
+     "word": "probably",
+     "start": 10.112,
+     "end": 10.372,
+     "probability": 0.9844
+    },
+    {
+     "word": "check",
+     "start": 10.372,
+     "end": 10.752,
+     "probability": 0.9976
+    },
+    {
+     "word": "the",
+     "start": 10.752,
+     "end": 10.912,
+     "probability": 0.9912
+    },
+    {
+     "word": "schedule",
+     "start": 10.912,
+     "end": 11.172,
+     "probability": 0.9888
+    },
+    {
+     "word": "first.",
+     "start": 11.172,
+     "end": 11.512,
+     "probability": 0.9893
+    }
+   ]
+  },
+  {
+   "chunk_start": 17.524,
+   "chunk_end": 18.86,
+   "text": "Hey, Delta.",
+   "words": [
+    {
+     "word": "Hey,",
+     "start": 17.524,
+     "end": 17.884,
+     "probability": 0.7861
+    },
+    {
+     "word": "Delta.",
+     "start": 17.924,
+     "end": 18.184,
+     "probability": 0.7036
+    }
+   ]
+  },
+  {
+   "chunk_start": 21.236,
+   "chunk_end": 27.468,
+   "text": "I think the store closes earlier on weekends. That sounds like a reasonable idea to me.",
+   "words": [
+    {
+     "word": "I",
+     "start": 21.236,
+     "end": 21.556,
+     "probability": 0.5684
+    },
+    {
+     "word": "think",
+     "start": 21.556,
+     "end": 21.856,
+     "probability": 0.9805
+    },
+    {
+     "word": "the",
+     "start": 21.856,
+     "end": 22.076,
+     "probability": 0.9316
+    },
+    {
+     "word": "store",
+     "start": 22.076,
+     "end": 22.336,
+     "probability": 0.2729
+    },
+    {
+     "word": "closes",
+     "start": 22.336,
+     "end": 22.716,
+     "probability": 0.9673
+    },
+    {
+     "word": "earlier",
+     "start": 22.716,
+     "end": 23.276,
+     "probability": 0.9375
+    },
+    {
+     "word": "on",
+     "start": 23.276,
+     "end": 23.676,
+     "probability": 0.9951
+    },
+    {
+     "word": "weekends.",
+     "start": 23.676,
+     "end": 23.976,
+     "probability": 0.958
+    },
+    {
+     "word": "That",
+     "start": 24.196,
+     "end": 24.376,
+     "probability": 0.8643
+    },
+    {
+     "word": "sounds",
+     "start": 24.376,
+     "end": 24.956,
+     "probability": 0.9912
+    },
+    {
+     "word": "like",
+     "start": 24.956,
+     "end": 25.136,
+     "probability": 0.9946
+    },
+    {
+     "word": "a",
+     "start": 25.136,
+     "end": 25.296,
+     "probability": 0.9932
+    },
+    {
+     "word": "reasonable",
+     "start": 25.296,
+     "end": 25.736,
+     "probability": 0.9917
+    },
+    {
+     "word": "idea",
+     "start": 25.736,
+     "end": 26.396,
+     "probability": 0.9966
+    },
+    {
+     "word": "to",
+     "start": 26.396,
+     "end": 26.676,
+     "probability": 0.9956
+    },
+    {
+     "word": "me.",
+     "start": 26.676,
+     "end": 26.896,
+     "probability": 0.9995
+    }
+   ]
+  }
+ ]
+}

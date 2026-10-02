@@ -1,0 +1,928 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/negatives_general/Manual-BG-RPI18.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-28T13:29:36+00:00",
+ "duration_sec": 261.1306666666667,
+ "input_peak": 0.24889181554317474,
+ "chunks": [
+  {
+   "chunk_start": 4.756,
+   "chunk_end": 7.724,
+   "text": "I want more snacks from Japan.",
+   "words": [
+    {
+     "word": "I",
+     "start": 4.756,
+     "end": 5.096,
+     "probability": 0.8457
+    },
+    {
+     "word": "want",
+     "start": 5.096,
+     "end": 5.296,
+     "probability": 0.9907
+    },
+    {
+     "word": "more",
+     "start": 5.296,
+     "end": 5.636,
+     "probability": 0.9946
+    },
+    {
+     "word": "snacks",
+     "start": 5.636,
+     "end": 5.976,
+     "probability": 0.9927
+    },
+    {
+     "word": "from",
+     "start": 5.976,
+     "end": 6.456,
+     "probability": 0.9897
+    },
+    {
+     "word": "Japan.",
+     "start": 6.456,
+     "end": 6.836,
+     "probability": 0.9883
+    }
+   ]
+  },
+  {
+   "chunk_start": 8.948,
+   "chunk_end": 11.276,
+   "text": "Let's just live in Japan.",
+   "words": [
+    {
+     "word": "Let's",
+     "start": 8.948,
+     "end": 9.488,
+     "probability": 0.7021
+    },
+    {
+     "word": "just",
+     "start": 9.488,
+     "end": 9.668,
+     "probability": 0.9893
+    },
+    {
+     "word": "live",
+     "start": 9.668,
+     "end": 9.968,
+     "probability": 0.916
+    },
+    {
+     "word": "in",
+     "start": 9.968,
+     "end": 10.168,
+     "probability": 0.9971
+    },
+    {
+     "word": "Japan.",
+     "start": 10.168,
+     "end": 10.548,
+     "probability": 0.9917
+    }
+   ]
+  },
+  {
+   "chunk_start": 14.644,
+   "chunk_end": 17.696,
+   "text": "Actually, I don't think we'll be able to buy that kind of thing.",
+   "words": [
+    {
+     "word": "Actually,",
+     "start": 14.644,
+     "end": 14.924,
+     "probability": 0.5049
+    },
+    {
+     "word": "I",
+     "start": 15.024,
+     "end": 15.144,
+     "probability": 0.7114
+    },
+    {
+     "word": "don't",
+     "start": 15.144,
+     "end": 15.404,
+     "probability": 0.6625
+    },
+    {
+     "word": "think",
+     "start": 15.404,
+     "end": 15.424,
+     "probability": 0.9478
+    },
+    {
+     "word": "we'll",
+     "start": 15.424,
+     "end": 15.584,
+     "probability": 0.5436
+    },
+    {
+     "word": "be",
+     "start": 15.584,
+     "end": 15.584,
+     "probability": 0.6108
+    },
+    {
+     "word": "able",
+     "start": 15.584,
+     "end": 15.884,
+     "probability": 0.9316
+    },
+    {
+     "word": "to",
+     "start": 15.884,
+     "end": 16.044,
+     "probability": 0.9985
+    },
+    {
+     "word": "buy",
+     "start": 16.044,
+     "end": 16.164,
+     "probability": 0.8242
+    },
+    {
+     "word": "that",
+     "start": 16.164,
+     "end": 16.444,
+     "probability": 0.3728
+    },
+    {
+     "word": "kind",
+     "start": 16.444,
+     "end": 16.644,
+     "probability": 0.1884
+    },
+    {
+     "word": "of",
+     "start": 16.644,
+     "end": 16.784,
+     "probability": 0.9585
+    },
+    {
+     "word": "thing.",
+     "start": 16.784,
+     "end": 16.884,
+     "probability": 0.1741
+    }
+   ]
+  },
+  {
+   "chunk_start": 17.696,
+   "chunk_end": 19.532,
+   "text": "For Japanese people.",
+   "words": [
+    {
+     "word": "For",
+     "start": 17.696,
+     "end": 17.956,
+     "probability": 0.1342
+    },
+    {
+     "word": "Japanese",
+     "start": 17.956,
+     "end": 18.296,
+     "probability": 0.4858
+    },
+    {
+     "word": "people.",
+     "start": 18.296,
+     "end": 18.896,
+     "probability": 0.6685
+    }
+   ]
+  },
+  {
+   "chunk_start": 20.18,
+   "chunk_end": 21.26,
+   "text": "Legs.",
+   "words": [
+    {
+     "word": "Legs.",
+     "start": 20.18,
+     "end": 20.72,
+     "probability": 0.7253
+    }
+   ]
+  },
+  {
+   "chunk_start": 23.316,
+   "chunk_end": 24.268,
+   "text": "I don't know.",
+   "words": [
+    {
+     "word": "I",
+     "start": 23.316,
+     "end": 23.476,
+     "probability": 0.668
+    },
+    {
+     "word": "don't",
+     "start": 23.476,
+     "end": 23.616,
+     "probability": 0.9702
+    },
+    {
+     "word": "know.",
+     "start": 23.616,
+     "end": 23.716,
+     "probability": 0.9985
+    }
+   ]
+  },
+  {
+   "chunk_start": 25.236,
+   "chunk_end": 27.02,
+   "text": "Billy got me a margarita.",
+   "words": [
+    {
+     "word": "Billy",
+     "start": 25.236,
+     "end": 25.636,
+     "probability": 0.1997
+    },
+    {
+     "word": "got",
+     "start": 25.636,
+     "end": 25.776,
+     "probability": 0.0572
+    },
+    {
+     "word": "me",
+     "start": 25.776,
+     "end": 25.896,
+     "probability": 0.7212
+    },
+    {
+     "word": "a",
+     "start": 25.896,
+     "end": 25.996,
+     "probability": 0.397
+    },
+    {
+     "word": "margarita.",
+     "start": 25.996,
+     "end": 26.476,
+     "probability": 0.6227
+    }
+   ]
+  },
+  {
+   "chunk_start": 29.748,
+   "chunk_end": 32.556,
+   "text": "Where is it? Where is it? Where is it? I don't know.",
+   "words": [
+    {
+     "word": "Where",
+     "start": 29.748,
+     "end": 30.088,
+     "probability": 0.157
+    },
+    {
+     "word": "is",
+     "start": 30.088,
+     "end": 30.268,
+     "probability": 0.3328
+    },
+    {
+     "word": "it?",
+     "start": 30.268,
+     "end": 30.328,
+     "probability": 0.3008
+    },
+    {
+     "word": "Where",
+     "start": 30.388,
+     "end": 30.508,
+     "probability": 0.54
+    },
+    {
+     "word": "is",
+     "start": 30.508,
+     "end": 30.568,
+     "probability": 0.6421
+    },
+    {
+     "word": "it?",
+     "start": 30.568,
+     "end": 30.728,
+     "probability": 0.5337
+    },
+    {
+     "word": "Where",
+     "start": 30.988,
+     "end": 31.228,
+     "probability": 0.2334
+    },
+    {
+     "word": "is",
+     "start": 31.228,
+     "end": 31.448,
+     "probability": 0.6294
+    },
+    {
+     "word": "it?",
+     "start": 31.448,
+     "end": 31.628,
+     "probability": 0.667
+    },
+    {
+     "word": "I",
+     "start": 31.668,
+     "end": 31.748,
+     "probability": 0.5479
+    },
+    {
+     "word": "don't",
+     "start": 31.748,
+     "end": 31.988,
+     "probability": 0.7194
+    },
+    {
+     "word": "know.",
+     "start": 31.988,
+     "end": 31.988,
+     "probability": 0.8818
+    }
+   ]
+  },
+  {
+   "chunk_start": 48.532,
+   "chunk_end": 50.828,
+   "text": "I had a reminder for 23's",
+   "words": [
+    {
+     "word": "I",
+     "start": 48.532,
+     "end": 48.612,
+     "probability": 0.7856
+    },
+    {
+     "word": "had",
+     "start": 48.612,
+     "end": 48.752,
+     "probability": 0.917
+    },
+    {
+     "word": "a",
+     "start": 48.752,
+     "end": 48.772,
+     "probability": 0.7407
+    },
+    {
+     "word": "reminder",
+     "start": 48.772,
+     "end": 49.152,
+     "probability": 0.9834
+    },
+    {
+     "word": "for",
+     "start": 49.152,
+     "end": 49.552,
+     "probability": 0.9448
+    },
+    {
+     "word": "23's",
+     "start": 49.552,
+     "end": 50.252,
+     "probability": 0.3019
+    }
+   ]
+  },
+  {
+   "chunk_start": 50.9,
+   "chunk_end": 54.796,
+   "text": "I'll set that for... I just messed up the mix here.",
+   "words": [
+    {
+     "word": "I'll",
+     "start": 50.9,
+     "end": 51.28,
+     "probability": 0.7236
+    },
+    {
+     "word": "set",
+     "start": 51.28,
+     "end": 51.58,
+     "probability": 0.9707
+    },
+    {
+     "word": "that",
+     "start": 51.58,
+     "end": 51.84,
+     "probability": 0.959
+    },
+    {
+     "word": "for...",
+     "start": 51.84,
+     "end": 52.48,
+     "probability": 0.4061
+    },
+    {
+     "word": "I",
+     "start": 52.48,
+     "end": 52.72,
+     "probability": 0.8472
+    },
+    {
+     "word": "just",
+     "start": 52.72,
+     "end": 52.96,
+     "probability": 0.8594
+    },
+    {
+     "word": "messed",
+     "start": 52.96,
+     "end": 53.14,
+     "probability": 0.5566
+    },
+    {
+     "word": "up",
+     "start": 53.14,
+     "end": 53.44,
+     "probability": 0.9839
+    },
+    {
+     "word": "the",
+     "start": 53.44,
+     "end": 53.62,
+     "probability": 0.9912
+    },
+    {
+     "word": "mix",
+     "start": 53.62,
+     "end": 53.84,
+     "probability": 0.4873
+    },
+    {
+     "word": "here.",
+     "start": 53.84,
+     "end": 54.08,
+     "probability": 0.4607
+    }
+   ]
+  },
+  {
+   "chunk_start": 55.124,
+   "chunk_end": 56.14,
+   "text": "Thank you.",
+   "words": [
+    {
+     "word": "Thank",
+     "start": 55.124,
+     "end": 55.524,
+     "probability": 0.1188
+    },
+    {
+     "word": "you.",
+     "start": 55.524,
+     "end": 56.104,
+     "probability": 0.9961
+    }
+   ]
+  },
+  {
+   "chunk_start": 56.852,
+   "chunk_end": 59.66,
+   "text": "Next week, October 5th, 1980.",
+   "words": [
+    {
+     "word": "Next",
+     "start": 56.852,
+     "end": 57.232,
+     "probability": 0.4604
+    },
+    {
+     "word": "week,",
+     "start": 57.232,
+     "end": 57.492,
+     "probability": 0.4436
+    },
+    {
+     "word": "October",
+     "start": 57.592,
+     "end": 58.032,
+     "probability": 0.9556
+    },
+    {
+     "word": "5th,",
+     "start": 58.032,
+     "end": 58.692,
+     "probability": 0.8162
+    },
+    {
+     "word": "1980.",
+     "start": 58.792,
+     "end": 59.012,
+     "probability": 0.5332
+    }
+   ]
+  },
+  {
+   "chunk_start": 61.14,
+   "chunk_end": 65.548,
+   "text": "I'm going to laugh at you if you keep on moving, you're going to have zombs.",
+   "words": [
+    {
+     "word": "I'm",
+     "start": 61.14,
+     "end": 61.38,
+     "probability": 0.3726
+    },
+    {
+     "word": "going",
+     "start": 61.38,
+     "end": 61.5,
+     "probability": 0.1586
+    },
+    {
+     "word": "to",
+     "start": 61.5,
+     "end": 61.5,
+     "probability": 0.9741
+    },
+    {
+     "word": "laugh",
+     "start": 61.5,
+     "end": 61.72,
+     "probability": 0.271
+    },
+    {
+     "word": "at",
+     "start": 61.72,
+     "end": 61.9,
+     "probability": 0.7622
+    },
+    {
+     "word": "you",
+     "start": 61.9,
+     "end": 62.06,
+     "probability": 0.9297
+    },
+    {
+     "word": "if",
+     "start": 62.06,
+     "end": 62.18,
+     "probability": 0.1249
+    },
+    {
+     "word": "you",
+     "start": 62.18,
+     "end": 62.36,
+     "probability": 0.9141
+    },
+    {
+     "word": "keep",
+     "start": 62.36,
+     "end": 62.64,
+     "probability": 0.4119
+    },
+    {
+     "word": "on",
+     "start": 62.64,
+     "end": 62.64,
+     "probability": 0.1898
+    },
+    {
+     "word": "moving,",
+     "start": 62.64,
+     "end": 63.32,
+     "probability": 0.3018
+    },
+    {
+     "word": "you're",
+     "start": 63.58,
+     "end": 63.8,
+     "probability": 0.2929
+    },
+    {
+     "word": "going",
+     "start": 63.8,
+     "end": 63.8,
+     "probability": 0.2067
+    },
+    {
+     "word": "to",
+     "start": 63.8,
+     "end": 63.9,
+     "probability": 0.9937
+    },
+    {
+     "word": "have",
+     "start": 63.9,
+     "end": 63.9,
+     "probability": 0.5083
+    },
+    {
+     "word": "zombs.",
+     "start": 63.9,
+     "end": 64.44,
+     "probability": 0.5023
+    }
+   ]
+  },
+  {
+   "chunk_start": 75.38,
+   "chunk_end": 77.388,
+   "text": "We can stop at Maynard Country.",
+   "words": [
+    {
+     "word": "We",
+     "start": 75.38,
+     "end": 75.48,
+     "probability": 0.1437
+    },
+    {
+     "word": "can",
+     "start": 75.48,
+     "end": 75.56,
+     "probability": 0.958
+    },
+    {
+     "word": "stop",
+     "start": 75.56,
+     "end": 75.8,
+     "probability": 0.7769
+    },
+    {
+     "word": "at",
+     "start": 75.8,
+     "end": 75.92,
+     "probability": 0.6021
+    },
+    {
+     "word": "Maynard",
+     "start": 75.92,
+     "end": 76.3,
+     "probability": 0.5448
+    },
+    {
+     "word": "Country.",
+     "start": 76.3,
+     "end": 76.56,
+     "probability": 0.2583
+    }
+   ]
+  },
+  {
+   "chunk_start": 78.868,
+   "chunk_end": 79.66,
+   "text": "Amen.",
+   "words": [
+    {
+     "word": "Amen.",
+     "start": 78.868,
+     "end": 79.248,
+     "probability": 0.8311
+    }
+   ]
+  },
+  {
+   "chunk_start": 81.972,
+   "chunk_end": 86.188,
+   "text": "It was so funny when we took a picture of the kid and he took a really ugly one.",
+   "words": [
+    {
+     "word": "It",
+     "start": 81.972,
+     "end": 82.112,
+     "probability": 0.1979
+    },
+    {
+     "word": "was",
+     "start": 82.112,
+     "end": 82.192,
+     "probability": 0.4912
+    },
+    {
+     "word": "so",
+     "start": 82.192,
+     "end": 82.272,
+     "probability": 0.4971
+    },
+    {
+     "word": "funny",
+     "start": 82.272,
+     "end": 82.532,
+     "probability": 0.9048
+    },
+    {
+     "word": "when",
+     "start": 82.532,
+     "end": 82.672,
+     "probability": 0.666
+    },
+    {
+     "word": "we",
+     "start": 82.672,
+     "end": 82.812,
+     "probability": 0.7993
+    },
+    {
+     "word": "took",
+     "start": 82.812,
+     "end": 82.912,
+     "probability": 0.6333
+    },
+    {
+     "word": "a",
+     "start": 82.912,
+     "end": 83.012,
+     "probability": 0.708
+    },
+    {
+     "word": "picture",
+     "start": 83.012,
+     "end": 83.352,
+     "probability": 0.8042
+    },
+    {
+     "word": "of",
+     "start": 83.352,
+     "end": 83.392,
+     "probability": 0.3845
+    },
+    {
+     "word": "the",
+     "start": 83.392,
+     "end": 83.652,
+     "probability": 0.6406
+    },
+    {
+     "word": "kid",
+     "start": 83.652,
+     "end": 84.032,
+     "probability": 0.4443
+    },
+    {
+     "word": "and",
+     "start": 84.032,
+     "end": 84.292,
+     "probability": 0.4131
+    },
+    {
+     "word": "he",
+     "start": 84.292,
+     "end": 84.552,
+     "probability": 0.4363
+    },
+    {
+     "word": "took",
+     "start": 84.552,
+     "end": 84.552,
+     "probability": 0.2908
+    },
+    {
+     "word": "a",
+     "start": 84.552,
+     "end": 84.552,
+     "probability": 0.4053
+    },
+    {
+     "word": "really",
+     "start": 84.552,
+     "end": 84.592,
+     "probability": 0.5483
+    },
+    {
+     "word": "ugly",
+     "start": 84.592,
+     "end": 84.792,
+     "probability": 0.4619
+    },
+    {
+     "word": "one.",
+     "start": 84.792,
+     "end": 84.972,
+     "probability": 0.4307
+    }
+   ]
+  },
+  {
+   "chunk_start": 86.196,
+   "chunk_end": 89.1,
+   "text": "Why is he acting like that?",
+   "words": [
+    {
+     "word": "Why",
+     "start": 86.196,
+     "end": 86.636,
+     "probability": 0.2708
+    },
+    {
+     "word": "is",
+     "start": 86.636,
+     "end": 86.936,
+     "probability": 0.3081
+    },
+    {
+     "word": "he",
+     "start": 86.936,
+     "end": 87.576,
+     "probability": 0.4053
+    },
+    {
+     "word": "acting",
+     "start": 87.576,
+     "end": 87.676,
+     "probability": 0.161
+    },
+    {
+     "word": "like",
+     "start": 87.676,
+     "end": 87.756,
+     "probability": 0.8071
+    },
+    {
+     "word": "that?",
+     "start": 87.756,
+     "end": 88.056,
+     "probability": 0.9277
+    }
+   ]
+  },
+  {
+   "chunk_start": 116.692,
+   "chunk_end": 117.932,
+   "text": "",
+   "words": []
+  },
+  {
+   "chunk_start": 122.068,
+   "chunk_end": 124.588,
+   "text": "There's a shot here.",
+   "words": [
+    {
+     "word": "There's",
+     "start": 122.068,
+     "end": 122.668,
+     "probability": 0.3446
+    },
+    {
+     "word": "a",
+     "start": 122.668,
+     "end": 122.848,
+     "probability": 0.7573
+    },
+    {
+     "word": "shot",
+     "start": 122.848,
+     "end": 123.408,
+     "probability": 0.7959
+    },
+    {
+     "word": "here.",
+     "start": 123.408,
+     "end": 123.608,
+     "probability": 0.731
+    }
+   ]
+  },
+  {
+   "chunk_start": 124.596,
+   "chunk_end": 127.724,
+   "text": "It looks so right, that one.",
+   "words": [
+    {
+     "word": "It",
+     "start": 124.596,
+     "end": 125.136,
+     "probability": 0.1233
+    },
+    {
+     "word": "looks",
+     "start": 125.136,
+     "end": 125.376,
+     "probability": 0.4321
+    },
+    {
+     "word": "so",
+     "start": 125.376,
+     "end": 125.436,
+     "probability": 0.241
+    },
+    {
+     "word": "right,",
+     "start": 125.436,
+     "end": 125.716,
+     "probability": 0.8296
+    },
+    {
+     "word": "that",
+     "start": 125.796,
+     "end": 125.936,
+     "probability": 0.8774
+    },
+    {
+     "word": "one.",
+     "start": 125.936,
+     "end": 126.136,
+     "probability": 0.7979
+    }
+   ]
+  }
+ ]
+}

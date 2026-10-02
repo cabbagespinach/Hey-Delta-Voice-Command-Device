@@ -1,0 +1,223 @@
+=== waiting for steps 1-4 (tmux schemab) 10-01 22:56:53
+=== (restarted: fixed tmux name match) 10-01 23:24:39
+=== waiting for steps 1-4 (tmux schemab) 10-01 23:24:39
+=== steps 1-4 OK; smoke test 10-01 23:24:39
+usage: train_commands.py [-h] [--config CONFIG] [--tau TAU]
+                         [--arch {bcresnet,dscnn}] [--epochs EPOCHS]
+                         [--epoch-draws EPOCH_DRAWS]
+                         [--exclude-groups [EXCLUDE_GROUPS ...]]
+                         [--no-augment] --out OUT
+train_commands.py: error: unrecognized arguments: v2/data/deliverables/command_classifier/smoke_schema_b/run_bcresnet
+SMOKE FAIL train bcresnet
+=== smoke test FAILED: not training 10-01 23:24:49
+=== (restarted: quoted paths in smoke test) 10-01 23:25:08
+=== waiting for steps 1-4 (tmux schemab) 10-01 23:25:08
+=== steps 1-4 OK; smoke test 10-01 23:25:08
+190414 train clips (512 draws/epoch), 9894 validation clips, 191,672 parameters
+ep  0 loss 3.449 | owner 0.048 web 0.000 synth 0.048 unk-false 1.000 | score 0.025 * (0.56 min)
+best selection score 0.025 -> /mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/deliverables/command_classifier/smoke_schema_b/run_bcresnet/best.pt
+190414 train clips (512 draws/epoch), 9894 validation clips, 194,888 parameters
+ep  0 loss 3.432 | owner 0.048 web 0.091 synth 0.048 unk-false 1.000 | score 0.044 * (0.4 min)
+best selection score 0.044 -> /mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/deliverables/command_classifier/smoke_schema_b/run_dscnn/best.pt
+run_bcresnet: cutoffs {'cautious': 0.035, 'balanced': 0.035}
+run_dscnn: cutoffs {'cautious': 0.035, 'balanced': 0.035}
+# Command classifier: test results
+
+Cutoffs chosen on validation; test clips were never used for any choice. Command rates are macro averages over classes: **correct**, **wrong command** (the harmful error), **rejected** (answered 'unknown' = asks again).
+
+## run_bcresnet (191,672 parameters, best epoch 0)
+
+Cutoffs: cautious 0.035, balanced 0.035
+
+| rule | who | clips | correct | wrong command | rejected |
+|---|---|---|---|---|---|
+| argmax | owner | 59 | 4.8% | 95.2% | 0.0% |
+| argmax | speaker2 | 48 | 4.8% | 95.2% | 0.0% |
+| argmax | web | 1339 | 0.0% | 100.0% | 0.0% |
+| argmax | synthetic | 834 | 4.8% | 95.2% | 0.0% |
+| argmax | classmates | 1793 | 3.2% | 96.8% | 0.0% |
+| cautious | owner | 59 | 0.0% | 0.0% | 100.0% |
+| cautious | speaker2 | 48 | 0.0% | 0.0% | 100.0% |
+| cautious | web | 1339 | 0.0% | 0.0% | 100.0% |
+| cautious | synthetic | 834 | 0.0% | 0.0% | 100.0% |
+| cautious | classmates | 1793 | 0.0% | 0.0% | 100.0% |
+| balanced | owner | 59 | 0.0% | 0.0% | 100.0% |
+| balanced | speaker2 | 48 | 0.0% | 0.0% | 100.0% |
+| balanced | web | 1339 | 0.0% | 0.0% | 100.0% |
+| balanced | synthetic | 834 | 0.0% | 0.0% | 100.0% |
+| balanced | classmates | 1793 | 0.0% | 0.0% | 100.0% |
+
+Unknown clips that trigger a command (test):
+
+| rule | classmates | fragments | gsc | owner | reuse_fleurs | reuse_mswc | reuse_musan | reuse_owner | synthetic | web | mean |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| argmax | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% |
+| cautious | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% |
+| balanced | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% |
+
+## run_dscnn (194,888 parameters, best epoch 0)
+
+Cutoffs: cautious 0.035, balanced 0.035
+
+| rule | who | clips | correct | wrong command | rejected |
+|---|---|---|---|---|---|
+| argmax | owner | 59 | 4.8% | 95.2% | 0.0% |
+| argmax | speaker2 | 48 | 4.8% | 95.2% | 0.0% |
+| argmax | web | 1339 | 7.7% | 92.3% | 0.0% |
+| argmax | synthetic | 834 | 4.8% | 95.2% | 0.0% |
+| argmax | classmates | 1793 | 3.2% | 96.8% | 0.0% |
+| cautious | owner | 59 | 0.0% | 0.0% | 100.0% |
+| cautious | speaker2 | 48 | 0.0% | 0.0% | 100.0% |
+| cautious | web | 1339 | 0.0% | 0.0% | 100.0% |
+| cautious | synthetic | 834 | 0.0% | 0.0% | 100.0% |
+| cautious | classmates | 1793 | 0.0% | 0.0% | 100.0% |
+| balanced | owner | 59 | 0.0% | 0.0% | 100.0% |
+| balanced | speaker2 | 48 | 0.0% | 0.0% | 100.0% |
+| balanced | web | 1339 | 0.0% | 0.0% | 100.0% |
+| balanced | synthetic | 834 | 0.0% | 0.0% | 100.0% |
+| balanced | classmates | 1793 | 0.0% | 0.0% | 100.0% |
+
+Unknown clips that trigger a command (test):
+
+| rule | classmates | fragments | gsc | owner | reuse_fleurs | reuse_mswc | reuse_musan | reuse_owner | synthetic | web | mean |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| argmax | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% |
+| cautious | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% |
+| balanced | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% |
+
+# Test results on unseen speakers
+
+Only test clips whose speaker never appears in the training split. Command rates are macro averages over classes; `unknown_false_action` = share of unknown clips that trigger a command.
+
+| model        | rule     | dataset                    |   unseen_speakers |   command_clips |   command_classes |   correct |   wrong_command |   unknown_clips |   unknown_false_action |
+|:-------------|:---------|:---------------------------|------------------:|----------------:|------------------:|----------:|----------------:|----------------:|-----------------------:|
+| run_bcresnet | argmax   | classmate_optionb          |                10 |            1789 |                31 |    0.0323 |          0.9677 |               0 |                    nan |
+| run_bcresnet | argmax   | classmate_vcm_real         |                 1 |               4 |                 2 |    0.5    |          0.5    |              15 |                      1 |
+| run_bcresnet | argmax   | fragments_owner_recordings |                77 |               1 |                 1 |    0      |          1      |              76 |                      1 |
+| run_bcresnet | argmax   | fragments_synthetic_clone  |                35 |               2 |                 1 |    0      |          1      |              33 |                      1 |
+| run_bcresnet | argmax   | fragments_synthetic_ph     |                85 |               3 |                 1 |    0      |          1      |              82 |                      1 |
+| run_bcresnet | argmax   | fragments_synthetic_piper  |                 7 |               2 |                 1 |    0      |          1      |               5 |                      1 |
+| run_bcresnet | argmax   | fragments_web_slurp        |                63 |               0 |                 0 |  nan      |        nan      |              63 |                      1 |
+| run_bcresnet | argmax   | fragments_web_tas          |                 7 |               0 |                 0 |  nan      |        nan      |               7 |                      1 |
+| run_bcresnet | argmax   | owner_recordings           |                 1 |              48 |                21 |    0.0476 |          0.9524 |              31 |                      1 |
+| run_bcresnet | argmax   | reuse_fleurs               |                54 |               0 |                 0 |  nan      |        nan      |              54 |                      1 |
+| run_bcresnet | argmax   | reuse_mswc                 |                48 |               0 |                 0 |  nan      |        nan      |              48 |                      1 |
+| run_bcresnet | argmax   | reuse_musan                |               174 |               0 |                 0 |  nan      |        nan      |             194 |                      1 |
+| run_bcresnet | argmax   | synthetic_clone            |                18 |             397 |                21 |    0.0476 |          0.9524 |             203 |                      1 |
+| run_bcresnet | argmax   | synthetic_ph               |                 6 |             137 |                21 |    0.0476 |          0.9524 |              67 |                      1 |
+| run_bcresnet | argmax   | synthetic_piper            |                14 |             292 |                21 |    0.0476 |          0.9524 |             157 |                      1 |
+| run_bcresnet | argmax   | web_fsc                    |                10 |             627 |                 7 |    0      |          1      |             182 |                      1 |
+| run_bcresnet | argmax   | web_gsc                    |               237 |             411 |                 1 |    0      |          1      |            2000 |                      1 |
+| run_bcresnet | argmax   | web_multisensor            |                 2 |             120 |                 1 |    0      |          1      |               0 |                    nan |
+| run_bcresnet | argmax   | web_slurp                  |               409 |             180 |                 7 |    0      |          1      |             293 |                      1 |
+| run_bcresnet | argmax   | web_tas                    |                10 |               1 |                 1 |    0      |          1      |             166 |                      1 |
+| run_bcresnet | cautious | classmate_optionb          |                10 |            1789 |                31 |    0      |          0      |               0 |                    nan |
+| run_bcresnet | cautious | classmate_vcm_real         |                 1 |               4 |                 2 |    0      |          0      |              15 |                      0 |
+| run_bcresnet | cautious | fragments_owner_recordings |                77 |               1 |                 1 |    0      |          0      |              76 |                      0 |
+| run_bcresnet | cautious | fragments_synthetic_clone  |                35 |               2 |                 1 |    0      |          0      |              33 |                      0 |
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+SMOKE FAIL unseen
+=== smoke test FAILED: not training 10-01 23:27:21
+=== (restarted: smoke test no longer pipes to head) 10-01 23:27:48
+=== waiting for steps 1-4 (tmux schemab) 10-01 23:27:48
+=== steps 1-4 OK; smoke test 10-01 23:27:48
+190414 train clips (512 draws/epoch), 9894 validation clips, 191,672 parameters
+ep  0 loss 3.449 | owner 0.048 web 0.000 synth 0.048 unk-false 1.000 | score 0.025 * (1.03 min)
+best selection score 0.025 -> /mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/deliverables/command_classifier/smoke_schema_b/run_bcresnet/best.pt
+190414 train clips (512 draws/epoch), 9894 validation clips, 194,888 parameters
+ep  0 loss 3.432 | owner 0.048 web 0.091 synth 0.048 unk-false 1.000 | score 0.044 * (0.41 min)
+best selection score 0.044 -> /mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/deliverables/command_classifier/smoke_schema_b/run_dscnn/best.pt
+run_bcresnet: cutoffs {'cautious': 0.035, 'balanced': 0.035}
+run_dscnn: cutoffs {'cautious': 0.035, 'balanced': 0.035}
+# Command classifier: test results
+
+Cutoffs chosen on validation; test clips were never used for any choice. Command rates are macro averages over classes: **correct**, **wrong command** (the harmful error), **rejected** (answered 'unknown' = asks again).
+
+## run_bcresnet (191,672 parameters, best epoch 0)
+
+Cutoffs: cautious 0.035, balanced 0.035
+
+| rule | who | clips | correct | wrong command | rejected |
+|---|---|---|---|---|---|
+| argmax | owner | 59 | 4.8% | 95.2% | 0.0% |
+| argmax | speaker2 | 48 | 4.8% | 95.2% | 0.0% |
+| argmax | web | 1339 | 0.0% | 100.0% | 0.0% |
+| argmax | synthetic | 834 | 4.8% | 95.2% | 0.0% |
+| argmax | classmates | 1793 | 3.2% | 96.8% | 0.0% |
+| cautious | owner | 59 | 0.0% | 0.0% | 100.0% |
+| cautious | speaker2 | 48 | 0.0% | 0.0% | 100.0% |
+| cautious | web | 1339 | 0.0% | 0.0% | 100.0% |
+| cautious | synthetic | 834 | 0.0% | 0.0% | 100.0% |
+| cautious | classmates | 1793 | 0.0% | 0.0% | 100.0% |
+| balanced | owner | 59 | 0.0% | 0.0% | 100.0% |
+| balanced | speaker2 | 48 | 0.0% | 0.0% | 100.0% |
+| balanced | web | 1339 | 0.0% | 0.0% | 100.0% |
+| balanced | synthetic | 834 | 0.0% | 0.0% | 100.0% |
+| balanced | classmates | 1793 | 0.0% | 0.0% | 100.0% |
+
+Unknown clips that trigger a command (test):
+
+| rule | classmates | fragments | gsc | owner | reuse_fleurs | reuse_mswc | reuse_musan | reuse_owner | synthetic | web | mean |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| argmax | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% |
+| cautious | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% |
+| balanced | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% |
+
+## run_dscnn (194,888 parameters, best epoch 0)
+
+Cutoffs: cautious 0.035, balanced 0.035
+
+| rule | who | clips | correct | wrong command | rejected |
+|---|---|---|---|---|---|
+| argmax | owner | 59 | 4.8% | 95.2% | 0.0% |
+| argmax | speaker2 | 48 | 4.8% | 95.2% | 0.0% |
+| argmax | web | 1339 | 7.7% | 92.3% | 0.0% |
+| argmax | synthetic | 834 | 4.8% | 95.2% | 0.0% |
+| argmax | classmates | 1793 | 3.2% | 96.8% | 0.0% |
+| cautious | owner | 59 | 0.0% | 0.0% | 100.0% |
+| cautious | speaker2 | 48 | 0.0% | 0.0% | 100.0% |
+| cautious | web | 1339 | 0.0% | 0.0% | 100.0% |
+| cautious | synthetic | 834 | 0.0% | 0.0% | 100.0% |
+| cautious | classmates | 1793 | 0.0% | 0.0% | 100.0% |
+| balanced | owner | 59 | 0.0% | 0.0% | 100.0% |
+| balanced | speaker2 | 48 | 0.0% | 0.0% | 100.0% |
+| balanced | web | 1339 | 0.0% | 0.0% | 100.0% |
+| balanced | synthetic | 834 | 0.0% | 0.0% | 100.0% |
+| balanced | classmates | 1793 | 0.0% | 0.0% | 100.0% |
+
+Unknown clips that trigger a command (test):
+
+| rule | classmates | fragments | gsc | owner | reuse_fleurs | reuse_mswc | reuse_musan | reuse_owner | synthetic | web | mean |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| argmax | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% |
+| cautious | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% |
+| balanced | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% |
+
+  torch.onnx.export(full, torch.zeros(1, N), str(onnx_path), input_names=["audio"], output_names=["probs"],
+{
+ "run": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/deliverables/command_classifier/smoke_schema_b/run_dscnn",
+ "best_epoch": 0,
+ "tau": 6.0,
+ "classes": 32,
+ "opset": 17,
+ "input": "audio float32 [B, 80000] @16 kHz",
+ "output": "probs float32 [B, 32]",
+ "check_clips": 100,
+ "cutoffs": {
+  "cautious": 0.035,
+  "balanced": 0.035
+ },
+ "frontend_max_abs_diff_normalised_units": 0.0017142295837402344,
+ "prob_max_abs_diff_onnx_vs_torch": 7.450580596923828e-09,
+ "decisions_changed_argmax": 0,
+ "accuracy_argmax_onnx": 0.04,
+ "decisions_changed_cautious": 0,
+ "accuracy_cautious_onnx": 0.45,
+ "decisions_changed_balanced": 0,
+ "accuracy_balanced_onnx": 0.45,
+ "file_bytes": 1873318
+}
+SMOKE OK
+=== smoke OK; full run (steps 5-9), log reproduce_schema_b.log 10-01 23:31:24
+=== chain finished: === ALL DONE 10-02 01:54:15 10-02 01:54:15

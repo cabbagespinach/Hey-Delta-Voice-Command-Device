@@ -1,0 +1,99 @@
+=== STEP 1/2 convert 18:13:56
+58 source clips x 4 target voices (fleursfil01_f, fleursfil00_m, fleursfil02_f, fleursfil03_m)
+Traceback (most recent call last):
+AttributeError: 'Pandas' object has no attribute 'label'
+EXIT=1
+=== STEP 1/2 convert 18:15:23
+58 source clips x 4 target voices (fleursfil01_f, fleursfil00_m, fleursfil02_f, fleursfil03_m)
+  fleursfil01_f done
+  fleursfil00_m done
+  fleursfil02_f done
+  fleursfil03_m done
+wrote 232 clips -> /mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/commands_vc
+=== STEP 2/2 whisper check 18:18:29
+kept 121 of 232 (52%)
+target_voice
+fleursfil00_m    0.52
+fleursfil01_f    0.40
+fleursfil02_f    0.62
+fleursfil03_m    0.55
+label
+dim_lights_20         0.00
+pause                 0.00
+stop                  0.00
+skip                  0.00
+set_alarm_9pm         0.12
+text_jane             0.12
+dim_lights_80         0.25
+play_music            0.38
+volume_down           0.38
+remind_study          0.38
+set_alarm_7am         0.38
+volume_up             0.38
+lights_on             0.50
+next                  0.50
+set_temperature_26    0.50
+call_jane             0.50
+set_timer_10          0.50
+louder                0.62
+dim_lights_50         0.62
+remind_trash          0.75
+lights_off            0.75
+weather               0.75
+set_temperature_22    0.88
+set_alarm_6am         0.88
+list_reminders        1.00
+set_timer_5           1.00
+set_temperature_18    1.00
+set_timer_1           1.00
+time                  1.00
+=== ALL DONE 18:20:32
+EXIT=0
+=== STEP 1/2 convert 18:25:50
+281 source clips x 10 target voices (fleursfil01_f, fleursfil00_m, fleursfil02_f, fleursfil03_m, fleursfil04_f, fleursfil06_m, fleursfil05_f, fleursfil08_m, fleursfil07_f, fleursfil09_m)
+  fleursfil01_f done
+  fleursfil00_m done
+  fleursfil02_f done
+  fleursfil03_m done
+  fleursfil04_f done
+  fleursfil06_m done
+  fleursfil05_f done
+  fleursfil08_m done
+  fleursfil07_f done
+  fleursfil09_m done
+wrote 2810 clips -> /mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/commands_vc
+=== STEP 2/2 whisper check 18:58:03
+kept 1583 of 2810 (56%)
+target_voice
+fleursfil00_m    0.59
+fleursfil01_f    0.44
+fleursfil02_f    0.59
+fleursfil03_m    0.56
+fleursfil04_f    0.57
+fleursfil05_f    0.55
+fleursfil06_m    0.59
+fleursfil07_f    0.57
+fleursfil08_m    0.58
+fleursfil09_m    0.60
+label
+set_alarm_7am         0.35
+dim_lights_20         0.43
+set_temperature_26    0.45
+set_alarm_9pm         0.48
+dim_lights_80         0.50
+set_alarm_6am         0.52
+set_temperature_18    0.53
+set_temperature_22    0.56
+lights_on             0.57
+lights_off            0.57
+remind_trash          0.57
+time                  0.58
+list_reminders        0.60
+dim_lights_50         0.60
+remind_study          0.62
+set_timer_10          0.65
+set_timer_1           0.66
+set_timer_5           0.69
+weather               0.75
+=== ALL DONE 19:22:27
+EXIT=0

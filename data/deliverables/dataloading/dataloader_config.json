@@ -1,0 +1,59 @@
+{
+  "_description": "Dataset/DataLoader configuration. Keys starting with '_' are documentation. Loaded by wakeword_data.load_config(); build_dataloaders() accepts overrides for batch_size / num_workers / seed.",
+  "seed": 20260928,
+
+  "loader": {
+    "batch_size": 64,
+    "num_workers": 4,
+    "pin_memory": false,
+    "persistent_workers": true,
+    "prefetch_factor": 2,
+    "drop_last_train": true,
+    "file_cache_per_worker": 256
+  },
+
+  "inputs": {
+    "windows_csv": "../segmentation_windowing/outputs/windows.csv",
+    "recording_inventory": "../segmentation_windowing/outputs/recording_inventory.csv",
+    "normalized_manifest": "../dataset_split/normalized_manifest.csv",
+    "split_assignments": "../dataset_split/split_assignments.csv",
+    "split_extension": "../segmentation_windowing/outputs/split_extension.csv",
+    "preprocessing_config": "../preprocessing/preprocessing_config.json",
+    "normalization_stats": "../preprocessing/normalization_stats.json",
+    "augmentation_config": "../deployment_driven_augmentation_strategy/augmentation_config.json",
+    "real_noise_bank": "../deployment_driven_augmentation_strategy/real_noise_bank.csv"
+  },
+
+  "augmentation": {
+    "enabled_for_train": true,
+    "rir_bank": "data/rir/rir_bank.csv",
+    "_rir_bank": "Curated RIR manifest (columns: id, filepath, rt60_s), relative to the project root; null disables rir_reverberation. Since 2026-09-29: 132 real impulse responses from the MIT IR Survey (CC-BY 4.0) with RT60 in the configured 0.15-0.6 s, built by deployment_driven_augmentation_strategy/build_rir_bank.py."
+  },
+
+  "sampling": {
+    "strategy": "bucket_quota",
+    "_strategy": "Each training epoch draws epoch_size examples. Every bucket (a set of window_types) receives a fixed share of the draws, so the abundant easy negatives cannot crowd out positives and hard negatives. Within a bucket, a window's weight is proportional to 1 / (windows from its source_group) ^ source_group_exponent, so one long recording cannot dominate its bucket. Draws are with replacement; each draw gets its own augmentation seed (seed, epoch, draw position).",
+    "epoch_size": "train_size",
+    "replacement": true,
+    "source_group_exponent": 0.5,
+    "_source_group_exponent": "0 = every window equally likely; 1 = every source group equally likely. 0.5 is a compromise: long sessions still contribute more, but only as the square root of their window count.",
+    "buckets": {
+      "positive_real":       {"role": "positive",      "share": 0.125, "window_types": ["positive_wakeword"], "sources": ["real"]},
+      "positive_synthetic":  {"role": "positive",      "share": 0.125, "window_types": ["positive_wakeword"], "sources": ["synthetic"]},
+      "confusable":          {"role": "hard_negative", "share": 0.13,  "window_types": ["negative_confusable"], "sources": ["real", "synthetic"]},
+      "partial_wakeword":    {"role": "hard_negative", "share": 0.13,  "window_types": ["negative_partial_wakeword"], "sources": ["real", "synthetic"]},
+      "external_confusable": {"role": "hard_negative", "share": 0.08,  "window_types": ["negative_confusable", "negative_partial_wakeword"], "sources": ["external"]},
+      "general_speech":      {"role": "easy_negative", "share": 0.12,  "window_types": ["negative_general_speech"]},
+      "media":               {"role": "easy_negative", "share": 0.05,  "window_types": ["negative_media"]},
+      "silence_noise":       {"role": "easy_negative", "share": 0.04,  "window_types": ["negative_silence_noise"]},
+      "device_background":   {"role": "easy_negative", "share": 0.20,  "window_types": ["negative_real_background", "negative_non_speech_from_positive_recording"]}
+    },
+    "_sources": "A bucket may restrict itself to 'real' (our manual recordings), 'synthetic' (generated) or 'external' (public-corpus human audio, source ext_*) sources; default all three. Every (window_type, source) pair in train must belong to exactly one bucket.",
+    "_shares": "Natural train mix: 4.5% positive, 25.7% hard negative, 69.8% easy negative. Target: 25% positive, 34% hard negative (confusables and partial wakewords), 41% easy negative. v3 (2026-09-28): the source-confound diagnostic (evaluation/diagnostics) showed the recording condition predicting the label, because positives were ~64% real audio and negatives ~5%. Positives are now split evenly between real and synthetic sources (synthetic positives were under-drawn by source-group weighting), and real device background rises from 8% to 14%, the only real negative recorded on the device. Real audio remains more common among positives than negatives until more RPI negatives are recorded. 2026-09-28: Manual-BG-RPI14..19 (real conversation, singing, near-miss \"Hey ...\" phrases, room sound) raised train real-background windows 278 -> 1,257, so device_background rises 14% -> 20% (general speech 15% -> 12%, media 8% -> 5%). 2026-09-29: public-corpus negatives added (MSWC near-miss words, FLEURS, MUSAN). ~7,300 one-word MSWC clips would otherwise fill the confusable and partial buckets and crowd out the phrase-level \"Hey X\" confusables, so they get their own bucket, taken from confusable and partial_wakeword. The same day the real \"Hey Snips\" phrases (Sonos, 2,000 clips) joined it, and it was renamed external_confusable (8%). Final shares: confusable 20% -> 13%, partial_wakeword 14% -> 13%, external_confusable 8%; the hard-negative total stays 34%."
+  },
+
+  "evaluation": {
+    "splits": ["validation", "test"],
+    "_splits": "Sequential, unsampled, unaugmented: the natural distribution, so metrics are not distorted by training quotas. streaming_eval_holdout can also be loaded (build_dataloaders(splits=[...])), never augmented."
+  }
+}

@@ -1,0 +1,295 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0031.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:27:37+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.9053663611412048,
+ "chunks": [
+  {
+   "chunk_start": 1.524,
+   "chunk_end": 9.612,
+   "text": "The store closes earlier on weekends. There are several places we will discuss.",
+   "words": [
+    {
+     "word": "The",
+     "start": 1.524,
+     "end": 1.844,
+     "probability": 0.7471
+    },
+    {
+     "word": "store",
+     "start": 1.844,
+     "end": 2.064,
+     "probability": 0.9756
+    },
+    {
+     "word": "closes",
+     "start": 2.064,
+     "end": 2.424,
+     "probability": 0.9844
+    },
+    {
+     "word": "earlier",
+     "start": 2.424,
+     "end": 2.824,
+     "probability": 0.8208
+    },
+    {
+     "word": "on",
+     "start": 2.824,
+     "end": 3.184,
+     "probability": 0.9702
+    },
+    {
+     "word": "weekends.",
+     "start": 3.184,
+     "end": 3.284,
+     "probability": 0.9868
+    },
+    {
+     "word": "There",
+     "start": 4.424,
+     "end": 4.504,
+     "probability": 0.8843
+    },
+    {
+     "word": "are",
+     "start": 4.504,
+     "end": 4.764,
+     "probability": 0.9888
+    },
+    {
+     "word": "several",
+     "start": 4.764,
+     "end": 5.024,
+     "probability": 0.9312
+    },
+    {
+     "word": "places",
+     "start": 5.024,
+     "end": 5.324,
+     "probability": 0.3704
+    },
+    {
+     "word": "we",
+     "start": 5.324,
+     "end": 5.664,
+     "probability": 0.5654
+    },
+    {
+     "word": "will",
+     "start": 5.664,
+     "end": 5.804,
+     "probability": 0.2158
+    },
+    {
+     "word": "discuss.",
+     "start": 5.804,
+     "end": 6.264,
+     "probability": 0.5332
+    }
+   ]
+  },
+  {
+   "chunk_start": 11.54,
+   "chunk_end": 15.948,
+   "text": "We should probably check the schedule first. I forgot where I put the keys this morning.",
+   "words": [
+    {
+     "word": "We",
+     "start": 11.54,
+     "end": 11.88,
+     "probability": 0.6719
+    },
+    {
+     "word": "should",
+     "start": 11.88,
+     "end": 12.0,
+     "probability": 0.998
+    },
+    {
+     "word": "probably",
+     "start": 12.0,
+     "end": 12.3,
+     "probability": 0.9873
+    },
+    {
+     "word": "check",
+     "start": 12.3,
+     "end": 12.7,
+     "probability": 0.998
+    },
+    {
+     "word": "the",
+     "start": 12.7,
+     "end": 12.88,
+     "probability": 0.9946
+    },
+    {
+     "word": "schedule",
+     "start": 12.88,
+     "end": 13.18,
+     "probability": 0.9971
+    },
+    {
+     "word": "first.",
+     "start": 13.18,
+     "end": 13.52,
+     "probability": 0.9946
+    },
+    {
+     "word": "I",
+     "start": 13.64,
+     "end": 13.72,
+     "probability": 0.9639
+    },
+    {
+     "word": "forgot",
+     "start": 13.72,
+     "end": 13.98,
+     "probability": 0.9897
+    },
+    {
+     "word": "where",
+     "start": 13.98,
+     "end": 14.24,
+     "probability": 0.9961
+    },
+    {
+     "word": "I",
+     "start": 14.24,
+     "end": 14.34,
+     "probability": 0.9653
+    },
+    {
+     "word": "put",
+     "start": 14.34,
+     "end": 14.5,
+     "probability": 0.9956
+    },
+    {
+     "word": "the",
+     "start": 14.5,
+     "end": 14.64,
+     "probability": 0.9937
+    },
+    {
+     "word": "keys",
+     "start": 14.64,
+     "end": 14.82,
+     "probability": 0.9941
+    },
+    {
+     "word": "this",
+     "start": 14.82,
+     "end": 15.06,
+     "probability": 0.9956
+    },
+    {
+     "word": "morning.",
+     "start": 15.06,
+     "end": 15.4,
+     "probability": 0.9985
+    }
+   ]
+  },
+  {
+   "chunk_start": 17.14,
+   "chunk_end": 19.884,
+   "text": "The meeting starts in about 10 minutes.",
+   "words": [
+    {
+     "word": "The",
+     "start": 17.14,
+     "end": 17.48,
+     "probability": 0.8613
+    },
+    {
+     "word": "meeting",
+     "start": 17.48,
+     "end": 17.72,
+     "probability": 0.9922
+    },
+    {
+     "word": "starts",
+     "start": 17.72,
+     "end": 18.06,
+     "probability": 0.9971
+    },
+    {
+     "word": "in",
+     "start": 18.06,
+     "end": 18.42,
+     "probability": 0.9922
+    },
+    {
+     "word": "about",
+     "start": 18.42,
+     "end": 18.62,
+     "probability": 0.9941
+    },
+    {
+     "word": "10",
+     "start": 18.62,
+     "end": 18.92,
+     "probability": 0.7637
+    },
+    {
+     "word": "minutes.",
+     "start": 18.92,
+     "end": 19.2,
+     "probability": 0.9819
+    }
+   ]
+  },
+  {
+   "chunk_start": 24.34,
+   "chunk_end": 28.812,
+   "text": "Let us compare the two options carefully.",
+   "words": [
+    {
+     "word": "Let",
+     "start": 24.34,
+     "end": 24.7,
+     "probability": 0.7563
+    },
+    {
+     "word": "us",
+     "start": 24.7,
+     "end": 24.86,
+     "probability": 0.9717
+    },
+    {
+     "word": "compare",
+     "start": 24.86,
+     "end": 25.2,
+     "probability": 0.9941
+    },
+    {
+     "word": "the",
+     "start": 25.2,
+     "end": 25.42,
+     "probability": 0.9932
+    },
+    {
+     "word": "two",
+     "start": 25.42,
+     "end": 25.64,
+     "probability": 0.9395
+    },
+    {
+     "word": "options",
+     "start": 25.64,
+     "end": 26.14,
+     "probability": 0.9941
+    },
+    {
+     "word": "carefully.",
+     "start": 26.14,
+     "end": 26.56,
+     "probability": 0.9834
+    }
+   ]
+  }
+ ]
+}

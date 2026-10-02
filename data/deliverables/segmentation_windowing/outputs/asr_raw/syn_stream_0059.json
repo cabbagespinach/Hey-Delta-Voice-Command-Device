@@ -1,0 +1,331 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0059.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:28:22+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.891770601272583,
+ "chunks": [
+  {
+   "chunk_start": 3.636,
+   "chunk_end": 6.176,
+   "text": "The children are playing outside in the garden.",
+   "words": [
+    {
+     "word": "The",
+     "start": 3.636,
+     "end": 3.956,
+     "probability": 0.9272
+    },
+    {
+     "word": "children",
+     "start": 3.956,
+     "end": 4.216,
+     "probability": 0.9897
+    },
+    {
+     "word": "are",
+     "start": 4.216,
+     "end": 4.436,
+     "probability": 0.999
+    },
+    {
+     "word": "playing",
+     "start": 4.436,
+     "end": 4.656,
+     "probability": 0.9995
+    },
+    {
+     "word": "outside",
+     "start": 4.656,
+     "end": 5.076,
+     "probability": 0.9995
+    },
+    {
+     "word": "in",
+     "start": 5.076,
+     "end": 5.336,
+     "probability": 0.9956
+    },
+    {
+     "word": "the",
+     "start": 5.336,
+     "end": 5.416,
+     "probability": 0.999
+    },
+    {
+     "word": "garden.",
+     "start": 5.416,
+     "end": 5.716,
+     "probability": 0.9985
+    }
+   ]
+  },
+  {
+   "chunk_start": 6.176,
+   "chunk_end": 10.38,
+   "text": "That sounds like a new sound idea to me.",
+   "words": [
+    {
+     "word": "That",
+     "start": 6.176,
+     "end": 7.356,
+     "probability": 0.5757
+    },
+    {
+     "word": "sounds",
+     "start": 7.356,
+     "end": 7.796,
+     "probability": 0.9751
+    },
+    {
+     "word": "like",
+     "start": 7.796,
+     "end": 8.096,
+     "probability": 0.9937
+    },
+    {
+     "word": "a",
+     "start": 8.096,
+     "end": 8.156,
+     "probability": 0.7305
+    },
+    {
+     "word": "new",
+     "start": 8.156,
+     "end": 8.516,
+     "probability": 0.0861
+    },
+    {
+     "word": "sound",
+     "start": 8.516,
+     "end": 8.816,
+     "probability": 0.7451
+    },
+    {
+     "word": "idea",
+     "start": 8.816,
+     "end": 9.176,
+     "probability": 0.345
+    },
+    {
+     "word": "to",
+     "start": 9.176,
+     "end": 9.556,
+     "probability": 0.9888
+    },
+    {
+     "word": "me.",
+     "start": 9.556,
+     "end": 9.636,
+     "probability": 0.9995
+    }
+   ]
+  },
+  {
+   "chunk_start": 10.804,
+   "chunk_end": 22.86,
+   "text": "Hey Delta, the meeting starts in about 10 minutes. The weather is changing again this afternoon. Please check with us to phrase the documents tomorrow.",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 10.804,
+     "end": 11.104,
+     "probability": 0.5498
+    },
+    {
+     "word": "Delta,",
+     "start": 11.104,
+     "end": 11.504,
+     "probability": 0.8276
+    },
+    {
+     "word": "the",
+     "start": 11.784,
+     "end": 12.584,
+     "probability": 0.5732
+    },
+    {
+     "word": "meeting",
+     "start": 12.584,
+     "end": 14.564,
+     "probability": 0.9766
+    },
+    {
+     "word": "starts",
+     "start": 14.564,
+     "end": 14.904,
+     "probability": 0.9893
+    },
+    {
+     "word": "in",
+     "start": 14.904,
+     "end": 15.164,
+     "probability": 0.9937
+    },
+    {
+     "word": "about",
+     "start": 15.164,
+     "end": 15.364,
+     "probability": 0.9883
+    },
+    {
+     "word": "10",
+     "start": 15.364,
+     "end": 15.604,
+     "probability": 0.7705
+    },
+    {
+     "word": "minutes.",
+     "start": 15.604,
+     "end": 15.904,
+     "probability": 0.9658
+    },
+    {
+     "word": "The",
+     "start": 16.184,
+     "end": 16.604,
+     "probability": 0.937
+    },
+    {
+     "word": "weather",
+     "start": 16.604,
+     "end": 16.964,
+     "probability": 0.9976
+    },
+    {
+     "word": "is",
+     "start": 16.964,
+     "end": 17.144,
+     "probability": 0.9971
+    },
+    {
+     "word": "changing",
+     "start": 17.144,
+     "end": 17.544,
+     "probability": 0.9985
+    },
+    {
+     "word": "again",
+     "start": 17.544,
+     "end": 18.024,
+     "probability": 0.9961
+    },
+    {
+     "word": "this",
+     "start": 18.024,
+     "end": 18.264,
+     "probability": 0.9966
+    },
+    {
+     "word": "afternoon.",
+     "start": 18.264,
+     "end": 18.784,
+     "probability": 0.9985
+    },
+    {
+     "word": "Please",
+     "start": 18.984,
+     "end": 19.164,
+     "probability": 0.2747
+    },
+    {
+     "word": "check",
+     "start": 19.164,
+     "end": 19.884,
+     "probability": 0.7754
+    },
+    {
+     "word": "with",
+     "start": 19.884,
+     "end": 20.144,
+     "probability": 0.6582
+    },
+    {
+     "word": "us",
+     "start": 20.144,
+     "end": 20.304,
+     "probability": 0.4868
+    },
+    {
+     "word": "to",
+     "start": 20.304,
+     "end": 20.464,
+     "probability": 0.5732
+    },
+    {
+     "word": "phrase",
+     "start": 20.464,
+     "end": 20.784,
+     "probability": 0.3364
+    },
+    {
+     "word": "the",
+     "start": 20.784,
+     "end": 21.024,
+     "probability": 0.9956
+    },
+    {
+     "word": "documents",
+     "start": 21.024,
+     "end": 21.504,
+     "probability": 0.9937
+    },
+    {
+     "word": "tomorrow.",
+     "start": 21.504,
+     "end": 22.004,
+     "probability": 0.9941
+    }
+   ]
+  },
+  {
+   "chunk_start": 23.668,
+   "chunk_end": 26.38,
+   "text": "Please remember to bring the documents tomorrow.",
+   "words": [
+    {
+     "word": "Please",
+     "start": 23.668,
+     "end": 24.048,
+     "probability": 0.9453
+    },
+    {
+     "word": "remember",
+     "start": 24.048,
+     "end": 24.328,
+     "probability": 0.9863
+    },
+    {
+     "word": "to",
+     "start": 24.328,
+     "end": 24.608,
+     "probability": 0.999
+    },
+    {
+     "word": "bring",
+     "start": 24.608,
+     "end": 24.768,
+     "probability": 0.9966
+    },
+    {
+     "word": "the",
+     "start": 24.768,
+     "end": 24.928,
+     "probability": 0.9976
+    },
+    {
+     "word": "documents",
+     "start": 24.928,
+     "end": 25.288,
+     "probability": 0.9951
+    },
+    {
+     "word": "tomorrow.",
+     "start": 25.288,
+     "end": 25.708,
+     "probability": 0.9956
+    }
+   ]
+  }
+ ]
+}

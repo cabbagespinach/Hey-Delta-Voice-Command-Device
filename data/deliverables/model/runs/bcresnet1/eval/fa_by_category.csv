@@ -1,0 +1,5 @@
+category,false_accepts,share_of_false_accepts,fa_per_hour_of_all_audio,sets,events_of_this_type,events_triggering_fa,fa_per_event,fa_per_event_ci95
+confusable,5,0.5,2.7972820408485943,B_composed,176,5,0.028409090909090908,"[0.00928737656489109, 0.06504915687827269]"
+partial_head,3,0.3,1.6783692245091566,B_composed,60,3,0.05,"[0.010432329644348228, 0.13924324672107277]"
+partial_tail,2,0.2,1.1189128163394377,B_composed,67,2,0.029850746268656716,"[0.003635730726904398, 0.10370750764755461]"
+speech_snippet,0,0.0,0.0,,43,0,0.0,"[0.0, 0.08221112115413848]"

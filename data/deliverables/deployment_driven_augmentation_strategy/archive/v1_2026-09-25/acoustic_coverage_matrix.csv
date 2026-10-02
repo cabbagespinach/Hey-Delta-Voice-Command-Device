@@ -1,0 +1,14 @@
+dimension,status,evidence,interpretation
+Speaker diversity,underrepresented,7 atomic/source voices contribute the 50 positives; all material is synthetic/TTS or derived. The split report identifies 9 atomic voice IDs overall and speaker overlap across every split.,Real human speaker diversity is not present; TTS voice count is not equivalent to speaker diversity.
+Pitch,partially represented,"Positive TTS metadata explicitly covers pitch offsets [-2.0, 0.0, 2.0] semitone-like units, but only for synthetic voices and only 50 positive clips.","Coverage is a designed TTS grid, not natural pitch variation."
+Speaking rate,partially represented,"Positive TTS metadata explicitly covers speed factors [0.85, 1.0, 1.15]; confusable negatives also have measured speed values.",Natural rate variability is absent because the dataset is synthetic/derived.
+Level / loudness,unknown,"No level, RMS, LUFS, peak, SNR, or gain metadata exists in the manifest.",Cannot establish measured level coverage without waveform analysis.
+Microphone / device,missing,"No microphone, device, codec, channel, or frequency-response metadata exists; all clips are 48 kHz.",Device diversity cannot be established from the manifest.
+Room acoustics,missing,"No room, enclosure, acoustic treatment, or room-ID metadata exists; no RIR source is represented in the manifest.",No evidence of real-room acoustic diversity.
+Reverberation,missing,No reverberation/RIR metadata or RIR source is represented.,"RIR augmentation can cover some synthetic room variation, but cannot replace real recordings."
+Background noise,partially represented,"There are 1000 standalone synthetic noise clips across white, pink, hum, fan, and click sources, but no manifest category represents speech+noise mixtures.","Noise type diversity exists, but deployment SNR/mixture diversity is absent."
+Environmental sounds,partially represented,Fan and clicks are represented; white/pink noise and hum are also present.,Real household/office/vehicle/outdoor soundscapes are not represented.
+Recording quality / channel chain,unknown,"The manifest has no clipping, codec, bit-depth, channel-count, SNR, or quality metrics; all files are reported at 48 kHz.",Waveform inspection is required before enabling quality-specific transforms.
+Near/far field,unknown,"No distance, source-to-microphone distance, SPL, geometry, or near/far label exists.","Cannot infer distance from duration, speaker, or filename."
+Hard negatives,well represented,1199 phonetic/lexical confusables plus 800 positive-derived partial-wakeword negatives are present.,"These are the most deployment-relevant negative sources currently represented, but they are still predominantly synthetic/derived."
+Real acoustic recordings,missing,"The manifest sources are TTS, synthetic noise, or positive-derived truncations; no real microphone-recorded source is identified.",This is the principal limitation for deployment realism.

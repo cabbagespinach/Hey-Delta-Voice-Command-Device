@@ -1,0 +1,413 @@
+override_id,action,annotation_id,file_id,new_start_sec,new_end_sec,new_match_type,reviewer,reviewed_at,note
+human-0000,add,,Manual-Fil-RPI10,0.45,1.413,complete,recording_owner,2026-09-28T00:00:00Z,owner listened: Hey Delta bounds marked by ear
+human-0001,add,,Manual-Fil-RPI11,0.47,1.392,complete,recording_owner,2026-09-28T00:00:00Z,owner listened: Hey Delta bounds marked by ear
+human-0002,add,,Manual-Fil-RPI16,0.42,1.445,complete,recording_owner,2026-09-28T00:00:00Z,owner listened: Hey Delta bounds marked by ear
+human-0003,add,,Manual-Fil-RPI17,0.6,1.691,complete,recording_owner,2026-09-28T00:00:00Z,owner listened: Hey Delta bounds marked by ear
+human-0004,add,,Manual-Fil-RPI18,0.8,1.6962,complete,recording_owner,2026-09-28T00:00:00Z,owner listened: Hey Delta bounds marked by ear
+human-0005,add,,Manual-Fil-RPI29,0.35,1.594,complete,recording_owner,2026-09-28T00:00:00Z,owner listened: Hey Delta bounds marked by ear
+human-0006,add,,Manual-Fil-RPI30,0.3,1.493,complete,recording_owner,2026-09-28T00:00:00Z,owner listened: Hey Delta bounds marked by ear
+human-0007,add,,Manual-Fil-RPI31,0.42,1.675,complete,recording_owner,2026-09-28T00:00:00Z,owner listened: Hey Delta bounds marked by ear
+human-0008,add,,Manual-Fil-RPI32,0.65,1.76,complete,recording_owner,2026-09-28T00:00:00Z,owner listened: Hey Delta bounds marked by ear
+human-0009,add,,Manual-Fil-RPI33,0.5,1.435,complete,recording_owner,2026-09-28T00:00:00Z,owner listened: Hey Delta bounds marked by ear
+human-0010,add,,Manual-Fil-RPI34,0.56,1.643,complete,recording_owner,2026-09-28T00:00:00Z,owner listened: Hey Delta bounds marked by ear
+human-0011,add,,Manual-Fil-RPI35,0.45,1.53,complete,recording_owner,2026-09-28T00:00:00Z,owner listened: Hey Delta bounds marked by ear
+human-0012,add,,Manual-Fil-RPI42,0.55,1.56,complete,recording_owner,2026-09-28T00:00:00Z,owner listened: Hey Delta bounds marked by ear
+human-0013,add,,Manual-Fil-RPI43,0.4,1.525,complete,recording_owner,2026-09-28T00:00:00Z,owner listened: Hey Delta bounds marked by ear
+human-0014,add,,Manual-Fil-RPI45,0.32,1.344,complete,recording_owner,2026-09-28T00:00:00Z,owner listened: Hey Delta bounds marked by ear
+human-0015,add,,Manual-Fil-RPI47,0.4,1.547,complete,recording_owner,2026-09-28T00:00:00Z,owner listened: Hey Delta bounds marked by ear
+human-0016,add,,Manual-Fil-RPI48,0.43,1.547,complete,recording_owner,2026-09-28T00:00:00Z,owner listened: Hey Delta bounds marked by ear
+human-0017,add,,Manual-Fil-RPI50,0.96,2.1,complete,recording_owner,2026-09-28T00:00:00Z,owner listened: Hey Delta bounds marked by ear
+human-0018,add,,Manual-Fil-RPI51,0.475,1.611,complete,recording_owner,2026-09-28T00:00:00Z,owner listened: Hey Delta bounds marked by ear
+human-0019,add,,Manual-Fil-RPI52,0.6,1.707,complete,recording_owner,2026-09-28T00:00:00Z,owner listened: Hey Delta bounds marked by ear
+human-0020,add,,Manual-Fil-RPI53,0.7,1.627,complete,recording_owner,2026-09-28T00:00:00Z,owner listened: Hey Delta bounds marked by ear
+human-0021,add,,Manual-Fil-RPI54,0.5,1.659,complete,recording_owner,2026-09-28T00:00:00Z,owner listened: Hey Delta bounds marked by ear
+human-0022,add,,Manual-Fil-RPI55,0.66,1.589,complete,recording_owner,2026-09-28T00:00:00Z,owner listened: Hey Delta bounds marked by ear
+human-0023,add,,Manual-Fil-RPI56,0.528,1.424,complete,recording_owner,2026-09-28T00:00:00Z,owner listened: Hey Delta bounds marked by ear
+human-0024,add,,Manual-Fil-RPI57,0.45,1.541,complete,recording_owner,2026-09-28T00:00:00Z,owner listened: Hey Delta bounds marked by ear
+human-0025,add,,Manual-Fil-RPI58,0.65,1.659,complete,recording_owner,2026-09-28T00:00:00Z,owner listened: Hey Delta bounds marked by ear
+human-0026,add,,Manual-Fil-RPI59,0.8,1.803,complete,recording_owner,2026-09-28T00:00:00Z,owner listened: Hey Delta bounds marked by ear
+human-0027,add,,Manual-Fil-RPI60,0.58,1.5,complete,recording_owner,2026-09-28T00:00:00Z,owner listened: Hey Delta bounds marked by ear
+human-0028,add,,Manual-Fil-RPI61,0.58,1.632,complete,recording_owner,2026-09-28T00:00:00Z,owner listened: Hey Delta bounds marked by ear
+human-0029,add,,Manual-Fil-RPI41,1.4,2.557,complete,recording_owner,2026-09-28T00:00:00Z,owner listened: Hey Delta bounds marked by ear
+human-0030,add,,Manual-Fil-RPI49,0.923,1.9,complete,recording_owner,2026-09-28T00:00:00Z,owner listened: Hey Delta bounds marked by ear
+human-0031,add,,Manual-Fil-RPI23,0.5,1.259,complete,recording_owner,2026-09-28T00:00:00Z,owner listened: 1 of 9 Hey Delta in file; bounds marked by ear
+human-0032,add,,Manual-Fil-RPI23,1.5,2.75,complete,recording_owner,2026-09-28T00:00:00Z,owner listened: 2 of 9 Hey Delta in file; bounds marked by ear
+human-0033,add,,Manual-Fil-RPI23,3.0,3.9,complete,recording_owner,2026-09-28T00:00:00Z,owner listened: 3 of 9 Hey Delta in file; bounds marked by ear
+human-0034,add,,Manual-Fil-RPI23,4.5,5.3,complete,recording_owner,2026-09-28T00:00:00Z,owner listened: 4 of 9 Hey Delta in file; bounds marked by ear
+human-0035,add,,Manual-Fil-RPI23,6.0,7.1,complete,recording_owner,2026-09-28T00:00:00Z,owner listened: 5 of 9 Hey Delta in file; bounds marked by ear
+human-0036,add,,Manual-Fil-RPI23,7.8,8.6,complete,recording_owner,2026-09-28T00:00:00Z,owner listened: 6 of 9 Hey Delta in file; bounds marked by ear
+human-0037,add,,Manual-Fil-RPI23,9.3,10.5,complete,recording_owner,2026-09-28T00:00:00Z,owner listened: 7 of 9 Hey Delta in file; bounds marked by ear
+human-0038,add,,Manual-Fil-RPI23,10.9,11.9,complete,recording_owner,2026-09-28T00:00:00Z,owner listened: 8 of 9 Hey Delta in file; bounds marked by ear
+human-0039,add,,Manual-Fil-RPI23,12.5,13.3,complete,recording_owner,2026-09-28T00:00:00Z,owner listened: 9 of 9 Hey Delta in file; bounds marked by ear
+human-0040,add,,Manual-Fil-RPI65,0.68,1.80,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 1 of 8 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); Wakeword on media
+human-0041,add,,Manual-Fil-RPI65,3.8,4.73,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 2 of 8 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); Wakeword on media
+human-0042,add,,Manual-Fil-RPI65,6.25,7.4,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 3 of 8 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); Wakeword on media
+human-0043,add,,Manual-Fil-RPI65,9.6,10.6,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 4 of 8 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); Wakeword on media
+human-0044,add,,Manual-Fil-RPI65,15.8,16.95,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 5 of 8 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); Wakeword on media
+human-0045,add,,Manual-Fil-RPI65,17.5,18.7,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 6 of 8 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); Wakeword on media
+human-0046,add,,Manual-Fil-RPI65,20.4,21.54,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 7 of 8 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); Wakeword on media
+human-0047,add,,Manual-Fil-RPI65,24.46,25.55,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 8 of 8 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); Wakeword on media
+human-0048,add,,Manual-Fil-RPI66,0.6,1.73,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 1 of 7 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); quiet background
+human-0049,add,,Manual-Fil-RPI66,3.5,4.76,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 2 of 7 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); quiet background
+human-0050,add,,Manual-Fil-RPI66,5.8,6.5,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 3 of 7 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); quiet background
+human-0051,add,,Manual-Fil-RPI66,7.58,8.43,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 4 of 7 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); quiet background
+human-0052,add,,Manual-Fil-RPI66,11.4,12.64,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 5 of 7 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); quiet background
+human-0053,add,,Manual-Fil-RPI66,13.3,14.4,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 6 of 7 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); quiet background
+human-0054,add,,Manual-Fil-RPI66,15.9,16.97,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 7 of 7 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); quiet background
+human-0055,add,,Manual-Fil-RPI67,0.4,1.56,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 1 of 13 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); with music and AEC
+human-0056,add,,Manual-Fil-RPI67,3.6,4.89,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 2 of 13 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); with music and AEC
+human-0057,add,,Manual-Fil-RPI67,6.89,8.13,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 3 of 13 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); with music and AEC
+human-0058,add,,Manual-Fil-RPI67,10.2,11,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 4 of 13 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); with music and AEC
+human-0059,add,,Manual-Fil-RPI67,11.9,12.95,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 5 of 13 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); with music and AEC
+human-0060,add,,Manual-Fil-RPI67,13.79,14.78,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 6 of 13 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); with music and AEC
+human-0061,add,,Manual-Fil-RPI67,15.2,16.4,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 7 of 13 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); with music and AEC
+human-0062,add,,Manual-Fil-RPI67,19.2,20.3,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 8 of 13 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); with music and AEC
+human-0063,add,,Manual-Fil-RPI67,21,22.25,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 9 of 13 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); with music and AEC
+human-0064,add,,Manual-Fil-RPI67,23,24.18,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 10 of 13 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); with music and AEC
+human-0065,add,,Manual-Fil-RPI67,25.2,26.35,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 11 of 13 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); with music and AEC
+human-0066,add,,Manual-Fil-RPI67,28,29.28,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 12 of 13 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); with music and AEC
+human-0067,add,,Manual-Fil-RPI67,31.4,32.58,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 13 of 13 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); with music and AEC
+human-0068,add,,Manual-Fil-RPI68,0.27,1.36,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 1 of 7 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); quiet
+human-0069,add,,Manual-Fil-RPI68,3.3,4.38,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 2 of 7 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); quiet
+human-0070,add,,Manual-Fil-RPI68,5.4,6.65,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 3 of 7 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); quiet
+human-0071,add,,Manual-Fil-RPI68,7.2,8.32,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 4 of 7 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); quiet
+human-0072,add,,Manual-Fil-RPI68,13.3,14.6,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 5 of 7 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); quiet
+human-0073,add,,Manual-Fil-RPI68,16.8,18,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 6 of 7 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); quiet
+human-0074,add,,Manual-Fil-RPI68,23.3,24.5,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 7 of 7 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); quiet
+human-0075,add,,Manual-Fil-RPI70,1,2.36,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 1 of 8 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); with classical music and AEC
+human-0076,add,,Manual-Fil-RPI70,3.8,5.2,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 2 of 8 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); with classical music and AEC
+human-0077,add,,Manual-Fil-RPI70,6.95,8.33,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 3 of 8 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); with classical music and AEC
+human-0078,add,,Manual-Fil-RPI70,10.56,11.78,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 4 of 8 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); with classical music and AEC
+human-0079,add,,Manual-Fil-RPI70,20.3,21.57,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 5 of 8 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); with classical music and AEC
+human-0080,add,,Manual-Fil-RPI70,23.8,25.18,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 6 of 8 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); with classical music and AEC
+human-0081,add,,Manual-Fil-RPI70,26.29,27.31,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 7 of 8 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); with classical music and AEC
+human-0082,add,,Manual-Fil-RPI70,28.2,29.38,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 8 of 8 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); with classical music and AEC
+human-0083,add,,Manual-Fil-RPI71,7.4,8.67,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 1 of 8 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); with background media playing
+human-0084,add,,Manual-Fil-RPI71,13.15,14.17,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 2 of 8 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); with background media playing
+human-0085,add,,Manual-Fil-RPI71,17.28,18.18,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 3 of 8 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); with background media playing
+human-0086,add,,Manual-Fil-RPI71,19.6,20.57,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 4 of 8 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); with background media playing
+human-0087,add,,Manual-Fil-RPI71,22,23,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 5 of 8 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); with background media playing
+human-0088,add,,Manual-Fil-RPI71,26.3,27.5,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 6 of 8 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); with background media playing
+human-0089,add,,Manual-Fil-RPI71,29.49,30.38,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 7 of 8 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); with background media playing
+human-0090,add,,Manual-Fil-RPI71,32.3,33.13,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 8 of 8 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); with background media playing
+human-0091,add,,Manual-Fil-RPI73,0.6,1.9,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 1 of 11 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv)
+human-0092,add,,Manual-Fil-RPI73,2.8,4,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 2 of 11 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv)
+human-0093,add,,Manual-Fil-RPI73,5.5,6.89,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 3 of 11 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv)
+human-0094,add,,Manual-Fil-RPI73,7.95,9.11,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 4 of 11 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv)
+human-0095,add,,Manual-Fil-RPI73,9.46,10.43,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 5 of 11 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv)
+human-0096,add,,Manual-Fil-RPI73,10.98,11.99,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 6 of 11 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv)
+human-0097,add,,Manual-Fil-RPI73,12.6,13.73,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 7 of 11 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv)
+human-0098,add,,Manual-Fil-RPI73,15.37,16.53,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 8 of 11 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv)
+human-0099,add,,Manual-Fil-RPI73,16.8,18,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 9 of 11 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv)
+human-0100,add,,Manual-Fil-RPI73,21.5,22.79,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 10 of 11 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv)
+human-0101,add,,Manual-Fil-RPI73,24,25.1,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 11 of 11 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv)
+human-0102,add,,Manual-Fil-RPI74,0.8,2.12,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 1 of 2 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv)
+human-0103,add,,Manual-Fil-RPI74,3.16,4.27,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 2 of 2 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv)
+human-0104,add,,Manual-Fil-RPI75,1,2.35,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 1 of 3 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); with background media playing
+human-0105,add,,Manual-Fil-RPI75,5.1,6.34,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 2 of 3 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); with background media playing
+human-0106,add,,Manual-Fil-RPI75,7.9,9.15,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 3 of 3 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); with background media playing
+human-0107,add,,Manual-Fil-RPI76,0.6,1.89,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 1 of 6 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); with background classical music and AEC
+human-0108,add,,Manual-Fil-RPI76,5.5,6.47,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 2 of 6 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); with background classical music and AEC
+human-0109,add,,Manual-Fil-RPI76,9.2,10.27,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 3 of 6 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); with background classical music and AEC
+human-0110,add,,Manual-Fil-RPI76,12.8,13.98,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 4 of 6 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); with background classical music and AEC
+human-0111,add,,Manual-Fil-RPI76,17.1,18.28,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 5 of 6 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); with background classical music and AEC
+human-0112,add,,Manual-Fil-RPI76,20.2,21.39,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 6 of 6 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); with background classical music and AEC
+human-0113,add,,Manual-Fil-RPI77,6.4,7.7,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 1 of 2 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); with classical music and AEC
+human-0114,add,,Manual-Fil-RPI77,10.6,11.64,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 2 of 2 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); with classical music and AEC
+human-0115,add,,Manual-Fil-RPI78,0.7,1.98,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 1 of 4 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); with background party music and AEC
+human-0116,add,,Manual-Fil-RPI78,4.1,5.42,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 2 of 4 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); with background party music and AEC
+human-0117,add,,Manual-Fil-RPI78,6.65,7.6,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 3 of 4 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); with background party music and AEC
+human-0118,add,,Manual-Fil-RPI78,9.8,10.88,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 4 of 4 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); with background party music and AEC
+human-0119,add,,Manual-Fil-RPI79,0.8,2.16,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 1 of 2 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); with background party music and AEC
+human-0120,add,,Manual-Fil-RPI79,7,8.1,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 2 of 2 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); with background party music and AEC; bounds tightened by owner 2026-09-29 (was 6.8-8.26)
+human-0121,add,,Manual-Fil-RPI80,0.8,2.18,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 1 of 9 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv)
+human-0122,add,,Manual-Fil-RPI80,4.18,5.16,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 2 of 9 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv)
+human-0123,add,,Manual-Fil-RPI80,7.4,8.5,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 3 of 9 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv)
+human-0124,add,,Manual-Fil-RPI80,9.4,10.7,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 4 of 9 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); bounds tightened by owner 2026-09-29 (was 9.2-10.7)
+human-0125,add,,Manual-Fil-RPI80,12.1,13.5,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 5 of 9 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); bounds tightened by owner 2026-09-29 (was 12-13.5)
+human-0126,add,,Manual-Fil-RPI80,17.1,18.5,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 6 of 9 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); bounds tightened by owner 2026-09-29 (was 17-18.75)
+human-0127,add,,Manual-Fil-RPI80,20.48,21.68,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 7 of 9 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); bounds tightened by owner 2026-09-29 (was 20.2-21.68)
+human-0128,add,,Manual-Fil-RPI80,23.3,24.49,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 8 of 9 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv)
+human-0129,add,,Manual-Fil-RPI80,26.4,27.61,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 9 of 9 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); bounds tightened by owner 2026-09-29 (was 26.2-27.61)
+human-0130,add,,Manual-Fil-RPI81,0.89,2.1,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 1 of 2 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); with background media
+human-0131,add,,Manual-Fil-RPI81,2.9,4.16,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 2 of 2 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); with background media
+human-0132,add,,Manual-Fil-RPI82,0.9,2.1,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 1 of 3 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); with background media
+human-0133,add,,Manual-Fil-RPI82,2.7,3.96,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 2 of 3 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); with background media
+human-0134,add,,Manual-Fil-RPI82,5.4,6.63,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: 3 of 3 Hey Delta in file; bounds marked by ear (owner_timing_2026-09-29.csv); with background media; bounds tightened by owner 2026-09-29 (was 5.4-6.84)
+human-0135,add,,Manual-Fil-Phonemic1,3,4.1,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: Hey Delta bounds marked by ear (ASR span too long for a window)
+human-0136,add,,Manual-Fil-Phonemic2,0.7,2.1,complete,recording_owner,2026-09-29T00:00:00Z,owner listened: Hey Delta bounds marked by ear (ASR span too long for a window)
+owner-0000,confirm_complete,Manual-Fil-Macmic1#asr000,Manual-Fil-Macmic1,,,,recording_owner,2026-09-25T00:00:00Z,owner: every utterance is Hey Delta
+owner-0001,confirm_complete,Manual-Fil-Macmic1#asr001,Manual-Fil-Macmic1,,,,recording_owner,2026-09-25T00:00:00Z,owner: every utterance is Hey Delta
+owner-0002,confirm_complete,Manual-Fil-Macmic1#asr002,Manual-Fil-Macmic1,,,,recording_owner,2026-09-25T00:00:00Z,owner: every utterance is Hey Delta
+owner-0003,confirm_complete,Manual-Fil-Macmic1#asr003,Manual-Fil-Macmic1,,,,recording_owner,2026-09-25T00:00:00Z,owner: every utterance is Hey Delta
+owner-0004,confirm_complete,Manual-Fil-Macmic1#asr004,Manual-Fil-Macmic1,,,,recording_owner,2026-09-25T00:00:00Z,owner: every utterance is Hey Delta
+owner-0005,confirm_complete,Manual-Fil-Macmic1#asr005,Manual-Fil-Macmic1,,,,recording_owner,2026-09-25T00:00:00Z,owner: every utterance is Hey Delta
+owner-0006,confirm_complete,Manual-Fil-Macmic1#asr006,Manual-Fil-Macmic1,,,,recording_owner,2026-09-25T00:00:00Z,owner: every utterance is Hey Delta
+owner-0007,confirm_complete,Manual-Fil-Macmic1#asr007,Manual-Fil-Macmic1,,,,recording_owner,2026-09-25T00:00:00Z,owner: every utterance is Hey Delta
+owner-0008,confirm_complete,Manual-Fil-Macmic1#asr008,Manual-Fil-Macmic1,,,,recording_owner,2026-09-25T00:00:00Z,owner: every utterance is Hey Delta
+owner-0009,confirm_complete,Manual-Fil-Macmic1#asr009,Manual-Fil-Macmic1,,,,recording_owner,2026-09-25T00:00:00Z,owner: every utterance is Hey Delta
+owner-0010,confirm_complete,Manual-Fil-Macmic1#asr010,Manual-Fil-Macmic1,,,,recording_owner,2026-09-25T00:00:00Z,owner: every utterance is Hey Delta
+owner-0011,confirm_complete,Manual-Fil-Macmic2#asr000,Manual-Fil-Macmic2,,,,recording_owner,2026-09-25T00:00:00Z,owner: every utterance is Hey Delta
+owner-0012,confirm_complete,Manual-Fil-Macmic2#asr001,Manual-Fil-Macmic2,,,,recording_owner,2026-09-25T00:00:00Z,owner: every utterance is Hey Delta
+owner-0013,confirm_complete,Manual-Fil-Macmic2#asr002,Manual-Fil-Macmic2,,,,recording_owner,2026-09-25T00:00:00Z,owner: every utterance is Hey Delta
+owner-0014,confirm_complete,Manual-Fil-Macmic2#asr003,Manual-Fil-Macmic2,,,,recording_owner,2026-09-25T00:00:00Z,owner: every utterance is Hey Delta
+owner-0015,confirm_complete,Manual-Fil-Macmic2#asr004,Manual-Fil-Macmic2,,,,recording_owner,2026-09-25T00:00:00Z,owner: every utterance is Hey Delta
+owner-0016,confirm_complete,Manual-Fil-Macmic2#asr005,Manual-Fil-Macmic2,,,,recording_owner,2026-09-25T00:00:00Z,owner: every utterance is Hey Delta
+owner-0017,confirm_complete,Manual-Fil-Macmic2#asr006,Manual-Fil-Macmic2,,,,recording_owner,2026-09-25T00:00:00Z,owner: every utterance is Hey Delta
+owner-0018,confirm_complete,Manual-Fil-Macmic2#asr007,Manual-Fil-Macmic2,,,,recording_owner,2026-09-25T00:00:00Z,owner: every utterance is Hey Delta
+owner-0019,confirm_complete,Manual-Fil-Macmic2#asr008,Manual-Fil-Macmic2,,,,recording_owner,2026-09-25T00:00:00Z,owner: every utterance is Hey Delta
+owner-0020,confirm_complete,Manual-Fil-Macmic2#asr009,Manual-Fil-Macmic2,,,,recording_owner,2026-09-25T00:00:00Z,owner: every utterance is Hey Delta
+owner-0021,confirm_complete,Manual-Fil-Macmic2#asr010,Manual-Fil-Macmic2,,,,recording_owner,2026-09-25T00:00:00Z,owner: every utterance is Hey Delta
+owner-0022,confirm_complete,Manual-Fil-Macmic2#asr011,Manual-Fil-Macmic2,,,,recording_owner,2026-09-25T00:00:00Z,owner: every utterance is Hey Delta
+owner-0023,confirm_complete,Manual-Fil-Macmic2#asr012,Manual-Fil-Macmic2,,,,recording_owner,2026-09-25T00:00:00Z,owner: every utterance is Hey Delta
+owner-0024,confirm_complete,Manual-Fil-Macmic2#asr013,Manual-Fil-Macmic2,,,,recording_owner,2026-09-25T00:00:00Z,owner: every utterance is Hey Delta
+owner-0025,remove,Manual-Fil-Phonemic1#asr000,Manual-Fil-Phonemic1,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0026,remove,Manual-Fil-Phonemic2#asr000,Manual-Fil-Phonemic2,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0027,confirm_complete,Manual-Fil-Phonemic3#asr000,Manual-Fil-Phonemic3,,,,recording_owner,2026-09-25T00:00:00Z,owner: every utterance is Hey Delta
+owner-0028,confirm_complete,Manual-Fil-Phonemic3#asr001,Manual-Fil-Phonemic3,,,,recording_owner,2026-09-25T00:00:00Z,owner: every utterance is Hey Delta
+owner-0029,confirm_complete,Manual-Fil-Phonemic3#asr002,Manual-Fil-Phonemic3,,,,recording_owner,2026-09-25T00:00:00Z,owner: every utterance is Hey Delta
+owner-0030,confirm_complete,Manual-Fil-Phonemic3#asr003,Manual-Fil-Phonemic3,,,,recording_owner,2026-09-25T00:00:00Z,owner: every utterance is Hey Delta
+owner-0031,confirm_complete,Manual-Fil-Phonemic3#asr004,Manual-Fil-Phonemic3,,,,recording_owner,2026-09-25T00:00:00Z,owner: every utterance is Hey Delta
+owner-0032,confirm_complete,Manual-Fil-Phonemic3#asr005,Manual-Fil-Phonemic3,,,,recording_owner,2026-09-25T00:00:00Z,owner: every utterance is Hey Delta
+owner-0033,confirm_complete,Manual-Fil-Phonemic3#asr006,Manual-Fil-Phonemic3,,,,recording_owner,2026-09-25T00:00:00Z,owner: every utterance is Hey Delta
+owner-0034,confirm_complete,Manual-Fil-Phonemic3#asr007,Manual-Fil-Phonemic3,,,,recording_owner,2026-09-25T00:00:00Z,owner: every utterance is Hey Delta
+owner-0035,confirm_complete,Manual-Fil-Phonemic3#asr008,Manual-Fil-Phonemic3,,,,recording_owner,2026-09-25T00:00:00Z,owner: every utterance is Hey Delta
+owner-0036,confirm_complete,Manual-Fil-Phonemic3#asr009,Manual-Fil-Phonemic3,,,,recording_owner,2026-09-25T00:00:00Z,owner: every utterance is Hey Delta
+owner-0037,confirm_complete,Manual-Fil-RPI1#asr000,Manual-Fil-RPI1,,,,recording_owner,2026-09-25T00:00:00Z,owner: one complete Hey Delta per clip
+owner-0038,remove,Manual-Fil-RPI10#asr000,Manual-Fil-RPI10,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0039,clear_recording_flag,,Manual-Fil-RPI10,,,,recording_owner,2026-09-25T00:00:00Z,owner confirmed label
+owner-0040,remove,Manual-Fil-RPI11#asr000,Manual-Fil-RPI11,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0041,clear_recording_flag,,Manual-Fil-RPI11,,,,recording_owner,2026-09-25T00:00:00Z,owner confirmed label
+owner-0042,confirm_complete,Manual-Fil-RPI12#asr000,Manual-Fil-RPI12,,,,recording_owner,2026-09-25T00:00:00Z,owner: one complete Hey Delta per clip
+owner-0043,confirm_complete,Manual-Fil-RPI14#asr000,Manual-Fil-RPI14,,,,recording_owner,2026-09-25T00:00:00Z,owner: one complete Hey Delta per clip
+owner-0044,confirm_complete,Manual-Fil-RPI15#asr000,Manual-Fil-RPI15,,,,recording_owner,2026-09-25T00:00:00Z,owner: one complete Hey Delta per clip
+owner-0045,clear_recording_flag,,Manual-Fil-RPI15,,,,recording_owner,2026-09-25T00:00:00Z,owner confirmed label
+owner-0046,remove,Manual-Fil-RPI16#asr000,Manual-Fil-RPI16,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0047,clear_recording_flag,,Manual-Fil-RPI16,,,,recording_owner,2026-09-25T00:00:00Z,owner confirmed label
+owner-0048,remove,Manual-Fil-RPI17#asr000,Manual-Fil-RPI17,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0049,clear_recording_flag,,Manual-Fil-RPI17,,,,recording_owner,2026-09-25T00:00:00Z,owner confirmed label
+owner-0050,remove,Manual-Fil-RPI18#asr000,Manual-Fil-RPI18,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0051,clear_recording_flag,,Manual-Fil-RPI18,,,,recording_owner,2026-09-25T00:00:00Z,owner confirmed label
+owner-0052,remove,Manual-Fil-RPI19#asr000,Manual-Fil-RPI19,,,,recording_owner,2026-09-25T00:00:00Z,superseded by owner clip-level label
+owner-0053,clip_level_positive,,Manual-Fil-RPI19,,,,recording_owner,2026-09-25T00:00:00Z,"owner: file holds one complete Hey Delta (whole clip fits one window); owner listened: low signal, complete Hey Delta"
+owner-0054,clear_recording_flag,,Manual-Fil-RPI19,,,,recording_owner,2026-09-25T00:00:00Z,owner confirmed label
+owner-0055,confirm_complete,Manual-Fil-RPI2#asr000,Manual-Fil-RPI2,,,,recording_owner,2026-09-25T00:00:00Z,owner: one complete Hey Delta per clip
+owner-0056,remove,Manual-Fil-RPI20#asr000,Manual-Fil-RPI20,,,,recording_owner,2026-09-25T00:00:00Z,superseded by owner clip-level label
+owner-0057,clip_level_positive,,Manual-Fil-RPI20,,,,recording_owner,2026-09-25T00:00:00Z,"owner: file holds one complete Hey Delta (whole clip fits one window); owner listened: low signal, complete Hey Delta"
+owner-0058,clear_recording_flag,,Manual-Fil-RPI20,,,,recording_owner,2026-09-25T00:00:00Z,owner confirmed label
+owner-0059,remove,Manual-Fil-RPI21#asr000,Manual-Fil-RPI21,,,,recording_owner,2026-09-25T00:00:00Z,superseded by owner clip-level label
+owner-0060,clip_level_positive,,Manual-Fil-RPI21,,,,recording_owner,2026-09-25T00:00:00Z,"owner: file holds one complete Hey Delta (whole clip fits one window); owner listened: low signal, complete Hey Delta"
+owner-0061,clear_recording_flag,,Manual-Fil-RPI21,,,,recording_owner,2026-09-25T00:00:00Z,owner confirmed label
+owner-0062,remove,Manual-Fil-RPI22#asr000,Manual-Fil-RPI22,,,,recording_owner,2026-09-25T00:00:00Z,superseded by owner clip-level label
+owner-0063,clip_level_positive,,Manual-Fil-RPI22,,,,recording_owner,2026-09-25T00:00:00Z,owner: file holds one complete Hey Delta (whole clip fits one window)
+owner-0064,remove,Manual-Fil-RPI23#asr000,Manual-Fil-RPI23,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0065,remove,Manual-Fil-RPI23#asr001,Manual-Fil-RPI23,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0066,remove,Manual-Fil-RPI23#asr002,Manual-Fil-RPI23,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0067,remove,Manual-Fil-RPI23#asr003,Manual-Fil-RPI23,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0068,clear_recording_flag,,Manual-Fil-RPI23,,,,recording_owner,2026-09-25T00:00:00Z,owner confirmed label
+owner-0069,confirm_complete,Manual-Fil-RPI24#asr000,Manual-Fil-RPI24,,,,recording_owner,2026-09-25T00:00:00Z,owner: one complete Hey Delta per clip
+owner-0070,confirm_complete,Manual-Fil-RPI25#asr000,Manual-Fil-RPI25,,,,recording_owner,2026-09-25T00:00:00Z,owner: one complete Hey Delta per clip
+owner-0071,confirm_complete,Manual-Fil-RPI26#asr000,Manual-Fil-RPI26,,,,recording_owner,2026-09-25T00:00:00Z,owner: one complete Hey Delta per clip
+owner-0072,confirm_complete,Manual-Fil-RPI27#asr000,Manual-Fil-RPI27,,,,recording_owner,2026-09-25T00:00:00Z,owner: one complete Hey Delta per clip
+owner-0073,confirm_complete,Manual-Fil-RPI28#asr000,Manual-Fil-RPI28,,,,recording_owner,2026-09-25T00:00:00Z,owner: one complete Hey Delta per clip
+owner-0074,remove,Manual-Fil-RPI29#asr000,Manual-Fil-RPI29,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0075,clear_recording_flag,,Manual-Fil-RPI29,,,,recording_owner,2026-09-25T00:00:00Z,owner confirmed label
+owner-0076,confirm_complete,Manual-Fil-RPI3#asr000,Manual-Fil-RPI3,,,,recording_owner,2026-09-25T00:00:00Z,owner: one complete Hey Delta per clip
+owner-0077,remove,Manual-Fil-RPI30#asr000,Manual-Fil-RPI30,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0078,clear_recording_flag,,Manual-Fil-RPI30,,,,recording_owner,2026-09-25T00:00:00Z,owner confirmed label
+owner-0079,remove,Manual-Fil-RPI31#asr000,Manual-Fil-RPI31,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0080,clear_recording_flag,,Manual-Fil-RPI31,,,,recording_owner,2026-09-25T00:00:00Z,owner confirmed label
+owner-0081,remove,Manual-Fil-RPI32#asr000,Manual-Fil-RPI32,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0082,clear_recording_flag,,Manual-Fil-RPI32,,,,recording_owner,2026-09-25T00:00:00Z,owner confirmed label
+owner-0083,remove,Manual-Fil-RPI33#asr000,Manual-Fil-RPI33,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0084,clear_recording_flag,,Manual-Fil-RPI33,,,,recording_owner,2026-09-25T00:00:00Z,owner confirmed label
+owner-0085,remove,Manual-Fil-RPI34#asr000,Manual-Fil-RPI34,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0086,clear_recording_flag,,Manual-Fil-RPI34,,,,recording_owner,2026-09-25T00:00:00Z,owner confirmed label
+owner-0087,remove,Manual-Fil-RPI35#asr000,Manual-Fil-RPI35,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0088,clear_recording_flag,,Manual-Fil-RPI35,,,,recording_owner,2026-09-25T00:00:00Z,owner confirmed label
+owner-0089,confirm_complete,Manual-Fil-RPI36#asr000,Manual-Fil-RPI36,,,,recording_owner,2026-09-25T00:00:00Z,owner: one complete Hey Delta per clip
+owner-0090,confirm_complete,Manual-Fil-RPI37#asr000,Manual-Fil-RPI37,,,,recording_owner,2026-09-25T00:00:00Z,owner: one complete Hey Delta per clip
+owner-0091,confirm_complete,Manual-Fil-RPI38#asr000,Manual-Fil-RPI38,,,,recording_owner,2026-09-25T00:00:00Z,owner: one complete Hey Delta per clip
+owner-0092,confirm_complete,Manual-Fil-RPI39#asr000,Manual-Fil-RPI39,,,,recording_owner,2026-09-25T00:00:00Z,owner: one complete Hey Delta per clip
+owner-0093,remove,Manual-Fil-RPI4#asr000,Manual-Fil-RPI4,,,,recording_owner,2026-09-25T00:00:00Z,superseded by owner clip-level label
+owner-0094,clip_level_positive,,Manual-Fil-RPI4,,,,recording_owner,2026-09-25T00:00:00Z,owner: file holds one complete Hey Delta (whole clip fits one window)
+owner-0095,remove,Manual-Fil-RPI41#asr000,Manual-Fil-RPI41,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0096,clear_recording_flag,,Manual-Fil-RPI41,,,,recording_owner,2026-09-25T00:00:00Z,owner confirmed label
+owner-0097,remove,Manual-Fil-RPI42#asr000,Manual-Fil-RPI42,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0098,clear_recording_flag,,Manual-Fil-RPI42,,,,recording_owner,2026-09-25T00:00:00Z,owner confirmed label
+owner-0099,remove,Manual-Fil-RPI43#asr000,Manual-Fil-RPI43,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0100,clear_recording_flag,,Manual-Fil-RPI43,,,,recording_owner,2026-09-25T00:00:00Z,owner confirmed label
+owner-0101,confirm_complete,Manual-Fil-RPI44#asr000,Manual-Fil-RPI44,,,,recording_owner,2026-09-25T00:00:00Z,owner: one complete Hey Delta per clip
+owner-0102,remove,Manual-Fil-RPI45#asr000,Manual-Fil-RPI45,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0103,clear_recording_flag,,Manual-Fil-RPI45,,,,recording_owner,2026-09-25T00:00:00Z,owner confirmed label
+owner-0104,confirm_complete,Manual-Fil-RPI46#asr000,Manual-Fil-RPI46,,,,recording_owner,2026-09-25T00:00:00Z,owner: one complete Hey Delta per clip
+owner-0105,remove,Manual-Fil-RPI47#asr000,Manual-Fil-RPI47,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0106,clear_recording_flag,,Manual-Fil-RPI47,,,,recording_owner,2026-09-25T00:00:00Z,owner confirmed label
+owner-0107,remove,Manual-Fil-RPI48#asr000,Manual-Fil-RPI48,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0108,clear_recording_flag,,Manual-Fil-RPI48,,,,recording_owner,2026-09-25T00:00:00Z,owner confirmed label
+owner-0109,remove,Manual-Fil-RPI49#asr000,Manual-Fil-RPI49,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0110,clear_recording_flag,,Manual-Fil-RPI49,,,,recording_owner,2026-09-25T00:00:00Z,owner confirmed label
+owner-0111,confirm_complete,Manual-Fil-RPI5#asr000,Manual-Fil-RPI5,,,,recording_owner,2026-09-25T00:00:00Z,owner: one complete Hey Delta per clip
+owner-0112,remove,Manual-Fil-RPI50#asr000,Manual-Fil-RPI50,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0113,remove,Manual-Fil-RPI50#asr001,Manual-Fil-RPI50,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0114,clear_recording_flag,,Manual-Fil-RPI50,,,,recording_owner,2026-09-25T00:00:00Z,owner confirmed label
+owner-0115,remove,Manual-Fil-RPI51#asr000,Manual-Fil-RPI51,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0116,clear_recording_flag,,Manual-Fil-RPI51,,,,recording_owner,2026-09-25T00:00:00Z,owner confirmed label
+owner-0117,remove,Manual-Fil-RPI52#asr000,Manual-Fil-RPI52,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0118,clear_recording_flag,,Manual-Fil-RPI52,,,,recording_owner,2026-09-25T00:00:00Z,owner confirmed label
+owner-0119,remove,Manual-Fil-RPI53#asr000,Manual-Fil-RPI53,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0120,clear_recording_flag,,Manual-Fil-RPI53,,,,recording_owner,2026-09-25T00:00:00Z,owner confirmed label
+owner-0121,remove,Manual-Fil-RPI54#asr000,Manual-Fil-RPI54,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0122,clear_recording_flag,,Manual-Fil-RPI54,,,,recording_owner,2026-09-25T00:00:00Z,owner confirmed label
+owner-0123,remove,Manual-Fil-RPI55#asr000,Manual-Fil-RPI55,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0124,clear_recording_flag,,Manual-Fil-RPI55,,,,recording_owner,2026-09-25T00:00:00Z,owner confirmed label
+owner-0125,remove,Manual-Fil-RPI56#asr000,Manual-Fil-RPI56,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0126,clear_recording_flag,,Manual-Fil-RPI56,,,,recording_owner,2026-09-25T00:00:00Z,owner confirmed label
+owner-0127,remove,Manual-Fil-RPI57#asr000,Manual-Fil-RPI57,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0128,clear_recording_flag,,Manual-Fil-RPI57,,,,recording_owner,2026-09-25T00:00:00Z,owner confirmed label
+owner-0129,remove,Manual-Fil-RPI58#asr000,Manual-Fil-RPI58,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0130,clear_recording_flag,,Manual-Fil-RPI58,,,,recording_owner,2026-09-25T00:00:00Z,owner confirmed label
+owner-0131,remove,Manual-Fil-RPI59#asr000,Manual-Fil-RPI59,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0132,clear_recording_flag,,Manual-Fil-RPI59,,,,recording_owner,2026-09-25T00:00:00Z,owner confirmed label
+owner-0133,remove,Manual-Fil-RPI6#asr000,Manual-Fil-RPI6,,,,recording_owner,2026-09-25T00:00:00Z,superseded by owner clip-level label
+owner-0134,clip_level_positive,,Manual-Fil-RPI6,,,,recording_owner,2026-09-25T00:00:00Z,owner: file holds one complete Hey Delta (whole clip fits one window)
+owner-0135,remove,Manual-Fil-RPI60#asr000,Manual-Fil-RPI60,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0136,clear_recording_flag,,Manual-Fil-RPI60,,,,recording_owner,2026-09-25T00:00:00Z,owner confirmed label
+owner-0137,remove,Manual-Fil-RPI61#asr000,Manual-Fil-RPI61,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0138,clear_recording_flag,,Manual-Fil-RPI61,,,,recording_owner,2026-09-25T00:00:00Z,owner confirmed label
+owner-0139,confirm_complete,Manual-Fil-RPI62#asr000,Manual-Fil-RPI62,,,,recording_owner,2026-09-25T00:00:00Z,owner: one complete Hey Delta per clip
+owner-0140,confirm_complete,Manual-Fil-RPI63#asr000,Manual-Fil-RPI63,,,,recording_owner,2026-09-25T00:00:00Z,owner: one complete Hey Delta per clip
+owner-0141,confirm_complete,Manual-Fil-RPI64#asr000,Manual-Fil-RPI64,,,,recording_owner,2026-09-25T00:00:00Z,owner: one complete Hey Delta per clip
+owner-0142,remove,Manual-Fil-RPI65#asr000,Manual-Fil-RPI65,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0143,remove,Manual-Fil-RPI65#asr001,Manual-Fil-RPI65,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0144,remove,Manual-Fil-RPI65#asr002,Manual-Fil-RPI65,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0145,remove,Manual-Fil-RPI65#asr003,Manual-Fil-RPI65,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0146,remove,Manual-Fil-RPI65#asr004,Manual-Fil-RPI65,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0147,remove,Manual-Fil-RPI65#asr005,Manual-Fil-RPI65,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0148,remove,Manual-Fil-RPI65#asr006,Manual-Fil-RPI65,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0149,remove,Manual-Fil-RPI65#asr007,Manual-Fil-RPI65,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0150,remove,Manual-Fil-RPI65#asr008,Manual-Fil-RPI65,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0151,remove,Manual-Fil-RPI65#asr009,Manual-Fil-RPI65,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0152,remove,Manual-Fil-RPI65#asr010,Manual-Fil-RPI65,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0153,remove,Manual-Fil-RPI66#asr000,Manual-Fil-RPI66,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0154,remove,Manual-Fil-RPI66#asr001,Manual-Fil-RPI66,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0155,remove,Manual-Fil-RPI66#asr002,Manual-Fil-RPI66,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0156,remove,Manual-Fil-RPI66#asr003,Manual-Fil-RPI66,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0157,remove,Manual-Fil-RPI66#asr004,Manual-Fil-RPI66,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0158,remove,Manual-Fil-RPI66#asr005,Manual-Fil-RPI66,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0159,remove,Manual-Fil-RPI66#asr006,Manual-Fil-RPI66,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0160,remove,Manual-Fil-RPI66#asr007,Manual-Fil-RPI66,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0161,remove,Manual-Fil-RPI67#asr000,Manual-Fil-RPI67,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0162,remove,Manual-Fil-RPI67#asr001,Manual-Fil-RPI67,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0163,remove,Manual-Fil-RPI67#asr002,Manual-Fil-RPI67,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0164,remove,Manual-Fil-RPI67#asr003,Manual-Fil-RPI67,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0165,remove,Manual-Fil-RPI67#asr004,Manual-Fil-RPI67,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0166,remove,Manual-Fil-RPI67#asr005,Manual-Fil-RPI67,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0167,remove,Manual-Fil-RPI67#asr006,Manual-Fil-RPI67,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0168,remove,Manual-Fil-RPI67#asr007,Manual-Fil-RPI67,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0169,remove,Manual-Fil-RPI67#asr008,Manual-Fil-RPI67,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0170,remove,Manual-Fil-RPI67#asr009,Manual-Fil-RPI67,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0171,remove,Manual-Fil-RPI67#asr010,Manual-Fil-RPI67,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0172,remove,Manual-Fil-RPI67#asr011,Manual-Fil-RPI67,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0173,remove,Manual-Fil-RPI67#asr012,Manual-Fil-RPI67,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0174,remove,Manual-Fil-RPI67#asr013,Manual-Fil-RPI67,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0175,remove,Manual-Fil-RPI68#asr000,Manual-Fil-RPI68,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0176,remove,Manual-Fil-RPI68#asr001,Manual-Fil-RPI68,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0177,remove,Manual-Fil-RPI68#asr002,Manual-Fil-RPI68,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0178,remove,Manual-Fil-RPI68#asr003,Manual-Fil-RPI68,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0179,remove,Manual-Fil-RPI68#asr004,Manual-Fil-RPI68,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0180,remove,Manual-Fil-RPI68#asr005,Manual-Fil-RPI68,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0181,remove,Manual-Fil-RPI68#asr006,Manual-Fil-RPI68,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0182,remove,Manual-Fil-RPI68#asr007,Manual-Fil-RPI68,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0183,remove,Manual-Fil-RPI7#asr000,Manual-Fil-RPI7,,,,recording_owner,2026-09-25T00:00:00Z,superseded by owner clip-level label
+owner-0184,clip_level_positive,,Manual-Fil-RPI7,,,,recording_owner,2026-09-25T00:00:00Z,owner: file holds one complete Hey Delta (whole clip fits one window)
+owner-0185,remove,Manual-Fil-RPI70#asr000,Manual-Fil-RPI70,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0186,remove,Manual-Fil-RPI70#asr001,Manual-Fil-RPI70,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0187,remove,Manual-Fil-RPI70#asr002,Manual-Fil-RPI70,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0188,remove,Manual-Fil-RPI70#asr003,Manual-Fil-RPI70,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0189,remove,Manual-Fil-RPI70#asr004,Manual-Fil-RPI70,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0190,remove,Manual-Fil-RPI70#asr005,Manual-Fil-RPI70,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0191,remove,Manual-Fil-RPI70#asr006,Manual-Fil-RPI70,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0192,remove,Manual-Fil-RPI70#asr007,Manual-Fil-RPI70,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0193,remove,Manual-Fil-RPI71#asr000,Manual-Fil-RPI71,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0194,remove,Manual-Fil-RPI71#asr001,Manual-Fil-RPI71,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0195,remove,Manual-Fil-RPI71#asr002,Manual-Fil-RPI71,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0196,remove,Manual-Fil-RPI71#asr003,Manual-Fil-RPI71,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0197,remove,Manual-Fil-RPI71#asr004,Manual-Fil-RPI71,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0198,remove,Manual-Fil-RPI71#asr005,Manual-Fil-RPI71,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0199,remove,Manual-Fil-RPI71#asr006,Manual-Fil-RPI71,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0200,remove,Manual-Fil-RPI73#asr000,Manual-Fil-RPI73,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0201,clear_recording_flag,,Manual-Fil-RPI73,,,,recording_owner,2026-09-25T00:00:00Z,owner confirmed label
+owner-0202,remove,Manual-Fil-RPI74#asr000,Manual-Fil-RPI74,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0203,remove,Manual-Fil-RPI74#asr001,Manual-Fil-RPI74,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0204,remove,Manual-Fil-RPI75#asr000,Manual-Fil-RPI75,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0205,remove,Manual-Fil-RPI75#asr001,Manual-Fil-RPI75,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0206,remove,Manual-Fil-RPI75#asr002,Manual-Fil-RPI75,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0207,remove,Manual-Fil-RPI76#asr000,Manual-Fil-RPI76,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0208,remove,Manual-Fil-RPI76#asr001,Manual-Fil-RPI76,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0209,remove,Manual-Fil-RPI76#asr002,Manual-Fil-RPI76,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0210,remove,Manual-Fil-RPI76#asr003,Manual-Fil-RPI76,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0211,remove,Manual-Fil-RPI76#asr004,Manual-Fil-RPI76,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0212,remove,Manual-Fil-RPI76#asr005,Manual-Fil-RPI76,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0213,remove,Manual-Fil-RPI77#asr000,Manual-Fil-RPI77,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0214,remove,Manual-Fil-RPI77#asr001,Manual-Fil-RPI77,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0215,remove,Manual-Fil-RPI78#asr000,Manual-Fil-RPI78,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0216,remove,Manual-Fil-RPI78#asr001,Manual-Fil-RPI78,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0217,remove,Manual-Fil-RPI78#asr002,Manual-Fil-RPI78,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0218,remove,Manual-Fil-RPI79#asr000,Manual-Fil-RPI79,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0219,remove,Manual-Fil-RPI79#asr001,Manual-Fil-RPI79,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0220,clear_recording_flag,,Manual-Fil-RPI79,,,,recording_owner,2026-09-25T00:00:00Z,owner confirmed label
+owner-0221,remove,Manual-Fil-RPI8#asr000,Manual-Fil-RPI8,,,,recording_owner,2026-09-25T00:00:00Z,superseded by owner clip-level label
+owner-0222,clip_level_positive,,Manual-Fil-RPI8,,,,recording_owner,2026-09-25T00:00:00Z,owner: file holds one complete Hey Delta (whole clip fits one window)
+owner-0223,remove,Manual-Fil-RPI80#asr000,Manual-Fil-RPI80,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0224,remove,Manual-Fil-RPI80#asr001,Manual-Fil-RPI80,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0225,remove,Manual-Fil-RPI80#asr002,Manual-Fil-RPI80,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0226,remove,Manual-Fil-RPI80#asr003,Manual-Fil-RPI80,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0227,remove,Manual-Fil-RPI80#asr004,Manual-Fil-RPI80,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0228,remove,Manual-Fil-RPI80#asr005,Manual-Fil-RPI80,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0229,remove,Manual-Fil-RPI80#asr006,Manual-Fil-RPI80,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0230,remove,Manual-Fil-RPI80#asr007,Manual-Fil-RPI80,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0231,remove,Manual-Fil-RPI80#asr008,Manual-Fil-RPI80,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0232,remove,Manual-Fil-RPI80#asr009,Manual-Fil-RPI80,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0233,remove,Manual-Fil-RPI81#asr000,Manual-Fil-RPI81,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0234,remove,Manual-Fil-RPI81#asr001,Manual-Fil-RPI81,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0235,remove,Manual-Fil-RPI82#asr000,Manual-Fil-RPI82,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0236,remove,Manual-Fil-RPI82#asr001,Manual-Fil-RPI82,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0237,remove,Manual-Fil-RPI82#asr002,Manual-Fil-RPI82,,,,recording_owner,2026-09-25T00:00:00Z,superseded by human-marked bounds
+owner-0238,confirm_complete,Manual-Fil-RPI9#asr000,Manual-Fil-RPI9,,,,recording_owner,2026-09-25T00:00:00Z,owner: one complete Hey Delta per clip
+owner-0239,mark_not_wakeword,Manual-BG-Macmic2#asr000,Manual-BG-Macmic2,,,,recording_owner,2026-09-25T00:00:00Z,owner: background recordings contain no wakeword
+owner-0240,mark_not_wakeword,Manual-BG-Macmic2#asr001,Manual-BG-Macmic2,,,,recording_owner,2026-09-25T00:00:00Z,owner: background recordings contain no wakeword
+owner-0241,mark_not_wakeword,Manual-BG-Macmic2#asr002,Manual-BG-Macmic2,,,,recording_owner,2026-09-25T00:00:00Z,owner: background recordings contain no wakeword
+owner-0242,mark_not_wakeword,Manual-BG-Macmic2#asr003,Manual-BG-Macmic2,,,,recording_owner,2026-09-25T00:00:00Z,owner: background recordings contain no wakeword
+owner-0243,mark_not_wakeword,Manual-BG-Macmic2#asr004,Manual-BG-Macmic2,,,,recording_owner,2026-09-25T00:00:00Z,owner: background recordings contain no wakeword
+owner-0244,mark_not_wakeword,Manual-BG-Macmic2#asr005,Manual-BG-Macmic2,,,,recording_owner,2026-09-25T00:00:00Z,owner: background recordings contain no wakeword
+owner-0245,mark_not_wakeword,Manual-BG-Macmic2#asr006,Manual-BG-Macmic2,,,,recording_owner,2026-09-25T00:00:00Z,owner: background recordings contain no wakeword
+owner-0246,mark_not_wakeword,Manual-BG-Macmic2#asr007,Manual-BG-Macmic2,,,,recording_owner,2026-09-25T00:00:00Z,owner: background recordings contain no wakeword
+owner-0247,mark_not_wakeword,Manual-BG-Macmic2#asr008,Manual-BG-Macmic2,,,,recording_owner,2026-09-25T00:00:00Z,owner: background recordings contain no wakeword
+owner-0248,mark_not_wakeword,Manual-BG-Macmic2#asr009,Manual-BG-Macmic2,,,,recording_owner,2026-09-25T00:00:00Z,owner: background recordings contain no wakeword
+owner-0249,mark_not_wakeword,Manual-BG-Macmic2#asr010,Manual-BG-Macmic2,,,,recording_owner,2026-09-25T00:00:00Z,owner: background recordings contain no wakeword
+owner-0250,mark_not_wakeword,Manual-BG-Macmic2#asr011,Manual-BG-Macmic2,,,,recording_owner,2026-09-25T00:00:00Z,owner: background recordings contain no wakeword
+owner-0251,mark_not_wakeword,Manual-BG-Macmic2#asr012,Manual-BG-Macmic2,,,,recording_owner,2026-09-25T00:00:00Z,owner: background recordings contain no wakeword
+owner-0252,mark_not_wakeword,Manual-BG-Phonemic1#asr000,Manual-BG-Phonemic1,,,,recording_owner,2026-09-25T00:00:00Z,owner: background recordings contain no wakeword
+owner-0253,mark_not_wakeword,Manual-BG-Phonemic1#asr001,Manual-BG-Phonemic1,,,,recording_owner,2026-09-25T00:00:00Z,owner: background recordings contain no wakeword
+owner-0254,mark_not_wakeword,Manual-BG-Phonemic1#asr002,Manual-BG-Phonemic1,,,,recording_owner,2026-09-25T00:00:00Z,owner: background recordings contain no wakeword
+owner-0255,mark_not_wakeword,Manual-BG-Phonemic1#asr003,Manual-BG-Phonemic1,,,,recording_owner,2026-09-25T00:00:00Z,owner: background recordings contain no wakeword
+owner-0256,mark_not_wakeword,Manual-BG-Phonemic1#asr004,Manual-BG-Phonemic1,,,,recording_owner,2026-09-25T00:00:00Z,owner: background recordings contain no wakeword
+owner-0257,mark_not_wakeword,Manual-BG-Phonemic1#asr005,Manual-BG-Phonemic1,,,,recording_owner,2026-09-25T00:00:00Z,owner: background recordings contain no wakeword
+owner-0258,mark_not_wakeword,Manual-BG-RPI16#asr000,Manual-BG-RPI16,,,,recording_owner,2026-09-25T00:00:00Z,owner: background recordings contain no wakeword
+owner-0259,mark_not_wakeword,Manual-BG-RPI16#asr001,Manual-BG-RPI16,,,,recording_owner,2026-09-25T00:00:00Z,owner: background recordings contain no wakeword
+owner-0260,mark_not_wakeword,Manual-BG-RPI16#asr002,Manual-BG-RPI16,,,,recording_owner,2026-09-25T00:00:00Z,owner: background recordings contain no wakeword
+owner-0261,mark_not_wakeword,Manual-BG-RPI16#asr003,Manual-BG-RPI16,,,,recording_owner,2026-09-25T00:00:00Z,owner: background recordings contain no wakeword
+owner-0262,mark_not_wakeword,Manual-BG-RPI16#asr004,Manual-BG-RPI16,,,,recording_owner,2026-09-25T00:00:00Z,owner: background recordings contain no wakeword
+owner-0263,mark_not_wakeword,Manual-BG-RPI20#asr000,Manual-BG-RPI20,,,,recording_owner,2026-09-25T00:00:00Z,owner: background recordings contain no wakeword
+owner-0264,mark_not_wakeword,Manual-BG-RPI20#asr001,Manual-BG-RPI20,,,,recording_owner,2026-09-25T00:00:00Z,owner: background recordings contain no wakeword
+owner-0265,mark_not_wakeword,Manual-BG-RPI20#asr002,Manual-BG-RPI20,,,,recording_owner,2026-09-25T00:00:00Z,owner: background recordings contain no wakeword
+owner-0266,mark_not_wakeword,Manual-BG-RPI20#asr003,Manual-BG-RPI20,,,,recording_owner,2026-09-25T00:00:00Z,owner: background recordings contain no wakeword
+owner-0267,mark_not_wakeword,Manual-BG-RPI20#asr004,Manual-BG-RPI20,,,,recording_owner,2026-09-25T00:00:00Z,owner: background recordings contain no wakeword
+owner-0268,mark_not_wakeword,Manual-BG-RPI24#asr000,Manual-BG-RPI24,,,,recording_owner,2026-09-25T00:00:00Z,owner: background recordings contain no wakeword
+owner-0269,mark_not_wakeword,Manual-BG-RPI24#asr001,Manual-BG-RPI24,,,,recording_owner,2026-09-25T00:00:00Z,owner: background recordings contain no wakeword
+owner-0270,mark_not_wakeword,Manual-BG-RPI24#asr002,Manual-BG-RPI24,,,,recording_owner,2026-09-25T00:00:00Z,owner: background recordings contain no wakeword
+owner-0271,mark_not_wakeword,Manual-BG-RPI24#asr003,Manual-BG-RPI24,,,,recording_owner,2026-09-25T00:00:00Z,owner: background recordings contain no wakeword
+owner-0272,mark_not_wakeword,Manual-BG-RPI24#asr004,Manual-BG-RPI24,,,,recording_owner,2026-09-25T00:00:00Z,owner: background recordings contain no wakeword
+owner-0273,mark_not_wakeword,Manual-BG-RPI32#asr000,Manual-BG-RPI32,,,,recording_owner,2026-09-25T00:00:00Z,owner: background recordings contain no wakeword
+owner-0274,mark_not_wakeword,Manual-BG-RPI8#asr000,Manual-BG-RPI8,,,,recording_owner,2026-09-25T00:00:00Z,owner: background recordings contain no wakeword

@@ -1,0 +1,41 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/negatives_general/Manual-BG-RPI32.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-29T03:03:29+00:00",
+ "duration_sec": 62.99733333333333,
+ "input_peak": 0.21246999502182007,
+ "chunks": [
+  {
+   "chunk_start": 15.252,
+   "chunk_end": 16.396,
+   "text": "Michelle",
+   "words": [
+    {
+     "word": "Michelle",
+     "start": 15.252,
+     "end": 15.492,
+     "probability": 0.6631
+    }
+   ]
+  },
+  {
+   "chunk_start": 18.004,
+   "chunk_end": 19.564,
+   "text": "Hey Martha!",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 18.004,
+     "end": 18.384,
+     "probability": 0.7891
+    },
+    {
+     "word": "Martha!",
+     "start": 18.384,
+     "end": 18.644,
+     "probability": 0.7407
+    }
+   ]
+  }
+ ]
+}

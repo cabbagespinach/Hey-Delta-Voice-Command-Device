@@ -1,0 +1,289 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0022.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:27:24+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.9026814699172974,
+ "chunks": [
+  {
+   "chunk_start": 1.972,
+   "chunk_end": 6.476,
+   "text": "Can you send me the address when you arrive?",
+   "words": [
+    {
+     "word": "Can",
+     "start": 3.132,
+     "end": 3.672,
+     "probability": 0.4939
+    },
+    {
+     "word": "you",
+     "start": 3.672,
+     "end": 4.072,
+     "probability": 0.9956
+    },
+    {
+     "word": "send",
+     "start": 4.072,
+     "end": 4.292,
+     "probability": 0.9653
+    },
+    {
+     "word": "me",
+     "start": 4.292,
+     "end": 4.532,
+     "probability": 0.9907
+    },
+    {
+     "word": "the",
+     "start": 4.532,
+     "end": 4.692,
+     "probability": 0.9824
+    },
+    {
+     "word": "address",
+     "start": 4.692,
+     "end": 5.012,
+     "probability": 0.9932
+    },
+    {
+     "word": "when",
+     "start": 5.012,
+     "end": 5.252,
+     "probability": 0.9927
+    },
+    {
+     "word": "you",
+     "start": 5.252,
+     "end": 5.412,
+     "probability": 0.9868
+    },
+    {
+     "word": "arrive?",
+     "start": 5.412,
+     "end": 5.712,
+     "probability": 0.9941
+    }
+   ]
+  },
+  {
+   "chunk_start": 12.564,
+   "chunk_end": 15.916,
+   "text": "That sounds like a reasonable idea to me.",
+   "words": [
+    {
+     "word": "That",
+     "start": 12.564,
+     "end": 12.824,
+     "probability": 0.6396
+    },
+    {
+     "word": "sounds",
+     "start": 12.824,
+     "end": 13.064,
+     "probability": 0.9639
+    },
+    {
+     "word": "like",
+     "start": 13.064,
+     "end": 13.664,
+     "probability": 0.9941
+    },
+    {
+     "word": "a",
+     "start": 13.664,
+     "end": 13.884,
+     "probability": 0.9985
+    },
+    {
+     "word": "reasonable",
+     "start": 13.884,
+     "end": 14.284,
+     "probability": 0.9941
+    },
+    {
+     "word": "idea",
+     "start": 14.284,
+     "end": 14.824,
+     "probability": 0.9971
+    },
+    {
+     "word": "to",
+     "start": 14.824,
+     "end": 15.124,
+     "probability": 0.9976
+    },
+    {
+     "word": "me.",
+     "start": 15.124,
+     "end": 15.324,
+     "probability": 0.9995
+    }
+   ]
+  },
+  {
+   "chunk_start": 16.5,
+   "chunk_end": 18.956,
+   "text": "I was looking for a quiet place to work.",
+   "words": [
+    {
+     "word": "I",
+     "start": 16.5,
+     "end": 16.86,
+     "probability": 0.8843
+    },
+    {
+     "word": "was",
+     "start": 16.86,
+     "end": 17.0,
+     "probability": 0.9971
+    },
+    {
+     "word": "looking",
+     "start": 17.0,
+     "end": 17.24,
+     "probability": 0.9966
+    },
+    {
+     "word": "for",
+     "start": 17.24,
+     "end": 17.46,
+     "probability": 0.9985
+    },
+    {
+     "word": "a",
+     "start": 17.46,
+     "end": 17.54,
+     "probability": 0.9536
+    },
+    {
+     "word": "quiet",
+     "start": 17.54,
+     "end": 17.76,
+     "probability": 0.9888
+    },
+    {
+     "word": "place",
+     "start": 17.76,
+     "end": 18.04,
+     "probability": 0.998
+    },
+    {
+     "word": "to",
+     "start": 18.04,
+     "end": 18.22,
+     "probability": 0.9966
+    },
+    {
+     "word": "work.",
+     "start": 18.22,
+     "end": 18.46,
+     "probability": 0.999
+    }
+   ]
+  },
+  {
+   "chunk_start": 24.372,
+   "chunk_end": 28.3,
+   "text": "There is enough time to finish this. Can you send me the address when you arrive?",
+   "words": [
+    {
+     "word": "There",
+     "start": 24.372,
+     "end": 24.692,
+     "probability": 0.5767
+    },
+    {
+     "word": "is",
+     "start": 24.692,
+     "end": 24.792,
+     "probability": 0.8794
+    },
+    {
+     "word": "enough",
+     "start": 24.792,
+     "end": 25.032,
+     "probability": 0.9941
+    },
+    {
+     "word": "time",
+     "start": 25.032,
+     "end": 25.352,
+     "probability": 0.999
+    },
+    {
+     "word": "to",
+     "start": 25.352,
+     "end": 25.652,
+     "probability": 0.9854
+    },
+    {
+     "word": "finish",
+     "start": 25.652,
+     "end": 25.952,
+     "probability": 0.9897
+    },
+    {
+     "word": "this.",
+     "start": 25.952,
+     "end": 26.172,
+     "probability": 0.7896
+    },
+    {
+     "word": "Can",
+     "start": 26.252,
+     "end": 26.312,
+     "probability": 0.8398
+    },
+    {
+     "word": "you",
+     "start": 26.312,
+     "end": 26.332,
+     "probability": 0.998
+    },
+    {
+     "word": "send",
+     "start": 26.332,
+     "end": 26.592,
+     "probability": 0.9971
+    },
+    {
+     "word": "me",
+     "start": 26.592,
+     "end": 26.712,
+     "probability": 0.9946
+    },
+    {
+     "word": "the",
+     "start": 26.712,
+     "end": 26.832,
+     "probability": 0.9956
+    },
+    {
+     "word": "address",
+     "start": 26.832,
+     "end": 27.072,
+     "probability": 0.998
+    },
+    {
+     "word": "when",
+     "start": 27.072,
+     "end": 27.352,
+     "probability": 0.9531
+    },
+    {
+     "word": "you",
+     "start": 27.352,
+     "end": 27.472,
+     "probability": 0.999
+    },
+    {
+     "word": "arrive?",
+     "start": 27.472,
+     "end": 27.652,
+     "probability": 0.9966
+    }
+   ]
+  }
+ ]
+}

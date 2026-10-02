@@ -1,0 +1,101 @@
+=== STEP 1/4 clone: add new commands to the 60 cloned voices 17:44:06
+600 candidate references; picked 60 (genders: 29 male / 31 female)
+voice 1/60 fleursfil00_m already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 2/60 fleursfil01_f already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 3/60 fleursfil02_f already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 4/60 fleursfil03_m already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 5/60 fleursfil04_f already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 6/60 fleursfil05_f already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 7/60 fleursfil06_m already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 8/60 fleursfil07_f already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 9/60 fleursfil08_m already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 10/60 fleursfil09_m already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 11/60 fleursfil10_m already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 12/60 fleursfil11_f already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 13/60 fleursfil12_m already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 14/60 fleursfil13_f already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 15/60 fleursfil14_f already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 16/60 fleursfil15_f already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 17/60 fleursfil16_m already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 18/60 fleursfil17_m already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 19/60 fleursfil18_f already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 20/60 fleursfil19_m already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 21/60 fleursfil20_m already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 22/60 fleursfil21_f already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 23/60 fleursfil22_f already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 24/60 fleursfil23_f already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 25/60 fleursfil24_m already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 26/60 fleursfil25_f already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 27/60 fleursfil26_f already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 28/60 fleursfil27_m already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 29/60 fleursfil28_f already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 30/60 fleursfil29_m already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 31/60 fleursfil30_m already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 32/60 fleursfil31_f already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 33/60 fleursfil32_f already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 34/60 fleursfil33_f already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 35/60 fleursfil34_m already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 36/60 fleursfil35_m already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 37/60 fleursfil36_m already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 38/60 fleursfil37_f already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 39/60 fleursfil38_f already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 40/60 fleursfil39_m already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 41/60 fleursfil40_m already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 42/60 fleursfil41_m already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 43/60 fleursfil42_m already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 44/60 fleursfil43_m already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 45/60 fleursfil44_f already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 46/60 fleursfil45_f already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 47/60 fleursfil46_f already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 48/60 fleursfil47_f already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 49/60 fleursfil48_f already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 50/60 fleursfil49_m already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 51/60 fleursfil50_f already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 52/60 fleursfil51_f already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 53/60 fleursfil52_m already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 54/60 fleursfil53_f already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 55/60 fleursfil54_m already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 56/60 fleursfil55_f already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 57/60 fleursfil56_f already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 58/60 fleursfil57_m already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 59/60 fleursfil58_m already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+voice 60/60 fleursfil59_m already done; dropped ['dim_lights_100'], added ['dim_lights_80', 'play#t1', 'play#t2', 'play#t3', 'party#t1', 'party#t2', 'party#t3']
+=== STEP 2/4 ph tier: new commands for the 36 Philippine-accent voices 17:55:56
+tier ph: 36 voices x (3 commands + 0 unknown sentences + 1 silent)
+synthesized 144 of 144 utterances (0 failed)
+wrote 94 clips (ph); rejected 14 by Whisper; manifest now 3041 rows
+label
+play    14
+=== STEP 3/4 clone tier: assemble + check the new commands for 60 cloned voices 17:57:06
+tier clone: 60 voices x (3 commands + 0 unknown sentences + 1 silent)
+synthesized 480 of 480 utterances (0 failed)
+wrote 175 clips (clone); rejected 5 by Whisper; manifest now 3216 rows
+label
+play             4
+dim_lights_80    1
+=== STEP 4/4 real web clips: all three corpora with Play mapped 17:58:29
+  tas: 1561 clips; unknown 1500, set_timer_5 16, set_timer_1 15, set_alarm_6am 12, set_alarm_7am 12, set_alarm_9pm 6
+  fsc: 6403 clips; unknown 1500, volume_down 1115, lights_on 647, volume_up 646, lights_off 637, play_music 530, louder 518, stop 371, pause 315, play 124
+  slurp: 2501 clips; unknown 1500, time 218, lights_off 183, volume_up 140, volume_down 114, weather 93, play_music 57, louder 50, stop 37, next 37, lights_on 21, skip 18, play 13, set_alarm_6am 8, pause 5, list_reminders 3, set_alarm_9pm 2, set_alarm_7am 2
+manifest: 10465 clips -> /mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/commands_real_web/manifest.csv
+class
+lights_off         820
+lights_on          668
+list_reminders       3
+next                55
+pause              320
+play               137
+play_music         587
+set_alarm_6am       20
+set_alarm_7am       14
+set_alarm_9pm        8
+set_timer_1         15
+set_timer_5         16
+stop               408
+time               218
+unknown           4500
+volume_down       1229
+volume_up         1354
+weather             93
+=== ALL DONE 18:01:49
+EXIT=0

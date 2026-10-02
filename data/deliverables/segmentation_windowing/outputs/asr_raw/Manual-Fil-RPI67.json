@@ -1,0 +1,292 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/positives/Manual-Fil-RPI67.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-29T03:03:59+00:00",
+ "duration_sec": 35.413333333333334,
+ "input_peak": 0.24162344634532928,
+ "chunks": [
+  {
+   "chunk_start": 0.308,
+   "chunk_end": 1.964,
+   "text": "Delta",
+   "words": [
+    {
+     "word": "Delta",
+     "start": 0.308,
+     "end": 0.868,
+     "probability": 0.4761
+    }
+   ]
+  },
+  {
+   "chunk_start": 3.38,
+   "chunk_end": 6.528,
+   "text": "Hey Delta!",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 3.38,
+     "end": 3.72,
+     "probability": 0.5366
+    },
+    {
+     "word": "Delta!",
+     "start": 3.72,
+     "end": 4.06,
+     "probability": 0.7822
+    }
+   ]
+  },
+  {
+   "chunk_start": 6.528,
+   "chunk_end": 8.716,
+   "text": "Hey Delta!",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 6.528,
+     "end": 7.028,
+     "probability": 0.6538
+    },
+    {
+     "word": "Delta!",
+     "start": 7.028,
+     "end": 7.268,
+     "probability": 0.7686
+    }
+   ]
+  },
+  {
+   "chunk_start": 10.004,
+   "chunk_end": 11.532,
+   "text": "Hey Delta",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 10.004,
+     "end": 10.324,
+     "probability": 0.5894
+    },
+    {
+     "word": "Delta",
+     "start": 10.324,
+     "end": 10.584,
+     "probability": 0.8462
+    }
+   ]
+  },
+  {
+   "chunk_start": 11.732,
+   "chunk_end": 13.228,
+   "text": "Okay, Delta.",
+   "words": [
+    {
+     "word": "Okay,",
+     "start": 11.732,
+     "end": 12.132,
+     "probability": 0.1815
+    },
+    {
+     "word": "Delta.",
+     "start": 12.132,
+     "end": 12.312,
+     "probability": 0.6382
+    }
+   ]
+  },
+  {
+   "chunk_start": 13.492,
+   "chunk_end": 15.088,
+   "text": "See you down the road.",
+   "words": [
+    {
+     "word": "See",
+     "start": 13.492,
+     "end": 13.832,
+     "probability": 0.0684
+    },
+    {
+     "word": "you",
+     "start": 13.832,
+     "end": 13.932,
+     "probability": 0.6528
+    },
+    {
+     "word": "down",
+     "start": 13.932,
+     "end": 14.112,
+     "probability": 0.3972
+    },
+    {
+     "word": "the",
+     "start": 14.112,
+     "end": 14.172,
+     "probability": 0.7085
+    },
+    {
+     "word": "road.",
+     "start": 14.172,
+     "end": 14.392,
+     "probability": 0.1433
+    }
+   ]
+  },
+  {
+   "chunk_start": 15.088,
+   "chunk_end": 16.716,
+   "text": "Hey Delta.",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 15.088,
+     "end": 15.428,
+     "probability": 0.1151
+    },
+    {
+     "word": "Delta.",
+     "start": 15.428,
+     "end": 15.648,
+     "probability": 0.6616
+    }
+   ]
+  },
+  {
+   "chunk_start": 19.092,
+   "chunk_end": 20.588,
+   "text": "Hey Delta.",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 19.092,
+     "end": 19.452,
+     "probability": 0.2339
+    },
+    {
+     "word": "Delta.",
+     "start": 19.452,
+     "end": 19.632,
+     "probability": 0.8647
+    }
+   ]
+  },
+  {
+   "chunk_start": 21.012,
+   "chunk_end": 22.796,
+   "text": "Here you go, sir.",
+   "words": [
+    {
+     "word": "Here",
+     "start": 21.012,
+     "end": 21.312,
+     "probability": 0.1349
+    },
+    {
+     "word": "you",
+     "start": 21.312,
+     "end": 21.432,
+     "probability": 0.2871
+    },
+    {
+     "word": "go,",
+     "start": 21.432,
+     "end": 21.572,
+     "probability": 0.9805
+    },
+    {
+     "word": "sir.",
+     "start": 21.572,
+     "end": 21.792,
+     "probability": 0.2517
+    }
+   ]
+  },
+  {
+   "chunk_start": 22.836,
+   "chunk_end": 24.684,
+   "text": "Hey Delta",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 22.836,
+     "end": 23.216,
+     "probability": 0.7578
+    },
+    {
+     "word": "Delta",
+     "start": 23.216,
+     "end": 23.476,
+     "probability": 0.7803
+    }
+   ]
+  },
+  {
+   "chunk_start": 24.98,
+   "chunk_end": 26.604,
+   "text": "Hey Delta!",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 24.98,
+     "end": 25.3,
+     "probability": 0.7354
+    },
+    {
+     "word": "Delta!",
+     "start": 25.3,
+     "end": 25.58,
+     "probability": 0.9102
+    }
+   ]
+  },
+  {
+   "chunk_start": 28.468,
+   "chunk_end": 29.484,
+   "text": "Thank you. Thank you.",
+   "words": [
+    {
+     "word": "Thank",
+     "start": 28.468,
+     "end": 28.488,
+     "probability": 0.0699
+    },
+    {
+     "word": "you.",
+     "start": 28.488,
+     "end": 28.488,
+     "probability": 0.9707
+    },
+    {
+     "word": "Thank",
+     "start": 28.588,
+     "end": 28.708,
+     "probability": 0.2639
+    },
+    {
+     "word": "you.",
+     "start": 28.708,
+     "end": 29.108,
+     "probability": 0.9956
+    }
+   ]
+  },
+  {
+   "chunk_start": 31.412,
+   "chunk_end": 33.388,
+   "text": "Hey Delta!",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 31.412,
+     "end": 31.572,
+     "probability": 0.5615
+    },
+    {
+     "word": "Delta!",
+     "start": 31.572,
+     "end": 31.852,
+     "probability": 0.8862
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+=== bcresnet6_hn: mine + train (00:21) ===
+[mine] 957 of 31876 train negatives, score >= 0.068; by type: {'negative_confusable': 318, 'negative_silence_noise': 305, 'negative_general_speech': 150, 'negative_media': 105, 'negative_partial_wakeword': 59, 'negative_real_background': 20}
+epoch  0 loss 0.5665 | val AUC 0.8962 thr 0.554 RPI 0.378 syn 0.000 * | 25s
+epoch  1 loss 0.4449 | val AUC 0.9199 thr 0.959 RPI 0.514 syn 0.077 * | 43s
+epoch  2 loss 0.3343 | val AUC 0.9644 thr 0.874 RPI 0.730 syn 0.335 * | 61s
+epoch  3 loss 0.2742 | val AUC 0.9956 thr 0.957 RPI 0.730 syn 0.629 * | 78s
+epoch  4 loss 0.2481 | val AUC 0.9950 thr 0.929 RPI 0.946 syn 0.696 * | 97s
+epoch  5 loss 0.2365 | val AUC 0.9973 thr 0.962 RPI 0.946 syn 0.794 * | 119s
+epoch  7 loss 0.2156 | val AUC 0.9934 thr 0.801 RPI 0.973 syn 0.866 * | 155s
+epoch  8 loss 0.2107 | val AUC 0.9922 thr 0.797 RPI 1.000 syn 0.851 * | 172s
+epoch 16 loss 0.1899 | val AUC 0.9930 thr 0.832 RPI 1.000 syn 0.881 * | 312s
+epoch 29 loss 0.1733 | val AUC 0.9971 thr 0.646 RPI 1.000 syn 0.907 * | 569s
+epoch 30 loss 0.1720 | val AUC 0.9945 thr 0.695 RPI 1.000 syn 0.923 * | 587s
+epoch 41 loss 0.1646 | val AUC 0.9948 thr 0.519 RPI 1.000 syn 0.933 * | 788s
+epoch 42 loss 0.1631 | val AUC 0.9917 thr 0.453 RPI 1.000 syn 0.938 * | 807s
+best epoch 42: selection 0.969, AUC 0.9917 -> /home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/deliverables/model/runs/bcresnet6_hn/best.pt
+=== bcresnet6_hn: evaluate (00:47) ===
+[isolated] AUC 0.9917, threshold 0.4530
+[streaming] 17.34 FA/h, detection 0.234
+| hey_android | 1112 | 23 | 2.07% [1.32, 3.09]% | 30 | 2.70% [1.83, 3.83]% | 11 / 50 |
+| hey_snapdragon | 1112 | 0 | 0.00% [0.00, 0.33]% | 7 | 0.63% [0.25, 1.29]% | 5 / 50 |
+| hi_galaxy | 934 | 2 | 0.21% [0.03, 0.77]% | 3 | 0.32% [0.07, 0.94]% | 3 / 50 |
+| hi_lumina | 1112 | 0 | 0.00% [0.00, 0.33]% | 0 | 0.00% [0.00, 0.33]% | 0 / 50 |
+| **all** | 4270 | 25 | 0.59% [0.38, 0.86]% | 40 | 0.94% [0.67, 1.27]% | 17 / 50 |
+
+=== round 2 done (01:08) ===

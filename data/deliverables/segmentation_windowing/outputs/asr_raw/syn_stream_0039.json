@@ -1,0 +1,374 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0039.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:27:50+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8768621683120728,
+ "chunks": [
+  {
+   "chunk_start": 1.012,
+   "chunk_end": 3.532,
+   "text": "The meeting starts in about 10 minutes.",
+   "words": [
+    {
+     "word": "The",
+     "start": 1.012,
+     "end": 1.332,
+     "probability": 0.9272
+    },
+    {
+     "word": "meeting",
+     "start": 1.332,
+     "end": 1.592,
+     "probability": 0.9922
+    },
+    {
+     "word": "starts",
+     "start": 1.592,
+     "end": 1.852,
+     "probability": 0.9966
+    },
+    {
+     "word": "in",
+     "start": 1.852,
+     "end": 2.112,
+     "probability": 0.998
+    },
+    {
+     "word": "about",
+     "start": 2.112,
+     "end": 2.312,
+     "probability": 0.9961
+    },
+    {
+     "word": "10",
+     "start": 2.312,
+     "end": 2.532,
+     "probability": 0.8804
+    },
+    {
+     "word": "minutes.",
+     "start": 2.532,
+     "end": 2.852,
+     "probability": 0.978
+    }
+   ]
+  },
+  {
+   "chunk_start": 4.98,
+   "chunk_end": 7.756,
+   "text": "The store closes earlier on weekends.",
+   "words": [
+    {
+     "word": "The",
+     "start": 4.98,
+     "end": 5.32,
+     "probability": 0.8311
+    },
+    {
+     "word": "store",
+     "start": 5.32,
+     "end": 5.52,
+     "probability": 0.9829
+    },
+    {
+     "word": "closes",
+     "start": 5.52,
+     "end": 5.88,
+     "probability": 0.9961
+    },
+    {
+     "word": "earlier",
+     "start": 5.88,
+     "end": 6.28,
+     "probability": 0.9619
+    },
+    {
+     "word": "on",
+     "start": 6.28,
+     "end": 6.64,
+     "probability": 0.9966
+    },
+    {
+     "word": "weekends.",
+     "start": 6.64,
+     "end": 6.96,
+     "probability": 0.9941
+    }
+   ]
+  },
+  {
+   "chunk_start": 12.468,
+   "chunk_end": 17.04,
+   "text": "Hey Delta, the next episode is the one that's simply cheaper.",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 12.468,
+     "end": 12.848,
+     "probability": 0.5093
+    },
+    {
+     "word": "Delta,",
+     "start": 12.848,
+     "end": 13.248,
+     "probability": 0.6865
+    },
+    {
+     "word": "the",
+     "start": 13.708,
+     "end": 14.428,
+     "probability": 0.8008
+    },
+    {
+     "word": "next",
+     "start": 14.428,
+     "end": 14.708,
+     "probability": 0.9951
+    },
+    {
+     "word": "episode",
+     "start": 14.708,
+     "end": 14.888,
+     "probability": 0.1094
+    },
+    {
+     "word": "is",
+     "start": 14.888,
+     "end": 15.288,
+     "probability": 0.5044
+    },
+    {
+     "word": "the",
+     "start": 15.288,
+     "end": 15.408,
+     "probability": 0.2029
+    },
+    {
+     "word": "one",
+     "start": 15.408,
+     "end": 15.568,
+     "probability": 0.8003
+    },
+    {
+     "word": "that's",
+     "start": 15.568,
+     "end": 15.768,
+     "probability": 0.6167
+    },
+    {
+     "word": "simply",
+     "start": 15.768,
+     "end": 15.908,
+     "probability": 0.1029
+    },
+    {
+     "word": "cheaper.",
+     "start": 15.908,
+     "end": 16.368,
+     "probability": 0.4165
+    }
+   ]
+  },
+  {
+   "chunk_start": 17.04,
+   "chunk_end": 23.82,
+   "text": "Can you send me the address? There are several things we need to discuss. He dealt her. There is enough time to finish this today.",
+   "words": [
+    {
+     "word": "Can",
+     "start": 17.04,
+     "end": 17.32,
+     "probability": 0.5889
+    },
+    {
+     "word": "you",
+     "start": 17.32,
+     "end": 17.48,
+     "probability": 0.9976
+    },
+    {
+     "word": "send",
+     "start": 17.48,
+     "end": 17.72,
+     "probability": 0.9976
+    },
+    {
+     "word": "me",
+     "start": 17.72,
+     "end": 17.96,
+     "probability": 0.9946
+    },
+    {
+     "word": "the",
+     "start": 17.96,
+     "end": 18.1,
+     "probability": 0.9839
+    },
+    {
+     "word": "address?",
+     "start": 18.1,
+     "end": 18.24,
+     "probability": 0.9917
+    },
+    {
+     "word": "There",
+     "start": 18.3,
+     "end": 18.42,
+     "probability": 0.8467
+    },
+    {
+     "word": "are",
+     "start": 18.42,
+     "end": 18.48,
+     "probability": 0.9556
+    },
+    {
+     "word": "several",
+     "start": 18.48,
+     "end": 18.86,
+     "probability": 0.9946
+    },
+    {
+     "word": "things",
+     "start": 18.86,
+     "end": 19.14,
+     "probability": 0.9951
+    },
+    {
+     "word": "we",
+     "start": 19.14,
+     "end": 19.44,
+     "probability": 0.9868
+    },
+    {
+     "word": "need",
+     "start": 19.44,
+     "end": 19.64,
+     "probability": 0.9966
+    },
+    {
+     "word": "to",
+     "start": 19.64,
+     "end": 19.76,
+     "probability": 0.998
+    },
+    {
+     "word": "discuss.",
+     "start": 19.76,
+     "end": 20.06,
+     "probability": 0.9927
+    },
+    {
+     "word": "He",
+     "start": 20.14,
+     "end": 20.26,
+     "probability": 0.521
+    },
+    {
+     "word": "dealt",
+     "start": 20.26,
+     "end": 20.38,
+     "probability": 0.874
+    },
+    {
+     "word": "her.",
+     "start": 20.38,
+     "end": 20.64,
+     "probability": 0.9844
+    },
+    {
+     "word": "There",
+     "start": 20.74,
+     "end": 21.2,
+     "probability": 0.9951
+    },
+    {
+     "word": "is",
+     "start": 21.2,
+     "end": 21.4,
+     "probability": 0.9976
+    },
+    {
+     "word": "enough",
+     "start": 21.4,
+     "end": 21.7,
+     "probability": 0.9985
+    },
+    {
+     "word": "time",
+     "start": 21.7,
+     "end": 21.96,
+     "probability": 0.9995
+    },
+    {
+     "word": "to",
+     "start": 21.96,
+     "end": 22.22,
+     "probability": 0.9995
+    },
+    {
+     "word": "finish",
+     "start": 22.22,
+     "end": 22.54,
+     "probability": 0.999
+    },
+    {
+     "word": "this",
+     "start": 22.54,
+     "end": 22.86,
+     "probability": 0.9995
+    },
+    {
+     "word": "today.",
+     "start": 22.86,
+     "end": 23.16,
+     "probability": 0.9976
+    }
+   ]
+  },
+  {
+   "chunk_start": 24.34,
+   "chunk_end": 27.564,
+   "text": "The report contains several useful examples.",
+   "words": [
+    {
+     "word": "The",
+     "start": 24.34,
+     "end": 24.66,
+     "probability": 0.9453
+    },
+    {
+     "word": "report",
+     "start": 24.66,
+     "end": 24.98,
+     "probability": 0.9902
+    },
+    {
+     "word": "contains",
+     "start": 24.98,
+     "end": 25.36,
+     "probability": 0.9849
+    },
+    {
+     "word": "several",
+     "start": 25.36,
+     "end": 25.76,
+     "probability": 0.9985
+    },
+    {
+     "word": "useful",
+     "start": 25.76,
+     "end": 26.12,
+     "probability": 0.998
+    },
+    {
+     "word": "examples.",
+     "start": 26.12,
+     "end": 26.6,
+     "probability": 0.998
+    }
+   ]
+  }
+ ]
+}

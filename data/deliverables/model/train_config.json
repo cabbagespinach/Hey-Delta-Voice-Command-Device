@@ -1,0 +1,17 @@
+{
+  "_description": "Training recipe for the BC-ResNet wakeword baseline (owner-approved plan, 2026-09-29). Keys starting with '_' are documentation.",
+  "seed": 20260929,
+  "epochs": 60,
+  "batch_size": 256,
+  "num_workers": 16,
+  "optimizer": {"name": "AdamW", "lr": 0.002, "weight_decay": 0.001},
+  "schedule": {"warmup_epochs": 3, "then": "cosine to 0"},
+  "label_smoothing": 0.05,
+  "_label_smoothing": "Binary targets become 0.025 / 0.975: tempers over-confidence on the few, single-speaker positives.",
+  "spec_augment": {"freq_masks": 2, "max_freq_bins": 6, "time_masks": 2, "max_time_frames": 12, "probability": 0.8},
+  "_spec_augment": "Park et al. 2019, on normalised log-mel features of training examples only. A masked region is set to 0 (the per-bin train mean). Time masks are at most 12 frames (120 ms), well under a wakeword (~0.6-1.0 s), so a positive never loses the whole word.",
+  "selection": {"metric": "mean detection rate over positive subsets real_device_rpi and synthetic at the policy threshold", "tiebreak": "validation ROC AUC"},
+  "_selection": "Each epoch the model scores the frozen isolated validation set; the threshold is chosen with eval_config.json threshold_policy (per-category FPR <= 1% on deployment-like negatives), exactly as the evaluator does. Real RPI and synthetic positives are weighted equally so the device confound cannot win selection. Validation only; test and streaming are never read.",
+  "hard_negative_mining": {"top_fraction_of_train_negatives": 0.03, "max_windows": 2000, "share_of_draws": 0.10},
+  "_hard_negative_mining": "Round 2: the round-1 model scores every train negative window (unaugmented); the highest-scoring 3% (at most 2,000) become a mined set that receives 10% of each epoch's draws (substituted at random positions of the bucket-quota epoch, so bucket shares shrink proportionally). Train data only; the model is retrained from scratch with the same recipe."
+}

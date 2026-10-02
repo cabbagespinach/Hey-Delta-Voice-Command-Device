@@ -1,0 +1,8 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/negatives_general/Manual-BG-RPI12.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:26:08+00:00",
+ "duration_sec": 20.469333333333335,
+ "input_peak": 0.027352042496204376,
+ "chunks": []
+}

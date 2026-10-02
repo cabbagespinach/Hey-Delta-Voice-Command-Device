@@ -1,0 +1,13 @@
+{
+  "model": "BC-ResNet-6 (round 1c), runs/bcresnet6/best.pt",
+  "model_file": "heydelta_bcresnet6.onnx",
+  "threshold": 0.733501970767975,
+  "k_of_n": [
+    2,
+    3
+  ],
+  "refractory_sec": 1.0,
+  "input": "float32 [B, 24000] = 1.5 s of 16 kHz mono audio, -1..1",
+  "output": "prob float32 [B]",
+  "threshold_source": "chosen on isolated validation: lowest threshold with FPR <= 0.01 in every negative category of deployment-like audio (excluding real_external)"
+}

@@ -1,0 +1,314 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0017.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:27:17+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8962258696556091,
+ "chunks": [
+  {
+   "chunk_start": 3.988,
+   "chunk_end": 8.492,
+   "text": "There are several things we need to discuss.",
+   "words": [
+    {
+     "word": "There",
+     "start": 4.668,
+     "end": 5.308,
+     "probability": 0.2688
+    },
+    {
+     "word": "are",
+     "start": 5.308,
+     "end": 5.508,
+     "probability": 0.9951
+    },
+    {
+     "word": "several",
+     "start": 5.508,
+     "end": 5.828,
+     "probability": 0.9834
+    },
+    {
+     "word": "things",
+     "start": 5.828,
+     "end": 6.288,
+     "probability": 0.9937
+    },
+    {
+     "word": "we",
+     "start": 6.288,
+     "end": 6.708,
+     "probability": 0.9863
+    },
+    {
+     "word": "need",
+     "start": 6.708,
+     "end": 6.988,
+     "probability": 0.9946
+    },
+    {
+     "word": "to",
+     "start": 6.988,
+     "end": 7.268,
+     "probability": 0.999
+    },
+    {
+     "word": "discuss.",
+     "start": 7.268,
+     "end": 7.688,
+     "probability": 0.9927
+    }
+   ]
+  },
+  {
+   "chunk_start": 10.516,
+   "chunk_end": 13.644,
+   "text": "Time-wetting starts in about 10 minutes.",
+   "words": [
+    {
+     "word": "Time",
+     "start": 10.516,
+     "end": 10.956,
+     "probability": 0.5376
+    },
+    {
+     "word": "-wetting",
+     "start": 10.956,
+     "end": 11.396,
+     "probability": 0.4843
+    },
+    {
+     "word": "starts",
+     "start": 11.396,
+     "end": 11.856,
+     "probability": 0.2094
+    },
+    {
+     "word": "in",
+     "start": 11.856,
+     "end": 11.876,
+     "probability": 0.98
+    },
+    {
+     "word": "about",
+     "start": 11.876,
+     "end": 12.216,
+     "probability": 0.9814
+    },
+    {
+     "word": "10",
+     "start": 12.216,
+     "end": 12.556,
+     "probability": 0.8203
+    },
+    {
+     "word": "minutes.",
+     "start": 12.556,
+     "end": 12.876,
+     "probability": 0.9473
+    }
+   ]
+  },
+  {
+   "chunk_start": 14.324,
+   "chunk_end": 17.856,
+   "text": "There may be some states of faith around.",
+   "words": [
+    {
+     "word": "There",
+     "start": 14.324,
+     "end": 14.724,
+     "probability": 0.0597
+    },
+    {
+     "word": "may",
+     "start": 14.724,
+     "end": 15.024,
+     "probability": 0.8032
+    },
+    {
+     "word": "be",
+     "start": 15.024,
+     "end": 15.204,
+     "probability": 0.8574
+    },
+    {
+     "word": "some",
+     "start": 15.204,
+     "end": 15.704,
+     "probability": 0.5645
+    },
+    {
+     "word": "states",
+     "start": 15.704,
+     "end": 16.084,
+     "probability": 0.1288
+    },
+    {
+     "word": "of",
+     "start": 16.084,
+     "end": 16.424,
+     "probability": 0.3755
+    },
+    {
+     "word": "faith",
+     "start": 16.424,
+     "end": 16.824,
+     "probability": 0.7959
+    },
+    {
+     "word": "around.",
+     "start": 16.824,
+     "end": 17.184,
+     "probability": 0.5488
+    }
+   ]
+  },
+  {
+   "chunk_start": 17.856,
+   "chunk_end": 20.876,
+   "text": "Test storage losses earlier on weekends.",
+   "words": [
+    {
+     "word": "Test",
+     "start": 17.856,
+     "end": 18.236,
+     "probability": 0.5713
+    },
+    {
+     "word": "storage",
+     "start": 18.236,
+     "end": 18.576,
+     "probability": 0.7441
+    },
+    {
+     "word": "losses",
+     "start": 18.576,
+     "end": 18.856,
+     "probability": 0.9756
+    },
+    {
+     "word": "earlier",
+     "start": 18.856,
+     "end": 19.296,
+     "probability": 0.9463
+    },
+    {
+     "word": "on",
+     "start": 19.296,
+     "end": 19.776,
+     "probability": 0.9951
+    },
+    {
+     "word": "weekends.",
+     "start": 19.776,
+     "end": 20.096,
+     "probability": 0.8291
+    }
+   ]
+  },
+  {
+   "chunk_start": 23.764,
+   "chunk_end": 29.068,
+   "text": "This recording is brought to you by the U.S. Department of Health and Human Services.",
+   "words": [
+    {
+     "word": "This",
+     "start": 23.764,
+     "end": 24.104,
+     "probability": 0.79
+    },
+    {
+     "word": "recording",
+     "start": 24.104,
+     "end": 24.524,
+     "probability": 0.9961
+    },
+    {
+     "word": "is",
+     "start": 24.524,
+     "end": 24.924,
+     "probability": 0.7534
+    },
+    {
+     "word": "brought",
+     "start": 24.924,
+     "end": 25.204,
+     "probability": 0.0398
+    },
+    {
+     "word": "to",
+     "start": 25.204,
+     "end": 25.344,
+     "probability": 0.9995
+    },
+    {
+     "word": "you",
+     "start": 25.344,
+     "end": 25.664,
+     "probability": 0.9985
+    },
+    {
+     "word": "by",
+     "start": 25.664,
+     "end": 25.804,
+     "probability": 0.9775
+    },
+    {
+     "word": "the",
+     "start": 25.804,
+     "end": 26.044,
+     "probability": 0.4634
+    },
+    {
+     "word": "U",
+     "start": 26.044,
+     "end": 26.084,
+     "probability": 0.09
+    },
+    {
+     "word": ".S.",
+     "start": 26.084,
+     "end": 26.284,
+     "probability": 0.9612
+    },
+    {
+     "word": "Department",
+     "start": 26.544,
+     "end": 26.544,
+     "probability": 0.6396
+    },
+    {
+     "word": "of",
+     "start": 26.544,
+     "end": 27.124,
+     "probability": 0.999
+    },
+    {
+     "word": "Health",
+     "start": 27.124,
+     "end": 27.304,
+     "probability": 0.1864
+    },
+    {
+     "word": "and",
+     "start": 27.304,
+     "end": 27.324,
+     "probability": 0.6772
+    },
+    {
+     "word": "Human",
+     "start": 27.324,
+     "end": 27.544,
+     "probability": 0.9248
+    },
+    {
+     "word": "Services.",
+     "start": 27.544,
+     "end": 27.884,
+     "probability": 0.9658
+    }
+   ]
+  }
+ ]
+}

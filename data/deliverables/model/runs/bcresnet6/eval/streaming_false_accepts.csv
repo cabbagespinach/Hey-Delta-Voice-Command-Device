@@ -1,0 +1,12 @@
+stream_id,set,condition,trigger_sec,score,category,event_id
+evalB_0000,B_composed,quiet,3.7,0.8898196816444397,confusable,evalB_0000#e135
+evalB_0004,B_composed,quiet,18.1,0.8938142657279968,partial_tail,evalB_0004#e169
+evalB_0005,B_composed,quiet,2.3,0.9452875256538391,partial_tail,evalB_0005#e170
+evalB_0005,B_composed,quiet,17.6,0.9438384771347046,partial_tail,evalB_0005#e176
+evalB_0006,B_composed,quiet,40.3,0.9615678191184998,partial_head,evalB_0006#e182
+evalB_0006,B_composed,quiet,52.3,0.987331211566925,confusable,evalB_0006#e185
+evalB_0013,B_composed,environmental_noise,7.9,0.791921854019165,confusable,evalB_0013#e241
+evalB_0014,B_composed,environmental_noise,37.5,0.9122053980827332,confusable,evalB_0014#e248
+evalB_0021,B_composed,continuous_speech,23.1,0.9626045823097229,confusable,evalB_0021#e318
+evalB_0050,B_composed,mixed,11.5,0.900019645690918,partial_tail,evalB_0050#e494
+evalB_0053,B_composed,mixed,57.6,0.8216086626052856,confusable,evalB_0053#e518

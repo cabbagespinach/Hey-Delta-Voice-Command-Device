@@ -1,0 +1,234 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0050.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:28:08+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8976371884346008,
+ "chunks": [
+  {
+   "chunk_start": 1.108,
+   "chunk_end": 3.852,
+   "text": "The store closes earlier on weekends.",
+   "words": [
+    {
+     "word": "The",
+     "start": 1.108,
+     "end": 1.448,
+     "probability": 0.8569
+    },
+    {
+     "word": "store",
+     "start": 1.448,
+     "end": 1.688,
+     "probability": 0.9907
+    },
+    {
+     "word": "closes",
+     "start": 1.688,
+     "end": 2.048,
+     "probability": 0.9932
+    },
+    {
+     "word": "earlier",
+     "start": 2.048,
+     "end": 2.428,
+     "probability": 0.9575
+    },
+    {
+     "word": "on",
+     "start": 2.428,
+     "end": 2.788,
+     "probability": 0.9976
+    },
+    {
+     "word": "weekends.",
+     "start": 2.788,
+     "end": 3.108,
+     "probability": 0.9917
+    }
+   ]
+  },
+  {
+   "chunk_start": 8.596,
+   "chunk_end": 17.772,
+   "text": "There are several things we need to discuss. We should probably change the schedule. The next episode starts after the commercial.",
+   "words": [
+    {
+     "word": "There",
+     "start": 8.596,
+     "end": 8.936,
+     "probability": 0.8433
+    },
+    {
+     "word": "are",
+     "start": 8.936,
+     "end": 9.076,
+     "probability": 0.9995
+    },
+    {
+     "word": "several",
+     "start": 9.076,
+     "end": 9.496,
+     "probability": 0.9995
+    },
+    {
+     "word": "things",
+     "start": 9.496,
+     "end": 9.836,
+     "probability": 0.999
+    },
+    {
+     "word": "we",
+     "start": 9.836,
+     "end": 10.196,
+     "probability": 0.9927
+    },
+    {
+     "word": "need",
+     "start": 10.196,
+     "end": 10.456,
+     "probability": 0.9995
+    },
+    {
+     "word": "to",
+     "start": 10.456,
+     "end": 10.716,
+     "probability": 0.9995
+    },
+    {
+     "word": "discuss.",
+     "start": 10.716,
+     "end": 11.136,
+     "probability": 0.999
+    },
+    {
+     "word": "We",
+     "start": 11.296,
+     "end": 11.416,
+     "probability": 0.3982
+    },
+    {
+     "word": "should",
+     "start": 11.416,
+     "end": 11.496,
+     "probability": 0.9961
+    },
+    {
+     "word": "probably",
+     "start": 11.496,
+     "end": 11.796,
+     "probability": 0.999
+    },
+    {
+     "word": "change",
+     "start": 11.796,
+     "end": 12.176,
+     "probability": 0.9678
+    },
+    {
+     "word": "the",
+     "start": 12.176,
+     "end": 12.356,
+     "probability": 0.6201
+    },
+    {
+     "word": "schedule.",
+     "start": 12.356,
+     "end": 12.756,
+     "probability": 0.9912
+    },
+    {
+     "word": "The",
+     "start": 12.816,
+     "end": 13.396,
+     "probability": 0.9609
+    },
+    {
+     "word": "next",
+     "start": 13.396,
+     "end": 14.096,
+     "probability": 0.9995
+    },
+    {
+     "word": "episode",
+     "start": 14.096,
+     "end": 14.756,
+     "probability": 0.999
+    },
+    {
+     "word": "starts",
+     "start": 14.756,
+     "end": 15.236,
+     "probability": 0.999
+    },
+    {
+     "word": "after",
+     "start": 15.236,
+     "end": 15.616,
+     "probability": 0.9971
+    },
+    {
+     "word": "the",
+     "start": 15.616,
+     "end": 15.896,
+     "probability": 0.9985
+    },
+    {
+     "word": "commercial.",
+     "start": 15.896,
+     "end": 16.216,
+     "probability": 0.9976
+    }
+   ]
+  },
+  {
+   "chunk_start": 25.396,
+   "chunk_end": 28.684,
+   "text": "The weather is changing again this afternoon.",
+   "words": [
+    {
+     "word": "The",
+     "start": 25.396,
+     "end": 25.776,
+     "probability": 0.8462
+    },
+    {
+     "word": "weather",
+     "start": 25.776,
+     "end": 26.116,
+     "probability": 0.9932
+    },
+    {
+     "word": "is",
+     "start": 26.116,
+     "end": 26.376,
+     "probability": 0.9937
+    },
+    {
+     "word": "changing",
+     "start": 26.376,
+     "end": 26.756,
+     "probability": 0.998
+    },
+    {
+     "word": "again",
+     "start": 26.756,
+     "end": 27.256,
+     "probability": 0.9854
+    },
+    {
+     "word": "this",
+     "start": 27.256,
+     "end": 27.496,
+     "probability": 0.9927
+    },
+    {
+     "word": "afternoon.",
+     "start": 27.496,
+     "end": 27.816,
+     "probability": 0.9976
+    }
+   ]
+  }
+ ]
+}

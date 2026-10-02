@@ -1,0 +1,308 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0105.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:29:35+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8753632307052612,
+ "chunks": [
+  {
+   "chunk_start": 3.764,
+   "chunk_end": 8.908,
+   "text": "This recording is only being used as synthetic data.",
+   "words": [
+    {
+     "word": "This",
+     "start": 3.764,
+     "end": 4.104,
+     "probability": 0.9067
+    },
+    {
+     "word": "recording",
+     "start": 4.104,
+     "end": 4.584,
+     "probability": 0.9937
+    },
+    {
+     "word": "is",
+     "start": 4.584,
+     "end": 4.964,
+     "probability": 0.9985
+    },
+    {
+     "word": "only",
+     "start": 4.964,
+     "end": 5.224,
+     "probability": 0.9961
+    },
+    {
+     "word": "being",
+     "start": 5.224,
+     "end": 5.564,
+     "probability": 0.9927
+    },
+    {
+     "word": "used",
+     "start": 5.564,
+     "end": 5.964,
+     "probability": 0.9985
+    },
+    {
+     "word": "as",
+     "start": 5.964,
+     "end": 6.284,
+     "probability": 0.9873
+    },
+    {
+     "word": "synthetic",
+     "start": 6.284,
+     "end": 6.784,
+     "probability": 0.9722
+    },
+    {
+     "word": "data.",
+     "start": 6.784,
+     "end": 7.344,
+     "probability": 0.9941
+    }
+   ]
+  },
+  {
+   "chunk_start": 9.844,
+   "chunk_end": 12.492,
+   "text": "The next episode starts after the commercial.",
+   "words": [
+    {
+     "word": "The",
+     "start": 9.844,
+     "end": 10.144,
+     "probability": 0.9355
+    },
+    {
+     "word": "next",
+     "start": 10.144,
+     "end": 10.324,
+     "probability": 0.998
+    },
+    {
+     "word": "episode",
+     "start": 10.324,
+     "end": 10.664,
+     "probability": 0.9971
+    },
+    {
+     "word": "starts",
+     "start": 10.664,
+     "end": 11.004,
+     "probability": 0.9976
+    },
+    {
+     "word": "after",
+     "start": 11.004,
+     "end": 11.384,
+     "probability": 0.9985
+    },
+    {
+     "word": "the",
+     "start": 11.384,
+     "end": 11.524,
+     "probability": 0.9976
+    },
+    {
+     "word": "commercial.",
+     "start": 11.524,
+     "end": 11.784,
+     "probability": 0.9956
+    }
+   ]
+  },
+  {
+   "chunk_start": 12.916,
+   "chunk_end": 17.9,
+   "text": "Hey Delta, this recording is only being used as synthetic data.",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 12.916,
+     "end": 13.276,
+     "probability": 0.6792
+    },
+    {
+     "word": "Delta,",
+     "start": 13.276,
+     "end": 13.676,
+     "probability": 0.8843
+    },
+    {
+     "word": "this",
+     "start": 13.936,
+     "end": 14.116,
+     "probability": 0.7437
+    },
+    {
+     "word": "recording",
+     "start": 14.116,
+     "end": 14.636,
+     "probability": 0.9956
+    },
+    {
+     "word": "is",
+     "start": 14.636,
+     "end": 14.976,
+     "probability": 0.9961
+    },
+    {
+     "word": "only",
+     "start": 14.976,
+     "end": 15.216,
+     "probability": 0.9731
+    },
+    {
+     "word": "being",
+     "start": 15.216,
+     "end": 15.496,
+     "probability": 0.9937
+    },
+    {
+     "word": "used",
+     "start": 15.496,
+     "end": 15.956,
+     "probability": 0.9976
+    },
+    {
+     "word": "as",
+     "start": 15.956,
+     "end": 16.256,
+     "probability": 0.9912
+    },
+    {
+     "word": "synthetic",
+     "start": 16.256,
+     "end": 16.556,
+     "probability": 0.9443
+    },
+    {
+     "word": "data.",
+     "start": 16.556,
+     "end": 17.176,
+     "probability": 0.9976
+    }
+   ]
+  },
+  {
+   "chunk_start": 23.38,
+   "chunk_end": 25.676,
+   "text": "I will call you when get back home.",
+   "words": [
+    {
+     "word": "I",
+     "start": 23.38,
+     "end": 23.7,
+     "probability": 0.9561
+    },
+    {
+     "word": "will",
+     "start": 23.7,
+     "end": 23.84,
+     "probability": 0.9219
+    },
+    {
+     "word": "call",
+     "start": 23.84,
+     "end": 24.06,
+     "probability": 0.999
+    },
+    {
+     "word": "you",
+     "start": 24.06,
+     "end": 24.22,
+     "probability": 0.9976
+    },
+    {
+     "word": "when",
+     "start": 24.22,
+     "end": 24.42,
+     "probability": 0.9932
+    },
+    {
+     "word": "get",
+     "start": 24.42,
+     "end": 24.62,
+     "probability": 0.9565
+    },
+    {
+     "word": "back",
+     "start": 24.62,
+     "end": 24.88,
+     "probability": 0.9985
+    },
+    {
+     "word": "home.",
+     "start": 24.88,
+     "end": 25.2,
+     "probability": 0.998
+    }
+   ]
+  },
+  {
+   "chunk_start": 25.78,
+   "chunk_end": 29.836,
+   "text": "I'm happy to see you again, New Year's Eve.",
+   "words": [
+    {
+     "word": "I'm",
+     "start": 25.78,
+     "end": 26.32,
+     "probability": 0.3486
+    },
+    {
+     "word": "happy",
+     "start": 26.32,
+     "end": 26.7,
+     "probability": 0.3059
+    },
+    {
+     "word": "to",
+     "start": 26.7,
+     "end": 26.88,
+     "probability": 0.4172
+    },
+    {
+     "word": "see",
+     "start": 26.88,
+     "end": 27.36,
+     "probability": 0.0974
+    },
+    {
+     "word": "you",
+     "start": 27.36,
+     "end": 27.48,
+     "probability": 0.8491
+    },
+    {
+     "word": "again,",
+     "start": 27.48,
+     "end": 27.64,
+     "probability": 0.3694
+    },
+    {
+     "word": "New",
+     "start": 27.66,
+     "end": 27.82,
+     "probability": 0.0828
+    },
+    {
+     "word": "Year's",
+     "start": 27.82,
+     "end": 28.26,
+     "probability": 0.8994
+    },
+    {
+     "word": "Eve.",
+     "start": 28.26,
+     "end": 28.46,
+     "probability": 0.3779
+    }
+   ]
+  }
+ ]
+}

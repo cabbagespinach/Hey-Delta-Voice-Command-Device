@@ -1,0 +1,48 @@
+owner recordings: 37 (62.8 min); public windows: 2796
+public: kept 2783, dropped 13 windows with command words
+  Manual-BG-Macmic1.wav: 1 windows (0 command/wake words avoided)
+  Manual-BG-Macmic2.wav: 23 windows (12 command/wake words avoided)
+  Manual-BG-Phonemic1.wav: 3 windows (6 command/wake words avoided)
+  Manual-BG-RPI10.wav: 19 windows (0 command/wake words avoided)
+  Manual-BG-RPI11.wav: 15 windows (0 command/wake words avoided)
+  Manual-BG-RPI12.wav: 6 windows (0 command/wake words avoided)
+  Manual-BG-RPI13.wav: 7 windows (0 command/wake words avoided)
+  Manual-BG-RPI14.wav: 1 windows (0 command/wake words avoided)
+  Manual-BG-RPI15.wav: 1 windows (0 command/wake words avoided)
+  Manual-BG-RPI16.wav: 31 windows (4 command/wake words avoided)
+  Manual-BG-RPI17.wav: 35 windows (0 command/wake words avoided)
+  Manual-BG-RPI18.wav: 60 windows (5 command/wake words avoided)
+  Manual-BG-RPI19.wav: 60 windows (0 command/wake words avoided)
+  Manual-BG-RPI20.wav: 60 windows (5 command/wake words avoided)
+  Manual-BG-RPI21.wav: 60 windows (5 command/wake words avoided)
+  Manual-BG-RPI22.wav: 56 windows (0 command/wake words avoided)
+  Manual-BG-RPI23.wav: 40 windows (0 command/wake words avoided)
+  Manual-BG-RPI24.wav: 60 windows (5 command/wake words avoided)
+  Manual-BG-RPI25.wav: 1 windows (0 command/wake words avoided)
+  Manual-BG-RPI26.wav: 17 windows (0 command/wake words avoided)
+  Manual-BG-RPI27.wav: 18 windows (0 command/wake words avoided)
+  Manual-BG-RPI28.wav: 42 windows (0 command/wake words avoided)
+  Manual-BG-RPI29.wav: 34 windows (0 command/wake words avoided)
+  Manual-BG-RPI3.wav: 3 windows (0 command/wake words avoided)
+  Manual-BG-RPI30.wav: 23 windows (0 command/wake words avoided)
+  Manual-BG-RPI31.wav: 15 windows (0 command/wake words avoided)
+  Manual-BG-RPI32.wav: 17 windows (2 command/wake words avoided)
+  Manual-BG-RPI33.wav: 23 windows (0 command/wake words avoided)
+  Manual-BG-RPI34.wav: 41 windows (0 command/wake words avoided)
+  Manual-BG-RPI36.wav: 37 windows (0 command/wake words avoided)
+  Manual-BG-RPI4.wav: 3 windows (0 command/wake words avoided)
+  Manual-BG-RPI5.wav: 9 windows (0 command/wake words avoided)
+  Manual-BG-RPI6.wav: 5 windows (2 command/wake words avoided)
+  Manual-BG-RPI7.wav: 2 windows (0 command/wake words avoided)
+  Manual-BG-RPI8.wav: 0 windows (1 command/wake words avoided)
+  Manual-BG-RPI9.wav: 2 windows (0 command/wake words avoided)
+  Manual-Fil-RPI69.wav: 31 windows (2 command/wake words avoided)
+manifest: 3644 clips -> /mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/commands_unknown_reuse/manifest.csv
+source_split    test  train  validation
+label                                  
+unknown_music     40    320          40
+unknown_noise    128    674         128
+unknown_room     112    661          88
+unknown_speech    80    627          80
+unknown_word      48    562          56
+EXIT=0

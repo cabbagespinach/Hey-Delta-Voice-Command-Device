@@ -1,0 +1,270 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0030.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:27:36+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.9012532830238342,
+ "chunks": [
+  {
+   "chunk_start": 2.164,
+   "chunk_end": 4.94,
+   "text": "We can take a time train after Loon",
+   "words": [
+    {
+     "word": "We",
+     "start": 2.164,
+     "end": 2.524,
+     "probability": 0.1914
+    },
+    {
+     "word": "can",
+     "start": 2.524,
+     "end": 2.724,
+     "probability": 0.5122
+    },
+    {
+     "word": "take",
+     "start": 2.724,
+     "end": 3.004,
+     "probability": 0.5273
+    },
+    {
+     "word": "a",
+     "start": 3.004,
+     "end": 3.184,
+     "probability": 0.5059
+    },
+    {
+     "word": "time",
+     "start": 3.184,
+     "end": 3.384,
+     "probability": 0.5479
+    },
+    {
+     "word": "train",
+     "start": 3.384,
+     "end": 3.704,
+     "probability": 0.4961
+    },
+    {
+     "word": "after",
+     "start": 3.704,
+     "end": 4.064,
+     "probability": 0.9272
+    },
+    {
+     "word": "Loon",
+     "start": 4.064,
+     "end": 4.444,
+     "probability": 0.6445
+    }
+   ]
+  },
+  {
+   "chunk_start": 8.212,
+   "chunk_end": 13.1,
+   "text": "There's enough time to finish this today. There are several things we need to discuss.",
+   "words": [
+    {
+     "word": "There's",
+     "start": 8.212,
+     "end": 8.632,
+     "probability": 0.8093
+    },
+    {
+     "word": "enough",
+     "start": 8.632,
+     "end": 8.872,
+     "probability": 0.9883
+    },
+    {
+     "word": "time",
+     "start": 8.872,
+     "end": 9.192,
+     "probability": 0.9985
+    },
+    {
+     "word": "to",
+     "start": 9.192,
+     "end": 9.452,
+     "probability": 0.9956
+    },
+    {
+     "word": "finish",
+     "start": 9.452,
+     "end": 9.752,
+     "probability": 0.9917
+    },
+    {
+     "word": "this",
+     "start": 9.752,
+     "end": 10.112,
+     "probability": 0.9487
+    },
+    {
+     "word": "today.",
+     "start": 10.112,
+     "end": 10.272,
+     "probability": 0.9009
+    },
+    {
+     "word": "There",
+     "start": 10.272,
+     "end": 10.292,
+     "probability": 0.9199
+    },
+    {
+     "word": "are",
+     "start": 10.292,
+     "end": 10.292,
+     "probability": 0.9829
+    },
+    {
+     "word": "several",
+     "start": 10.292,
+     "end": 10.512,
+     "probability": 0.9971
+    },
+    {
+     "word": "things",
+     "start": 10.512,
+     "end": 10.872,
+     "probability": 0.9976
+    },
+    {
+     "word": "we",
+     "start": 10.872,
+     "end": 11.292,
+     "probability": 0.9956
+    },
+    {
+     "word": "need",
+     "start": 11.292,
+     "end": 11.572,
+     "probability": 0.999
+    },
+    {
+     "word": "to",
+     "start": 11.572,
+     "end": 11.872,
+     "probability": 0.9995
+    },
+    {
+     "word": "discuss.",
+     "start": 11.872,
+     "end": 12.252,
+     "probability": 0.9976
+    }
+   ]
+  },
+  {
+   "chunk_start": 17.172,
+   "chunk_end": 22.444,
+   "text": "The road was busy because of the rain. He will tell you when he get back home.",
+   "words": [
+    {
+     "word": "The",
+     "start": 17.172,
+     "end": 17.472,
+     "probability": 0.624
+    },
+    {
+     "word": "road",
+     "start": 17.472,
+     "end": 17.652,
+     "probability": 0.9897
+    },
+    {
+     "word": "was",
+     "start": 17.652,
+     "end": 17.832,
+     "probability": 0.9922
+    },
+    {
+     "word": "busy",
+     "start": 17.832,
+     "end": 18.152,
+     "probability": 0.9858
+    },
+    {
+     "word": "because",
+     "start": 18.152,
+     "end": 18.412,
+     "probability": 0.9912
+    },
+    {
+     "word": "of",
+     "start": 18.412,
+     "end": 18.612,
+     "probability": 0.998
+    },
+    {
+     "word": "the",
+     "start": 18.612,
+     "end": 18.672,
+     "probability": 0.998
+    },
+    {
+     "word": "rain.",
+     "start": 18.672,
+     "end": 18.892,
+     "probability": 0.9956
+    },
+    {
+     "word": "He",
+     "start": 19.052,
+     "end": 19.412,
+     "probability": 0.5737
+    },
+    {
+     "word": "will",
+     "start": 19.412,
+     "end": 19.692,
+     "probability": 0.9722
+    },
+    {
+     "word": "tell",
+     "start": 19.692,
+     "end": 20.032,
+     "probability": 0.9932
+    },
+    {
+     "word": "you",
+     "start": 20.032,
+     "end": 20.232,
+     "probability": 0.9717
+    },
+    {
+     "word": "when",
+     "start": 20.232,
+     "end": 20.592,
+     "probability": 0.9878
+    },
+    {
+     "word": "he",
+     "start": 20.592,
+     "end": 20.872,
+     "probability": 0.9253
+    },
+    {
+     "word": "get",
+     "start": 20.872,
+     "end": 21.132,
+     "probability": 0.9106
+    },
+    {
+     "word": "back",
+     "start": 21.132,
+     "end": 21.332,
+     "probability": 0.9932
+    },
+    {
+     "word": "home.",
+     "start": 21.332,
+     "end": 21.772,
+     "probability": 0.9956
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,265 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0109.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:29:40+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.9016715884208679,
+ "chunks": [
+  {
+   "chunk_start": 4.5,
+   "chunk_end": 7.02,
+   "text": "I think the blue one is slightly cheaper.",
+   "words": [
+    {
+     "word": "I",
+     "start": 4.5,
+     "end": 4.82,
+     "probability": 0.9707
+    },
+    {
+     "word": "think",
+     "start": 4.82,
+     "end": 5.04,
+     "probability": 0.9966
+    },
+    {
+     "word": "the",
+     "start": 5.04,
+     "end": 5.18,
+     "probability": 0.9946
+    },
+    {
+     "word": "blue",
+     "start": 5.18,
+     "end": 5.38,
+     "probability": 0.981
+    },
+    {
+     "word": "one",
+     "start": 5.38,
+     "end": 5.56,
+     "probability": 0.9937
+    },
+    {
+     "word": "is",
+     "start": 5.56,
+     "end": 5.78,
+     "probability": 0.9985
+    },
+    {
+     "word": "slightly",
+     "start": 5.78,
+     "end": 6.04,
+     "probability": 0.7812
+    },
+    {
+     "word": "cheaper.",
+     "start": 6.04,
+     "end": 6.36,
+     "probability": 0.9985
+    }
+   ]
+  },
+  {
+   "chunk_start": 8.756,
+   "chunk_end": 13.324,
+   "text": "The battery should last for another hour.",
+   "words": [
+    {
+     "word": "The",
+     "start": 10.436,
+     "end": 11.016,
+     "probability": 0.7124
+    },
+    {
+     "word": "battery",
+     "start": 11.016,
+     "end": 11.216,
+     "probability": 0.9761
+    },
+    {
+     "word": "should",
+     "start": 11.216,
+     "end": 11.536,
+     "probability": 0.9941
+    },
+    {
+     "word": "last",
+     "start": 11.536,
+     "end": 11.856,
+     "probability": 0.9961
+    },
+    {
+     "word": "for",
+     "start": 11.856,
+     "end": 12.116,
+     "probability": 0.9883
+    },
+    {
+     "word": "another",
+     "start": 12.116,
+     "end": 12.356,
+     "probability": 0.9907
+    },
+    {
+     "word": "hour.",
+     "start": 12.356,
+     "end": 12.696,
+     "probability": 0.9971
+    }
+   ]
+  },
+  {
+   "chunk_start": 14.644,
+   "chunk_end": 17.964,
+   "text": "The report contains several useful examples.",
+   "words": [
+    {
+     "word": "The",
+     "start": 14.644,
+     "end": 14.944,
+     "probability": 0.9805
+    },
+    {
+     "word": "report",
+     "start": 14.944,
+     "end": 15.244,
+     "probability": 0.9956
+    },
+    {
+     "word": "contains",
+     "start": 15.244,
+     "end": 15.664,
+     "probability": 0.9956
+    },
+    {
+     "word": "several",
+     "start": 15.664,
+     "end": 16.084,
+     "probability": 0.999
+    },
+    {
+     "word": "useful",
+     "start": 16.084,
+     "end": 16.464,
+     "probability": 0.9985
+    },
+    {
+     "word": "examples.",
+     "start": 16.464,
+     "end": 16.964,
+     "probability": 0.999
+    }
+   ]
+  },
+  {
+   "chunk_start": 19.7,
+   "chunk_end": 25.804,
+   "text": "There is enough time to finish this today. This recording is only being used as synthetic data.",
+   "words": [
+    {
+     "word": "There",
+     "start": 19.7,
+     "end": 20.06,
+     "probability": 0.7061
+    },
+    {
+     "word": "is",
+     "start": 20.06,
+     "end": 20.2,
+     "probability": 0.9819
+    },
+    {
+     "word": "enough",
+     "start": 20.2,
+     "end": 20.44,
+     "probability": 0.9902
+    },
+    {
+     "word": "time",
+     "start": 20.44,
+     "end": 20.72,
+     "probability": 0.9985
+    },
+    {
+     "word": "to",
+     "start": 20.72,
+     "end": 20.9,
+     "probability": 0.9961
+    },
+    {
+     "word": "finish",
+     "start": 20.9,
+     "end": 21.2,
+     "probability": 0.9976
+    },
+    {
+     "word": "this",
+     "start": 21.2,
+     "end": 21.46,
+     "probability": 0.9956
+    },
+    {
+     "word": "today.",
+     "start": 21.46,
+     "end": 21.74,
+     "probability": 0.9683
+    },
+    {
+     "word": "This",
+     "start": 21.9,
+     "end": 22.08,
+     "probability": 0.7959
+    },
+    {
+     "word": "recording",
+     "start": 22.08,
+     "end": 22.62,
+     "probability": 0.9937
+    },
+    {
+     "word": "is",
+     "start": 22.62,
+     "end": 22.9,
+     "probability": 0.9941
+    },
+    {
+     "word": "only",
+     "start": 22.9,
+     "end": 23.16,
+     "probability": 0.9829
+    },
+    {
+     "word": "being",
+     "start": 23.16,
+     "end": 23.48,
+     "probability": 0.98
+    },
+    {
+     "word": "used",
+     "start": 23.48,
+     "end": 23.9,
+     "probability": 0.9966
+    },
+    {
+     "word": "as",
+     "start": 23.9,
+     "end": 24.16,
+     "probability": 0.9385
+    },
+    {
+     "word": "synthetic",
+     "start": 24.16,
+     "end": 24.62,
+     "probability": 0.9551
+    },
+    {
+     "word": "data.",
+     "start": 24.62,
+     "end": 25.1,
+     "probability": 0.9966
+    }
+   ]
+  }
+ ]
+}

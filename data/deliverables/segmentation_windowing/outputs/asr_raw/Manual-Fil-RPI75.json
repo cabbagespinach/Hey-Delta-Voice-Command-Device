@@ -1,0 +1,66 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/positives/Manual-Fil-RPI75.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-29T03:04:13+00:00",
+ "duration_sec": 9.674666666666667,
+ "input_peak": 0.14744864404201508,
+ "chunks": [
+  {
+   "chunk_start": 0.852,
+   "chunk_end": 2.636,
+   "text": "Hey Delta!",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 0.852,
+     "end": 1.192,
+     "probability": 0.7427
+    },
+    {
+     "word": "Delta!",
+     "start": 1.192,
+     "end": 1.472,
+     "probability": 0.8516
+    }
+   ]
+  },
+  {
+   "chunk_start": 4.948,
+   "chunk_end": 6.604,
+   "text": "Hey Delta!",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 4.948,
+     "end": 5.308,
+     "probability": 0.7905
+    },
+    {
+     "word": "Delta!",
+     "start": 5.308,
+     "end": 5.568,
+     "probability": 0.8652
+    }
+   ]
+  },
+  {
+   "chunk_start": 7.732,
+   "chunk_end": 9.388,
+   "text": "Hey Delta!",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 7.732,
+     "end": 8.092,
+     "probability": 0.3828
+    },
+    {
+     "word": "Delta!",
+     "start": 8.092,
+     "end": 8.372,
+     "probability": 0.8413
+    }
+   ]
+  }
+ ]
+}

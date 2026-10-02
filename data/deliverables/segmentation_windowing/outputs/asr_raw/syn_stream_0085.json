@@ -1,0 +1,205 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0085.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:29:00+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8813760876655579,
+ "chunks": [
+  {
+   "chunk_start": 2.9,
+   "chunk_end": 6.028,
+   "text": "We should probably check the schedule first.",
+   "words": [
+    {
+     "word": "We",
+     "start": 2.9,
+     "end": 3.24,
+     "probability": 0.7007
+    },
+    {
+     "word": "should",
+     "start": 3.24,
+     "end": 3.46,
+     "probability": 0.9985
+    },
+    {
+     "word": "probably",
+     "start": 3.46,
+     "end": 3.78,
+     "probability": 0.9917
+    },
+    {
+     "word": "check",
+     "start": 3.78,
+     "end": 4.26,
+     "probability": 0.999
+    },
+    {
+     "word": "the",
+     "start": 4.26,
+     "end": 4.52,
+     "probability": 0.9976
+    },
+    {
+     "word": "schedule",
+     "start": 4.52,
+     "end": 4.8,
+     "probability": 0.9961
+    },
+    {
+     "word": "first.",
+     "start": 4.8,
+     "end": 5.28,
+     "probability": 0.9971
+    }
+   ]
+  },
+  {
+   "chunk_start": 17.332,
+   "chunk_end": 20.512,
+   "text": "The weather is changing again this afternoon.",
+   "words": [
+    {
+     "word": "The",
+     "start": 17.332,
+     "end": 17.612,
+     "probability": 0.9189
+    },
+    {
+     "word": "weather",
+     "start": 17.612,
+     "end": 17.912,
+     "probability": 0.998
+    },
+    {
+     "word": "is",
+     "start": 17.912,
+     "end": 18.212,
+     "probability": 0.9985
+    },
+    {
+     "word": "changing",
+     "start": 18.212,
+     "end": 18.632,
+     "probability": 0.999
+    },
+    {
+     "word": "again",
+     "start": 18.632,
+     "end": 19.112,
+     "probability": 0.9966
+    },
+    {
+     "word": "this",
+     "start": 19.112,
+     "end": 19.372,
+     "probability": 0.9971
+    },
+    {
+     "word": "afternoon.",
+     "start": 19.372,
+     "end": 19.752,
+     "probability": 0.999
+    }
+   ]
+  },
+  {
+   "chunk_start": 20.512,
+   "chunk_end": 23.948,
+   "text": "There's enough time to finish this today.",
+   "words": [
+    {
+     "word": "There's",
+     "start": 20.512,
+     "end": 20.832,
+     "probability": 0.6965
+    },
+    {
+     "word": "enough",
+     "start": 20.832,
+     "end": 21.012,
+     "probability": 0.9678
+    },
+    {
+     "word": "time",
+     "start": 21.012,
+     "end": 21.472,
+     "probability": 0.6992
+    },
+    {
+     "word": "to",
+     "start": 21.472,
+     "end": 21.652,
+     "probability": 0.9658
+    },
+    {
+     "word": "finish",
+     "start": 21.652,
+     "end": 21.992,
+     "probability": 0.9858
+    },
+    {
+     "word": "this",
+     "start": 21.992,
+     "end": 22.232,
+     "probability": 0.9946
+    },
+    {
+     "word": "today.",
+     "start": 22.232,
+     "end": 22.512,
+     "probability": 0.8921
+    }
+   ]
+  },
+  {
+   "chunk_start": 24.628,
+   "chunk_end": 30.0,
+   "text": "The next episode starts after the commercial.",
+   "words": [
+    {
+     "word": "The",
+     "start": 24.628,
+     "end": 24.968,
+     "probability": 0.5029
+    },
+    {
+     "word": "next",
+     "start": 24.968,
+     "end": 27.628,
+     "probability": 0.9912
+    },
+    {
+     "word": "episode",
+     "start": 27.628,
+     "end": 28.128,
+     "probability": 0.999
+    },
+    {
+     "word": "starts",
+     "start": 28.128,
+     "end": 28.448,
+     "probability": 0.998
+    },
+    {
+     "word": "after",
+     "start": 28.448,
+     "end": 28.928,
+     "probability": 0.998
+    },
+    {
+     "word": "the",
+     "start": 28.928,
+     "end": 29.148,
+     "probability": 0.999
+    },
+    {
+     "word": "commercial.",
+     "start": 29.148,
+     "end": 29.388,
+     "probability": 0.9995
+    }
+   ]
+  }
+ ]
+}

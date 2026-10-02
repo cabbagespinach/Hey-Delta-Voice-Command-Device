@@ -1,0 +1,259 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0111.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:29:44+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8901221752166748,
+ "chunks": [
+  {
+   "chunk_start": 0.052,
+   "chunk_end": 3.18,
+   "text": "We should probably check the schedule first.",
+   "words": [
+    {
+     "word": "We",
+     "start": 0.052,
+     "end": 0.412,
+     "probability": 0.7139
+    },
+    {
+     "word": "should",
+     "start": 0.412,
+     "end": 0.592,
+     "probability": 0.9966
+    },
+    {
+     "word": "probably",
+     "start": 0.592,
+     "end": 0.932,
+     "probability": 0.9819
+    },
+    {
+     "word": "check",
+     "start": 0.932,
+     "end": 1.392,
+     "probability": 0.9961
+    },
+    {
+     "word": "the",
+     "start": 1.392,
+     "end": 1.652,
+     "probability": 0.9932
+    },
+    {
+     "word": "schedule",
+     "start": 1.652,
+     "end": 1.932,
+     "probability": 0.9927
+    },
+    {
+     "word": "first.",
+     "start": 1.932,
+     "end": 2.452,
+     "probability": 0.9946
+    }
+   ]
+  },
+  {
+   "chunk_start": 7.86,
+   "chunk_end": 10.188,
+   "text": "We can take the train after lunch.",
+   "words": [
+    {
+     "word": "We",
+     "start": 7.86,
+     "end": 8.14,
+     "probability": 0.6763
+    },
+    {
+     "word": "can",
+     "start": 8.14,
+     "end": 8.28,
+     "probability": 0.9985
+    },
+    {
+     "word": "take",
+     "start": 8.28,
+     "end": 8.5,
+     "probability": 0.998
+    },
+    {
+     "word": "the",
+     "start": 8.5,
+     "end": 8.64,
+     "probability": 0.9985
+    },
+    {
+     "word": "train",
+     "start": 8.64,
+     "end": 8.86,
+     "probability": 0.9956
+    },
+    {
+     "word": "after",
+     "start": 8.86,
+     "end": 9.2,
+     "probability": 0.998
+    },
+    {
+     "word": "lunch.",
+     "start": 9.2,
+     "end": 9.54,
+     "probability": 0.999
+    }
+   ]
+  },
+  {
+   "chunk_start": 14.164,
+   "chunk_end": 22.892,
+   "text": "Hey Delta, that sounds like a reasonable idea to me. The report contains several useful examples.",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 14.164,
+     "end": 14.364,
+     "probability": 0.7212
+    },
+    {
+     "word": "Delta,",
+     "start": 14.364,
+     "end": 14.764,
+     "probability": 0.7651
+    },
+    {
+     "word": "that",
+     "start": 15.004,
+     "end": 15.864,
+     "probability": 0.9414
+    },
+    {
+     "word": "sounds",
+     "start": 15.864,
+     "end": 16.104,
+     "probability": 0.9937
+    },
+    {
+     "word": "like",
+     "start": 16.104,
+     "end": 16.504,
+     "probability": 0.9995
+    },
+    {
+     "word": "a",
+     "start": 16.504,
+     "end": 16.524,
+     "probability": 0.9951
+    },
+    {
+     "word": "reasonable",
+     "start": 16.524,
+     "end": 17.024,
+     "probability": 0.9907
+    },
+    {
+     "word": "idea",
+     "start": 17.024,
+     "end": 17.604,
+     "probability": 0.9961
+    },
+    {
+     "word": "to",
+     "start": 17.604,
+     "end": 17.884,
+     "probability": 0.9956
+    },
+    {
+     "word": "me.",
+     "start": 17.884,
+     "end": 18.064,
+     "probability": 0.9995
+    },
+    {
+     "word": "The",
+     "start": 18.544,
+     "end": 18.964,
+     "probability": 0.9736
+    },
+    {
+     "word": "report",
+     "start": 18.964,
+     "end": 19.624,
+     "probability": 0.9907
+    },
+    {
+     "word": "contains",
+     "start": 19.624,
+     "end": 20.144,
+     "probability": 0.9937
+    },
+    {
+     "word": "several",
+     "start": 20.144,
+     "end": 20.684,
+     "probability": 0.9976
+    },
+    {
+     "word": "useful",
+     "start": 20.684,
+     "end": 21.144,
+     "probability": 0.9951
+    },
+    {
+     "word": "examples.",
+     "start": 21.144,
+     "end": 21.824,
+     "probability": 0.9985
+    }
+   ]
+  },
+  {
+   "chunk_start": 24.596,
+   "chunk_end": 29.74,
+   "text": "The meeting starts in about 10 minutes.",
+   "words": [
+    {
+     "word": "The",
+     "start": 26.256,
+     "end": 26.916,
+     "probability": 0.5698
+    },
+    {
+     "word": "meeting",
+     "start": 26.916,
+     "end": 27.176,
+     "probability": 0.9946
+    },
+    {
+     "word": "starts",
+     "start": 27.176,
+     "end": 27.596,
+     "probability": 0.9927
+    },
+    {
+     "word": "in",
+     "start": 27.596,
+     "end": 28.036,
+     "probability": 0.9961
+    },
+    {
+     "word": "about",
+     "start": 28.036,
+     "end": 28.316,
+     "probability": 0.9961
+    },
+    {
+     "word": "10",
+     "start": 28.316,
+     "end": 28.616,
+     "probability": 0.6826
+    },
+    {
+     "word": "minutes.",
+     "start": 28.616,
+     "end": 28.976,
+     "probability": 0.9907
+    }
+   ]
+  }
+ ]
+}

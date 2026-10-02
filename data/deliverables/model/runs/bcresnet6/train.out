@@ -1,0 +1,61 @@
+epoch  0 loss 0.5723 | val AUC 0.8938 thr 0.761 RPI 0.000 syn 0.000 * | 51s
+epoch  1 loss 0.4342 | val AUC 0.9855 thr 0.998 RPI 0.459 syn 0.098 * | 72s
+epoch  2 loss 0.3186 | val AUC 0.9855 thr 0.904 RPI 0.595 syn 0.345 * | 92s
+epoch  3 loss 0.2668 | val AUC 0.9886 thr 0.966 RPI 0.865 syn 0.500 * | 120s
+epoch  4 loss 0.2454 | val AUC 0.9923 thr 0.932 RPI 0.865 syn 0.485 | 138s
+epoch  5 loss 0.2318 | val AUC 0.9910 thr 0.976 RPI 0.811 syn 0.649 * | 156s
+epoch  6 loss 0.2241 | val AUC 0.9877 thr 0.925 RPI 0.973 syn 0.706 * | 174s
+epoch  7 loss 0.2099 | val AUC 0.9810 thr 0.955 RPI 0.838 syn 0.598 | 194s
+epoch  8 loss 0.2080 | val AUC 0.9820 thr 0.876 RPI 0.919 syn 0.799 * | 212s
+epoch  9 loss 0.2023 | val AUC 0.9804 thr 0.954 RPI 0.838 syn 0.804 | 230s
+epoch 10 loss 0.2017 | val AUC 0.9875 thr 0.948 RPI 0.838 syn 0.825 | 250s
+epoch 11 loss 0.1992 | val AUC 0.9853 thr 0.931 RPI 0.919 syn 0.835 * | 270s
+epoch 12 loss 0.1930 | val AUC 0.9863 thr 0.968 RPI 0.946 syn 0.845 * | 288s
+epoch 13 loss 0.1898 | val AUC 0.9965 thr 0.866 RPI 0.946 syn 0.897 * | 307s
+epoch 14 loss 0.1883 | val AUC 0.9965 thr 0.871 RPI 0.946 syn 0.887 | 327s
+epoch 15 loss 0.1881 | val AUC 0.9825 thr 0.941 RPI 0.865 syn 0.887 | 346s
+epoch 16 loss 0.1870 | val AUC 0.9869 thr 0.920 RPI 0.946 syn 0.892 | 368s
+epoch 17 loss 0.1858 | val AUC 0.9838 thr 0.887 RPI 0.946 syn 0.902 * | 398s
+epoch 18 loss 0.1830 | val AUC 0.9920 thr 0.890 RPI 0.946 syn 0.866 | 420s
+epoch 19 loss 0.1820 | val AUC 0.9867 thr 0.946 RPI 0.919 syn 0.871 | 440s
+epoch 20 loss 0.1786 | val AUC 0.9895 thr 0.933 RPI 0.946 syn 0.856 | 459s
+epoch 21 loss 0.1777 | val AUC 0.9941 thr 0.785 RPI 1.000 syn 0.866 * | 479s
+epoch 22 loss 0.1768 | val AUC 0.9955 thr 0.938 RPI 0.946 syn 0.902 | 498s
+epoch 23 loss 0.1803 | val AUC 0.9886 thr 0.689 RPI 1.000 syn 0.902 * | 519s
+epoch 24 loss 0.1770 | val AUC 0.9749 thr 0.798 RPI 0.946 syn 0.866 | 538s
+epoch 25 loss 0.1743 | val AUC 0.9836 thr 0.835 RPI 0.946 syn 0.897 | 558s
+epoch 26 loss 0.1737 | val AUC 0.9830 thr 0.357 RPI 1.000 syn 0.892 | 577s
+epoch 27 loss 0.1725 | val AUC 0.9789 thr 0.663 RPI 1.000 syn 0.897 | 602s
+epoch 28 loss 0.1694 | val AUC 0.9819 thr 0.950 RPI 0.946 syn 0.876 | 628s
+epoch 29 loss 0.1714 | val AUC 0.9770 thr 0.851 RPI 1.000 syn 0.892 | 646s
+epoch 30 loss 0.1708 | val AUC 0.9910 thr 0.949 RPI 0.946 syn 0.881 | 665s
+epoch 31 loss 0.1698 | val AUC 0.9764 thr 0.906 RPI 0.946 syn 0.866 | 690s
+epoch 32 loss 0.1686 | val AUC 0.9788 thr 0.909 RPI 0.946 syn 0.871 | 725s
+epoch 33 loss 0.1683 | val AUC 0.9732 thr 0.824 RPI 0.946 syn 0.902 | 763s
+epoch 34 loss 0.1660 | val AUC 0.9650 thr 0.669 RPI 1.000 syn 0.907 * | 808s
+epoch 35 loss 0.1692 | val AUC 0.9866 thr 0.910 RPI 0.946 syn 0.907 | 841s
+epoch 36 loss 0.1666 | val AUC 0.9873 thr 0.733 RPI 1.000 syn 0.907 * | 873s
+epoch 37 loss 0.1654 | val AUC 0.9768 thr 0.641 RPI 1.000 syn 0.907 | 920s
+epoch 38 loss 0.1668 | val AUC 0.9804 thr 0.858 RPI 0.973 syn 0.897 | 953s
+epoch 39 loss 0.1644 | val AUC 0.9864 thr 0.653 RPI 1.000 syn 0.907 | 984s
+epoch 40 loss 0.1640 | val AUC 0.9810 thr 0.584 RPI 1.000 syn 0.907 | 1016s
+epoch 41 loss 0.1630 | val AUC 0.9860 thr 0.878 RPI 0.946 syn 0.881 | 1052s
+epoch 42 loss 0.1622 | val AUC 0.9821 thr 0.717 RPI 1.000 syn 0.907 | 1088s
+epoch 43 loss 0.1609 | val AUC 0.9803 thr 0.740 RPI 1.000 syn 0.907 | 1122s
+epoch 44 loss 0.1610 | val AUC 0.9803 thr 0.806 RPI 0.946 syn 0.907 | 1153s
+epoch 45 loss 0.1629 | val AUC 0.9801 thr 0.547 RPI 1.000 syn 0.907 | 1184s
+epoch 46 loss 0.1615 | val AUC 0.9826 thr 0.674 RPI 1.000 syn 0.907 | 1216s
+epoch 47 loss 0.1615 | val AUC 0.9780 thr 0.475 RPI 1.000 syn 0.907 | 1259s
+epoch 48 loss 0.1605 | val AUC 0.9792 thr 0.711 RPI 1.000 syn 0.907 | 1313s
+epoch 49 loss 0.1593 | val AUC 0.9747 thr 0.684 RPI 1.000 syn 0.897 | 1354s
+epoch 50 loss 0.1605 | val AUC 0.9763 thr 0.736 RPI 1.000 syn 0.907 | 1386s
+epoch 51 loss 0.1621 | val AUC 0.9812 thr 0.794 RPI 1.000 syn 0.907 | 1416s
+epoch 52 loss 0.1598 | val AUC 0.9804 thr 0.863 RPI 1.000 syn 0.902 | 1444s
+epoch 53 loss 0.1585 | val AUC 0.9776 thr 0.804 RPI 1.000 syn 0.902 | 1462s
+epoch 54 loss 0.1612 | val AUC 0.9782 thr 0.843 RPI 1.000 syn 0.892 | 1480s
+epoch 55 loss 0.1580 | val AUC 0.9775 thr 0.786 RPI 1.000 syn 0.902 | 1498s
+epoch 56 loss 0.1618 | val AUC 0.9772 thr 0.767 RPI 1.000 syn 0.902 | 1518s
+epoch 57 loss 0.1592 | val AUC 0.9787 thr 0.800 RPI 1.000 syn 0.902 | 1536s
+epoch 58 loss 0.1585 | val AUC 0.9787 thr 0.778 RPI 1.000 syn 0.902 | 1558s
+epoch 59 loss 0.1586 | val AUC 0.9784 thr 0.797 RPI 1.000 syn 0.902 | 1583s
+best epoch 36: selection 0.954, AUC 0.9873 -> /home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/deliverables/model/runs/bcresnet6/best.pt

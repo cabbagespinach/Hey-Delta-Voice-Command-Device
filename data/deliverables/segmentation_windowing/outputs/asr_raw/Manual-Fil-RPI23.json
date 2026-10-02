@@ -1,0 +1,95 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/positives/Manual-Fil-RPI23.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:26:29+00:00",
+ "duration_sec": 13.536,
+ "input_peak": 0.06289871037006378,
+ "chunks": [
+  {
+   "chunk_start": 1.524,
+   "chunk_end": 8.14,
+   "text": "Hey, Darla. Hey, Darla. Hey, Darla.",
+   "words": [
+    {
+     "word": "Hey,",
+     "start": 1.524,
+     "end": 1.864,
+     "probability": 0.396
+    },
+    {
+     "word": "Darla.",
+     "start": 1.864,
+     "end": 2.224,
+     "probability": 0.2507
+    },
+    {
+     "word": "Hey,",
+     "start": 2.324,
+     "end": 3.024,
+     "probability": 0.9438
+    },
+    {
+     "word": "Darla.",
+     "start": 3.144,
+     "end": 3.544,
+     "probability": 0.9485
+    },
+    {
+     "word": "Hey,",
+     "start": 3.884,
+     "end": 4.584,
+     "probability": 0.9868
+    },
+    {
+     "word": "Darla.",
+     "start": 4.604,
+     "end": 5.224,
+     "probability": 0.9971
+    }
+   ]
+  },
+  {
+   "chunk_start": 10.932,
+   "chunk_end": 13.536,
+   "text": "King Dog House. King Dog House.",
+   "words": [
+    {
+     "word": "King",
+     "start": 10.932,
+     "end": 11.192,
+     "probability": 0.0216
+    },
+    {
+     "word": "Dog",
+     "start": 11.192,
+     "end": 11.272,
+     "probability": 0.5947
+    },
+    {
+     "word": "House.",
+     "start": 11.272,
+     "end": 11.652,
+     "probability": 0.2378
+    },
+    {
+     "word": "King",
+     "start": 12.032,
+     "end": 12.572,
+     "probability": 0.9731
+    },
+    {
+     "word": "Dog",
+     "start": 12.572,
+     "end": 12.852,
+     "probability": 0.9883
+    },
+    {
+     "word": "House.",
+     "start": 12.852,
+     "end": 13.192,
+     "probability": 0.6807
+    }
+   ]
+  }
+ ]
+}

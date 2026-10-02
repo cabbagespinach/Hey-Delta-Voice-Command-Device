@@ -1,0 +1,310 @@
+{
+ "bcresnet3": {
+  "tau": 3.0,
+  "best_epoch": 53,
+  "validation": {
+   "owner_macro_acc": 0.9351851851851852,
+   "web_macro_acc": 0.8409561177500517,
+   "synthetic_macro_acc": 0.9855533142214332,
+   "unknown_false_action": 0.08664546899841018,
+   "unknown_false_action_by_group": {
+    "fragments": 0.1337,
+    "owner": 0.375,
+    "reuse_fleurs": 0.0351,
+    "reuse_mswc": 0.125,
+    "reuse_musan": 0.0105,
+    "reuse_owner": 0.0568,
+    "synthetic": 0.1032,
+    "web": 0.0938
+   },
+   "selection_score": 0.918762287039565,
+   "epoch": 53,
+   "train_loss": 0.9013,
+   "minutes": 1.23
+  },
+  "cutoffs": {
+   "cautious": 0.935,
+   "balanced": 0.64
+  },
+  "params": 55914,
+  "test": {
+   "argmax": {
+    "owner": {
+     "clips": 73,
+     "classes": 26,
+     "correct": 0.9872,
+     "wrong_command": 0.0128,
+     "rejected": 0.0
+    },
+    "speaker2": {
+     "clips": 73,
+     "classes": 29,
+     "correct": 0.9759,
+     "wrong_command": 0.0172,
+     "rejected": 0.0069
+    },
+    "synthetic": {
+     "clips": 1111,
+     "classes": 29,
+     "correct": 0.9884,
+     "wrong_command": 0.0038,
+     "rejected": 0.0077
+    },
+    "web": {
+     "clips": 845,
+     "classes": 16,
+     "correct": 0.8148,
+     "wrong_command": 0.0312,
+     "rejected": 0.154
+    },
+    "unknown_false_action_by_group": {
+     "fragments": 0.0766,
+     "owner": 0.1667,
+     "reuse_fleurs": 0.0,
+     "reuse_mswc": 0.1042,
+     "reuse_musan": 0.0155,
+     "reuse_owner": 0.0446,
+     "synthetic": 0.1781,
+     "web": 0.1038
+    },
+    "unknown_false_action_mean": 0.0862
+   },
+   "cautious": {
+    "owner": {
+     "clips": 73,
+     "classes": 26,
+     "correct": 0.7538,
+     "wrong_command": 0.0,
+     "rejected": 0.2462
+    },
+    "speaker2": {
+     "clips": 73,
+     "classes": 29,
+     "correct": 0.7853,
+     "wrong_command": 0.0,
+     "rejected": 0.2147
+    },
+    "synthetic": {
+     "clips": 1111,
+     "classes": 29,
+     "correct": 0.8828,
+     "wrong_command": 0.0,
+     "rejected": 0.1172
+    },
+    "web": {
+     "clips": 845,
+     "classes": 16,
+     "correct": 0.4734,
+     "wrong_command": 0.0,
+     "rejected": 0.5266
+    },
+    "unknown_false_action_by_group": {
+     "fragments": 0.0036,
+     "owner": 0.0,
+     "reuse_fleurs": 0.0,
+     "reuse_mswc": 0.0208,
+     "reuse_musan": 0.0,
+     "reuse_owner": 0.0,
+     "synthetic": 0.0,
+     "web": 0.0066
+    },
+    "unknown_false_action_mean": 0.0039
+   },
+   "balanced": {
+    "owner": {
+     "clips": 73,
+     "classes": 26,
+     "correct": 0.9295,
+     "wrong_command": 0.0128,
+     "rejected": 0.0577
+    },
+    "speaker2": {
+     "clips": 73,
+     "classes": 29,
+     "correct": 0.9414,
+     "wrong_command": 0.0,
+     "rejected": 0.0586
+    },
+    "synthetic": {
+     "clips": 1111,
+     "classes": 29,
+     "correct": 0.9788,
+     "wrong_command": 0.0023,
+     "rejected": 0.0189
+    },
+    "web": {
+     "clips": 845,
+     "classes": 16,
+     "correct": 0.7361,
+     "wrong_command": 0.0085,
+     "rejected": 0.2554
+    },
+    "unknown_false_action_by_group": {
+     "fragments": 0.0365,
+     "owner": 0.0,
+     "reuse_fleurs": 0.0,
+     "reuse_mswc": 0.0208,
+     "reuse_musan": 0.0052,
+     "reuse_owner": 0.0,
+     "synthetic": 0.0479,
+     "web": 0.0395
+    },
+    "unknown_false_action_mean": 0.0187
+   }
+  }
+ },
+ "bcresnet6": {
+  "tau": 6.0,
+  "best_epoch": 49,
+  "validation": {
+   "owner_macro_acc": 0.9351851851851852,
+   "web_macro_acc": 0.9242019333074452,
+   "synthetic_macro_acc": 0.9898800400167778,
+   "unknown_false_action": 0.04848966613672496,
+   "unknown_false_action_by_group": {
+    "fragments": 0.0941,
+    "owner": 0.25,
+    "reuse_fleurs": 0.0175,
+    "reuse_mswc": 0.1071,
+    "reuse_musan": 0.0052,
+    "reuse_owner": 0.0455,
+    "synthetic": 0.0065,
+    "web": 0.0539
+   },
+   "selection_score": 0.9501943730931708,
+   "epoch": 49,
+   "train_loss": 0.7299,
+   "minutes": 1.07
+  },
+  "cutoffs": {
+   "cautious": 0.885,
+   "balanced": 0.345
+  },
+  "params": 191286,
+  "test": {
+   "argmax": {
+    "owner": {
+     "clips": 73,
+     "classes": 26,
+     "correct": 1.0,
+     "wrong_command": 0.0,
+     "rejected": 0.0
+    },
+    "speaker2": {
+     "clips": 73,
+     "classes": 29,
+     "correct": 1.0,
+     "wrong_command": 0.0,
+     "rejected": 0.0
+    },
+    "synthetic": {
+     "clips": 1111,
+     "classes": 29,
+     "correct": 0.9932,
+     "wrong_command": 0.0018,
+     "rejected": 0.0049
+    },
+    "web": {
+     "clips": 845,
+     "classes": 16,
+     "correct": 0.8796,
+     "wrong_command": 0.0149,
+     "rejected": 0.1055
+    },
+    "unknown_false_action_by_group": {
+     "fragments": 0.0657,
+     "owner": 0.1667,
+     "reuse_fleurs": 0.0,
+     "reuse_mswc": 0.125,
+     "reuse_musan": 0.0103,
+     "reuse_owner": 0.0089,
+     "synthetic": 0.0548,
+     "web": 0.0329
+    },
+    "unknown_false_action_mean": 0.058
+   },
+   "cautious": {
+    "owner": {
+     "clips": 73,
+     "classes": 26,
+     "correct": 0.9359,
+     "wrong_command": 0.0,
+     "rejected": 0.0641
+    },
+    "speaker2": {
+     "clips": 73,
+     "classes": 29,
+     "correct": 0.9259,
+     "wrong_command": 0.0,
+     "rejected": 0.0741
+    },
+    "synthetic": {
+     "clips": 1111,
+     "classes": 29,
+     "correct": 0.9665,
+     "wrong_command": 0.0,
+     "rejected": 0.0335
+    },
+    "web": {
+     "clips": 845,
+     "classes": 16,
+     "correct": 0.7411,
+     "wrong_command": 0.0,
+     "rejected": 0.2589
+    },
+    "unknown_false_action_by_group": {
+     "fragments": 0.0219,
+     "owner": 0.0,
+     "reuse_fleurs": 0.0,
+     "reuse_mswc": 0.0,
+     "reuse_musan": 0.0052,
+     "reuse_owner": 0.0,
+     "synthetic": 0.0,
+     "web": 0.0016
+    },
+    "unknown_false_action_mean": 0.0036
+   },
+   "balanced": {
+    "owner": {
+     "clips": 73,
+     "classes": 26,
+     "correct": 1.0,
+     "wrong_command": 0.0,
+     "rejected": 0.0
+    },
+    "speaker2": {
+     "clips": 73,
+     "classes": 29,
+     "correct": 1.0,
+     "wrong_command": 0.0,
+     "rejected": 0.0
+    },
+    "synthetic": {
+     "clips": 1111,
+     "classes": 29,
+     "correct": 0.9919,
+     "wrong_command": 0.0018,
+     "rejected": 0.0062
+    },
+    "web": {
+     "clips": 845,
+     "classes": 16,
+     "correct": 0.8796,
+     "wrong_command": 0.013,
+     "rejected": 0.1073
+    },
+    "unknown_false_action_by_group": {
+     "fragments": 0.0657,
+     "owner": 0.1667,
+     "reuse_fleurs": 0.0,
+     "reuse_mswc": 0.125,
+     "reuse_musan": 0.0103,
+     "reuse_owner": 0.0089,
+     "synthetic": 0.0548,
+     "web": 0.0329
+    },
+    "unknown_false_action_mean": 0.058
+   }
+  }
+ }
+}

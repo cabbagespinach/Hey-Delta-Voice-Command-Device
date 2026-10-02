@@ -1,0 +1,423 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0037.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:27:46+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8778744339942932,
+ "chunks": [
+  {
+   "chunk_start": 1.396,
+   "chunk_end": 6.448,
+   "text": "Do you think the machine makes a strange sound sometimes after the commercial?",
+   "words": [
+    {
+     "word": "Do",
+     "start": 1.396,
+     "end": 1.696,
+     "probability": 0.1143
+    },
+    {
+     "word": "you",
+     "start": 1.696,
+     "end": 1.816,
+     "probability": 0.9595
+    },
+    {
+     "word": "think",
+     "start": 1.816,
+     "end": 2.076,
+     "probability": 0.5093
+    },
+    {
+     "word": "the",
+     "start": 2.076,
+     "end": 2.956,
+     "probability": 0.2883
+    },
+    {
+     "word": "machine",
+     "start": 2.956,
+     "end": 3.236,
+     "probability": 0.9824
+    },
+    {
+     "word": "makes",
+     "start": 3.236,
+     "end": 3.616,
+     "probability": 0.9858
+    },
+    {
+     "word": "a",
+     "start": 3.616,
+     "end": 3.636,
+     "probability": 0.9087
+    },
+    {
+     "word": "strange",
+     "start": 3.636,
+     "end": 4.016,
+     "probability": 0.998
+    },
+    {
+     "word": "sound",
+     "start": 4.016,
+     "end": 4.376,
+     "probability": 0.9907
+    },
+    {
+     "word": "sometimes",
+     "start": 4.376,
+     "end": 4.796,
+     "probability": 0.9092
+    },
+    {
+     "word": "after",
+     "start": 4.796,
+     "end": 5.296,
+     "probability": 0.7246
+    },
+    {
+     "word": "the",
+     "start": 5.296,
+     "end": 5.516,
+     "probability": 0.9927
+    },
+    {
+     "word": "commercial?",
+     "start": 5.516,
+     "end": 5.796,
+     "probability": 0.9976
+    }
+   ]
+  },
+  {
+   "chunk_start": 6.448,
+   "chunk_end": 10.764,
+   "text": "Hey Delta, let's come up with an actionable idea to meet.",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 6.448,
+     "end": 6.768,
+     "probability": 0.7104
+    },
+    {
+     "word": "Delta,",
+     "start": 6.768,
+     "end": 7.108,
+     "probability": 0.8579
+    },
+    {
+     "word": "let's",
+     "start": 7.708,
+     "end": 7.708,
+     "probability": 0.8132
+    },
+    {
+     "word": "come",
+     "start": 7.708,
+     "end": 7.708,
+     "probability": 0.1364
+    },
+    {
+     "word": "up",
+     "start": 7.708,
+     "end": 7.708,
+     "probability": 0.4321
+    },
+    {
+     "word": "with",
+     "start": 7.708,
+     "end": 7.708,
+     "probability": 0.9692
+    },
+    {
+     "word": "an",
+     "start": 7.708,
+     "end": 7.808,
+     "probability": 0.6743
+    },
+    {
+     "word": "actionable",
+     "start": 7.808,
+     "end": 9.628,
+     "probability": 0.6484
+    },
+    {
+     "word": "idea",
+     "start": 9.628,
+     "end": 10.008,
+     "probability": 0.9839
+    },
+    {
+     "word": "to",
+     "start": 10.008,
+     "end": 10.248,
+     "probability": 0.2957
+    },
+    {
+     "word": "meet.",
+     "start": 10.248,
+     "end": 10.388,
+     "probability": 0.5347
+    }
+   ]
+  },
+  {
+   "chunk_start": 12.948,
+   "chunk_end": 15.404,
+   "text": "Can you send me the address when you arrive?",
+   "words": [
+    {
+     "word": "Can",
+     "start": 12.948,
+     "end": 13.248,
+     "probability": 0.8154
+    },
+    {
+     "word": "you",
+     "start": 13.248,
+     "end": 13.388,
+     "probability": 0.9961
+    },
+    {
+     "word": "send",
+     "start": 13.388,
+     "end": 13.608,
+     "probability": 0.9971
+    },
+    {
+     "word": "me",
+     "start": 13.608,
+     "end": 13.768,
+     "probability": 0.9961
+    },
+    {
+     "word": "the",
+     "start": 13.768,
+     "end": 13.828,
+     "probability": 0.9956
+    },
+    {
+     "word": "address",
+     "start": 13.828,
+     "end": 14.108,
+     "probability": 0.998
+    },
+    {
+     "word": "when",
+     "start": 14.108,
+     "end": 14.388,
+     "probability": 0.9917
+    },
+    {
+     "word": "you",
+     "start": 14.388,
+     "end": 14.508,
+     "probability": 0.9985
+    },
+    {
+     "word": "arrive?",
+     "start": 14.508,
+     "end": 14.728,
+     "probability": 0.9932
+    }
+   ]
+  },
+  {
+   "chunk_start": 16.724,
+   "chunk_end": 19.308,
+   "text": "I forgot where I put the keys this morning.",
+   "words": [
+    {
+     "word": "I",
+     "start": 16.724,
+     "end": 17.044,
+     "probability": 0.9634
+    },
+    {
+     "word": "forgot",
+     "start": 17.044,
+     "end": 17.324,
+     "probability": 0.9932
+    },
+    {
+     "word": "where",
+     "start": 17.324,
+     "end": 17.624,
+     "probability": 0.9976
+    },
+    {
+     "word": "I",
+     "start": 17.624,
+     "end": 17.684,
+     "probability": 0.9648
+    },
+    {
+     "word": "put",
+     "start": 17.684,
+     "end": 17.864,
+     "probability": 0.999
+    },
+    {
+     "word": "the",
+     "start": 17.864,
+     "end": 17.984,
+     "probability": 0.998
+    },
+    {
+     "word": "keys",
+     "start": 17.984,
+     "end": 18.184,
+     "probability": 0.9976
+    },
+    {
+     "word": "this",
+     "start": 18.184,
+     "end": 18.404,
+     "probability": 0.998
+    },
+    {
+     "word": "morning.",
+     "start": 18.404,
+     "end": 18.764,
+     "probability": 0.999
+    }
+   ]
+  },
+  {
+   "chunk_start": 19.796,
+   "chunk_end": 21.356,
+   "text": "Hey, Sarah.",
+   "words": [
+    {
+     "word": "Hey,",
+     "start": 19.796,
+     "end": 20.236,
+     "probability": 0.7383
+    },
+    {
+     "word": "Sarah.",
+     "start": 20.276,
+     "end": 20.656,
+     "probability": 0.8394
+    }
+   ]
+  },
+  {
+   "chunk_start": 23.54,
+   "chunk_end": 30.0,
+   "text": "I will call you when I get back home. This recording is only being used as synthetic data.",
+   "words": [
+    {
+     "word": "I",
+     "start": 23.54,
+     "end": 23.86,
+     "probability": 0.9009
+    },
+    {
+     "word": "will",
+     "start": 23.86,
+     "end": 24.06,
+     "probability": 0.9702
+    },
+    {
+     "word": "call",
+     "start": 24.06,
+     "end": 24.36,
+     "probability": 0.999
+    },
+    {
+     "word": "you",
+     "start": 24.36,
+     "end": 24.56,
+     "probability": 0.9961
+    },
+    {
+     "word": "when",
+     "start": 24.56,
+     "end": 24.7,
+     "probability": 0.9956
+    },
+    {
+     "word": "I",
+     "start": 24.7,
+     "end": 24.82,
+     "probability": 0.981
+    },
+    {
+     "word": "get",
+     "start": 24.82,
+     "end": 25.06,
+     "probability": 0.9995
+    },
+    {
+     "word": "back",
+     "start": 25.06,
+     "end": 25.26,
+     "probability": 0.999
+    },
+    {
+     "word": "home.",
+     "start": 25.26,
+     "end": 25.7,
+     "probability": 0.9985
+    },
+    {
+     "word": "This",
+     "start": 25.9,
+     "end": 26.24,
+     "probability": 0.9712
+    },
+    {
+     "word": "recording",
+     "start": 26.24,
+     "end": 26.74,
+     "probability": 0.9985
+    },
+    {
+     "word": "is",
+     "start": 26.74,
+     "end": 27.08,
+     "probability": 0.999
+    },
+    {
+     "word": "only",
+     "start": 27.08,
+     "end": 27.34,
+     "probability": 0.9961
+    },
+    {
+     "word": "being",
+     "start": 27.34,
+     "end": 27.66,
+     "probability": 0.9976
+    },
+    {
+     "word": "used",
+     "start": 27.66,
+     "end": 28.08,
+     "probability": 0.9995
+    },
+    {
+     "word": "as",
+     "start": 28.08,
+     "end": 28.42,
+     "probability": 0.9976
+    },
+    {
+     "word": "synthetic",
+     "start": 28.42,
+     "end": 28.88,
+     "probability": 0.9854
+    },
+    {
+     "word": "data.",
+     "start": 28.88,
+     "end": 29.3,
+     "probability": 0.9985
+    }
+   ]
+  }
+ ]
+}

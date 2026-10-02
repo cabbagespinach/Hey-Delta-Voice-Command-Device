@@ -1,0 +1,150 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0053.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:28:12+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.9006237387657166,
+ "chunks": [
+  {
+   "chunk_start": 4.916,
+   "chunk_end": 7.596,
+   "text": "I left the package beside the front door.",
+   "words": [
+    {
+     "word": "I",
+     "start": 4.916,
+     "end": 5.236,
+     "probability": 0.9585
+    },
+    {
+     "word": "left",
+     "start": 5.236,
+     "end": 5.416,
+     "probability": 0.998
+    },
+    {
+     "word": "the",
+     "start": 5.416,
+     "end": 5.576,
+     "probability": 0.9937
+    },
+    {
+     "word": "package",
+     "start": 5.576,
+     "end": 5.916,
+     "probability": 0.8794
+    },
+    {
+     "word": "beside",
+     "start": 5.916,
+     "end": 6.296,
+     "probability": 0.9634
+    },
+    {
+     "word": "the",
+     "start": 6.296,
+     "end": 6.576,
+     "probability": 0.9976
+    },
+    {
+     "word": "front",
+     "start": 6.576,
+     "end": 6.816,
+     "probability": 0.9902
+    },
+    {
+     "word": "door.",
+     "start": 6.816,
+     "end": 7.036,
+     "probability": 0.9985
+    }
+   ]
+  },
+  {
+   "chunk_start": 13.492,
+   "chunk_end": 16.972,
+   "text": "Chanyo Senpete Adra Suhenyo Arife",
+   "words": [
+    {
+     "word": "Chanyo",
+     "start": 13.492,
+     "end": 14.152,
+     "probability": 0.5183
+    },
+    {
+     "word": "Senpete",
+     "start": 14.152,
+     "end": 14.972,
+     "probability": 0.5592
+    },
+    {
+     "word": "Adra",
+     "start": 14.972,
+     "end": 15.172,
+     "probability": 0.5786
+    },
+    {
+     "word": "Suhenyo",
+     "start": 15.172,
+     "end": 15.852,
+     "probability": 0.8083
+    },
+    {
+     "word": "Arife",
+     "start": 15.852,
+     "end": 16.392,
+     "probability": 0.8218
+    }
+   ]
+  },
+  {
+   "chunk_start": 20.02,
+   "chunk_end": 29.74,
+   "text": "Let us compare the two options carefully.",
+   "words": [
+    {
+     "word": "Let",
+     "start": 23.64,
+     "end": 24.28,
+     "probability": 0.1593
+    },
+    {
+     "word": "us",
+     "start": 24.28,
+     "end": 24.52,
+     "probability": 0.981
+    },
+    {
+     "word": "compare",
+     "start": 24.52,
+     "end": 24.92,
+     "probability": 0.9941
+    },
+    {
+     "word": "the",
+     "start": 24.92,
+     "end": 25.14,
+     "probability": 0.9858
+    },
+    {
+     "word": "two",
+     "start": 25.14,
+     "end": 25.38,
+     "probability": 0.9707
+    },
+    {
+     "word": "options",
+     "start": 25.38,
+     "end": 25.86,
+     "probability": 0.9902
+    },
+    {
+     "word": "carefully.",
+     "start": 25.86,
+     "end": 26.42,
+     "probability": 0.979
+    }
+   ]
+  }
+ ]
+}

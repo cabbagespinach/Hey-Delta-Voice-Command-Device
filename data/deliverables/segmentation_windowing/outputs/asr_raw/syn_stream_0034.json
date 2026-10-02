@@ -1,0 +1,302 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0034.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:27:41+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.881263792514801,
+ "chunks": [
+  {
+   "chunk_start": 0.404,
+   "chunk_end": 2.796,
+   "text": "The meeting starts in about 10 minutes.",
+   "words": [
+    {
+     "word": "The",
+     "start": 0.404,
+     "end": 0.724,
+     "probability": 0.9111
+    },
+    {
+     "word": "meeting",
+     "start": 0.724,
+     "end": 0.904,
+     "probability": 0.9932
+    },
+    {
+     "word": "starts",
+     "start": 0.904,
+     "end": 1.184,
+     "probability": 0.9985
+    },
+    {
+     "word": "in",
+     "start": 1.184,
+     "end": 1.424,
+     "probability": 0.9976
+    },
+    {
+     "word": "about",
+     "start": 1.424,
+     "end": 1.624,
+     "probability": 0.9951
+    },
+    {
+     "word": "10",
+     "start": 1.624,
+     "end": 1.864,
+     "probability": 0.8828
+    },
+    {
+     "word": "minutes.",
+     "start": 1.864,
+     "end": 2.164,
+     "probability": 0.9839
+    }
+   ]
+  },
+  {
+   "chunk_start": 4.18,
+   "chunk_end": 8.396,
+   "text": "I left the package beside the front door.",
+   "words": [
+    {
+     "word": "I",
+     "start": 4.18,
+     "end": 4.52,
+     "probability": 0.6035
+    },
+    {
+     "word": "left",
+     "start": 4.52,
+     "end": 4.82,
+     "probability": 0.98
+    },
+    {
+     "word": "the",
+     "start": 4.82,
+     "end": 5.06,
+     "probability": 0.9873
+    },
+    {
+     "word": "package",
+     "start": 5.06,
+     "end": 5.4,
+     "probability": 0.9956
+    },
+    {
+     "word": "beside",
+     "start": 5.4,
+     "end": 5.88,
+     "probability": 0.957
+    },
+    {
+     "word": "the",
+     "start": 5.88,
+     "end": 7.38,
+     "probability": 0.9521
+    },
+    {
+     "word": "front",
+     "start": 7.38,
+     "end": 7.54,
+     "probability": 0.9541
+    },
+    {
+     "word": "door.",
+     "start": 7.54,
+     "end": 7.7,
+     "probability": 0.9575
+    }
+   ]
+  },
+  {
+   "chunk_start": 13.236,
+   "chunk_end": 16.464,
+   "text": "I will call him when I get back home.",
+   "words": [
+    {
+     "word": "I",
+     "start": 13.236,
+     "end": 13.496,
+     "probability": 0.5586
+    },
+    {
+     "word": "will",
+     "start": 13.496,
+     "end": 13.716,
+     "probability": 0.9673
+    },
+    {
+     "word": "call",
+     "start": 13.716,
+     "end": 13.936,
+     "probability": 0.9951
+    },
+    {
+     "word": "him",
+     "start": 13.936,
+     "end": 14.076,
+     "probability": 0.5498
+    },
+    {
+     "word": "when",
+     "start": 14.076,
+     "end": 14.336,
+     "probability": 0.8911
+    },
+    {
+     "word": "I",
+     "start": 14.336,
+     "end": 14.436,
+     "probability": 0.9751
+    },
+    {
+     "word": "get",
+     "start": 14.436,
+     "end": 14.516,
+     "probability": 0.7852
+    },
+    {
+     "word": "back",
+     "start": 14.516,
+     "end": 14.876,
+     "probability": 0.9961
+    },
+    {
+     "word": "home.",
+     "start": 14.876,
+     "end": 15.136,
+     "probability": 0.9897
+    }
+   ]
+  },
+  {
+   "chunk_start": 16.464,
+   "chunk_end": 21.42,
+   "text": "I think the blue one is slightly cheaper. I was looking for a quiet place to work.",
+   "words": [
+    {
+     "word": "I",
+     "start": 16.464,
+     "end": 16.724,
+     "probability": 0.834
+    },
+    {
+     "word": "think",
+     "start": 16.724,
+     "end": 17.024,
+     "probability": 0.9375
+    },
+    {
+     "word": "the",
+     "start": 17.024,
+     "end": 17.244,
+     "probability": 0.9858
+    },
+    {
+     "word": "blue",
+     "start": 17.244,
+     "end": 17.504,
+     "probability": 0.9883
+    },
+    {
+     "word": "one",
+     "start": 17.504,
+     "end": 17.824,
+     "probability": 0.9941
+    },
+    {
+     "word": "is",
+     "start": 17.824,
+     "end": 18.084,
+     "probability": 0.9956
+    },
+    {
+     "word": "slightly",
+     "start": 18.084,
+     "end": 18.424,
+     "probability": 0.9941
+    },
+    {
+     "word": "cheaper.",
+     "start": 18.424,
+     "end": 19.004,
+     "probability": 0.9961
+    },
+    {
+     "word": "I",
+     "start": 19.064,
+     "end": 19.204,
+     "probability": 0.938
+    },
+    {
+     "word": "was",
+     "start": 19.204,
+     "end": 19.284,
+     "probability": 0.9976
+    },
+    {
+     "word": "looking",
+     "start": 19.284,
+     "end": 19.544,
+     "probability": 0.9976
+    },
+    {
+     "word": "for",
+     "start": 19.544,
+     "end": 19.824,
+     "probability": 0.9985
+    },
+    {
+     "word": "a",
+     "start": 19.824,
+     "end": 19.864,
+     "probability": 0.8789
+    },
+    {
+     "word": "quiet",
+     "start": 19.864,
+     "end": 20.124,
+     "probability": 0.8525
+    },
+    {
+     "word": "place",
+     "start": 20.124,
+     "end": 20.444,
+     "probability": 0.999
+    },
+    {
+     "word": "to",
+     "start": 20.444,
+     "end": 20.624,
+     "probability": 0.998
+    },
+    {
+     "word": "work.",
+     "start": 20.624,
+     "end": 20.864,
+     "probability": 0.9995
+    }
+   ]
+  },
+  {
+   "chunk_start": 21.908,
+   "chunk_end": 23.372,
+   "text": "Hey Delta.",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 21.908,
+     "end": 22.328,
+     "probability": 0.8613
+    },
+    {
+     "word": "Delta.",
+     "start": 22.328,
+     "end": 22.608,
+     "probability": 0.7515
+    }
+   ]
+  }
+ ]
+}

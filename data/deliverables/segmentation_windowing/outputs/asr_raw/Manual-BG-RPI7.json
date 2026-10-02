@@ -1,0 +1,82 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/negatives_general/Manual-BG-RPI7.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:26:14+00:00",
+ "duration_sec": 7.445333333333333,
+ "input_peak": 0.33930206298828125,
+ "chunks": [
+  {
+   "chunk_start": 0.0,
+   "chunk_end": 7.445,
+   "text": "What year is your birthday? I think it's January or February",
+   "words": [
+    {
+     "word": "What",
+     "start": 0.0,
+     "end": 0.12,
+     "probability": 0.0258
+    },
+    {
+     "word": "year",
+     "start": 0.12,
+     "end": 0.14,
+     "probability": 0.2207
+    },
+    {
+     "word": "is",
+     "start": 0.14,
+     "end": 0.46,
+     "probability": 0.5542
+    },
+    {
+     "word": "your",
+     "start": 0.46,
+     "end": 0.62,
+     "probability": 0.2079
+    },
+    {
+     "word": "birthday?",
+     "start": 0.62,
+     "end": 1.04,
+     "probability": 0.3782
+    },
+    {
+     "word": "I",
+     "start": 1.86,
+     "end": 2.08,
+     "probability": 0.1981
+    },
+    {
+     "word": "think",
+     "start": 2.08,
+     "end": 2.8,
+     "probability": 0.5503
+    },
+    {
+     "word": "it's",
+     "start": 2.8,
+     "end": 3.84,
+     "probability": 0.73
+    },
+    {
+     "word": "January",
+     "start": 3.84,
+     "end": 4.0,
+     "probability": 0.6343
+    },
+    {
+     "word": "or",
+     "start": 4.0,
+     "end": 4.16,
+     "probability": 0.7324
+    },
+    {
+     "word": "February",
+     "start": 4.16,
+     "end": 4.46,
+     "probability": 0.9927
+    }
+   ]
+  }
+ ]
+}

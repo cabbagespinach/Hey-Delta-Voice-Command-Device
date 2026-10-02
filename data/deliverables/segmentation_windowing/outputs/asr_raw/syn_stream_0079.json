@@ -1,0 +1,227 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0079.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:28:51+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.891312301158905,
+ "chunks": [
+  {
+   "chunk_start": 8.788,
+   "chunk_end": 14.796,
+   "text": "We should probably check this out first. There's enough time to finish this video.",
+   "words": [
+    {
+     "word": "We",
+     "start": 8.788,
+     "end": 9.088,
+     "probability": 0.4731
+    },
+    {
+     "word": "should",
+     "start": 9.088,
+     "end": 9.268,
+     "probability": 0.9927
+    },
+    {
+     "word": "probably",
+     "start": 9.268,
+     "end": 9.548,
+     "probability": 0.9565
+    },
+    {
+     "word": "check",
+     "start": 9.548,
+     "end": 9.968,
+     "probability": 0.9819
+    },
+    {
+     "word": "this",
+     "start": 9.968,
+     "end": 10.248,
+     "probability": 0.3999
+    },
+    {
+     "word": "out",
+     "start": 10.248,
+     "end": 10.268,
+     "probability": 0.9702
+    },
+    {
+     "word": "first.",
+     "start": 10.268,
+     "end": 10.668,
+     "probability": 0.2101
+    },
+    {
+     "word": "There's",
+     "start": 11.608,
+     "end": 12.208,
+     "probability": 0.3391
+    },
+    {
+     "word": "enough",
+     "start": 12.208,
+     "end": 12.208,
+     "probability": 0.8359
+    },
+    {
+     "word": "time",
+     "start": 12.208,
+     "end": 12.568,
+     "probability": 0.998
+    },
+    {
+     "word": "to",
+     "start": 12.568,
+     "end": 12.848,
+     "probability": 0.9829
+    },
+    {
+     "word": "finish",
+     "start": 12.848,
+     "end": 12.848,
+     "probability": 0.9814
+    },
+    {
+     "word": "this",
+     "start": 12.848,
+     "end": 12.848,
+     "probability": 0.9771
+    },
+    {
+     "word": "video.",
+     "start": 12.848,
+     "end": 12.848,
+     "probability": 0.8804
+    }
+   ]
+  },
+  {
+   "chunk_start": 15.732,
+   "chunk_end": 21.452,
+   "text": "I am escorted to the back yard, beside the front door, near the entrance. The machine makes strange sounds sometimes.",
+   "words": [
+    {
+     "word": "I",
+     "start": 15.732,
+     "end": 16.052,
+     "probability": 0.4497
+    },
+    {
+     "word": "am",
+     "start": 16.052,
+     "end": 16.152,
+     "probability": 0.132
+    },
+    {
+     "word": "escorted",
+     "start": 16.152,
+     "end": 16.552,
+     "probability": 0.5555
+    },
+    {
+     "word": "to",
+     "start": 16.552,
+     "end": 16.692,
+     "probability": 0.8154
+    },
+    {
+     "word": "the",
+     "start": 16.692,
+     "end": 16.692,
+     "probability": 0.9795
+    },
+    {
+     "word": "back",
+     "start": 16.692,
+     "end": 16.852,
+     "probability": 0.6958
+    },
+    {
+     "word": "yard,",
+     "start": 16.852,
+     "end": 17.072,
+     "probability": 0.541
+    },
+    {
+     "word": "beside",
+     "start": 17.172,
+     "end": 17.432,
+     "probability": 0.8477
+    },
+    {
+     "word": "the",
+     "start": 17.432,
+     "end": 17.712,
+     "probability": 0.4783
+    },
+    {
+     "word": "front",
+     "start": 17.712,
+     "end": 17.972,
+     "probability": 0.9893
+    },
+    {
+     "word": "door,",
+     "start": 17.972,
+     "end": 18.272,
+     "probability": 0.9634
+    },
+    {
+     "word": "near",
+     "start": 18.412,
+     "end": 18.552,
+     "probability": 0.938
+    },
+    {
+     "word": "the",
+     "start": 18.552,
+     "end": 18.632,
+     "probability": 0.9941
+    },
+    {
+     "word": "entrance.",
+     "start": 18.632,
+     "end": 18.932,
+     "probability": 0.9932
+    },
+    {
+     "word": "The",
+     "start": 19.012,
+     "end": 19.212,
+     "probability": 0.5054
+    },
+    {
+     "word": "machine",
+     "start": 19.212,
+     "end": 19.972,
+     "probability": 0.4802
+    },
+    {
+     "word": "makes",
+     "start": 19.972,
+     "end": 19.972,
+     "probability": 0.7983
+    },
+    {
+     "word": "strange",
+     "start": 19.972,
+     "end": 19.972,
+     "probability": 0.6694
+    },
+    {
+     "word": "sounds",
+     "start": 19.972,
+     "end": 20.452,
+     "probability": 0.9341
+    },
+    {
+     "word": "sometimes.",
+     "start": 20.452,
+     "end": 20.852,
+     "probability": 0.9678
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,276 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0043.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:27:57+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8947857618331909,
+ "chunks": [
+  {
+   "chunk_start": 7.86,
+   "chunk_end": 13.004,
+   "text": "The road was busy because of the rain. I forgot where I put the keys this morning.",
+   "words": [
+    {
+     "word": "The",
+     "start": 7.86,
+     "end": 8.16,
+     "probability": 0.7334
+    },
+    {
+     "word": "road",
+     "start": 8.16,
+     "end": 8.5,
+     "probability": 0.9897
+    },
+    {
+     "word": "was",
+     "start": 8.5,
+     "end": 8.74,
+     "probability": 0.9976
+    },
+    {
+     "word": "busy",
+     "start": 8.74,
+     "end": 9.08,
+     "probability": 0.9946
+    },
+    {
+     "word": "because",
+     "start": 9.08,
+     "end": 9.36,
+     "probability": 0.9863
+    },
+    {
+     "word": "of",
+     "start": 9.36,
+     "end": 9.7,
+     "probability": 0.9985
+    },
+    {
+     "word": "the",
+     "start": 9.7,
+     "end": 9.82,
+     "probability": 0.9956
+    },
+    {
+     "word": "rain.",
+     "start": 9.82,
+     "end": 10.16,
+     "probability": 0.9917
+    },
+    {
+     "word": "I",
+     "start": 10.28,
+     "end": 10.78,
+     "probability": 0.9189
+    },
+    {
+     "word": "forgot",
+     "start": 10.78,
+     "end": 11.04,
+     "probability": 0.9878
+    },
+    {
+     "word": "where",
+     "start": 11.04,
+     "end": 11.36,
+     "probability": 0.9966
+    },
+    {
+     "word": "I",
+     "start": 11.36,
+     "end": 11.42,
+     "probability": 0.9697
+    },
+    {
+     "word": "put",
+     "start": 11.42,
+     "end": 11.58,
+     "probability": 0.9961
+    },
+    {
+     "word": "the",
+     "start": 11.58,
+     "end": 11.74,
+     "probability": 0.9966
+    },
+    {
+     "word": "keys",
+     "start": 11.74,
+     "end": 11.94,
+     "probability": 0.9985
+    },
+    {
+     "word": "this",
+     "start": 11.94,
+     "end": 12.14,
+     "probability": 0.9966
+    },
+    {
+     "word": "morning.",
+     "start": 12.14,
+     "end": 12.5,
+     "probability": 0.9995
+    }
+   ]
+  },
+  {
+   "chunk_start": 18.996,
+   "chunk_end": 21.74,
+   "text": "That sounds like a reasonable idea to me.",
+   "words": [
+    {
+     "word": "That",
+     "start": 18.996,
+     "end": 19.336,
+     "probability": 0.8359
+    },
+    {
+     "word": "sounds",
+     "start": 19.336,
+     "end": 19.676,
+     "probability": 0.9927
+    },
+    {
+     "word": "like",
+     "start": 19.676,
+     "end": 19.936,
+     "probability": 0.9961
+    },
+    {
+     "word": "a",
+     "start": 19.936,
+     "end": 20.016,
+     "probability": 0.9966
+    },
+    {
+     "word": "reasonable",
+     "start": 20.016,
+     "end": 20.336,
+     "probability": 0.9922
+    },
+    {
+     "word": "idea",
+     "start": 20.336,
+     "end": 20.796,
+     "probability": 0.9966
+    },
+    {
+     "word": "to",
+     "start": 20.796,
+     "end": 21.076,
+     "probability": 0.9961
+    },
+    {
+     "word": "me.",
+     "start": 21.076,
+     "end": 21.256,
+     "probability": 0.9995
+    }
+   ]
+  },
+  {
+   "chunk_start": 22.036,
+   "chunk_end": 27.66,
+   "text": "We ordered dinner and waited near the entrance. Can we take you down to the bathroom?",
+   "words": [
+    {
+     "word": "We",
+     "start": 22.036,
+     "end": 22.396,
+     "probability": 0.75
+    },
+    {
+     "word": "ordered",
+     "start": 22.396,
+     "end": 22.676,
+     "probability": 0.9678
+    },
+    {
+     "word": "dinner",
+     "start": 22.676,
+     "end": 23.016,
+     "probability": 0.9912
+    },
+    {
+     "word": "and",
+     "start": 23.016,
+     "end": 23.236,
+     "probability": 0.978
+    },
+    {
+     "word": "waited",
+     "start": 23.236,
+     "end": 23.476,
+     "probability": 0.9971
+    },
+    {
+     "word": "near",
+     "start": 23.476,
+     "end": 23.756,
+     "probability": 0.9941
+    },
+    {
+     "word": "the",
+     "start": 23.756,
+     "end": 23.956,
+     "probability": 0.9941
+    },
+    {
+     "word": "entrance.",
+     "start": 23.956,
+     "end": 24.276,
+     "probability": 0.9951
+    },
+    {
+     "word": "Can",
+     "start": 24.556,
+     "end": 24.816,
+     "probability": 0.1126
+    },
+    {
+     "word": "we",
+     "start": 24.816,
+     "end": 25.096,
+     "probability": 0.4106
+    },
+    {
+     "word": "take",
+     "start": 25.096,
+     "end": 25.616,
+     "probability": 0.4207
+    },
+    {
+     "word": "you",
+     "start": 25.616,
+     "end": 25.856,
+     "probability": 0.3752
+    },
+    {
+     "word": "down",
+     "start": 25.856,
+     "end": 26.196,
+     "probability": 0.2142
+    },
+    {
+     "word": "to",
+     "start": 26.196,
+     "end": 26.376,
+     "probability": 0.6602
+    },
+    {
+     "word": "the",
+     "start": 26.376,
+     "end": 26.536,
+     "probability": 0.3523
+    },
+    {
+     "word": "bathroom?",
+     "start": 26.536,
+     "end": 26.836,
+     "probability": 0.2257
+    }
+   ]
+  }
+ ]
+}

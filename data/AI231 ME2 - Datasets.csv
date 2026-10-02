@@ -1,0 +1,24 @@
+Link,Description,Contributor
+Name of the dataset + hyperlink,Brief description of the dataset or how it was acquired,Your Name
+Data1 — SLURP: https://github.com/pswietojanski/slurp,Downloaded human speech recordings and selected utterances matching the project’s voice-command labels.,Classmate A
+Data1 — SLURP: https://github.com/pswietojanski/slurp,"Downloaded spoken commands for lights, music, volume, and temperature, then mapped them to project labels.",Classmate A
+Data1 — SLURP: https://github.com/pswietojanski/slurp,Used recorded “stop” commands and background-noise samples to supplement command and silence classes.,Classmate A
+Data1 — SLURP: https://github.com/pswietojanski/slurp,"Generated 10,000 recordings: 20 command labels × 10 synthetic voice identities × 10 phrases × five variations in speed, pitch, and volume.",Classmate A
+Data1 — SLURP: https://github.com/pswietojanski/slurp,"Designed to generate 9,000 synthetic recordings: 20 labels × 30 reference speakers × five phrases × three variants. Each phrase contains 1–2 words. References comprise 24 LibriSpeech and six Filipino-English speakers, with 15 male and 15 female overall. Speaker-disjoint splits: training—20 LibriSpeech + four Filipino-English; validation and test—two LibriSpeech + one Filipino-English each.",Classmate A
+Data1 — SLURP: https://github.com/pswietojanski/slurp,"The Google Speech Commands Dataset v0.02 is a curated collection of short (approximately one-second) audio recordings of spoken words, specifically designed for training and benchmarking keyword spotting systems. Each recording captures a single spoken command uttered by a diverse set of speakers, making the dataset highly valuable for developing robust, real-world voice-controlled applications. The commands include common terms such as ""yes"", ""no"", ""up"", ""down"", ""left"", ""right"", ""on"", ""off"", ""stop"", and ""go"", among others.
+In addition to the primary command recordings, the dataset also provides a set of background noise audio files. These files, stored in a dedicated folder, are intended to support data augmentation techniques and help improve model performance in noisy environments. The dataset has been widely adopted in both academic research and industry applications, serving as a benchmark for lightweight and efficient speech recognition systems.",Classmate B
+Synthetic commands speech dataset -- https://www.kaggle.com/datasets/jbuchner/synthetic-speech-commands-dataset,"Dataset including one words, we can prune here especially: off, on, stop, etc.",Classmate B
+Synthetic commands speech dataset -- https://github.com/lugan113/SynTTS-Commands-Official,Synthetic data generated using cosy2. Contains 14k recordings for command 1 & 53k recordings for command 8,Classmate C
+fluent-speech-corpus -- https://www.kaggle.com/datasets/tommyngx/fluent-speech-corpus,"Speaker Verification Corpus
+FLUENT SPEECH COMMANDS DATASET
+
+Dataset contains 97 speakers saying 248 different phrases. The 248 utterances map to 31 unique intents, that are divided into three slots: action, object, and location. The goal in preparing this dataset was to provide a benchmark for end-to-end spoken language understanding models.",Classmate B
+,,
+,,
+Common Voice by Mozilla -- https://www.kaggle.com/datasets/mozillaorg/common-voice?select=cv-valid-train.csv,General English speech recognition dataset. Has Filipino accent recordings. Around 200k total recordings (multiple English-speaking accents).,Classmate D
+Timers and Such - https://zenodo.org/api/records/4623772/files/timers-and-such-v1.0.zip/content,"Timers and Such (Lugosch et al., NeurIPS 2021 Datasets & Benchmarks, arXiv:2104.01604, license ""other-open"") has real human recordings for exactly this: SetTimer and SetAlarm intents, mapped to TIMER and ALARM respectively.
+
+Only the relevant real subset is downloaded, not the full archive: the source archive is a single 12.2GB zip, and the paper reports only 2,151 real (non-synthetic) utterances across all 4 of its intents combined. So I created a script to only take the ones that match the schema we're using.",Classmate E
+Snips SLU - https://huggingface.co/datasets/MWilinski/snips_slu_v1.0,"It contains recordings of commands for smart home appliances in English, with info about demographics of the speaker.",Classmate E
+MLEnd Spoken Numerals - https://www.kaggle.com/datasets/jesusrequena/mlend-spoken-numerals,Recordings of people uttering numbers,Classmate D
+https://drive.google.com/file/d/1miLmuozdojOylqD0xlfOwXAdNsbGYwfN/view?usp=sharing,,Classmate F

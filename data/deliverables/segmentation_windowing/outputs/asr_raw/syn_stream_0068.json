@@ -1,0 +1,198 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0068.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:28:36+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8926729559898376,
+ "chunks": [
+  {
+   "chunk_start": 3.348,
+   "chunk_end": 14.508,
+   "text": "The report contains several useful examples. This recording is only being used as synthetic data. He dealt her.",
+   "words": [
+    {
+     "word": "The",
+     "start": 3.348,
+     "end": 3.628,
+     "probability": 0.6689
+    },
+    {
+     "word": "report",
+     "start": 3.628,
+     "end": 4.008,
+     "probability": 0.978
+    },
+    {
+     "word": "contains",
+     "start": 4.008,
+     "end": 4.488,
+     "probability": 0.9736
+    },
+    {
+     "word": "several",
+     "start": 4.488,
+     "end": 5.128,
+     "probability": 0.998
+    },
+    {
+     "word": "useful",
+     "start": 5.128,
+     "end": 5.608,
+     "probability": 0.998
+    },
+    {
+     "word": "examples.",
+     "start": 5.608,
+     "end": 6.248,
+     "probability": 0.9976
+    },
+    {
+     "word": "This",
+     "start": 6.728,
+     "end": 6.808,
+     "probability": 0.9502
+    },
+    {
+     "word": "recording",
+     "start": 6.808,
+     "end": 7.368,
+     "probability": 0.9941
+    },
+    {
+     "word": "is",
+     "start": 7.368,
+     "end": 7.728,
+     "probability": 0.9946
+    },
+    {
+     "word": "only",
+     "start": 7.728,
+     "end": 8.068,
+     "probability": 0.9922
+    },
+    {
+     "word": "being",
+     "start": 8.068,
+     "end": 8.448,
+     "probability": 0.9956
+    },
+    {
+     "word": "used",
+     "start": 8.448,
+     "end": 8.968,
+     "probability": 0.9985
+    },
+    {
+     "word": "as",
+     "start": 8.968,
+     "end": 9.248,
+     "probability": 0.9912
+    },
+    {
+     "word": "synthetic",
+     "start": 9.248,
+     "end": 9.528,
+     "probability": 0.979
+    },
+    {
+     "word": "data.",
+     "start": 9.528,
+     "end": 10.048,
+     "probability": 0.998
+    },
+    {
+     "word": "He",
+     "start": 10.248,
+     "end": 10.988,
+     "probability": 0.665
+    },
+    {
+     "word": "dealt",
+     "start": 10.988,
+     "end": 11.308,
+     "probability": 0.751
+    },
+    {
+     "word": "her.",
+     "start": 11.308,
+     "end": 11.548,
+     "probability": 0.958
+    }
+   ]
+  },
+  {
+   "chunk_start": 16.756,
+   "chunk_end": 18.06,
+   "text": "He dealt her.",
+   "words": [
+    {
+     "word": "He",
+     "start": 16.756,
+     "end": 17.076,
+     "probability": 0.3557
+    },
+    {
+     "word": "dealt",
+     "start": 17.076,
+     "end": 17.276,
+     "probability": 0.8892
+    },
+    {
+     "word": "her.",
+     "start": 17.276,
+     "end": 17.576,
+     "probability": 0.9761
+    }
+   ]
+  },
+  {
+   "chunk_start": 20.276,
+   "chunk_end": 27.948,
+   "text": "The battery should last for another hour.",
+   "words": [
+    {
+     "word": "The",
+     "start": 22.096,
+     "end": 22.736,
+     "probability": 0.6489
+    },
+    {
+     "word": "battery",
+     "start": 22.736,
+     "end": 23.036,
+     "probability": 0.3408
+    },
+    {
+     "word": "should",
+     "start": 23.036,
+     "end": 26.336,
+     "probability": 0.9956
+    },
+    {
+     "word": "last",
+     "start": 26.336,
+     "end": 26.676,
+     "probability": 0.999
+    },
+    {
+     "word": "for",
+     "start": 26.676,
+     "end": 26.876,
+     "probability": 0.9932
+    },
+    {
+     "word": "another",
+     "start": 26.876,
+     "end": 27.056,
+     "probability": 0.9956
+    },
+    {
+     "word": "hour.",
+     "start": 27.056,
+     "end": 27.396,
+     "probability": 0.9956
+    }
+   ]
+  }
+ ]
+}

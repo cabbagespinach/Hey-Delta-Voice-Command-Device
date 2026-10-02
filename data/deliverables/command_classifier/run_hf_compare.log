@@ -1,0 +1,434 @@
+=== 1 HF dataset -> data/commands_hf/ 10-02 07:41:36
+=== 2 clip lists -> data/commands_hf_only.csv, data/commands_hf_plus.csv 10-02 07:41:36
+Traceback (most recent call last):
+  File "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/deliverables/command_classifier/build_hf_lists.py", line 146, in <module>
+    main()
+  File "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/deliverables/command_classifier/build_hf_lists.py", line 103, in main
+    hf, h = hf_rows(own_paths)
+            ^^^^^^^^^^^^^^^^^^
+  File "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/deliverables/command_classifier/build_hf_lists.py", line 63, in hf_rows
+    h["speaker"] = [OWNER.get(s, SPK[src] + s) for s, src in zip(sid, h.source)]
+                                 ~~~~~~~~~^~~
+TypeError: can only concatenate str (not "float") to str
+=== 2 clip lists -> data/commands_hf_only.csv, data/commands_hf_plus.csv 10-02 07:41:51
+HF: 15296 clips; owner clips pointing to our original files: 535 of 577
+== hf_only: 22039 clips
+split                      holdout  test  train  validation
+dataset                                                    
+classmate_hf_optionb           100  3368   7806           0
+classmate_hf_real               84   179     72           0
+classmate_hf_vcm                 0    10     60           0
+fragments_synthetic_clone        0     0      0          36
+fragments_synthetic_ph           0     0      0          21
+fragments_synthetic_piper        0     0      0          51
+fragments_web_tas                0     0      0           1
+owner_recordings                 0     0    577           8
+reuse_fleurs                     0     0      0          57
+reuse_mswc                       0     0      0          56
+reuse_musan                      0     0      0         191
+reuse_owner                      0     0      0          88
+synthetic_clone                  0     0      0         496
+synthetic_ph                     0     0      0          64
+synthetic_piper                  0     0      0         712
+variants_clone                   0     0      0         472
+variants_ph                      0     0      0         312
+variants_piper                   0     0      0        1683
+web_fsc                          0     0      0          11
+web_gsc                          0     0      0        2350
+web_hf_commonvoice               3    14     36           0
+web_hf_fsc                       9   153    293           0
+web_hf_gsc                       0     0     11           0
+web_hf_multisensor               0    11      4           0
+web_hf_slurp                     0   574   1381           0
+web_hf_snips                     0   107    411           0
+web_hf_tas                       0     2     31           0
+web_multisensor                  0     0      0          60
+web_tas                          0     0      0          74
+  speakers shared train/test: 0  validation/test: 0
+== hf_plus: 198837 clips
+split                       holdout  test  train  validation
+dataset                                                     
+classmate_hf_optionb            100  3368   7806           0
+classmate_hf_real                84   179     72           0
+classmate_hf_vcm                  0    10     60           0
+classmate_optionb                 0     0   3636           0
+classmate_syntts                  0     0  52962           0
+classmate_vcm_piper               0     0    287           0
+classmate_vcm_real                0     0     57           0
+converted_owner                   0     0   1578           0
+fragments_owner_recordings        0     0    140           0
+fragments_synthetic_clone         0     0    252          36
+fragments_synthetic_ph            0     0    222          21
+fragments_synthetic_piper         0     0    267          51
+fragments_web_slurp               0     0    168           0
+fragments_web_tas                 0     0     43           1
+other_speakers                    0     0     59           0
+owner_recordings                  0     0    622           8
+reuse_fleurs                      0     0    483          57
+reuse_mswc                        0     0    562          56
+reuse_musan                       0     0   1138         191
+reuse_owner                       0     0    661          88
+synthetic_clone                   0     0   3925         496
+synthetic_ph                      0     0    927          64
+synthetic_piper                   0     0   3717         712
+variants_clone                    0     0   2431         472
+variants_ph                       0     0   4357         312
+variants_piper                    0     0   7579        1683
+web_fsc                           0     0   3231          11
+web_gsc                           0     0  84849        2350
+web_hf_commonvoice                3    14     36           0
+web_hf_fsc                        9   153    293           0
+web_hf_gsc                        0     0     11           0
+web_hf_multisensor                0    11      4           0
+web_hf_slurp                      0   574   1381           0
+web_hf_snips                      0   107    411           0
+web_hf_tas                        0     2     31           0
+web_multisensor                   0     0    660          60
+web_slurp                         0     0   1253           0
+web_snips                         0     0    158           0
+web_tas                           0     0   1151          74
+  speakers shared train/test: 0  validation/test: 0
+why                                        dataset                   
+already in HF train                        classmate_optionb             7806
+                                           other_speakers                  49
+                                           owner_recordings               535
+                                           web_fsc                        166
+                                           web_tas                         28
+our test split (not used; test = HF test)  classmate_optionb              322
+                                           fragments_owner_recordings      77
+                                           fragments_synthetic_clone       35
+                                           fragments_synthetic_ph          85
+                                           fragments_synthetic_piper        7
+                                           fragments_web_slurp             42
+                                           fragments_web_tas                7
+                                           owner_recordings                20
+                                           reuse_fleurs                    54
+                                           reuse_mswc                      48
+                                           reuse_musan                    194
+                                           reuse_owner                    112
+                                           synthetic_clone                600
+                                           synthetic_ph                   204
+                                           synthetic_piper                449
+                                           web_fsc                        508
+                                           web_gsc                       2411
+                                           web_multisensor                120
+                                           web_slurp                      328
+                                           web_tas                        165
+speaker in HF test/holdout                 classmate_optionb             5563
+                                           classmate_vcm_real              38
+                                           fragments_web_slurp             90
+                                           fragments_web_tas                4
+                                           other_speakers                  50
+                                           web_fsc                       2254
+                                           web_multisensor                352
+                                           web_slurp                      681
+                                           web_snips                       34
+                                           web_tas                         19
+validation speaker also in HF train        classmate_optionb              524
+                                           fragments_owner_recordings      62
+                                           fragments_web_slurp             21
+                                           fragments_web_tas                6
+                                           web_fsc                        233
+                                           web_slurp                      221
+                                           web_tas                        124
+validation unknown clips per group: {'gsc': 2000, 'synthetic': 1312, 'reuse_musan': 191, 'fragments': 105, 'reuse_owner': 88, 'web': 72, 'reuse_fleurs': 57, 'reuse_mswc': 56, 'owner': 8}
+validation command clips per group: {'variants': 1604, 'synthetic': 827, 'web': 423}
+=== 3 normalisation statistics (hf_only, training draws only) 10-02 07:43:33
+4000 draws, 1988000 frames; mean -20.0 dB, std 13.2 dB -> /mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/deliverables/command_classifier/preprocessing/normalization_stats_hf_only.json
+=== 3 normalisation statistics (hf_plus, training draws only) 10-02 07:44:20
+4000 draws, 1988000 frames; mean -20.2 dB, std 13.7 dB -> /mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/deliverables/command_classifier/preprocessing/normalization_stats_hf_plus.json
+=== 4 smoke test (1 tiny epoch per model + test pass) 10-02 07:45:00
+10682 train clips (512 draws/epoch), 6743 validation clips, 191,672 parameters
+ep  0 loss 3.455 | owner nan web 0.000 synth 0.048 unk-false 1.000 | score 0.016 * (0.46 min)
+best selection score 0.016 -> /mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/deliverables/command_classifier/smoke_hf/run_hf_only/best.pt
+run_hf_only: cutoffs {'cautious': 0.035, 'balanced': 0.035}
+# Command classifier: test results
+
+Cutoffs chosen on validation; test clips were never used for any choice. Command rates are macro averages over classes: **correct**, **wrong command** (the harmful error), **rejected** (answered 'unknown' = asks again).
+
+## run_hf_only (191,672 parameters, best epoch 0)
+
+Cutoffs: cautious 0.035, balanced 0.035
+
+| rule | who | clips | correct | wrong command | rejected |
+|---|---|---|---|---|---|
+| argmax | web | 814 | 0.0% | 100.0% | 0.0% |
+| argmax | classmates | 3557 | 3.2% | 96.8% | 0.0% |
+| cautious | web | 814 | 0.0% | 0.0% | 100.0% |
+| cautious | classmates | 3557 | 0.0% | 0.0% | 100.0% |
+| balanced | web | 814 | 0.0% | 0.0% | 100.0% |
+| balanced | classmates | 3557 | 0.0% | 0.0% | 100.0% |
+
+Unknown clips that trigger a command (test):
+
+| rule | web | mean |
+|---|---|---|
+| argmax | 100.0% | 100.0% |
+| cautious | 0.0% | 0.0% |
+| balanced | 0.0% | 0.0% |
+
+187480 train clips (512 draws/epoch), 6743 validation clips, 191,672 parameters
+ep  0 loss 3.453 | owner nan web 0.000 synth 0.048 unk-false 1.000 | score 0.016 * (0.49 min)
+best selection score 0.016 -> /mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/deliverables/command_classifier/smoke_hf/run_hf_plus/best.pt
+run_hf_plus: cutoffs {'cautious': 0.035, 'balanced': 0.035}
+# Command classifier: test results
+
+Cutoffs chosen on validation; test clips were never used for any choice. Command rates are macro averages over classes: **correct**, **wrong command** (the harmful error), **rejected** (answered 'unknown' = asks again).
+
+## run_hf_plus (191,672 parameters, best epoch 0)
+
+Cutoffs: cautious 0.035, balanced 0.035
+
+| rule | who | clips | correct | wrong command | rejected |
+|---|---|---|---|---|---|
+| argmax | web | 814 | 0.0% | 100.0% | 0.0% |
+| argmax | classmates | 3557 | 3.2% | 96.8% | 0.0% |
+| cautious | web | 814 | 0.0% | 0.0% | 100.0% |
+| cautious | classmates | 3557 | 0.0% | 0.0% | 100.0% |
+| balanced | web | 814 | 0.0% | 0.0% | 100.0% |
+| balanced | classmates | 3557 | 0.0% | 0.0% | 100.0% |
+
+Unknown clips that trigger a command (test):
+
+| rule | web | mean |
+|---|---|---|
+| argmax | 100.0% | 100.0% |
+| cautious | 0.0% | 0.0% |
+| balanced | 0.0% | 0.0% |
+
+=== smoke OK 10-02 07:47:01
+=== 5 train bcresnet6_hf_only (HF train only) 10-02 07:47:01
+ep 59 loss 0.934 | owner nan web 0.888 synth 0.934 unk-false 0.761 | score 0.687 (1.04 min)
+best selection score 0.750 -> /mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/deliverables/command_classifier/model/runs/bcresnet6_hf_only/best.pt
+=== 6 train bcresnet6_hf_plus (HF train + our data) 10-02 08:51:00
+ep 59 loss 1.032 | owner nan web 0.988 synth 0.978 unk-false 0.059 | score 0.969 (1.6 min)
+best selection score 0.973 -> /mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/deliverables/command_classifier/model/runs/bcresnet6_hf_plus/best.pt
+=== 7 HF test set + unseen speakers (hf_only) 10-02 10:12:56
+bcresnet6_hf_only: cutoffs {'cautious': 0.89, 'balanced': 0.67}
+# Command classifier: test results
+
+Cutoffs chosen on validation; test clips were never used for any choice. Command rates are macro averages over classes: **correct**, **wrong command** (the harmful error), **rejected** (answered 'unknown' = asks again).
+
+## bcresnet6_hf_only (191,672 parameters, best epoch 6)
+
+Cutoffs: cautious 0.890, balanced 0.670
+
+| rule | who | clips | correct | wrong command | rejected |
+|---|---|---|---|---|---|
+| argmax | web | 814 | 52.9% | 16.7% | 30.3% |
+| argmax | classmates | 3557 | 90.3% | 7.7% | 2.0% |
+| cautious | web | 814 | 25.4% | 0.3% | 74.3% |
+| cautious | classmates | 3557 | 63.7% | 0.2% | 36.0% |
+| balanced | web | 814 | 37.7% | 2.0% | 60.3% |
+| balanced | classmates | 3557 | 80.1% | 1.8% | 18.1% |
+
+Unknown clips that trigger a command (test):
+
+| rule | web | mean |
+|---|---|---|
+| argmax | 27.7% | 27.7% |
+| cautious | 0.0% | 0.0% |
+| balanced | 2.1% | 2.1% |
+
+# Test results on unseen speakers
+
+Only test clips whose speaker never appears in the training split. Command rates are macro averages over classes; `unknown_false_action` = share of unknown clips that trigger a command.
+
+| model             | rule     | dataset              |   unseen_speakers |   command_clips |   command_classes |   correct |   wrong_command |   unknown_clips |   unknown_false_action |
+|:------------------|:---------|:---------------------|------------------:|----------------:|------------------:|----------:|----------------:|----------------:|-----------------------:|
+| bcresnet6_hf_only | argmax   | classmate_hf_optionb |                29 |            3368 |                31 |    0.9213 |          0.0684 |               0 |               nan      |
+| bcresnet6_hf_only | argmax   | classmate_hf_real    |                 1 |             179 |                31 |    0.5914 |          0.2269 |               0 |               nan      |
+| bcresnet6_hf_only | argmax   | classmate_hf_vcm     |                 2 |              10 |                 2 |    0.6667 |          0.0833 |               0 |               nan      |
+| bcresnet6_hf_only | argmax   | web_hf_commonvoice   |                 8 |               0 |                 0 |  nan      |        nan      |              14 |                 0      |
+| bcresnet6_hf_only | argmax   | web_hf_fsc           |                27 |             147 |                 6 |    0.4852 |          0.2368 |               6 |                 0.5    |
+| bcresnet6_hf_only | argmax   | web_hf_multisensor   |                 6 |              11 |                 1 |    0.7273 |          0      |               0 |               nan      |
+| bcresnet6_hf_only | argmax   | web_hf_slurp         |                36 |             553 |                20 |    0.4974 |          0.1565 |              21 |                 0.3333 |
+| bcresnet6_hf_only | argmax   | web_hf_snips         |                11 |             101 |                 7 |    0.3624 |          0.3592 |               6 |                 0.5    |
+| bcresnet6_hf_only | argmax   | web_hf_tas           |                 1 |               2 |                 2 |    1      |          0      |               0 |               nan      |
+| bcresnet6_hf_only | cautious | classmate_hf_optionb |                29 |            3368 |                31 |    0.6645 |          0.0024 |               0 |               nan      |
+| bcresnet6_hf_only | cautious | classmate_hf_real    |                 1 |             179 |                31 |    0.1462 |          0      |               0 |               nan      |
+| bcresnet6_hf_only | cautious | classmate_hf_vcm     |                 2 |              10 |                 2 |    0.125  |          0      |               0 |               nan      |
+| bcresnet6_hf_only | cautious | web_hf_commonvoice   |                 8 |               0 |                 0 |  nan      |        nan      |              14 |                 0      |
+| bcresnet6_hf_only | cautious | web_hf_fsc           |                27 |             147 |                 6 |    0.1349 |          0      |               6 |                 0      |
+| bcresnet6_hf_only | cautious | web_hf_multisensor   |                 6 |              11 |                 1 |    0.3636 |          0      |               0 |               nan      |
+| bcresnet6_hf_only | cautious | web_hf_slurp         |                36 |             553 |                20 |    0.2183 |          0.001  |              21 |                 0      |
+| bcresnet6_hf_only | cautious | web_hf_snips         |                11 |             101 |                 7 |    0.1402 |          0.0114 |               6 |                 0      |
+| bcresnet6_hf_only | cautious | web_hf_tas           |                 1 |               2 |                 2 |    1      |          0      |               0 |               nan      |
+| bcresnet6_hf_only | balanced | classmate_hf_optionb |                29 |            3368 |                31 |    0.8276 |          0.0172 |               0 |               nan      |
+| bcresnet6_hf_only | balanced | classmate_hf_real    |                 1 |             179 |                31 |    0.3118 |          0.028  |               0 |               nan      |
+| bcresnet6_hf_only | balanced | classmate_hf_vcm     |                 2 |              10 |                 2 |    0.4583 |          0      |               0 |               nan      |
+| bcresnet6_hf_only | balanced | web_hf_commonvoice   |                 8 |               0 |                 0 |  nan      |        nan      |              14 |                 0      |
+| bcresnet6_hf_only | balanced | web_hf_fsc           |                27 |             147 |                 6 |    0.2714 |          0.0124 |               6 |                 0.1667 |
+| bcresnet6_hf_only | balanced | web_hf_multisensor   |                 6 |              11 |                 1 |    0.7273 |          0      |               0 |               nan      |
+| bcresnet6_hf_only | balanced | web_hf_slurp         |                36 |             553 |                20 |    0.3474 |          0.016  |              21 |                 0      |
+| bcresnet6_hf_only | balanced | web_hf_snips         |                11 |             101 |                 7 |    0.2593 |          0.0444 |               6 |                 0      |
+| bcresnet6_hf_only | balanced | web_hf_tas           |                 1 |               2 |                 2 |    1      |          0      |               0 |               nan      |
+=== 7 HF test set + unseen speakers (hf_plus) 10-02 10:13:32
+bcresnet6_hf_plus: cutoffs {'cautious': 0.61, 'balanced': 0.34}
+# Command classifier: test results
+
+Cutoffs chosen on validation; test clips were never used for any choice. Command rates are macro averages over classes: **correct**, **wrong command** (the harmful error), **rejected** (answered 'unknown' = asks again).
+
+## bcresnet6_hf_plus (191,672 parameters, best epoch 43)
+
+Cutoffs: cautious 0.610, balanced 0.340
+
+| rule | who | clips | correct | wrong command | rejected |
+|---|---|---|---|---|---|
+| argmax | web | 814 | 63.9% | 9.4% | 26.7% |
+| argmax | classmates | 3557 | 95.7% | 1.2% | 3.1% |
+| cautious | web | 814 | 57.8% | 3.7% | 38.5% |
+| cautious | classmates | 3557 | 92.9% | 0.5% | 6.5% |
+| balanced | web | 814 | 63.6% | 8.4% | 28.1% |
+| balanced | classmates | 3557 | 95.6% | 1.1% | 3.3% |
+
+Unknown clips that trigger a command (test):
+
+| rule | web | mean |
+|---|---|---|
+| argmax | 19.1% | 19.1% |
+| cautious | 8.5% | 8.5% |
+| balanced | 17.0% | 17.0% |
+
+# Test results on unseen speakers
+
+Only test clips whose speaker never appears in the training split. Command rates are macro averages over classes; `unknown_false_action` = share of unknown clips that trigger a command.
+
+| model             | rule     | dataset              |   unseen_speakers |   command_clips |   command_classes |   correct |   wrong_command |   unknown_clips |   unknown_false_action |
+|:------------------|:---------|:---------------------|------------------:|----------------:|------------------:|----------:|----------------:|----------------:|-----------------------:|
+| bcresnet6_hf_plus | argmax   | classmate_hf_optionb |                29 |            3368 |                31 |    0.9713 |          0.0093 |               0 |               nan      |
+| bcresnet6_hf_plus | argmax   | classmate_hf_real    |                 1 |             179 |                31 |    0.7118 |          0.0559 |               0 |               nan      |
+| bcresnet6_hf_plus | argmax   | classmate_hf_vcm     |                 2 |              10 |                 2 |    0.8333 |          0      |               0 |               nan      |
+| bcresnet6_hf_plus | argmax   | web_hf_commonvoice   |                 8 |               0 |                 0 |  nan      |        nan      |              14 |                 0.0714 |
+| bcresnet6_hf_plus | argmax   | web_hf_fsc           |                27 |             147 |                 6 |    0.7177 |          0.1501 |               6 |                 0      |
+| bcresnet6_hf_plus | argmax   | web_hf_multisensor   |                 6 |              11 |                 1 |    1      |          0      |               0 |               nan      |
+| bcresnet6_hf_plus | argmax   | web_hf_slurp         |                36 |             553 |                20 |    0.6204 |          0.08   |              21 |                 0.2381 |
+| bcresnet6_hf_plus | argmax   | web_hf_snips         |                11 |             101 |                 7 |    0.512  |          0.1386 |               6 |                 0.5    |
+| bcresnet6_hf_plus | argmax   | web_hf_tas           |                 1 |               2 |                 2 |    1      |          0      |               0 |               nan      |
+| bcresnet6_hf_plus | cautious | classmate_hf_optionb |                29 |            3368 |                31 |    0.9466 |          0.0043 |               0 |               nan      |
+| bcresnet6_hf_plus | cautious | classmate_hf_real    |                 1 |             179 |                31 |    0.6247 |          0.0226 |               0 |               nan      |
+| bcresnet6_hf_plus | cautious | classmate_hf_vcm     |                 2 |              10 |                 2 |    0.8333 |          0      |               0 |               nan      |
+| bcresnet6_hf_plus | cautious | web_hf_commonvoice   |                 8 |               0 |                 0 |  nan      |        nan      |              14 |                 0.0714 |
+| bcresnet6_hf_plus | cautious | web_hf_fsc           |                27 |             147 |                 6 |    0.6542 |          0.1303 |               6 |                 0      |
+| bcresnet6_hf_plus | cautious | web_hf_multisensor   |                 6 |              11 |                 1 |    1      |          0      |               0 |               nan      |
+| bcresnet6_hf_plus | cautious | web_hf_slurp         |                36 |             553 |                20 |    0.5585 |          0.0165 |              21 |                 0.0952 |
+| bcresnet6_hf_plus | cautious | web_hf_snips         |                11 |             101 |                 7 |    0.4304 |          0.0419 |               6 |                 0.1667 |
+| bcresnet6_hf_plus | cautious | web_hf_tas           |                 1 |               2 |                 2 |    1      |          0      |               0 |               nan      |
+| bcresnet6_hf_plus | balanced | classmate_hf_optionb |                29 |            3368 |                31 |    0.9707 |          0.0086 |               0 |               nan      |
+| bcresnet6_hf_plus | balanced | classmate_hf_real    |                 1 |             179 |                31 |    0.7011 |          0.0505 |               0 |               nan      |
+| bcresnet6_hf_plus | balanced | classmate_hf_vcm     |                 2 |              10 |                 2 |    0.8333 |          0      |               0 |               nan      |
+| bcresnet6_hf_plus | balanced | web_hf_commonvoice   |                 8 |               0 |                 0 |  nan      |        nan      |              14 |                 0.0714 |
+| bcresnet6_hf_plus | balanced | web_hf_fsc           |                27 |             147 |                 6 |    0.7177 |          0.1501 |               6 |                 0      |
+| bcresnet6_hf_plus | balanced | web_hf_multisensor   |                 6 |              11 |                 1 |    1      |          0      |               0 |               nan      |
+| bcresnet6_hf_plus | balanced | web_hf_slurp         |                36 |             553 |                20 |    0.6078 |          0.0693 |              21 |                 0.1905 |
+| bcresnet6_hf_plus | balanced | web_hf_snips         |                11 |             101 |                 7 |    0.512  |          0.1315 |               6 |                 0.5    |
+| bcresnet6_hf_plus | balanced | web_hf_tas           |                 1 |               2 |                 2 |    1      |          0      |               0 |               nan      |
+=== 8 ONNX export (hf_only) 10-02 10:14:13
+  torch.onnx.export(full, torch.zeros(1, N), str(onnx_path), input_names=["audio"], output_names=["probs"],
+{
+ "run": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/deliverables/command_classifier/model/runs/bcresnet6_hf_only",
+ "best_epoch": 6,
+ "tau": 6.0,
+ "classes": 32,
+ "opset": 17,
+ "input": "audio float32 [B, 80000] @16 kHz",
+ "output": "probs float32 [B, 32]",
+ "check_clips": 600,
+ "cutoffs": {
+  "cautious": 0.89,
+  "balanced": 0.67
+ },
+ "frontend_max_abs_diff_normalised_units": 0.0011169910430908203,
+ "prob_max_abs_diff_onnx_vs_torch": 2.580881118774414e-05,
+ "decisions_changed_argmax": 0,
+ "accuracy_argmax_onnx": 0.825,
+ "decisions_changed_cautious": 0,
+ "accuracy_cautious_onnx": 0.58,
+ "decisions_changed_balanced": 0,
+ "accuracy_balanced_onnx": 0.735,
+ "file_bytes": 2003328
+}
+=== 8 ONNX export (hf_plus) 10-02 10:15:28
+  torch.onnx.export(full, torch.zeros(1, N), str(onnx_path), input_names=["audio"], output_names=["probs"],
+{
+ "run": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/deliverables/command_classifier/model/runs/bcresnet6_hf_plus",
+ "best_epoch": 43,
+ "tau": 6.0,
+ "classes": 32,
+ "opset": 17,
+ "input": "audio float32 [B, 80000] @16 kHz",
+ "output": "probs float32 [B, 32]",
+ "check_clips": 600,
+ "cutoffs": {
+  "cautious": 0.61,
+  "balanced": 0.34
+ },
+ "frontend_max_abs_diff_normalised_units": 0.0014524459838867188,
+ "prob_max_abs_diff_onnx_vs_torch": 1.7523765563964844e-05,
+ "decisions_changed_argmax": 0,
+ "accuracy_argmax_onnx": 0.8733333333333333,
+ "decisions_changed_cautious": 0,
+ "accuracy_cautious_onnx": 0.8516666666666667,
+ "decisions_changed_balanced": 0,
+ "accuracy_balanced_onnx": 0.875,
+ "file_bytes": 2003328
+}
+=== 9 comparison -> evaluation/results_hf_compare.md 10-02 10:16:54
+# Class benchmark (HF test): HF data only vs HF + our data
+
+Both: BC-ResNet-6, same recipe, validation = our filtered validation clips (never HF), cutoffs chosen on validation. Test = HF test split (4,418 clips; no test speaker in either model's training).
+
+| | HF data only | HF + our data |
+|---|---|---|
+| best epoch | 6 | 43 |
+| cutoffs (cautious / balanced) | 0.890 / 0.670 | 0.610 / 0.340 |
+
+| rule | who | HF data only: correct / wrong / rejected | HF + our data: correct / wrong / rejected |
+|---|---|---|---|
+| argmax | classmates | 90.3% / 7.7% / 2.0% (3557 clips) | 95.7% / 1.2% / 3.1% (3557 clips) |
+| argmax | web | 52.9% / 16.7% / 30.3% (814 clips) | 63.9% / 9.4% / 26.7% (814 clips) |
+| argmax | non-commands that trigger an action (mean over groups) | 27.7% | 19.1% |
+| balanced | classmates | 80.1% / 1.8% / 18.1% (3557 clips) | 95.6% / 1.1% / 3.3% (3557 clips) |
+| balanced | web | 37.7% / 2.0% / 60.3% (814 clips) | 63.6% / 8.4% / 28.1% (814 clips) |
+| balanced | non-commands that trigger an action (mean over groups) | 2.1% | 17.0% |
+| cautious | classmates | 63.7% / 0.2% / 36.0% (3557 clips) | 92.9% / 0.5% / 6.5% (3557 clips) |
+| cautious | web | 25.4% / 0.3% / 74.3% (814 clips) | 57.8% / 3.7% / 38.5% (814 clips) |
+| cautious | non-commands that trigger an action (mean over groups) | 0.0% | 8.5% |
+
+## Per class, argmax accuracy on HF test
+
+| class                       |   HF data only |   HF + our data |   difference |
+|:----------------------------|---------------:|----------------:|-------------:|
+| ALARM_6AM                   |           95   |            97.9 |          2.8 |
+| ALARM_8AM                   |           97.9 |            96.5 |         -1.4 |
+| ALARM_9PM                   |           86.5 |            90.8 |          4.3 |
+| BRIGHTNESS_100              |           92.2 |            97.2 |          5   |
+| BRIGHTNESS_20               |           84.4 |            96.5 |         12.1 |
+| BRIGHTNESS_60               |           97.2 |            99.3 |          2.1 |
+| CALL                        |           64.5 |            85.1 |         20.6 |
+| COLOR_BLUE                  |           90.1 |            89.4 |         -0.7 |
+| COLOR_GREEN                 |           88.7 |            91.5 |          2.8 |
+| COLOR_RED                   |           73   |            96.5 |         23.4 |
+| CREATE_REMINDER_DRINK_WATER |           96.5 |           100   |          3.5 |
+| CREATE_REMINDER_EXERCISE    |           96.5 |            99.3 |          2.8 |
+| CREATE_REMINDER_STUDY       |           95.7 |           100   |          4.3 |
+| LIGHT_OFF                   |           70.9 |            78   |          7.1 |
+| LIGHT_ON                    |           39   |            72.3 |         33.3 |
+| LIST_REMINDERS              |           95   |            92.2 |         -2.8 |
+| MESSAGE                     |           90.1 |            90.8 |          0.7 |
+| NEXT                        |           92.2 |            85.1 |         -7.1 |
+| PAUSE                       |           84.4 |            86.5 |          2.1 |
+| PLAY_MUSIC                  |           58.2 |            58.9 |          0.7 |
+| STOP                        |           83.7 |            74.5 |         -9.2 |
+| TEMPERATURE_18              |           94.3 |            97.2 |          2.8 |
+| TEMPERATURE_22              |           90.1 |            95   |          5   |
+| TEMPERATURE_26              |           94.3 |            98.6 |          4.3 |
+| TIME                        |           75.9 |            80.1 |          4.3 |
+| TIMER_10S                   |           91.5 |            96.5 |          5   |
+| TIMER_1MIN                  |           87.9 |            95.7 |          7.8 |
+| TIMER_30S                   |           98.6 |            96.5 |         -2.1 |
+| VOLUME_DOWN                 |           52.5 |            68.8 |         16.3 |
+| VOLUME_UP                   |           60.3 |            76.6 |         16.3 |
+| WEATHER                     |           53.2 |            70.9 |         17.7 |
+| unknown                     |           72.3 |            80.9 |          8.5 |
+=== 10 commit to the local git repository (no push) 10-02 10:16:57

@@ -1,0 +1,370 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/positives/Manual-Fil-RPI71.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-29T03:04:11+00:00",
+ "duration_sec": 35.72266666666667,
+ "input_peak": 0.18834111094474792,
+ "chunks": [
+  {
+   "chunk_start": 3.732,
+   "chunk_end": 16.224,
+   "text": "If you come and look, you'll see that not all the water will drain because one thing, I'm on an incline right now so the water will be over here. After you're done, what you have to do is just...",
+   "words": [
+    {
+     "word": "If",
+     "start": 3.732,
+     "end": 4.092,
+     "probability": 0.2094
+    },
+    {
+     "word": "you",
+     "start": 4.092,
+     "end": 4.212,
+     "probability": 0.9941
+    },
+    {
+     "word": "come",
+     "start": 4.212,
+     "end": 4.452,
+     "probability": 0.8384
+    },
+    {
+     "word": "and",
+     "start": 4.452,
+     "end": 4.572,
+     "probability": 0.4111
+    },
+    {
+     "word": "look,",
+     "start": 4.572,
+     "end": 4.752,
+     "probability": 0.9844
+    },
+    {
+     "word": "you'll",
+     "start": 4.872,
+     "end": 5.032,
+     "probability": 0.9749
+    },
+    {
+     "word": "see",
+     "start": 5.032,
+     "end": 5.272,
+     "probability": 0.9966
+    },
+    {
+     "word": "that",
+     "start": 5.272,
+     "end": 5.432,
+     "probability": 0.96
+    },
+    {
+     "word": "not",
+     "start": 5.432,
+     "end": 5.752,
+     "probability": 0.8853
+    },
+    {
+     "word": "all",
+     "start": 5.752,
+     "end": 6.012,
+     "probability": 0.9912
+    },
+    {
+     "word": "the",
+     "start": 6.012,
+     "end": 6.192,
+     "probability": 0.9199
+    },
+    {
+     "word": "water",
+     "start": 6.192,
+     "end": 6.432,
+     "probability": 0.9976
+    },
+    {
+     "word": "will",
+     "start": 6.432,
+     "end": 6.632,
+     "probability": 0.9971
+    },
+    {
+     "word": "drain",
+     "start": 6.632,
+     "end": 6.992,
+     "probability": 0.9795
+    },
+    {
+     "word": "because",
+     "start": 6.992,
+     "end": 7.692,
+     "probability": 0.2218
+    },
+    {
+     "word": "one",
+     "start": 7.692,
+     "end": 8.072,
+     "probability": 0.5342
+    },
+    {
+     "word": "thing,",
+     "start": 8.072,
+     "end": 8.792,
+     "probability": 0.9946
+    },
+    {
+     "word": "I'm",
+     "start": 8.892,
+     "end": 9.172,
+     "probability": 0.9961
+    },
+    {
+     "word": "on",
+     "start": 9.172,
+     "end": 9.292,
+     "probability": 0.998
+    },
+    {
+     "word": "an",
+     "start": 9.292,
+     "end": 9.352,
+     "probability": 0.7466
+    },
+    {
+     "word": "incline",
+     "start": 9.352,
+     "end": 11.132,
+     "probability": 0.9988
+    },
+    {
+     "word": "right",
+     "start": 11.132,
+     "end": 11.332,
+     "probability": 0.9976
+    },
+    {
+     "word": "now",
+     "start": 11.332,
+     "end": 11.552,
+     "probability": 0.9995
+    },
+    {
+     "word": "so",
+     "start": 11.552,
+     "end": 11.772,
+     "probability": 0.2756
+    },
+    {
+     "word": "the",
+     "start": 11.772,
+     "end": 11.872,
+     "probability": 0.7959
+    },
+    {
+     "word": "water",
+     "start": 11.872,
+     "end": 12.172,
+     "probability": 0.9995
+    },
+    {
+     "word": "will",
+     "start": 12.172,
+     "end": 12.292,
+     "probability": 0.9155
+    },
+    {
+     "word": "be",
+     "start": 12.292,
+     "end": 12.412,
+     "probability": 0.9917
+    },
+    {
+     "word": "over",
+     "start": 12.412,
+     "end": 12.572,
+     "probability": 0.9932
+    },
+    {
+     "word": "here.",
+     "start": 12.572,
+     "end": 12.812,
+     "probability": 0.9976
+    },
+    {
+     "word": "After",
+     "start": 13.132,
+     "end": 13.532,
+     "probability": 0.5425
+    },
+    {
+     "word": "you're",
+     "start": 13.532,
+     "end": 14.272,
+     "probability": 0.9946
+    },
+    {
+     "word": "done,",
+     "start": 14.272,
+     "end": 14.492,
+     "probability": 0.9995
+    },
+    {
+     "word": "what",
+     "start": 14.632,
+     "end": 14.812,
+     "probability": 0.9834
+    },
+    {
+     "word": "you",
+     "start": 14.812,
+     "end": 14.992,
+     "probability": 0.9985
+    },
+    {
+     "word": "have",
+     "start": 14.992,
+     "end": 15.152,
+     "probability": 0.9966
+    },
+    {
+     "word": "to",
+     "start": 15.152,
+     "end": 15.272,
+     "probability": 0.9995
+    },
+    {
+     "word": "do",
+     "start": 15.272,
+     "end": 15.472,
+     "probability": 0.9995
+    },
+    {
+     "word": "is",
+     "start": 15.472,
+     "end": 15.592,
+     "probability": 0.9907
+    },
+    {
+     "word": "just...",
+     "start": 15.592,
+     "end": 15.992,
+     "probability": 0.8862
+    }
+   ]
+  },
+  {
+   "chunk_start": 16.224,
+   "chunk_end": 18.54,
+   "text": "Hey, Delta.",
+   "words": [
+    {
+     "word": "Hey,",
+     "start": 16.804,
+     "end": 17.284,
+     "probability": 0.7124
+    },
+    {
+     "word": "Delta.",
+     "start": 17.404,
+     "end": 17.444,
+     "probability": 0.959
+    }
+   ]
+  },
+  {
+   "chunk_start": 19.412,
+   "chunk_end": 21.612,
+   "text": "Hey Delsa.",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 19.412,
+     "end": 19.752,
+     "probability": 0.6655
+    },
+    {
+     "word": "Delsa.",
+     "start": 19.752,
+     "end": 20.292,
+     "probability": 0.5709
+    }
+   ]
+  },
+  {
+   "chunk_start": 21.876,
+   "chunk_end": 23.404,
+   "text": "Hey Delta!",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 21.876,
+     "end": 22.236,
+     "probability": 0.7651
+    },
+    {
+     "word": "Delta!",
+     "start": 22.236,
+     "end": 22.476,
+     "probability": 0.8037
+    }
+   ]
+  },
+  {
+   "chunk_start": 26.164,
+   "chunk_end": 27.98,
+   "text": "Hey Delta!",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 26.164,
+     "end": 26.444,
+     "probability": 0.6562
+    },
+    {
+     "word": "Delta!",
+     "start": 26.444,
+     "end": 26.764,
+     "probability": 0.7876
+    }
+   ]
+  },
+  {
+   "chunk_start": 29.236,
+   "chunk_end": 30.54,
+   "text": "Hey, Delta.",
+   "words": [
+    {
+     "word": "Hey,",
+     "start": 29.236,
+     "end": 29.516,
+     "probability": 0.7373
+    },
+    {
+     "word": "Delta.",
+     "start": 29.616,
+     "end": 29.836,
+     "probability": 0.9912
+    }
+   ]
+  },
+  {
+   "chunk_start": 32.116,
+   "chunk_end": 33.356,
+   "text": "Hey Delta!",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 32.116,
+     "end": 32.436,
+     "probability": 0.792
+    },
+    {
+     "word": "Delta!",
+     "start": 32.436,
+     "end": 32.636,
+     "probability": 0.7725
+    }
+   ]
+  }
+ ]
+}

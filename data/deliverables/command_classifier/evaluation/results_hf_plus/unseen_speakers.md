@@ -1,0 +1,33 @@
+# Test results on unseen speakers
+
+Only test clips whose speaker never appears in the training split. Command rates are macro averages over classes; `unknown_false_action` = share of unknown clips that trigger a command.
+
+| model             | rule     | dataset              |   unseen_speakers |   command_clips |   command_classes |   correct |   wrong_command |   unknown_clips |   unknown_false_action |
+|:------------------|:---------|:---------------------|------------------:|----------------:|------------------:|----------:|----------------:|----------------:|-----------------------:|
+| bcresnet6_hf_plus | argmax   | classmate_hf_optionb |                29 |            3368 |                31 |    0.9713 |          0.0093 |               0 |               nan      |
+| bcresnet6_hf_plus | argmax   | classmate_hf_real    |                 1 |             179 |                31 |    0.7118 |          0.0559 |               0 |               nan      |
+| bcresnet6_hf_plus | argmax   | classmate_hf_vcm     |                 2 |              10 |                 2 |    0.8333 |          0      |               0 |               nan      |
+| bcresnet6_hf_plus | argmax   | web_hf_commonvoice   |                 8 |               0 |                 0 |  nan      |        nan      |              14 |                 0.0714 |
+| bcresnet6_hf_plus | argmax   | web_hf_fsc           |                27 |             147 |                 6 |    0.7177 |          0.1501 |               6 |                 0      |
+| bcresnet6_hf_plus | argmax   | web_hf_multisensor   |                 6 |              11 |                 1 |    1      |          0      |               0 |               nan      |
+| bcresnet6_hf_plus | argmax   | web_hf_slurp         |                36 |             553 |                20 |    0.6204 |          0.08   |              21 |                 0.2381 |
+| bcresnet6_hf_plus | argmax   | web_hf_snips         |                11 |             101 |                 7 |    0.512  |          0.1386 |               6 |                 0.5    |
+| bcresnet6_hf_plus | argmax   | web_hf_tas           |                 1 |               2 |                 2 |    1      |          0      |               0 |               nan      |
+| bcresnet6_hf_plus | cautious | classmate_hf_optionb |                29 |            3368 |                31 |    0.9466 |          0.0043 |               0 |               nan      |
+| bcresnet6_hf_plus | cautious | classmate_hf_real    |                 1 |             179 |                31 |    0.6247 |          0.0226 |               0 |               nan      |
+| bcresnet6_hf_plus | cautious | classmate_hf_vcm     |                 2 |              10 |                 2 |    0.8333 |          0      |               0 |               nan      |
+| bcresnet6_hf_plus | cautious | web_hf_commonvoice   |                 8 |               0 |                 0 |  nan      |        nan      |              14 |                 0.0714 |
+| bcresnet6_hf_plus | cautious | web_hf_fsc           |                27 |             147 |                 6 |    0.6542 |          0.1303 |               6 |                 0      |
+| bcresnet6_hf_plus | cautious | web_hf_multisensor   |                 6 |              11 |                 1 |    1      |          0      |               0 |               nan      |
+| bcresnet6_hf_plus | cautious | web_hf_slurp         |                36 |             553 |                20 |    0.5585 |          0.0165 |              21 |                 0.0952 |
+| bcresnet6_hf_plus | cautious | web_hf_snips         |                11 |             101 |                 7 |    0.4304 |          0.0419 |               6 |                 0.1667 |
+| bcresnet6_hf_plus | cautious | web_hf_tas           |                 1 |               2 |                 2 |    1      |          0      |               0 |               nan      |
+| bcresnet6_hf_plus | balanced | classmate_hf_optionb |                29 |            3368 |                31 |    0.9707 |          0.0086 |               0 |               nan      |
+| bcresnet6_hf_plus | balanced | classmate_hf_real    |                 1 |             179 |                31 |    0.7011 |          0.0505 |               0 |               nan      |
+| bcresnet6_hf_plus | balanced | classmate_hf_vcm     |                 2 |              10 |                 2 |    0.8333 |          0      |               0 |               nan      |
+| bcresnet6_hf_plus | balanced | web_hf_commonvoice   |                 8 |               0 |                 0 |  nan      |        nan      |              14 |                 0.0714 |
+| bcresnet6_hf_plus | balanced | web_hf_fsc           |                27 |             147 |                 6 |    0.7177 |          0.1501 |               6 |                 0      |
+| bcresnet6_hf_plus | balanced | web_hf_multisensor   |                 6 |              11 |                 1 |    1      |          0      |               0 |               nan      |
+| bcresnet6_hf_plus | balanced | web_hf_slurp         |                36 |             553 |                20 |    0.6078 |          0.0693 |              21 |                 0.1905 |
+| bcresnet6_hf_plus | balanced | web_hf_snips         |                11 |             101 |                 7 |    0.512  |          0.1315 |               6 |                 0.5    |
+| bcresnet6_hf_plus | balanced | web_hf_tas           |                 1 |               2 |                 2 |    1      |          0      |               0 |               nan      |

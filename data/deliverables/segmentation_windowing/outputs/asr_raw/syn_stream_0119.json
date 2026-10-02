@@ -1,0 +1,278 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0119.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:30:02+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8784307241439819,
+ "chunks": [
+  {
+   "chunk_start": 0.244,
+   "chunk_end": 3.948,
+   "text": "Please send me your address when you arrive.",
+   "words": [
+    {
+     "word": "Please",
+     "start": 0.244,
+     "end": 0.664,
+     "probability": 0.0385
+    },
+    {
+     "word": "send",
+     "start": 0.664,
+     "end": 1.184,
+     "probability": 0.4485
+    },
+    {
+     "word": "me",
+     "start": 1.184,
+     "end": 1.364,
+     "probability": 0.6724
+    },
+    {
+     "word": "your",
+     "start": 1.364,
+     "end": 1.664,
+     "probability": 0.4307
+    },
+    {
+     "word": "address",
+     "start": 1.664,
+     "end": 2.104,
+     "probability": 0.8779
+    },
+    {
+     "word": "when",
+     "start": 2.104,
+     "end": 2.304,
+     "probability": 0.1769
+    },
+    {
+     "word": "you",
+     "start": 2.304,
+     "end": 2.564,
+     "probability": 0.8901
+    },
+    {
+     "word": "arrive.",
+     "start": 2.564,
+     "end": 3.044,
+     "probability": 0.8364
+    }
+   ]
+  },
+  {
+   "chunk_start": 5.396,
+   "chunk_end": 8.748,
+   "text": "There are several things we need to discuss.",
+   "words": [
+    {
+     "word": "There",
+     "start": 5.396,
+     "end": 5.736,
+     "probability": 0.6279
+    },
+    {
+     "word": "are",
+     "start": 5.736,
+     "end": 5.936,
+     "probability": 0.9243
+    },
+    {
+     "word": "several",
+     "start": 5.936,
+     "end": 6.396,
+     "probability": 0.957
+    },
+    {
+     "word": "things",
+     "start": 6.396,
+     "end": 6.916,
+     "probability": 0.9858
+    },
+    {
+     "word": "we",
+     "start": 6.916,
+     "end": 7.156,
+     "probability": 0.8281
+    },
+    {
+     "word": "need",
+     "start": 7.156,
+     "end": 7.476,
+     "probability": 0.8892
+    },
+    {
+     "word": "to",
+     "start": 7.476,
+     "end": 7.676,
+     "probability": 0.9932
+    },
+    {
+     "word": "discuss.",
+     "start": 7.676,
+     "end": 8.056,
+     "probability": 0.6816
+    }
+   ]
+  },
+  {
+   "chunk_start": 11.508,
+   "chunk_end": 14.22,
+   "text": "That sounds like a reasonable idea to me.",
+   "words": [
+    {
+     "word": "That",
+     "start": 11.508,
+     "end": 11.848,
+     "probability": 0.8433
+    },
+    {
+     "word": "sounds",
+     "start": 11.848,
+     "end": 12.188,
+     "probability": 0.9897
+    },
+    {
+     "word": "like",
+     "start": 12.188,
+     "end": 12.388,
+     "probability": 0.998
+    },
+    {
+     "word": "a",
+     "start": 12.388,
+     "end": 12.488,
+     "probability": 0.9966
+    },
+    {
+     "word": "reasonable",
+     "start": 12.488,
+     "end": 12.828,
+     "probability": 0.9917
+    },
+    {
+     "word": "idea",
+     "start": 12.828,
+     "end": 13.248,
+     "probability": 0.9961
+    },
+    {
+     "word": "to",
+     "start": 13.248,
+     "end": 13.528,
+     "probability": 0.9946
+    },
+    {
+     "word": "me.",
+     "start": 13.528,
+     "end": 13.748,
+     "probability": 0.999
+    }
+   ]
+  },
+  {
+   "chunk_start": 18.9,
+   "chunk_end": 22.316,
+   "text": "The next episode starts after the commercial.",
+   "words": [
+    {
+     "word": "The",
+     "start": 18.9,
+     "end": 19.18,
+     "probability": 0.917
+    },
+    {
+     "word": "next",
+     "start": 19.18,
+     "end": 19.42,
+     "probability": 0.9971
+    },
+    {
+     "word": "episode",
+     "start": 19.42,
+     "end": 19.98,
+     "probability": 0.9971
+    },
+    {
+     "word": "starts",
+     "start": 19.98,
+     "end": 20.36,
+     "probability": 0.9985
+    },
+    {
+     "word": "after",
+     "start": 20.36,
+     "end": 21.0,
+     "probability": 0.9976
+    },
+    {
+     "word": "the",
+     "start": 21.0,
+     "end": 21.24,
+     "probability": 0.998
+    },
+    {
+     "word": "commercial.",
+     "start": 21.24,
+     "end": 21.56,
+     "probability": 0.9985
+    }
+   ]
+  },
+  {
+   "chunk_start": 22.868,
+   "chunk_end": 27.948,
+   "text": "The battery should last for another 70 minutes.",
+   "words": [
+    {
+     "word": "The",
+     "start": 22.868,
+     "end": 23.208,
+     "probability": 0.7891
+    },
+    {
+     "word": "battery",
+     "start": 23.208,
+     "end": 23.588,
+     "probability": 0.9761
+    },
+    {
+     "word": "should",
+     "start": 23.588,
+     "end": 23.988,
+     "probability": 0.9712
+    },
+    {
+     "word": "last",
+     "start": 23.988,
+     "end": 24.268,
+     "probability": 0.9971
+    },
+    {
+     "word": "for",
+     "start": 24.268,
+     "end": 24.468,
+     "probability": 0.9814
+    },
+    {
+     "word": "another",
+     "start": 24.468,
+     "end": 24.688,
+     "probability": 0.6631
+    },
+    {
+     "word": "70",
+     "start": 24.688,
+     "end": 25.108,
+     "probability": 0.1065
+    },
+    {
+     "word": "minutes.",
+     "start": 25.108,
+     "end": 25.408,
+     "probability": 0.8638
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,283 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0082.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:28:56+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.9044255018234253,
+ "chunks": [
+  {
+   "chunk_start": 1.3,
+   "chunk_end": 4.62,
+   "text": "Let us compare the two options carefully.",
+   "words": [
+    {
+     "word": "Let",
+     "start": 1.3,
+     "end": 1.74,
+     "probability": 0.9043
+    },
+    {
+     "word": "us",
+     "start": 1.74,
+     "end": 1.94,
+     "probability": 0.9927
+    },
+    {
+     "word": "compare",
+     "start": 1.94,
+     "end": 2.32,
+     "probability": 0.9971
+    },
+    {
+     "word": "the",
+     "start": 2.32,
+     "end": 2.64,
+     "probability": 0.9971
+    },
+    {
+     "word": "two",
+     "start": 2.64,
+     "end": 2.8,
+     "probability": 0.9883
+    },
+    {
+     "word": "options",
+     "start": 2.8,
+     "end": 3.28,
+     "probability": 0.998
+    },
+    {
+     "word": "carefully.",
+     "start": 3.28,
+     "end": 3.8,
+     "probability": 0.9937
+    }
+   ]
+  },
+  {
+   "chunk_start": 6.356,
+   "chunk_end": 10.412,
+   "text": "We should probably check the ship. That's not a reasonable idea for me.",
+   "words": [
+    {
+     "word": "We",
+     "start": 6.356,
+     "end": 6.676,
+     "probability": 0.4211
+    },
+    {
+     "word": "should",
+     "start": 6.676,
+     "end": 6.876,
+     "probability": 0.9233
+    },
+    {
+     "word": "probably",
+     "start": 6.876,
+     "end": 7.236,
+     "probability": 0.9321
+    },
+    {
+     "word": "check",
+     "start": 7.236,
+     "end": 7.596,
+     "probability": 0.9067
+    },
+    {
+     "word": "the",
+     "start": 7.596,
+     "end": 7.956,
+     "probability": 0.8403
+    },
+    {
+     "word": "ship.",
+     "start": 7.956,
+     "end": 8.116,
+     "probability": 0.6821
+    },
+    {
+     "word": "That's",
+     "start": 8.136,
+     "end": 8.436,
+     "probability": 0.6678
+    },
+    {
+     "word": "not",
+     "start": 8.436,
+     "end": 8.436,
+     "probability": 0.9512
+    },
+    {
+     "word": "a",
+     "start": 8.436,
+     "end": 8.636,
+     "probability": 0.8789
+    },
+    {
+     "word": "reasonable",
+     "start": 8.636,
+     "end": 8.996,
+     "probability": 0.9683
+    },
+    {
+     "word": "idea",
+     "start": 8.996,
+     "end": 9.456,
+     "probability": 0.9956
+    },
+    {
+     "word": "for",
+     "start": 9.456,
+     "end": 9.636,
+     "probability": 0.9023
+    },
+    {
+     "word": "me.",
+     "start": 9.636,
+     "end": 9.856,
+     "probability": 0.998
+    }
+   ]
+  },
+  {
+   "chunk_start": 12.916,
+   "chunk_end": 16.108,
+   "text": "I forgot where I put the keys this morning.",
+   "words": [
+    {
+     "word": "I",
+     "start": 12.916,
+     "end": 13.256,
+     "probability": 0.8984
+    },
+    {
+     "word": "forgot",
+     "start": 13.256,
+     "end": 13.556,
+     "probability": 0.9795
+    },
+    {
+     "word": "where",
+     "start": 13.556,
+     "end": 13.876,
+     "probability": 0.9946
+    },
+    {
+     "word": "I",
+     "start": 13.876,
+     "end": 14.076,
+     "probability": 0.9644
+    },
+    {
+     "word": "put",
+     "start": 14.076,
+     "end": 14.336,
+     "probability": 0.9912
+    },
+    {
+     "word": "the",
+     "start": 14.336,
+     "end": 14.496,
+     "probability": 0.9902
+    },
+    {
+     "word": "keys",
+     "start": 14.496,
+     "end": 14.796,
+     "probability": 0.9951
+    },
+    {
+     "word": "this",
+     "start": 14.796,
+     "end": 15.056,
+     "probability": 0.9951
+    },
+    {
+     "word": "morning.",
+     "start": 15.056,
+     "end": 15.496,
+     "probability": 0.9985
+    }
+   ]
+  },
+  {
+   "chunk_start": 16.212,
+   "chunk_end": 20.46,
+   "text": "Let us compare this to our partner and waited near the entrance.",
+   "words": [
+    {
+     "word": "Let",
+     "start": 16.212,
+     "end": 16.572,
+     "probability": 0.249
+    },
+    {
+     "word": "us",
+     "start": 16.572,
+     "end": 16.732,
+     "probability": 0.98
+    },
+    {
+     "word": "compare",
+     "start": 16.732,
+     "end": 16.992,
+     "probability": 0.9976
+    },
+    {
+     "word": "this",
+     "start": 16.992,
+     "end": 17.212,
+     "probability": 0.8228
+    },
+    {
+     "word": "to",
+     "start": 17.212,
+     "end": 17.292,
+     "probability": 0.3784
+    },
+    {
+     "word": "our",
+     "start": 17.292,
+     "end": 17.612,
+     "probability": 0.6558
+    },
+    {
+     "word": "partner",
+     "start": 17.612,
+     "end": 17.672,
+     "probability": 0.0673
+    },
+    {
+     "word": "and",
+     "start": 17.672,
+     "end": 18.412,
+     "probability": 0.7427
+    },
+    {
+     "word": "waited",
+     "start": 18.412,
+     "end": 18.712,
+     "probability": 0.8667
+    },
+    {
+     "word": "near",
+     "start": 18.712,
+     "end": 18.972,
+     "probability": 0.9941
+    },
+    {
+     "word": "the",
+     "start": 18.972,
+     "end": 19.192,
+     "probability": 0.998
+    },
+    {
+     "word": "entrance.",
+     "start": 19.192,
+     "end": 19.592,
+     "probability": 0.998
+    }
+   ]
+  }
+ ]
+}

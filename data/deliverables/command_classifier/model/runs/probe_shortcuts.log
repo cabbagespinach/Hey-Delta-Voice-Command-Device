@@ -1,0 +1,4 @@
+train sample 5835 clips, validation 3144 clips
+prefix_only   command macro-acc by group {'owner': 0.045, 'synthetic': 0.042, 'web': 0.032} (chance 0.034) | unknown-vs-command AUC all 0.532, owner-only 0.328
+channel_only  command macro-acc by group {'owner': 0.056, 'synthetic': 0.364, 'web': 0.164} (chance 0.034) | unknown-vs-command AUC all 0.761, owner-only 0.617
+length_only   command macro-acc by group {'owner': 0.052, 'synthetic': 0.079, 'web': 0.119} (chance 0.034) | unknown-vs-command AUC all 0.619, owner-only 0.606

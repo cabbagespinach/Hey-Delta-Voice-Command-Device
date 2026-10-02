@@ -1,0 +1,154 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/negatives_general/Manual-BG-RPI9.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:26:16+00:00",
+ "duration_sec": 7.925333333333334,
+ "input_peak": 0.050131991505622864,
+ "chunks": [
+  {
+   "chunk_start": 0.0,
+   "chunk_end": 7.925,
+   "text": "Hello everyone, welcome to my channel. Today, I will show you how to make a simple, easy, and easy cake. You will need",
+   "words": [
+    {
+     "word": "Hello",
+     "start": 0.0,
+     "end": 0.8,
+     "probability": 0.0242
+    },
+    {
+     "word": "everyone,",
+     "start": 0.8,
+     "end": 1.5,
+     "probability": 0.1489
+    },
+    {
+     "word": "welcome",
+     "start": 1.5,
+     "end": 1.56,
+     "probability": 0.2135
+    },
+    {
+     "word": "to",
+     "start": 1.56,
+     "end": 4.1,
+     "probability": 0.6782
+    },
+    {
+     "word": "my",
+     "start": 4.1,
+     "end": 4.14,
+     "probability": 0.5117
+    },
+    {
+     "word": "channel.",
+     "start": 4.14,
+     "end": 4.14,
+     "probability": 0.7661
+    },
+    {
+     "word": "Today,",
+     "start": 4.14,
+     "end": 4.14,
+     "probability": 0.2491
+    },
+    {
+     "word": "I",
+     "start": 4.14,
+     "end": 4.14,
+     "probability": 0.7485
+    },
+    {
+     "word": "will",
+     "start": 4.14,
+     "end": 4.22,
+     "probability": 0.2615
+    },
+    {
+     "word": "show",
+     "start": 4.22,
+     "end": 4.22,
+     "probability": 0.377
+    },
+    {
+     "word": "you",
+     "start": 4.22,
+     "end": 4.22,
+     "probability": 0.9473
+    },
+    {
+     "word": "how",
+     "start": 4.22,
+     "end": 4.22,
+     "probability": 0.627
+    },
+    {
+     "word": "to",
+     "start": 4.22,
+     "end": 4.22,
+     "probability": 0.8926
+    },
+    {
+     "word": "make",
+     "start": 4.22,
+     "end": 4.22,
+     "probability": 0.4993
+    },
+    {
+     "word": "a",
+     "start": 4.22,
+     "end": 4.22,
+     "probability": 0.4626
+    },
+    {
+     "word": "simple,",
+     "start": 4.22,
+     "end": 4.22,
+     "probability": 0.039
+    },
+    {
+     "word": "easy,",
+     "start": 4.22,
+     "end": 4.22,
+     "probability": 0.3257
+    },
+    {
+     "word": "and",
+     "start": 4.22,
+     "end": 6.18,
+     "probability": 0.4626
+    },
+    {
+     "word": "easy",
+     "start": 6.18,
+     "end": 6.18,
+     "probability": 0.1351
+    },
+    {
+     "word": "cake.",
+     "start": 6.18,
+     "end": 6.7,
+     "probability": 0.0192
+    },
+    {
+     "word": "You",
+     "start": 6.7,
+     "end": 7.9,
+     "probability": 0.0822
+    },
+    {
+     "word": "will",
+     "start": 7.9,
+     "end": 7.9,
+     "probability": 0.5269
+    },
+    {
+     "word": "need",
+     "start": 7.9,
+     "end": 7.9,
+     "probability": 0.8135
+    }
+   ]
+  }
+ ]
+}

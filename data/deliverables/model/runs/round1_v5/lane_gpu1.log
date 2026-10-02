@@ -1,0 +1,13 @@
+=== bcresnet6: train (20:52) ===
+epoch  0 loss 0.5618 | val AUC 0.9681 thr 0.860 RPI 0.027 syn 0.000 * | 19s
+epoch  1 loss 0.4068 | val AUC 0.9182 thr 0.750 RPI 0.405 syn 0.000 * | 32s
+epoch  2 loss 0.2844 | val AUC 0.9382 thr 0.837 RPI 0.676 syn 0.037 * | 46s
+epoch  3 loss 0.2238 | val AUC 0.9544 thr 0.797 RPI 0.946 syn 0.111 * | 60s
+epoch  4 loss 0.1988 | val AUC 0.9197 thr 0.394 RPI 0.946 syn 0.519 * | 73s
+epoch  7 loss 0.1687 | val AUC 0.8914 thr 0.209 RPI 1.000 syn 0.630 * | 115s
+best epoch 7: selection 0.815, AUC 0.8914 -> /home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/deliverables/model/runs/bcresnet6/best.pt
+=== bcresnet6: evaluate (21:14) ===
+  File "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/deliverables/evaluation/run_evaluation.py", line 177
+    global OUT
+    ^^^^^^^^^^
+SyntaxError: name 'OUT' is used prior to global declaration

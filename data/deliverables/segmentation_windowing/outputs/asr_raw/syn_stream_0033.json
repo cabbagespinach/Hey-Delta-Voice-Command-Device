@@ -1,0 +1,193 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0033.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:27:40+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.9052540063858032,
+ "chunks": [
+  {
+   "chunk_start": 3.732,
+   "chunk_end": 6.508,
+   "text": "The machine makes a strange sound sometimes.",
+   "words": [
+    {
+     "word": "The",
+     "start": 3.732,
+     "end": 4.052,
+     "probability": 0.8032
+    },
+    {
+     "word": "machine",
+     "start": 4.052,
+     "end": 4.272,
+     "probability": 0.9438
+    },
+    {
+     "word": "makes",
+     "start": 4.272,
+     "end": 4.572,
+     "probability": 0.9946
+    },
+    {
+     "word": "a",
+     "start": 4.572,
+     "end": 4.712,
+     "probability": 0.9883
+    },
+    {
+     "word": "strange",
+     "start": 4.712,
+     "end": 4.952,
+     "probability": 0.9985
+    },
+    {
+     "word": "sound",
+     "start": 4.952,
+     "end": 5.312,
+     "probability": 0.9888
+    },
+    {
+     "word": "sometimes.",
+     "start": 5.312,
+     "end": 5.672,
+     "probability": 0.9902
+    }
+   ]
+  },
+  {
+   "chunk_start": 6.932,
+   "chunk_end": 11.468,
+   "text": "The report contains several useful examples.",
+   "words": [
+    {
+     "word": "The",
+     "start": 6.932,
+     "end": 7.272,
+     "probability": 0.8447
+    },
+    {
+     "word": "report",
+     "start": 7.272,
+     "end": 7.492,
+     "probability": 0.9941
+    },
+    {
+     "word": "contains",
+     "start": 7.492,
+     "end": 7.852,
+     "probability": 0.9844
+    },
+    {
+     "word": "several",
+     "start": 7.852,
+     "end": 8.232,
+     "probability": 0.998
+    },
+    {
+     "word": "useful",
+     "start": 8.232,
+     "end": 8.532,
+     "probability": 0.9976
+    },
+    {
+     "word": "examples.",
+     "start": 8.532,
+     "end": 8.952,
+     "probability": 0.9956
+    }
+   ]
+  },
+  {
+   "chunk_start": 13.46,
+   "chunk_end": 16.78,
+   "text": "The store closes earlier on weekends.",
+   "words": [
+    {
+     "word": "The",
+     "start": 13.46,
+     "end": 13.78,
+     "probability": 0.6982
+    },
+    {
+     "word": "store",
+     "start": 13.78,
+     "end": 14.04,
+     "probability": 0.9863
+    },
+    {
+     "word": "closes",
+     "start": 14.04,
+     "end": 14.52,
+     "probability": 0.9927
+    },
+    {
+     "word": "earlier",
+     "start": 14.52,
+     "end": 15.04,
+     "probability": 0.9761
+    },
+    {
+     "word": "on",
+     "start": 15.04,
+     "end": 15.48,
+     "probability": 0.9946
+    },
+    {
+     "word": "weekends.",
+     "start": 15.48,
+     "end": 15.84,
+     "probability": 0.9849
+    }
+   ]
+  },
+  {
+   "chunk_start": 17.14,
+   "chunk_end": 20.716,
+   "text": "The machine makes a strange sound sometimes.",
+   "words": [
+    {
+     "word": "The",
+     "start": 17.14,
+     "end": 17.5,
+     "probability": 0.6836
+    },
+    {
+     "word": "machine",
+     "start": 17.5,
+     "end": 17.8,
+     "probability": 0.9077
+    },
+    {
+     "word": "makes",
+     "start": 17.8,
+     "end": 18.3,
+     "probability": 0.9067
+    },
+    {
+     "word": "a",
+     "start": 18.3,
+     "end": 18.42,
+     "probability": 0.9521
+    },
+    {
+     "word": "strange",
+     "start": 18.42,
+     "end": 18.82,
+     "probability": 0.9976
+    },
+    {
+     "word": "sound",
+     "start": 18.82,
+     "end": 19.34,
+     "probability": 0.9634
+    },
+    {
+     "word": "sometimes.",
+     "start": 19.34,
+     "end": 19.82,
+     "probability": 0.9907
+    }
+   ]
+  }
+ ]
+}

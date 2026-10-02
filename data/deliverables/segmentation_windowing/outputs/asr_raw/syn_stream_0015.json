@@ -1,0 +1,205 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0015.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:27:14+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8961321115493774,
+ "chunks": [
+  {
+   "chunk_start": 0.82,
+   "chunk_end": 3.276,
+   "text": "We can take the train after lunch.",
+   "words": [
+    {
+     "word": "We",
+     "start": 0.82,
+     "end": 1.18,
+     "probability": 0.8164
+    },
+    {
+     "word": "can",
+     "start": 1.18,
+     "end": 1.34,
+     "probability": 0.9966
+    },
+    {
+     "word": "take",
+     "start": 1.34,
+     "end": 1.58,
+     "probability": 0.9966
+    },
+    {
+     "word": "the",
+     "start": 1.58,
+     "end": 1.7,
+     "probability": 0.9956
+    },
+    {
+     "word": "train",
+     "start": 1.7,
+     "end": 1.96,
+     "probability": 0.9932
+    },
+    {
+     "word": "after",
+     "start": 1.96,
+     "end": 2.3,
+     "probability": 0.9961
+    },
+    {
+     "word": "lunch.",
+     "start": 2.3,
+     "end": 2.64,
+     "probability": 0.998
+    }
+   ]
+  },
+  {
+   "chunk_start": 4.756,
+   "chunk_end": 7.276,
+   "text": "I left the package beside the front door.",
+   "words": [
+    {
+     "word": "I",
+     "start": 4.756,
+     "end": 5.096,
+     "probability": 0.7354
+    },
+    {
+     "word": "left",
+     "start": 5.096,
+     "end": 5.296,
+     "probability": 0.9873
+    },
+    {
+     "word": "the",
+     "start": 5.296,
+     "end": 5.416,
+     "probability": 0.9902
+    },
+    {
+     "word": "package",
+     "start": 5.416,
+     "end": 5.636,
+     "probability": 0.9951
+    },
+    {
+     "word": "beside",
+     "start": 5.636,
+     "end": 6.076,
+     "probability": 0.9873
+    },
+    {
+     "word": "the",
+     "start": 6.076,
+     "end": 6.296,
+     "probability": 0.9961
+    },
+    {
+     "word": "front",
+     "start": 6.296,
+     "end": 6.516,
+     "probability": 0.9961
+    },
+    {
+     "word": "door.",
+     "start": 6.516,
+     "end": 6.796,
+     "probability": 0.998
+    }
+   ]
+  },
+  {
+   "chunk_start": 9.62,
+   "chunk_end": 14.412,
+   "text": "There is enough time to finish this today.",
+   "words": [
+    {
+     "word": "There",
+     "start": 9.62,
+     "end": 9.98,
+     "probability": 0.8643
+    },
+    {
+     "word": "is",
+     "start": 9.98,
+     "end": 10.16,
+     "probability": 0.9854
+    },
+    {
+     "word": "enough",
+     "start": 10.16,
+     "end": 10.52,
+     "probability": 0.9937
+    },
+    {
+     "word": "time",
+     "start": 10.52,
+     "end": 10.8,
+     "probability": 0.9971
+    },
+    {
+     "word": "to",
+     "start": 10.8,
+     "end": 11.2,
+     "probability": 0.9917
+    },
+    {
+     "word": "finish",
+     "start": 11.2,
+     "end": 11.36,
+     "probability": 0.9941
+    },
+    {
+     "word": "this",
+     "start": 11.36,
+     "end": 11.62,
+     "probability": 0.9956
+    },
+    {
+     "word": "today.",
+     "start": 11.62,
+     "end": 12.0,
+     "probability": 0.9741
+    }
+   ]
+  },
+  {
+   "chunk_start": 20.116,
+   "chunk_end": 23.724,
+   "text": "Please send me your address.",
+   "words": [
+    {
+     "word": "Please",
+     "start": 20.116,
+     "end": 20.396,
+     "probability": 0.0691
+    },
+    {
+     "word": "send",
+     "start": 20.396,
+     "end": 20.996,
+     "probability": 0.4624
+    },
+    {
+     "word": "me",
+     "start": 20.996,
+     "end": 21.196,
+     "probability": 0.3394
+    },
+    {
+     "word": "your",
+     "start": 21.196,
+     "end": 21.596,
+     "probability": 0.5757
+    },
+    {
+     "word": "address.",
+     "start": 21.596,
+     "end": 21.856,
+     "probability": 0.9043
+    }
+   ]
+  }
+ ]
+}

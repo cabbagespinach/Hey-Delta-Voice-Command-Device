@@ -1,0 +1,174 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0021.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:27:22+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8987981677055359,
+ "chunks": [
+  {
+   "chunk_start": 0.916,
+   "chunk_end": 8.236,
+   "text": "This recording is only being used as synthetic data.",
+   "words": [
+    {
+     "word": "This",
+     "start": 3.536,
+     "end": 4.336,
+     "probability": 0.7134
+    },
+    {
+     "word": "recording",
+     "start": 4.336,
+     "end": 4.716,
+     "probability": 0.9951
+    },
+    {
+     "word": "is",
+     "start": 4.716,
+     "end": 5.256,
+     "probability": 0.9985
+    },
+    {
+     "word": "only",
+     "start": 5.256,
+     "end": 5.536,
+     "probability": 0.9956
+    },
+    {
+     "word": "being",
+     "start": 5.536,
+     "end": 6.016,
+     "probability": 0.998
+    },
+    {
+     "word": "used",
+     "start": 6.016,
+     "end": 6.476,
+     "probability": 0.9995
+    },
+    {
+     "word": "as",
+     "start": 6.476,
+     "end": 6.796,
+     "probability": 0.9971
+    },
+    {
+     "word": "synthetic",
+     "start": 6.796,
+     "end": 7.136,
+     "probability": 0.9912
+    },
+    {
+     "word": "data.",
+     "start": 7.136,
+     "end": 7.556,
+     "probability": 0.999
+    }
+   ]
+  },
+  {
+   "chunk_start": 20.084,
+   "chunk_end": 22.732,
+   "text": "The battery should last for another hour.",
+   "words": [
+    {
+     "word": "The",
+     "start": 20.084,
+     "end": 20.364,
+     "probability": 0.8184
+    },
+    {
+     "word": "battery",
+     "start": 20.364,
+     "end": 20.704,
+     "probability": 0.9893
+    },
+    {
+     "word": "should",
+     "start": 20.704,
+     "end": 20.944,
+     "probability": 0.999
+    },
+    {
+     "word": "last",
+     "start": 20.944,
+     "end": 21.264,
+     "probability": 0.999
+    },
+    {
+     "word": "for",
+     "start": 21.264,
+     "end": 21.504,
+     "probability": 0.998
+    },
+    {
+     "word": "another",
+     "start": 21.504,
+     "end": 21.784,
+     "probability": 0.9937
+    },
+    {
+     "word": "hour.",
+     "start": 21.784,
+     "end": 22.144,
+     "probability": 0.9941
+    }
+   ]
+  },
+  {
+   "chunk_start": 26.196,
+   "chunk_end": 29.836,
+   "text": "That's it! Subtitles by the Amara.org community",
+   "words": [
+    {
+     "word": "That's",
+     "start": 26.196,
+     "end": 26.756,
+     "probability": 0.2536
+    },
+    {
+     "word": "it!",
+     "start": 26.756,
+     "end": 26.816,
+     "probability": 0.0978
+    },
+    {
+     "word": "Subtitles",
+     "start": 27.036,
+     "end": 27.816,
+     "probability": 0.4401
+    },
+    {
+     "word": "by",
+     "start": 27.816,
+     "end": 27.956,
+     "probability": 0.8364
+    },
+    {
+     "word": "the",
+     "start": 27.956,
+     "end": 28.456,
+     "probability": 0.8618
+    },
+    {
+     "word": "Amara",
+     "start": 28.456,
+     "end": 29.036,
+     "probability": 0.9978
+    },
+    {
+     "word": ".org",
+     "start": 29.036,
+     "end": 29.416,
+     "probability": 0.9998
+    },
+    {
+     "word": "community",
+     "start": 29.416,
+     "end": 29.416,
+     "probability": 0.9995
+    }
+   ]
+  }
+ ]
+}

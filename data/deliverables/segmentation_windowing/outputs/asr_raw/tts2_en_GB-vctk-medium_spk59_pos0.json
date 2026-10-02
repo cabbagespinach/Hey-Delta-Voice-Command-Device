@@ -1,0 +1,28 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/positives/tts2_en_GB-vctk-medium_spk59_pos0.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-29T13:38:54+00:00",
+ "duration_sec": 0.7314285714285714,
+ "input_peak": 0.9911928176879883,
+ "chunks": [
+  {
+   "chunk_start": 0.0,
+   "chunk_end": 0.731,
+   "text": "Hey Delta.",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 0.0,
+     "end": 0.1,
+     "probability": 0.895
+    },
+    {
+     "word": "Delta.",
+     "start": 0.1,
+     "end": 0.24,
+     "probability": 0.8164
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,211 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0095.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:29:15+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8736055493354797,
+ "chunks": [
+  {
+   "chunk_start": 2.9,
+   "chunk_end": 6.316,
+   "text": "We shall probably take a sedula fifth.",
+   "words": [
+    {
+     "word": "We",
+     "start": 2.9,
+     "end": 3.2,
+     "probability": 0.3347
+    },
+    {
+     "word": "shall",
+     "start": 3.2,
+     "end": 3.48,
+     "probability": 0.1361
+    },
+    {
+     "word": "probably",
+     "start": 3.48,
+     "end": 3.96,
+     "probability": 0.8564
+    },
+    {
+     "word": "take",
+     "start": 3.96,
+     "end": 4.54,
+     "probability": 0.9893
+    },
+    {
+     "word": "a",
+     "start": 4.54,
+     "end": 4.86,
+     "probability": 0.2446
+    },
+    {
+     "word": "sedula",
+     "start": 4.86,
+     "end": 5.44,
+     "probability": 0.7034
+    },
+    {
+     "word": "fifth.",
+     "start": 5.44,
+     "end": 5.66,
+     "probability": 0.3057
+    }
+   ]
+  },
+  {
+   "chunk_start": 6.772,
+   "chunk_end": 15.084,
+   "text": "The next episode starts after the commercial. Hey Delta.",
+   "words": [
+    {
+     "word": "The",
+     "start": 10.652,
+     "end": 11.212,
+     "probability": 0.6143
+    },
+    {
+     "word": "next",
+     "start": 11.212,
+     "end": 11.492,
+     "probability": 0.979
+    },
+    {
+     "word": "episode",
+     "start": 11.492,
+     "end": 12.132,
+     "probability": 0.9897
+    },
+    {
+     "word": "starts",
+     "start": 12.132,
+     "end": 12.552,
+     "probability": 0.9946
+    },
+    {
+     "word": "after",
+     "start": 12.552,
+     "end": 13.152,
+     "probability": 0.9932
+    },
+    {
+     "word": "the",
+     "start": 13.152,
+     "end": 13.372,
+     "probability": 0.9951
+    },
+    {
+     "word": "commercial.",
+     "start": 13.372,
+     "end": 13.712,
+     "probability": 0.8057
+    },
+    {
+     "word": "Hey",
+     "start": 13.992,
+     "end": 14.112,
+     "probability": 0.8755
+    },
+    {
+     "word": "Delta.",
+     "start": 14.112,
+     "end": 14.352,
+     "probability": 0.811
+    }
+   ]
+  },
+  {
+   "chunk_start": 15.636,
+   "chunk_end": 17.1,
+   "text": "then it will be",
+   "words": [
+    {
+     "word": "then",
+     "start": 15.636,
+     "end": 15.996,
+     "probability": 0.0668
+    },
+    {
+     "word": "it",
+     "start": 15.996,
+     "end": 16.116,
+     "probability": 0.6934
+    },
+    {
+     "word": "will",
+     "start": 16.116,
+     "end": 16.336,
+     "probability": 0.7061
+    },
+    {
+     "word": "be",
+     "start": 16.336,
+     "end": 16.516,
+     "probability": 0.9102
+    }
+   ]
+  },
+  {
+   "chunk_start": 21.588,
+   "chunk_end": 24.108,
+   "text": "I will call you when I get back home.",
+   "words": [
+    {
+     "word": "I",
+     "start": 21.588,
+     "end": 21.908,
+     "probability": 0.8472
+    },
+    {
+     "word": "will",
+     "start": 21.908,
+     "end": 22.048,
+     "probability": 0.9639
+    },
+    {
+     "word": "call",
+     "start": 22.048,
+     "end": 22.288,
+     "probability": 0.9985
+    },
+    {
+     "word": "you",
+     "start": 22.288,
+     "end": 22.468,
+     "probability": 0.9917
+    },
+    {
+     "word": "when",
+     "start": 22.468,
+     "end": 22.648,
+     "probability": 0.9902
+    },
+    {
+     "word": "I",
+     "start": 22.648,
+     "end": 22.768,
+     "probability": 0.9658
+    },
+    {
+     "word": "get",
+     "start": 22.768,
+     "end": 22.948,
+     "probability": 0.9985
+    },
+    {
+     "word": "back",
+     "start": 22.948,
+     "end": 23.108,
+     "probability": 0.9976
+    },
+    {
+     "word": "home.",
+     "start": 23.108,
+     "end": 23.508,
+     "probability": 0.998
+    }
+   ]
+  }
+ ]
+}

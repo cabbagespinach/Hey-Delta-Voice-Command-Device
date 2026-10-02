@@ -1,0 +1,32 @@
+class,label,type,value,value_index,wordings
+PLAY_MUSIC,PLAY_MUSIC,fixed,,0,Play music | Start music | Play some music
+WEATHER,WEATHER,fixed,,0,Weather | What's the weather? | Tell me the weather
+TIME,TIME,fixed,,0,Time | What time is it? | Tell me the time
+LIGHT_ON,LIGHT_ON,fixed,,0,Lights on | Power on the lights | Turn on the lights
+LIGHT_OFF,LIGHT_OFF,fixed,,0,Lights out | Kill the lights | Shut off the lights
+PAUSE,PAUSE,fixed,,0,Pause | Pause audio | Pause song
+STOP,STOP,fixed,,0,Stop | Stop playing | End playback
+NEXT,NEXT,fixed,,0,Next song | Skip song | Play next song
+VOLUME_UP,VOLUME_UP,fixed,,0,Volume up | Increase the volume | Turn the volume up
+VOLUME_DOWN,VOLUME_DOWN,fixed,,0,Volume down | Lower the volume | Turn the volume down
+CALL,CALL,fixed,,0,Call | Make a call | Make a phone call
+MESSAGE,MESSAGE,fixed,,0,Message | Send a message | Send my message
+LIST_REMINDERS,LIST_REMINDERS,fixed,,0,Reminders | Show my reminders | List my reminders
+TIMER_10S,TIMER,slotted,10 seconds,1,Timer 10 seconds | Countdown for 10 seconds | Start a timer for 10 seconds
+TIMER_30S,TIMER,slotted,30 seconds,2,Timer 30 seconds | Countdown for 30 seconds | Start a timer for 30 seconds
+TIMER_1MIN,TIMER,slotted,1 minute,3,Timer 1 minute | Countdown for 1 minute | Start a timer for 1 minute
+ALARM_6AM,ALARM,slotted,6:00 AM,1,Alarm 6:00 AM | Wake me up at 6:00 AM | Set an alarm for 6:00 AM
+ALARM_8AM,ALARM,slotted,8:00 AM,2,Alarm 8:00 AM | Wake me up at 8:00 AM | Set an alarm for 8:00 AM
+ALARM_9PM,ALARM,slotted,9:00 PM,3,Alarm 9:00 PM | Wake me up at 9:00 PM | Set an alarm for 9:00 PM
+TEMPERATURE_18,TEMPERATURE,slotted,18 degrees,1,Temperature 18 degrees | Change the temperature to 18 degrees | Set the temperature to 18 degrees
+TEMPERATURE_22,TEMPERATURE,slotted,22 degrees,2,Temperature 22 degrees | Change the temperature to 22 degrees | Set the temperature to 22 degrees
+TEMPERATURE_26,TEMPERATURE,slotted,26 degrees,3,Temperature 26 degrees | Change the temperature to 26 degrees | Set the temperature to 26 degrees
+BRIGHTNESS_20,BRIGHTNESS,slotted,20 percent,1,Brightness 20 percent | Adjust brightness to 20 percent | Brightness level 20 percent
+BRIGHTNESS_60,BRIGHTNESS,slotted,60 percent,2,Brightness 60 percent | Adjust brightness to 60 percent | Brightness level 60 percent
+BRIGHTNESS_100,BRIGHTNESS,slotted,100 percent,3,Brightness 100 percent | Adjust brightness to 100 percent | Brightness level 100 percent
+COLOR_RED,COLOR,slotted,Red,1,Change color to Red | Switch color to Red | Set color to Red
+COLOR_BLUE,COLOR,slotted,Blue,2,Change color to Blue | Switch color to Blue | Set color to Blue
+COLOR_GREEN,COLOR,slotted,Green,3,Change color to Green | Switch color to Green | Set color to Green
+CREATE_REMINDER_DRINK_WATER,CREATE_REMINDER,slotted,Drink water,1,Reminder Drink water | Remind me to Drink water | Create a reminder to Drink water
+CREATE_REMINDER_STUDY,CREATE_REMINDER,slotted,Study,2,Reminder Study | Remind me to Study | Create a reminder to Study
+CREATE_REMINDER_EXERCISE,CREATE_REMINDER,slotted,Exercise,3,Reminder Exercise | Remind me to Exercise | Create a reminder to Exercise

@@ -1,0 +1,313 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0070.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:28:39+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8966195583343506,
+ "chunks": [
+  {
+   "chunk_start": 2.644,
+   "chunk_end": 5.644,
+   "text": "You don't want money to take that day, do you, son?",
+   "words": [
+    {
+     "word": "You",
+     "start": 2.644,
+     "end": 2.984,
+     "probability": 0.1313
+    },
+    {
+     "word": "don't",
+     "start": 2.984,
+     "end": 3.344,
+     "probability": 0.8354
+    },
+    {
+     "word": "want",
+     "start": 3.344,
+     "end": 3.464,
+     "probability": 0.7852
+    },
+    {
+     "word": "money",
+     "start": 3.464,
+     "end": 3.784,
+     "probability": 0.7383
+    },
+    {
+     "word": "to",
+     "start": 3.784,
+     "end": 3.944,
+     "probability": 0.3618
+    },
+    {
+     "word": "take",
+     "start": 3.944,
+     "end": 4.244,
+     "probability": 0.4812
+    },
+    {
+     "word": "that",
+     "start": 4.244,
+     "end": 4.484,
+     "probability": 0.3613
+    },
+    {
+     "word": "day,",
+     "start": 4.484,
+     "end": 4.744,
+     "probability": 0.3948
+    },
+    {
+     "word": "do",
+     "start": 4.864,
+     "end": 4.944,
+     "probability": 0.605
+    },
+    {
+     "word": "you,",
+     "start": 4.944,
+     "end": 4.944,
+     "probability": 0.9824
+    },
+    {
+     "word": "son?",
+     "start": 4.944,
+     "end": 5.084,
+     "probability": 0.9072
+    }
+   ]
+  },
+  {
+   "chunk_start": 6.612,
+   "chunk_end": 11.596,
+   "text": "Dear R.A.J. man, waiting here day and- The road was busy because of the rain.",
+   "words": [
+    {
+     "word": "Dear",
+     "start": 6.612,
+     "end": 7.092,
+     "probability": 0.2964
+    },
+    {
+     "word": "R",
+     "start": 7.092,
+     "end": 7.352,
+     "probability": 0.3936
+    },
+    {
+     "word": ".A",
+     "start": 7.352,
+     "end": 7.572,
+     "probability": 0.7896
+    },
+    {
+     "word": ".J.",
+     "start": 7.572,
+     "end": 7.652,
+     "probability": 0.6331
+    },
+    {
+     "word": "man,",
+     "start": 7.872,
+     "end": 8.052,
+     "probability": 0.2554
+    },
+    {
+     "word": "waiting",
+     "start": 8.212,
+     "end": 8.572,
+     "probability": 0.46
+    },
+    {
+     "word": "here",
+     "start": 8.572,
+     "end": 8.972,
+     "probability": 0.7095
+    },
+    {
+     "word": "day",
+     "start": 8.972,
+     "end": 9.192,
+     "probability": 0.2632
+    },
+    {
+     "word": "and",
+     "start": 9.192,
+     "end": 9.432,
+     "probability": 0.271
+    },
+    {
+     "word": "-",
+     "start": 9.432,
+     "end": 9.432,
+     "probability": 0.2944
+    },
+    {
+     "word": "The",
+     "start": 9.432,
+     "end": 9.532,
+     "probability": 0.8403
+    },
+    {
+     "word": "road",
+     "start": 9.532,
+     "end": 9.692,
+     "probability": 0.9624
+    },
+    {
+     "word": "was",
+     "start": 9.692,
+     "end": 9.872,
+     "probability": 0.9438
+    },
+    {
+     "word": "busy",
+     "start": 9.872,
+     "end": 10.072,
+     "probability": 0.9932
+    },
+    {
+     "word": "because",
+     "start": 10.072,
+     "end": 10.412,
+     "probability": 0.9688
+    },
+    {
+     "word": "of",
+     "start": 10.412,
+     "end": 10.692,
+     "probability": 0.9976
+    },
+    {
+     "word": "the",
+     "start": 10.692,
+     "end": 10.792,
+     "probability": 0.9976
+    },
+    {
+     "word": "rain.",
+     "start": 10.792,
+     "end": 11.012,
+     "probability": 0.9946
+    }
+   ]
+  },
+  {
+   "chunk_start": 13.044,
+   "chunk_end": 15.692,
+   "text": "That sounds like a reasonable idea to me.",
+   "words": [
+    {
+     "word": "That",
+     "start": 13.044,
+     "end": 13.424,
+     "probability": 0.8643
+    },
+    {
+     "word": "sounds",
+     "start": 13.424,
+     "end": 13.684,
+     "probability": 0.9941
+    },
+    {
+     "word": "like",
+     "start": 13.684,
+     "end": 13.944,
+     "probability": 0.999
+    },
+    {
+     "word": "a",
+     "start": 13.944,
+     "end": 14.004,
+     "probability": 0.999
+    },
+    {
+     "word": "reasonable",
+     "start": 14.004,
+     "end": 14.364,
+     "probability": 0.9956
+    },
+    {
+     "word": "idea",
+     "start": 14.364,
+     "end": 14.744,
+     "probability": 0.9976
+    },
+    {
+     "word": "to",
+     "start": 14.744,
+     "end": 15.024,
+     "probability": 0.9976
+    },
+    {
+     "word": "me.",
+     "start": 15.024,
+     "end": 15.204,
+     "probability": 1.0
+    }
+   ]
+  },
+  {
+   "chunk_start": 21.3,
+   "chunk_end": 28.46,
+   "text": "I will call you when I get back home.",
+   "words": [
+    {
+     "word": "I",
+     "start": 23.72,
+     "end": 24.14,
+     "probability": 0.7207
+    },
+    {
+     "word": "will",
+     "start": 24.14,
+     "end": 24.3,
+     "probability": 0.9639
+    },
+    {
+     "word": "call",
+     "start": 24.3,
+     "end": 24.56,
+     "probability": 0.9985
+    },
+    {
+     "word": "you",
+     "start": 24.56,
+     "end": 24.76,
+     "probability": 0.9946
+    },
+    {
+     "word": "when",
+     "start": 24.76,
+     "end": 24.96,
+     "probability": 0.9731
+    },
+    {
+     "word": "I",
+     "start": 24.96,
+     "end": 25.1,
+     "probability": 0.9702
+    },
+    {
+     "word": "get",
+     "start": 25.1,
+     "end": 25.34,
+     "probability": 0.9976
+    },
+    {
+     "word": "back",
+     "start": 25.34,
+     "end": 25.56,
+     "probability": 0.9941
+    },
+    {
+     "word": "home.",
+     "start": 25.56,
+     "end": 25.94,
+     "probability": 0.9663
+    }
+   ]
+  }
+ ]
+}

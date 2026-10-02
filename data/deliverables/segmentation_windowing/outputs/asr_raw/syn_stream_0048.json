@@ -1,0 +1,308 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0048.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:28:06+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8790109157562256,
+ "chunks": [
+  {
+   "chunk_start": 0.5,
+   "chunk_end": 6.508,
+   "text": "This recording is only being used as subjective data. We can take the train after lunch.",
+   "words": [
+    {
+     "word": "This",
+     "start": 0.5,
+     "end": 1.02,
+     "probability": 0.5107
+    },
+    {
+     "word": "recording",
+     "start": 1.02,
+     "end": 1.44,
+     "probability": 0.9893
+    },
+    {
+     "word": "is",
+     "start": 1.44,
+     "end": 1.92,
+     "probability": 0.9985
+    },
+    {
+     "word": "only",
+     "start": 1.92,
+     "end": 2.2,
+     "probability": 0.9849
+    },
+    {
+     "word": "being",
+     "start": 2.2,
+     "end": 2.64,
+     "probability": 0.9961
+    },
+    {
+     "word": "used",
+     "start": 2.64,
+     "end": 3.08,
+     "probability": 0.9985
+    },
+    {
+     "word": "as",
+     "start": 3.08,
+     "end": 3.46,
+     "probability": 0.9893
+    },
+    {
+     "word": "subjective",
+     "start": 3.46,
+     "end": 3.78,
+     "probability": 0.0446
+    },
+    {
+     "word": "data.",
+     "start": 3.78,
+     "end": 4.34,
+     "probability": 0.9893
+    },
+    {
+     "word": "We",
+     "start": 4.4,
+     "end": 4.7,
+     "probability": 0.9609
+    },
+    {
+     "word": "can",
+     "start": 4.7,
+     "end": 4.84,
+     "probability": 0.937
+    },
+    {
+     "word": "take",
+     "start": 4.84,
+     "end": 5.04,
+     "probability": 0.9985
+    },
+    {
+     "word": "the",
+     "start": 5.04,
+     "end": 5.14,
+     "probability": 0.7544
+    },
+    {
+     "word": "train",
+     "start": 5.14,
+     "end": 5.36,
+     "probability": 0.9995
+    },
+    {
+     "word": "after",
+     "start": 5.36,
+     "end": 5.64,
+     "probability": 0.998
+    },
+    {
+     "word": "lunch.",
+     "start": 5.64,
+     "end": 5.92,
+     "probability": 1.0
+    }
+   ]
+  },
+  {
+   "chunk_start": 8.052,
+   "chunk_end": 9.26,
+   "text": "Hey Delta.",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 8.052,
+     "end": 8.392,
+     "probability": 0.8325
+    },
+    {
+     "word": "Delta.",
+     "start": 8.392,
+     "end": 8.652,
+     "probability": 0.7544
+    }
+   ]
+  },
+  {
+   "chunk_start": 14.996,
+   "chunk_end": 18.156,
+   "text": "I was looking for a quiet place to work.",
+   "words": [
+    {
+     "word": "I",
+     "start": 14.996,
+     "end": 15.356,
+     "probability": 0.9312
+    },
+    {
+     "word": "was",
+     "start": 15.356,
+     "end": 15.616,
+     "probability": 0.9976
+    },
+    {
+     "word": "looking",
+     "start": 15.616,
+     "end": 15.936,
+     "probability": 0.998
+    },
+    {
+     "word": "for",
+     "start": 15.936,
+     "end": 16.236,
+     "probability": 0.9995
+    },
+    {
+     "word": "a",
+     "start": 16.236,
+     "end": 16.376,
+     "probability": 0.9985
+    },
+    {
+     "word": "quiet",
+     "start": 16.376,
+     "end": 16.656,
+     "probability": 0.9961
+    },
+    {
+     "word": "place",
+     "start": 16.656,
+     "end": 16.936,
+     "probability": 0.999
+    },
+    {
+     "word": "to",
+     "start": 16.936,
+     "end": 17.236,
+     "probability": 0.999
+    },
+    {
+     "word": "work.",
+     "start": 17.236,
+     "end": 17.516,
+     "probability": 0.9995
+    }
+   ]
+  },
+  {
+   "chunk_start": 19.636,
+   "chunk_end": 24.236,
+   "text": "That sounds like a reasonable idea to me.",
+   "words": [
+    {
+     "word": "That",
+     "start": 19.636,
+     "end": 19.996,
+     "probability": 0.8447
+    },
+    {
+     "word": "sounds",
+     "start": 19.996,
+     "end": 20.256,
+     "probability": 0.9849
+    },
+    {
+     "word": "like",
+     "start": 20.256,
+     "end": 20.596,
+     "probability": 0.9932
+    },
+    {
+     "word": "a",
+     "start": 20.596,
+     "end": 20.656,
+     "probability": 0.543
+    },
+    {
+     "word": "reasonable",
+     "start": 20.656,
+     "end": 21.016,
+     "probability": 0.9604
+    },
+    {
+     "word": "idea",
+     "start": 21.016,
+     "end": 21.096,
+     "probability": 0.9941
+    },
+    {
+     "word": "to",
+     "start": 21.096,
+     "end": 21.116,
+     "probability": 0.9175
+    },
+    {
+     "word": "me.",
+     "start": 21.116,
+     "end": 21.116,
+     "probability": 0.998
+    }
+   ]
+  },
+  {
+   "chunk_start": 27.796,
+   "chunk_end": 30.0,
+   "text": "Can you send me the address when you arrive?",
+   "words": [
+    {
+     "word": "Can",
+     "start": 27.796,
+     "end": 28.096,
+     "probability": 0.8081
+    },
+    {
+     "word": "you",
+     "start": 28.096,
+     "end": 28.196,
+     "probability": 0.9976
+    },
+    {
+     "word": "send",
+     "start": 28.196,
+     "end": 28.416,
+     "probability": 0.9971
+    },
+    {
+     "word": "me",
+     "start": 28.416,
+     "end": 28.556,
+     "probability": 0.9946
+    },
+    {
+     "word": "the",
+     "start": 28.556,
+     "end": 28.696,
+     "probability": 0.9946
+    },
+    {
+     "word": "address",
+     "start": 28.696,
+     "end": 28.956,
+     "probability": 0.9976
+    },
+    {
+     "word": "when",
+     "start": 28.956,
+     "end": 29.256,
+     "probability": 0.9883
+    },
+    {
+     "word": "you",
+     "start": 29.256,
+     "end": 29.376,
+     "probability": 0.9985
+    },
+    {
+     "word": "arrive?",
+     "start": 29.376,
+     "end": 29.576,
+     "probability": 0.9951
+    }
+   ]
+  }
+ ]
+}

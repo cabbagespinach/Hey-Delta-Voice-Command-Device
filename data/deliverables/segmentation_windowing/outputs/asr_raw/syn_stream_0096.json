@@ -1,0 +1,138 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0096.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:29:19+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8834862112998962,
+ "chunks": [
+  {
+   "chunk_start": 6.324,
+   "chunk_end": 9.452,
+   "text": "The battery should last for another hour.",
+   "words": [
+    {
+     "word": "The",
+     "start": 6.324,
+     "end": 6.764,
+     "probability": 0.7056
+    },
+    {
+     "word": "battery",
+     "start": 6.764,
+     "end": 7.104,
+     "probability": 0.9604
+    },
+    {
+     "word": "should",
+     "start": 7.104,
+     "end": 7.444,
+     "probability": 0.9941
+    },
+    {
+     "word": "last",
+     "start": 7.444,
+     "end": 7.744,
+     "probability": 0.998
+    },
+    {
+     "word": "for",
+     "start": 7.744,
+     "end": 8.024,
+     "probability": 0.9927
+    },
+    {
+     "word": "another",
+     "start": 8.024,
+     "end": 8.344,
+     "probability": 0.9927
+    },
+    {
+     "word": "hour.",
+     "start": 8.344,
+     "end": 8.844,
+     "probability": 0.998
+    }
+   ]
+  },
+  {
+   "chunk_start": 17.78,
+   "chunk_end": 20.94,
+   "text": "The meeting starts in about 10 minutes.",
+   "words": [
+    {
+     "word": "The",
+     "start": 17.78,
+     "end": 18.06,
+     "probability": 0.9067
+    },
+    {
+     "word": "meeting",
+     "start": 18.06,
+     "end": 18.34,
+     "probability": 0.9917
+    },
+    {
+     "word": "starts",
+     "start": 18.34,
+     "end": 18.76,
+     "probability": 0.9922
+    },
+    {
+     "word": "in",
+     "start": 18.76,
+     "end": 19.2,
+     "probability": 0.9961
+    },
+    {
+     "word": "about",
+     "start": 19.2,
+     "end": 19.46,
+     "probability": 0.9912
+    },
+    {
+     "word": "10",
+     "start": 19.46,
+     "end": 19.78,
+     "probability": 0.7476
+    },
+    {
+     "word": "minutes.",
+     "start": 19.78,
+     "end": 20.16,
+     "probability": 0.9795
+    }
+   ]
+  },
+  {
+   "chunk_start": 25.14,
+   "chunk_end": 29.772,
+   "text": "Thank you for watching.",
+   "words": [
+    {
+     "word": "Thank",
+     "start": 25.14,
+     "end": 25.7,
+     "probability": 0.0453
+    },
+    {
+     "word": "you",
+     "start": 25.7,
+     "end": 26.38,
+     "probability": 0.9761
+    },
+    {
+     "word": "for",
+     "start": 26.38,
+     "end": 26.72,
+     "probability": 0.458
+    },
+    {
+     "word": "watching.",
+     "start": 26.72,
+     "end": 26.88,
+     "probability": 0.7139
+    }
+   ]
+  }
+ ]
+}

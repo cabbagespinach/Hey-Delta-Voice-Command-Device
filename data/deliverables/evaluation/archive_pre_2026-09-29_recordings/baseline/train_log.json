@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-28T14:52:05+00:00",
+  "purpose": "pipeline-check baseline, not the project model",
+  "data": "train split only, dataloading layer (bucket-quota sampling, training-only augmentation)",
+  "config": {
+    "epochs": 8,
+    "batch_size": 128,
+    "num_workers": 16,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "seed": 20260929,
+    "_description": "Pipeline-check baseline only: a small CNN trained on the train split with the dataloading layer (augmented, bucket-quota sampling). It exists so the evaluators produce real numbers; replace it with the trained model."
+  },
+  "parameters": 60465,
+  "epochs": [
+    {
+      "epoch": 0,
+      "train_loss": 0.57427,
+      "train_acc": 0.7342,
+      "seconds": 7.4
+    },
+    {
+      "epoch": 1,
+      "train_loss": 0.47573,
+      "train_acc": 0.7574,
+      "seconds": 10.4
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.33526,
+      "train_acc": 0.8514,
+      "seconds": 13.2
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.22414,
+      "train_acc": 0.9164,
+      "seconds": 15.9
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.17767,
+      "train_acc": 0.9394,
+      "seconds": 18.6
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.14048,
+      "train_acc": 0.9593,
+      "seconds": 21.4
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.12753,
+      "train_acc": 0.9644,
+      "seconds": 24.2
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.1205,
+      "train_acc": 0.9654,
+      "seconds": 26.9
+    }
+  ]
+}

@@ -1,0 +1,435 @@
+{
+  "created_at": "2026-09-28T14:37:01+00:00",
+  "seed": 20260928,
+  "sampling": {
+    "strategy": "bucket_quota",
+    "_strategy": "Each training epoch draws epoch_size examples. Every bucket (a set of window_types) receives a fixed share of the draws, so the abundant easy negatives cannot crowd out positives and hard negatives. Within a bucket, a window's weight is proportional to 1 / (windows from its source_group) ^ source_group_exponent, so one long recording cannot dominate its bucket. Draws are with replacement; each draw gets its own augmentation seed (seed, epoch, draw position).",
+    "epoch_size": "train_size",
+    "replacement": true,
+    "source_group_exponent": 0.5,
+    "_source_group_exponent": "0 = every window equally likely; 1 = every source group equally likely. 0.5 is a compromise: long sessions still contribute more, but only as the square root of their window count.",
+    "buckets": {
+      "positive_real": {
+        "role": "positive",
+        "share": 0.125,
+        "window_types": [
+          "positive_wakeword"
+        ],
+        "sources": [
+          "real"
+        ]
+      },
+      "positive_synthetic": {
+        "role": "positive",
+        "share": 0.125,
+        "window_types": [
+          "positive_wakeword"
+        ],
+        "sources": [
+          "synthetic"
+        ]
+      },
+      "confusable": {
+        "role": "hard_negative",
+        "share": 0.2,
+        "window_types": [
+          "negative_confusable"
+        ]
+      },
+      "partial_wakeword": {
+        "role": "hard_negative",
+        "share": 0.14,
+        "window_types": [
+          "negative_partial_wakeword"
+        ]
+      },
+      "general_speech": {
+        "role": "easy_negative",
+        "share": 0.12,
+        "window_types": [
+          "negative_general_speech"
+        ]
+      },
+      "media": {
+        "role": "easy_negative",
+        "share": 0.05,
+        "window_types": [
+          "negative_media"
+        ]
+      },
+      "silence_noise": {
+        "role": "easy_negative",
+        "share": 0.04,
+        "window_types": [
+          "negative_silence_noise"
+        ]
+      },
+      "device_background": {
+        "role": "easy_negative",
+        "share": 0.2,
+        "window_types": [
+          "negative_real_background",
+          "negative_non_speech_from_positive_recording"
+        ]
+      }
+    },
+    "_sources": "A bucket may restrict itself to 'real' (manual recordings) or 'synthetic' sources; default both. Every (window_type, source) pair in train must belong to exactly one bucket.",
+    "_shares": "Natural train mix: 4.5% positive, 25.7% hard negative, 69.8% easy negative. Target: 25% positive, 34% hard negative (confusables and partial wakewords), 41% easy negative. v3 (2026-09-28): the source-confound diagnostic (evaluation/diagnostics) showed the recording condition predicting the label, because positives were ~64% real audio and negatives ~5%. Positives are now split evenly between real and synthetic sources (synthetic positives were under-drawn by source-group weighting), and real device background rises from 8% to 14%, the only real negative recorded on the device. Real audio remains more common among positives than negatives until more RPI negatives are recorded. 2026-09-28: Manual-BG-RPI14..19 (real conversation, singing, near-miss \"Hey ...\" phrases, room sound) raised train real-background windows 278 -> 1,257, so device_background rises 14% -> 20% (general speech 15% -> 12%, media 8% -> 5%)."
+  },
+  "natural": {
+    "streaming_eval_holdout": {
+      "n": 4642,
+      "label": {
+        "negative": 4354,
+        "positive": 288
+      },
+      "role": {
+        "eval_only": 4118,
+        "positive": 288,
+        "hard_negative": 236
+      },
+      "window_type": {
+        "negative_stream_background": 4118,
+        "positive_wakeword": 288,
+        "negative_partial_wakeword": 236
+      },
+      "positives_by_eval_subset": {
+        "synthetic": 288
+      },
+      "source_groups": 120
+    },
+    "test": {
+      "n": 991,
+      "label": {
+        "negative": 950,
+        "positive": 41
+      },
+      "role": {
+        "easy_negative": 678,
+        "hard_negative": 272,
+        "positive": 41
+      },
+      "window_type": {
+        "negative_general_speech": 271,
+        "negative_real_background": 181,
+        "negative_partial_wakeword": 146,
+        "negative_confusable": 126,
+        "negative_media": 126,
+        "negative_silence_noise": 100,
+        "positive_wakeword": 41
+      },
+      "positives_by_eval_subset": {
+        "synthetic": 27,
+        "real_device_rpi": 14
+      },
+      "source_groups": 260
+    },
+    "train": {
+      "n": 6991,
+      "label": {
+        "negative": 6723,
+        "positive": 268
+      },
+      "role": {
+        "easy_negative": 5176,
+        "hard_negative": 1547,
+        "positive": 268
+      },
+      "window_type": {
+        "negative_general_speech": 2132,
+        "negative_real_background": 1257,
+        "negative_media": 981,
+        "negative_confusable": 980,
+        "negative_silence_noise": 803,
+        "negative_partial_wakeword": 567,
+        "positive_wakeword": 268,
+        "negative_non_speech_from_positive_recording": 3
+      },
+      "positives_by_eval_subset": {
+        "real_device_rpi": 105,
+        "synthetic": 96,
+        "real_other_device": 67
+      },
+      "source_groups": 2154
+    },
+    "validation": {
+      "n": 1013,
+      "label": {
+        "negative": 971,
+        "positive": 42
+      },
+      "role": {
+        "easy_negative": 699,
+        "hard_negative": 272,
+        "positive": 42
+      },
+      "window_type": {
+        "negative_general_speech": 276,
+        "negative_real_background": 191,
+        "negative_partial_wakeword": 147,
+        "negative_media": 126,
+        "negative_confusable": 125,
+        "negative_silence_noise": 106,
+        "positive_wakeword": 42
+      },
+      "positives_by_eval_subset": {
+        "synthetic": 27,
+        "real_device_rpi": 15
+      },
+      "source_groups": 265
+    }
+  },
+  "train_before": {
+    "positive": 0.03833500214561579,
+    "hard_negative": 0.2212845086539837,
+    "easy_negative": 0.7403804892004006,
+    "hard_to_easy_ratio": 0.2988794435857805,
+    "negative_category_share_within_negatives": {
+      "device_background": 0.18741633199464525,
+      "general_speech": 0.3171203331845902,
+      "media": 0.14591700133868807,
+      "silence_noise": 0.11944072586642866,
+      "confusable": 0.14576825821805742,
+      "partial_wakeword": 0.08433734939759034
+    }
+  },
+  "train_after": {
+    "positive": 0.2500357602631955,
+    "hard_negative": 0.3400085824631669,
+    "easy_negative": 0.40995565727363753,
+    "hard_to_easy_ratio": 0.8293789253314724,
+    "negative_category_share_within_negatives": {
+      "device_background": 0.2666412359336258,
+      "general_speech": 0.16002288765973682,
+      "media": 0.06656494373450315,
+      "silence_noise": 0.0534045393858478,
+      "confusable": 0.2666412359336258,
+      "partial_wakeword": 0.1867251573526607
+    }
+  },
+  "real_source_share": {
+    "positive": {
+      "before": 0.6417910447761194,
+      "after": 0.4999999999999999
+    },
+    "negative": {
+      "before": 0.19366354306113343,
+      "after": 0.3392198718117488
+    }
+  },
+  "train_buckets": [
+    {
+      "bucket": "device_background",
+      "role": "easy_negative",
+      "window_types": "negative_real_background, negative_non_speech_from_positive_recording",
+      "windows": 1260,
+      "before_share": 0.1802317265055071,
+      "after_share": 0.19997139178944356,
+      "draws_per_epoch": 1398,
+      "repeat_factor": 1.1095238095238096,
+      "source_groups": 12,
+      "eff_groups_before": 2.983122695859029,
+      "eff_groups_after": 6.2446703712427345,
+      "top_group": "Manual-BG-RPI19",
+      "top_group_share_before": 0.4992063492063492,
+      "top_group_share_after": 0.28273872208656237,
+      "after_share_empirical_mean": 0.19997139178944356,
+      "unique_windows_seen_per_epoch": 0.5817460317460317
+    },
+    {
+      "bucket": "general_speech",
+      "role": "easy_negative",
+      "window_types": "negative_general_speech",
+      "windows": 2132,
+      "before_share": 0.3049635245315406,
+      "after_share": 0.12001144328422257,
+      "draws_per_epoch": 839,
+      "repeat_factor": 0.39352720450281425,
+      "source_groups": 189,
+      "eff_groups_before": 179.94552652414885,
+      "eff_groups_after": 186.51838193901563,
+      "top_group": "syn_general_rec_0000",
+      "top_group_share_before": 0.0075046904315197,
+      "top_group_share_after": 0.0063431586173000295,
+      "after_share_empirical_mean": 0.12001144328422257,
+      "unique_windows_seen_per_epoch": 0.32570356472795503
+    },
+    {
+      "bucket": "media",
+      "role": "easy_negative",
+      "window_types": "negative_media",
+      "windows": 981,
+      "before_share": 0.14032327277928766,
+      "after_share": 0.049921327420969816,
+      "draws_per_epoch": 349,
+      "repeat_factor": 0.35575942915392456,
+      "source_groups": 146,
+      "eff_groups_before": 141.71123545869534,
+      "eff_groups_after": 144.88102140603496,
+      "top_group": "syn_media_rec_0013",
+      "top_group_share_before": 0.009174311926605505,
+      "top_group_share_after": 0.007957579781588935,
+      "after_share_empirical_mean": 0.049921327420969816,
+      "unique_windows_seen_per_epoch": 0.30132517838939854
+    },
+    {
+      "bucket": "silence_noise",
+      "role": "easy_negative",
+      "window_types": "negative_silence_noise",
+      "windows": 803,
+      "before_share": 0.11486196538406522,
+      "after_share": 0.04005149477900157,
+      "draws_per_epoch": 280,
+      "repeat_factor": 0.34869240348692404,
+      "source_groups": 801,
+      "eff_groups_before": 797.044499381953,
+      "eff_groups_after": 800.4661037261652,
+      "top_group": "Manual-BG-RPI2",
+      "top_group_share_before": 0.0037359900373599006,
+      "top_group_share_after": 0.002160386136271111,
+      "after_share_empirical_mean": 0.04005149477900157,
+      "unique_windows_seen_per_epoch": 0.2933997509339975
+    },
+    {
+      "bucket": "confusable",
+      "role": "hard_negative",
+      "window_types": "negative_confusable",
+      "windows": 980,
+      "before_share": 0.1401802317265055,
+      "after_share": 0.19997139178944356,
+      "draws_per_epoch": 1398,
+      "repeat_factor": 1.426530612244898,
+      "source_groups": 960,
+      "eff_groups_before": 941.5686274509802,
+      "eff_groups_after": 956.7086019849265,
+      "top_group": "syn_conf_00194",
+      "top_group_share_before": 0.0020408163265306124,
+      "top_group_share_after": 0.0014605355104561726,
+      "after_share_empirical_mean": 0.19997139178944356,
+      "unique_windows_seen_per_epoch": 0.7616326530612245
+    },
+    {
+      "bucket": "partial_wakeword",
+      "role": "hard_negative",
+      "window_types": "negative_partial_wakeword",
+      "windows": 567,
+      "before_share": 0.08110427692747818,
+      "after_share": 0.14003719067372336,
+      "draws_per_epoch": 979,
+      "repeat_factor": 1.72663139329806,
+      "source_groups": 32,
+      "eff_groups_before": 4.965157763054257,
+      "eff_groups_after": 11.75080073719178,
+      "top_group": "fil-PH-BlessicaNeural",
+      "top_group_share_before": 0.2698412698412698,
+      "top_group_share_after": 0.15153761754535341,
+      "after_share_empirical_mean": 0.14003719067372336,
+      "unique_windows_seen_per_epoch": 0.6843033509700176
+    },
+    {
+      "bucket": "positive_real",
+      "role": "positive",
+      "window_types": "positive_wakeword",
+      "windows": 172,
+      "before_share": 0.02460306107852954,
+      "after_share": 0.12501788013159776,
+      "draws_per_epoch": 874,
+      "repeat_factor": 5.0813953488372094,
+      "source_groups": 42,
+      "eff_groups_before": 13.824299065420563,
+      "eff_groups_after": 32.52849371813613,
+      "top_group": "Manual-Fil-Macmic1",
+      "top_group_share_before": 0.1686046511627907,
+      "top_group_share_after": 0.07199507673934603,
+      "after_share_empirical_mean": 0.12501788013159776,
+      "unique_windows_seen_per_epoch": 0.9430232558139535
+    },
+    {
+      "bucket": "positive_synthetic",
+      "role": "positive",
+      "window_types": "positive_wakeword",
+      "windows": 96,
+      "before_share": 0.013731941067086254,
+      "after_share": 0.12501788013159776,
+      "draws_per_epoch": 874,
+      "repeat_factor": 9.104166666666666,
+      "source_groups": 5,
+      "eff_groups_before": 4.3760683760683765,
+      "eff_groups_after": 4.756978932940257,
+      "top_group": "fil-PH-BlessicaNeural",
+      "top_group_share_before": 0.28125,
+      "top_group_share_after": 0.24315357068456203,
+      "after_share_empirical_mean": 0.12501788013159776,
+      "unique_windows_seen_per_epoch": 1.0
+    }
+  ],
+  "epoch_size": 6991,
+  "augmentation_rates_on_sample": {
+    "n_draws": 1000,
+    "rates": {
+      "confusable": {
+        "device_level_gain": 0.895,
+        "rir_reverberation": 0.0,
+        "background_noise_mixing": 0.828,
+        "device_noise_floor": 0.024,
+        "any": 0.986
+      },
+      "device_background": {
+        "device_level_gain": 0.0,
+        "rir_reverberation": 0.0,
+        "background_noise_mixing": 0.0,
+        "device_noise_floor": 0.0,
+        "any": 0.0
+      },
+      "general_speech": {
+        "device_level_gain": 0.863,
+        "rir_reverberation": 0.0,
+        "background_noise_mixing": 0.766,
+        "device_noise_floor": 0.089,
+        "any": 0.984
+      },
+      "media": {
+        "device_level_gain": 0.966,
+        "rir_reverberation": 0.0,
+        "background_noise_mixing": 0.586,
+        "device_noise_floor": 0.0,
+        "any": 1.0
+      },
+      "partial_wakeword": {
+        "device_level_gain": 0.871,
+        "rir_reverberation": 0.0,
+        "background_noise_mixing": 0.6,
+        "device_noise_floor": 0.2,
+        "any": 1.0
+      },
+      "positive_real": {
+        "device_level_gain": 0.864,
+        "rir_reverberation": 0.0,
+        "background_noise_mixing": 0.415,
+        "device_noise_floor": 0.0,
+        "any": 0.983
+      },
+      "positive_synthetic": {
+        "device_level_gain": 0.882,
+        "rir_reverberation": 0.0,
+        "background_noise_mixing": 0.85,
+        "device_noise_floor": 0.173,
+        "any": 1.0
+      },
+      "silence_noise": {
+        "device_level_gain": 0.905,
+        "rir_reverberation": 0.0,
+        "background_noise_mixing": 0.0,
+        "device_noise_floor": 0.0,
+        "any": 0.905
+      },
+      "ALL": {
+        "device_level_gain": 0.718,
+        "rir_reverberation": 0.0,
+        "background_noise_mixing": 0.552,
+        "device_noise_floor": 0.069,
+        "any": 0.803
+      }
+    }
+  }
+}

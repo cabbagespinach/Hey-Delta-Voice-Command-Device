@@ -1,0 +1,174 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0067.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:28:34+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.89419025182724,
+ "chunks": [
+  {
+   "chunk_start": 2.804,
+   "chunk_end": 5.708,
+   "text": "We ordered dinner and waited near the entrance.",
+   "words": [
+    {
+     "word": "We",
+     "start": 2.804,
+     "end": 3.144,
+     "probability": 0.8955
+    },
+    {
+     "word": "ordered",
+     "start": 3.144,
+     "end": 3.384,
+     "probability": 0.9858
+    },
+    {
+     "word": "dinner",
+     "start": 3.384,
+     "end": 3.664,
+     "probability": 0.9946
+    },
+    {
+     "word": "and",
+     "start": 3.664,
+     "end": 3.944,
+     "probability": 0.9087
+    },
+    {
+     "word": "waited",
+     "start": 3.944,
+     "end": 4.204,
+     "probability": 0.9956
+    },
+    {
+     "word": "near",
+     "start": 4.204,
+     "end": 4.424,
+     "probability": 0.9917
+    },
+    {
+     "word": "the",
+     "start": 4.424,
+     "end": 4.624,
+     "probability": 0.9946
+    },
+    {
+     "word": "entrance.",
+     "start": 4.624,
+     "end": 4.944,
+     "probability": 0.9961
+    }
+   ]
+  },
+  {
+   "chunk_start": 13.428,
+   "chunk_end": 16.268,
+   "text": "The road was busy because of the rain.",
+   "words": [
+    {
+     "word": "The",
+     "start": 13.428,
+     "end": 13.708,
+     "probability": 0.7051
+    },
+    {
+     "word": "road",
+     "start": 13.708,
+     "end": 13.968,
+     "probability": 0.9902
+    },
+    {
+     "word": "was",
+     "start": 13.968,
+     "end": 14.268,
+     "probability": 0.9976
+    },
+    {
+     "word": "busy",
+     "start": 14.268,
+     "end": 14.668,
+     "probability": 0.9966
+    },
+    {
+     "word": "because",
+     "start": 14.668,
+     "end": 15.008,
+     "probability": 0.9917
+    },
+    {
+     "word": "of",
+     "start": 15.008,
+     "end": 15.248,
+     "probability": 0.9829
+    },
+    {
+     "word": "the",
+     "start": 15.248,
+     "end": 15.388,
+     "probability": 0.9663
+    },
+    {
+     "word": "rain.",
+     "start": 15.388,
+     "end": 15.668,
+     "probability": 0.9829
+    }
+   ]
+  },
+  {
+   "chunk_start": 18.996,
+   "chunk_end": 24.3,
+   "text": "",
+   "words": []
+  },
+  {
+   "chunk_start": 24.5,
+   "chunk_end": 27.5,
+   "text": "The next episode starts after the commercial.",
+   "words": [
+    {
+     "word": "The",
+     "start": 24.5,
+     "end": 24.84,
+     "probability": 0.9458
+    },
+    {
+     "word": "next",
+     "start": 24.84,
+     "end": 25.06,
+     "probability": 0.9985
+    },
+    {
+     "word": "episode",
+     "start": 25.06,
+     "end": 25.42,
+     "probability": 0.9985
+    },
+    {
+     "word": "starts",
+     "start": 25.42,
+     "end": 25.78,
+     "probability": 0.999
+    },
+    {
+     "word": "after",
+     "start": 25.78,
+     "end": 26.36,
+     "probability": 0.9971
+    },
+    {
+     "word": "the",
+     "start": 26.36,
+     "end": 26.56,
+     "probability": 0.9971
+    },
+    {
+     "word": "commercial.",
+     "start": 26.56,
+     "end": 26.82,
+     "probability": 0.999
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,651 @@
+file,label,session,t,speaker,speaker_basis,f0_hz,p_low_voice,evidence_low
+play_music/play_music_owner_20260930-122543-079.wav,play_music,0,2026-09-30 12:25:43,owner,owner (owner-confirmed higher voice),288.20462626017775,0.138,0.069
+weather/weather_owner_20260930-122549-366.wav,weather,0,2026-09-30 12:25:49,owner,owner (owner-confirmed higher voice),71.84366450240935,0.09,0.09
+time/time_owner_20260930-122555-350.wav,time,0,2026-09-30 12:25:55,owner,owner (owner-confirmed higher voice),242.35023708172005,0.188,0.094
+lights_on/lights_on_owner_20260930-122626-084.wav,lights_on,0,2026-09-30 12:26:26,owner,owner (owner-confirmed higher voice),227.430670979746,0.092,0.046
+lights_off/lights_off_owner_20260930-122631-151.wav,lights_off,0,2026-09-30 12:26:31,owner,owner (owner-confirmed higher voice),,0.046,0.046
+dim_lights_20/dim_lights_20_owner_20260930-122641-599.wav,dim_lights_20,0,2026-09-30 12:26:41,owner,owner (owner-confirmed higher voice),237.50087754152256,0.09,0.045
+dim_lights_50/dim_lights_50_owner_20260930-122646-870.wav,dim_lights_50,0,2026-09-30 12:26:46,owner,owner (owner-confirmed higher voice),,,
+play_music/play_music_owner_20260930-122802-381.wav,play_music,0,2026-09-30 12:28:02,owner,owner (owner-confirmed higher voice),,,
+weather/weather_owner_20260930-122820-733.wav,weather,0,2026-09-30 12:28:20,owner,owner (owner-confirmed higher voice),220.95616125481965,0.065,0.0325
+time/time_owner_20260930-122825-297.wav,time,0,2026-09-30 12:28:25,owner,owner (owner-confirmed higher voice),245.16621119364785,0.121,0.0605
+lights_on/lights_on_owner_20260930-122829-553.wav,lights_on,0,2026-09-30 12:28:29,owner,owner (owner-confirmed higher voice),242.3542800756636,0.124,0.062
+lights_off/lights_off_owner_20260930-122833-404.wav,lights_off,0,2026-09-30 12:28:33,owner,owner (owner-confirmed higher voice),224.17097755080368,0.157,0.0785
+dim_lights_20/dim_lights_20_owner_20260930-122839-188.wav,dim_lights_20,0,2026-09-30 12:28:39,owner,owner (owner-confirmed higher voice),240.95440242841244,0.167,0.0835
+dim_lights_50/dim_lights_50_owner_20260930-122844-966.wav,dim_lights_50,0,2026-09-30 12:28:44,owner,owner (owner-confirmed higher voice),256.76113209730795,0.086,0.043
+set_timer_1/set_timer_1_owner_20260930-123012-075.wav,set_timer_1,0,2026-09-30 12:30:12,owner,owner (owner-confirmed higher voice),209.7629907627354,0.061,0.0305
+set_timer_5/set_timer_5_owner_20260930-123017-247.wav,set_timer_5,0,2026-09-30 12:30:17,owner,owner (owner-confirmed higher voice),79.945763751754,0.038,0.038
+set_timer_10/set_timer_10_owner_20260930-123022-307.wav,set_timer_10,0,2026-09-30 12:30:22,owner,owner (owner-confirmed higher voice),214.6659682537441,0.071,0.0355
+set_alarm_7am/set_alarm_7am_owner_20260930-123043-004.wav,set_alarm_7am,0,2026-09-30 12:30:43,owner,owner (owner-confirmed higher voice),222.23614727554795,0.032,0.016
+set_alarm_9pm/set_alarm_9pm_owner_20260930-123048-785.wav,set_alarm_9pm,0,2026-09-30 12:30:48,owner,owner (owner-confirmed higher voice),227.430670979746,0.065,0.0325
+set_temperature_18/set_temperature_18_owner_20260930-123056-085.wav,set_temperature_18,0,2026-09-30 12:30:56,owner,owner (owner-confirmed higher voice),70.40550587474974,0.022,0.022
+set_temperature_22/set_temperature_22_owner_20260930-123101-865.wav,set_temperature_22,0,2026-09-30 12:31:01,owner,owner (owner-confirmed higher voice),215.9095155571117,0.067,0.0335
+set_temperature_26/set_temperature_26_owner_20260930-123107-138.wav,set_temperature_26,0,2026-09-30 12:31:07,owner,owner (owner-confirmed higher voice),256.76113209730795,0.063,0.0315
+pause/pause_owner_20260930-123112-816.wav,pause,0,2026-09-30 12:31:12,owner,owner (owner-confirmed higher voice),73.10190859286746,0.102,0.102
+stop/stop_owner_20260930-123118-190.wav,stop,0,2026-09-30 12:31:18,owner,owner (owner-confirmed higher voice),222.23614727554795,0.202,0.101
+next/next_owner_20260930-123134-320.wav,next,0,2026-09-30 12:31:34,owner,owner (owner-confirmed higher voice),272.0289435230096,0.29,0.145
+skip/skip_owner_20260930-123142-032.wav,skip,0,2026-09-30 12:31:42,owner,owner (owner-confirmed higher voice),72.88835067743645,0.04,0.04
+volume_up/volume_up_owner_20260930-123149-035.wav,volume_up,0,2026-09-30 12:31:49,owner,owner (owner-confirmed higher voice),122.93816395014235,0.223,0.6115
+louder/louder_owner_20260930-123152-889.wav,louder,0,2026-09-30 12:31:52,owner,owner (owner-confirmed higher voice),249.451641079295,0.034,0.017
+volume_down/volume_down_owner_20260930-123156-632.wav,volume_down,0,2026-09-30 12:31:56,owner,owner (owner-confirmed higher voice),227.430670979746,0.024,0.012
+remind_trash/remind_trash_owner_20260930-123201-818.wav,remind_trash,0,2026-09-30 12:32:01,owner,owner (owner-confirmed higher voice),239.5666071911286,0.092,0.046
+remind_study/remind_study_owner_20260930-123207-197.wav,remind_study,0,2026-09-30 12:32:07,owner,owner (owner-confirmed higher voice),352.78377916756665,0.045,0.045
+list_reminders/list_reminders_owner_20260930-123211-765.wav,list_reminders,0,2026-09-30 12:32:11,owner,owner (owner-confirmed higher voice),272.0289435230096,0.102,0.051
+call_jane/call_jane_owner_20260930-123215-718.wav,call_jane,0,2026-09-30 12:32:15,owner,owner (owner-confirmed higher voice),255.2822967963007,0.159,0.0795
+text_jane/text_jane_owner_20260930-123220-791.wav,text_jane,0,2026-09-30 12:32:20,owner,owner (owner-confirmed higher voice),70.0,0.027,0.027
+unknown_silent/unknown_silent_owner_20260930-123226-882.wav,unknown_silent,0,2026-09-30 12:32:26,owner,owner (owner-confirmed higher voice),71.63617243977424,0.18,0.18
+unknown_other/unknown_other_owner_20260930-123234-186.wav,unknown_other,0,2026-09-30 12:32:34,owner,owner (owner-confirmed higher voice),214.6659682537441,0.198,0.099
+play_music/play_music_owner_20260930-123314-277.wav,play_music,0,2026-09-30 12:33:14,owner,owner (owner-confirmed higher voice),,0.389,0.389
+weather/weather_owner_20260930-123323-401.wav,weather,0,2026-09-30 12:33:23,owner,owner (owner-confirmed higher voice),,0.294,0.294
+time/time_owner_20260930-123328-575.wav,time,0,2026-09-30 12:33:28,owner,owner (owner-confirmed higher voice),240.95440242841244,0.457,0.2285
+lights_on/lights_on_owner_20260930-123333-750.wav,lights_on,0,2026-09-30 12:33:33,owner,owner (owner-confirmed higher voice),,0.509,0.509
+lights_off/lights_off_owner_20260930-123337-609.wav,lights_off,0,2026-09-30 12:33:37,owner,owner (owner-confirmed higher voice),289.87417867558565,0.212,0.106
+dim_lights_20/dim_lights_20_owner_20260930-123342-172.wav,dim_lights_20,0,2026-09-30 12:33:42,owner,owner (owner-confirmed higher voice),,,
+dim_lights_50/dim_lights_50_owner_20260930-123347-345.wav,dim_lights_50,0,2026-09-30 12:33:47,owner,owner (owner-confirmed higher voice),,0.503,0.503
+set_timer_1/set_timer_1_owner_20260930-123357-994.wav,set_timer_1,0,2026-09-30 12:33:57,owner,owner (owner-confirmed higher voice),,0.533,0.533
+set_timer_5/set_timer_5_owner_20260930-123402-762.wav,set_timer_5,0,2026-09-30 12:34:02,owner,owner (owner-confirmed higher voice),,,
+set_timer_10/set_timer_10_owner_20260930-123407-733.wav,set_timer_10,0,2026-09-30 12:34:07,owner,owner (owner-confirmed higher voice),,0.161,0.161
+set_alarm_6am/set_alarm_6am_owner_20260930-123415-342.wav,set_alarm_6am,0,2026-09-30 12:34:15,owner,owner (owner-confirmed higher voice),,0.553,0.553
+set_alarm_7am/set_alarm_7am_owner_20260930-123420-108.wav,set_alarm_7am,0,2026-09-30 12:34:20,owner,owner (owner-confirmed higher voice),256.76113209730795,0.281,0.1405
+set_alarm_9pm/set_alarm_9pm_owner_20260930-123429-540.wav,set_alarm_9pm,0,2026-09-30 12:34:29,owner,owner (owner-confirmed higher voice),,,
+set_temperature_18/set_temperature_18_owner_20260930-123435-109.wav,set_temperature_18,0,2026-09-30 12:34:35,owner,owner (owner-confirmed higher voice),268.9044246142812,0.166,0.083
+set_temperature_22/set_temperature_22_owner_20260930-123439-991.wav,set_temperature_22,0,2026-09-30 12:34:39,owner,owner (owner-confirmed higher voice),,,
+set_temperature_26/set_temperature_26_owner_20260930-123444-960.wav,set_temperature_26,0,2026-09-30 12:34:44,owner,owner (owner-confirmed higher voice),,,
+pause/pause_owner_20260930-123450-239.wav,pause,0,2026-09-30 12:34:50,owner,owner (owner-confirmed higher voice),,,
+stop/stop_owner_20260930-123457-844.wav,stop,0,2026-09-30 12:34:57,owner,owner (owner-confirmed higher voice),,,
+next/next_owner_20260930-123504-440.wav,next,0,2026-09-30 12:35:04,owner,owner (owner-confirmed higher voice),,,
+skip/skip_owner_20260930-123509-510.wav,skip,0,2026-09-30 12:35:09,owner,owner (owner-confirmed higher voice),,0.344,0.344
+volume_up/volume_up_owner_20260930-123513-060.wav,volume_up,0,2026-09-30 12:35:13,owner,owner (owner-confirmed higher voice),,,
+louder/louder_owner_20260930-123523-814.wav,louder,0,2026-09-30 12:35:23,owner,owner (owner-confirmed higher voice),,,
+volume_down/volume_down_owner_20260930-123528-075.wav,volume_down,0,2026-09-30 12:35:28,owner,owner (owner-confirmed higher voice),128.38056604865398,0.65,0.825
+remind_trash/remind_trash_owner_20260930-123538-317.wav,remind_trash,0,2026-09-30 12:35:38,owner,owner (owner-confirmed higher voice),259.04839325537256,0.169,0.0845
+list_reminders/list_reminders_owner_20260930-123548-260.wav,list_reminders,0,2026-09-30 12:35:48,owner,owner (owner-confirmed higher voice),,,
+call_jane/call_jane_owner_20260930-123553-636.wav,call_jane,0,2026-09-30 12:35:53,owner,owner (owner-confirmed higher voice),,,
+text_jane/text_jane_owner_20260930-123558-098.wav,text_jane,0,2026-09-30 12:35:58,owner,owner (owner-confirmed higher voice),,0.419,0.419
+unknown_silent/unknown_silent_owner_20260930-123602-866.wav,unknown_silent,0,2026-09-30 12:36:02,owner,owner (owner-confirmed higher voice),327.2576295971488,0.177,0.0885
+unknown_other/unknown_other_owner_20260930-123616-048.wav,unknown_other,0,2026-09-30 12:36:16,owner,owner (owner-confirmed higher voice),245.16621119364785,0.07,0.035
+play_music/play_music_owner_20260930-123830-742.wav,play_music,0,2026-09-30 12:38:30,owner,owner (owner-confirmed higher voice),325.3727643481951,0.098,0.049
+weather/weather_owner_20260930-123835-296.wav,weather,0,2026-09-30 12:38:35,owner,owner (owner-confirmed higher voice),217.16026665672285,0.1,0.05
+time/time_owner_20260930-123839-465.wav,time,0,2026-09-30 12:38:39,owner,owner (owner-confirmed higher voice),244.4601844582813,0.119,0.0595
+lights_on/lights_on_owner_20260930-123843-420.wav,lights_on,0,2026-09-30 12:38:43,owner,owner (owner-confirmed higher voice),250.8966997353467,0.19,0.095
+lights_off/lights_off_owner_20260930-123848-290.wav,lights_off,0,2026-09-30 12:38:48,owner,owner (owner-confirmed higher voice),224.8184069217454,0.098,0.049
+dim_lights_20/dim_lights_20_owner_20260930-123852-657.wav,dim_lights_20,0,2026-09-30 12:38:52,owner,owner (owner-confirmed higher voice),226.12076670401177,0.078,0.039
+dim_lights_50/dim_lights_50_owner_20260930-123857-723.wav,dim_lights_50,0,2026-09-30 12:38:57,owner,owner (owner-confirmed higher voice),235.45099627104003,0.115,0.0575
+dim_lights_80/dim_lights_80_owner_20260930-123901-781.wav,dim_lights_80,0,2026-09-30 12:39:01,owner,owner (owner-confirmed higher voice),245.16621119364785,0.119,0.0595
+set_timer_1/set_timer_1_owner_20260930-123906-241.wav,set_timer_1,0,2026-09-30 12:39:06,owner,owner (owner-confirmed higher voice),226.12076670401177,0.221,0.1105
+set_timer_5/set_timer_5_owner_20260930-123910-804.wav,set_timer_5,0,2026-09-30 12:39:10,owner,owner (owner-confirmed higher voice),218.4182632837445,0.111,0.0555
+set_timer_10/set_timer_10_owner_20260930-123915-368.wav,set_timer_10,0,2026-09-30 12:39:15,owner,owner (owner-confirmed higher voice),204.97199743238755,0.065,0.0325
+set_alarm_6am/set_alarm_6am_owner_20260930-123919-730.wav,set_alarm_6am,0,2026-09-30 12:39:19,owner,owner (owner-confirmed higher voice),232.750493701981,0.14,0.07
+set_alarm_7am/set_alarm_7am_owner_20260930-123923-887.wav,set_alarm_7am,0,2026-09-30 12:39:23,owner,owner (owner-confirmed higher voice),240.26852107397983,0.091,0.0455
+set_alarm_9pm/set_alarm_9pm_owner_20260930-123928-236.wav,set_alarm_9pm,0,2026-09-30 12:39:28,owner,owner (owner-confirmed higher voice),,0.08,0.08
+set_temperature_18/set_temperature_18_owner_20260930-123932-405.wav,set_temperature_18,0,2026-09-30 12:39:32,owner,owner (owner-confirmed higher voice),240.95440242841244,0.107,0.0535
+set_temperature_22/set_temperature_22_owner_20260930-123937-276.wav,set_temperature_22,0,2026-09-30 12:39:37,owner,owner (owner-confirmed higher voice),239.5666071911286,0.112,0.056
+set_temperature_26/set_temperature_26_owner_20260930-123941-331.wav,set_temperature_26,0,2026-09-30 12:39:41,owner,owner (owner-confirmed higher voice),,,
+pause/pause_owner_20260930-123946-812.wav,pause,0,2026-09-30 12:39:46,owner,owner (owner-confirmed higher voice),,0.231,0.231
+stop/stop_owner_20260930-123951-373.wav,stop,0,2026-09-30 12:39:51,owner,owner (owner-confirmed higher voice),,0.364,0.364
+next/next_owner_20260930-123956-037.wav,next,0,2026-09-30 12:39:56,owner,owner (owner-confirmed higher voice),,0.057,0.057
+skip/skip_owner_20260930-124000-706.wav,skip,0,2026-09-30 12:40:00,owner,owner (owner-confirmed higher voice),,0.051,0.051
+volume_up/volume_up_owner_20260930-124004-150.wav,volume_up,0,2026-09-30 12:40:04,owner,owner (owner-confirmed higher voice),230.07328808402127,0.054,0.027
+louder/louder_owner_20260930-124007-597.wav,louder,0,2026-09-30 12:40:07,owner,owner (owner-confirmed higher voice),197.9898987322333,0.144,0.072
+volume_down/volume_down_owner_20260930-124011-349.wav,volume_down,0,2026-09-30 12:40:11,owner,owner (owner-confirmed higher voice),219.6835474110902,0.14,0.07
+remind_trash/remind_trash_owner_20260930-124015-510.wav,remind_trash,0,2026-09-30 12:40:15,owner,owner (owner-confirmed higher voice),237.50087754152256,0.223,0.1115
+remind_study/remind_study_owner_20260930-124020-281.wav,remind_study,0,2026-09-30 12:40:20,owner,owner (owner-confirmed higher voice),236.8149500168056,0.077,0.0385
+list_reminders/list_reminders_owner_20260930-124024-030.wav,list_reminders,0,2026-09-30 12:40:24,owner,owner (owner-confirmed higher voice),220.95616125481965,0.094,0.047
+call_jane/call_jane_owner_20260930-124028-289.wav,call_jane,0,2026-09-30 12:40:28,owner,owner (owner-confirmed higher voice),213.42958325580668,0.178,0.089
+text_jane/text_jane_owner_20260930-124032-957.wav,text_jane,0,2026-09-30 12:40:32,owner,owner (owner-confirmed higher voice),210.370563084588,0.271,0.1355
+unknown_silent/unknown_silent_owner_20260930-124038-635.wav,unknown_silent,0,2026-09-30 12:40:38,owner,owner (owner-confirmed higher voice),,,
+unknown_other/unknown_other_owner_20260930-124051-921.wav,unknown_other,0,2026-09-30 12:40:51,owner,owner (owner-confirmed higher voice),78.11979998411563,0.128,0.128
+play_music/play_music_owner_20260930-124135-230.wav,play_music,0,2026-09-30 12:41:35,owner,owner (owner-confirmed higher voice),255.2822967963007,0.054,0.027
+weather/weather_owner_20260930-124152-672.wav,weather,0,2026-09-30 12:41:52,owner,owner (owner-confirmed higher voice),211.5892273589482,0.134,0.067
+time/time_owner_20260930-124156-727.wav,time,0,2026-09-30 12:41:56,owner,owner (owner-confirmed higher voice),212.20031931145576,0.077,0.0385
+lights_on/lights_on_owner_20260930-124200-580.wav,lights_on,0,2026-09-30 12:42:00,owner,owner (owner-confirmed higher voice),240.95440242841244,0.096,0.048
+lights_off/lights_off_owner_20260930-124204-434.wav,lights_off,0,2026-09-30 12:42:04,owner,owner (owner-confirmed higher voice),253.8119789598709,0.161,0.0805
+dim_lights_20/dim_lights_20_owner_20260930-124209-098.wav,dim_lights_20,0,2026-09-30 12:42:09,owner,owner (owner-confirmed higher voice),252.35012953103248,0.092,0.046
+dim_lights_50/dim_lights_50_owner_20260930-124213-865.wav,dim_lights_50,0,2026-09-30 12:42:13,owner,owner (owner-confirmed higher voice),244.4601844582813,0.137,0.0685
+dim_lights_80/dim_lights_80_owner_20260930-124218-836.wav,dim_lights_80,0,2026-09-30 12:42:18,owner,owner (owner-confirmed higher voice),239.5666071911286,0.089,0.0445
+set_timer_1/set_timer_1_owner_20260930-124223-707.wav,set_timer_1,0,2026-09-30 12:42:23,owner,owner (owner-confirmed higher voice),223.523548179862,0.169,0.0845
+set_timer_5/set_timer_5_owner_20260930-124228-267.wav,set_timer_5,0,2026-09-30 12:42:28,owner,owner (owner-confirmed higher voice),226.12076670401177,0.196,0.098
+set_timer_10/set_timer_10_owner_20260930-124232-836.wav,set_timer_10,0,2026-09-30 12:42:32,owner,owner (owner-confirmed higher voice),209.7629907627354,0.141,0.0705
+set_alarm_6am/set_alarm_6am_owner_20260930-124238-513.wav,set_alarm_6am,0,2026-09-30 12:42:38,owner,owner (owner-confirmed higher voice),236.8149500168056,0.128,0.064
+set_alarm_7am/set_alarm_7am_owner_20260930-124242-768.wav,set_alarm_7am,0,2026-09-30 12:42:42,owner,owner (owner-confirmed higher voice),238.1868050662396,0.073,0.0365
+set_alarm_9pm/set_alarm_9pm_owner_20260930-124247-235.wav,set_alarm_9pm,0,2026-09-30 12:42:47,owner,owner (owner-confirmed higher voice),226.12076670401177,0.084,0.042
+set_temperature_18/set_temperature_18_owner_20260930-124251-999.wav,set_temperature_18,0,2026-09-30 12:42:51,owner,owner (owner-confirmed higher voice),84.70523827647207,0.044,0.044
+set_temperature_22/set_temperature_22_owner_20260930-124256-972.wav,set_temperature_22,0,2026-09-30 12:42:56,owner,owner (owner-confirmed higher voice),224.17845698977987,0.075,0.0375
+set_temperature_26/set_temperature_26_owner_20260930-124301-638.wav,set_temperature_26,0,2026-09-30 12:43:01,owner,owner (owner-confirmed higher voice),227.430670979746,0.079,0.0395
+pause/pause_owner_20260930-124306-710.wav,pause,0,2026-09-30 12:43:06,owner,owner (owner-confirmed higher voice),70.0,0.07,0.07
+stop/stop_owner_20260930-124311-171.wav,stop,0,2026-09-30 12:43:11,owner,owner (owner-confirmed higher voice),226.12076670401177,0.033,0.0165
+next/next_owner_20260930-124315-938.wav,next,0,2026-09-30 12:43:15,owner,owner (owner-confirmed higher voice),231.4060890831793,0.053,0.0265
+skip/skip_owner_20260930-124320-807.wav,skip,0,2026-09-30 12:43:20,owner,owner (owner-confirmed higher voice),237.50087754152256,0.024,0.012
+volume_up/volume_up_owner_20260930-124324-965.wav,volume_up,0,2026-09-30 12:43:24,owner,owner (owner-confirmed higher voice),258.248534204063,0.021,0.0105
+louder/louder_owner_20260930-124329-427.wav,louder,0,2026-09-30 12:43:29,owner,owner (owner-confirmed higher voice),206.1593881340736,0.066,0.033
+volume_down/volume_down_owner_20260930-124333-685.wav,volume_down,0,2026-09-30 12:43:33,owner,owner (owner-confirmed higher voice),220.95616125481965,0.054,0.027
+remind_trash/remind_trash_owner_20260930-124338-352.wav,remind_trash,0,2026-09-30 12:43:38,owner,owner (owner-confirmed higher voice),240.95440242841244,0.175,0.0875
+remind_study/remind_study_owner_20260930-124342-918.wav,remind_study,0,2026-09-30 12:43:42,owner,owner (owner-confirmed higher voice),224.8184069217454,0.062,0.031
+list_reminders/list_reminders_owner_20260930-124347-076.wav,list_reminders,0,2026-09-30 12:43:47,owner,owner (owner-confirmed higher voice),220.95616125481965,0.037,0.0185
+call_jane/call_jane_owner_20260930-124350-723.wav,call_jane,0,2026-09-30 12:43:50,owner,owner (owner-confirmed higher voice),72.05115656504445,0.035,0.035
+text_jane/text_jane_owner_20260930-124355-492.wav,text_jane,0,2026-09-30 12:43:55,owner,owner (owner-confirmed higher voice),,0.236,0.236
+unknown_silent/unknown_silent_owner_20260930-124400-358.wav,unknown_silent,0,2026-09-30 12:44:00,owner,owner (owner-confirmed higher voice),,,
+unknown_other/unknown_other_owner_20260930-124406-140.wav,unknown_other,0,2026-09-30 12:44:06,owner,owner (owner-confirmed higher voice),226.12076670401177,0.087,0.0435
+play_music/play_music_owner_20260930-124414-253.wav,play_music,0,2026-09-30 12:44:14,owner,owner (owner-confirmed higher voice),268.9044246142812,0.061,0.0305
+weather/weather_owner_20260930-124418-614.wav,weather,0,2026-09-30 12:44:18,owner,owner (owner-confirmed higher voice),264.2848075508742,0.133,0.0665
+time/time_owner_20260930-124425-610.wav,time,0,2026-09-30 12:44:25,owner,owner (owner-confirmed higher voice),238.1868050662396,0.112,0.056
+lights_on/lights_on_owner_20260930-124429-871.wav,lights_on,0,2026-09-30 12:44:29,owner,owner (owner-confirmed higher voice),239.5666071911286,0.158,0.079
+lights_off/lights_off_owner_20260930-124433-624.wav,lights_off,0,2026-09-30 12:44:33,owner,owner (owner-confirmed higher voice),70.0,0.061,0.061
+dim_lights_20/dim_lights_20_owner_20260930-124438-390.wav,dim_lights_20,0,2026-09-30 12:44:38,owner,owner (owner-confirmed higher voice),239.5666071911286,0.177,0.0885
+dim_lights_50/dim_lights_50_owner_20260930-124443-258.wav,dim_lights_50,0,2026-09-30 12:44:43,owner,owner (owner-confirmed higher voice),235.45099627104003,0.084,0.042
+dim_lights_80/dim_lights_80_owner_20260930-124447-823.wav,dim_lights_80,0,2026-09-30 12:44:47,owner,owner (owner-confirmed higher voice),235.45099627104003,0.109,0.0545
+set_timer_1/set_timer_1_owner_20260930-124452-488.wav,set_timer_1,0,2026-09-30 12:44:52,owner,owner (owner-confirmed higher voice),217.16026665672285,0.071,0.0355
+set_timer_5/set_timer_5_owner_20260930-124456-950.wav,set_timer_5,0,2026-09-30 12:44:56,owner,owner (owner-confirmed higher voice),218.4182632837445,0.165,0.0825
+set_timer_10/set_timer_10_owner_20260930-124501-717.wav,set_timer_10,0,2026-09-30 12:45:01,owner,owner (owner-confirmed higher voice),228.748163453754,0.173,0.0865
+set_alarm_6am/set_alarm_6am_owner_20260930-124506-585.wav,set_alarm_6am,0,2026-09-30 12:45:06,owner,owner (owner-confirmed higher voice),222.23614727554795,0.079,0.0395
+set_alarm_7am/set_alarm_7am_owner_20260930-124511-251.wav,set_alarm_7am,0,2026-09-30 12:45:11,owner,owner (owner-confirmed higher voice),218.4182632837445,0.157,0.0785
+set_alarm_9pm/set_alarm_9pm_owner_20260930-124515-912.wav,set_alarm_9pm,0,2026-09-30 12:45:15,owner,owner (owner-confirmed higher voice),230.7396885836003,0.085,0.0425
+set_temperature_18/set_temperature_18_owner_20260930-124521-289.wav,set_temperature_18,0,2026-09-30 12:45:21,owner,owner (owner-confirmed higher voice),220.95616125481965,0.102,0.051
+set_temperature_22/set_temperature_22_owner_20260930-124528-493.wav,set_temperature_22,0,2026-09-30 12:45:28,owner,owner (owner-confirmed higher voice),209.7629907627354,0.12,0.06
+set_temperature_26/set_temperature_26_owner_20260930-124533-665.wav,set_temperature_26,0,2026-09-30 12:45:33,owner,owner (owner-confirmed higher voice),214.0692010315817,0.106,0.053
+pause/pause_owner_20260930-124538-936.wav,pause,0,2026-09-30 12:45:38,owner,owner (owner-confirmed higher voice),73.10190859286746,0.076,0.076
+stop/stop_owner_20260930-124543-601.wav,stop,0,2026-09-30 12:45:43,owner,owner (owner-confirmed higher voice),,0.383,0.383
+next/next_owner_20260930-124548-366.wav,next,0,2026-09-30 12:45:48,owner,owner (owner-confirmed higher voice),71.63617243977424,0.205,0.205
+skip/skip_owner_20260930-124553-437.wav,skip,0,2026-09-30 12:45:53,owner,owner (owner-confirmed higher voice),70.0,0.112,0.112
+volume_up/volume_up_owner_20260930-124557-194.wav,volume_up,0,2026-09-30 12:45:57,owner,owner (owner-confirmed higher voice),220.95616125481965,0.086,0.043
+louder/louder_owner_20260930-124600-944.wav,louder,0,2026-09-30 12:46:00,owner,owner (owner-confirmed higher voice),71.84366450240935,0.078,0.078
+volume_down/volume_down_owner_20260930-124604-797.wav,volume_down,0,2026-09-30 12:46:04,owner,owner (owner-confirmed higher voice),207.35365732011897,0.056,0.028
+remind_trash/remind_trash_owner_20260930-124609-056.wav,remind_trash,0,2026-09-30 12:46:09,owner,owner (owner-confirmed higher voice),223.523548179862,0.142,0.071
+remind_study/remind_study_owner_20260930-124613-621.wav,remind_study,0,2026-09-30 12:46:13,owner,owner (owner-confirmed higher voice),212.8149512836312,0.165,0.0825
+list_reminders/list_reminders_owner_20260930-124617-679.wav,list_reminders,0,2026-09-30 12:46:17,owner,owner (owner-confirmed higher voice),218.4182632837445,0.182,0.091
+call_jane/call_jane_owner_20260930-124621-227.wav,call_jane,0,2026-09-30 12:46:21,owner,owner (owner-confirmed higher voice),207.35365732011897,0.293,0.1465
+text_jane/text_jane_owner_20260930-124626-097.wav,text_jane,0,2026-09-30 12:46:26,owner,owner (owner-confirmed higher voice),71.22357844718805,0.127,0.127
+unknown_silent/unknown_silent_owner_20260930-124701-793.wav,unknown_silent,0,2026-09-30 12:47:01,owner,owner (owner-confirmed higher voice),71.63617243977424,0.108,0.108
+unknown_other/unknown_other_owner_20260930-124708-994.wav,unknown_other,0,2026-09-30 12:47:08,owner,owner (owner-confirmed higher voice),218.4182632837445,0.311,0.1555
+play_music/play_music_owner_20260930-124724-610.wav,play_music,0,2026-09-30 12:47:24,speaker2,"segment (pitch + voiceprint, owner-confirmed)",142.0369392683226,0.798,0.899
+weather/weather_owner_20260930-124728-565.wav,weather,0,2026-09-30 12:47:28,speaker2,"segment (pitch + voiceprint, owner-confirmed)",80.8746887810591,0.845,0.845
+time/time_owner_20260930-124732-320.wav,time,0,2026-09-30 12:47:32,speaker2,"segment (pitch + voiceprint, owner-confirmed)",132.9078969330727,0.903,0.9515
+lights_on/lights_on_owner_20260930-124736-273.wav,lights_on,0,2026-09-30 12:47:36,speaker2,"segment (pitch + voiceprint, owner-confirmed)",107.33298412687203,0.819,0.9095
+lights_off/lights_off_owner_20260930-124740-228.wav,lights_off,0,2026-09-30 12:47:40,speaker2,"segment (pitch + voiceprint, owner-confirmed)",122.58310559682393,0.882,0.941
+dim_lights_20/dim_lights_20_owner_20260930-124744-792.wav,dim_lights_20,0,2026-09-30 12:47:44,speaker2,"segment (pitch + voiceprint, owner-confirmed)",128.76530414754424,0.9,0.95
+dim_lights_50/dim_lights_50_owner_20260930-124749-155.wav,dim_lights_50,0,2026-09-30 12:47:49,speaker2,"segment (pitch + voiceprint, owner-confirmed)",126.17506476551624,0.87,0.935
+dim_lights_80/dim_lights_80_owner_20260930-124753-823.wav,dim_lights_80,0,2026-09-30 12:47:53,speaker2,"segment (pitch + voiceprint, owner-confirmed)",130.62461881515304,0.906,0.953
+set_timer_1/set_timer_1_owner_20260930-124758-687.wav,set_timer_1,0,2026-09-30 12:47:58,speaker2,"segment (pitch + voiceprint, owner-confirmed)",127.64114839815036,0.796,0.898
+set_timer_5/set_timer_5_owner_20260930-124803-455.wav,set_timer_5,0,2026-09-30 12:48:03,speaker2,"segment (pitch + voiceprint, owner-confirmed)",128.01085722340216,0.87,0.935
+set_timer_10/set_timer_10_owner_20260930-124807-914.wav,set_timer_10,0,2026-09-30 12:48:07,speaker2,"segment (pitch + voiceprint, owner-confirmed)",129.1242671020315,0.87,0.935
+set_alarm_6am/set_alarm_6am_owner_20260930-124812-684.wav,set_alarm_6am,0,2026-09-30 12:48:12,speaker2,"segment (pitch + voiceprint, owner-confirmed)",124.00745267433048,0.841,0.9205
+set_alarm_7am/set_alarm_7am_owner_20260930-124817-448.wav,set_alarm_7am,0,2026-09-30 12:48:17,speaker2,"segment (pitch + voiceprint, owner-confirmed)",126.17506476551624,0.893,0.9465
+set_alarm_9pm/set_alarm_9pm_owner_20260930-124822-317.wav,set_alarm_9pm,0,2026-09-30 12:48:22,speaker2,"segment (pitch + voiceprint, owner-confirmed)",116.37330545999028,0.942,0.971
+set_temperature_18/set_temperature_18_owner_20260930-124827-084.wav,set_temperature_18,0,2026-09-30 12:48:27,speaker2,"segment (pitch + voiceprint, owner-confirmed)",127.64327776429472,0.91,0.955
+set_temperature_22/set_temperature_22_owner_20260930-124832-364.wav,set_temperature_22,0,2026-09-30 12:48:32,speaker2,"segment (pitch + voiceprint, owner-confirmed)",130.62461881515304,0.927,0.9635
+set_temperature_26/set_temperature_26_owner_20260930-124837-533.wav,set_temperature_26,0,2026-09-30 12:48:37,speaker2,"segment (pitch + voiceprint, owner-confirmed)",129.87227637178333,0.921,0.9605
+pause/pause_owner_20260930-124841-284.wav,pause,0,2026-09-30 12:48:41,speaker2,"segment (pitch + voiceprint, owner-confirmed)",128.38056604865398,0.885,0.9425
+stop/stop_owner_20260930-124844-940.wav,stop,0,2026-09-30 12:48:44,speaker2,"segment (pitch + voiceprint, owner-confirmed)",327.2576295971488,0.705,0.3525
+next/next_owner_20260930-124848-592.wav,next,0,2026-09-30 12:48:48,speaker2,"segment (pitch + voiceprint, owner-confirmed)",71.22357844718805,0.852,0.852
+skip/skip_owner_20260930-124853-261.wav,skip,0,2026-09-30 12:48:53,speaker2,"segment (pitch + voiceprint, owner-confirmed)",75.24144759527019,0.809,0.809
+volume_up/volume_up_owner_20260930-124857-420.wav,volume_up,0,2026-09-30 12:48:57,speaker2,"segment (pitch + voiceprint, owner-confirmed)",138.39196284940547,0.862,0.931
+louder/louder_owner_20260930-124901-073.wav,louder,0,2026-09-30 12:49:01,speaker2,"segment (pitch + voiceprint, owner-confirmed)",126.90598947993546,0.909,0.9545
+volume_down/volume_down_owner_20260930-124904-927.wav,volume_down,0,2026-09-30 12:49:04,speaker2,"segment (pitch + voiceprint, owner-confirmed)",128.38056604865398,0.889,0.9445
+remind_trash/remind_trash_owner_20260930-124910-203.wav,remind_trash,0,2026-09-30 12:49:10,speaker2,"segment (pitch + voiceprint, owner-confirmed)",130.62461881515304,0.851,0.9255
+remind_study/remind_study_owner_20260930-124915-582.wav,remind_study,0,2026-09-30 12:49:15,speaker2,"segment (pitch + voiceprint, owner-confirmed)",129.4982717369074,0.916,0.958
+list_reminders/list_reminders_owner_20260930-124920-047.wav,list_reminders,0,2026-09-30 12:49:20,speaker2,"segment (pitch + voiceprint, owner-confirmed)",144.93708933779286,0.899,0.9495
+call_jane/call_jane_owner_20260930-124923-898.wav,call_jane,0,2026-09-30 12:49:23,speaker2,"segment (pitch + voiceprint, owner-confirmed)",112.08548877540184,0.71,0.855
+text_jane/text_jane_owner_20260930-124927-957.wav,text_jane,0,2026-09-30 12:49:27,speaker2,"segment (pitch + voiceprint, owner-confirmed)",125.44834986767334,0.76,0.88
+unknown_silent/unknown_silent_owner_20260930-124932-627.wav,unknown_silent,0,2026-09-30 12:49:32,speaker2,"segment (pitch + voiceprint, owner-confirmed)",125.44834986767334,0.873,0.9365
+unknown_other/unknown_other_owner_20260930-124936-988.wav,unknown_other,0,2026-09-30 12:49:36,speaker2,"segment (pitch + voiceprint, owner-confirmed)",131.00296917455654,0.83,0.915
+play_music/play_music_owner_20260930-124941-148.wav,play_music,0,2026-09-30 12:49:41,speaker2,"segment (pitch + voiceprint, owner-confirmed)",135.23108604947836,0.763,0.8815
+weather/weather_owner_20260930-124945-511.wav,weather,0,2026-09-30 12:49:45,speaker2,"segment (pitch + voiceprint, owner-confirmed)",128.38056604865398,0.822,0.911
+time/time_owner_20260930-125346-449.wav,time,0,2026-09-30 12:53:46,owner,owner (owner-confirmed higher voice),,0.501,0.501
+lights_on/lights_on_owner_20260930-125355-475.wav,lights_on,0,2026-09-30 12:53:55,owner,owner (owner-confirmed higher voice),72.05115656504445,0.306,0.306
+lights_off/lights_off_owner_20260930-125421-032.wav,lights_off,0,2026-09-30 12:54:21,owner,owner (owner-confirmed higher voice),71.22357844718805,0.143,0.143
+dim_lights_20/dim_lights_20_owner_20260930-125427-731.wav,dim_lights_20,0,2026-09-30 12:54:27,owner,owner (owner-confirmed higher voice),,,
+set_timer_1/set_timer_1_owner_20260930-125546-946.wav,set_timer_1,0,2026-09-30 12:55:46,owner,owner (owner-confirmed higher voice),70.40550587474974,0.33,0.33
+set_timer_5/set_timer_5_owner_20260930-125552-424.wav,set_timer_5,0,2026-09-30 12:55:52,owner,owner (owner-confirmed higher voice),70.40550587474974,0.374,0.374
+set_timer_10/set_timer_10_owner_20260930-125600-333.wav,set_timer_10,0,2026-09-30 12:56:00,owner,owner (owner-confirmed higher voice),71.22357844718805,0.279,0.279
+set_alarm_6am/set_alarm_6am_owner_20260930-125605-396.wav,set_alarm_6am,0,2026-09-30 12:56:05,owner,owner (owner-confirmed higher voice),70.40550587474974,0.253,0.253
+set_alarm_7am/set_alarm_7am_owner_20260930-125613-214.wav,set_alarm_7am,0,2026-09-30 12:56:13,owner,owner (owner-confirmed higher voice),70.40550587474974,0.295,0.295
+set_alarm_9pm/set_alarm_9pm_owner_20260930-125618-085.wav,set_alarm_9pm,0,2026-09-30 12:56:18,owner,owner (owner-confirmed higher voice),70.20275293737487,0.304,0.304
+set_temperature_18/set_temperature_18_owner_20260930-125625-999.wav,set_temperature_18,0,2026-09-30 12:56:25,owner,owner (owner-confirmed higher voice),70.40550587474974,0.446,0.446
+set_temperature_22/set_temperature_22_owner_20260930-125631-373.wav,set_temperature_22,0,2026-09-30 12:56:31,owner,owner (owner-confirmed higher voice),70.81336082113458,0.322,0.322
+set_temperature_26/set_temperature_26_owner_20260930-125636-950.wav,set_temperature_26,0,2026-09-30 12:56:36,owner,owner (owner-confirmed higher voice),70.40550587474974,0.332,0.332
+pause/pause_owner_20260930-125642-428.wav,pause,0,2026-09-30 12:56:42,owner,owner (owner-confirmed higher voice),70.0,0.176,0.176
+stop/stop_owner_20260930-125647-396.wav,stop,0,2026-09-30 12:56:47,owner,owner (owner-confirmed higher voice),70.40550587474974,0.166,0.166
+next/next_owner_20260930-125652-166.wav,next,0,2026-09-30 12:56:52,owner,owner (owner-confirmed higher voice),70.81336082113458,0.198,0.198
+skip/skip_owner_20260930-125659-973.wav,skip,0,2026-09-30 12:56:59,owner,owner (owner-confirmed higher voice),71.84606155804224,0.386,0.386
+volume_up/volume_up_owner_20260930-125704-841.wav,volume_up,0,2026-09-30 12:57:04,owner,owner (owner-confirmed higher voice),70.0,0.38,0.38
+louder/louder_owner_20260930-125709-913.wav,louder,0,2026-09-30 12:57:09,owner,owner (owner-confirmed higher voice),70.0,0.272,0.272
+volume_down/volume_down_owner_20260930-125714-882.wav,volume_down,0,2026-09-30 12:57:14,owner,owner (owner-confirmed higher voice),70.81336082113458,0.513,0.513
+remind_trash/remind_trash_owner_20260930-125719-753.wav,remind_trash,0,2026-09-30 12:57:19,owner,owner (owner-confirmed higher voice),70.0,0.382,0.382
+remind_study/remind_study_owner_20260930-125724-923.wav,remind_study,0,2026-09-30 12:57:24,owner,owner (owner-confirmed higher voice),,,
+list_reminders/list_reminders_owner_20260930-125730-300.wav,list_reminders,0,2026-09-30 12:57:30,owner,owner (owner-confirmed higher voice),70.81336082113458,0.328,0.328
+call_jane/call_jane_owner_20260930-125735-372.wav,call_jane,0,2026-09-30 12:57:35,owner,owner (owner-confirmed higher voice),70.0,0.197,0.197
+text_jane/text_jane_owner_20260930-125740-345.wav,text_jane,0,2026-09-30 12:57:40,owner,owner (owner-confirmed higher voice),75.45875281299986,0.189,0.189
+unknown_silent/unknown_silent_owner_20260930-125745-411.wav,unknown_silent,0,2026-09-30 12:57:45,owner,owner (owner-confirmed higher voice),,,
+unknown_other/unknown_other_owner_20260930-125750-380.wav,unknown_other,0,2026-09-30 12:57:50,owner,owner (owner-confirmed higher voice),70.81336082113458,0.119,0.119
+play_music/play_music_owner_20260930-125954-729.wav,play_music,0,2026-09-30 12:59:54,owner,owner (owner-confirmed higher voice),125.81170731659478,0.292,0.646
+weather/weather_owner_20260930-125959-499.wav,weather,0,2026-09-30 12:59:59,owner,owner (owner-confirmed higher voice),194.5885507779272,0.412,0.206
+time/time_owner_20260930-130004-264.wav,time,0,2026-09-30 13:00:04,owner,owner (owner-confirmed higher voice),129.4982717369074,0.095,0.5475
+lights_on/lights_on_owner_20260930-130008-727.wav,lights_on,0,2026-09-30 13:00:08,owner,owner (owner-confirmed higher voice),210.97813540644063,0.512,0.256
+lights_off/lights_off_owner_20260930-130012-882.wav,lights_off,0,2026-09-30 13:00:12,owner,owner (owner-confirmed higher voice),190.1441421358249,0.517,0.2585
+dim_lights_20/dim_lights_20_owner_20260930-130017-547.wav,dim_lights_20,0,2026-09-30 13:00:17,owner,owner (owner-confirmed higher voice),215.9095155571117,0.351,0.1755
+dim_lights_50/dim_lights_50_owner_20260930-130022-315.wav,dim_lights_50,0,2026-09-30 13:00:22,owner,owner (owner-confirmed higher voice),216.53489110691729,0.305,0.1525
+dim_lights_80/dim_lights_80_owner_20260930-130027-081.wav,dim_lights_80,0,2026-09-30 13:00:27,owner,owner (owner-confirmed higher voice),214.6659682537441,0.233,0.1165
+set_timer_1/set_timer_1_owner_20260930-130031-848.wav,set_timer_1,0,2026-09-30 13:00:31,owner,owner (owner-confirmed higher voice),202.6176932416529,0.193,0.0965
+set_timer_5/set_timer_5_owner_20260930-130036-718.wav,set_timer_5,0,2026-09-30 13:00:36,owner,owner (owner-confirmed higher voice),207.35365732011897,0.324,0.162
+set_timer_10/set_timer_10_owner_20260930-130041-787.wav,set_timer_10,0,2026-09-30 13:00:41,owner,owner (owner-confirmed higher voice),204.97199743238755,0.223,0.1115
+set_alarm_6am/set_alarm_6am_owner_20260930-130047-670.wav,set_alarm_6am,0,2026-09-30 13:00:47,owner,owner (owner-confirmed higher voice),209.7629907627354,0.163,0.0815
+set_alarm_7am/set_alarm_7am_owner_20260930-130052-640.wav,set_alarm_7am,0,2026-09-30 13:00:52,owner,owner (owner-confirmed higher voice),207.35365732011897,0.048,0.024
+set_alarm_9pm/set_alarm_9pm_owner_20260930-130058-525.wav,set_alarm_9pm,0,2026-09-30 13:00:58,owner,owner (owner-confirmed higher voice),185.80124392739955,0.249,0.1245
+set_temperature_18/set_temperature_18_owner_20260930-130103-798.wav,set_temperature_18,0,2026-09-30 13:01:03,owner,owner (owner-confirmed higher voice),202.6176932416529,0.251,0.1255
+set_temperature_22/set_temperature_22_owner_20260930-130109-374.wav,set_temperature_22,0,2026-09-30 13:01:09,owner,owner (owner-confirmed higher voice),207.357116485626,0.122,0.061
+set_temperature_26/set_temperature_26_owner_20260930-130114-345.wav,set_temperature_26,0,2026-09-30 13:01:14,owner,owner (owner-confirmed higher voice),219.05090534741737,0.237,0.1185
+pause/pause_owner_20260930-130119-618.wav,pause,0,2026-09-30 13:01:19,owner,owner (owner-confirmed higher voice),168.4235050514963,0.427,0.427
+stop/stop_owner_20260930-130124-387.wav,stop,0,2026-09-30 13:01:24,owner,owner (owner-confirmed higher voice),,0.526,0.526
+next/next_owner_20260930-130129-253.wav,next,0,2026-09-30 13:01:29,owner,owner (owner-confirmed higher voice),,0.46,0.46
+skip/skip_owner_20260930-130134-021.wav,skip,0,2026-09-30 13:01:34,owner,owner (owner-confirmed higher voice),,0.412,0.412
+volume_up/volume_up_owner_20260930-130137-977.wav,volume_up,0,2026-09-30 13:01:37,owner,owner (owner-confirmed higher voice),196.84956082712893,0.345,0.1725
+louder/louder_owner_20260930-130141-526.wav,louder,0,2026-09-30 13:01:41,owner,owner (owner-confirmed higher voice),167.45345704323654,0.354,0.354
+volume_down/volume_down_owner_20260930-130145-584.wav,volume_down,0,2026-09-30 13:01:45,owner,owner (owner-confirmed higher voice),,,
+remind_trash/remind_trash_owner_20260930-130150-652.wav,remind_trash,0,2026-09-30 13:01:50,owner,owner (owner-confirmed higher voice),189.0489924635466,0.157,0.0785
+remind_study/remind_study_owner_20260930-130155-522.wav,remind_study,0,2026-09-30 13:01:55,owner,owner (owner-confirmed higher voice),185.26617571780235,0.128,0.064
+list_reminders/list_reminders_owner_20260930-130200-292.wav,list_reminders,0,2026-09-30 13:02:00,owner,owner (owner-confirmed higher voice),226.12076670401177,0.399,0.1995
+call_jane/call_jane_owner_20260930-130204-348.wav,call_jane,0,2026-09-30 13:02:04,owner,owner (owner-confirmed higher voice),200.29377187456708,0.435,0.2175
+text_jane/text_jane_owner_20260930-130208-401.wav,text_jane,0,2026-09-30 13:02:08,owner,owner (owner-confirmed higher voice),327.2576295971488,0.399,0.1995
+unknown_silent/unknown_silent_owner_20260930-130213-470.wav,unknown_silent,0,2026-09-30 13:02:13,owner,owner (owner-confirmed higher voice),119.78330359556432,0.144,0.572
+unknown_other/unknown_other_owner_20260930-130218-745.wav,unknown_other,0,2026-09-30 13:02:18,owner,owner (owner-confirmed higher voice),190.1441421358249,0.196,0.098
+play_music/play_music_owner_20260930-130256-679.wav,play_music,0,2026-09-30 13:02:56,owner,owner (owner-confirmed higher voice),246.5864446069216,0.035,0.0175
+weather/weather_owner_20260930-130303-679.wav,weather,0,2026-09-30 13:03:03,owner,owner (owner-confirmed higher voice),230.07328808402127,0.029,0.0145
+time/time_owner_20260930-130313-214.wav,time,0,2026-09-30 13:03:13,owner,owner (owner-confirmed higher voice),247.30067497779123,0.081,0.0405
+lights_on/lights_on_owner_20260930-130318-185.wav,lights_on,0,2026-09-30 13:03:18,owner,owner (owner-confirmed higher voice),,0.225,0.225
+lights_off/lights_off_owner_20260930-130329-643.wav,lights_off,0,2026-09-30 13:03:29,owner,owner (owner-confirmed higher voice),231.4060890831793,0.035,0.0175
+dim_lights_20/dim_lights_20_owner_20260930-130337-046.wav,dim_lights_20,0,2026-09-30 13:03:37,owner,owner (owner-confirmed higher voice),240.95440242841244,0.038,0.019
+dim_lights_50/dim_lights_50_owner_20260930-130344-146.wav,dim_lights_50,0,2026-09-30 13:03:44,owner,owner (owner-confirmed higher voice),226.12076670401177,0.069,0.0345
+set_timer_1/set_timer_1_owner_20260930-130358-648.wav,set_timer_1,0,2026-09-30 13:03:58,owner,owner (owner-confirmed higher voice),238.1868050662396,0.017,0.0085
+set_timer_5/set_timer_5_owner_20260930-130405-141.wav,set_timer_5,0,2026-09-30 13:04:05,owner,owner (owner-confirmed higher voice),312.47919993646246,0.015,0.0075
+set_timer_10/set_timer_10_owner_20260930-130414-068.wav,set_timer_10,0,2026-09-30 13:04:14,owner,owner (owner-confirmed higher voice),224.8334091276469,0.048,0.024
+set_alarm_6am/set_alarm_6am_owner_20260930-130425-627.wav,set_alarm_6am,0,2026-09-30 13:04:25,owner,owner (owner-confirmed higher voice),238.1868050662396,0.019,0.0095
+set_alarm_7am/set_alarm_7am_owner_20260930-130431-205.wav,set_alarm_7am,0,2026-09-30 13:04:31,owner,owner (owner-confirmed higher voice),245.16621119364785,0.102,0.051
+set_alarm_9pm/set_alarm_9pm_owner_20260930-130436-175.wav,set_alarm_9pm,0,2026-09-30 13:04:36,owner,owner (owner-confirmed higher voice),219.05090534741737,0.077,0.0385
+set_temperature_18/set_temperature_18_owner_20260930-130442-770.wav,set_temperature_18,0,2026-09-30 13:04:42,owner,owner (owner-confirmed higher voice),219.6835474110902,0.018,0.009
+set_temperature_22/set_temperature_22_owner_20260930-130447-027.wav,set_temperature_22,0,2026-09-30 13:04:47,owner,owner (owner-confirmed higher voice),213.42958325580668,0.099,0.0495
+set_temperature_26/set_temperature_26_owner_20260930-130452-101.wav,set_temperature_26,0,2026-09-30 13:04:52,owner,owner (owner-confirmed higher voice),204.97199743238755,0.044,0.022
+pause/pause_owner_20260930-130501-943.wav,pause,0,2026-09-30 13:05:01,owner,owner (owner-confirmed higher voice),337.8226775421973,0.032,0.016
+stop/stop_owner_20260930-130508-332.wav,stop,0,2026-09-30 13:05:08,owner,owner (owner-confirmed higher voice),328.20552167827964,0.068,0.034
+next/next_owner_20260930-130515-123.wav,next,0,2026-09-30 13:05:15,owner,owner (owner-confirmed higher voice),225.4695868128786,0.108,0.054
+skip/skip_owner_20260930-130518-368.wav,skip,0,2026-09-30 13:05:18,owner,owner (owner-confirmed higher voice),176.38894698528225,0.145,0.0725
+volume_up/volume_up_owner_20260930-130523-645.wav,volume_up,0,2026-09-30 13:05:23,owner,owner (owner-confirmed higher voice),,,
+louder/louder_owner_20260930-130531-352.wav,louder,0,2026-09-30 13:05:31,owner,owner (owner-confirmed higher voice),333.9424531436175,0.065,0.0325
+volume_down/volume_down_owner_20260930-130538-351.wav,volume_down,0,2026-09-30 13:05:38,owner,owner (owner-confirmed higher voice),219.6835474110902,0.129,0.0645
+remind_trash/remind_trash_owner_20260930-130545-244.wav,remind_trash,0,2026-09-30 13:05:45,owner,owner (owner-confirmed higher voice),284.8943137887522,0.072,0.036
+remind_study/remind_study_owner_20260930-130558-428.wav,remind_study,0,2026-09-30 13:05:58,owner,owner (owner-confirmed higher voice),226.12076670401177,0.081,0.0405
+list_reminders/list_reminders_owner_20260930-130608-671.wav,list_reminders,0,2026-09-30 13:06:08,owner,owner (owner-confirmed higher voice),228.748163453754,0.056,0.028
+call_jane/call_jane_owner_20260930-130615-872.wav,call_jane,0,2026-09-30 13:06:15,owner,owner (owner-confirmed higher voice),195.71579078506272,0.041,0.0205
+text_jane/text_jane_owner_20260930-130621-448.wav,text_jane,0,2026-09-30 13:06:21,owner,owner (owner-confirmed higher voice),217.7892649702337,0.018,0.009
+unknown_silent/unknown_silent_owner_20260930-130628-338.wav,unknown_silent,0,2026-09-30 13:06:28,owner,owner (owner-confirmed higher voice),213.42958325580668,0.065,0.0325
+unknown_other/unknown_other_owner_20260930-130634-932.wav,unknown_other,0,2026-09-30 13:06:34,owner,owner (owner-confirmed higher voice),230.07328808402127,0.121,0.0605
+play_music/play_music_owner_20260930-133641-286.wav,play_music,1,2026-09-30 13:36:41,owner,owner (owner-confirmed higher voice),243.75415772291475,0.211,0.1055
+weather/weather_owner_20260930-133648-778.wav,weather,1,2026-09-30 13:36:48,owner,owner (owner-confirmed higher voice),,0.477,0.477
+time/time_owner_20260930-133653-940.wav,time,1,2026-09-30 13:36:53,owner,owner (owner-confirmed higher voice),,0.194,0.194
+lights_on/lights_on_owner_20260930-133658-698.wav,lights_on,1,2026-09-30 13:36:58,owner,owner (owner-confirmed higher voice),327.2576295971488,0.099,0.0495
+lights_off/lights_off_owner_20260930-133703-455.wav,lights_off,1,2026-09-30 13:37:03,owner,owner (owner-confirmed higher voice),,0.3,0.3
+dim_lights_20/dim_lights_20_owner_20260930-133708-109.wav,dim_lights_20,1,2026-09-30 13:37:08,owner,owner (owner-confirmed higher voice),327.2576295971488,0.182,0.091
+dim_lights_50/dim_lights_50_owner_20260930-133713-171.wav,dim_lights_50,1,2026-09-30 13:37:13,owner,owner (owner-confirmed higher voice),76.77774857862381,0.306,0.306
+dim_lights_80/dim_lights_80_owner_20260930-133718-029.wav,dim_lights_80,1,2026-09-30 13:37:18,owner,owner (owner-confirmed higher voice),,0.282,0.282
+set_timer_1/set_timer_1_owner_20260930-133723-091.wav,set_timer_1,1,2026-09-30 13:37:23,owner,owner (owner-confirmed higher voice),,0.337,0.337
+set_timer_5/set_timer_5_owner_20260930-133728-153.wav,set_timer_5,1,2026-09-30 13:37:28,owner,owner (owner-confirmed higher voice),117.04744916039132,0.247,0.6234999999999999
+set_timer_10/set_timer_10_owner_20260930-133733-214.wav,set_timer_10,1,2026-09-30 13:37:33,owner,owner (owner-confirmed higher voice),,0.466,0.466
+set_alarm_6am/set_alarm_6am_owner_20260930-133738-378.wav,set_alarm_6am,1,2026-09-30 13:37:38,owner,owner (owner-confirmed higher voice),74.59203511399389,0.388,0.388
+set_alarm_7am/set_alarm_7am_owner_20260930-133743-527.wav,set_alarm_7am,1,2026-09-30 13:37:43,owner,owner (owner-confirmed higher voice),,0.429,0.429
+set_alarm_9pm/set_alarm_9pm_owner_20260930-133748-499.wav,set_alarm_9pm,1,2026-09-30 13:37:48,owner,owner (owner-confirmed higher voice),,0.401,0.401
+set_temperature_18/set_temperature_18_owner_20260930-133753-463.wav,set_temperature_18,1,2026-09-30 13:37:53,owner,owner (owner-confirmed higher voice),,0.47,0.47
+set_temperature_22/set_temperature_22_owner_20260930-133758-421.wav,set_temperature_22,1,2026-09-30 13:37:58,owner,owner (owner-confirmed higher voice),,0.38,0.38
+set_temperature_26/set_temperature_26_owner_20260930-133803-482.wav,set_temperature_26,1,2026-09-30 13:38:03,owner,owner (owner-confirmed higher voice),,0.158,0.158
+pause/pause_owner_20260930-133808-553.wav,pause,1,2026-09-30 13:38:08,owner,owner (owner-confirmed higher voice),,0.272,0.272
+stop/stop_owner_20260930-133813-212.wav,stop,1,2026-09-30 13:38:13,owner,owner (owner-confirmed higher voice),,0.314,0.314
+next/next_owner_20260930-133817-164.wav,next,1,2026-09-30 13:38:17,owner,owner (owner-confirmed higher voice),327.2576295971488,0.194,0.097
+skip/skip_owner_20260930-133821-926.wav,skip,1,2026-09-30 13:38:21,owner,owner (owner-confirmed higher voice),,0.226,0.226
+volume_up/volume_up_owner_20260930-133826-587.wav,volume_up,1,2026-09-30 13:38:26,owner,owner (owner-confirmed higher voice),,0.279,0.279
+louder/louder_owner_20260930-133831-439.wav,louder,1,2026-09-30 13:38:31,owner,owner (owner-confirmed higher voice),,,
+volume_down/volume_down_owner_20260930-133836-214.wav,volume_down,1,2026-09-30 13:38:36,owner,owner (owner-confirmed higher voice),,0.391,0.391
+remind_trash/remind_trash_owner_20260930-133840-973.wav,remind_trash,1,2026-09-30 13:38:40,owner,owner (owner-confirmed higher voice),,0.427,0.427
+remind_study/remind_study_owner_20260930-133845-941.wav,remind_study,1,2026-09-30 13:38:45,owner,owner (owner-confirmed higher voice),,0.395,0.395
+list_reminders/list_reminders_owner_20260930-133851-103.wav,list_reminders,1,2026-09-30 13:38:51,owner,owner (owner-confirmed higher voice),,0.34,0.34
+call_jane/call_jane_owner_20260930-133856-067.wav,call_jane,1,2026-09-30 13:38:56,owner,owner (owner-confirmed higher voice),,0.286,0.286
+text_jane/text_jane_owner_20260930-133900-729.wav,text_jane,1,2026-09-30 13:39:00,owner,owner (owner-confirmed higher voice),,0.257,0.257
+unknown_silent/unknown_silent_owner_20260930-133905-592.wav,unknown_silent,1,2026-09-30 13:39:05,owner,owner (owner-confirmed higher voice),,0.391,0.391
+unknown_other/unknown_other_owner_20260930-133924-227.wav,unknown_other,1,2026-09-30 13:39:24,owner,owner (owner-confirmed higher voice),,0.199,0.199
+play_music/play_music_owner_20260930-134607-242.wav,play_music,2,2026-09-30 13:46:07,owner,owner (owner-confirmed higher voice),245.16621119364785,0.151,0.0755
+weather/weather_owner_20260930-134612-708.wav,weather,2,2026-09-30 13:46:12,owner,owner (owner-confirmed higher voice),327.2576295971488,0.076,0.038
+time/time_owner_20260930-134617-565.wav,time,2,2026-09-30 13:46:17,owner,owner (owner-confirmed higher voice),,0.051,0.051
+lights_on/lights_on_owner_20260930-134622-325.wav,lights_on,2,2026-09-30 13:46:22,owner,owner (owner-confirmed higher voice),327.2576295971488,0.103,0.0515
+lights_off/lights_off_owner_20260930-134626-260.wav,lights_off,2,2026-09-30 13:46:26,owner,owner (owner-confirmed higher voice),283.2581686438756,0.19,0.095
+dim_lights_20/dim_lights_20_owner_20260930-134631-029.wav,dim_lights_20,2,2026-09-30 13:46:31,owner,owner (owner-confirmed higher voice),268.1300368545989,0.085,0.0425
+dim_lights_50/dim_lights_50_owner_20260930-134640-748.wav,dim_lights_50,2,2026-09-30 13:46:40,owner,owner (owner-confirmed higher voice),275.1897675926703,0.092,0.046
+dim_lights_80/dim_lights_80_owner_20260930-134645-104.wav,dim_lights_80,2,2026-09-30 13:46:45,owner,owner (owner-confirmed higher voice),261.2492376303061,0.05,0.025
+set_timer_1/set_timer_1_owner_20260930-134650-266.wav,set_timer_1,2,2026-09-30 13:46:50,owner,owner (owner-confirmed higher voice),327.2576295971488,0.053,0.0265
+set_timer_5/set_timer_5_owner_20260930-134655-026.wav,set_timer_5,2,2026-09-30 13:46:55,owner,owner (owner-confirmed higher voice),325.3727643481951,0.045,0.0225
+set_timer_10/set_timer_10_owner_20260930-134659-481.wav,set_timer_10,2,2026-09-30 13:46:59,owner,owner (owner-confirmed higher voice),278.3873186689133,0.05,0.025
+set_alarm_6am/set_alarm_6am_owner_20260930-134704-137.wav,set_alarm_6am,2,2026-09-30 13:47:04,owner,owner (owner-confirmed higher voice),,,
+set_alarm_7am/set_alarm_7am_owner_20260930-134712-744.wav,set_alarm_7am,2,2026-09-30 13:47:12,owner,owner (owner-confirmed higher voice),230.7396885836003,0.057,0.0285
+set_temperature_18/set_temperature_18_owner_20260930-134723-170.wav,set_temperature_18,2,2026-09-30 13:47:23,owner,owner (owner-confirmed higher voice),259.74455274356666,0.039,0.0195
+set_temperature_22/set_temperature_22_owner_20260930-134728-742.wav,set_temperature_22,2,2026-09-30 13:47:28,owner,owner (owner-confirmed higher voice),329.15341375941045,0.078,0.039
+set_temperature_26/set_temperature_26_owner_20260930-134733-905.wav,set_temperature_26,2,2026-09-30 13:47:33,owner,owner (owner-confirmed higher voice),329.15341375941045,0.031,0.0155
+pause/pause_owner_20260930-134739-874.wav,pause,2,2026-09-30 13:47:39,owner,owner (owner-confirmed higher voice),275.1897675926703,0.148,0.074
+stop/stop_owner_20260930-134743-418.wav,stop,2,2026-09-30 13:47:43,owner,owner (owner-confirmed higher voice),265.8157938661454,0.177,0.0885
+next/next_owner_20260930-134748-681.wav,next,2,2026-09-30 13:47:48,owner,owner (owner-confirmed higher voice),,0.088,0.088
+skip/skip_owner_20260930-134753-645.wav,skip,2,2026-09-30 13:47:53,owner,owner (owner-confirmed higher voice),,,
+volume_up/volume_up_owner_20260930-134757-590.wav,volume_up,2,2026-09-30 13:47:57,owner,owner (owner-confirmed higher voice),266.61240558343843,0.053,0.0265
+louder/louder_owner_20260930-134804-069.wav,louder,2,2026-09-30 13:48:04,owner,owner (owner-confirmed higher voice),,,
+volume_down/volume_down_owner_20260930-134811-158.wav,volume_down,2,2026-09-30 13:48:11,owner,owner (owner-confirmed higher voice),256.76113209730795,0.047,0.0235
+remind_trash/remind_trash_owner_20260930-134816-118.wav,remind_trash,2,2026-09-30 13:48:16,owner,owner (owner-confirmed higher voice),,0.056,0.056
+remind_study/remind_study_owner_20260930-134821-078.wav,remind_study,2,2026-09-30 13:48:21,owner,owner (owner-confirmed higher voice),,0.02,0.02
+list_reminders/list_reminders_owner_20260930-134825-230.wav,list_reminders,2,2026-09-30 13:48:25,owner,owner (owner-confirmed higher voice),258.248534204063,0.122,0.061
+call_jane/call_jane_owner_20260930-134830-393.wav,call_jane,2,2026-09-30 13:48:30,owner,owner (owner-confirmed higher voice),270.4621720989567,0.098,0.049
+text_jane/text_jane_owner_20260930-134835-054.wav,text_jane,2,2026-09-30 13:48:35,owner,owner (owner-confirmed higher voice),,0.083,0.083
+unknown_silent/unknown_silent_owner_20260930-134839-710.wav,unknown_silent,2,2026-09-30 13:48:39,owner,owner (owner-confirmed higher voice),,,
+unknown_other/unknown_other_owner_20260930-134845-278.wav,unknown_other,2,2026-09-30 13:48:45,owner,owner (owner-confirmed higher voice),,0.098,0.098
+play_music/play_music_owner_20260930-134906-435.wav,play_music,2,2026-09-30 13:49:06,owner,owner (owner-confirmed higher voice),280.0,0.062,0.031
+weather/weather_owner_20260930-134911-495.wav,weather,2,2026-09-30 13:49:11,owner,owner (owner-confirmed higher voice),218.4182632837445,0.148,0.074
+time/time_owner_20260930-134916-661.wav,time,2,2026-09-30 13:49:16,owner,owner (owner-confirmed higher voice),253.8119789598709,0.196,0.098
+lights_on/lights_on_owner_20260930-134921-318.wav,lights_on,2,2026-09-30 13:49:21,owner,owner (owner-confirmed higher voice),258.248534204063,0.045,0.0225
+lights_off/lights_off_owner_20260930-134925-468.wav,lights_off,2,2026-09-30 13:49:25,owner,owner (owner-confirmed higher voice),243.0521974023174,0.036,0.018
+dim_lights_20/dim_lights_20_owner_20260930-134931-951.wav,dim_lights_20,2,2026-09-30 13:49:31,owner,owner (owner-confirmed higher voice),232.74661091998053,0.049,0.0245
+dim_lights_50/dim_lights_50_owner_20260930-134938-126.wav,dim_lights_50,2,2026-09-30 13:49:38,owner,owner (owner-confirmed higher voice),239.5666071911286,0.085,0.0425
+dim_lights_80/dim_lights_80_owner_20260930-134943-492.wav,dim_lights_80,2,2026-09-30 13:49:43,owner,owner (owner-confirmed higher voice),236.8149500168056,0.147,0.0735
+set_timer_1/set_timer_1_owner_20260930-134948-653.wav,set_timer_1,2,2026-09-30 13:49:48,owner,owner (owner-confirmed higher voice),251.63181001958296,0.148,0.074
+set_timer_10/set_timer_10_owner_20260930-135001-716.wav,set_timer_10,2,2026-09-30 13:50:01,owner,owner (owner-confirmed higher voice),228.7519795318836,0.052,0.026
+set_alarm_6am/set_alarm_6am_owner_20260930-135007-486.wav,set_alarm_6am,2,2026-09-30 13:50:07,owner,owner (owner-confirmed higher voice),239.5666071911286,0.043,0.0215
+set_alarm_9pm/set_alarm_9pm_owner_20260930-135019-335.wav,set_alarm_9pm,2,2026-09-30 13:50:19,owner,owner (owner-confirmed higher voice),247.30067497779123,0.042,0.021
+set_temperature_18/set_temperature_18_owner_20260930-135025-510.wav,set_temperature_18,2,2026-09-30 13:50:25,owner,owner (owner-confirmed higher voice),250.8966997353467,0.139,0.0695
+set_temperature_22/set_temperature_22_owner_20260930-135031-582.wav,set_temperature_22,2,2026-09-30 13:50:31,owner,owner (owner-confirmed higher voice),246.5864446069216,0.051,0.0255
+set_temperature_26/set_temperature_26_owner_20260930-135037-859.wav,set_temperature_26,2,2026-09-30 13:50:37,owner,owner (owner-confirmed higher voice),273.6047911615889,0.127,0.0635
+pause/pause_owner_20260930-135042-822.wav,pause,2,2026-09-30 13:50:42,owner,owner (owner-confirmed higher voice),219.6872122692821,0.083,0.0415
+stop/stop_owner_20260930-135047-479.wav,stop,2,2026-09-30 13:50:47,owner,owner (owner-confirmed higher voice),241.65231975506623,0.106,0.053
+next/next_owner_20260930-135052-334.wav,next,2,2026-09-30 13:50:52,owner,owner (owner-confirmed higher voice),217.16026665672285,0.072,0.036
+skip/skip_owner_20260930-135057-599.wav,skip,2,2026-09-30 13:50:57,owner,owner (owner-confirmed higher voice),216.53489110691729,0.087,0.0435
+volume_up/volume_up_owner_20260930-135101-143.wav,volume_up,2,2026-09-30 13:51:01,owner,owner (owner-confirmed higher voice),222.23614727554795,0.075,0.0375
+louder/louder_owner_20260930-135105-094.wav,louder,2,2026-09-30 13:51:05,owner,owner (owner-confirmed higher voice),204.97199743238755,0.08,0.04
+volume_down/volume_down_owner_20260930-135109-854.wav,volume_down,2,2026-09-30 13:51:09,owner,owner (owner-confirmed higher voice),212.20031931145576,0.058,0.029
+remind_trash/remind_trash_owner_20260930-135116-433.wav,remind_trash,2,2026-09-30 13:51:16,owner,owner (owner-confirmed higher voice),298.36814045597566,0.106,0.053
+list_reminders/list_reminders_owner_20260930-135127-366.wav,list_reminders,2,2026-09-30 13:51:27,owner,owner (owner-confirmed higher voice),291.55340270974574,0.076,0.038
+call_jane/call_jane_owner_20260930-135131-314.wav,call_jane,2,2026-09-30 13:51:31,owner,owner (owner-confirmed higher voice),253.8119789598709,0.102,0.051
+text_jane/text_jane_owner_20260930-135135-261.wav,text_jane,2,2026-09-30 13:51:35,owner,owner (owner-confirmed higher voice),222.23614727554795,0.051,0.0255
+unknown_silent/unknown_silent_owner_20260930-135140-123.wav,unknown_silent,2,2026-09-30 13:51:40,owner,owner (owner-confirmed higher voice),,,
+unknown_other/unknown_other_owner_20260930-135150-246.wav,unknown_other,2,2026-09-30 13:51:50,owner,owner (owner-confirmed higher voice),252.35012953103248,0.042,0.021
+play_music/play_music_owner_20260930-135209-074.wav,play_music,2,2026-09-30 13:52:09,owner,owner (owner-confirmed higher voice),209.7629907627354,0.118,0.059
+weather/weather_owner_20260930-135217-680.wav,weather,2,2026-09-30 13:52:17,owner,owner (owner-confirmed higher voice),197.41972977968112,0.266,0.133
+time/time_owner_20260930-135224-160.wav,time,2,2026-09-30 13:52:24,owner,owner (owner-confirmed higher voice),182.6092897671789,0.098,0.049
+lights_on/lights_on_owner_20260930-135231-955.wav,lights_on,2,2026-09-30 13:52:31,owner,owner (owner-confirmed higher voice),214.6659682537441,0.079,0.0395
+lights_off/lights_off_owner_20260930-135237-627.wav,lights_off,2,2026-09-30 13:52:37,owner,owner (owner-confirmed higher voice),242.35023708172005,0.087,0.0435
+dim_lights_20/dim_lights_20_owner_20260930-135242-086.wav,dim_lights_20,2,2026-09-30 13:52:42,owner,owner (owner-confirmed higher voice),232.74661091998053,0.107,0.0535
+dim_lights_50/dim_lights_50_owner_20260930-135248-763.wav,dim_lights_50,2,2026-09-30 13:52:48,owner,owner (owner-confirmed higher voice),222.23614727554795,0.067,0.0335
+dim_lights_80/dim_lights_80_owner_20260930-135255-241.wav,dim_lights_80,2,2026-09-30 13:52:55,owner,owner (owner-confirmed higher voice),209.7629907627354,0.047,0.0235
+set_timer_1/set_timer_1_owner_20260930-135301-217.wav,set_timer_1,2,2026-09-30 13:53:01,owner,owner (owner-confirmed higher voice),253.8119789598709,0.108,0.054
+set_timer_5/set_timer_5_owner_20260930-135306-682.wav,set_timer_5,2,2026-09-30 13:53:06,owner,owner (owner-confirmed higher voice),253.8119789598709,0.081,0.0405
+set_timer_10/set_timer_10_owner_20260930-135311-237.wav,set_timer_10,2,2026-09-30 13:53:11,owner,owner (owner-confirmed higher voice),228.7519795318836,0.403,0.2015
+set_alarm_6am/set_alarm_6am_owner_20260930-135316-810.wav,set_alarm_6am,2,2026-09-30 13:53:16,owner,owner (owner-confirmed higher voice),226.12076670401177,0.055,0.0275
+set_alarm_7am/set_alarm_7am_owner_20260930-135324-903.wav,set_alarm_7am,2,2026-09-30 13:53:24,owner,owner (owner-confirmed higher voice),212.8149512836312,0.167,0.0835
+set_alarm_9pm/set_alarm_9pm_owner_20260930-135330-065.wav,set_alarm_9pm,2,2026-09-30 13:53:30,owner,owner (owner-confirmed higher voice),204.97199743238755,0.107,0.0535
+set_temperature_18/set_temperature_18_owner_20260930-135335-031.wav,set_temperature_18,2,2026-09-30 13:53:35,owner,owner (owner-confirmed higher voice),228.748163453754,0.047,0.0235
+set_temperature_22/set_temperature_22_owner_20260930-135339-484.wav,set_temperature_22,2,2026-09-30 13:53:39,owner,owner (owner-confirmed higher voice),253.0810542454517,0.069,0.0345
+set_temperature_26/set_temperature_26_owner_20260930-135344-950.wav,set_temperature_26,2,2026-09-30 13:53:44,owner,owner (owner-confirmed higher voice),227.430670979746,0.064,0.032
+pause/pause_owner_20260930-135350-924.wav,pause,2,2026-09-30 13:53:50,owner,owner (owner-confirmed higher voice),215.9095155571117,0.064,0.032
+stop/stop_owner_20260930-135355-580.wav,stop,2,2026-09-30 13:53:55,owner,owner (owner-confirmed higher voice),,0.179,0.179
+next/next_owner_20260930-135400-137.wav,next,2,2026-09-30 13:54:00,owner,owner (owner-confirmed higher voice),79.48531003496142,0.131,0.131
+skip/skip_owner_20260930-135410-059.wav,skip,2,2026-09-30 13:54:10,owner,owner (owner-confirmed higher voice),,0.147,0.147
+louder/louder_owner_20260930-135419-882.wav,louder,2,2026-09-30 13:54:19,owner,owner (owner-confirmed higher voice),,0.606,0.606
+volume_down/volume_down_owner_20260930-135423-320.wav,volume_down,2,2026-09-30 13:54:23,owner,owner (owner-confirmed higher voice),228.748163453754,0.084,0.042
+remind_trash/remind_trash_owner_20260930-135428-387.wav,remind_trash,2,2026-09-30 13:54:28,owner,owner (owner-confirmed higher voice),,0.112,0.112
+remind_study/remind_study_owner_20260930-135433-445.wav,remind_study,2,2026-09-30 13:54:33,owner,owner (owner-confirmed higher voice),250.17417040732084,0.126,0.063
+list_reminders/list_reminders_owner_20260930-135441-443.wav,list_reminders,2,2026-09-30 13:54:41,owner,owner (owner-confirmed higher voice),248.01904284310828,0.13,0.065
+call_jane/call_jane_owner_20260930-135446-506.wav,call_jane,2,2026-09-30 13:54:46,owner,owner (owner-confirmed higher voice),227.430670979746,0.08,0.04
+text_jane/text_jane_owner_20260930-135451-059.wav,text_jane,2,2026-09-30 13:54:51,owner,owner (owner-confirmed higher voice),,0.058,0.058
+unknown_silent/unknown_silent_owner_20260930-135507-660.wav,unknown_silent,2,2026-09-30 13:55:07,owner,owner (owner-confirmed higher voice),,,
+unknown_other/unknown_other_owner_20260930-135512-114.wav,unknown_other,2,2026-09-30 13:55:12,owner,owner (owner-confirmed higher voice),239.5825935492628,0.095,0.0475
+play_music/play_music_owner_20260930-161850-266.wav,play_music,3,2026-09-30 16:18:50,owner,owner (owner-confirmed higher voice),329.15341375941045,0.371,0.1855
+weather/weather_owner_20260930-161855-224.wav,weather,3,2026-09-30 16:18:55,owner,owner (owner-confirmed higher voice),,0.189,0.189
+time/time_owner_20260930-161900-388.wav,time,3,2026-09-30 16:19:00,owner,owner (owner-confirmed higher voice),,0.289,0.289
+lights_on/lights_on_owner_20260930-161906-954.wav,lights_on,3,2026-09-30 16:19:06,owner,owner (owner-confirmed higher voice),,0.068,0.068
+lights_off/lights_off_owner_20260930-161914-663.wav,lights_off,3,2026-09-30 16:19:14,owner,owner (owner-confirmed higher voice),,0.576,0.576
+dim_lights_20/dim_lights_20_owner_20260930-161920-935.wav,dim_lights_20,3,2026-09-30 16:19:20,owner,owner (owner-confirmed higher voice),,0.135,0.135
+dim_lights_50/dim_lights_50_owner_20260930-161926-406.wav,dim_lights_50,3,2026-09-30 16:19:26,owner,owner (owner-confirmed higher voice),,0.079,0.079
+set_timer_1/set_timer_1_owner_20260930-161936-933.wav,set_timer_1,3,2026-09-30 16:19:36,owner,owner (owner-confirmed higher voice),,0.166,0.166
+set_timer_5/set_timer_5_owner_20260930-161942-701.wav,set_timer_5,3,2026-09-30 16:19:42,owner,owner (owner-confirmed higher voice),246.5864446069216,0.256,0.128
+set_timer_10/set_timer_10_owner_20260930-161947-561.wav,set_timer_10,3,2026-09-30 16:19:47,owner,owner (owner-confirmed higher voice),,0.048,0.048
+set_alarm_6am/set_alarm_6am_owner_20260930-161952-527.wav,set_alarm_6am,3,2026-09-30 16:19:52,owner,owner (owner-confirmed higher voice),,0.362,0.362
+set_alarm_7am/set_alarm_7am_owner_20260930-161957-480.wav,set_alarm_7am,3,2026-09-30 16:19:57,owner,owner (owner-confirmed higher voice),,0.352,0.352
+set_alarm_9pm/set_alarm_9pm_owner_20260930-162002-540.wav,set_alarm_9pm,3,2026-09-30 16:20:02,owner,owner (owner-confirmed higher voice),,0.325,0.325
+set_temperature_18/set_temperature_18_owner_20260930-162007-506.wav,set_temperature_18,3,2026-09-30 16:20:07,owner,owner (owner-confirmed higher voice),,0.503,0.503
+set_temperature_22/set_temperature_22_owner_20260930-162013-071.wav,set_temperature_22,3,2026-09-30 16:20:13,owner,owner (owner-confirmed higher voice),,0.464,0.464
+set_temperature_26/set_temperature_26_owner_20260930-162018-434.wav,set_temperature_26,3,2026-09-30 16:20:18,owner,owner (owner-confirmed higher voice),,0.27,0.27
+pause/pause_owner_20260930-162023-698.wav,pause,3,2026-09-30 16:20:23,owner,owner (owner-confirmed higher voice),,0.182,0.182
+stop/stop_owner_20260930-162028-454.wav,stop,3,2026-09-30 16:20:28,owner,owner (owner-confirmed higher voice),,0.462,0.462
+next/next_owner_20260930-162033-113.wav,next,3,2026-09-30 16:20:33,owner,owner (owner-confirmed higher voice),,0.335,0.335
+skip/skip_owner_20260930-162037-870.wav,skip,3,2026-09-30 16:20:37,owner,owner (owner-confirmed higher voice),,0.203,0.203
+volume_up/volume_up_owner_20260930-162042-829.wav,volume_up,3,2026-09-30 16:20:42,owner,owner (owner-confirmed higher voice),,0.098,0.098
+louder/louder_owner_20260930-162047-791.wav,louder,3,2026-09-30 16:20:47,owner,owner (owner-confirmed higher voice),,0.304,0.304
+volume_down/volume_down_owner_20260930-162055-285.wav,volume_down,3,2026-09-30 16:20:55,owner,owner (owner-confirmed higher voice),,0.362,0.362
+remind_trash/remind_trash_owner_20260930-162105-105.wav,remind_trash,3,2026-09-30 16:21:05,owner,owner (owner-confirmed higher voice),264.2848075508742,0.516,0.258
+remind_study/remind_study_owner_20260930-162110-153.wav,remind_study,3,2026-09-30 16:21:10,owner,owner (owner-confirmed higher voice),72.46854466889643,0.427,0.427
+list_reminders/list_reminders_owner_20260930-162115-730.wav,list_reminders,3,2026-09-30 16:21:15,owner,owner (owner-confirmed higher voice),,0.431,0.431
+call_jane/call_jane_owner_20260930-162122-110.wav,call_jane,3,2026-09-30 16:21:22,owner,owner (owner-confirmed higher voice),,,
+text_jane/text_jane_owner_20260930-162127-779.wav,text_jane,3,2026-09-30 16:21:27,owner,owner (owner-confirmed higher voice),,0.537,0.537
+unknown_silent/unknown_silent_owner_20260930-162133-247.wav,unknown_silent,3,2026-09-30 16:21:33,owner,owner (owner-confirmed higher voice),,,
+unknown_other/unknown_other_owner_20260930-162558-449.wav,unknown_other,3,2026-09-30 16:25:58,owner,owner (owner-confirmed higher voice),,0.184,0.184
+play_music/play_music_owner_20260930-162606-967.wav,play_music,3,2026-09-30 16:26:06,owner,owner (owner-confirmed higher voice),,0.491,0.491
+weather/weather_owner_20260930-162612-130.wav,weather,3,2026-09-30 16:26:12,owner,owner (owner-confirmed higher voice),,0.352,0.352
+time/time_owner_20260930-162617-593.wav,time,3,2026-09-30 16:26:17,owner,owner (owner-confirmed higher voice),72.46975362124044,0.481,0.481
+lights_on/lights_on_owner_20260930-162622-858.wav,lights_on,3,2026-09-30 16:26:22,owner,owner (owner-confirmed higher voice),,0.392,0.392
+lights_off/lights_off_owner_20260930-162628-009.wav,lights_off,3,2026-09-30 16:26:28,owner,owner (owner-confirmed higher voice),,0.392,0.392
+dim_lights_20/dim_lights_20_owner_20260930-162653-836.wav,dim_lights_20,3,2026-09-30 16:26:53,owner,owner (owner-confirmed higher voice),,0.401,0.401
+dim_lights_50/dim_lights_50_owner_20260930-162659-506.wav,dim_lights_50,3,2026-09-30 16:26:59,owner,owner (owner-confirmed higher voice),,0.433,0.433
+set_timer_1/set_timer_1_owner_20260930-162718-940.wav,set_timer_1,3,2026-09-30 16:27:18,owner,owner (owner-confirmed higher voice),243.75415772291475,0.27,0.135
+set_timer_5/set_timer_5_owner_20260930-162724-003.wav,set_timer_5,3,2026-09-30 16:27:24,owner,owner (owner-confirmed higher voice),,0.325,0.325
+set_timer_10/set_timer_10_owner_20260930-162728-961.wav,set_timer_10,3,2026-09-30 16:27:28,owner,owner (owner-confirmed higher voice),,0.489,0.489
+set_alarm_6am/set_alarm_6am_owner_20260930-162734-025.wav,set_alarm_6am,3,2026-09-30 16:27:34,owner,owner (owner-confirmed higher voice),,0.268,0.268
+set_alarm_7am/set_alarm_7am_owner_20260930-162739-187.wav,set_alarm_7am,3,2026-09-30 16:27:39,owner,owner (owner-confirmed higher voice),,0.236,0.236
+set_alarm_9pm/set_alarm_9pm_owner_20260930-162744-248.wav,set_alarm_9pm,3,2026-09-30 16:27:44,owner,owner (owner-confirmed higher voice),,0.427,0.427
+set_temperature_18/set_temperature_18_owner_20260930-162749-611.wav,set_temperature_18,3,2026-09-30 16:27:49,owner,owner (owner-confirmed higher voice),,0.418,0.418
+set_temperature_22/set_temperature_22_owner_20260930-162806-012.wav,set_temperature_22,3,2026-09-30 16:28:06,owner,owner (owner-confirmed higher voice),,0.44,0.44
+set_temperature_26/set_temperature_26_owner_20260930-162811-076.wav,set_temperature_26,3,2026-09-30 16:28:11,owner,owner (owner-confirmed higher voice),,0.524,0.524
+pause/pause_owner_20260930-162816-038.wav,pause,3,2026-09-30 16:28:16,owner,owner (owner-confirmed higher voice),,0.333,0.333
+stop/stop_owner_20260930-162820-694.wav,stop,3,2026-09-30 16:28:20,owner,owner (owner-confirmed higher voice),,0.332,0.332
+next/next_owner_20260930-162825-654.wav,next,3,2026-09-30 16:28:25,owner,owner (owner-confirmed higher voice),,0.35,0.35
+skip/skip_owner_20260930-162830-410.wav,skip,3,2026-09-30 16:28:30,owner,owner (owner-confirmed higher voice),,0.462,0.462
+volume_up/volume_up_owner_20260930-162834-863.wav,volume_up,3,2026-09-30 16:28:34,owner,owner (owner-confirmed higher voice),,0.335,0.335
+louder/louder_owner_20260930-162839-626.wav,louder,3,2026-09-30 16:28:39,owner,owner (owner-confirmed higher voice),,0.351,0.351
+volume_down/volume_down_owner_20260930-162844-178.wav,volume_down,3,2026-09-30 16:28:44,owner,owner (owner-confirmed higher voice),,0.478,0.478
+remind_trash/remind_trash_owner_20260930-162848-935.wav,remind_trash,3,2026-09-30 16:28:48,owner,owner (owner-confirmed higher voice),,0.493,0.493
+remind_study/remind_study_owner_20260930-162854-100.wav,remind_study,3,2026-09-30 16:28:54,owner,owner (owner-confirmed higher voice),,0.528,0.528
+list_reminders/list_reminders_owner_20260930-162859-268.wav,list_reminders,3,2026-09-30 16:28:59,owner,owner (owner-confirmed higher voice),75.89588092109929,0.427,0.427
+call_jane/call_jane_owner_20260930-162904-224.wav,call_jane,3,2026-09-30 16:29:04,owner,owner (owner-confirmed higher voice),,0.564,0.564
+text_jane/text_jane_owner_20260930-162909-084.wav,text_jane,3,2026-09-30 16:29:09,owner,owner (owner-confirmed higher voice),,0.603,0.603
+unknown_silent/unknown_silent_owner_20260930-162913-942.wav,unknown_silent,3,2026-09-30 16:29:13,owner,owner (owner-confirmed higher voice),,0.256,0.256
+unknown_other/unknown_other_owner_20260930-162929-331.wav,unknown_other,3,2026-09-30 16:29:29,owner,owner (owner-confirmed higher voice),,0.276,0.276
+play_music/play_music_owner_20260930-163027-538.wav,play_music,3,2026-09-30 16:30:27,owner,owner (owner-confirmed higher voice),300.09656951016206,0.113,0.0565
+weather/weather_owner_20260930-163033-206.wav,weather,3,2026-09-30 16:30:33,owner,owner (owner-confirmed higher voice),,0.107,0.107
+time/time_owner_20260930-163037-660.wav,time,3,2026-09-30 16:30:37,owner,owner (owner-confirmed higher voice),,0.277,0.277
+lights_on/lights_on_owner_20260930-163042-824.wav,lights_on,3,2026-09-30 16:30:42,owner,owner (owner-confirmed higher voice),,0.397,0.397
+lights_off/lights_off_owner_20260930-163047-886.wav,lights_off,3,2026-09-30 16:30:47,owner,owner (owner-confirmed higher voice),,0.246,0.246
+dim_lights_20/dim_lights_20_owner_20260930-163052-950.wav,dim_lights_20,3,2026-09-30 16:30:52,owner,owner (owner-confirmed higher voice),280.0,0.46,0.23
+dim_lights_50/dim_lights_50_owner_20260930-163058-114.wav,dim_lights_50,3,2026-09-30 16:30:58,owner,owner (owner-confirmed higher voice),,0.31,0.31
+set_timer_1/set_timer_1_owner_20260930-163108-846.wav,set_timer_1,3,2026-09-30 16:31:08,owner,owner (owner-confirmed higher voice),,0.349,0.349
+set_timer_5/set_timer_5_owner_20260930-163113-902.wav,set_timer_5,3,2026-09-30 16:31:13,owner,owner (owner-confirmed higher voice),,0.161,0.161
+set_timer_10/set_timer_10_owner_20260930-163119-068.wav,set_timer_10,3,2026-09-30 16:31:19,owner,owner (owner-confirmed higher voice),,0.434,0.434
+set_alarm_6am/set_alarm_6am_owner_20260930-163124-529.wav,set_alarm_6am,3,2026-09-30 16:31:24,owner,owner (owner-confirmed higher voice),,0.155,0.155
+set_alarm_7am/set_alarm_7am_owner_20260930-163130-404.wav,set_alarm_7am,3,2026-09-30 16:31:30,owner,owner (owner-confirmed higher voice),,0.325,0.325
+set_alarm_9pm/set_alarm_9pm_owner_20260930-163135-871.wav,set_alarm_9pm,3,2026-09-30 16:31:35,owner,owner (owner-confirmed higher voice),,0.139,0.139
+set_temperature_18/set_temperature_18_owner_20260930-163140-935.wav,set_temperature_18,3,2026-09-30 16:31:40,owner,owner (owner-confirmed higher voice),,0.404,0.404
+set_temperature_22/set_temperature_22_owner_20260930-163152-575.wav,set_temperature_22,3,2026-09-30 16:31:52,owner,owner (owner-confirmed higher voice),,0.097,0.097
+set_temperature_26/set_temperature_26_owner_20260930-163158-749.wav,set_temperature_26,3,2026-09-30 16:31:58,owner,owner (owner-confirmed higher voice),,0.124,0.124
+pause/pause_owner_20260930-163204-013.wav,pause,3,2026-09-30 16:32:04,owner,owner (owner-confirmed higher voice),,,
+stop/stop_owner_20260930-163208-468.wav,stop,3,2026-09-30 16:32:08,owner,owner (owner-confirmed higher voice),,,
+next/next_owner_20260930-163213-631.wav,next,3,2026-09-30 16:32:13,owner,owner (owner-confirmed higher voice),,,
+skip/skip_owner_20260930-163218-286.wav,skip,3,2026-09-30 16:32:18,owner,owner (owner-confirmed higher voice),,,
+volume_up/volume_up_owner_20260930-163223-853.wav,volume_up,3,2026-09-30 16:32:23,owner,owner (owner-confirmed higher voice),,,
+louder/louder_owner_20260930-163228-414.wav,louder,3,2026-09-30 16:32:28,owner,owner (owner-confirmed higher voice),80.8746887810591,0.239,0.239
+volume_down/volume_down_owner_20260930-163237-423.wav,volume_down,3,2026-09-30 16:32:37,owner,owner (owner-confirmed higher voice),,,
+remind_trash/remind_trash_owner_20260930-163243-295.wav,remind_trash,3,2026-09-30 16:32:43,owner,owner (owner-confirmed higher voice),250.8966997353467,0.199,0.0995
+remind_study/remind_study_owner_20260930-163250-177.wav,remind_study,3,2026-09-30 16:32:50,owner,owner (owner-confirmed higher voice),,0.11,0.11
+list_reminders/list_reminders_owner_20260930-163256-354.wav,list_reminders,3,2026-09-30 16:32:56,owner,owner (owner-confirmed higher voice),331.06018008760145,0.194,0.097
+call_jane/call_jane_owner_20260930-163301-212.wav,call_jane,3,2026-09-30 16:33:01,owner,owner (owner-confirmed higher voice),,,
+text_jane/text_jane_owner_20260930-163306-175.wav,text_jane,3,2026-09-30 16:33:06,owner,owner (owner-confirmed higher voice),,0.317,0.317
+unknown_silent/unknown_silent_owner_20260930-163311-336.wav,unknown_silent,3,2026-09-30 16:33:11,owner,owner (owner-confirmed higher voice),,0.464,0.464
+unknown_other/unknown_other_owner_20260930-163323-788.wav,unknown_other,3,2026-09-30 16:33:23,owner,owner (owner-confirmed higher voice),,0.049,0.049
+dim_lights_80/dim_lights_80_owner_20260930-164342-940.wav,dim_lights_80,4,2026-09-30 16:43:42,owner,owner (owner-confirmed higher voice),,0.324,0.324
+dim_lights_80/dim_lights_80_owner_20260930-164358-327.wav,dim_lights_80,4,2026-09-30 16:43:58,owner,owner (owner-confirmed higher voice),329.15341375941045,0.091,0.0455
+dim_lights_80/dim_lights_80_owner_20260930-164405-918.wav,dim_lights_80,4,2026-09-30 16:44:05,owner,owner (owner-confirmed higher voice),274.3972793771296,0.057,0.0285
+dim_lights_80/dim_lights_80_owner_20260930-164413-106.wav,dim_lights_80,4,2026-09-30 16:44:13,owner,owner (owner-confirmed higher voice),245.8763279002847,0.168,0.084
+dim_lights_80/dim_lights_80_owner_20260930-164423-641.wav,dim_lights_80,4,2026-09-30 16:44:23,owner,owner (owner-confirmed higher voice),329.15341375941045,0.651,0.3255
+dim_lights_80/dim_lights_80_owner_20260930-164431-115.wav,dim_lights_80,4,2026-09-30 16:44:31,owner,owner (owner-confirmed higher voice),,0.684,0.684
+dim_lights_80/dim_lights_80_owner_20260930-164444-390.wav,dim_lights_80,4,2026-09-30 16:44:44,owner,owner (owner-confirmed higher voice),329.15341375941045,0.708,0.354
+play_music/play_music_owner_20260930-164917-070.wav,play_music,4,2026-09-30 16:49:17,owner,owner (owner-confirmed higher voice),270.4621720989567,0.516,0.258
+weather/weather_owner_20260930-164921-738.wav,weather,4,2026-09-30 16:49:21,owner,owner (owner-confirmed higher voice),235.45099627104003,0.349,0.1745
+time/time_owner_20260930-164926-396.wav,time,4,2026-09-30 16:49:26,owner,owner (owner-confirmed higher voice),230.07328808402127,0.526,0.263
+lights_on/lights_on_owner_20260930-164935-611.wav,lights_on,4,2026-09-30 16:49:35,owner,owner (owner-confirmed higher voice),203.79144559790623,0.397,0.1985
+lights_off/lights_off_owner_20260930-164941-179.wav,lights_off,4,2026-09-30 16:49:41,owner,owner (owner-confirmed higher voice),,0.445,0.445
+dim_lights_20/dim_lights_20_owner_20260930-164946-849.wav,dim_lights_20,4,2026-09-30 16:49:46,owner,owner (owner-confirmed higher voice),236.8149500168056,0.45,0.225
+dim_lights_50/dim_lights_50_owner_20260930-164952-110.wav,dim_lights_50,4,2026-09-30 16:49:52,owner,owner (owner-confirmed higher voice),242.35023708172005,0.411,0.2055
+dim_lights_80/dim_lights_80_owner_20260930-165234-390.wav,dim_lights_80,4,2026-09-30 16:52:34,owner,owner (owner-confirmed higher voice),252.3543393476088,0.394,0.197
+set_timer_1/set_timer_1_owner_20260930-165242-799.wav,set_timer_1,4,2026-09-30 16:52:42,owner,owner (owner-confirmed higher voice),92.63308785890118,0.343,0.343
+set_timer_5/set_timer_5_owner_20260930-165248-766.wav,set_timer_5,4,2026-09-30 16:52:48,owner,owner (owner-confirmed higher voice),221.5961542651838,0.418,0.209
+set_timer_10/set_timer_10_owner_20260930-165257-674.wav,set_timer_10,4,2026-09-30 16:52:57,owner,owner (owner-confirmed higher voice),,0.448,0.448
+set_alarm_6am/set_alarm_6am_owner_20260930-165306-783.wav,set_alarm_6am,4,2026-09-30 16:53:06,owner,owner (owner-confirmed higher voice),246.5864446069216,0.465,0.2325
+set_alarm_7am/set_alarm_7am_owner_20260930-165315-690.wav,set_alarm_7am,4,2026-09-30 16:53:15,owner,owner (owner-confirmed higher voice),250.17417040732084,0.3,0.15
+set_alarm_9pm/set_alarm_9pm_owner_20260930-165322-066.wav,set_alarm_9pm,4,2026-09-30 16:53:22,owner,owner (owner-confirmed higher voice),218.4182632837445,0.368,0.184
+set_temperature_18/set_temperature_18_owner_20260930-165328-547.wav,set_temperature_18,4,2026-09-30 16:53:28,owner,owner (owner-confirmed higher voice),236.8149500168056,0.39,0.195
+set_temperature_22/set_temperature_22_owner_20260930-165336-042.wav,set_temperature_22,4,2026-09-30 16:53:36,owner,owner (owner-confirmed higher voice),250.8966997353467,0.532,0.266
+set_temperature_26/set_temperature_26_owner_20260930-165342-823.wav,set_temperature_26,4,2026-09-30 16:53:42,owner,owner (owner-confirmed higher voice),227.430670979746,0.437,0.2185
+pause/pause_owner_20260930-165346-567.wav,pause,4,2026-09-30 16:53:46,owner,owner (owner-confirmed higher voice),,0.458,0.458
+stop/stop_owner_20260930-165351-122.wav,stop,4,2026-09-30 16:53:51,owner,owner (owner-confirmed higher voice),,0.492,0.492
+next/next_owner_20260930-165355-373.wav,next,4,2026-09-30 16:53:55,owner,owner (owner-confirmed higher voice),,0.43,0.43
+skip/skip_owner_20260930-165401-955.wav,skip,4,2026-09-30 16:54:01,owner,owner (owner-confirmed higher voice),,0.371,0.371
+volume_up/volume_up_owner_20260930-165407-116.wav,volume_up,4,2026-09-30 16:54:07,owner,owner (owner-confirmed higher voice),226.12076670401177,0.567,0.2835
+louder/louder_owner_20260930-165415-118.wav,louder,4,2026-09-30 16:54:15,owner,owner (owner-confirmed higher voice),196.84956082712893,0.356,0.178
+volume_down/volume_down_owner_20260930-165423-214.wav,volume_down,4,2026-09-30 16:54:23,owner,owner (owner-confirmed higher voice),218.4182632837445,0.58,0.29
+remind_trash/remind_trash_owner_20260930-165432-121.wav,remind_trash,4,2026-09-30 16:54:32,owner,owner (owner-confirmed higher voice),234.09489832078265,0.461,0.2305
+remind_study/remind_study_owner_20260930-165440-323.wav,remind_study,4,2026-09-30 16:54:40,owner,owner (owner-confirmed higher voice),230.7396885836003,0.561,0.2805
+list_reminders/list_reminders_owner_20260930-165449-741.wav,list_reminders,4,2026-09-30 16:54:49,owner,owner (owner-confirmed higher voice),241.65231975506623,0.604,0.302
+call_jane/call_jane_owner_20260930-165454-394.wav,call_jane,4,2026-09-30 16:54:54,owner,owner (owner-confirmed higher voice),,0.436,0.436
+text_jane/text_jane_owner_20260930-165459-659.wav,text_jane,4,2026-09-30 16:54:59,owner,owner (owner-confirmed higher voice),70.0,0.43,0.43
+unknown_silent/unknown_silent_owner_20260930-165505-325.wav,unknown_silent,4,2026-09-30 16:55:05,owner,owner (owner-confirmed higher voice),,,
+unknown_other/unknown_other_owner_20260930-165513-324.wav,unknown_other,4,2026-09-30 16:55:13,owner,owner (owner-confirmed higher voice),106.10015965572786,0.104,0.552
+play_music/play_music_owner_20260930-165801-970.wav,play_music,4,2026-09-30 16:58:01,owner,owner (owner-confirmed higher voice),109.84360613464104,0.213,0.6065
+weather/weather_owner_20260930-165808-451.wav,weather,4,2026-09-30 16:58:08,owner,owner (owner-confirmed higher voice),215.2877419054279,0.639,0.3195
+time/time_owner_20260930-165814-511.wav,time,4,2026-09-30 16:58:14,owner,owner (owner-confirmed higher voice),210.97813540644063,0.688,0.344
+lights_on/lights_on_owner_20260930-165820-279.wav,lights_on,4,2026-09-30 16:58:20,owner,owner (owner-confirmed higher voice),221.5961542651838,0.627,0.3135
+lights_off/lights_off_owner_20260930-165825-556.wav,lights_off,4,2026-09-30 16:58:25,owner,owner (owner-confirmed higher voice),220.95616125481965,0.691,0.3455
+dim_lights_20/dim_lights_20_owner_20260930-165832-337.wav,dim_lights_20,4,2026-09-30 16:58:32,owner,owner (owner-confirmed higher voice),,0.567,0.567
+dim_lights_50/dim_lights_50_owner_20260930-165838-819.wav,dim_lights_50,4,2026-09-30 16:58:38,owner,owner (owner-confirmed higher voice),219.6982069661354,0.645,0.3225
+dim_lights_80/dim_lights_80_owner_20260930-165845-298.wav,dim_lights_80,4,2026-09-30 16:58:45,owner,owner (owner-confirmed higher voice),200.8772678946362,0.628,0.314
+set_timer_1/set_timer_1_owner_20260930-165852-485.wav,set_timer_1,4,2026-09-30 16:58:52,owner,owner (owner-confirmed higher voice),180.51184318154108,0.703,0.3515
+set_timer_5/set_timer_5_owner_20260930-165901-390.wav,set_timer_5,4,2026-09-30 16:59:01,owner,owner (owner-confirmed higher voice),,0.45,0.45
+set_timer_10/set_timer_10_owner_20260930-165910-502.wav,set_timer_10,4,2026-09-30 16:59:10,owner,owner (owner-confirmed higher voice),93.98007519461844,0.493,0.493
+set_alarm_6am/set_alarm_6am_owner_20260930-165917-588.wav,set_alarm_6am,4,2026-09-30 16:59:17,owner,owner (owner-confirmed higher voice),97.57608539074748,0.181,0.5905
+set_alarm_7am/set_alarm_7am_owner_20260930-165924-472.wav,set_alarm_7am,4,2026-09-30 16:59:24,owner,owner (owner-confirmed higher voice),89.21924391234836,0.42,0.42
+set_alarm_9pm/set_alarm_9pm_owner_20260930-165931-358.wav,set_alarm_9pm,4,2026-09-30 16:59:31,owner,owner (owner-confirmed higher voice),,0.427,0.427
+set_temperature_18/set_temperature_18_owner_20260930-165938-737.wav,set_temperature_18,4,2026-09-30 16:59:38,owner,owner (owner-confirmed higher voice),93.16970587780108,0.451,0.451
+set_temperature_22/set_temperature_22_owner_20260930-165945-933.wav,set_temperature_22,4,2026-09-30 16:59:45,owner,owner (owner-confirmed higher voice),103.0796940670368,0.202,0.601
+set_temperature_26/set_temperature_26_owner_20260930-165952-923.wav,set_temperature_26,4,2026-09-30 16:59:52,owner,owner (owner-confirmed higher voice),186.8775795838048,0.605,0.3025
+pause/pause_owner_20260930-165958-690.wav,pause,4,2026-09-30 16:59:58,owner,owner (owner-confirmed higher voice),180.5148545600217,0.726,0.363
+stop/stop_owner_20260930-170002-838.wav,stop,4,2026-09-30 17:00:02,owner,owner (owner-confirmed higher voice),189.0489924635466,0.726,0.363
+next/next_owner_20260930-170006-990.wav,next,4,2026-09-30 17:00:06,owner,owner (owner-confirmed higher voice),186.8775795838048,0.657,0.3285
+skip/skip_owner_20260930-170011-039.wav,skip,4,2026-09-30 17:00:11,owner,owner (owner-confirmed higher voice),188.5045714263917,0.647,0.3235
+volume_up/volume_up_owner_20260930-170015-494.wav,volume_up,4,2026-09-30 17:00:15,owner,owner (owner-confirmed higher voice),186.8775795838048,0.648,0.324
+louder/louder_owner_20260930-170024-409.wav,louder,4,2026-09-30 17:00:24,owner,owner (owner-confirmed higher voice),193.46780319548864,0.619,0.3095
+volume_down/volume_down_owner_20260930-170033-010.wav,volume_down,4,2026-09-30 17:00:33,owner,owner (owner-confirmed higher voice),208.5548448371784,0.708,0.354
+remind_trash/remind_trash_owner_20260930-170038-879.wav,remind_trash,4,2026-09-30 17:00:38,owner,owner (owner-confirmed higher voice),209.7629907627354,0.655,0.3275
+remind_study/remind_study_owner_20260930-170044-449.wav,remind_study,4,2026-09-30 17:00:44,owner,owner (owner-confirmed higher voice),218.4182632837445,0.635,0.3175
+list_reminders/list_reminders_owner_20260930-170050-421.wav,list_reminders,4,2026-09-30 17:00:50,owner,owner (owner-confirmed higher voice),92.099560532362,0.463,0.463
+call_jane/call_jane_owner_20260930-170055-282.wav,call_jane,4,2026-09-30 17:00:55,owner,owner (owner-confirmed higher voice),,0.516,0.516
+text_jane/text_jane_owner_20260930-170059-629.wav,text_jane,4,2026-09-30 17:00:59,owner,owner (owner-confirmed higher voice),,0.402,0.402
+unknown_silent/unknown_silent_owner_20260930-170104-493.wav,unknown_silent,4,2026-09-30 17:01:04,owner,owner (owner-confirmed higher voice),,,
+unknown_other/unknown_other_owner_20260930-170116-031.wav,unknown_other,4,2026-09-30 17:01:16,owner,owner (owner-confirmed higher voice),199.1368425476194,0.588,0.294
+play/play_owner_20260930-170502-855.wav,play,4,2026-09-30 17:05:02,owner,owner (owner-confirmed higher voice),329.15341375941045,0.078,0.039
+play/play_owner_20260930-170507-726.wav,play,4,2026-09-30 17:05:07,owner,owner (owner-confirmed higher voice),206.1593881340736,0.523,0.2615
+play/play_owner_20260930-170511-472.wav,play,4,2026-09-30 17:05:11,owner,owner (owner-confirmed higher voice),,,
+play/play_owner_20260930-170515-218.wav,play,4,2026-09-30 17:05:15,owner,owner (owner-confirmed higher voice),260.4968951869364,0.399,0.1995
+play/play_owner_20260930-170518-862.wav,play,4,2026-09-30 17:05:18,owner,owner (owner-confirmed higher voice),281.62202349899894,0.252,0.126
+play/play_owner_20260930-170529-897.wav,play,4,2026-09-30 17:05:29,owner,owner (owner-confirmed higher voice),331.06018008760145,0.346,0.173
+play/play_owner_20260930-170538-503.wav,play,4,2026-09-30 17:05:38,owner,owner (owner-confirmed higher voice),307.11099431449526,0.329,0.1645
+play/play_owner_20260930-170546-602.wav,play,4,2026-09-30 17:05:46,owner,owner (owner-confirmed higher voice),329.15341375941045,0.116,0.058
+play/play_owner_20260930-170640-148.wav,play,4,2026-09-30 17:06:40,owner,owner (owner-confirmed higher voice),183.66713462124284,0.497,0.2485
+play/play_owner_20260930-170655-334.wav,play,4,2026-09-30 17:06:55,owner,owner (owner-confirmed higher voice),262.76263906792013,0.169,0.0845
+play/play_owner_20260930-170715-174.wav,play,4,2026-09-30 17:07:15,owner,owner (owner-confirmed higher voice),197.9898987322333,0.573,0.2865
+play/play_owner_20260930-170726-413.wav,play,4,2026-09-30 17:07:26,owner,owner (owner-confirmed higher voice),184.199121064724,0.536,0.268
+play/play_owner_20260930-170741-596.wav,play,4,2026-09-30 17:07:41,owner,owner (owner-confirmed higher voice),312.47919993646246,0.271,0.1355
+play/play_owner_20260930-170751-414.wav,play,4,2026-09-30 17:07:51,owner,owner (owner-confirmed higher voice),329.15341375941045,0.216,0.108
+play_music/play_music_owner_20260930-170944-438.wav,play_music,4,2026-09-30 17:09:44,speaker2,"segment (pitch + voiceprint, owner-confirmed)",154.00026613008606,0.831,0.9155
+weather/weather_owner_20260930-170950-207.wav,weather,4,2026-09-30 17:09:50,speaker2,"segment (pitch + voiceprint, owner-confirmed)",119.0934025331198,0.952,0.976
+time/time_owner_20260930-170959-419.wav,time,4,2026-09-30 17:09:59,speaker2,"segment (pitch + voiceprint, owner-confirmed)",132.9078969330727,0.796,0.898
+lights_on/lights_on_owner_20260930-171004-581.wav,lights_on,4,2026-09-30 17:10:04,speaker2,"segment (pitch + voiceprint, owner-confirmed)",147.89768912198917,0.938,0.969
+lights_off/lights_off_owner_20260930-171011-160.wav,lights_off,4,2026-09-30 17:10:11,speaker2,"segment (pitch + voiceprint, owner-confirmed)",119.09538930198356,0.968,0.984
+dim_lights_20/dim_lights_20_owner_20260930-171020-069.wav,dim_lights_20,4,2026-09-30 17:10:20,speaker2,"segment (pitch + voiceprint, owner-confirmed)",137.59488379633515,0.948,0.974
+dim_lights_50/dim_lights_50_owner_20260930-171025-535.wav,dim_lights_50,4,2026-09-30 17:10:25,speaker2,"segment (pitch + voiceprint, owner-confirmed)",138.79281109193107,0.96,0.98
+dim_lights_80/dim_lights_80_owner_20260930-171032-622.wav,dim_lights_80,4,2026-09-30 17:10:32,speaker2,"segment (pitch + voiceprint, owner-confirmed)",132.5251503542549,0.958,0.979
+set_timer_1/set_timer_1_owner_20260930-171038-090.wav,set_timer_1,4,2026-09-30 17:10:38,speaker2,"segment (pitch + voiceprint, owner-confirmed)",117.72549813552004,0.981,0.9905
+set_timer_5/set_timer_5_owner_20260930-171043-847.wav,set_timer_5,4,2026-09-30 17:10:43,speaker2,"segment (pitch + voiceprint, owner-confirmed)",136.80239558079444,0.982,0.991
+set_timer_10/set_timer_10_owner_20260930-171049-425.wav,set_timer_10,4,2026-09-30 17:10:49,speaker2,"segment (pitch + voiceprint, owner-confirmed)",130.62461881515304,0.954,0.977
+set_alarm_6am/set_alarm_6am_owner_20260930-171105-419.wav,set_alarm_6am,4,2026-09-30 17:11:05,speaker2,"segment (pitch + voiceprint, owner-confirmed)",136.80239558079444,0.926,0.963
+set_alarm_7am/set_alarm_7am_owner_20260930-171111-493.wav,set_alarm_7am,4,2026-09-30 17:11:11,speaker2,"segment (pitch + voiceprint, owner-confirmed)",115.70304454158963,0.945,0.9725
+set_alarm_9pm/set_alarm_9pm_owner_20260930-171117-974.wav,set_alarm_9pm,4,2026-09-30 17:11:17,speaker2,"segment (pitch + voiceprint, owner-confirmed)",129.87227637178333,0.954,0.977
+set_temperature_18/set_temperature_18_owner_20260930-171125-261.wav,set_temperature_18,4,2026-09-30 17:11:25,speaker2,"segment (pitch + voiceprint, owner-confirmed)",125.44834986767334,0.957,0.9785
+set_temperature_22/set_temperature_22_owner_20260930-171131-335.wav,set_temperature_22,4,2026-09-30 17:11:31,speaker2,"segment (pitch + voiceprint, owner-confirmed)",129.4982717369074,0.964,0.982
+set_temperature_26/set_temperature_26_owner_20260930-171138-016.wav,set_temperature_26,4,2026-09-30 17:11:38,speaker2,"segment (pitch + voiceprint, owner-confirmed)",129.1242671020315,0.959,0.9795
+pause/pause_owner_20260930-171142-773.wav,pause,4,2026-09-30 17:11:42,speaker2,"segment (pitch + voiceprint, owner-confirmed)",106.41102591504618,0.88,0.94
+stop/stop_owner_20260930-171147-215.wav,stop,4,2026-09-30 17:11:47,speaker2,"segment (pitch + voiceprint, owner-confirmed)",113.71723253944144,0.87,0.935
+next/next_owner_20260930-171151-479.wav,next,4,2026-09-30 17:11:51,speaker2,"segment (pitch + voiceprint, owner-confirmed)",104.8814953813677,0.826,0.913
+skip/skip_owner_20260930-171155-832.wav,skip,4,2026-09-30 17:11:55,speaker2,"segment (pitch + voiceprint, owner-confirmed)",113.06038335200589,0.864,0.932
+volume_up/volume_up_owner_20260930-171200-792.wav,volume_up,4,2026-09-30 17:12:00,speaker2,"segment (pitch + voiceprint, owner-confirmed)",128.38056604865398,0.943,0.9715
+louder/louder_owner_20260930-171205-655.wav,louder,4,2026-09-30 17:12:05,speaker2,"segment (pitch + voiceprint, owner-confirmed)",116.37330545999028,0.912,0.956
+volume_down/volume_down_owner_20260930-171210-613.wav,volume_down,4,2026-09-30 17:12:10,speaker2,"segment (pitch + voiceprint, owner-confirmed)",112.73855478990198,0.852,0.926
+remind_trash/remind_trash_owner_20260930-171219-722.wav,remind_trash,4,2026-09-30 17:12:19,speaker2,"segment (pitch + voiceprint, owner-confirmed)",120.82615987753312,0.92,0.96
+remind_study/remind_study_owner_20260930-171228-124.wav,remind_study,4,2026-09-30 17:12:28,speaker2,"segment (pitch + voiceprint, owner-confirmed)",118.4074750084028,0.974,0.987
+list_reminders/list_reminders_owner_20260930-171234-197.wav,list_reminders,4,2026-09-30 17:12:34,speaker2,"segment (pitch + voiceprint, owner-confirmed)",120.4772012142062,0.958,0.979
+call_jane/call_jane_owner_20260930-171240-575.wav,call_jane,4,2026-09-30 17:12:40,speaker2,"segment (pitch + voiceprint, owner-confirmed)",108.26744555345864,0.9,0.95
+text_jane/text_jane_owner_20260930-171246-144.wav,text_jane,4,2026-09-30 17:12:46,speaker2,"segment (pitch + voiceprint, owner-confirmed)",108.89463248511686,0.881,0.9405
+unknown_silent/unknown_silent_owner_20260930-171251-813.wav,unknown_silent,4,2026-09-30 17:12:51,speaker2,"segment (pitch + voiceprint, owner-confirmed)",,,
+unknown_other/unknown_other_owner_20260930-171258-089.wav,unknown_other,4,2026-09-30 17:12:58,speaker2,"segment (pitch + voiceprint, owner-confirmed)",111.11807363777396,0.912,0.956
+play/play_owner_20260930-171320-639.wav,play,4,2026-09-30 17:13:20,speaker2,"segment (pitch + voiceprint, owner-confirmed)",116.37330545999028,0.87,0.935
+play/play_owner_20260930-171328-128.wav,play,4,2026-09-30 17:13:28,speaker2,"segment (pitch + voiceprint, owner-confirmed)",113.71533548987296,0.718,0.859
+play/play_owner_20260930-171359-006.wav,play,4,2026-09-30 17:13:59,speaker2,"segment (pitch + voiceprint, owner-confirmed)",259.74455274356666,0.153,0.0765
+play/play_owner_20260930-171408-217.wav,play,4,2026-09-30 17:14:08,speaker2,"segment (pitch + voiceprint, owner-confirmed)",110.79807713259189,0.481,0.7404999999999999
+party/party_owner_20260930-171430-687.wav,party,4,2026-09-30 17:14:30,speaker2,"segment (pitch + voiceprint, owner-confirmed)",161.7493775621182,0.891,0.9455
+party/party_owner_20260930-171439-902.wav,party,4,2026-09-30 17:14:39,speaker2,"segment (pitch + voiceprint, owner-confirmed)",129.1242671020315,0.899,0.9495
+party/party_owner_20260930-171445-667.wav,party,4,2026-09-30 17:14:45,speaker2,"segment (pitch + voiceprint, owner-confirmed)",107.33298412687203,0.839,0.9195
+party/party_owner_20260930-171457-817.wav,party,4,2026-09-30 17:14:57,speaker2,"segment (pitch + voiceprint, owner-confirmed)",146.62117719488774,0.666,0.833
+party/party_owner_20260930-171515-428.wav,party,4,2026-09-30 17:15:15,speaker2,"segment (pitch + voiceprint, owner-confirmed)",123.29322230346078,0.539,0.7695000000000001
+party/party_owner_20260930-172229-660.wav,party,5,2026-09-30 17:22:29,owner,owner (owner-confirmed higher voice),239.5666071911286,0.048,0.024
+party/party_owner_20260930-172237-964.wav,party,5,2026-09-30 17:22:37,owner,owner (owner-confirmed higher voice),234.77294729591137,0.045,0.0225
+party/party_owner_20260930-172245-756.wav,party,5,2026-09-30 17:22:45,owner,owner (owner-confirmed higher voice),257.5048331506855,0.018,0.009
+party/party_owner_20260930-172250-616.wav,party,5,2026-09-30 17:22:50,owner,owner (owner-confirmed higher voice),234.09489832078265,0.109,0.0545
+party/party_owner_20260930-172311-775.wav,party,5,2026-09-30 17:23:11,owner,owner (owner-confirmed higher voice),248.01904284310828,0.021,0.0105
+party/party_owner_20260930-172321-292.wav,party,5,2026-09-30 17:23:21,owner,owner (owner-confirmed higher voice),,0.146,0.146
+party/party_owner_20260930-172330-400.wav,party,5,2026-09-30 17:23:30,owner,owner (owner-confirmed higher voice),230.7396885836003,0.073,0.0365
+party/party_owner_20260930-172341-334.wav,party,5,2026-09-30 17:23:41,owner,owner (owner-confirmed higher voice),,0.111,0.111
+party/party_owner_20260930-172423-748.wav,party,5,2026-09-30 17:24:23,owner,owner (owner-confirmed higher voice),218.4182632837445,0.027,0.0135
+party/party_owner_20260930-172429-522.wav,party,5,2026-09-30 17:24:29,owner,owner (owner-confirmed higher voice),249.451641079295,0.032,0.016
+party/party_owner_20260930-172435-394.wav,party,5,2026-09-30 17:24:35,owner,owner (owner-confirmed higher voice),228.08941721674995,0.281,0.1405
+play/play_owner_20260930-172511-602.wav,play,5,2026-09-30 17:25:11,owner,owner (owner-confirmed higher voice),,0.081,0.081
+play/play_owner_20260930-172516-263.wav,play,5,2026-09-30 17:25:16,owner,owner (owner-confirmed higher voice),293.2423543897755,0.267,0.1335
+play/play_owner_20260930-172520-208.wav,play,5,2026-09-30 17:25:20,owner,owner (owner-confirmed higher voice),209.7769883157873,0.086,0.043
+play/play_owner_20260930-172524-460.wav,play,5,2026-09-30 17:25:24,owner,owner (owner-confirmed higher voice),329.15341375941045,0.064,0.032
+play/play_owner_20260930-172536-812.wav,play,5,2026-09-30 17:25:36,owner,owner (owner-confirmed higher voice),329.15341375941045,0.078,0.039
+play/play_owner_20260930-172543-700.wav,play,5,2026-09-30 17:25:43,owner,owner (owner-confirmed higher voice),,,
+unknown_silent/unknown_silent_owner_20260930-172740-643.wav,unknown_silent,5,2026-09-30 17:27:40,owner,owner (owner-confirmed higher voice),329.15341375941045,0.345,0.1725
+unknown_silent/unknown_silent_owner_20260930-172749-853.wav,unknown_silent,5,2026-09-30 17:27:49,owner,owner (owner-confirmed higher voice),,,
+unknown_silent/unknown_silent_owner_20260930-172801-598.wav,unknown_silent,5,2026-09-30 17:28:01,owner,owner (owner-confirmed higher voice),329.15341375941045,0.071,0.0355
+unknown_silent/unknown_silent_owner_20260930-172808-380.wav,unknown_silent,5,2026-09-30 17:28:08,owner,owner (owner-confirmed higher voice),,,
+unknown_silent/unknown_silent_owner_20260930-172822-651.wav,unknown_silent,5,2026-09-30 17:28:22,owner,owner (owner-confirmed higher voice),,,
+unknown_silent/unknown_silent_owner_20260930-172830-446.wav,unknown_silent,5,2026-09-30 17:28:30,owner,owner (owner-confirmed higher voice),331.06018008760145,0.112,0.056
+unknown_other/unknown_other_owner_20260930-172929-917.wav,unknown_other,5,2026-09-30 17:29:29,owner,owner (owner-confirmed higher voice),329.15341375941045,0.655,0.3275
+unknown_other/unknown_other_owner_20260930-172939-031.wav,unknown_other,5,2026-09-30 17:29:39,owner,owner (owner-confirmed higher voice),,0.524,0.524
+unknown_other/unknown_other_owner_20260930-172947-129.wav,unknown_other,5,2026-09-30 17:29:47,speaker2,clip (pitch + voiceprint),124.00745267433048,0.871,0.9355
+unknown_other/unknown_other_owner_20260930-173011-021.wav,unknown_other,5,2026-09-30 17:30:11,owner,owner (owner-confirmed higher voice),250.8966997353467,0.034,0.017
+unknown_other/unknown_other_owner_20260930-173015-980.wav,unknown_other,5,2026-09-30 17:30:15,owner,owner (owner-confirmed higher voice),,,
+unknown_other/unknown_other_owner_20260930-173024-165.wav,unknown_other,5,2026-09-30 17:30:24,owner,owner (owner-confirmed higher voice),243.75415772291475,0.154,0.077
+unknown_other/unknown_other_owner_20260930-173029-242.wav,unknown_other,5,2026-09-30 17:30:29,speaker2,clip (pitch + voiceprint),,0.808,0.808
+play/play_owner_20260930-173053-749.wav,play,5,2026-09-30 17:30:53,speaker2,clip (pitch + voiceprint),,0.714,0.714
+play/play_owner_20260930-173108-517.wav,play,5,2026-09-30 17:31:08,owner,owner (owner-confirmed higher voice),329.15341375941045,0.286,0.143
+play/play_owner_20260930-173122-802.wav,play,5,2026-09-30 17:31:22,owner,owner (owner-confirmed higher voice),234.09489832078265,0.191,0.0955
+party/party_owner_20260930-173146-748.wav,party,5,2026-09-30 17:31:46,owner,owner (owner-confirmed higher voice),334.9069140864731,0.019,0.0095
+party/party_owner_20260930-173151-912.wav,party,5,2026-09-30 17:31:51,speaker2,clip (pitch + voiceprint),129.1242671020315,0.913,0.9565
+party/party_owner_20260930-173204-769.wav,party,5,2026-09-30 17:32:04,speaker2,clip (pitch + voiceprint),121.17511854086,0.907,0.9535
+party/party_owner_20260930-173211-147.wav,party,5,2026-09-30 17:32:11,owner,owner (owner-confirmed higher voice),242.35023708172005,0.103,0.0515
+party/party_owner_20260930-173216-904.wav,party,5,2026-09-30 17:32:16,owner,owner (owner-confirmed higher voice),226.12076670401177,0.033,0.0165
+party/party_owner_20260930-173222-281.wav,party,5,2026-09-30 17:32:22,speaker2,clip (pitch + voiceprint),119.0934025331198,0.894,0.947

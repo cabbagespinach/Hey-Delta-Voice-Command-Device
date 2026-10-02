@@ -1,0 +1,32 @@
+{
+ "prefix_only": {
+  "command_macro_acc_by_group": {
+   "owner": 0.045,
+   "synthetic": 0.042,
+   "web": 0.032
+  },
+  "chance": 0.034,
+  "unknown_auc_all": 0.532,
+  "unknown_auc_owner": 0.328
+ },
+ "channel_only": {
+  "command_macro_acc_by_group": {
+   "owner": 0.056,
+   "synthetic": 0.364,
+   "web": 0.164
+  },
+  "chance": 0.034,
+  "unknown_auc_all": 0.761,
+  "unknown_auc_owner": 0.617
+ },
+ "length_only": {
+  "command_macro_acc_by_group": {
+   "owner": 0.052,
+   "synthetic": 0.079,
+   "web": 0.119
+  },
+  "chance": 0.034,
+  "unknown_auc_all": 0.619,
+  "unknown_auc_owner": 0.606
+ }
+}

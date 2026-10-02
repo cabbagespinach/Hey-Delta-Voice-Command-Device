@@ -1,0 +1,236 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/negatives_general/Manual-BG-RPI6.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:26:14+00:00",
+ "duration_sec": 23.669333333333334,
+ "input_peak": 0.10204984247684479,
+ "chunks": [
+  {
+   "chunk_start": 0.0,
+   "chunk_end": 0.972,
+   "text": "Have a good one.",
+   "words": [
+    {
+     "word": "Have",
+     "start": 0.0,
+     "end": 0.36,
+     "probability": 0.0575
+    },
+    {
+     "word": "a",
+     "start": 0.36,
+     "end": 0.36,
+     "probability": 0.4019
+    },
+    {
+     "word": "good",
+     "start": 0.36,
+     "end": 0.64,
+     "probability": 0.7271
+    },
+    {
+     "word": "one.",
+     "start": 0.64,
+     "end": 0.7,
+     "probability": 0.7881
+    }
+   ]
+  },
+  {
+   "chunk_start": 1.14,
+   "chunk_end": 4.656,
+   "text": "I'll just ask if there's anything else.",
+   "words": [
+    {
+     "word": "I'll",
+     "start": 1.82,
+     "end": 2.42,
+     "probability": 0.5697
+    },
+    {
+     "word": "just",
+     "start": 2.42,
+     "end": 2.52,
+     "probability": 0.96
+    },
+    {
+     "word": "ask",
+     "start": 2.52,
+     "end": 2.84,
+     "probability": 0.9824
+    },
+    {
+     "word": "if",
+     "start": 2.84,
+     "end": 3.04,
+     "probability": 0.1167
+    },
+    {
+     "word": "there's",
+     "start": 3.04,
+     "end": 3.64,
+     "probability": 0.5819
+    },
+    {
+     "word": "anything",
+     "start": 3.64,
+     "end": 3.64,
+     "probability": 0.7939
+    },
+    {
+     "word": "else.",
+     "start": 3.64,
+     "end": 3.94,
+     "probability": 0.4941
+    }
+   ]
+  },
+  {
+   "chunk_start": 4.656,
+   "chunk_end": 5.676,
+   "text": "Thank you.",
+   "words": [
+    {
+     "word": "Thank",
+     "start": 4.656,
+     "end": 4.876,
+     "probability": 0.0878
+    },
+    {
+     "word": "you.",
+     "start": 4.876,
+     "end": 5.196,
+     "probability": 0.9863
+    }
+   ]
+  },
+  {
+   "chunk_start": 6.644,
+   "chunk_end": 7.788,
+   "text": "",
+   "words": []
+  },
+  {
+   "chunk_start": 10.388,
+   "chunk_end": 15.276,
+   "text": "For now, for now. Maybe next phase, next year.",
+   "words": [
+    {
+     "word": "For",
+     "start": 11.128,
+     "end": 11.448,
+     "probability": 0.1453
+    },
+    {
+     "word": "now,",
+     "start": 11.448,
+     "end": 11.768,
+     "probability": 0.9819
+    },
+    {
+     "word": "for",
+     "start": 11.808,
+     "end": 11.948,
+     "probability": 0.729
+    },
+    {
+     "word": "now.",
+     "start": 11.948,
+     "end": 12.208,
+     "probability": 0.9951
+    },
+    {
+     "word": "Maybe",
+     "start": 13.028,
+     "end": 13.348,
+     "probability": 0.6377
+    },
+    {
+     "word": "next",
+     "start": 13.348,
+     "end": 13.668,
+     "probability": 0.7437
+    },
+    {
+     "word": "phase,",
+     "start": 13.668,
+     "end": 13.968,
+     "probability": 0.3052
+    },
+    {
+     "word": "next",
+     "start": 14.028,
+     "end": 14.148,
+     "probability": 0.7695
+    },
+    {
+     "word": "year.",
+     "start": 14.148,
+     "end": 14.308,
+     "probability": 0.5669
+    }
+   ]
+  },
+  {
+   "chunk_start": 18.324,
+   "chunk_end": 23.669,
+   "text": "because the first rollout will be decided by December",
+   "words": [
+    {
+     "word": "because",
+     "start": 18.324,
+     "end": 18.564,
+     "probability": 0.2686
+    },
+    {
+     "word": "the",
+     "start": 18.564,
+     "end": 18.844,
+     "probability": 0.4836
+    },
+    {
+     "word": "first",
+     "start": 18.844,
+     "end": 19.844,
+     "probability": 0.7959
+    },
+    {
+     "word": "rollout",
+     "start": 19.844,
+     "end": 20.304,
+     "probability": 0.5852
+    },
+    {
+     "word": "will",
+     "start": 20.304,
+     "end": 20.544,
+     "probability": 0.1165
+    },
+    {
+     "word": "be",
+     "start": 20.544,
+     "end": 20.544,
+     "probability": 0.6743
+    },
+    {
+     "word": "decided",
+     "start": 20.544,
+     "end": 20.604,
+     "probability": 0.248
+    },
+    {
+     "word": "by",
+     "start": 20.604,
+     "end": 20.604,
+     "probability": 0.4817
+    },
+    {
+     "word": "December",
+     "start": 20.604,
+     "end": 21.704,
+     "probability": 0.4705
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,234 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0108.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:29:39+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8964122533798218,
+ "chunks": [
+  {
+   "chunk_start": 10.164,
+   "chunk_end": 12.944,
+   "text": "The next episode starts after the commercial.",
+   "words": [
+    {
+     "word": "The",
+     "start": 10.164,
+     "end": 10.484,
+     "probability": 0.9707
+    },
+    {
+     "word": "next",
+     "start": 10.484,
+     "end": 10.684,
+     "probability": 0.9995
+    },
+    {
+     "word": "episode",
+     "start": 10.684,
+     "end": 11.124,
+     "probability": 0.9995
+    },
+    {
+     "word": "starts",
+     "start": 11.124,
+     "end": 11.464,
+     "probability": 0.9995
+    },
+    {
+     "word": "after",
+     "start": 11.464,
+     "end": 11.924,
+     "probability": 0.999
+    },
+    {
+     "word": "the",
+     "start": 11.924,
+     "end": 12.124,
+     "probability": 0.9995
+    },
+    {
+     "word": "commercial.",
+     "start": 12.124,
+     "end": 12.384,
+     "probability": 0.9995
+    }
+   ]
+  },
+  {
+   "chunk_start": 12.944,
+   "chunk_end": 15.692,
+   "text": "I forgot where I put the keys this morning.",
+   "words": [
+    {
+     "word": "I",
+     "start": 12.944,
+     "end": 13.144,
+     "probability": 0.5161
+    },
+    {
+     "word": "forgot",
+     "start": 13.144,
+     "end": 13.444,
+     "probability": 0.9692
+    },
+    {
+     "word": "where",
+     "start": 13.444,
+     "end": 13.864,
+     "probability": 0.9907
+    },
+    {
+     "word": "I",
+     "start": 13.864,
+     "end": 13.924,
+     "probability": 0.9292
+    },
+    {
+     "word": "put",
+     "start": 13.924,
+     "end": 14.124,
+     "probability": 0.9849
+    },
+    {
+     "word": "the",
+     "start": 14.124,
+     "end": 14.304,
+     "probability": 0.9946
+    },
+    {
+     "word": "keys",
+     "start": 14.304,
+     "end": 14.524,
+     "probability": 0.9951
+    },
+    {
+     "word": "this",
+     "start": 14.524,
+     "end": 14.744,
+     "probability": 0.9946
+    },
+    {
+     "word": "morning.",
+     "start": 14.744,
+     "end": 15.124,
+     "probability": 0.999
+    }
+   ]
+  },
+  {
+   "chunk_start": 19.796,
+   "chunk_end": 26.86,
+   "text": "I will call you when I get back. Help! We need to get away, but Peggy ain't one.",
+   "words": [
+    {
+     "word": "I",
+     "start": 19.796,
+     "end": 20.216,
+     "probability": 0.0401
+    },
+    {
+     "word": "will",
+     "start": 20.216,
+     "end": 21.516,
+     "probability": 0.7441
+    },
+    {
+     "word": "call",
+     "start": 21.516,
+     "end": 21.756,
+     "probability": 0.9629
+    },
+    {
+     "word": "you",
+     "start": 21.756,
+     "end": 21.996,
+     "probability": 0.9854
+    },
+    {
+     "word": "when",
+     "start": 21.996,
+     "end": 22.096,
+     "probability": 0.8359
+    },
+    {
+     "word": "I",
+     "start": 22.096,
+     "end": 22.456,
+     "probability": 0.9487
+    },
+    {
+     "word": "get",
+     "start": 22.456,
+     "end": 22.456,
+     "probability": 0.4839
+    },
+    {
+     "word": "back.",
+     "start": 22.456,
+     "end": 22.776,
+     "probability": 0.9766
+    },
+    {
+     "word": "Help!",
+     "start": 22.776,
+     "end": 22.996,
+     "probability": 0.386
+    },
+    {
+     "word": "We",
+     "start": 23.156,
+     "end": 23.636,
+     "probability": 0.3003
+    },
+    {
+     "word": "need",
+     "start": 23.636,
+     "end": 23.676,
+     "probability": 0.6328
+    },
+    {
+     "word": "to",
+     "start": 23.676,
+     "end": 23.776,
+     "probability": 0.4878
+    },
+    {
+     "word": "get",
+     "start": 23.776,
+     "end": 24.016,
+     "probability": 0.1362
+    },
+    {
+     "word": "away,",
+     "start": 24.016,
+     "end": 24.756,
+     "probability": 0.3384
+    },
+    {
+     "word": "but",
+     "start": 24.756,
+     "end": 24.876,
+     "probability": 0.8447
+    },
+    {
+     "word": "Peggy",
+     "start": 24.876,
+     "end": 25.536,
+     "probability": 0.9426
+    },
+    {
+     "word": "ain't",
+     "start": 25.536,
+     "end": 25.996,
+     "probability": 0.6338
+    },
+    {
+     "word": "one.",
+     "start": 25.996,
+     "end": 26.016,
+     "probability": 0.3015
+    }
+   ]
+  }
+ ]
+}

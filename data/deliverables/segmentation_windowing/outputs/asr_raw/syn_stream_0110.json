@@ -1,0 +1,278 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0110.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:29:43+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8795713186264038,
+ "chunks": [
+  {
+   "chunk_start": 0.276,
+   "chunk_end": 6.764,
+   "text": "The children are playing outside in the garden. The road was busy because of the rain.",
+   "words": [
+    {
+     "word": "The",
+     "start": 0.276,
+     "end": 0.616,
+     "probability": 0.7109
+    },
+    {
+     "word": "children",
+     "start": 0.616,
+     "end": 0.836,
+     "probability": 0.9634
+    },
+    {
+     "word": "are",
+     "start": 0.836,
+     "end": 1.116,
+     "probability": 0.9854
+    },
+    {
+     "word": "playing",
+     "start": 1.116,
+     "end": 1.336,
+     "probability": 0.9805
+    },
+    {
+     "word": "outside",
+     "start": 1.336,
+     "end": 1.916,
+     "probability": 0.9961
+    },
+    {
+     "word": "in",
+     "start": 1.916,
+     "end": 2.096,
+     "probability": 0.9746
+    },
+    {
+     "word": "the",
+     "start": 2.096,
+     "end": 2.156,
+     "probability": 0.9946
+    },
+    {
+     "word": "garden.",
+     "start": 2.156,
+     "end": 2.456,
+     "probability": 0.9844
+    },
+    {
+     "word": "The",
+     "start": 4.196,
+     "end": 4.636,
+     "probability": 0.9316
+    },
+    {
+     "word": "road",
+     "start": 4.636,
+     "end": 4.896,
+     "probability": 0.9927
+    },
+    {
+     "word": "was",
+     "start": 4.896,
+     "end": 5.096,
+     "probability": 0.9912
+    },
+    {
+     "word": "busy",
+     "start": 5.096,
+     "end": 5.356,
+     "probability": 0.9971
+    },
+    {
+     "word": "because",
+     "start": 5.356,
+     "end": 5.676,
+     "probability": 0.9922
+    },
+    {
+     "word": "of",
+     "start": 5.676,
+     "end": 5.896,
+     "probability": 0.999
+    },
+    {
+     "word": "the",
+     "start": 5.896,
+     "end": 6.016,
+     "probability": 0.998
+    },
+    {
+     "word": "rain.",
+     "start": 6.016,
+     "end": 6.236,
+     "probability": 0.9985
+    }
+   ]
+  },
+  {
+   "chunk_start": 8.756,
+   "chunk_end": 10.156,
+   "text": "Hey Delta.",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 8.756,
+     "end": 9.156,
+     "probability": 0.8301
+    },
+    {
+     "word": "Delta.",
+     "start": 9.156,
+     "end": 9.436,
+     "probability": 0.7856
+    }
+   ]
+  },
+  {
+   "chunk_start": 13.14,
+   "chunk_end": 16.78,
+   "text": "He doesn't have outside help.",
+   "words": [
+    {
+     "word": "He",
+     "start": 13.14,
+     "end": 13.76,
+     "probability": 0.1986
+    },
+    {
+     "word": "doesn't",
+     "start": 13.76,
+     "end": 14.06,
+     "probability": 0.6844
+    },
+    {
+     "word": "have",
+     "start": 14.06,
+     "end": 14.18,
+     "probability": 0.0961
+    },
+    {
+     "word": "outside",
+     "start": 14.18,
+     "end": 14.58,
+     "probability": 0.2151
+    },
+    {
+     "word": "help.",
+     "start": 14.58,
+     "end": 14.86,
+     "probability": 0.501
+    }
+   ]
+  },
+  {
+   "chunk_start": 18.196,
+   "chunk_end": 20.844,
+   "text": "The next episode starts after the commercial.",
+   "words": [
+    {
+     "word": "The",
+     "start": 18.196,
+     "end": 18.516,
+     "probability": 0.9551
+    },
+    {
+     "word": "next",
+     "start": 18.516,
+     "end": 18.696,
+     "probability": 0.9985
+    },
+    {
+     "word": "episode",
+     "start": 18.696,
+     "end": 19.096,
+     "probability": 0.999
+    },
+    {
+     "word": "starts",
+     "start": 19.096,
+     "end": 19.396,
+     "probability": 0.9995
+    },
+    {
+     "word": "after",
+     "start": 19.396,
+     "end": 19.756,
+     "probability": 0.999
+    },
+    {
+     "word": "the",
+     "start": 19.756,
+     "end": 19.936,
+     "probability": 0.999
+    },
+    {
+     "word": "commercial.",
+     "start": 19.936,
+     "end": 20.176,
+     "probability": 0.9995
+    }
+   ]
+  },
+  {
+   "chunk_start": 24.948,
+   "chunk_end": 27.5,
+   "text": "I forgot where I put the keys this morning.",
+   "words": [
+    {
+     "word": "I",
+     "start": 24.948,
+     "end": 25.268,
+     "probability": 0.9111
+    },
+    {
+     "word": "forgot",
+     "start": 25.268,
+     "end": 25.528,
+     "probability": 0.9922
+    },
+    {
+     "word": "where",
+     "start": 25.528,
+     "end": 25.828,
+     "probability": 0.999
+    },
+    {
+     "word": "I",
+     "start": 25.828,
+     "end": 25.928,
+     "probability": 0.98
+    },
+    {
+     "word": "put",
+     "start": 25.928,
+     "end": 26.128,
+     "probability": 0.999
+    },
+    {
+     "word": "the",
+     "start": 26.128,
+     "end": 26.248,
+     "probability": 0.998
+    },
+    {
+     "word": "keys",
+     "start": 26.248,
+     "end": 26.468,
+     "probability": 0.999
+    },
+    {
+     "word": "this",
+     "start": 26.468,
+     "end": 26.688,
+     "probability": 0.9985
+    },
+    {
+     "word": "morning.",
+     "start": 26.688,
+     "end": 26.988,
+     "probability": 0.9995
+    }
+   ]
+  }
+ ]
+}

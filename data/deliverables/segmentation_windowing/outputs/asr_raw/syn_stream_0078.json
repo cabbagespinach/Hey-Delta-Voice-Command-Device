@@ -1,0 +1,332 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0078.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:28:50+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8998594284057617,
+ "chunks": [
+  {
+   "chunk_start": 6.26,
+   "chunk_end": 10.636,
+   "text": "The machine makes a strange sound sometimes.",
+   "words": [
+    {
+     "word": "The",
+     "start": 6.26,
+     "end": 6.58,
+     "probability": 0.8184
+    },
+    {
+     "word": "machine",
+     "start": 6.58,
+     "end": 6.9,
+     "probability": 0.9224
+    },
+    {
+     "word": "makes",
+     "start": 6.9,
+     "end": 7.4,
+     "probability": 0.9736
+    },
+    {
+     "word": "a",
+     "start": 7.4,
+     "end": 7.56,
+     "probability": 0.6577
+    },
+    {
+     "word": "strange",
+     "start": 7.56,
+     "end": 8.08,
+     "probability": 0.9961
+    },
+    {
+     "word": "sound",
+     "start": 8.08,
+     "end": 8.44,
+     "probability": 0.9058
+    },
+    {
+     "word": "sometimes.",
+     "start": 8.44,
+     "end": 9.0,
+     "probability": 0.9897
+    }
+   ]
+  },
+  {
+   "chunk_start": 10.932,
+   "chunk_end": 14.7,
+   "text": "The battery should last for another hour. Hey, Dilpa.",
+   "words": [
+    {
+     "word": "The",
+     "start": 10.932,
+     "end": 11.252,
+     "probability": 0.4495
+    },
+    {
+     "word": "battery",
+     "start": 11.252,
+     "end": 11.692,
+     "probability": 0.9331
+    },
+    {
+     "word": "should",
+     "start": 11.692,
+     "end": 12.052,
+     "probability": 0.9937
+    },
+    {
+     "word": "last",
+     "start": 12.052,
+     "end": 12.432,
+     "probability": 0.9971
+    },
+    {
+     "word": "for",
+     "start": 12.432,
+     "end": 12.812,
+     "probability": 0.9814
+    },
+    {
+     "word": "another",
+     "start": 12.812,
+     "end": 13.072,
+     "probability": 0.9858
+    },
+    {
+     "word": "hour.",
+     "start": 13.072,
+     "end": 13.512,
+     "probability": 0.8672
+    },
+    {
+     "word": "Hey,",
+     "start": 13.532,
+     "end": 13.652,
+     "probability": 0.7666
+    },
+    {
+     "word": "Dilpa.",
+     "start": 13.712,
+     "end": 14.112,
+     "probability": 0.3303
+    }
+   ]
+  },
+  {
+   "chunk_start": 14.74,
+   "chunk_end": 18.092,
+   "text": "The machine makes a strange sound sometimes.",
+   "words": [
+    {
+     "word": "The",
+     "start": 14.74,
+     "end": 15.08,
+     "probability": 0.6377
+    },
+    {
+     "word": "machine",
+     "start": 15.08,
+     "end": 15.38,
+     "probability": 0.9238
+    },
+    {
+     "word": "makes",
+     "start": 15.38,
+     "end": 15.74,
+     "probability": 0.9932
+    },
+    {
+     "word": "a",
+     "start": 15.74,
+     "end": 15.9,
+     "probability": 0.8931
+    },
+    {
+     "word": "strange",
+     "start": 15.9,
+     "end": 16.22,
+     "probability": 0.998
+    },
+    {
+     "word": "sound",
+     "start": 16.22,
+     "end": 16.68,
+     "probability": 0.9478
+    },
+    {
+     "word": "sometimes.",
+     "start": 16.68,
+     "end": 17.16,
+     "probability": 0.9819
+    }
+   ]
+  },
+  {
+   "chunk_start": 20.084,
+   "chunk_end": 21.42,
+   "text": "Adelta.",
+   "words": [
+    {
+     "word": "Adelta.",
+     "start": 20.084,
+     "end": 20.784,
+     "probability": 0.6908
+    }
+   ]
+  },
+  {
+   "chunk_start": 22.132,
+   "chunk_end": 28.492,
+   "text": "Can you send me the address when you arrive? The battery should last for another hour. I left the package beside the front door.",
+   "words": [
+    {
+     "word": "Can",
+     "start": 22.132,
+     "end": 22.452,
+     "probability": 0.7534
+    },
+    {
+     "word": "you",
+     "start": 22.452,
+     "end": 22.552,
+     "probability": 0.9966
+    },
+    {
+     "word": "send",
+     "start": 22.552,
+     "end": 22.732,
+     "probability": 0.9956
+    },
+    {
+     "word": "me",
+     "start": 22.732,
+     "end": 22.852,
+     "probability": 0.9937
+    },
+    {
+     "word": "the",
+     "start": 22.852,
+     "end": 22.972,
+     "probability": 0.9946
+    },
+    {
+     "word": "address",
+     "start": 22.972,
+     "end": 23.192,
+     "probability": 0.9956
+    },
+    {
+     "word": "when",
+     "start": 23.192,
+     "end": 23.552,
+     "probability": 0.9834
+    },
+    {
+     "word": "you",
+     "start": 23.552,
+     "end": 23.672,
+     "probability": 0.998
+    },
+    {
+     "word": "arrive?",
+     "start": 23.672,
+     "end": 23.872,
+     "probability": 0.9863
+    },
+    {
+     "word": "The",
+     "start": 24.152,
+     "end": 24.252,
+     "probability": 0.9517
+    },
+    {
+     "word": "battery",
+     "start": 24.252,
+     "end": 24.612,
+     "probability": 0.9902
+    },
+    {
+     "word": "should",
+     "start": 24.612,
+     "end": 24.792,
+     "probability": 0.9961
+    },
+    {
+     "word": "last",
+     "start": 24.792,
+     "end": 25.052,
+     "probability": 0.9985
+    },
+    {
+     "word": "for",
+     "start": 25.052,
+     "end": 25.232,
+     "probability": 0.9902
+    },
+    {
+     "word": "another",
+     "start": 25.232,
+     "end": 25.452,
+     "probability": 0.9946
+    },
+    {
+     "word": "hour.",
+     "start": 25.452,
+     "end": 25.872,
+     "probability": 0.999
+    },
+    {
+     "word": "I",
+     "start": 25.972,
+     "end": 26.172,
+     "probability": 0.9897
+    },
+    {
+     "word": "left",
+     "start": 26.172,
+     "end": 26.452,
+     "probability": 0.9922
+    },
+    {
+     "word": "the",
+     "start": 26.452,
+     "end": 26.592,
+     "probability": 0.9814
+    },
+    {
+     "word": "package",
+     "start": 26.592,
+     "end": 26.872,
+     "probability": 0.9971
+    },
+    {
+     "word": "beside",
+     "start": 26.872,
+     "end": 27.292,
+     "probability": 0.9756
+    },
+    {
+     "word": "the",
+     "start": 27.292,
+     "end": 27.532,
+     "probability": 0.999
+    },
+    {
+     "word": "front",
+     "start": 27.532,
+     "end": 27.732,
+     "probability": 0.9971
+    },
+    {
+     "word": "door.",
+     "start": 27.732,
+     "end": 27.992,
+     "probability": 0.999
+    }
+   ]
+  }
+ ]
+}

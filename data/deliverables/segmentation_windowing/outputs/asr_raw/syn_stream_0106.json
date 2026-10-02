@@ -1,0 +1,314 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0106.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:29:37+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8941227197647095,
+ "chunks": [
+  {
+   "chunk_start": 1.812,
+   "chunk_end": 6.604,
+   "text": "Please remember to bring the document tomorrow. The store closes earlier on weekends.",
+   "words": [
+    {
+     "word": "Please",
+     "start": 1.812,
+     "end": 2.192,
+     "probability": 0.436
+    },
+    {
+     "word": "remember",
+     "start": 2.192,
+     "end": 2.552,
+     "probability": 0.9771
+    },
+    {
+     "word": "to",
+     "start": 2.552,
+     "end": 2.832,
+     "probability": 0.9858
+    },
+    {
+     "word": "bring",
+     "start": 2.832,
+     "end": 3.052,
+     "probability": 0.9951
+    },
+    {
+     "word": "the",
+     "start": 3.052,
+     "end": 3.172,
+     "probability": 0.9438
+    },
+    {
+     "word": "document",
+     "start": 3.172,
+     "end": 3.432,
+     "probability": 0.4451
+    },
+    {
+     "word": "tomorrow.",
+     "start": 3.432,
+     "end": 3.672,
+     "probability": 0.5654
+    },
+    {
+     "word": "The",
+     "start": 3.672,
+     "end": 3.732,
+     "probability": 0.8652
+    },
+    {
+     "word": "store",
+     "start": 3.732,
+     "end": 4.012,
+     "probability": 0.9761
+    },
+    {
+     "word": "closes",
+     "start": 4.012,
+     "end": 4.332,
+     "probability": 0.9966
+    },
+    {
+     "word": "earlier",
+     "start": 4.332,
+     "end": 4.912,
+     "probability": 0.9302
+    },
+    {
+     "word": "on",
+     "start": 4.912,
+     "end": 5.312,
+     "probability": 0.9951
+    },
+    {
+     "word": "weekends.",
+     "start": 5.312,
+     "end": 5.712,
+     "probability": 0.9863
+    }
+   ]
+  },
+  {
+   "chunk_start": 9.588,
+   "chunk_end": 10.796,
+   "text": "The Delta.",
+   "words": [
+    {
+     "word": "The",
+     "start": 9.588,
+     "end": 9.848,
+     "probability": 0.1436
+    },
+    {
+     "word": "Delta.",
+     "start": 9.848,
+     "end": 10.208,
+     "probability": 0.9023
+    }
+   ]
+  },
+  {
+   "chunk_start": 11.572,
+   "chunk_end": 15.372,
+   "text": "The machine makes a strange sound sometimes.",
+   "words": [
+    {
+     "word": "The",
+     "start": 11.572,
+     "end": 11.892,
+     "probability": 0.8623
+    },
+    {
+     "word": "machine",
+     "start": 11.892,
+     "end": 12.192,
+     "probability": 0.8901
+    },
+    {
+     "word": "makes",
+     "start": 12.192,
+     "end": 12.812,
+     "probability": 0.9941
+    },
+    {
+     "word": "a",
+     "start": 12.812,
+     "end": 12.992,
+     "probability": 0.9907
+    },
+    {
+     "word": "strange",
+     "start": 12.992,
+     "end": 13.452,
+     "probability": 0.999
+    },
+    {
+     "word": "sound",
+     "start": 13.452,
+     "end": 13.952,
+     "probability": 0.9907
+    },
+    {
+     "word": "sometimes.",
+     "start": 13.952,
+     "end": 14.512,
+     "probability": 0.9907
+    }
+   ]
+  },
+  {
+   "chunk_start": 18.932,
+   "chunk_end": 25.388,
+   "text": "We should probably check the schedule first. I was looking for a quiet place to work.",
+   "words": [
+    {
+     "word": "We",
+     "start": 18.932,
+     "end": 19.272,
+     "probability": 0.7168
+    },
+    {
+     "word": "should",
+     "start": 19.272,
+     "end": 19.472,
+     "probability": 0.9976
+    },
+    {
+     "word": "probably",
+     "start": 19.472,
+     "end": 19.852,
+     "probability": 0.9858
+    },
+    {
+     "word": "check",
+     "start": 19.852,
+     "end": 20.272,
+     "probability": 0.9697
+    },
+    {
+     "word": "the",
+     "start": 20.272,
+     "end": 20.572,
+     "probability": 0.9932
+    },
+    {
+     "word": "schedule",
+     "start": 20.572,
+     "end": 20.812,
+     "probability": 0.9932
+    },
+    {
+     "word": "first.",
+     "start": 20.812,
+     "end": 21.312,
+     "probability": 0.9941
+    },
+    {
+     "word": "I",
+     "start": 22.052,
+     "end": 22.372,
+     "probability": 0.9854
+    },
+    {
+     "word": "was",
+     "start": 22.372,
+     "end": 22.632,
+     "probability": 0.999
+    },
+    {
+     "word": "looking",
+     "start": 22.632,
+     "end": 22.912,
+     "probability": 0.9971
+    },
+    {
+     "word": "for",
+     "start": 22.912,
+     "end": 23.232,
+     "probability": 0.999
+    },
+    {
+     "word": "a",
+     "start": 23.232,
+     "end": 23.412,
+     "probability": 0.9966
+    },
+    {
+     "word": "quiet",
+     "start": 23.412,
+     "end": 23.792,
+     "probability": 0.9907
+    },
+    {
+     "word": "place",
+     "start": 23.792,
+     "end": 24.112,
+     "probability": 0.9985
+    },
+    {
+     "word": "to",
+     "start": 24.112,
+     "end": 24.432,
+     "probability": 0.9985
+    },
+    {
+     "word": "work.",
+     "start": 24.432,
+     "end": 24.732,
+     "probability": 0.9995
+    }
+   ]
+  },
+  {
+   "chunk_start": 26.004,
+   "chunk_end": 29.42,
+   "text": "Please remember to bring the documents tomorrow.",
+   "words": [
+    {
+     "word": "Please",
+     "start": 26.004,
+     "end": 26.424,
+     "probability": 0.9199
+    },
+    {
+     "word": "remember",
+     "start": 26.424,
+     "end": 26.864,
+     "probability": 0.98
+    },
+    {
+     "word": "to",
+     "start": 26.864,
+     "end": 27.224,
+     "probability": 0.9976
+    },
+    {
+     "word": "bring",
+     "start": 27.224,
+     "end": 27.444,
+     "probability": 0.9995
+    },
+    {
+     "word": "the",
+     "start": 27.444,
+     "end": 27.644,
+     "probability": 0.9951
+    },
+    {
+     "word": "documents",
+     "start": 27.644,
+     "end": 28.124,
+     "probability": 0.9888
+    },
+    {
+     "word": "tomorrow.",
+     "start": 28.124,
+     "end": 28.624,
+     "probability": 0.9878
+    }
+   ]
+  }
+ ]
+}

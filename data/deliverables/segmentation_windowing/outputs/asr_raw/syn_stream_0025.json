@@ -1,0 +1,253 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0025.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:27:28+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8984922170639038,
+ "chunks": [
+  {
+   "chunk_start": 2.228,
+   "chunk_end": 7.632,
+   "text": "There's enough time to finish this today.",
+   "words": [
+    {
+     "word": "There's",
+     "start": 5.188,
+     "end": 5.668,
+     "probability": 0.7383
+    },
+    {
+     "word": "enough",
+     "start": 5.668,
+     "end": 5.708,
+     "probability": 0.9556
+    },
+    {
+     "word": "time",
+     "start": 5.708,
+     "end": 6.048,
+     "probability": 0.9907
+    },
+    {
+     "word": "to",
+     "start": 6.048,
+     "end": 6.188,
+     "probability": 0.9897
+    },
+    {
+     "word": "finish",
+     "start": 6.188,
+     "end": 6.628,
+     "probability": 0.998
+    },
+    {
+     "word": "this",
+     "start": 6.628,
+     "end": 6.868,
+     "probability": 0.9971
+    },
+    {
+     "word": "today.",
+     "start": 6.868,
+     "end": 7.108,
+     "probability": 0.9795
+    }
+   ]
+  },
+  {
+   "chunk_start": 7.632,
+   "chunk_end": 12.364,
+   "text": "We should probably check the schedule first. But hey Delta, finish this to me.",
+   "words": [
+    {
+     "word": "We",
+     "start": 7.632,
+     "end": 7.912,
+     "probability": 0.6772
+    },
+    {
+     "word": "should",
+     "start": 7.912,
+     "end": 8.112,
+     "probability": 0.9976
+    },
+    {
+     "word": "probably",
+     "start": 8.112,
+     "end": 8.512,
+     "probability": 0.9902
+    },
+    {
+     "word": "check",
+     "start": 8.512,
+     "end": 9.012,
+     "probability": 0.9971
+    },
+    {
+     "word": "the",
+     "start": 9.012,
+     "end": 9.232,
+     "probability": 0.9951
+    },
+    {
+     "word": "schedule",
+     "start": 9.232,
+     "end": 9.552,
+     "probability": 0.9927
+    },
+    {
+     "word": "first.",
+     "start": 9.552,
+     "end": 10.032,
+     "probability": 0.9902
+    },
+    {
+     "word": "But",
+     "start": 10.152,
+     "end": 10.412,
+     "probability": 0.2656
+    },
+    {
+     "word": "hey",
+     "start": 10.412,
+     "end": 10.412,
+     "probability": 0.4292
+    },
+    {
+     "word": "Delta,",
+     "start": 10.412,
+     "end": 10.892,
+     "probability": 0.6201
+    },
+    {
+     "word": "finish",
+     "start": 10.992,
+     "end": 11.192,
+     "probability": 0.9277
+    },
+    {
+     "word": "this",
+     "start": 11.192,
+     "end": 11.472,
+     "probability": 0.9888
+    },
+    {
+     "word": "to",
+     "start": 11.472,
+     "end": 11.632,
+     "probability": 0.6792
+    },
+    {
+     "word": "me.",
+     "start": 11.632,
+     "end": 11.752,
+     "probability": 0.9692
+    }
+   ]
+  },
+  {
+   "chunk_start": 15.284,
+   "chunk_end": 18.508,
+   "text": "I was looking for a quiet place to work.",
+   "words": [
+    {
+     "word": "I",
+     "start": 15.284,
+     "end": 15.624,
+     "probability": 0.9141
+    },
+    {
+     "word": "was",
+     "start": 15.624,
+     "end": 15.804,
+     "probability": 0.9961
+    },
+    {
+     "word": "looking",
+     "start": 15.804,
+     "end": 16.104,
+     "probability": 0.9966
+    },
+    {
+     "word": "for",
+     "start": 16.104,
+     "end": 16.384,
+     "probability": 0.999
+    },
+    {
+     "word": "a",
+     "start": 16.384,
+     "end": 16.544,
+     "probability": 0.9951
+    },
+    {
+     "word": "quiet",
+     "start": 16.544,
+     "end": 16.924,
+     "probability": 0.9932
+    },
+    {
+     "word": "place",
+     "start": 16.924,
+     "end": 17.244,
+     "probability": 0.998
+    },
+    {
+     "word": "to",
+     "start": 17.244,
+     "end": 17.564,
+     "probability": 0.998
+    },
+    {
+     "word": "work.",
+     "start": 17.564,
+     "end": 17.864,
+     "probability": 0.999
+    }
+   ]
+  },
+  {
+   "chunk_start": 25.94,
+   "chunk_end": 29.9,
+   "text": "The store closes earlier on weekends.",
+   "words": [
+    {
+     "word": "The",
+     "start": 25.94,
+     "end": 26.22,
+     "probability": 0.8345
+    },
+    {
+     "word": "store",
+     "start": 26.22,
+     "end": 26.46,
+     "probability": 0.9741
+    },
+    {
+     "word": "closes",
+     "start": 26.46,
+     "end": 26.88,
+     "probability": 0.9819
+    },
+    {
+     "word": "earlier",
+     "start": 26.88,
+     "end": 27.22,
+     "probability": 0.9404
+    },
+    {
+     "word": "on",
+     "start": 27.22,
+     "end": 27.58,
+     "probability": 0.9951
+    },
+    {
+     "word": "weekends.",
+     "start": 27.58,
+     "end": 27.88,
+     "probability": 0.8965
+    }
+   ]
+  }
+ ]
+}

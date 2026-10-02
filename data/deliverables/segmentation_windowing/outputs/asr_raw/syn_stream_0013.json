@@ -1,0 +1,375 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0013.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:27:12+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8901512622833252,
+ "chunks": [
+  {
+   "chunk_start": 0.0,
+   "chunk_end": 3.148,
+   "text": "Primating starts in about 10 minutes.",
+   "words": [
+    {
+     "word": "Primating",
+     "start": 0.0,
+     "end": 0.58,
+     "probability": 0.4654
+    },
+    {
+     "word": "starts",
+     "start": 0.58,
+     "end": 1.0,
+     "probability": 0.9873
+    },
+    {
+     "word": "in",
+     "start": 1.0,
+     "end": 1.32,
+     "probability": 0.9961
+    },
+    {
+     "word": "about",
+     "start": 1.32,
+     "end": 1.62,
+     "probability": 0.9907
+    },
+    {
+     "word": "10",
+     "start": 1.62,
+     "end": 1.98,
+     "probability": 0.9185
+    },
+    {
+     "word": "minutes.",
+     "start": 1.98,
+     "end": 2.3,
+     "probability": 0.9478
+    }
+   ]
+  },
+  {
+   "chunk_start": 4.244,
+   "chunk_end": 6.732,
+   "text": "I think the blue one is slightly cheaper.",
+   "words": [
+    {
+     "word": "I",
+     "start": 4.244,
+     "end": 4.584,
+     "probability": 0.9565
+    },
+    {
+     "word": "think",
+     "start": 4.584,
+     "end": 4.744,
+     "probability": 0.9985
+    },
+    {
+     "word": "the",
+     "start": 4.744,
+     "end": 4.844,
+     "probability": 0.9932
+    },
+    {
+     "word": "blue",
+     "start": 4.844,
+     "end": 5.024,
+     "probability": 0.9849
+    },
+    {
+     "word": "one",
+     "start": 5.024,
+     "end": 5.224,
+     "probability": 0.9912
+    },
+    {
+     "word": "is",
+     "start": 5.224,
+     "end": 5.444,
+     "probability": 0.9971
+    },
+    {
+     "word": "slightly",
+     "start": 5.444,
+     "end": 5.704,
+     "probability": 0.9937
+    },
+    {
+     "word": "cheaper.",
+     "start": 5.704,
+     "end": 6.144,
+     "probability": 0.999
+    }
+   ]
+  },
+  {
+   "chunk_start": 7.348,
+   "chunk_end": 9.964,
+   "text": "The weather is changing again this afternoon.",
+   "words": [
+    {
+     "word": "The",
+     "start": 7.348,
+     "end": 7.648,
+     "probability": 0.9023
+    },
+    {
+     "word": "weather",
+     "start": 7.648,
+     "end": 7.888,
+     "probability": 0.9971
+    },
+    {
+     "word": "is",
+     "start": 7.888,
+     "end": 8.068,
+     "probability": 0.9985
+    },
+    {
+     "word": "changing",
+     "start": 8.068,
+     "end": 8.388,
+     "probability": 0.999
+    },
+    {
+     "word": "again",
+     "start": 8.388,
+     "end": 8.708,
+     "probability": 0.999
+    },
+    {
+     "word": "this",
+     "start": 8.708,
+     "end": 9.008,
+     "probability": 0.9976
+    },
+    {
+     "word": "afternoon.",
+     "start": 9.008,
+     "end": 9.368,
+     "probability": 0.999
+    }
+   ]
+  },
+  {
+   "chunk_start": 10.548,
+   "chunk_end": 14.348,
+   "text": "We'll order it in an unawaited near TN branch.",
+   "words": [
+    {
+     "word": "We'll",
+     "start": 10.548,
+     "end": 11.228,
+     "probability": 0.3344
+    },
+    {
+     "word": "order",
+     "start": 11.228,
+     "end": 11.328,
+     "probability": 0.8057
+    },
+    {
+     "word": "it",
+     "start": 11.328,
+     "end": 11.688,
+     "probability": 0.6201
+    },
+    {
+     "word": "in",
+     "start": 11.688,
+     "end": 11.868,
+     "probability": 0.916
+    },
+    {
+     "word": "an",
+     "start": 11.868,
+     "end": 12.048,
+     "probability": 0.4348
+    },
+    {
+     "word": "unawaited",
+     "start": 12.048,
+     "end": 12.768,
+     "probability": 0.6671
+    },
+    {
+     "word": "near",
+     "start": 12.768,
+     "end": 12.948,
+     "probability": 0.5435
+    },
+    {
+     "word": "TN",
+     "start": 12.948,
+     "end": 13.368,
+     "probability": 0.5704
+    },
+    {
+     "word": "branch.",
+     "start": 13.368,
+     "end": 13.628,
+     "probability": 0.3218
+    }
+   ]
+  },
+  {
+   "chunk_start": 14.836,
+   "chunk_end": 22.06,
+   "text": "The weather is changing again this afternoon. We had dinner and waited near the entrance.",
+   "words": [
+    {
+     "word": "The",
+     "start": 14.836,
+     "end": 15.356,
+     "probability": 0.5894
+    },
+    {
+     "word": "weather",
+     "start": 15.356,
+     "end": 16.056,
+     "probability": 0.9912
+    },
+    {
+     "word": "is",
+     "start": 16.056,
+     "end": 16.396,
+     "probability": 0.9897
+    },
+    {
+     "word": "changing",
+     "start": 16.396,
+     "end": 16.756,
+     "probability": 0.9961
+    },
+    {
+     "word": "again",
+     "start": 16.756,
+     "end": 17.236,
+     "probability": 0.9946
+    },
+    {
+     "word": "this",
+     "start": 17.236,
+     "end": 17.516,
+     "probability": 0.9941
+    },
+    {
+     "word": "afternoon.",
+     "start": 17.516,
+     "end": 17.896,
+     "probability": 0.9985
+    },
+    {
+     "word": "We",
+     "start": 18.336,
+     "end": 18.836,
+     "probability": 0.5771
+    },
+    {
+     "word": "had",
+     "start": 18.836,
+     "end": 18.836,
+     "probability": 0.623
+    },
+    {
+     "word": "dinner",
+     "start": 18.836,
+     "end": 19.416,
+     "probability": 0.9248
+    },
+    {
+     "word": "and",
+     "start": 19.416,
+     "end": 19.816,
+     "probability": 0.9658
+    },
+    {
+     "word": "waited",
+     "start": 19.816,
+     "end": 20.236,
+     "probability": 0.9956
+    },
+    {
+     "word": "near",
+     "start": 20.236,
+     "end": 20.556,
+     "probability": 0.9814
+    },
+    {
+     "word": "the",
+     "start": 20.556,
+     "end": 20.776,
+     "probability": 0.9946
+    },
+    {
+     "word": "entrance.",
+     "start": 20.776,
+     "end": 21.216,
+     "probability": 0.9927
+    }
+   ]
+  },
+  {
+   "chunk_start": 22.804,
+   "chunk_end": 25.676,
+   "text": "I forgot where I put the keys this morning.",
+   "words": [
+    {
+     "word": "I",
+     "start": 22.804,
+     "end": 23.124,
+     "probability": 0.8643
+    },
+    {
+     "word": "forgot",
+     "start": 23.124,
+     "end": 23.444,
+     "probability": 0.9824
+    },
+    {
+     "word": "where",
+     "start": 23.444,
+     "end": 23.864,
+     "probability": 0.9932
+    },
+    {
+     "word": "I",
+     "start": 23.864,
+     "end": 23.964,
+     "probability": 0.9644
+    },
+    {
+     "word": "put",
+     "start": 23.964,
+     "end": 24.144,
+     "probability": 0.979
+    },
+    {
+     "word": "the",
+     "start": 24.144,
+     "end": 24.284,
+     "probability": 0.9922
+    },
+    {
+     "word": "keys",
+     "start": 24.284,
+     "end": 24.504,
+     "probability": 0.9937
+    },
+    {
+     "word": "this",
+     "start": 24.504,
+     "end": 24.744,
+     "probability": 0.9966
+    },
+    {
+     "word": "morning.",
+     "start": 24.744,
+     "end": 25.124,
+     "probability": 0.999
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,12 @@
+219 trials, 73 commands
+A_clip           n=219 | argmax: ok 100% wrong 0% ask 0% | cautious: ok 93% wrong 0% ask 7% | balanced: ok 100% wrong 0% ask 0%
+B_trimmed        n=219 | argmax: ok 100% wrong 0% ask 0% | cautious: ok 95% wrong 0% ask 5% | balanced: ok 99% wrong 0% ask 1%
+C1_prefix_no_bed n=219 | argmax: ok 99% wrong 0% ask 1% | cautious: ok 89% wrong 0% ask 11% | balanced: ok 99% wrong 0% ask 1%
+C2_bed_no_prefix n=219 | argmax: ok 87% wrong 5% ask 8% | cautious: ok 72% wrong 0% ask 28% | balanced: ok 86% wrong 2% ask 11%
+C_ideal_capture  n=219 | argmax: ok 77% wrong 7% ask 16% | cautious: ok 54% wrong 0% ask 46% | balanced: ok 76% wrong 4% ask 21%
+D_listener       n=174 | argmax: ok 78% wrong 7% ask 15% | cautious: ok 57% wrong 0% ask 43% | balanced: ok 78% wrong 4% ask 18%
+listener by reason: {'end_of_speech': '92% of 106', 'max_length': '57% of 65', 'no_speech_detected': '33% of 3'}
+capture length (s): {'count': 174.0, 'mean': 6.08, 'std': 1.0, 'min': 2.6, '25%': 5.4, '50%': 5.9, '75%': 7.0, 'max': 7.7} ideal: {'count': 219.0, 'mean': 5.38, 'std': 0.55, 'min': 4.14, '25%': 5.05, '50%': 5.4, '75%': 5.59, 'max': 7.34}
+room level in owner clips (dB): {'count': 219.0, 'mean': -43.0, 'std': 2.2, 'min': -46.4, '25%': -44.5, '50%': -43.2, '75%': -41.8, 'max': -33.8}
+added bed level (dB): {'count': 219.0, 'mean': -50.3, 'std': 6.1, 'min': -59.7, '25%': -55.5, '50%': -51.4, '75%': -46.4, 'max': -34.2}
+EXIT=0

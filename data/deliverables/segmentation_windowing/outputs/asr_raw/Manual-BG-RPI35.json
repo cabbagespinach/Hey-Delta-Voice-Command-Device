@@ -1,0 +1,1210 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/negatives_general/Manual-BG-RPI35.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-29T03:03:48+00:00",
+ "duration_sec": 140.192,
+ "input_peak": 0.02509661391377449,
+ "chunks": [
+  {
+   "chunk_start": 1.076,
+   "chunk_end": 2.444,
+   "text": "Are you sure?",
+   "words": [
+    {
+     "word": "Are",
+     "start": 1.076,
+     "end": 1.376,
+     "probability": 0.3008
+    },
+    {
+     "word": "you",
+     "start": 1.376,
+     "end": 1.376,
+     "probability": 0.9927
+    },
+    {
+     "word": "sure?",
+     "start": 1.376,
+     "end": 1.576,
+     "probability": 0.6895
+    }
+   ]
+  },
+  {
+   "chunk_start": 3.028,
+   "chunk_end": 4.876,
+   "text": "Because it was on the test board.",
+   "words": [
+    {
+     "word": "Because",
+     "start": 3.028,
+     "end": 3.248,
+     "probability": 0.0313
+    },
+    {
+     "word": "it",
+     "start": 3.248,
+     "end": 3.248,
+     "probability": 0.3391
+    },
+    {
+     "word": "was",
+     "start": 3.248,
+     "end": 3.288,
+     "probability": 0.6274
+    },
+    {
+     "word": "on",
+     "start": 3.288,
+     "end": 3.288,
+     "probability": 0.7983
+    },
+    {
+     "word": "the",
+     "start": 3.288,
+     "end": 3.288,
+     "probability": 0.8325
+    },
+    {
+     "word": "test",
+     "start": 3.288,
+     "end": 3.388,
+     "probability": 0.1556
+    },
+    {
+     "word": "board.",
+     "start": 3.388,
+     "end": 3.608,
+     "probability": 0.6567
+    }
+   ]
+  },
+  {
+   "chunk_start": 5.428,
+   "chunk_end": 7.308,
+   "text": "You have to say it yourself.",
+   "words": [
+    {
+     "word": "You",
+     "start": 5.428,
+     "end": 5.668,
+     "probability": 0.2003
+    },
+    {
+     "word": "have",
+     "start": 5.668,
+     "end": 5.748,
+     "probability": 0.2537
+    },
+    {
+     "word": "to",
+     "start": 5.748,
+     "end": 5.968,
+     "probability": 0.9893
+    },
+    {
+     "word": "say",
+     "start": 5.968,
+     "end": 5.968,
+     "probability": 0.3074
+    },
+    {
+     "word": "it",
+     "start": 5.968,
+     "end": 6.088,
+     "probability": 0.8062
+    },
+    {
+     "word": "yourself.",
+     "start": 6.088,
+     "end": 6.308,
+     "probability": 0.7524
+    }
+   ]
+  },
+  {
+   "chunk_start": 7.38,
+   "chunk_end": 12.064,
+   "text": "I'm proud of you. I'm proud of you. I'm proud of you.",
+   "words": [
+    {
+     "word": "I'm",
+     "start": 7.38,
+     "end": 7.66,
+     "probability": 0.1913
+    },
+    {
+     "word": "proud",
+     "start": 7.66,
+     "end": 7.66,
+     "probability": 0.8213
+    },
+    {
+     "word": "of",
+     "start": 7.66,
+     "end": 7.7,
+     "probability": 0.73
+    },
+    {
+     "word": "you.",
+     "start": 7.7,
+     "end": 7.88,
+     "probability": 0.5166
+    },
+    {
+     "word": "I'm",
+     "start": 8.2,
+     "end": 8.66,
+     "probability": 0.5427
+    },
+    {
+     "word": "proud",
+     "start": 8.66,
+     "end": 8.98,
+     "probability": 0.9448
+    },
+    {
+     "word": "of",
+     "start": 8.98,
+     "end": 8.98,
+     "probability": 0.9805
+    },
+    {
+     "word": "you.",
+     "start": 8.98,
+     "end": 9.22,
+     "probability": 0.4841
+    },
+    {
+     "word": "I'm",
+     "start": 9.22,
+     "end": 9.22,
+     "probability": 0.8005
+    },
+    {
+     "word": "proud",
+     "start": 9.22,
+     "end": 9.22,
+     "probability": 0.9536
+    },
+    {
+     "word": "of",
+     "start": 9.22,
+     "end": 9.44,
+     "probability": 0.998
+    },
+    {
+     "word": "you.",
+     "start": 9.44,
+     "end": 9.78,
+     "probability": 0.9648
+    }
+   ]
+  },
+  {
+   "chunk_start": 12.064,
+   "chunk_end": 13.516,
+   "text": "Why are you so quiet?",
+   "words": [
+    {
+     "word": "Why",
+     "start": 12.064,
+     "end": 12.324,
+     "probability": 0.2607
+    },
+    {
+     "word": "are",
+     "start": 12.324,
+     "end": 12.344,
+     "probability": 0.2793
+    },
+    {
+     "word": "you",
+     "start": 12.344,
+     "end": 12.464,
+     "probability": 0.9478
+    },
+    {
+     "word": "so",
+     "start": 12.464,
+     "end": 12.484,
+     "probability": 0.6245
+    },
+    {
+     "word": "quiet?",
+     "start": 12.484,
+     "end": 12.664,
+     "probability": 0.6304
+    }
+   ]
+  },
+  {
+   "chunk_start": 14.292,
+   "chunk_end": 15.724,
+   "text": "No, no, no.",
+   "words": [
+    {
+     "word": "No,",
+     "start": 14.292,
+     "end": 14.612,
+     "probability": 0.5259
+    },
+    {
+     "word": "no,",
+     "start": 14.672,
+     "end": 14.772,
+     "probability": 0.8882
+    },
+    {
+     "word": "no.",
+     "start": 14.792,
+     "end": 14.972,
+     "probability": 0.6821
+    }
+   ]
+  },
+  {
+   "chunk_start": 15.86,
+   "chunk_end": 18.604,
+   "text": "I'm going to need you guys to pay for my house.",
+   "words": [
+    {
+     "word": "I'm",
+     "start": 16.08,
+     "end": 16.24,
+     "probability": 0.1913
+    },
+    {
+     "word": "going",
+     "start": 16.24,
+     "end": 16.26,
+     "probability": 0.3821
+    },
+    {
+     "word": "to",
+     "start": 16.26,
+     "end": 16.32,
+     "probability": 0.9766
+    },
+    {
+     "word": "need",
+     "start": 16.32,
+     "end": 16.32,
+     "probability": 0.2646
+    },
+    {
+     "word": "you",
+     "start": 16.32,
+     "end": 16.32,
+     "probability": 0.4175
+    },
+    {
+     "word": "guys",
+     "start": 16.32,
+     "end": 16.32,
+     "probability": 0.4792
+    },
+    {
+     "word": "to",
+     "start": 16.32,
+     "end": 16.4,
+     "probability": 0.6372
+    },
+    {
+     "word": "pay",
+     "start": 16.4,
+     "end": 16.56,
+     "probability": 0.1312
+    },
+    {
+     "word": "for",
+     "start": 16.56,
+     "end": 16.56,
+     "probability": 0.4651
+    },
+    {
+     "word": "my",
+     "start": 16.56,
+     "end": 16.56,
+     "probability": 0.5981
+    },
+    {
+     "word": "house.",
+     "start": 16.56,
+     "end": 16.64,
+     "probability": 0.1809
+    }
+   ]
+  },
+  {
+   "chunk_start": 19.092,
+   "chunk_end": 20.364,
+   "text": "I know everything.",
+   "words": [
+    {
+     "word": "I",
+     "start": 19.092,
+     "end": 19.392,
+     "probability": 0.3096
+    },
+    {
+     "word": "know",
+     "start": 19.392,
+     "end": 19.552,
+     "probability": 0.8145
+    },
+    {
+     "word": "everything.",
+     "start": 19.552,
+     "end": 19.652,
+     "probability": 0.2288
+    }
+   ]
+  },
+  {
+   "chunk_start": 22.004,
+   "chunk_end": 23.372,
+   "text": "But for some reason...",
+   "words": [
+    {
+     "word": "But",
+     "start": 22.004,
+     "end": 22.264,
+     "probability": 0.4934
+    },
+    {
+     "word": "for",
+     "start": 22.264,
+     "end": 22.384,
+     "probability": 0.2373
+    },
+    {
+     "word": "some",
+     "start": 22.384,
+     "end": 22.504,
+     "probability": 0.9883
+    },
+    {
+     "word": "reason...",
+     "start": 22.504,
+     "end": 22.784,
+     "probability": 0.7258
+    }
+   ]
+  },
+  {
+   "chunk_start": 25.78,
+   "chunk_end": 27.084,
+   "text": "I don't think that's enough.",
+   "words": [
+    {
+     "word": "I",
+     "start": 25.78,
+     "end": 26.04,
+     "probability": 0.3384
+    },
+    {
+     "word": "don't",
+     "start": 26.04,
+     "end": 26.32,
+     "probability": 0.7517
+    },
+    {
+     "word": "think",
+     "start": 26.32,
+     "end": 26.32,
+     "probability": 0.959
+    },
+    {
+     "word": "that's",
+     "start": 26.32,
+     "end": 26.42,
+     "probability": 0.4047
+    },
+    {
+     "word": "enough.",
+     "start": 26.42,
+     "end": 26.42,
+     "probability": 0.6089
+    }
+   ]
+  },
+  {
+   "chunk_start": 27.86,
+   "chunk_end": 30.124,
+   "text": "I've been watching you for a few days.",
+   "words": [
+    {
+     "word": "I've",
+     "start": 27.86,
+     "end": 28.26,
+     "probability": 0.2393
+    },
+    {
+     "word": "been",
+     "start": 28.26,
+     "end": 28.32,
+     "probability": 0.708
+    },
+    {
+     "word": "watching",
+     "start": 28.32,
+     "end": 28.32,
+     "probability": 0.8325
+    },
+    {
+     "word": "you",
+     "start": 28.32,
+     "end": 28.32,
+     "probability": 0.3047
+    },
+    {
+     "word": "for",
+     "start": 28.32,
+     "end": 28.32,
+     "probability": 0.7993
+    },
+    {
+     "word": "a",
+     "start": 28.32,
+     "end": 28.32,
+     "probability": 0.335
+    },
+    {
+     "word": "few",
+     "start": 28.32,
+     "end": 28.32,
+     "probability": 0.9194
+    },
+    {
+     "word": "days.",
+     "start": 28.32,
+     "end": 28.6,
+     "probability": 0.9937
+    }
+   ]
+  },
+  {
+   "chunk_start": 30.772,
+   "chunk_end": 32.716,
+   "text": "I don't seem to be interested in anything like that.",
+   "words": [
+    {
+     "word": "I",
+     "start": 30.772,
+     "end": 30.952,
+     "probability": 0.1777
+    },
+    {
+     "word": "don't",
+     "start": 30.952,
+     "end": 31.612,
+     "probability": 0.6274
+    },
+    {
+     "word": "seem",
+     "start": 31.612,
+     "end": 31.632,
+     "probability": 0.0984
+    },
+    {
+     "word": "to",
+     "start": 31.632,
+     "end": 32.012,
+     "probability": 0.4976
+    },
+    {
+     "word": "be",
+     "start": 32.012,
+     "end": 32.012,
+     "probability": 0.4358
+    },
+    {
+     "word": "interested",
+     "start": 32.012,
+     "end": 32.032,
+     "probability": 0.9575
+    },
+    {
+     "word": "in",
+     "start": 32.032,
+     "end": 32.032,
+     "probability": 0.9634
+    },
+    {
+     "word": "anything",
+     "start": 32.032,
+     "end": 32.032,
+     "probability": 0.1151
+    },
+    {
+     "word": "like",
+     "start": 32.032,
+     "end": 32.032,
+     "probability": 0.7803
+    },
+    {
+     "word": "that.",
+     "start": 32.032,
+     "end": 32.032,
+     "probability": 0.1296
+    }
+   ]
+  },
+  {
+   "chunk_start": 41.3,
+   "chunk_end": 42.764,
+   "text": "There's nothing like that.",
+   "words": [
+    {
+     "word": "There's",
+     "start": 41.3,
+     "end": 41.46,
+     "probability": 0.4877
+    },
+    {
+     "word": "nothing",
+     "start": 41.46,
+     "end": 41.62,
+     "probability": 0.5889
+    },
+    {
+     "word": "like",
+     "start": 41.62,
+     "end": 41.78,
+     "probability": 0.6631
+    },
+    {
+     "word": "that.",
+     "start": 41.78,
+     "end": 41.8,
+     "probability": 0.8164
+    }
+   ]
+  },
+  {
+   "chunk_start": 45.332,
+   "chunk_end": 49.068,
+   "text": "I'm just trying to achieve what I want.",
+   "words": [
+    {
+     "word": "I'm",
+     "start": 45.332,
+     "end": 45.512,
+     "probability": 0.3232
+    },
+    {
+     "word": "just",
+     "start": 45.512,
+     "end": 45.512,
+     "probability": 0.7812
+    },
+    {
+     "word": "trying",
+     "start": 45.512,
+     "end": 45.872,
+     "probability": 0.7788
+    },
+    {
+     "word": "to",
+     "start": 45.872,
+     "end": 45.872,
+     "probability": 0.9492
+    },
+    {
+     "word": "achieve",
+     "start": 45.872,
+     "end": 45.912,
+     "probability": 0.437
+    },
+    {
+     "word": "what",
+     "start": 45.912,
+     "end": 45.912,
+     "probability": 0.7939
+    },
+    {
+     "word": "I",
+     "start": 45.912,
+     "end": 45.972,
+     "probability": 0.9692
+    },
+    {
+     "word": "want.",
+     "start": 45.972,
+     "end": 47.012,
+     "probability": 0.9365
+    }
+   ]
+  },
+  {
+   "chunk_start": 49.972,
+   "chunk_end": 50.732,
+   "text": "This is the key.",
+   "words": [
+    {
+     "word": "This",
+     "start": 49.972,
+     "end": 50.132,
+     "probability": 0.0074
+    },
+    {
+     "word": "is",
+     "start": 50.132,
+     "end": 50.232,
+     "probability": 0.7905
+    },
+    {
+     "word": "the",
+     "start": 50.232,
+     "end": 50.252,
+     "probability": 0.0984
+    },
+    {
+     "word": "key.",
+     "start": 50.252,
+     "end": 50.552,
+     "probability": 0.4341
+    }
+   ]
+  },
+  {
+   "chunk_start": 51.988,
+   "chunk_end": 53.376,
+   "text": "I'm just a normal person.",
+   "words": [
+    {
+     "word": "I'm",
+     "start": 51.988,
+     "end": 51.988,
+     "probability": 0.1678
+    },
+    {
+     "word": "just",
+     "start": 51.988,
+     "end": 52.148,
+     "probability": 0.2739
+    },
+    {
+     "word": "a",
+     "start": 52.148,
+     "end": 52.148,
+     "probability": 0.6719
+    },
+    {
+     "word": "normal",
+     "start": 52.148,
+     "end": 52.148,
+     "probability": 0.4866
+    },
+    {
+     "word": "person.",
+     "start": 52.148,
+     "end": 52.428,
+     "probability": 0.6924
+    }
+   ]
+  },
+  {
+   "chunk_start": 53.376,
+   "chunk_end": 54.028,
+   "text": "Thank you.",
+   "words": [
+    {
+     "word": "Thank",
+     "start": 53.376,
+     "end": 53.516,
+     "probability": 0.1488
+    },
+    {
+     "word": "you.",
+     "start": 53.516,
+     "end": 53.516,
+     "probability": 0.9956
+    }
+   ]
+  },
+  {
+   "chunk_start": 55.444,
+   "chunk_end": 56.396,
+   "text": "",
+   "words": []
+  },
+  {
+   "chunk_start": 61.172,
+   "chunk_end": 62.572,
+   "text": "Thank you for watching my video today.",
+   "words": [
+    {
+     "word": "Thank",
+     "start": 61.172,
+     "end": 61.532,
+     "probability": 0.0205
+    },
+    {
+     "word": "you",
+     "start": 61.532,
+     "end": 61.852,
+     "probability": 0.9868
+    },
+    {
+     "word": "for",
+     "start": 61.852,
+     "end": 61.852,
+     "probability": 0.3906
+    },
+    {
+     "word": "watching",
+     "start": 61.852,
+     "end": 61.852,
+     "probability": 0.917
+    },
+    {
+     "word": "my",
+     "start": 61.852,
+     "end": 61.852,
+     "probability": 0.0768
+    },
+    {
+     "word": "video",
+     "start": 61.852,
+     "end": 61.892,
+     "probability": 0.8164
+    },
+    {
+     "word": "today.",
+     "start": 61.892,
+     "end": 61.892,
+     "probability": 0.2164
+    }
+   ]
+  },
+  {
+   "chunk_start": 62.964,
+   "chunk_end": 63.98,
+   "text": "Let's do a good job?",
+   "words": [
+    {
+     "word": "Let's",
+     "start": 62.964,
+     "end": 63.044,
+     "probability": 0.5663
+    },
+    {
+     "word": "do",
+     "start": 63.044,
+     "end": 63.044,
+     "probability": 0.6304
+    },
+    {
+     "word": "a",
+     "start": 63.044,
+     "end": 63.124,
+     "probability": 0.0823
+    },
+    {
+     "word": "good",
+     "start": 63.124,
+     "end": 63.164,
+     "probability": 0.8735
+    },
+    {
+     "word": "job?",
+     "start": 63.164,
+     "end": 63.264,
+     "probability": 0.9634
+    }
+   ]
+  },
+  {
+   "chunk_start": 80.948,
+   "chunk_end": 81.9,
+   "text": "I'll see you guys in the next video, bye!",
+   "words": [
+    {
+     "word": "I'll",
+     "start": 80.948,
+     "end": 80.948,
+     "probability": 0.1035
+    },
+    {
+     "word": "see",
+     "start": 80.948,
+     "end": 81.048,
+     "probability": 0.3069
+    },
+    {
+     "word": "you",
+     "start": 81.048,
+     "end": 81.288,
+     "probability": 0.9634
+    },
+    {
+     "word": "guys",
+     "start": 81.288,
+     "end": 81.428,
+     "probability": 0.3701
+    },
+    {
+     "word": "in",
+     "start": 81.428,
+     "end": 81.768,
+     "probability": 0.3567
+    },
+    {
+     "word": "the",
+     "start": 81.768,
+     "end": 81.768,
+     "probability": 0.4868
+    },
+    {
+     "word": "next",
+     "start": 81.768,
+     "end": 81.768,
+     "probability": 0.9707
+    },
+    {
+     "word": "video,",
+     "start": 81.768,
+     "end": 81.868,
+     "probability": 0.4529
+    },
+    {
+     "word": "bye!",
+     "start": 81.868,
+     "end": 81.868,
+     "probability": 0.5469
+    }
+   ]
+  },
+  {
+   "chunk_start": 83.444,
+   "chunk_end": 84.844,
+   "text": "Chiguki?",
+   "words": [
+    {
+     "word": "Chiguki?",
+     "start": 83.444,
+     "end": 83.984,
+     "probability": 0.2657
+    }
+   ]
+  },
+  {
+   "chunk_start": 86.324,
+   "chunk_end": 87.628,
+   "text": "There's nothing like that.",
+   "words": [
+    {
+     "word": "There's",
+     "start": 86.324,
+     "end": 86.484,
+     "probability": 0.4672
+    },
+    {
+     "word": "nothing",
+     "start": 86.484,
+     "end": 86.524,
+     "probability": 0.5293
+    },
+    {
+     "word": "like",
+     "start": 86.524,
+     "end": 86.744,
+     "probability": 0.7871
+    },
+    {
+     "word": "that.",
+     "start": 86.744,
+     "end": 86.744,
+     "probability": 0.8999
+    }
+   ]
+  },
+  {
+   "chunk_start": 89.908,
+   "chunk_end": 93.932,
+   "text": "I'm just trying to achieve what I want.",
+   "words": [
+    {
+     "word": "I'm",
+     "start": 89.908,
+     "end": 90.148,
+     "probability": 0.4227
+    },
+    {
+     "word": "just",
+     "start": 90.148,
+     "end": 90.308,
+     "probability": 0.8857
+    },
+    {
+     "word": "trying",
+     "start": 90.308,
+     "end": 90.708,
+     "probability": 0.8145
+    },
+    {
+     "word": "to",
+     "start": 90.708,
+     "end": 90.708,
+     "probability": 0.9512
+    },
+    {
+     "word": "achieve",
+     "start": 90.708,
+     "end": 90.788,
+     "probability": 0.3494
+    },
+    {
+     "word": "what",
+     "start": 90.788,
+     "end": 90.788,
+     "probability": 0.8628
+    },
+    {
+     "word": "I",
+     "start": 90.788,
+     "end": 90.868,
+     "probability": 0.9639
+    },
+    {
+     "word": "want.",
+     "start": 90.868,
+     "end": 91.228,
+     "probability": 0.958
+    }
+   ]
+  },
+  {
+   "chunk_start": 94.868,
+   "chunk_end": 96.428,
+   "text": "It's terrible.",
+   "words": [
+    {
+     "word": "It's",
+     "start": 94.868,
+     "end": 94.948,
+     "probability": 0.4392
+    },
+    {
+     "word": "terrible.",
+     "start": 94.948,
+     "end": 95.168,
+     "probability": 0.1666
+    }
+   ]
+  },
+  {
+   "chunk_start": 96.66,
+   "chunk_end": 98.304,
+   "text": "I'm just a normal person.",
+   "words": [
+    {
+     "word": "I'm",
+     "start": 96.66,
+     "end": 96.82,
+     "probability": 0.3078
+    },
+    {
+     "word": "just",
+     "start": 96.82,
+     "end": 96.98,
+     "probability": 0.4749
+    },
+    {
+     "word": "a",
+     "start": 96.98,
+     "end": 97.06,
+     "probability": 0.5913
+    },
+    {
+     "word": "normal",
+     "start": 97.06,
+     "end": 97.06,
+     "probability": 0.811
+    },
+    {
+     "word": "person.",
+     "start": 97.06,
+     "end": 97.3,
+     "probability": 0.6523
+    }
+   ]
+  },
+  {
+   "chunk_start": 98.304,
+   "chunk_end": 99.02,
+   "text": "Thank you.",
+   "words": [
+    {
+     "word": "Thank",
+     "start": 98.304,
+     "end": 98.464,
+     "probability": 0.1562
+    },
+    {
+     "word": "you.",
+     "start": 98.464,
+     "end": 98.524,
+     "probability": 0.9956
+    }
+   ]
+  },
+  {
+   "chunk_start": 100.212,
+   "chunk_end": 101.228,
+   "text": "",
+   "words": []
+  },
+  {
+   "chunk_start": 102.868,
+   "chunk_end": 104.236,
+   "text": "I want to.",
+   "words": [
+    {
+     "word": "I",
+     "start": 102.868,
+     "end": 103.068,
+     "probability": 0.3682
+    },
+    {
+     "word": "want",
+     "start": 103.068,
+     "end": 103.228,
+     "probability": 0.3408
+    },
+    {
+     "word": "to.",
+     "start": 103.228,
+     "end": 103.308,
+     "probability": 0.71
+    }
+   ]
+  },
+  {
+   "chunk_start": 105.748,
+   "chunk_end": 107.5,
+   "text": "Until you don't need it anymore.",
+   "words": [
+    {
+     "word": "Until",
+     "start": 105.748,
+     "end": 105.968,
+     "probability": 0.0191
+    },
+    {
+     "word": "you",
+     "start": 105.968,
+     "end": 105.968,
+     "probability": 0.3286
+    },
+    {
+     "word": "don't",
+     "start": 105.968,
+     "end": 106.168,
+     "probability": 0.843
+    },
+    {
+     "word": "need",
+     "start": 106.168,
+     "end": 106.168,
+     "probability": 0.8984
+    },
+    {
+     "word": "it",
+     "start": 106.168,
+     "end": 106.388,
+     "probability": 0.3125
+    },
+    {
+     "word": "anymore.",
+     "start": 106.388,
+     "end": 106.588,
+     "probability": 0.4495
+    }
+   ]
+  },
+  {
+   "chunk_start": 107.892,
+   "chunk_end": 108.94,
+   "text": "That's what I was about to say.",
+   "words": [
+    {
+     "word": "That's",
+     "start": 107.892,
+     "end": 107.892,
+     "probability": 0.3621
+    },
+    {
+     "word": "what",
+     "start": 107.892,
+     "end": 107.892,
+     "probability": 0.1243
+    },
+    {
+     "word": "I",
+     "start": 107.892,
+     "end": 107.992,
+     "probability": 0.6445
+    },
+    {
+     "word": "was",
+     "start": 107.992,
+     "end": 108.092,
+     "probability": 0.5898
+    },
+    {
+     "word": "about",
+     "start": 108.092,
+     "end": 108.292,
+     "probability": 0.218
+    },
+    {
+     "word": "to",
+     "start": 108.292,
+     "end": 108.412,
+     "probability": 0.731
+    },
+    {
+     "word": "say.",
+     "start": 108.412,
+     "end": 108.412,
+     "probability": 0.8877
+    }
+   ]
+  },
+  {
+   "chunk_start": 110.612,
+   "chunk_end": 111.852,
+   "text": "Thank you.",
+   "words": [
+    {
+     "word": "Thank",
+     "start": 110.612,
+     "end": 111.112,
+     "probability": 0.0984
+    },
+    {
+     "word": "you.",
+     "start": 111.112,
+     "end": 111.112,
+     "probability": 0.9951
+    }
+   ]
+  },
+  {
+   "chunk_start": 112.852,
+   "chunk_end": 113.612,
+   "text": "Oh",
+   "words": [
+    {
+     "word": "Oh",
+     "start": 112.852,
+     "end": 113.072,
+     "probability": 0.0615
+    }
+   ]
+  }
+ ]
+}

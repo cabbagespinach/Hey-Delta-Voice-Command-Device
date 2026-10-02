@@ -1,0 +1,253 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0099.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:29:23+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8987493515014648,
+ "chunks": [
+  {
+   "chunk_start": 7.508,
+   "chunk_end": 11.596,
+   "text": "He will tell you when we get back home to discuss.",
+   "words": [
+    {
+     "word": "He",
+     "start": 7.508,
+     "end": 7.888,
+     "probability": 0.238
+    },
+    {
+     "word": "will",
+     "start": 7.888,
+     "end": 8.188,
+     "probability": 0.9888
+    },
+    {
+     "word": "tell",
+     "start": 8.188,
+     "end": 8.528,
+     "probability": 0.8286
+    },
+    {
+     "word": "you",
+     "start": 8.528,
+     "end": 8.688,
+     "probability": 0.9653
+    },
+    {
+     "word": "when",
+     "start": 8.688,
+     "end": 9.008,
+     "probability": 0.9414
+    },
+    {
+     "word": "we",
+     "start": 9.008,
+     "end": 9.308,
+     "probability": 0.7212
+    },
+    {
+     "word": "get",
+     "start": 9.308,
+     "end": 9.588,
+     "probability": 0.9424
+    },
+    {
+     "word": "back",
+     "start": 9.588,
+     "end": 9.848,
+     "probability": 0.6328
+    },
+    {
+     "word": "home",
+     "start": 9.848,
+     "end": 10.168,
+     "probability": 0.9463
+    },
+    {
+     "word": "to",
+     "start": 10.168,
+     "end": 10.448,
+     "probability": 0.8423
+    },
+    {
+     "word": "discuss.",
+     "start": 10.448,
+     "end": 10.788,
+     "probability": 0.9995
+    }
+   ]
+  },
+  {
+   "chunk_start": 13.204,
+   "chunk_end": 14.508,
+   "text": "Hey Delta!",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 13.204,
+     "end": 13.584,
+     "probability": 0.7197
+    },
+    {
+     "word": "Delta!",
+     "start": 13.584,
+     "end": 13.804,
+     "probability": 0.6763
+    }
+   ]
+  },
+  {
+   "chunk_start": 15.284,
+   "chunk_end": 21.26,
+   "text": "There is enough time to finish. There are several things we need to discuss",
+   "words": [
+    {
+     "word": "There",
+     "start": 15.284,
+     "end": 15.724,
+     "probability": 0.8394
+    },
+    {
+     "word": "is",
+     "start": 15.724,
+     "end": 15.884,
+     "probability": 0.9702
+    },
+    {
+     "word": "enough",
+     "start": 15.884,
+     "end": 16.144,
+     "probability": 0.9902
+    },
+    {
+     "word": "time",
+     "start": 16.144,
+     "end": 16.484,
+     "probability": 0.9873
+    },
+    {
+     "word": "to",
+     "start": 16.484,
+     "end": 16.744,
+     "probability": 0.9873
+    },
+    {
+     "word": "finish.",
+     "start": 16.744,
+     "end": 17.044,
+     "probability": 0.9951
+    },
+    {
+     "word": "There",
+     "start": 17.124,
+     "end": 17.484,
+     "probability": 0.9282
+    },
+    {
+     "word": "are",
+     "start": 17.484,
+     "end": 17.524,
+     "probability": 0.9966
+    },
+    {
+     "word": "several",
+     "start": 17.524,
+     "end": 17.764,
+     "probability": 0.9951
+    },
+    {
+     "word": "things",
+     "start": 17.764,
+     "end": 18.104,
+     "probability": 0.9937
+    },
+    {
+     "word": "we",
+     "start": 18.104,
+     "end": 18.384,
+     "probability": 0.8267
+    },
+    {
+     "word": "need",
+     "start": 18.384,
+     "end": 18.544,
+     "probability": 0.957
+    },
+    {
+     "word": "to",
+     "start": 18.544,
+     "end": 18.684,
+     "probability": 0.9824
+    },
+    {
+     "word": "discuss",
+     "start": 18.684,
+     "end": 18.884,
+     "probability": 0.9536
+    }
+   ]
+  },
+  {
+   "chunk_start": 24.468,
+   "chunk_end": 27.788,
+   "text": "I think that Bluey only is 63 years old.",
+   "words": [
+    {
+     "word": "I",
+     "start": 24.468,
+     "end": 24.828,
+     "probability": 0.2671
+    },
+    {
+     "word": "think",
+     "start": 24.828,
+     "end": 25.108,
+     "probability": 0.5142
+    },
+    {
+     "word": "that",
+     "start": 25.108,
+     "end": 25.368,
+     "probability": 0.3777
+    },
+    {
+     "word": "Bluey",
+     "start": 25.368,
+     "end": 25.728,
+     "probability": 0.7048
+    },
+    {
+     "word": "only",
+     "start": 25.728,
+     "end": 25.928,
+     "probability": 0.9683
+    },
+    {
+     "word": "is",
+     "start": 25.928,
+     "end": 26.188,
+     "probability": 0.8823
+    },
+    {
+     "word": "63",
+     "start": 26.188,
+     "end": 26.568,
+     "probability": 0.2554
+    },
+    {
+     "word": "years",
+     "start": 26.568,
+     "end": 26.888,
+     "probability": 0.1229
+    },
+    {
+     "word": "old.",
+     "start": 26.888,
+     "end": 27.088,
+     "probability": 0.9238
+    }
+   ]
+  }
+ ]
+}

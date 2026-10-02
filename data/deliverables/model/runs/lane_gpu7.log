@@ -1,0 +1,56 @@
+=== bcresnet3: train (23:34) ===
+epoch  0 loss 0.5866 | val AUC 0.7597 thr 0.440 RPI 0.000 syn 0.000 * | 37s
+epoch  1 loss 0.5240 | val AUC 0.7477 thr 0.669 RPI 0.459 syn 0.010 * | 58s
+epoch  2 loss 0.4548 | val AUC 0.8975 thr 0.956 RPI 0.297 syn 0.180 * | 81s
+epoch  3 loss 0.3630 | val AUC 0.9829 thr 0.926 RPI 0.622 syn 0.222 * | 104s
+epoch  4 loss 0.3075 | val AUC 0.9926 thr 0.932 RPI 0.757 syn 0.531 * | 143s
+epoch  6 loss 0.2634 | val AUC 0.9947 thr 0.975 RPI 0.919 syn 0.407 * | 182s
+epoch  8 loss 0.2416 | val AUC 0.9867 thr 0.928 RPI 0.838 syn 0.613 * | 226s
+epoch 10 loss 0.2286 | val AUC 0.9877 thr 0.951 RPI 0.838 syn 0.670 * | 265s
+epoch 11 loss 0.2251 | val AUC 0.9920 thr 0.962 RPI 0.946 syn 0.634 * | 283s
+epoch 12 loss 0.2210 | val AUC 0.9941 thr 0.979 RPI 0.973 syn 0.768 * | 302s
+epoch 18 loss 0.2064 | val AUC 0.9814 thr 0.932 RPI 0.919 syn 0.825 * | 419s
+epoch 19 loss 0.2048 | val AUC 0.9917 thr 0.947 RPI 0.973 syn 0.856 * | 439s
+epoch 28 loss 0.1898 | val AUC 0.9899 thr 0.943 RPI 0.946 syn 0.897 * | 622s
+epoch 29 loss 0.1938 | val AUC 0.9803 thr 0.744 RPI 1.000 syn 0.887 * | 641s
+epoch 33 loss 0.1889 | val AUC 0.9951 thr 0.853 RPI 1.000 syn 0.902 * | 731s
+epoch 47 loss 0.1802 | val AUC 0.9900 thr 0.803 RPI 1.000 syn 0.907 * | 1132s
+epoch 48 loss 0.1797 | val AUC 0.9912 thr 0.815 RPI 1.000 syn 0.907 * | 1170s
+best epoch 48: selection 0.954, AUC 0.9912 -> /home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/deliverables/model/runs/bcresnet3/best.pt
+=== bcresnet3: evaluate (00:11) ===
+[isolated] AUC 0.9912, threshold 0.8153
+[streaming] 14.55 FA/h, detection 0.230
+| hey_android | 1112 | 8 | 0.72% [0.31, 1.41]% | 3 | 0.27% [0.06, 0.79]% | 2 / 50 |
+| hey_snapdragon | 1112 | 0 | 0.00% [0.00, 0.33]% | 2 | 0.18% [0.02, 0.65]% | 2 / 50 |
+| hi_galaxy | 934 | 0 | 0.00% [0.00, 0.39]% | 2 | 0.21% [0.03, 0.77]% | 2 / 50 |
+| hi_lumina | 1112 | 0 | 0.00% [0.00, 0.33]% | 0 | 0.00% [0.00, 0.33]% | 0 / 50 |
+| **all** | 4270 | 8 | 0.19% [0.08, 0.37]% | 7 | 0.16% [0.07, 0.34]% | 6 / 50 |
+
+=== bcresnet1: train (00:23) ===
+epoch  0 loss 0.7006 | val AUC 0.5642 thr 0.719 RPI 0.000 syn 0.000 * | 23s
+epoch  1 loss 0.5611 | val AUC 0.6594 thr 0.563 RPI 0.000 syn 0.000 * | 39s
+epoch  2 loss 0.5262 | val AUC 0.8994 thr 0.686 RPI 0.081 syn 0.000 * | 56s
+epoch  3 loss 0.4742 | val AUC 0.9518 thr 0.765 RPI 0.189 syn 0.015 * | 73s
+epoch  4 loss 0.4231 | val AUC 0.9862 thr 0.948 RPI 0.108 syn 0.304 * | 89s
+epoch  6 loss 0.3644 | val AUC 0.9899 thr 0.944 RPI 0.378 syn 0.397 * | 122s
+epoch  8 loss 0.3334 | val AUC 0.9872 thr 0.967 RPI 0.595 syn 0.278 * | 154s
+epoch  9 loss 0.3212 | val AUC 0.9915 thr 0.957 RPI 0.703 syn 0.407 * | 171s
+epoch 10 loss 0.3132 | val AUC 0.9905 thr 0.967 RPI 0.757 syn 0.418 * | 187s
+epoch 14 loss 0.2895 | val AUC 0.9901 thr 0.966 RPI 0.784 syn 0.428 * | 268s
+epoch 16 loss 0.2812 | val AUC 0.9910 thr 0.967 RPI 0.865 syn 0.485 * | 301s
+epoch 22 loss 0.2642 | val AUC 0.9918 thr 0.975 RPI 0.865 syn 0.624 * | 405s
+epoch 26 loss 0.2581 | val AUC 0.9932 thr 0.960 RPI 0.946 syn 0.552 * | 473s
+epoch 29 loss 0.2545 | val AUC 0.9930 thr 0.969 RPI 0.946 syn 0.660 * | 525s
+epoch 31 loss 0.2515 | val AUC 0.9910 thr 0.944 RPI 0.946 syn 0.711 * | 560s
+epoch 42 loss 0.2392 | val AUC 0.9939 thr 0.944 RPI 0.946 syn 0.716 * | 747s
+best epoch 42: selection 0.831, AUC 0.9939 -> /home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/deliverables/model/runs/bcresnet1/best.pt
+=== bcresnet1: evaluate (00:48) ===
+[isolated] AUC 0.9939, threshold 0.9438
+[streaming] 5.59 FA/h, detection 0.144
+| hey_android | 1112 | 1 | 0.09% [0.00, 0.50]% | 1 | 0.09% [0.00, 0.50]% | 1 / 50 |
+| hey_snapdragon | 1112 | 0 | 0.00% [0.00, 0.33]% | 4 | 0.36% [0.10, 0.92]% | 2 / 50 |
+| hi_galaxy | 934 | 0 | 0.00% [0.00, 0.39]% | 0 | 0.00% [0.00, 0.39]% | 0 / 50 |
+| hi_lumina | 1112 | 0 | 0.00% [0.00, 0.33]% | 0 | 0.00% [0.00, 0.33]% | 0 / 50 |
+| **all** | 4270 | 1 | 0.02% [0.00, 0.13]% | 5 | 0.12% [0.04, 0.27]% | 3 / 50 |
+
+=== lane 3 1 done (00:52) ===

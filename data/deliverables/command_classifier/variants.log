@@ -1,0 +1,14 @@
+=== 1 synthesize phrasings (test voices) 10:24:15
+20 test voices (6 ph) x 121 phrasings
+wrote 2420 clips; 0 failed to synthesize -> /mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/commands_variants_test/manifest.csv
+=== 2 wait for ownernoise run 10:27:47
+=== 3 score (GPU 2) 10:52:03
+Whisper: 2340 of 2420 clips say their phrasing; the rest are left out
+                  clips correct wrong command rejected                                                                                                                 wrong as
+other phrasings    1761     73%            3%      24%  call_jane, lights_off, next, pause, play, play_music, set_alarm_6am, set_temperature_26, stop, time, volume_up, weather
+trained phrasing    579    100%            0%       0%                                                                                                                         
+                  clips correct wrong command rejected                                                    wrong as
+other phrasings    1761     66%            2%      32%  lights_on, pause, play, stop, time, volume_down, volume_up
+trained phrasing    579    100%            0%       0%                                                            
+-> /mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/deliverables/command_classifier/evaluation/results/phrasing_variants_summary.md
+=== ALL DONE 10:57:54

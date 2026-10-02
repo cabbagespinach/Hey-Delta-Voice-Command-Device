@@ -1,0 +1,28 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/positives/en_GB-alan-medium_spd1.0_pit2.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:26:41+00:00",
+ "duration_sec": 0.9636281179138322,
+ "input_peak": 0.9519082307815552,
+ "chunks": [
+  {
+   "chunk_start": 0.0,
+   "chunk_end": 0.964,
+   "text": "Hey Delta.",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 0.0,
+     "end": 0.2,
+     "probability": 0.8442
+    },
+    {
+     "word": "Delta.",
+     "start": 0.2,
+     "end": 0.44,
+     "probability": 0.9453
+    }
+   ]
+  }
+ ]
+}

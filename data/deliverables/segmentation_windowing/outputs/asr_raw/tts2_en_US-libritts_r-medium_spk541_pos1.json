@@ -1,0 +1,28 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/positives/tts2_en_US-libritts_r-medium_spk541_pos1.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-29T13:39:55+00:00",
+ "duration_sec": 0.615328798185941,
+ "input_peak": 1.0046002864837646,
+ "chunks": [
+  {
+   "chunk_start": 0.0,
+   "chunk_end": 0.615,
+   "text": "Hey, Delta.",
+   "words": [
+    {
+     "word": "Hey,",
+     "start": 0.0,
+     "end": 0.14,
+     "probability": 0.7261
+    },
+    {
+     "word": "Delta.",
+     "start": 0.18,
+     "end": 0.32,
+     "probability": 0.8267
+    }
+   ]
+  }
+ ]
+}

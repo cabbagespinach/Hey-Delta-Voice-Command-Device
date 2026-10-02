@@ -1,0 +1,229 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0003.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:26:56+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.9013766050338745,
+ "chunks": [
+  {
+   "chunk_start": 9.108,
+   "chunk_end": 11.66,
+   "text": "The battery should last for another hour.",
+   "words": [
+    {
+     "word": "The",
+     "start": 9.108,
+     "end": 9.428,
+     "probability": 0.6914
+    },
+    {
+     "word": "battery",
+     "start": 9.428,
+     "end": 9.728,
+     "probability": 0.98
+    },
+    {
+     "word": "should",
+     "start": 9.728,
+     "end": 9.948,
+     "probability": 0.9971
+    },
+    {
+     "word": "last",
+     "start": 9.948,
+     "end": 10.228,
+     "probability": 0.998
+    },
+    {
+     "word": "for",
+     "start": 10.228,
+     "end": 10.468,
+     "probability": 0.9932
+    },
+    {
+     "word": "another",
+     "start": 10.468,
+     "end": 10.728,
+     "probability": 0.9917
+    },
+    {
+     "word": "hour.",
+     "start": 10.728,
+     "end": 11.008,
+     "probability": 0.9893
+    }
+   ]
+  },
+  {
+   "chunk_start": 14.388,
+   "chunk_end": 18.636,
+   "text": "Can you send me the address when you arrive? Hey, Delta.",
+   "words": [
+    {
+     "word": "Can",
+     "start": 14.388,
+     "end": 14.668,
+     "probability": 0.4514
+    },
+    {
+     "word": "you",
+     "start": 14.668,
+     "end": 14.788,
+     "probability": 0.9932
+    },
+    {
+     "word": "send",
+     "start": 14.788,
+     "end": 15.008,
+     "probability": 0.9951
+    },
+    {
+     "word": "me",
+     "start": 15.008,
+     "end": 15.208,
+     "probability": 0.9941
+    },
+    {
+     "word": "the",
+     "start": 15.208,
+     "end": 15.328,
+     "probability": 0.9956
+    },
+    {
+     "word": "address",
+     "start": 15.328,
+     "end": 15.668,
+     "probability": 0.9932
+    },
+    {
+     "word": "when",
+     "start": 15.668,
+     "end": 15.888,
+     "probability": 0.9688
+    },
+    {
+     "word": "you",
+     "start": 15.888,
+     "end": 16.048,
+     "probability": 0.9946
+    },
+    {
+     "word": "arrive?",
+     "start": 16.048,
+     "end": 16.288,
+     "probability": 0.978
+    },
+    {
+     "word": "Hey,",
+     "start": 16.428,
+     "end": 16.748,
+     "probability": 0.5312
+    },
+    {
+     "word": "Delta.",
+     "start": 16.768,
+     "end": 17.088,
+     "probability": 0.6499
+    }
+   ]
+  },
+  {
+   "chunk_start": 20.852,
+   "chunk_end": 23.852,
+   "text": "Please remember to bring the documents tomorrow.",
+   "words": [
+    {
+     "word": "Please",
+     "start": 20.852,
+     "end": 21.212,
+     "probability": 0.9189
+    },
+    {
+     "word": "remember",
+     "start": 21.212,
+     "end": 21.512,
+     "probability": 0.9766
+    },
+    {
+     "word": "to",
+     "start": 21.512,
+     "end": 21.792,
+     "probability": 0.9956
+    },
+    {
+     "word": "bring",
+     "start": 21.792,
+     "end": 21.972,
+     "probability": 0.9956
+    },
+    {
+     "word": "the",
+     "start": 21.972,
+     "end": 22.112,
+     "probability": 0.8833
+    },
+    {
+     "word": "documents",
+     "start": 22.112,
+     "end": 22.432,
+     "probability": 0.9932
+    },
+    {
+     "word": "tomorrow.",
+     "start": 22.432,
+     "end": 22.872,
+     "probability": 0.9854
+    }
+   ]
+  },
+  {
+   "chunk_start": 25.684,
+   "chunk_end": 28.684,
+   "text": "The next episode starts after the commercial.",
+   "words": [
+    {
+     "word": "The",
+     "start": 25.684,
+     "end": 26.024,
+     "probability": 0.939
+    },
+    {
+     "word": "next",
+     "start": 26.024,
+     "end": 26.244,
+     "probability": 0.998
+    },
+    {
+     "word": "episode",
+     "start": 26.244,
+     "end": 26.724,
+     "probability": 0.9976
+    },
+    {
+     "word": "starts",
+     "start": 26.724,
+     "end": 27.024,
+     "probability": 0.999
+    },
+    {
+     "word": "after",
+     "start": 27.024,
+     "end": 27.504,
+     "probability": 0.9985
+    },
+    {
+     "word": "the",
+     "start": 27.504,
+     "end": 27.704,
+     "probability": 0.9985
+    },
+    {
+     "word": "commercial.",
+     "start": 27.704,
+     "end": 27.984,
+     "probability": 0.999
+    }
+   ]
+  }
+ ]
+}

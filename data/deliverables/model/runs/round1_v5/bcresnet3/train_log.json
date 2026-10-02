@@ -1,0 +1,1518 @@
+{
+  "created_at": "2026-09-29T13:15:29+00:00",
+  "model": "bcresnet3",
+  "parameters": 53101,
+  "config": {
+    "_description": "Training recipe for the BC-ResNet wakeword baseline (owner-approved plan, 2026-09-29). Keys starting with '_' are documentation.",
+    "seed": 20260929,
+    "epochs": 60,
+    "batch_size": 256,
+    "num_workers": 16,
+    "optimizer": {
+      "name": "AdamW",
+      "lr": 0.002,
+      "weight_decay": 0.001
+    },
+    "schedule": {
+      "warmup_epochs": 3,
+      "then": "cosine to 0"
+    },
+    "label_smoothing": 0.05,
+    "_label_smoothing": "Binary targets become 0.025 / 0.975: tempers over-confidence on the few, single-speaker positives.",
+    "spec_augment": {
+      "freq_masks": 2,
+      "max_freq_bins": 6,
+      "time_masks": 2,
+      "max_time_frames": 12,
+      "probability": 0.8
+    },
+    "_spec_augment": "Park et al. 2019, on normalised log-mel features of training examples only. A masked region is set to 0 (the per-bin train mean). Time masks are at most 12 frames (120 ms), well under a wakeword (~0.6-1.0 s), so a positive never loses the whole word.",
+    "selection": {
+      "metric": "mean detection rate over positive subsets real_device_rpi and synthetic at the policy threshold",
+      "tiebreak": "validation ROC AUC"
+    },
+    "_selection": "Each epoch the model scores the frozen isolated validation set; the threshold is chosen with eval_config.json threshold_policy (per-category FPR <= 1% on deployment-like negatives), exactly as the evaluator does. Real RPI and synthetic positives are weighted equally so the device confound cannot win selection. Validation only; test and streaming are never read.",
+    "hard_negative_mining": {
+      "top_fraction_of_train_negatives": 0.03,
+      "max_windows": 2000,
+      "share_of_draws": 0.1
+    },
+    "_hard_negative_mining": "Round 2: the round-1 model scores every train negative window (unaugmented); the highest-scoring 3% (at most 2,000) become a mined set that receives 10% of each epoch's draws (substituted at random positions of the bucket-quota epoch, so bucket shares shrink proportionally). Train data only; the model is retrained from scratch with the same recipe."
+  },
+  "mined_from": null,
+  "mined_windows": null,
+  "best_epoch": 6,
+  "best": {
+    "epoch": 6,
+    "train_loss": 0.21265,
+    "lr": 0.0019757963826274355,
+    "seconds": 114.2,
+    "threshold": 0.35217338800430303,
+    "selection": 0.7642642642642643,
+    "detection_by_subset": {
+      "real_device_rpi": 0.972972972972973,
+      "real_other_device": 1.0,
+      "synthetic": 0.5555555555555556
+    },
+    "auc": 0.9363224140385124,
+    "fpr_by_category": {
+      "negative_confusable": 0.0008503401360544217,
+      "negative_general_speech": 0.0,
+      "negative_media": 0.0,
+      "negative_non_speech_from_positive_recording": 0.0,
+      "negative_partial_wakeword": 0.0,
+      "negative_real_background": 0.009111617312072893,
+      "negative_silence_noise": 0.0016863406408094434
+    },
+    "fpr_external": 0.00039494470774091627
+  },
+  "epochs": [
+    {
+      "epoch": 0,
+      "train_loss": 0.58131,
+      "lr": 0.0006720867208672087,
+      "seconds": 24.3,
+      "threshold": 0.6546905636787416,
+      "selection": 0.0,
+      "detection_by_subset": {
+        "real_device_rpi": 0.0,
+        "real_other_device": 0.0,
+        "synthetic": 0.0
+      },
+      "auc": 0.8946704894365481,
+      "fpr_by_category": {
+        "negative_confusable": 0.0,
+        "negative_general_speech": 0.0,
+        "negative_media": 0.0,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.0,
+        "negative_real_background": 0.0,
+        "negative_silence_noise": 0.0016863406408094434
+      },
+      "fpr_external": 0.0
+    },
+    {
+      "epoch": 1,
+      "train_loss": 0.4975,
+      "lr": 0.0013387533875338753,
+      "seconds": 41.1,
+      "threshold": 0.8887138962745668,
+      "selection": 0.0945945945945946,
+      "detection_by_subset": {
+        "real_device_rpi": 0.1891891891891892,
+        "real_other_device": 0.0,
+        "synthetic": 0.0
+      },
+      "auc": 0.9316212204396186,
+      "fpr_by_category": {
+        "negative_confusable": 0.0008503401360544217,
+        "negative_general_speech": 0.0,
+        "negative_media": 0.0,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.0,
+        "negative_real_background": 0.0,
+        "negative_silence_noise": 0.003372681281618887
+      },
+      "fpr_external": 0.00039494470774091627
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.41796,
+      "lr": 0.002,
+      "seconds": 55.4,
+      "threshold": 0.9026584625244142,
+      "selection": 0.3948948948948949,
+      "detection_by_subset": {
+        "real_device_rpi": 0.5675675675675675,
+        "real_other_device": 0.0,
+        "synthetic": 0.2222222222222222
+      },
+      "auc": 0.9669533744077756,
+      "fpr_by_category": {
+        "negative_confusable": 0.0008503401360544217,
+        "negative_general_speech": 0.0009302325581395349,
+        "negative_media": 0.0037593984962406013,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.0,
+        "negative_real_background": 0.0,
+        "negative_silence_noise": 0.01517706576728499
+      },
+      "fpr_external": 0.0039494470774091624
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.31243,
+      "lr": 0.001998481516433316,
+      "seconds": 69.5,
+      "threshold": 0.8605110645294191,
+      "selection": 0.6361361361361362,
+      "detection_by_subset": {
+        "real_device_rpi": 0.8648648648648649,
+        "real_other_device": 0.0,
+        "synthetic": 0.4074074074074074
+      },
+      "auc": 0.9651639927611378,
+      "fpr_by_category": {
+        "negative_confusable": 0.0008503401360544217,
+        "negative_general_speech": 0.0018604651162790699,
+        "negative_media": 0.0037593984962406013,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.0,
+        "negative_real_background": 0.00683371298405467,
+        "negative_silence_noise": 0.00505902192242833
+      },
+      "fpr_external": 0.001579778830963665
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.25414,
+      "lr": 0.0019939306773179497,
+      "seconds": 84.2,
+      "threshold": 0.6297826766967775,
+      "selection": 0.5385385385385385,
+      "detection_by_subset": {
+        "real_device_rpi": 0.8918918918918919,
+        "real_other_device": 1.0,
+        "synthetic": 0.18518518518518517
+      },
+      "auc": 0.9491408934707903,
+      "fpr_by_category": {
+        "negative_confusable": 0.0008503401360544217,
+        "negative_general_speech": 0.0,
+        "negative_media": 0.0,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.0,
+        "negative_real_background": 0.002277904328018223,
+        "negative_silence_noise": 0.0016863406408094434
+      },
+      "fpr_external": 0.00039494470774091627
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.22749,
+      "lr": 0.0019863613034027225,
+      "seconds": 99.6,
+      "threshold": 0.6221529245376588,
+      "selection": 0.6581581581581581,
+      "detection_by_subset": {
+        "real_device_rpi": 0.9459459459459459,
+        "real_other_device": 1.0,
+        "synthetic": 0.37037037037037035
+      },
+      "auc": 0.9334065353097867,
+      "fpr_by_category": {
+        "negative_confusable": 0.0017006802721088435,
+        "negative_general_speech": 0.0009302325581395349,
+        "negative_media": 0.0037593984962406013,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.0,
+        "negative_real_background": 0.009111617312072893,
+        "negative_silence_noise": 0.00505902192242833
+      },
+      "fpr_external": 0.002369668246445498
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.21265,
+      "lr": 0.0019757963826274355,
+      "seconds": 114.2,
+      "threshold": 0.35217338800430303,
+      "selection": 0.7642642642642643,
+      "detection_by_subset": {
+        "real_device_rpi": 0.972972972972973,
+        "real_other_device": 1.0,
+        "synthetic": 0.5555555555555556
+      },
+      "auc": 0.9363224140385124,
+      "fpr_by_category": {
+        "negative_confusable": 0.0008503401360544217,
+        "negative_general_speech": 0.0,
+        "negative_media": 0.0,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.0,
+        "negative_real_background": 0.009111617312072893,
+        "negative_silence_noise": 0.0016863406408094434
+      },
+      "fpr_external": 0.00039494470774091627
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.20442,
+      "lr": 0.0019622680003092505,
+      "seconds": 128.7,
+      "threshold": 0.44905862212181097,
+      "selection": 0.6261261261261262,
+      "detection_by_subset": {
+        "real_device_rpi": 0.918918918918919,
+        "real_other_device": 1.0,
+        "synthetic": 0.3333333333333333
+      },
+      "auc": 0.9152402448199435,
+      "fpr_by_category": {
+        "negative_confusable": 0.0008503401360544217,
+        "negative_general_speech": 0.0009302325581395349,
+        "negative_media": 0.0,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.0,
+        "negative_real_background": 0.002277904328018223,
+        "negative_silence_noise": 0.0
+      },
+      "fpr_external": 0.0
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.19224,
+      "lr": 0.0019458172417006346,
+      "seconds": 142.4,
+      "threshold": 0.49409118294715887,
+      "selection": 0.6666666666666666,
+      "detection_by_subset": {
+        "real_device_rpi": 1.0,
+        "real_other_device": 1.0,
+        "synthetic": 0.3333333333333333
+      },
+      "auc": 0.9155452530551659,
+      "fpr_by_category": {
+        "negative_confusable": 0.0008503401360544217,
+        "negative_general_speech": 0.0,
+        "negative_media": 0.0037593984962406013,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.0,
+        "negative_real_background": 0.009111617312072893,
+        "negative_silence_noise": 0.0
+      },
+      "fpr_external": 0.0
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.18658,
+      "lr": 0.0019264940672148016,
+      "seconds": 157.4,
+      "threshold": 0.779787838459015,
+      "selection": 0.7137137137137137,
+      "detection_by_subset": {
+        "real_device_rpi": 0.9459459459459459,
+        "real_other_device": 1.0,
+        "synthetic": 0.48148148148148145
+      },
+      "auc": 0.9334024685333171,
+      "fpr_by_category": {
+        "negative_confusable": 0.0008503401360544217,
+        "negative_general_speech": 0.0,
+        "negative_media": 0.0,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.0,
+        "negative_real_background": 0.0,
+        "negative_silence_noise": 0.0
+      },
+      "fpr_external": 0.0
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.18372,
+      "lr": 0.0019043571606975776,
+      "seconds": 171.6,
+      "threshold": 0.40958368778228765,
+      "selection": 0.7457457457457457,
+      "detection_by_subset": {
+        "real_device_rpi": 0.972972972972973,
+        "real_other_device": 1.0,
+        "synthetic": 0.5185185185185185
+      },
+      "auc": 0.9232599280180565,
+      "fpr_by_category": {
+        "negative_confusable": 0.0008503401360544217,
+        "negative_general_speech": 0.0,
+        "negative_media": 0.0037593984962406013,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.0,
+        "negative_real_background": 0.009111617312072893,
+        "negative_silence_noise": 0.0
+      },
+      "fpr_external": 0.00039494470774091627
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.17766,
+      "lr": 0.001879473751206489,
+      "seconds": 185.6,
+      "threshold": 0.4832171499729157,
+      "selection": 0.6901901901901902,
+      "detection_by_subset": {
+        "real_device_rpi": 0.972972972972973,
+        "real_other_device": 1.0,
+        "synthetic": 0.4074074074074074
+      },
+      "auc": 0.8993920169177901,
+      "fpr_by_category": {
+        "negative_confusable": 0.0008503401360544217,
+        "negative_general_speech": 0.0,
+        "negative_media": 0.0,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.0,
+        "negative_real_background": 0.00683371298405467,
+        "negative_silence_noise": 0.0
+      },
+      "fpr_external": 0.0
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.17494,
+      "lr": 0.0018519194088383272,
+      "seconds": 199.7,
+      "threshold": 0.3286921679973603,
+      "selection": 0.7087087087087087,
+      "detection_by_subset": {
+        "real_device_rpi": 0.972972972972973,
+        "real_other_device": 1.0,
+        "synthetic": 0.4444444444444444
+      },
+      "auc": 0.90413794505785,
+      "fpr_by_category": {
+        "negative_confusable": 0.0008503401360544217,
+        "negative_general_speech": 0.0,
+        "negative_media": 0.0,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.004405286343612335,
+        "negative_real_background": 0.009111617312072893,
+        "negative_silence_noise": 0.003372681281618887
+      },
+      "fpr_external": 0.0007898894154818325
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.17221,
+      "lr": 0.001821777815225245,
+      "seconds": 214.1,
+      "threshold": 0.4297602772712708,
+      "selection": 0.7272272272272272,
+      "detection_by_subset": {
+        "real_device_rpi": 0.972972972972973,
+        "real_other_device": 1.0,
+        "synthetic": 0.48148148148148145
+      },
+      "auc": 0.9492750970942883,
+      "fpr_by_category": {
+        "negative_confusable": 0.0008503401360544217,
+        "negative_general_speech": 0.0027906976744186047,
+        "negative_media": 0.0,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.00881057268722467,
+        "negative_real_background": 0.00683371298405467,
+        "negative_silence_noise": 0.0016863406408094434
+      },
+      "fpr_external": 0.001184834123222749
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.17156,
+      "lr": 0.0017891405093963938,
+      "seconds": 228.7,
+      "threshold": 0.31675332784652716,
+      "selection": 0.6666666666666666,
+      "detection_by_subset": {
+        "real_device_rpi": 1.0,
+        "real_other_device": 1.0,
+        "synthetic": 0.3333333333333333
+      },
+      "auc": 0.9149637040200086,
+      "fpr_by_category": {
+        "negative_confusable": 0.0008503401360544217,
+        "negative_general_speech": 0.0037209302325581397,
+        "negative_media": 0.011278195488721804,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.0,
+        "negative_real_background": 0.009111617312072893,
+        "negative_silence_noise": 0.006745362563237774
+      },
+      "fpr_external": 0.0039494470774091624
+    },
+    {
+      "epoch": 15,
+      "train_loss": 0.16675,
+      "lr": 0.0017541066097768964,
+      "seconds": 242.9,
+      "threshold": 0.2380940616130829,
+      "selection": 0.7222222222222222,
+      "detection_by_subset": {
+        "real_device_rpi": 1.0,
+        "real_other_device": 1.0,
+        "synthetic": 0.4444444444444444
+      },
+      "auc": 0.921047601618577,
+      "fpr_by_category": {
+        "negative_confusable": 0.0008503401360544217,
+        "negative_general_speech": 0.0018604651162790699,
+        "negative_media": 0.0,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.004405286343612335,
+        "negative_real_background": 0.009111617312072893,
+        "negative_silence_noise": 0.003372681281618887
+      },
+      "fpr_external": 0.001579778830963665
+    },
+    {
+      "epoch": 16,
+      "train_loss": 0.16265,
+      "lr": 0.0017167825131684513,
+      "seconds": 257.6,
+      "threshold": 0.3345265984535218,
+      "selection": 0.6481481481481481,
+      "detection_by_subset": {
+        "real_device_rpi": 1.0,
+        "real_other_device": 1.0,
+        "synthetic": 0.2962962962962963
+      },
+      "auc": 0.9053498444458,
+      "fpr_by_category": {
+        "negative_confusable": 0.0008503401360544217,
+        "negative_general_speech": 0.0,
+        "negative_media": 0.0,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.0,
+        "negative_real_background": 0.009111617312072893,
+        "negative_silence_noise": 0.0
+      },
+      "fpr_external": 0.0
+    },
+    {
+      "epoch": 17,
+      "train_loss": 0.16465,
+      "lr": 0.0016772815716257412,
+      "seconds": 271.4,
+      "threshold": 0.2892622351646424,
+      "selection": 0.7037037037037037,
+      "detection_by_subset": {
+        "real_device_rpi": 1.0,
+        "real_other_device": 1.0,
+        "synthetic": 0.4074074074074074
+      },
+      "auc": 0.900904857764493,
+      "fpr_by_category": {
+        "negative_confusable": 0.0017006802721088435,
+        "negative_general_speech": 0.0009302325581395349,
+        "negative_media": 0.0037593984962406013,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.004405286343612335,
+        "negative_real_background": 0.004555808656036446,
+        "negative_silence_noise": 0.008431703204047217
+      },
+      "fpr_external": 0.002764612954186414
+    },
+    {
+      "epoch": 18,
+      "train_loss": 0.16201,
+      "lr": 0.0016357237482099681,
+      "seconds": 284.8,
+      "threshold": 0.3056295812129975,
+      "selection": 0.6161161161161162,
+      "detection_by_subset": {
+        "real_device_rpi": 0.972972972972973,
+        "real_other_device": 1.0,
+        "synthetic": 0.25925925925925924
+      },
+      "auc": 0.8883995201203766,
+      "fpr_by_category": {
+        "negative_confusable": 0.0017006802721088435,
+        "negative_general_speech": 0.0009302325581395349,
+        "negative_media": 0.0,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.0,
+        "negative_real_background": 0.009111617312072893,
+        "negative_silence_noise": 0.0
+      },
+      "fpr_external": 0.0007898894154818325
+    },
+    {
+      "epoch": 19,
+      "train_loss": 0.16188,
+      "lr": 0.00159223525266498,
+      "seconds": 299.5,
+      "threshold": 0.3999231159687043,
+      "selection": 0.6851851851851851,
+      "detection_by_subset": {
+        "real_device_rpi": 1.0,
+        "real_other_device": 1.0,
+        "synthetic": 0.37037037037037035
+      },
+      "auc": 0.9370991683442119,
+      "fpr_by_category": {
+        "negative_confusable": 0.002551020408163265,
+        "negative_general_speech": 0.0009302325581395349,
+        "negative_media": 0.0,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.004405286343612335,
+        "negative_real_background": 0.00683371298405467,
+        "negative_silence_noise": 0.003372681281618887
+      },
+      "fpr_external": 0.002369668246445498
+    },
+    {
+      "epoch": 20,
+      "train_loss": 0.16054,
+      "lr": 0.0015469481581224269,
+      "seconds": 314.0,
+      "threshold": 0.1993381977081299,
+      "selection": 0.7222222222222222,
+      "detection_by_subset": {
+        "real_device_rpi": 1.0,
+        "real_other_device": 1.0,
+        "synthetic": 0.4444444444444444
+      },
+      "auc": 0.9035197950344659,
+      "fpr_by_category": {
+        "negative_confusable": 0.002551020408163265,
+        "negative_general_speech": 0.0018604651162790699,
+        "negative_media": 0.007518796992481203,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.00881057268722467,
+        "negative_real_background": 0.009111617312072893,
+        "negative_silence_noise": 0.01011804384485666
+      },
+      "fpr_external": 0.005134281200631911
+    },
+    {
+      "epoch": 21,
+      "train_loss": 0.15753,
+      "lr": 0.0015,
+      "seconds": 328.3,
+      "threshold": 0.3815320432186127,
+      "selection": 0.7037037037037037,
+      "detection_by_subset": {
+        "real_device_rpi": 1.0,
+        "real_other_device": 1.0,
+        "synthetic": 0.4074074074074074
+      },
+      "auc": 0.9231379247239675,
+      "fpr_by_category": {
+        "negative_confusable": 0.0017006802721088435,
+        "negative_general_speech": 0.0018604651162790699,
+        "negative_media": 0.0,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.0,
+        "negative_real_background": 0.009111617312072893,
+        "negative_silence_noise": 0.003372681281618887
+      },
+      "fpr_external": 0.001579778830963665
+    },
+    {
+      "epoch": 22,
+      "train_loss": 0.16002,
+      "lr": 0.0014515333583108895,
+      "seconds": 342.6,
+      "threshold": 0.19115965068340304,
+      "selection": 0.6851851851851851,
+      "detection_by_subset": {
+        "real_device_rpi": 1.0,
+        "real_other_device": 1.0,
+        "synthetic": 0.37037037037037035
+      },
+      "auc": 0.8841538054860815,
+      "fpr_by_category": {
+        "negative_confusable": 0.004251700680272109,
+        "negative_general_speech": 0.0027906976744186047,
+        "negative_media": 0.0,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.004405286343612335,
+        "negative_real_background": 0.009111617312072893,
+        "negative_silence_noise": 0.0016863406408094434
+      },
+      "fpr_external": 0.00315955766192733
+    },
+    {
+      "epoch": 23,
+      "train_loss": 0.1558,
+      "lr": 0.0014016954246529696,
+      "seconds": 356.8,
+      "threshold": 0.3113842606544495,
+      "selection": 0.7037037037037037,
+      "detection_by_subset": {
+        "real_device_rpi": 1.0,
+        "real_other_device": 1.0,
+        "synthetic": 0.4074074074074074
+      },
+      "auc": 0.8870737509912767,
+      "fpr_by_category": {
+        "negative_confusable": 0.005952380952380952,
+        "negative_general_speech": 0.0018604651162790699,
+        "negative_media": 0.03383458646616541,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.0,
+        "negative_real_background": 0.009111617312072893,
+        "negative_silence_noise": 0.008431703204047217
+      },
+      "fpr_external": 0.008293838862559242
+    },
+    {
+      "epoch": 24,
+      "train_loss": 0.15504,
+      "lr": 0.0013506375551927546,
+      "seconds": 371.0,
+      "threshold": 0.3029386699199677,
+      "selection": 0.7037037037037037,
+      "detection_by_subset": {
+        "real_device_rpi": 1.0,
+        "real_other_device": 1.0,
+        "synthetic": 0.4074074074074074
+      },
+      "auc": 0.8977327721181805,
+      "fpr_by_category": {
+        "negative_confusable": 0.0017006802721088435,
+        "negative_general_speech": 0.0,
+        "negative_media": 0.007518796992481203,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.0,
+        "negative_real_background": 0.009111617312072893,
+        "negative_silence_noise": 0.0016863406408094434
+      },
+      "fpr_external": 0.001579778830963665
+    },
+    {
+      "epoch": 25,
+      "train_loss": 0.15473,
+      "lr": 0.0012985148110016946,
+      "seconds": 384.6,
+      "threshold": 0.18098612129688266,
+      "selection": 0.7407407407407407,
+      "detection_by_subset": {
+        "real_device_rpi": 1.0,
+        "real_other_device": 1.0,
+        "synthetic": 0.48148148148148145
+      },
+      "auc": 0.8958498546127412,
+      "fpr_by_category": {
+        "negative_confusable": 0.012755102040816327,
+        "negative_general_speech": 0.0018604651162790699,
+        "negative_media": 0.007518796992481203,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.01762114537444934,
+        "negative_real_background": 0.009111617312072893,
+        "negative_silence_noise": 0.01011804384485666
+      },
+      "fpr_external": 0.01066350710900474
+    },
+    {
+      "epoch": 26,
+      "train_loss": 0.15344,
+      "lr": 0.0012454854871407992,
+      "seconds": 398.4,
+      "threshold": 0.36748158931732183,
+      "selection": 0.7222222222222222,
+      "detection_by_subset": {
+        "real_device_rpi": 1.0,
+        "real_other_device": 1.0,
+        "synthetic": 0.4444444444444444
+      },
+      "auc": 0.9102991114093414,
+      "fpr_by_category": {
+        "negative_confusable": 0.003401360544217687,
+        "negative_general_speech": 0.0009302325581395349,
+        "negative_media": 0.0,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.0,
+        "negative_real_background": 0.009111617312072893,
+        "negative_silence_noise": 0.0016863406408094434
+      },
+      "fpr_external": 0.001579778830963665
+    },
+    {
+      "epoch": 27,
+      "train_loss": 0.15397,
+      "lr": 0.0011917106319237385,
+      "seconds": 412.0,
+      "threshold": 0.21956866979599002,
+      "selection": 0.7222222222222222,
+      "detection_by_subset": {
+        "real_device_rpi": 1.0,
+        "real_other_device": 1.0,
+        "synthetic": 0.4444444444444444
+      },
+      "auc": 0.8842839423331097,
+      "fpr_by_category": {
+        "negative_confusable": 0.002551020408163265,
+        "negative_general_speech": 0.0018604651162790699,
+        "negative_media": 0.0,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.00881057268722467,
+        "negative_real_background": 0.009111617312072893,
+        "negative_silence_noise": 0.003372681281618887
+      },
+      "fpr_external": 0.002369668246445498
+    },
+    {
+      "epoch": 28,
+      "train_loss": 0.15258,
+      "lr": 0.0011373535578184082,
+      "seconds": 425.6,
+      "threshold": 0.4075910151004792,
+      "selection": 0.6666666666666666,
+      "detection_by_subset": {
+        "real_device_rpi": 1.0,
+        "real_other_device": 1.0,
+        "synthetic": 0.3333333333333333
+      },
+      "auc": 0.9125683726793957,
+      "fpr_by_category": {
+        "negative_confusable": 0.0008503401360544217,
+        "negative_general_speech": 0.0009302325581395349,
+        "negative_media": 0.015037593984962405,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.0,
+        "negative_real_background": 0.004555808656036446,
+        "negative_silence_noise": 0.006745362563237774
+      },
+      "fpr_external": 0.002764612954186414
+    },
+    {
+      "epoch": 29,
+      "train_loss": 0.15321,
+      "lr": 0.0010825793454723326,
+      "seconds": 440.2,
+      "threshold": 0.2090597599744797,
+      "selection": 0.6666666666666666,
+      "detection_by_subset": {
+        "real_device_rpi": 1.0,
+        "real_other_device": 1.0,
+        "synthetic": 0.3333333333333333
+      },
+      "auc": 0.8655117021492914,
+      "fpr_by_category": {
+        "negative_confusable": 0.00935374149659864,
+        "negative_general_speech": 0.0027906976744186047,
+        "negative_media": 0.0,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.00881057268722467,
+        "negative_real_background": 0.009111617312072893,
+        "negative_silence_noise": 0.00505902192242833
+      },
+      "fpr_external": 0.006714060031595577
+    },
+    {
+      "epoch": 30,
+      "train_loss": 0.15,
+      "lr": 0.0010275543423681622,
+      "seconds": 453.8,
+      "threshold": 0.29214450716972357,
+      "selection": 0.6716716716716717,
+      "detection_by_subset": {
+        "real_device_rpi": 0.972972972972973,
+        "real_other_device": 1.0,
+        "synthetic": 0.37037037037037035
+      },
+      "auc": 0.874958823888245,
+      "fpr_by_category": {
+        "negative_confusable": 0.0017006802721088435,
+        "negative_general_speech": 0.0009302325581395349,
+        "negative_media": 0.0,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.004405286343612335,
+        "negative_real_background": 0.009111617312072893,
+        "negative_silence_noise": 0.003372681281618887
+      },
+      "fpr_external": 0.001579778830963665
+    },
+    {
+      "epoch": 31,
+      "train_loss": 0.15013,
+      "lr": 0.0009724456576318382,
+      "seconds": 468.2,
+      "threshold": 0.17615100741386416,
+      "selection": 0.7222222222222222,
+      "detection_by_subset": {
+        "real_device_rpi": 1.0,
+        "real_other_device": 1.0,
+        "synthetic": 0.4444444444444444
+      },
+      "auc": 0.9027837084934627,
+      "fpr_by_category": {
+        "negative_confusable": 0.006802721088435374,
+        "negative_general_speech": 0.005581395348837209,
+        "negative_media": 0.0037593984962406013,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.0,
+        "negative_real_background": 0.009111617312072893,
+        "negative_silence_noise": 0.00505902192242833
+      },
+      "fpr_external": 0.00631911532385466
+    },
+    {
+      "epoch": 32,
+      "train_loss": 0.15166,
+      "lr": 0.0009174206545276678,
+      "seconds": 482.1,
+      "threshold": 0.2389987111091614,
+      "selection": 0.7222222222222222,
+      "detection_by_subset": {
+        "real_device_rpi": 1.0,
+        "real_other_device": 1.0,
+        "synthetic": 0.4444444444444444
+      },
+      "auc": 0.892730637060534,
+      "fpr_by_category": {
+        "negative_confusable": 0.002551020408163265,
+        "negative_general_speech": 0.0009302325581395349,
+        "negative_media": 0.0037593984962406013,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.0,
+        "negative_real_background": 0.009111617312072893,
+        "negative_silence_noise": 0.0016863406408094434
+      },
+      "fpr_external": 0.001579778830963665
+    },
+    {
+      "epoch": 33,
+      "train_loss": 0.14947,
+      "lr": 0.000862646442181592,
+      "seconds": 496.8,
+      "threshold": 0.19279676675796512,
+      "selection": 0.7222222222222222,
+      "detection_by_subset": {
+        "real_device_rpi": 1.0,
+        "real_other_device": 1.0,
+        "synthetic": 0.4444444444444444
+      },
+      "auc": 0.9000305008235222,
+      "fpr_by_category": {
+        "negative_confusable": 0.002551020408163265,
+        "negative_general_speech": 0.0009302325581395349,
+        "negative_media": 0.0037593984962406013,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.0,
+        "negative_real_background": 0.009111617312072893,
+        "negative_silence_noise": 0.008431703204047217
+      },
+      "fpr_external": 0.002764612954186414
+    },
+    {
+      "epoch": 34,
+      "train_loss": 0.14862,
+      "lr": 0.0008082893680762616,
+      "seconds": 513.4,
+      "threshold": 0.31834313273429876,
+      "selection": 0.6481481481481481,
+      "detection_by_subset": {
+        "real_device_rpi": 1.0,
+        "real_other_device": 1.0,
+        "synthetic": 0.2962962962962963
+      },
+      "auc": 0.8904451086846011,
+      "fpr_by_category": {
+        "negative_confusable": 0.0017006802721088435,
+        "negative_general_speech": 0.0,
+        "negative_media": 0.0,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.0,
+        "negative_real_background": 0.009111617312072893,
+        "negative_silence_noise": 0.0016863406408094434
+      },
+      "fpr_external": 0.0007898894154818325
+    },
+    {
+      "epoch": 35,
+      "train_loss": 0.14831,
+      "lr": 0.0007545145128592009,
+      "seconds": 528.1,
+      "threshold": 0.22025085985660556,
+      "selection": 0.7407407407407407,
+      "detection_by_subset": {
+        "real_device_rpi": 1.0,
+        "real_other_device": 1.0,
+        "synthetic": 0.48148148148148145
+      },
+      "auc": 0.9144878911730616,
+      "fpr_by_category": {
+        "negative_confusable": 0.002551020408163265,
+        "negative_general_speech": 0.0009302325581395349,
+        "negative_media": 0.0037593984962406013,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.0,
+        "negative_real_background": 0.009111617312072893,
+        "negative_silence_noise": 0.00505902192242833
+      },
+      "fpr_external": 0.002369668246445498
+    },
+    {
+      "epoch": 36,
+      "train_loss": 0.14844,
+      "lr": 0.0007014851889983057,
+      "seconds": 542.0,
+      "threshold": 0.22819073498249057,
+      "selection": 0.7222222222222222,
+      "detection_by_subset": {
+        "real_device_rpi": 1.0,
+        "real_other_device": 1.0,
+        "synthetic": 0.4444444444444444
+      },
+      "auc": 0.9059801947985929,
+      "fpr_by_category": {
+        "negative_confusable": 0.004251700680272109,
+        "negative_general_speech": 0.0009302325581395349,
+        "negative_media": 0.0037593984962406013,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.00881057268722467,
+        "negative_real_background": 0.009111617312072893,
+        "negative_silence_noise": 0.003372681281618887
+      },
+      "fpr_external": 0.0035545023696682463
+    },
+    {
+      "epoch": 37,
+      "train_loss": 0.14775,
+      "lr": 0.0006493624448072457,
+      "seconds": 557.9,
+      "threshold": 0.22423779964447024,
+      "selection": 0.7407407407407407,
+      "detection_by_subset": {
+        "real_device_rpi": 1.0,
+        "real_other_device": 1.0,
+        "synthetic": 0.48148148148148145
+      },
+      "auc": 0.9192460196425304,
+      "fpr_by_category": {
+        "negative_confusable": 0.004251700680272109,
+        "negative_general_speech": 0.0009302325581395349,
+        "negative_media": 0.0,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.00881057268722467,
+        "negative_real_background": 0.009111617312072893,
+        "negative_silence_noise": 0.00505902192242833
+      },
+      "fpr_external": 0.00315955766192733
+    },
+    {
+      "epoch": 38,
+      "train_loss": 0.14764,
+      "lr": 0.0005983045753470307,
+      "seconds": 572.9,
+      "threshold": 0.21617117524147036,
+      "selection": 0.7222222222222222,
+      "detection_by_subset": {
+        "real_device_rpi": 1.0,
+        "real_other_device": 1.0,
+        "synthetic": 0.4444444444444444
+      },
+      "auc": 0.9102096423270095,
+      "fpr_by_category": {
+        "negative_confusable": 0.004251700680272109,
+        "negative_general_speech": 0.0009302325581395349,
+        "negative_media": 0.0,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.004405286343612335,
+        "negative_real_background": 0.004555808656036446,
+        "negative_silence_noise": 0.006745362563237774
+      },
+      "fpr_external": 0.0035545023696682463
+    },
+    {
+      "epoch": 39,
+      "train_loss": 0.149,
+      "lr": 0.0005484666416891109,
+      "seconds": 586.8,
+      "threshold": 0.185257762670517,
+      "selection": 0.7407407407407407,
+      "detection_by_subset": {
+        "real_device_rpi": 1.0,
+        "real_other_device": 1.0,
+        "synthetic": 0.48148148148148145
+      },
+      "auc": 0.9207995282539295,
+      "fpr_by_category": {
+        "negative_confusable": 0.0017006802721088435,
+        "negative_general_speech": 0.0009302325581395349,
+        "negative_media": 0.0,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.004405286343612335,
+        "negative_real_background": 0.009111617312072893,
+        "negative_silence_noise": 0.0
+      },
+      "fpr_external": 0.0007898894154818325
+    },
+    {
+      "epoch": 40,
+      "train_loss": 0.14585,
+      "lr": 0.0005000000000000002,
+      "seconds": 602.8,
+      "threshold": 0.23621061444282535,
+      "selection": 0.7222222222222222,
+      "detection_by_subset": {
+        "real_device_rpi": 1.0,
+        "real_other_device": 1.0,
+        "synthetic": 0.4444444444444444
+      },
+      "auc": 0.9133491937615649,
+      "fpr_by_category": {
+        "negative_confusable": 0.004251700680272109,
+        "negative_general_speech": 0.0009302325581395349,
+        "negative_media": 0.0,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.00881057268722467,
+        "negative_real_background": 0.009111617312072893,
+        "negative_silence_noise": 0.003372681281618887
+      },
+      "fpr_external": 0.002764612954186414
+    },
+    {
+      "epoch": 41,
+      "train_loss": 0.14681,
+      "lr": 0.00045305184187757297,
+      "seconds": 618.4,
+      "threshold": 0.14235080778598788,
+      "selection": 0.7222222222222222,
+      "detection_by_subset": {
+        "real_device_rpi": 1.0,
+        "real_other_device": 1.0,
+        "synthetic": 0.4444444444444444
+      },
+      "auc": 0.9001484373411416,
+      "fpr_by_category": {
+        "negative_confusable": 0.003401360544217687,
+        "negative_general_speech": 0.0018604651162790699,
+        "negative_media": 0.018796992481203006,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.004405286343612335,
+        "negative_real_background": 0.009111617312072893,
+        "negative_silence_noise": 0.008431703204047217
+      },
+      "fpr_external": 0.005924170616113744
+    },
+    {
+      "epoch": 42,
+      "train_loss": 0.14526,
+      "lr": 0.0004077647473350201,
+      "seconds": 633.2,
+      "threshold": 0.25592845678329473,
+      "selection": 0.7222222222222222,
+      "detection_by_subset": {
+        "real_device_rpi": 1.0,
+        "real_other_device": 1.0,
+        "synthetic": 0.4444444444444444
+      },
+      "auc": 0.9240204152178776,
+      "fpr_by_category": {
+        "negative_confusable": 0.002551020408163265,
+        "negative_general_speech": 0.0009302325581395349,
+        "negative_media": 0.0,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.0,
+        "negative_real_background": 0.009111617312072893,
+        "negative_silence_noise": 0.003372681281618887
+      },
+      "fpr_external": 0.001579778830963665
+    },
+    {
+      "epoch": 43,
+      "train_loss": 0.14496,
+      "lr": 0.0003642762517900322,
+      "seconds": 648.1,
+      "threshold": 0.20551194250583651,
+      "selection": 0.7222222222222222,
+      "detection_by_subset": {
+        "real_device_rpi": 1.0,
+        "real_other_device": 1.0,
+        "synthetic": 0.4444444444444444
+      },
+      "auc": 0.9219626263242441,
+      "fpr_by_category": {
+        "negative_confusable": 0.004251700680272109,
+        "negative_general_speech": 0.0009302325581395349,
+        "negative_media": 0.0,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.00881057268722467,
+        "negative_real_background": 0.00683371298405467,
+        "negative_silence_noise": 0.00505902192242833
+      },
+      "fpr_external": 0.0035545023696682463
+    },
+    {
+      "epoch": 44,
+      "train_loss": 0.14539,
+      "lr": 0.00032271842837425913,
+      "seconds": 663.1,
+      "threshold": 0.21859765052795413,
+      "selection": 0.7222222222222222,
+      "detection_by_subset": {
+        "real_device_rpi": 1.0,
+        "real_other_device": 1.0,
+        "synthetic": 0.4444444444444444
+      },
+      "auc": 0.908725268915594,
+      "fpr_by_category": {
+        "negative_confusable": 0.003401360544217687,
+        "negative_general_speech": 0.0018604651162790699,
+        "negative_media": 0.0037593984962406013,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.00881057268722467,
+        "negative_real_background": 0.009111617312072893,
+        "negative_silence_noise": 0.00505902192242833
+      },
+      "fpr_external": 0.0039494470774091624
+    },
+    {
+      "epoch": 45,
+      "train_loss": 0.14433,
+      "lr": 0.0002832174868315489,
+      "seconds": 677.7,
+      "threshold": 0.17097808420658114,
+      "selection": 0.7222222222222222,
+      "detection_by_subset": {
+        "real_device_rpi": 1.0,
+        "real_other_device": 1.0,
+        "synthetic": 0.4444444444444444
+      },
+      "auc": 0.9171109619959739,
+      "fpr_by_category": {
+        "negative_confusable": 0.00510204081632653,
+        "negative_general_speech": 0.0027906976744186047,
+        "negative_media": 0.0037593984962406013,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.004405286343612335,
+        "negative_real_background": 0.009111617312072893,
+        "negative_silence_noise": 0.003372681281618887
+      },
+      "fpr_external": 0.0039494470774091624
+    },
+    {
+      "epoch": 46,
+      "train_loss": 0.14437,
+      "lr": 0.00024589339022310384,
+      "seconds": 691.9,
+      "threshold": 0.19189184904098514,
+      "selection": 0.7222222222222222,
+      "detection_by_subset": {
+        "real_device_rpi": 1.0,
+        "real_other_device": 1.0,
+        "synthetic": 0.4444444444444444
+      },
+      "auc": 0.9227149799711258,
+      "fpr_by_category": {
+        "negative_confusable": 0.002551020408163265,
+        "negative_general_speech": 0.0018604651162790699,
+        "negative_media": 0.0,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.0,
+        "negative_real_background": 0.009111617312072893,
+        "negative_silence_noise": 0.00505902192242833
+      },
+      "fpr_external": 0.0019747235387045812
+    },
+    {
+      "epoch": 47,
+      "train_loss": 0.14365,
+      "lr": 0.00021085949060360655,
+      "seconds": 706.3,
+      "threshold": 0.19778949022293094,
+      "selection": 0.7222222222222222,
+      "detection_by_subset": {
+        "real_device_rpi": 1.0,
+        "real_other_device": 1.0,
+        "synthetic": 0.4444444444444444
+      },
+      "auc": 0.9152483783728828,
+      "fpr_by_category": {
+        "negative_confusable": 0.003401360544217687,
+        "negative_general_speech": 0.0018604651162790699,
+        "negative_media": 0.0037593984962406013,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.004405286343612335,
+        "negative_real_background": 0.009111617312072893,
+        "negative_silence_noise": 0.003372681281618887
+      },
+      "fpr_external": 0.00315955766192733
+    },
+    {
+      "epoch": 48,
+      "train_loss": 0.14357,
+      "lr": 0.00017822218477475495,
+      "seconds": 721.5,
+      "threshold": 0.2925133407115937,
+      "selection": 0.7037037037037037,
+      "detection_by_subset": {
+        "real_device_rpi": 1.0,
+        "real_other_device": 1.0,
+        "synthetic": 0.4074074074074074
+      },
+      "auc": 0.9099981699505887,
+      "fpr_by_category": {
+        "negative_confusable": 0.002551020408163265,
+        "negative_general_speech": 0.0009302325581395349,
+        "negative_media": 0.0,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.004405286343612335,
+        "negative_real_background": 0.009111617312072893,
+        "negative_silence_noise": 0.003372681281618887
+      },
+      "fpr_external": 0.0019747235387045812
+    },
+    {
+      "epoch": 49,
+      "train_loss": 0.14288,
+      "lr": 0.00014808059116167306,
+      "seconds": 736.0,
+      "threshold": 0.16108866035938266,
+      "selection": 0.7222222222222222,
+      "detection_by_subset": {
+        "real_device_rpi": 1.0,
+        "real_other_device": 1.0,
+        "synthetic": 0.4444444444444444
+      },
+      "auc": 0.9109782630797698,
+      "fpr_by_category": {
+        "negative_confusable": 0.006802721088435374,
+        "negative_general_speech": 0.0018604651162790699,
+        "negative_media": 0.0037593984962406013,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.00881057268722467,
+        "negative_real_background": 0.009111617312072893,
+        "negative_silence_noise": 0.00505902192242833
+      },
+      "fpr_external": 0.005529225908372828
+    },
+    {
+      "epoch": 50,
+      "train_loss": 0.14478,
+      "lr": 0.00012052624879351104,
+      "seconds": 750.5,
+      "threshold": 0.20713970065116885,
+      "selection": 0.7222222222222222,
+      "detection_by_subset": {
+        "real_device_rpi": 1.0,
+        "real_other_device": 1.0,
+        "synthetic": 0.4444444444444444
+      },
+      "auc": 0.9170052258077634,
+      "fpr_by_category": {
+        "negative_confusable": 0.003401360544217687,
+        "negative_general_speech": 0.0018604651162790699,
+        "negative_media": 0.0,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.004405286343612335,
+        "negative_real_background": 0.009111617312072893,
+        "negative_silence_noise": 0.003372681281618887
+      },
+      "fpr_external": 0.002764612954186414
+    },
+    {
+      "epoch": 51,
+      "train_loss": 0.14216,
+      "lr": 9.564283930242257e-05,
+      "seconds": 764.8,
+      "threshold": 0.22421747446060183,
+      "selection": 0.7222222222222222,
+      "detection_by_subset": {
+        "real_device_rpi": 1.0,
+        "real_other_device": 1.0,
+        "synthetic": 0.4444444444444444
+      },
+      "auc": 0.9187620732426443,
+      "fpr_by_category": {
+        "negative_confusable": 0.002551020408163265,
+        "negative_general_speech": 0.0018604651162790699,
+        "negative_media": 0.0,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.004405286343612335,
+        "negative_real_background": 0.009111617312072893,
+        "negative_silence_noise": 0.003372681281618887
+      },
+      "fpr_external": 0.002369668246445498
+    },
+    {
+      "epoch": 52,
+      "train_loss": 0.14396,
+      "lr": 7.350593278519824e-05,
+      "seconds": 778.5,
+      "threshold": 0.17811554670333865,
+      "selection": 0.7222222222222222,
+      "detection_by_subset": {
+        "real_device_rpi": 1.0,
+        "real_other_device": 1.0,
+        "synthetic": 0.4444444444444444
+      },
+      "auc": 0.9162732060432298,
+      "fpr_by_category": {
+        "negative_confusable": 0.00510204081632653,
+        "negative_general_speech": 0.0018604651162790699,
+        "negative_media": 0.0037593984962406013,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.00881057268722467,
+        "negative_real_background": 0.009111617312072893,
+        "negative_silence_noise": 0.003372681281618887
+      },
+      "fpr_external": 0.004344391785150079
+    },
+    {
+      "epoch": 53,
+      "train_loss": 0.14363,
+      "lr": 5.418275829936536e-05,
+      "seconds": 792.7,
+      "threshold": 0.18808722496032718,
+      "selection": 0.7222222222222222,
+      "detection_by_subset": {
+        "real_device_rpi": 1.0,
+        "real_other_device": 1.0,
+        "synthetic": 0.4444444444444444
+      },
+      "auc": 0.9167368185607678,
+      "fpr_by_category": {
+        "negative_confusable": 0.00510204081632653,
+        "negative_general_speech": 0.0018604651162790699,
+        "negative_media": 0.0037593984962406013,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.00881057268722467,
+        "negative_real_background": 0.009111617312072893,
+        "negative_silence_noise": 0.003372681281618887
+      },
+      "fpr_external": 0.004344391785150079
+    },
+    {
+      "epoch": 54,
+      "train_loss": 0.14173,
+      "lr": 3.773199969074958e-05,
+      "seconds": 806.2,
+      "threshold": 0.16988253593444827,
+      "selection": 0.7222222222222222,
+      "detection_by_subset": {
+        "real_device_rpi": 1.0,
+        "real_other_device": 1.0,
+        "synthetic": 0.4444444444444444
+      },
+      "auc": 0.9115313446796397,
+      "fpr_by_category": {
+        "negative_confusable": 0.004251700680272109,
+        "negative_general_speech": 0.0018604651162790699,
+        "negative_media": 0.0,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.00881057268722467,
+        "negative_real_background": 0.009111617312072893,
+        "negative_silence_noise": 0.003372681281618887
+      },
+      "fpr_external": 0.0035545023696682463
+    },
+    {
+      "epoch": 55,
+      "train_loss": 0.14171,
+      "lr": 2.420361737256438e-05,
+      "seconds": 819.6,
+      "threshold": 0.2460465878248215,
+      "selection": 0.7222222222222222,
+      "detection_by_subset": {
+        "real_device_rpi": 1.0,
+        "real_other_device": 1.0,
+        "synthetic": 0.4444444444444444
+      },
+      "auc": 0.9148579678317982,
+      "fpr_by_category": {
+        "negative_confusable": 0.003401360544217687,
+        "negative_general_speech": 0.0009302325581395349,
+        "negative_media": 0.0,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.0,
+        "negative_real_background": 0.009111617312072893,
+        "negative_silence_noise": 0.003372681281618887
+      },
+      "fpr_external": 0.0019747235387045812
+    },
+    {
+      "epoch": 56,
+      "train_loss": 0.142,
+      "lr": 1.3638696597277678e-05,
+      "seconds": 832.9,
+      "threshold": 0.17939710617065432,
+      "selection": 0.7222222222222222,
+      "detection_by_subset": {
+        "real_device_rpi": 1.0,
+        "real_other_device": 1.0,
+        "synthetic": 0.4444444444444444
+      },
+      "auc": 0.9153825819963806,
+      "fpr_by_category": {
+        "negative_confusable": 0.004251700680272109,
+        "negative_general_speech": 0.0018604651162790699,
+        "negative_media": 0.0,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.004405286343612335,
+        "negative_real_background": 0.009111617312072893,
+        "negative_silence_noise": 0.003372681281618887
+      },
+      "fpr_external": 0.00315955766192733
+    },
+    {
+      "epoch": 57,
+      "train_loss": 0.14245,
+      "lr": 6.069322682050516e-06,
+      "seconds": 845.4,
+      "threshold": 0.1739623844623566,
+      "selection": 0.7222222222222222,
+      "detection_by_subset": {
+        "real_device_rpi": 1.0,
+        "real_other_device": 1.0,
+        "synthetic": 0.4444444444444444
+      },
+      "auc": 0.9139510766790704,
+      "fpr_by_category": {
+        "negative_confusable": 0.003401360544217687,
+        "negative_general_speech": 0.0018604651162790699,
+        "negative_media": 0.0,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.004405286343612335,
+        "negative_real_background": 0.009111617312072893,
+        "negative_silence_noise": 0.003372681281618887
+      },
+      "fpr_external": 0.002764612954186414
+    },
+    {
+      "epoch": 58,
+      "train_loss": 0.14071,
+      "lr": 1.5184835666838258e-06,
+      "seconds": 858.0,
+      "threshold": 0.1750498861074448,
+      "selection": 0.7222222222222222,
+      "detection_by_subset": {
+        "real_device_rpi": 1.0,
+        "real_other_device": 1.0,
+        "synthetic": 0.4444444444444444
+      },
+      "auc": 0.9137314707497103,
+      "fpr_by_category": {
+        "negative_confusable": 0.004251700680272109,
+        "negative_general_speech": 0.0018604651162790699,
+        "negative_media": 0.0,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.004405286343612335,
+        "negative_real_background": 0.009111617312072893,
+        "negative_silence_noise": 0.003372681281618887
+      },
+      "fpr_external": 0.00315955766192733
+    },
+    {
+      "epoch": 59,
+      "train_loss": 0.14202,
+      "lr": 0.0,
+      "seconds": 870.3,
+      "threshold": 0.18638020753860476,
+      "selection": 0.7222222222222222,
+      "detection_by_subset": {
+        "real_device_rpi": 1.0,
+        "real_other_device": 1.0,
+        "synthetic": 0.4444444444444444
+      },
+      "auc": 0.9154476504198946,
+      "fpr_by_category": {
+        "negative_confusable": 0.004251700680272109,
+        "negative_general_speech": 0.0018604651162790699,
+        "negative_media": 0.0,
+        "negative_non_speech_from_positive_recording": 0.0,
+        "negative_partial_wakeword": 0.00881057268722467,
+        "negative_real_background": 0.009111617312072893,
+        "negative_silence_noise": 0.003372681281618887
+      },
+      "fpr_external": 0.0035545023696682463
+    }
+  ],
+  "validation_fingerprint": {
+    "n_windows": 3848,
+    "n_positive": 65,
+    "manifest_sha256": "19ae1c1952fa756d9501a0a8bd8d44f6b6bbae81d012de9ad7d3ecb42ed94b3d",
+    "preprocessing_feature_hash": "e697d07bc6531278",
+    "normalization_stats_sha256": "331de9bc778501d03380bf5c3235339fa07871d6e7405a17f7ddd1cb5e464882"
+  }
+}

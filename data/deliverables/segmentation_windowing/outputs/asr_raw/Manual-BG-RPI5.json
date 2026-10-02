@@ -1,0 +1,236 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/negatives_general/Manual-BG-RPI5.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:26:11+00:00",
+ "duration_sec": 31.093333333333334,
+ "input_peak": 0.11520159989595413,
+ "chunks": [
+  {
+   "chunk_start": 0.372,
+   "chunk_end": 1.612,
+   "text": "With eggs.",
+   "words": [
+    {
+     "word": "With",
+     "start": 0.372,
+     "end": 0.712,
+     "probability": 0.0445
+    },
+    {
+     "word": "eggs.",
+     "start": 0.712,
+     "end": 0.872,
+     "probability": 0.7676
+    }
+   ]
+  },
+  {
+   "chunk_start": 1.748,
+   "chunk_end": 3.532,
+   "text": "Ah.",
+   "words": [
+    {
+     "word": "Ah.",
+     "start": 1.748,
+     "end": 2.128,
+     "probability": 0.3157
+    }
+   ]
+  },
+  {
+   "chunk_start": 3.572,
+   "chunk_end": 4.716,
+   "text": "Thank you.",
+   "words": [
+    {
+     "word": "Thank",
+     "start": 3.572,
+     "end": 3.892,
+     "probability": 0.1873
+    },
+    {
+     "word": "you.",
+     "start": 3.892,
+     "end": 4.132,
+     "probability": 0.9946
+    }
+   ]
+  },
+  {
+   "chunk_start": 14.26,
+   "chunk_end": 23.952,
+   "text": "I think CSP is not for office, it's not for Microsoft Office, it can be for other formats.",
+   "words": [
+    {
+     "word": "I",
+     "start": 14.26,
+     "end": 14.44,
+     "probability": 0.0685
+    },
+    {
+     "word": "think",
+     "start": 14.44,
+     "end": 14.52,
+     "probability": 0.6011
+    },
+    {
+     "word": "CSP",
+     "start": 14.52,
+     "end": 14.68,
+     "probability": 0.5181
+    },
+    {
+     "word": "is",
+     "start": 14.68,
+     "end": 15.04,
+     "probability": 0.5518
+    },
+    {
+     "word": "not",
+     "start": 15.04,
+     "end": 15.68,
+     "probability": 0.8096
+    },
+    {
+     "word": "for",
+     "start": 15.68,
+     "end": 17.58,
+     "probability": 0.428
+    },
+    {
+     "word": "office,",
+     "start": 17.58,
+     "end": 18.36,
+     "probability": 0.4202
+    },
+    {
+     "word": "it's",
+     "start": 18.56,
+     "end": 18.98,
+     "probability": 0.417
+    },
+    {
+     "word": "not",
+     "start": 18.98,
+     "end": 19.78,
+     "probability": 0.9258
+    },
+    {
+     "word": "for",
+     "start": 19.78,
+     "end": 20.02,
+     "probability": 0.4241
+    },
+    {
+     "word": "Microsoft",
+     "start": 20.02,
+     "end": 20.24,
+     "probability": 0.5073
+    },
+    {
+     "word": "Office,",
+     "start": 20.24,
+     "end": 20.56,
+     "probability": 0.8154
+    },
+    {
+     "word": "it",
+     "start": 20.76,
+     "end": 21.02,
+     "probability": 0.7573
+    },
+    {
+     "word": "can",
+     "start": 21.02,
+     "end": 21.38,
+     "probability": 0.4851
+    },
+    {
+     "word": "be",
+     "start": 21.38,
+     "end": 21.56,
+     "probability": 0.7974
+    },
+    {
+     "word": "for",
+     "start": 21.56,
+     "end": 21.68,
+     "probability": 0.6177
+    },
+    {
+     "word": "other",
+     "start": 21.68,
+     "end": 22.86,
+     "probability": 0.8818
+    },
+    {
+     "word": "formats.",
+     "start": 22.86,
+     "end": 23.24,
+     "probability": 0.71
+    }
+   ]
+  },
+  {
+   "chunk_start": 23.952,
+   "chunk_end": 27.948,
+   "text": "Ah, by the, ah, by the university, yeah.",
+   "words": [
+    {
+     "word": "Ah,",
+     "start": 23.952,
+     "end": 24.192,
+     "probability": 0.0381
+    },
+    {
+     "word": "by",
+     "start": 24.292,
+     "end": 24.512,
+     "probability": 0.1192
+    },
+    {
+     "word": "the,",
+     "start": 24.512,
+     "end": 24.712,
+     "probability": 0.8457
+    },
+    {
+     "word": "ah,",
+     "start": 24.752,
+     "end": 25.192,
+     "probability": 0.5601
+    },
+    {
+     "word": "by",
+     "start": 25.272,
+     "end": 25.512,
+     "probability": 0.9121
+    },
+    {
+     "word": "the",
+     "start": 25.512,
+     "end": 25.652,
+     "probability": 0.9893
+    },
+    {
+     "word": "university,",
+     "start": 25.652,
+     "end": 25.972,
+     "probability": 0.4927
+    },
+    {
+     "word": "yeah.",
+     "start": 26.152,
+     "end": 26.332,
+     "probability": 0.5181
+    }
+   ]
+  },
+  {
+   "chunk_start": 28.66,
+   "chunk_end": 29.74,
+   "text": "",
+   "words": []
+  }
+ ]
+}

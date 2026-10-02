@@ -1,0 +1,217 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0115.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:29:51+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8958132863044739,
+ "chunks": [
+  {
+   "chunk_start": 1.332,
+   "chunk_end": 4.524,
+   "text": "The meeting starts in about 10 minutes.",
+   "words": [
+    {
+     "word": "The",
+     "start": 1.332,
+     "end": 1.692,
+     "probability": 0.917
+    },
+    {
+     "word": "meeting",
+     "start": 1.692,
+     "end": 1.992,
+     "probability": 0.9941
+    },
+    {
+     "word": "starts",
+     "start": 1.992,
+     "end": 2.372,
+     "probability": 0.9976
+    },
+    {
+     "word": "in",
+     "start": 2.372,
+     "end": 2.832,
+     "probability": 0.9976
+    },
+    {
+     "word": "about",
+     "start": 2.832,
+     "end": 3.092,
+     "probability": 0.9971
+    },
+    {
+     "word": "10",
+     "start": 3.092,
+     "end": 3.412,
+     "probability": 0.7705
+    },
+    {
+     "word": "minutes.",
+     "start": 3.412,
+     "end": 3.772,
+     "probability": 0.9907
+    }
+   ]
+  },
+  {
+   "chunk_start": 7.124,
+   "chunk_end": 12.364,
+   "text": "The weather is changing again this afternoon. We can take the train after lunch.",
+   "words": [
+    {
+     "word": "The",
+     "start": 7.124,
+     "end": 7.444,
+     "probability": 0.6079
+    },
+    {
+     "word": "weather",
+     "start": 7.444,
+     "end": 7.664,
+     "probability": 0.9976
+    },
+    {
+     "word": "is",
+     "start": 7.664,
+     "end": 7.864,
+     "probability": 0.9971
+    },
+    {
+     "word": "changing",
+     "start": 7.864,
+     "end": 8.224,
+     "probability": 0.9985
+    },
+    {
+     "word": "again",
+     "start": 8.224,
+     "end": 8.584,
+     "probability": 0.9971
+    },
+    {
+     "word": "this",
+     "start": 8.584,
+     "end": 8.804,
+     "probability": 0.9956
+    },
+    {
+     "word": "afternoon.",
+     "start": 8.804,
+     "end": 9.224,
+     "probability": 0.9961
+    },
+    {
+     "word": "We",
+     "start": 9.404,
+     "end": 9.524,
+     "probability": 0.4692
+    },
+    {
+     "word": "can",
+     "start": 9.524,
+     "end": 10.524,
+     "probability": 0.9937
+    },
+    {
+     "word": "take",
+     "start": 10.524,
+     "end": 10.744,
+     "probability": 0.9966
+    },
+    {
+     "word": "the",
+     "start": 10.744,
+     "end": 10.844,
+     "probability": 0.916
+    },
+    {
+     "word": "train",
+     "start": 10.844,
+     "end": 11.064,
+     "probability": 0.998
+    },
+    {
+     "word": "after",
+     "start": 11.064,
+     "end": 11.384,
+     "probability": 0.9858
+    },
+    {
+     "word": "lunch.",
+     "start": 11.384,
+     "end": 11.724,
+     "probability": 0.999
+    }
+   ]
+  },
+  {
+   "chunk_start": 13.044,
+   "chunk_end": 14.348,
+   "text": "Hey Delta!",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 13.044,
+     "end": 13.404,
+     "probability": 0.7451
+    },
+    {
+     "word": "Delta!",
+     "start": 13.404,
+     "end": 13.664,
+     "probability": 0.8906
+    }
+   ]
+  },
+  {
+   "chunk_start": 17.652,
+   "chunk_end": 20.3,
+   "text": "The battery should last for another hour.",
+   "words": [
+    {
+     "word": "The",
+     "start": 17.652,
+     "end": 17.932,
+     "probability": 0.6963
+    },
+    {
+     "word": "battery",
+     "start": 17.932,
+     "end": 18.372,
+     "probability": 0.9639
+    },
+    {
+     "word": "should",
+     "start": 18.372,
+     "end": 18.572,
+     "probability": 0.9966
+    },
+    {
+     "word": "last",
+     "start": 18.572,
+     "end": 18.912,
+     "probability": 0.999
+    },
+    {
+     "word": "for",
+     "start": 18.912,
+     "end": 19.112,
+     "probability": 0.9888
+    },
+    {
+     "word": "another",
+     "start": 19.112,
+     "end": 19.272,
+     "probability": 0.9365
+    },
+    {
+     "word": "hour.",
+     "start": 19.272,
+     "end": 19.312,
+     "probability": 0.9902
+    }
+   ]
+  }
+ ]
+}

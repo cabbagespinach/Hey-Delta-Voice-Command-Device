@@ -1,0 +1,266 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0060.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:28:23+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8823944330215454,
+ "chunks": [
+  {
+   "chunk_start": 4.276,
+   "chunk_end": 7.116,
+   "text": "I was looking for a quiet place to work.",
+   "words": [
+    {
+     "word": "I",
+     "start": 4.276,
+     "end": 4.616,
+     "probability": 0.8086
+    },
+    {
+     "word": "was",
+     "start": 4.616,
+     "end": 4.776,
+     "probability": 0.9951
+    },
+    {
+     "word": "looking",
+     "start": 4.776,
+     "end": 4.976,
+     "probability": 0.9941
+    },
+    {
+     "word": "for",
+     "start": 4.976,
+     "end": 5.236,
+     "probability": 0.9985
+    },
+    {
+     "word": "a",
+     "start": 5.236,
+     "end": 5.376,
+     "probability": 0.9927
+    },
+    {
+     "word": "quiet",
+     "start": 5.376,
+     "end": 5.756,
+     "probability": 0.9814
+    },
+    {
+     "word": "place",
+     "start": 5.756,
+     "end": 6.116,
+     "probability": 0.9966
+    },
+    {
+     "word": "to",
+     "start": 6.116,
+     "end": 6.336,
+     "probability": 0.9976
+    },
+    {
+     "word": "work.",
+     "start": 6.336,
+     "end": 6.556,
+     "probability": 0.999
+    }
+   ]
+  },
+  {
+   "chunk_start": 9.268,
+   "chunk_end": 13.792,
+   "text": "Thank you for watching. See you next time.",
+   "words": [
+    {
+     "word": "Thank",
+     "start": 9.268,
+     "end": 9.568,
+     "probability": 0.0486
+    },
+    {
+     "word": "you",
+     "start": 9.568,
+     "end": 9.908,
+     "probability": 0.9795
+    },
+    {
+     "word": "for",
+     "start": 9.908,
+     "end": 10.168,
+     "probability": 0.6494
+    },
+    {
+     "word": "watching.",
+     "start": 10.168,
+     "end": 10.688,
+     "probability": 0.606
+    },
+    {
+     "word": "See",
+     "start": 10.788,
+     "end": 11.228,
+     "probability": 0.1737
+    },
+    {
+     "word": "you",
+     "start": 11.228,
+     "end": 11.348,
+     "probability": 0.9971
+    },
+    {
+     "word": "next",
+     "start": 11.348,
+     "end": 11.828,
+     "probability": 0.5698
+    },
+    {
+     "word": "time.",
+     "start": 11.828,
+     "end": 12.268,
+     "probability": 0.9199
+    }
+   ]
+  },
+  {
+   "chunk_start": 13.792,
+   "chunk_end": 18.156,
+   "text": "The children are playing outside in the garden. Hey Delta.",
+   "words": [
+    {
+     "word": "The",
+     "start": 13.792,
+     "end": 14.112,
+     "probability": 0.7466
+    },
+    {
+     "word": "children",
+     "start": 14.112,
+     "end": 14.472,
+     "probability": 0.9824
+    },
+    {
+     "word": "are",
+     "start": 14.472,
+     "end": 14.772,
+     "probability": 0.9985
+    },
+    {
+     "word": "playing",
+     "start": 14.772,
+     "end": 15.052,
+     "probability": 0.9985
+    },
+    {
+     "word": "outside",
+     "start": 15.052,
+     "end": 15.752,
+     "probability": 0.9961
+    },
+    {
+     "word": "in",
+     "start": 15.752,
+     "end": 16.192,
+     "probability": 0.9932
+    },
+    {
+     "word": "the",
+     "start": 16.192,
+     "end": 16.252,
+     "probability": 0.9976
+    },
+    {
+     "word": "garden.",
+     "start": 16.252,
+     "end": 16.632,
+     "probability": 0.9961
+    },
+    {
+     "word": "Hey",
+     "start": 16.852,
+     "end": 17.092,
+     "probability": 0.9648
+    },
+    {
+     "word": "Delta.",
+     "start": 17.092,
+     "end": 17.432,
+     "probability": 0.6353
+    }
+   ]
+  },
+  {
+   "chunk_start": 19.316,
+   "chunk_end": 20.62,
+   "text": "He dealt her.",
+   "words": [
+    {
+     "word": "He",
+     "start": 19.316,
+     "end": 19.696,
+     "probability": 0.79
+    },
+    {
+     "word": "dealt",
+     "start": 19.696,
+     "end": 19.916,
+     "probability": 0.6636
+    },
+    {
+     "word": "her.",
+     "start": 19.916,
+     "end": 20.136,
+     "probability": 0.978
+    }
+   ]
+  },
+  {
+   "chunk_start": 22.292,
+   "chunk_end": 25.644,
+   "text": "Terror at work was because of terrorists.",
+   "words": [
+    {
+     "word": "Terror",
+     "start": 22.292,
+     "end": 22.732,
+     "probability": 0.2893
+    },
+    {
+     "word": "at",
+     "start": 22.732,
+     "end": 23.032,
+     "probability": 0.408
+    },
+    {
+     "word": "work",
+     "start": 23.032,
+     "end": 23.252,
+     "probability": 0.2507
+    },
+    {
+     "word": "was",
+     "start": 23.252,
+     "end": 23.512,
+     "probability": 0.2396
+    },
+    {
+     "word": "because",
+     "start": 23.512,
+     "end": 23.812,
+     "probability": 0.1732
+    },
+    {
+     "word": "of",
+     "start": 23.812,
+     "end": 24.292,
+     "probability": 0.9829
+    },
+    {
+     "word": "terrorists.",
+     "start": 24.292,
+     "end": 24.792,
+     "probability": 0.3977
+    }
+   ]
+  }
+ ]
+}

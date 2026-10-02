@@ -1,0 +1,204 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0007.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:27:03+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8966036438941956,
+ "chunks": [
+  {
+   "chunk_start": 1.46,
+   "chunk_end": 5.452,
+   "text": "The machine makes a strange sound sometimes.",
+   "words": [
+    {
+     "word": "The",
+     "start": 1.46,
+     "end": 1.8,
+     "probability": 0.7861
+    },
+    {
+     "word": "machine",
+     "start": 1.8,
+     "end": 2.12,
+     "probability": 0.8467
+    },
+    {
+     "word": "makes",
+     "start": 2.12,
+     "end": 2.46,
+     "probability": 0.9937
+    },
+    {
+     "word": "a",
+     "start": 2.46,
+     "end": 2.64,
+     "probability": 0.9761
+    },
+    {
+     "word": "strange",
+     "start": 2.64,
+     "end": 2.92,
+     "probability": 0.9946
+    },
+    {
+     "word": "sound",
+     "start": 2.92,
+     "end": 3.36,
+     "probability": 0.9663
+    },
+    {
+     "word": "sometimes.",
+     "start": 3.36,
+     "end": 3.76,
+     "probability": 0.979
+    }
+   ]
+  },
+  {
+   "chunk_start": 8.724,
+   "chunk_end": 14.54,
+   "text": "The meeting starts in about 10 minutes. We ordered them and waited near the entrance.",
+   "words": [
+    {
+     "word": "The",
+     "start": 8.724,
+     "end": 9.004,
+     "probability": 0.687
+    },
+    {
+     "word": "meeting",
+     "start": 9.004,
+     "end": 9.204,
+     "probability": 0.9863
+    },
+    {
+     "word": "starts",
+     "start": 9.204,
+     "end": 9.484,
+     "probability": 0.9917
+    },
+    {
+     "word": "in",
+     "start": 9.484,
+     "end": 9.724,
+     "probability": 0.9946
+    },
+    {
+     "word": "about",
+     "start": 9.724,
+     "end": 9.924,
+     "probability": 0.9829
+    },
+    {
+     "word": "10",
+     "start": 9.924,
+     "end": 10.164,
+     "probability": 0.6655
+    },
+    {
+     "word": "minutes.",
+     "start": 10.164,
+     "end": 10.424,
+     "probability": 0.9473
+    },
+    {
+     "word": "We",
+     "start": 10.464,
+     "end": 10.924,
+     "probability": 0.2576
+    },
+    {
+     "word": "ordered",
+     "start": 10.924,
+     "end": 11.344,
+     "probability": 0.9795
+    },
+    {
+     "word": "them",
+     "start": 11.344,
+     "end": 11.664,
+     "probability": 0.2498
+    },
+    {
+     "word": "and",
+     "start": 11.664,
+     "end": 11.844,
+     "probability": 0.5806
+    },
+    {
+     "word": "waited",
+     "start": 11.844,
+     "end": 12.084,
+     "probability": 0.9795
+    },
+    {
+     "word": "near",
+     "start": 12.084,
+     "end": 12.344,
+     "probability": 0.9648
+    },
+    {
+     "word": "the",
+     "start": 12.344,
+     "end": 12.464,
+     "probability": 0.9971
+    },
+    {
+     "word": "entrance.",
+     "start": 12.464,
+     "end": 12.844,
+     "probability": 0.9927
+    }
+   ]
+  },
+  {
+   "chunk_start": 16.116,
+   "chunk_end": 25.996,
+   "text": "The next episode starts after the commercial.",
+   "words": [
+    {
+     "word": "The",
+     "start": 22.636,
+     "end": 23.236,
+     "probability": 0.853
+    },
+    {
+     "word": "next",
+     "start": 23.236,
+     "end": 23.476,
+     "probability": 0.9937
+    },
+    {
+     "word": "episode",
+     "start": 23.476,
+     "end": 24.016,
+     "probability": 0.9976
+    },
+    {
+     "word": "starts",
+     "start": 24.016,
+     "end": 24.336,
+     "probability": 0.998
+    },
+    {
+     "word": "after",
+     "start": 24.336,
+     "end": 24.816,
+     "probability": 0.9985
+    },
+    {
+     "word": "the",
+     "start": 24.816,
+     "end": 25.036,
+     "probability": 0.9985
+    },
+    {
+     "word": "commercial.",
+     "start": 25.036,
+     "end": 25.276,
+     "probability": 0.999
+    }
+   ]
+  }
+ ]
+}

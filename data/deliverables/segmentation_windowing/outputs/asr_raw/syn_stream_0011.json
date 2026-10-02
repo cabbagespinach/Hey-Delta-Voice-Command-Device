@@ -1,0 +1,276 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0011.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:27:08+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8950788974761963,
+ "chunks": [
+  {
+   "chunk_start": 1.3,
+   "chunk_end": 5.904,
+   "text": "The children are playing outside in the garden. The battery should last for another hour.",
+   "words": [
+    {
+     "word": "The",
+     "start": 1.3,
+     "end": 1.64,
+     "probability": 0.7842
+    },
+    {
+     "word": "children",
+     "start": 1.64,
+     "end": 1.9,
+     "probability": 0.9351
+    },
+    {
+     "word": "are",
+     "start": 1.9,
+     "end": 2.18,
+     "probability": 0.998
+    },
+    {
+     "word": "playing",
+     "start": 2.18,
+     "end": 2.42,
+     "probability": 0.999
+    },
+    {
+     "word": "outside",
+     "start": 2.42,
+     "end": 2.9,
+     "probability": 0.9976
+    },
+    {
+     "word": "in",
+     "start": 2.9,
+     "end": 3.16,
+     "probability": 0.9912
+    },
+    {
+     "word": "the",
+     "start": 3.16,
+     "end": 3.26,
+     "probability": 0.9985
+    },
+    {
+     "word": "garden.",
+     "start": 3.26,
+     "end": 3.54,
+     "probability": 0.9961
+    },
+    {
+     "word": "The",
+     "start": 3.68,
+     "end": 3.74,
+     "probability": 0.9263
+    },
+    {
+     "word": "battery",
+     "start": 3.74,
+     "end": 4.1,
+     "probability": 0.8188
+    },
+    {
+     "word": "should",
+     "start": 4.1,
+     "end": 4.36,
+     "probability": 0.998
+    },
+    {
+     "word": "last",
+     "start": 4.36,
+     "end": 4.64,
+     "probability": 0.999
+    },
+    {
+     "word": "for",
+     "start": 4.64,
+     "end": 4.86,
+     "probability": 0.9971
+    },
+    {
+     "word": "another",
+     "start": 4.86,
+     "end": 5.06,
+     "probability": 0.9976
+    },
+    {
+     "word": "hour.",
+     "start": 5.06,
+     "end": 5.4,
+     "probability": 0.9985
+    }
+   ]
+  },
+  {
+   "chunk_start": 5.904,
+   "chunk_end": 8.652,
+   "text": "The meeting starts in about 10 minutes. Hey, Delta.",
+   "words": [
+    {
+     "word": "The",
+     "start": 5.904,
+     "end": 6.164,
+     "probability": 0.5083
+    },
+    {
+     "word": "meeting",
+     "start": 6.164,
+     "end": 6.384,
+     "probability": 0.9883
+    },
+    {
+     "word": "starts",
+     "start": 6.384,
+     "end": 6.724,
+     "probability": 0.9961
+    },
+    {
+     "word": "in",
+     "start": 6.724,
+     "end": 7.004,
+     "probability": 0.98
+    },
+    {
+     "word": "about",
+     "start": 7.004,
+     "end": 7.144,
+     "probability": 0.9937
+    },
+    {
+     "word": "10",
+     "start": 7.144,
+     "end": 7.404,
+     "probability": 0.5898
+    },
+    {
+     "word": "minutes.",
+     "start": 7.404,
+     "end": 7.624,
+     "probability": 0.8091
+    },
+    {
+     "word": "Hey,",
+     "start": 7.644,
+     "end": 7.764,
+     "probability": 0.7988
+    },
+    {
+     "word": "Delta.",
+     "start": 7.764,
+     "end": 7.964,
+     "probability": 0.9604
+    }
+   ]
+  },
+  {
+   "chunk_start": 16.084,
+   "chunk_end": 21.644,
+   "text": "Kh\u00e9 qua d\u00ec ch\u00e1nh nh\u00ecn c\u00e0ng \u0111i s\u1ea1ch lu\u00f4n, n\u00ean c\u01a1 b\u00e9 th\u1ec3 ph\u00f3 t\u1ea7m ch\u1ebf bi\u1ec7t.",
+   "words": [
+    {
+     "word": "Kh\u00e9",
+     "start": 16.084,
+     "end": 16.424,
+     "probability": 0.0718
+    },
+    {
+     "word": "qua",
+     "start": 16.424,
+     "end": 16.664,
+     "probability": 0.1862
+    },
+    {
+     "word": "d\u00ec",
+     "start": 16.664,
+     "end": 17.044,
+     "probability": 0.6586
+    },
+    {
+     "word": "ch\u00e1nh",
+     "start": 17.044,
+     "end": 17.264,
+     "probability": 0.5724
+    },
+    {
+     "word": "nh\u00ecn",
+     "start": 17.264,
+     "end": 17.524,
+     "probability": 0.7888
+    },
+    {
+     "word": "c\u00e0ng",
+     "start": 17.524,
+     "end": 17.804,
+     "probability": 0.7908
+    },
+    {
+     "word": "\u0111i",
+     "start": 17.804,
+     "end": 17.924,
+     "probability": 0.3721
+    },
+    {
+     "word": "s\u1ea1ch",
+     "start": 17.924,
+     "end": 18.324,
+     "probability": 0.7077
+    },
+    {
+     "word": "lu\u00f4n,",
+     "start": 18.324,
+     "end": 18.604,
+     "probability": 0.6094
+    },
+    {
+     "word": "n\u00ean",
+     "start": 18.684,
+     "end": 19.024,
+     "probability": 0.2524
+    },
+    {
+     "word": "c\u01a1",
+     "start": 19.024,
+     "end": 19.364,
+     "probability": 0.8562
+    },
+    {
+     "word": "b\u00e9",
+     "start": 19.364,
+     "end": 19.564,
+     "probability": 0.7461
+    },
+    {
+     "word": "th\u1ec3",
+     "start": 19.564,
+     "end": 19.884,
+     "probability": 0.4446
+    },
+    {
+     "word": "ph\u00f3",
+     "start": 19.884,
+     "end": 20.304,
+     "probability": 0.3315
+    },
+    {
+     "word": "t\u1ea7m",
+     "start": 20.304,
+     "end": 20.724,
+     "probability": 0.9245
+    },
+    {
+     "word": "ch\u1ebf",
+     "start": 20.724,
+     "end": 20.984,
+     "probability": 0.5624
+    },
+    {
+     "word": "bi\u1ec7t.",
+     "start": 20.984,
+     "end": 21.224,
+     "probability": 0.7783
+    }
+   ]
+  }
+ ]
+}

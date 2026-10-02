@@ -1,0 +1,13 @@
+verdict   end_reason        
+complete  end_of_speech         247
+          max_length             14
+          no_speech_detected     96
+cut_off   end_of_speech           2
+          max_length              5
+          no_speech_detected      3
+empty     end_of_speech          18
+          no_speech_detected     25
+other     end_of_speech         123
+          max_length             22
+          no_speech_detected     95
+EXIT=0

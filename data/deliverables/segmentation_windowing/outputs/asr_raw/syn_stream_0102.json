@@ -1,0 +1,284 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0102.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:29:27+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.9002205729484558,
+ "chunks": [
+  {
+   "chunk_start": 0.34,
+   "chunk_end": 3.596,
+   "text": "We also use their msql ID at the entrance.",
+   "words": [
+    {
+     "word": "We",
+     "start": 0.34,
+     "end": 0.72,
+     "probability": 0.7612
+    },
+    {
+     "word": "also",
+     "start": 0.72,
+     "end": 1.04,
+     "probability": 0.3164
+    },
+    {
+     "word": "use",
+     "start": 1.04,
+     "end": 1.32,
+     "probability": 0.6523
+    },
+    {
+     "word": "their",
+     "start": 1.32,
+     "end": 1.5,
+     "probability": 0.1588
+    },
+    {
+     "word": "msql",
+     "start": 1.5,
+     "end": 2.06,
+     "probability": 0.5752
+    },
+    {
+     "word": "ID",
+     "start": 2.06,
+     "end": 2.24,
+     "probability": 0.1843
+    },
+    {
+     "word": "at",
+     "start": 2.24,
+     "end": 2.52,
+     "probability": 0.7715
+    },
+    {
+     "word": "the",
+     "start": 2.52,
+     "end": 2.58,
+     "probability": 0.3586
+    },
+    {
+     "word": "entrance.",
+     "start": 2.58,
+     "end": 2.82,
+     "probability": 0.9614
+    }
+   ]
+  },
+  {
+   "chunk_start": 14.26,
+   "chunk_end": 16.624,
+   "text": "I think the blue one is slightly cheaper.",
+   "words": [
+    {
+     "word": "I",
+     "start": 14.26,
+     "end": 14.52,
+     "probability": 0.9722
+    },
+    {
+     "word": "think",
+     "start": 14.52,
+     "end": 14.78,
+     "probability": 0.998
+    },
+    {
+     "word": "the",
+     "start": 14.78,
+     "end": 14.88,
+     "probability": 0.998
+    },
+    {
+     "word": "blue",
+     "start": 14.88,
+     "end": 15.08,
+     "probability": 0.9722
+    },
+    {
+     "word": "one",
+     "start": 15.08,
+     "end": 15.28,
+     "probability": 0.9849
+    },
+    {
+     "word": "is",
+     "start": 15.28,
+     "end": 15.48,
+     "probability": 0.999
+    },
+    {
+     "word": "slightly",
+     "start": 15.48,
+     "end": 15.72,
+     "probability": 0.9409
+    },
+    {
+     "word": "cheaper.",
+     "start": 15.72,
+     "end": 16.08,
+     "probability": 0.9995
+    }
+   ]
+  },
+  {
+   "chunk_start": 16.624,
+   "chunk_end": 19.244,
+   "text": "That sounds like a reasonable idea to me.",
+   "words": [
+    {
+     "word": "That",
+     "start": 16.624,
+     "end": 16.904,
+     "probability": 0.8857
+    },
+    {
+     "word": "sounds",
+     "start": 16.904,
+     "end": 17.184,
+     "probability": 0.9956
+    },
+    {
+     "word": "like",
+     "start": 17.184,
+     "end": 17.424,
+     "probability": 0.9971
+    },
+    {
+     "word": "a",
+     "start": 17.424,
+     "end": 17.504,
+     "probability": 0.4163
+    },
+    {
+     "word": "reasonable",
+     "start": 17.504,
+     "end": 17.924,
+     "probability": 0.9927
+    },
+    {
+     "word": "idea",
+     "start": 17.924,
+     "end": 18.344,
+     "probability": 0.9976
+    },
+    {
+     "word": "to",
+     "start": 18.344,
+     "end": 18.524,
+     "probability": 0.9917
+    },
+    {
+     "word": "me.",
+     "start": 18.524,
+     "end": 18.724,
+     "probability": 0.9995
+    }
+   ]
+  },
+  {
+   "chunk_start": 19.956,
+   "chunk_end": 22.512,
+   "text": "The meeting starts in about 10 minutes.",
+   "words": [
+    {
+     "word": "The",
+     "start": 19.956,
+     "end": 20.296,
+     "probability": 0.9126
+    },
+    {
+     "word": "meeting",
+     "start": 20.296,
+     "end": 20.516,
+     "probability": 0.9922
+    },
+    {
+     "word": "starts",
+     "start": 20.516,
+     "end": 20.776,
+     "probability": 0.9976
+    },
+    {
+     "word": "in",
+     "start": 20.776,
+     "end": 21.076,
+     "probability": 0.6113
+    },
+    {
+     "word": "about",
+     "start": 21.076,
+     "end": 21.256,
+     "probability": 0.9927
+    },
+    {
+     "word": "10",
+     "start": 21.256,
+     "end": 21.536,
+     "probability": 0.7173
+    },
+    {
+     "word": "minutes.",
+     "start": 21.536,
+     "end": 21.856,
+     "probability": 0.9883
+    }
+   ]
+  },
+  {
+   "chunk_start": 22.512,
+   "chunk_end": 25.132,
+   "text": "I think the blue one is slightly cheaper.",
+   "words": [
+    {
+     "word": "I",
+     "start": 22.512,
+     "end": 22.812,
+     "probability": 0.9399
+    },
+    {
+     "word": "think",
+     "start": 22.812,
+     "end": 22.952,
+     "probability": 0.998
+    },
+    {
+     "word": "the",
+     "start": 22.952,
+     "end": 23.132,
+     "probability": 0.9912
+    },
+    {
+     "word": "blue",
+     "start": 23.132,
+     "end": 23.332,
+     "probability": 0.9702
+    },
+    {
+     "word": "one",
+     "start": 23.332,
+     "end": 23.572,
+     "probability": 0.9868
+    },
+    {
+     "word": "is",
+     "start": 23.572,
+     "end": 23.792,
+     "probability": 0.9971
+    },
+    {
+     "word": "slightly",
+     "start": 23.792,
+     "end": 24.052,
+     "probability": 0.9937
+    },
+    {
+     "word": "cheaper.",
+     "start": 24.052,
+     "end": 24.512,
+     "probability": 0.9985
+    }
+   ]
+  }
+ ]
+}

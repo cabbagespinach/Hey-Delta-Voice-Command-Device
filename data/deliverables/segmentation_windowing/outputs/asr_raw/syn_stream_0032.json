@@ -1,0 +1,204 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0032.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:27:39+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8982052206993103,
+ "chunks": [
+  {
+   "chunk_start": 2.196,
+   "chunk_end": 4.844,
+   "text": "The weather is changing again this afternoon.",
+   "words": [
+    {
+     "word": "The",
+     "start": 2.196,
+     "end": 2.516,
+     "probability": 0.8853
+    },
+    {
+     "word": "weather",
+     "start": 2.516,
+     "end": 2.716,
+     "probability": 0.9976
+    },
+    {
+     "word": "is",
+     "start": 2.716,
+     "end": 2.896,
+     "probability": 0.998
+    },
+    {
+     "word": "changing",
+     "start": 2.896,
+     "end": 3.176,
+     "probability": 0.999
+    },
+    {
+     "word": "again",
+     "start": 3.176,
+     "end": 3.576,
+     "probability": 0.9951
+    },
+    {
+     "word": "this",
+     "start": 3.576,
+     "end": 3.776,
+     "probability": 0.9937
+    },
+    {
+     "word": "afternoon.",
+     "start": 3.776,
+     "end": 4.136,
+     "probability": 0.9985
+    }
+   ]
+  },
+  {
+   "chunk_start": 13.972,
+   "chunk_end": 19.98,
+   "text": "Please remember to present the documents tomorrow. That sounds like a reasonable idea to me.",
+   "words": [
+    {
+     "word": "Please",
+     "start": 13.972,
+     "end": 14.432,
+     "probability": 0.2979
+    },
+    {
+     "word": "remember",
+     "start": 14.432,
+     "end": 15.112,
+     "probability": 0.9893
+    },
+    {
+     "word": "to",
+     "start": 15.112,
+     "end": 15.512,
+     "probability": 0.9946
+    },
+    {
+     "word": "present",
+     "start": 15.512,
+     "end": 15.812,
+     "probability": 0.3655
+    },
+    {
+     "word": "the",
+     "start": 15.812,
+     "end": 16.072,
+     "probability": 0.9741
+    },
+    {
+     "word": "documents",
+     "start": 16.072,
+     "end": 16.512,
+     "probability": 0.9941
+    },
+    {
+     "word": "tomorrow.",
+     "start": 16.512,
+     "end": 16.952,
+     "probability": 0.9673
+    },
+    {
+     "word": "That",
+     "start": 16.952,
+     "end": 17.252,
+     "probability": 0.9707
+    },
+    {
+     "word": "sounds",
+     "start": 17.252,
+     "end": 17.492,
+     "probability": 0.9956
+    },
+    {
+     "word": "like",
+     "start": 17.492,
+     "end": 17.832,
+     "probability": 0.999
+    },
+    {
+     "word": "a",
+     "start": 17.832,
+     "end": 18.012,
+     "probability": 0.999
+    },
+    {
+     "word": "reasonable",
+     "start": 18.012,
+     "end": 18.452,
+     "probability": 0.998
+    },
+    {
+     "word": "idea",
+     "start": 18.452,
+     "end": 18.992,
+     "probability": 0.9985
+    },
+    {
+     "word": "to",
+     "start": 18.992,
+     "end": 19.232,
+     "probability": 0.9985
+    },
+    {
+     "word": "me.",
+     "start": 19.232,
+     "end": 19.412,
+     "probability": 1.0
+    }
+   ]
+  },
+  {
+   "chunk_start": 25.172,
+   "chunk_end": 28.492,
+   "text": "The battery should last for another hour.",
+   "words": [
+    {
+     "word": "The",
+     "start": 25.172,
+     "end": 25.492,
+     "probability": 0.8306
+    },
+    {
+     "word": "battery",
+     "start": 25.492,
+     "end": 25.832,
+     "probability": 0.9746
+    },
+    {
+     "word": "should",
+     "start": 25.832,
+     "end": 26.032,
+     "probability": 0.9966
+    },
+    {
+     "word": "last",
+     "start": 26.032,
+     "end": 26.352,
+     "probability": 0.9985
+    },
+    {
+     "word": "for",
+     "start": 26.352,
+     "end": 26.512,
+     "probability": 0.9912
+    },
+    {
+     "word": "another",
+     "start": 26.512,
+     "end": 26.692,
+     "probability": 0.9956
+    },
+    {
+     "word": "hour.",
+     "start": 26.692,
+     "end": 27.112,
+     "probability": 0.9966
+    }
+   ]
+  }
+ ]
+}

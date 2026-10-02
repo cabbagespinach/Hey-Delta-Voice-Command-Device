@@ -1,0 +1,139 @@
+{
+  "created_at": "2026-09-29T17:08:08+00:00",
+  "model": "bc_resnet:BCResNet6",
+  "checkpoint": "/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/deliverables/model/runs/bcresnet6_hn/best.pt",
+  "threshold": 0.45301145315170294,
+  "corpus": "Qualcomm Keyword Speech Dataset (evaluation only; not in manifest.csv)",
+  "overall": {
+    "as_recorded": {
+      "n": 4270,
+      "false_accepts": 25,
+      "rate": 0.00585480093676815,
+      "ci95": [
+        0.0037923959613000296,
+        0.00863078737553038
+      ],
+      "speakers_with_fa": 7,
+      "mean_score": 0.04717204189037062,
+      "p99": 0.330928933918477
+    },
+    "device_level": {
+      "n": 4270,
+      "false_accepts": 40,
+      "rate": 0.00936768149882904,
+      "ci95": [
+        0.006700603976724147,
+        0.012734487707143192
+      ],
+      "speakers_with_fa": 17,
+      "mean_score": 0.04835746320650479,
+      "p99": 0.4195207881927604
+    }
+  },
+  "by_keyword": {
+    "hey_android": {
+      "as_recorded": {
+        "n": 1112,
+        "false_accepts": 23,
+        "rate": 0.02068345323741007,
+        "ci95": [
+          0.013155616096781616,
+          0.030874465693789387
+        ],
+        "speakers_with_fa": 5,
+        "mean_score": 0.0609757672855463,
+        "p99": 0.6485859990119965
+      },
+      "device_level": {
+        "n": 1112,
+        "false_accepts": 30,
+        "rate": 0.02697841726618705,
+        "ci95": [
+          0.018274614525505658,
+          0.03829066585328001
+        ],
+        "speakers_with_fa": 11,
+        "mean_score": 0.07037093810357736,
+        "p99": 0.6032208734750768
+      }
+    },
+    "hey_snapdragon": {
+      "as_recorded": {
+        "n": 1112,
+        "false_accepts": 0,
+        "rate": 0.0,
+        "ci95": [
+          0.0,
+          0.0033118413534450938
+        ],
+        "speakers_with_fa": 0,
+        "mean_score": 0.043495274261109156,
+        "p99": 0.1186063209921123
+      },
+      "device_level": {
+        "n": 1112,
+        "false_accepts": 7,
+        "rate": 0.006294964028776978,
+        "ci95": [
+          0.002534536671507286,
+          0.012926778096879386
+        ],
+        "speakers_with_fa": 5,
+        "mean_score": 0.0529764021797903,
+        "p99": 0.36355827242136024
+      }
+    },
+    "hi_galaxy": {
+      "as_recorded": {
+        "n": 934,
+        "false_accepts": 2,
+        "rate": 0.0021413276231263384,
+        "ci95": [
+          0.0002594299909517187,
+          0.007713606902123941
+        ],
+        "speakers_with_fa": 2,
+        "mean_score": 0.03259218290170986,
+        "p99": 0.18528130635619142
+      },
+      "device_level": {
+        "n": 934,
+        "false_accepts": 3,
+        "rate": 0.0032119914346895075,
+        "ci95": [
+          0.0006628803010821025,
+          0.009357860162798149
+        ],
+        "speakers_with_fa": 3,
+        "mean_score": 0.03689235059955263,
+        "p99": 0.26859710738062664
+      }
+    },
+    "hi_lumina": {
+      "as_recorded": {
+        "n": 1112,
+        "false_accepts": 0,
+        "rate": 0.0,
+        "ci95": [
+          0.0,
+          0.0033118413534450938
+        ],
+        "speakers_with_fa": 0,
+        "mean_score": 0.04929111676421284,
+        "p99": 0.12497907891869547
+      },
+      "device_level": {
+        "n": 1112,
+        "false_accepts": 0,
+        "rate": 0.0,
+        "ci95": [
+          0.0,
+          0.0033118413534450938
+        ],
+        "speakers_with_fa": 0,
+        "mean_score": 0.03135491909774141,
+        "p99": 0.11345441326499003
+      }
+    }
+  }
+}

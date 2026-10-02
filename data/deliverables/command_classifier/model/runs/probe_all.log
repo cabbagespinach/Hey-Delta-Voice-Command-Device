@@ -1,0 +1,10 @@
+21577 train clips (24000 draws/epoch), 3144 validation clips, 55,914 parameters
+ep  0 loss 3.297 | owner 0.000 web 0.000 synth 0.000 unk-false 0.000 | score 0.250 * (1.17 min)
+ep  1 loss 3.096 | owner 0.019 web 0.012 synth 0.042 unk-false 0.336 | score 0.184 (0.64 min)
+ep  2 loss 2.950 | owner 0.037 web 0.005 synth 0.042 unk-false 0.295 | score 0.197 (0.87 min)
+ep  3 loss 2.758 | owner 0.191 web 0.137 synth 0.183 unk-false 0.157 | score 0.339 * (0.77 min)
+ep  4 loss 2.496 | owner 0.352 web 0.067 synth 0.421 unk-false 0.281 | score 0.390 * (0.85 min)
+ep  5 loss 2.311 | owner 0.426 web 0.222 synth 0.520 unk-false 0.300 | score 0.467 * (0.86 min)
+ep  6 loss 2.190 | owner 0.451 web 0.239 synth 0.589 unk-false 0.281 | score 0.499 * (0.71 min)
+ep  7 loss 2.142 | owner 0.451 web 0.261 synth 0.582 unk-false 0.296 | score 0.499 * (0.62 min)
+best selection score 0.499 -> /mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/deliverables/command_classifier/model/runs/probe_all/best.pt

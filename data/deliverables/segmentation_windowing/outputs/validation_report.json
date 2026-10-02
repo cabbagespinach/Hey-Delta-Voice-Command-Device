@@ -1,0 +1,422 @@
+{
+  "generated_by": "validate_windows.py",
+  "config_hash": "4b08315cb6fe",
+  "n_checks": 61,
+  "n_failed": 0,
+  "checks": [
+    {
+      "check": "inventory_covers_every_manifest_recording",
+      "status": "PASS",
+      "detail": "20892 inventory rows vs 20892 expected",
+      "examples": []
+    },
+    {
+      "check": "frozen_dataset_split_assignments_unchanged",
+      "status": "PASS",
+      "detail": "6961 files in pre-existing source groups",
+      "examples": []
+    },
+    {
+      "check": "normalized_manifest_splits_inherited",
+      "status": "PASS",
+      "detail": "",
+      "examples": []
+    },
+    {
+      "check": "source_group_rule_reproduced",
+      "status": "PASS",
+      "detail": "parent recording_id if parent_filepath else recording_id",
+      "examples": []
+    },
+    {
+      "check": "no_source_group_crosses_splits",
+      "status": "PASS",
+      "detail": "12207 source_groups",
+      "examples": []
+    },
+    {
+      "check": "no_recording_id_crosses_splits",
+      "status": "PASS",
+      "detail": "12257 recording_ids",
+      "examples": []
+    },
+    {
+      "check": "parent_child_same_split",
+      "status": "PASS",
+      "detail": "800 derived files",
+      "examples": []
+    },
+    {
+      "check": "streaming_eval_isolated_from_train_val_test",
+      "status": "PASS",
+      "detail": "120 eval-only files",
+      "examples": []
+    },
+    {
+      "check": "recording_durations_match_audio_headers",
+      "status": "PASS",
+      "detail": "",
+      "examples": []
+    },
+    {
+      "check": "annotation_timestamps_within_recording_and_ordered",
+      "status": "PASS",
+      "detail": "1177 annotations",
+      "examples": []
+    },
+    {
+      "check": "annotation_ids_unique",
+      "status": "PASS",
+      "detail": "",
+      "examples": []
+    },
+    {
+      "check": "annotation_inherits_filepath",
+      "status": "PASS",
+      "detail": "",
+      "examples": []
+    },
+    {
+      "check": "annotation_inherits_recording_id",
+      "status": "PASS",
+      "detail": "",
+      "examples": []
+    },
+    {
+      "check": "annotation_inherits_source_group",
+      "status": "PASS",
+      "detail": "",
+      "examples": []
+    },
+    {
+      "check": "annotation_inherits_split",
+      "status": "PASS",
+      "detail": "",
+      "examples": []
+    },
+    {
+      "check": "synthetic_recordings_have_no_asr_annotations",
+      "status": "PASS",
+      "detail": "803 annotations on 795 synthetic GT files",
+      "examples": []
+    },
+    {
+      "check": "real_recordings_have_no_gt_annotations",
+      "status": "PASS",
+      "detail": "",
+      "examples": []
+    },
+    {
+      "check": "streaming_gt_timestamps_verbatim",
+      "status": "PASS",
+      "detail": "120 streams",
+      "examples": []
+    },
+    {
+      "check": "tts_whole_clip_gt_reproduced",
+      "status": "PASS",
+      "detail": "energy-trim rule re-derived from audio",
+      "examples": []
+    },
+    {
+      "check": "review_did_not_modify_gt_bounds",
+      "status": "PASS",
+      "detail": "",
+      "examples": []
+    },
+    {
+      "check": "asr_annotations_labelled_as_candidates",
+      "status": "PASS",
+      "detail": "229 ASR annotations; label_sources=['asr_candidate_reviewed', 'human', 'synthetic_ground_truth']",
+      "examples": []
+    },
+    {
+      "check": "no_orphaned_or_invalid_review_overrides",
+      "status": "PASS",
+      "detail": "",
+      "examples": []
+    },
+    {
+      "check": "positive_eligibility_rule",
+      "status": "PASS",
+      "detail": "",
+      "examples": []
+    },
+    {
+      "check": "needs_review_never_positive_eligible",
+      "status": "PASS",
+      "detail": "",
+      "examples": []
+    },
+    {
+      "check": "asr_tolerance_covers_calibrated_error",
+      "status": "PASS",
+      "detail": "{\"verified_bounds\": {\"pre\": 0.0, \"post\": 0.0}, \"asr_energy_refined\": {\"pre\": 0.09, \"post\": 0.4}, \"asr_raw\": {\"pre\": 0.1, \"post\": 0.55}}",
+      "examples": []
+    },
+    {
+      "check": "annotation_tolerances_match_config",
+      "status": "PASS",
+      "detail": "",
+      "examples": []
+    },
+    {
+      "check": "asr_bounds_never_marked_verified_without_correction",
+      "status": "PASS",
+      "detail": "",
+      "examples": []
+    },
+    {
+      "check": "window_ids_unique",
+      "status": "PASS",
+      "detail": "46606 windows",
+      "examples": []
+    },
+    {
+      "check": "window_inherits_filepath",
+      "status": "PASS",
+      "detail": "",
+      "examples": []
+    },
+    {
+      "check": "window_inherits_recording_id",
+      "status": "PASS",
+      "detail": "",
+      "examples": []
+    },
+    {
+      "check": "window_inherits_source_group",
+      "status": "PASS",
+      "detail": "",
+      "examples": []
+    },
+    {
+      "check": "window_inherits_split",
+      "status": "PASS",
+      "detail": "",
+      "examples": []
+    },
+    {
+      "check": "window_inherits_is_eval_only",
+      "status": "PASS",
+      "detail": "",
+      "examples": []
+    },
+    {
+      "check": "window_inherits_source_id",
+      "status": "PASS",
+      "detail": "",
+      "examples": []
+    },
+    {
+      "check": "no_window_source_group_crosses_splits",
+      "status": "PASS",
+      "detail": "",
+      "examples": []
+    },
+    {
+      "check": "window_duration_exact",
+      "status": "PASS",
+      "detail": "",
+      "examples": []
+    },
+    {
+      "check": "window_source_span_and_padding_consistent",
+      "status": "PASS",
+      "detail": "",
+      "examples": []
+    },
+    {
+      "check": "padding_within_limit_or_short_clip_policy",
+      "status": "PASS",
+      "detail": "max_pad=0.900s",
+      "examples": []
+    },
+    {
+      "check": "positive_windows_reference_existing_annotation",
+      "status": "PASS",
+      "detail": "2563 positive windows",
+      "examples": []
+    },
+    {
+      "check": "positive_windows_only_from_eligible_complete_annotations",
+      "status": "PASS",
+      "detail": "",
+      "examples": []
+    },
+    {
+      "check": "positive_windows_fully_contain_tolerance_expanded_wakeword",
+      "status": "PASS",
+      "detail": "",
+      "examples": []
+    },
+    {
+      "check": "positive_window_label_source_matches_annotation",
+      "status": "PASS",
+      "detail": "",
+      "examples": []
+    },
+    {
+      "check": "positive_windows_contain_no_other_wakeword_like_annotation",
+      "status": "PASS",
+      "detail": "",
+      "examples": []
+    },
+    {
+      "check": "positive_label_sources_are_explicit",
+      "status": "PASS",
+      "detail": "{'synthetic_ground_truth': 2186, 'human': 279, 'asr_candidate_reviewed': 98}",
+      "examples": []
+    },
+    {
+      "check": "no_synthetic_recording_has_asr_labelled_windows",
+      "status": "PASS",
+      "detail": "",
+      "examples": []
+    },
+    {
+      "check": "max_positive_windows_per_occurrence",
+      "status": "PASS",
+      "detail": "max=3",
+      "examples": []
+    },
+    {
+      "check": "positive_windows_min_shift",
+      "status": "PASS",
+      "detail": "",
+      "examples": []
+    },
+    {
+      "check": "negative_windows_outside_guarded_annotations",
+      "status": "PASS",
+      "detail": "42128 plain negatives",
+      "examples": []
+    },
+    {
+      "check": "partial_fragment_windows_never_cover_complete_wakeword",
+      "status": "PASS",
+      "detail": "1915 fragment windows; max coverage 0.5",
+      "examples": []
+    },
+    {
+      "check": "partial_fragment_windows_only_from_verified_bounds",
+      "status": "PASS",
+      "detail": "",
+      "examples": []
+    },
+    {
+      "check": "no_fragments_from_loose_clip_extent_bounds",
+      "status": "PASS",
+      "detail": "excluded methods: ['human_clip_extent']",
+      "examples": []
+    },
+    {
+      "check": "clip_level_annotations_span_whole_file",
+      "status": "PASS",
+      "detail": "8 clip-level annotations",
+      "examples": []
+    },
+    {
+      "check": "recording_relabels_applied_and_recorded",
+      "status": "PASS",
+      "detail": "5 relabelled recordings",
+      "examples": [
+        "Manual-BG-RPI1",
+        "Manual-BG-RPI2",
+        "Manual-Fil-RPI13",
+        "Manual-Fil-RPI40",
+        "Manual-Fil-RPI69"
+      ]
+    },
+    {
+      "check": "relabelled_recordings_keep_manifest_values",
+      "status": "PASS",
+      "detail": "",
+      "examples": []
+    },
+    {
+      "check": "relabelled_recordings_have_no_machine_annotations",
+      "status": "PASS",
+      "detail": "",
+      "examples": []
+    },
+    {
+      "check": "relabelled_recording_windows_use_human_label",
+      "status": "PASS",
+      "detail": "163 windows",
+      "examples": []
+    },
+    {
+      "check": "no_positive_windows_from_negative_labelled_recordings",
+      "status": "PASS",
+      "detail": "",
+      "examples": []
+    },
+    {
+      "check": "partial_manifest_clips_are_negative",
+      "status": "PASS",
+      "detail": "",
+      "examples": []
+    },
+    {
+      "check": "no_positive_without_annotation",
+      "status": "PASS",
+      "detail": "",
+      "examples": []
+    },
+    {
+      "check": "no_negatives_from_unresolved_flagged_recordings",
+      "status": "PASS",
+      "detail": "0 flagged recordings",
+      "examples": []
+    },
+    {
+      "check": "windows_generated_with_current_config",
+      "status": "PASS",
+      "detail": "",
+      "examples": []
+    }
+  ],
+  "windows_by_split_label": [
+    {
+      "split": "streaming_eval_holdout",
+      "label": "negative",
+      "n": 4354
+    },
+    {
+      "split": "streaming_eval_holdout",
+      "label": "positive",
+      "n": 288
+    },
+    {
+      "split": "test",
+      "label": "negative",
+      "n": 3928
+    },
+    {
+      "split": "test",
+      "label": "positive",
+      "n": 234
+    },
+    {
+      "split": "train",
+      "label": "negative",
+      "n": 31876
+    },
+    {
+      "split": "train",
+      "label": "positive",
+      "n": 1809
+    },
+    {
+      "split": "validation",
+      "label": "negative",
+      "n": 3885
+    },
+    {
+      "split": "validation",
+      "label": "positive",
+      "n": 232
+    }
+  ]
+}

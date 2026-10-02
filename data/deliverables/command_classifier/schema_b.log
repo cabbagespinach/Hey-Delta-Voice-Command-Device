@@ -1,0 +1,83 @@
+owner recordings: 650; left out 42 empty / cut-off command clips
+other wordings: 17069 Whisper-confirmed clips
+other speakers: 158 clips
+# Clips per schema-B class (existing data, relabelled; no new data yet)
+
+46000 clips kept, 290 dropped (`data/commands_schema_b_dropped.csv`). Splits provisional.
+
+| class                       |   fragments |   other speakers |   other wordings (synthetic) |   public datasets |   reused unknowns |   synthetic voices |   voice-converted (yours) |   your recordings |   total |   real speakers |
+|:----------------------------|------------:|-----------------:|-----------------------------:|------------------:|------------------:|-------------------:|--------------------------:|------------------:|--------:|----------------:|
+| PLAY_MUSIC                  |           0 |                2 |                          535 |               587 |                 0 |                330 |                         0 |                19 |    1473 |             122 |
+| WEATHER                     |           0 |                2 |                          539 |                93 |                 0 |                326 |                       109 |                20 |    1089 |              55 |
+| TIME                        |           0 |                2 |                          531 |               218 |                 0 |                211 |                        99 |                20 |    1081 |             145 |
+| LIGHT_ON                    |           0 |                2 |                          961 |               668 |                 0 |                318 |                        49 |                20 |    2018 |             107 |
+| LIGHT_OFF                   |           0 |                2 |                          951 |               820 |                 0 |                324 |                        72 |                19 |    2188 |             198 |
+| PAUSE                       |           0 |                6 |                          369 |               320 |                 0 |                320 |                         0 |                17 |    1032 |              95 |
+| STOP                        |           0 |                2 |                          316 |               408 |                 0 |                306 |                         0 |                17 |    1049 |             112 |
+| NEXT                        |           0 |               12 |                          810 |                55 |                 0 |                639 |                         0 |                34 |    1550 |              38 |
+| VOLUME_UP                   |           0 |                3 |                          718 |              1354 |                 0 |                643 |                         0 |                31 |    2749 |             198 |
+| VOLUME_DOWN                 |           0 |                1 |                          615 |              1229 |                 0 |                330 |                         0 |                17 |    2192 |             161 |
+| CALL                        |          46 |               17 |                          483 |                 0 |                 0 |                275 |                         0 |                14 |     835 |              13 |
+| MESSAGE                     |           0 |                2 |                          505 |                 0 |                 0 |                244 |                         0 |                19 |     770 |               4 |
+| LIST_REMINDERS              |           0 |                2 |                          406 |                 3 |                 0 |                329 |                        83 |                18 |     841 |               6 |
+| TIMER_10S                   |           0 |                0 |                            0 |                 0 |                 0 |                  0 |                         0 |                 0 |       0 |               0 |
+| TIMER_30S                   |           0 |                0 |                            0 |                 1 |                 0 |                  0 |                         0 |                 0 |       1 |               1 |
+| TIMER_1MIN                  |           0 |                4 |                          438 |                15 |                 0 |                336 |                        99 |                19 |     911 |              19 |
+| ALARM_6AM                   |           0 |                7 |                          415 |                20 |                 0 |                333 |                        73 |                16 |     864 |              18 |
+| ALARM_8AM                   |           0 |                6 |                            0 |                 3 |                 0 |                  0 |                         0 |                 0 |       9 |               3 |
+| ALARM_9PM                   |           0 |                7 |                          419 |                 8 |                 0 |                334 |                        91 |                16 |     875 |              11 |
+| TEMPERATURE_18              |           0 |                1 |                          436 |                 0 |                 0 |                336 |                        94 |                19 |     886 |               3 |
+| TEMPERATURE_22              |           0 |                1 |                          428 |                 0 |                 0 |                336 |                       100 |                18 |     883 |               3 |
+| TEMPERATURE_26              |           0 |                1 |                          426 |                 0 |                 0 |                335 |                        53 |                17 |     832 |               3 |
+| BRIGHTNESS_20               |           0 |                8 |                          432 |                 0 |                 0 |                326 |                        67 |                17 |     850 |               5 |
+| BRIGHTNESS_60               |           0 |                6 |                            0 |                 0 |                 0 |                  0 |                         0 |                 0 |       6 |               1 |
+| BRIGHTNESS_100              |           0 |                6 |                            0 |                 0 |                 0 |                  0 |                         0 |                 0 |       6 |               1 |
+| COLOR_RED                   |           0 |               13 |                            0 |                 0 |                 0 |                  0 |                         0 |                 0 |      13 |               2 |
+| COLOR_BLUE                  |           0 |               11 |                            0 |                 0 |                 0 |                  0 |                         0 |                 0 |      11 |               2 |
+| COLOR_GREEN                 |           0 |               11 |                            0 |                 0 |                 0 |                  0 |                         0 |                 0 |      11 |               2 |
+| CREATE_REMINDER_DRINK_WATER |           0 |                0 |                            0 |                 0 |                 0 |                  0 |                         0 |                 0 |       0 |               0 |
+| CREATE_REMINDER_STUDY       |           0 |                2 |                          308 |                 0 |                 0 |                335 |                       100 |                16 |     761 |               4 |
+| CREATE_REMINDER_EXERCISE    |           0 |                0 |                            0 |                 0 |                 0 |                  0 |                         0 |                 0 |       0 |               0 |
+| unknown                     |        1591 |               19 |                         5793 |              4645 |              3644 |               3828 |                       489 |               205 |   20214 |            4918 |
+| TOTAL                       |        1637 |              158 |                        16834 |             10447 |              3644 |              11094 |                      1578 |               608 |   46000 |            6250 |
+
+## dropped, by reason
+
+| rule                               |   count |
+|:-----------------------------------|--------:|
+| unknown sentence, ambiguous intent |     290 |
+
+## relabelled unknown -> class
+
+|                                                                                |   clips |
+|:-------------------------------------------------------------------------------|--------:|
+| ('ALARM_8AM', 'prompt ALARM_V1_2')                                             |       2 |
+| ('ALARM_8AM', 'prompt ALARM_V2_2')                                             |       2 |
+| ('ALARM_8AM', 'prompt ALARM_V3_2')                                             |       2 |
+| ('ALARM_8AM', "unknown clip says 'set alarm for 8AM' (schema value)")          |       1 |
+| ('ALARM_8AM', "unknown clip says 'set the alarm for 8AM' (schema value)")      |       1 |
+| ('ALARM_8AM', "unknown clip says schema wording 'set an alarm for 8AM'")       |       1 |
+| ('BRIGHTNESS_100', 'prompt BRIGHTNESS_V1_3')                                   |       2 |
+| ('BRIGHTNESS_100', 'prompt BRIGHTNESS_V2_3')                                   |       2 |
+| ('BRIGHTNESS_100', 'prompt BRIGHTNESS_V3_3')                                   |       2 |
+| ('BRIGHTNESS_60', 'prompt BRIGHTNESS_V1_2')                                    |       2 |
+| ('BRIGHTNESS_60', 'prompt BRIGHTNESS_V2_2')                                    |       2 |
+| ('BRIGHTNESS_60', 'prompt BRIGHTNESS_V3_2')                                    |       2 |
+| ('CALL', 'cut-off clip now says a whole command')                              |      46 |
+| ('CALL', 'prompt CALL_V1')                                                     |       5 |
+| ('CALL', 'prompt CALL_V2')                                                     |       5 |
+| ('CALL', 'prompt CALL_V3')                                                     |       5 |
+| ('CALL', 'unknown sentence fits the intent')                                   |     135 |
+| ('COLOR_BLUE', 'prompt COLOR_V1_2')                                            |       5 |
+| ('COLOR_BLUE', 'prompt COLOR_V2_2')                                            |       3 |
+| ('COLOR_BLUE', 'prompt COLOR_V3_2')                                            |       3 |
+| ('COLOR_GREEN', 'prompt COLOR_V1_3')                                           |       5 |
+| ('COLOR_GREEN', 'prompt COLOR_V2_3')                                           |       3 |
+| ('COLOR_GREEN', 'prompt COLOR_V3_3')                                           |       3 |
+| ('COLOR_RED', 'prompt COLOR_V1_1')                                             |       5 |
+| ('COLOR_RED', 'prompt COLOR_V2_1')                                             |       5 |
+| ('COLOR_RED', 'prompt COLOR_V3_1')                                             |       3 |
+| ('MESSAGE', 'unknown sentence fits the intent')                                |     123 |
+| ('PAUSE', 'unknown sentence fits the intent')                                  |     141 |
+| ('TIMER_30S', "unknown clip says 'set a timer for 30 seconds' (schema value)") |       1 |
+| ('VOLUME_DOWN', 'unknown sentence fits the intent')                            |     117 |

@@ -1,0 +1,20 @@
+Label,Type,Variation 1,Variation 2,Variation 3,Value 1,Value 2,Value 3
+PLAY_MUSIC,Fixed,Play music,Start music,Play some music,-,-,-
+WEATHER,Fixed,Weather,What's the weather?,Tell me the weather,-,-,-
+TIME,Fixed,Time,What time is it?,Tell me the time,-,-,-
+LIGHT_ON,Fixed,Lights on,Power on the lights,Turn on the lights,-,-,-
+LIGHT_OFF,Fixed,Lights out,Kill the lights,Shut off the lights,-,-,-
+PAUSE,Fixed,Pause,Pause audio,Pause song,-,-,-
+STOP,Fixed,Stop,Stop playing,End playback,-,-,-
+NEXT,Fixed,Next song,Skip song,Play next song,-,-,-
+VOLUME_UP,Fixed,Volume up,Increase the volume,Turn the volume up,-,-,-
+VOLUME_DOWN,Fixed,Volume down,Lower the volume,Turn the volume down,-,-,-
+CALL,Fixed,Call,Make a call,Make a phone call,-,-,-
+MESSAGE,Fixed,Message,Send a message,Send my message,-,-,-
+LIST_REMINDERS,Fixed,Reminders,Show my reminders,List my reminders,-,-,-
+TIMER,Slotted,Timer {duration},Countdown for {duration},Start a timer for {duration},10 seconds,30 seconds,1 minute
+ALARM,Slotted,Alarm {time},Wake me up at {time},Set an alarm for {time},6:00 AM,8:00 AM,9:00 PM
+TEMPERATURE,Slotted,Temperature {degrees},Change the temperature to {degrees},Set the temperature to {degrees},18 degrees,22 degrees,26 degrees
+BRIGHTNESS,Slotted,Brightness {percent},Adjust brightness to {percent},Brightness level {percent},20 percent,60 percent,100 percent
+COLOR,Slotted,Change color to {color},Switch color to {color},Set color to {color},Red,Blue,Green
+CREATE_REMINDER,Slotted,Reminder {task},Remind me to {task},Create a reminder to {task},Drink water,Study,Exercise

@@ -1,0 +1,551 @@
+=== 0 wait for the voice job (morevoices) 20:50:44
+=== 0 wait for the voice job (morevoices) 20:57:04
+=== 1 cut-off fragments 21:09:34
+2115 source clips
+wrote 1637 fragments (478 sources skipped: deciding word not found or too early)
+source_dataset
+owner_recordings    279
+synthetic_clone     323
+synthetic_ph        328
+synthetic_piper     325
+web_slurp           321
+web_tas              61
+kept_text
+set an alarm at        168
+set temperature to     154
+turn                   141
+dim lights to          135
+set a timer for        117
+remind me to           106
+volume                 104
+what the                98
+what                    80
+what is the             63
+set the timer for       47
+call                    41
+lights                  36
+text                    33
+turn the lights         29
+set timer for           18
+how is the              16
+set an alarm for        12
+switch the lights       12
+dim light to            10
+set alarm for           10
+turn the volume         10
+set my alarm for         9
+switch                   9
+start the timer for      7
+=== 2 combined clip list 21:17:02
+owner recordings: 650; left out 42 empty / cut-off command clips
+
+28270 clips, 30 classes -> /mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/commands_all.csv
+split                       test  train  validation    All
+dataset                                                   
+converted_owner                0    785           0    785
+fragments_owner_recordings    77    140          62    279
+fragments_synthetic_clone     35    252          36    323
+fragments_synthetic_ph        85    222          21    328
+fragments_synthetic_piper      7    267          51    325
+fragments_web_slurp           63    233          25    321
+fragments_web_tas              7     47           7     61
+owner_recordings             158    335         115    608
+reuse_fleurs                  54    483          57    594
+reuse_mswc                    48    562          56    666
+reuse_musan                  194   1138         191   1523
+reuse_owner                  112    661          88    861
+synthetic_clone              602   3938         500   5040
+synthetic_ph                 204    930          64   1198
+synthetic_piper              451   3729         713   4893
+web_fsc                      809   4921         673   6403
+web_slurp                    476   1742         283   2501
+web_tas                      167   1192         202   1561
+All                         3549  21577        3144  28270
+
+clips per class and split:
+split               test  train  validation
+class                                      
+call_jane             32    206          33
+dim_lights_20         40    296          40
+dim_lights_50         39    302          42
+dim_lights_80         37    305          43
+lights_off           166    919         113
+lights_on            128    786         118
+list_reminders        45    306          43
+next                 119    532          77
+party                 44    269          39
+pause                 79    483          71
+play                  69    340          47
+play_music           123    684         129
+remind_study          43    317          42
+remind_trash          43    290          43
+set_alarm_6am         46    316          47
+set_alarm_7am         44    306          43
+set_alarm_9pm         42    321          40
+set_temperature_18    43    314          43
+set_temperature_22    43    317          43
+set_temperature_26    43    293          43
+set_timer_1           44    332          45
+set_timer_10          43    320          43
+set_timer_5           48    330          44
+stop                  84    571          76
+text_jane             31    186          29
+time                  87    386          25
+unknown             1447   8437        1258
+volume_down          183   1197         196
+volume_up            236   1546         246
+weather               78    370          43
+
+real owner-recording test clips: 158 (79 speaker2)
+=== 3 normalisation statistics (train) 21:17:16
+4000 draws, 1988000 frames; mean -21.0 dB, std 13.2 dB -> normalization_stats.json
+=== 4 small-scale test (shortcut probe + two short trainings) 21:18:06
+train sample 5835 clips, validation 3144 clips
+prefix_only   command macro-acc by group {'owner': 0.045, 'synthetic': 0.042, 'web': 0.032} (chance 0.034) | unknown-vs-command AUC all 0.532, owner-only 0.328
+channel_only  command macro-acc by group {'owner': 0.056, 'synthetic': 0.364, 'web': 0.164} (chance 0.034) | unknown-vs-command AUC all 0.761, owner-only 0.617
+length_only   command macro-acc by group {'owner': 0.052, 'synthetic': 0.079, 'web': 0.119} (chance 0.034) | unknown-vs-command AUC all 0.619, owner-only 0.606
+# Small-scale test: which commands need more real recordings?
+
+Validation split only. `runs/probe_all` = all data; `runs/probe_no_owner` = no owner recordings or anything derived from them.
+
+| | all data | without owner data |
+|---|---|---|
+| owner_macro_acc | 0.000 | 0.000 |
+| web_macro_acc | 0.000 | 0.000 |
+| synthetic_macro_acc | 0.000 | 0.000 |
+| unknown_false_action | 0.000 | 0.004 |
+| selection_score | 0.250 | 0.249 |
+
+Owner `unknown` validation clips taken for a command: all data 0% (8 clips), without owner data 0%.
+
+## Per command, owner validation session (sorted by accuracy without owner data)
+
+| class              |   clips |   acc_all |   acc_no_owner |   drop |
+|:-------------------|--------:|----------:|---------------:|-------:|
+| call_jane          |       4 |         0 |              0 |      0 |
+| dim_lights_20      |       4 |         0 |              0 |      0 |
+| dim_lights_50      |       4 |         0 |              0 |      0 |
+| dim_lights_80      |       4 |         0 |              0 |      0 |
+| lights_off         |       4 |         0 |              0 |      0 |
+| lights_on          |       4 |         0 |              0 |      0 |
+| list_reminders     |       4 |         0 |              0 |      0 |
+| next               |       7 |         0 |              0 |      0 |
+| pause              |       4 |         0 |              0 |      0 |
+| play_music         |       4 |         0 |              0 |      0 |
+| remind_study       |       3 |         0 |              0 |      0 |
+| remind_trash       |       4 |         0 |              0 |      0 |
+| set_alarm_6am      |       3 |         0 |              0 |      0 |
+| set_alarm_7am      |       3 |         0 |              0 |      0 |
+| set_alarm_9pm      |       3 |         0 |              0 |      0 |
+| set_temperature_18 |       4 |         0 |              0 |      0 |
+| set_temperature_22 |       4 |         0 |              0 |      0 |
+| set_temperature_26 |       4 |         0 |              0 |      0 |
+| set_timer_1        |       4 |         0 |              0 |      0 |
+| set_timer_10       |       4 |         0 |              0 |      0 |
+| set_timer_5        |       3 |         0 |              0 |      0 |
+| stop               |       4 |         0 |              0 |      0 |
+| text_jane          |       4 |         0 |              0 |      0 |
+| time               |       4 |         0 |              0 |      0 |
+| volume_down        |       4 |         0 |              0 |      0 |
+| volume_up          |       5 |         0 |              0 |      0 |
+| weather            |       4 |         0 |              0 |      0 |
+| unknown            |       8 |         1 |              1 |      0 |
+
+## Most frequent confusions (all data)
+
+|                                   |   clips |
+|:----------------------------------|--------:|
+| ('next', 'unknown')               |       7 |
+| ('volume_up', 'unknown')          |       5 |
+| ('dim_lights_20', 'unknown')      |       4 |
+| ('dim_lights_50', 'unknown')      |       4 |
+| ('dim_lights_80', 'unknown')      |       4 |
+| ('lights_on', 'unknown')          |       4 |
+| ('lights_off', 'unknown')         |       4 |
+| ('list_reminders', 'unknown')     |       4 |
+| ('pause', 'unknown')              |       4 |
+| ('play_music', 'unknown')         |       4 |
+| ('call_jane', 'unknown')          |       4 |
+| ('volume_down', 'unknown')        |       4 |
+| ('remind_trash', 'unknown')       |       4 |
+| ('set_temperature_22', 'unknown') |       4 |
+| ('set_temperature_26', 'unknown') |       4 |
+
+## Most frequent confusions (without owner data)
+
+|                                   |   clips |
+|:----------------------------------|--------:|
+| ('next', 'unknown')               |       7 |
+| ('volume_up', 'unknown')          |       5 |
+| ('dim_lights_20', 'unknown')      |       4 |
+| ('dim_lights_50', 'unknown')      |       4 |
+| ('dim_lights_80', 'unknown')      |       4 |
+| ('lights_on', 'unknown')          |       4 |
+| ('lights_off', 'unknown')         |       4 |
+| ('list_reminders', 'unknown')     |       4 |
+| ('pause', 'unknown')              |       4 |
+| ('play_music', 'unknown')         |       4 |
+| ('call_jane', 'unknown')          |       4 |
+| ('volume_down', 'unknown')        |       4 |
+| ('remind_trash', 'unknown')       |       4 |
+| ('set_temperature_22', 'unknown') |       4 |
+| ('set_temperature_26', 'unknown') |       4 |
+
+(probe report: model/runs/probes/probe_report.md)
+=== 5 full training: BC-ResNet tau 3 and tau 6, side by side 21:20:57
+=== 4 small-scale test (shortcut probe + two short trainings) 21:23:28
+train sample 5835 clips, validation 3144 clips
+prefix_only   command macro-acc by group {'owner': 0.045, 'synthetic': 0.042, 'web': 0.032} (chance 0.034) | unknown-vs-command AUC all 0.532, owner-only 0.328
+channel_only  command macro-acc by group {'owner': 0.056, 'synthetic': 0.364, 'web': 0.164} (chance 0.034) | unknown-vs-command AUC all 0.761, owner-only 0.617
+length_only   command macro-acc by group {'owner': 0.052, 'synthetic': 0.079, 'web': 0.119} (chance 0.034) | unknown-vs-command AUC all 0.619, owner-only 0.606
+# Small-scale test: which commands need more real recordings?
+
+Validation split only. `runs/probe_all` = all data; `runs/probe_no_owner` = no owner recordings or anything derived from them.
+
+| | all data | without owner data |
+|---|---|---|
+| owner_macro_acc | 0.451 | 0.226 |
+| web_macro_acc | 0.261 | 0.258 |
+| synthetic_macro_acc | 0.582 | 0.639 |
+| unknown_false_action | 0.296 | 0.289 |
+| selection_score | 0.499 | 0.459 |
+
+Owner `unknown` validation clips taken for a command: all data 38% (8 clips), without owner data 25%.
+
+## Per command, owner validation session (sorted by accuracy without owner data)
+
+| class              |   clips |   acc_all |   acc_no_owner |   drop |
+|:-------------------|--------:|----------:|---------------:|-------:|
+| lights_off         |       4 |      0    |           0    |   0    |
+| pause              |       4 |      0    |           0    |   0    |
+| set_timer_10       |       4 |      0    |           0    |   0    |
+| time               |       4 |      0    |           0    |   0    |
+| volume_down        |       4 |      0    |           0    |   0    |
+| volume_up          |       5 |      0    |           0    |   0    |
+| weather            |       4 |      0    |           0    |   0    |
+| dim_lights_20      |       4 |      0.25 |           0    |   0.25 |
+| set_temperature_22 |       4 |      0.5  |           0    |   0.5  |
+| set_temperature_26 |       4 |      0.5  |           0    |   0.5  |
+| set_alarm_6am      |       3 |      0.67 |           0    |   0.67 |
+| play_music         |       4 |      0.75 |           0    |   0.75 |
+| stop               |       4 |      0.75 |           0    |   0.75 |
+| remind_study       |       3 |      1    |           0    |   1    |
+| dim_lights_50      |       4 |      0    |           0.25 |  -0.25 |
+| call_jane          |       4 |      0.25 |           0.25 |   0    |
+| lights_on          |       4 |      0.5  |           0.25 |   0.25 |
+| set_temperature_18 |       4 |      0.75 |           0.25 |   0.5  |
+| list_reminders     |       4 |      1    |           0.25 |   0.75 |
+| remind_trash       |       4 |      1    |           0.25 |   0.75 |
+| next               |       7 |      0    |           0.43 |  -0.43 |
+| set_timer_1        |       4 |      0.25 |           0.5  |  -0.25 |
+| dim_lights_80      |       4 |      1    |           0.5  |   0.5  |
+| text_jane          |       4 |      1    |           0.5  |   0.5  |
+| set_alarm_7am      |       3 |      1    |           0.67 |   0.33 |
+| unknown            |       8 |      0.62 |           0.75 |  -0.12 |
+| set_alarm_9pm      |       3 |      0.33 |           1    |  -0.67 |
+| set_timer_5        |       3 |      0.67 |           1    |  -0.33 |
+
+## Most frequent confusions (all data)
+
+|                                              |   clips |
+|:---------------------------------------------|--------:|
+| ('next', 'unknown')                          |       6 |
+| ('time', 'unknown')                          |       4 |
+| ('pause', 'unknown')                         |       4 |
+| ('weather', 'unknown')                       |       4 |
+| ('call_jane', 'unknown')                     |       3 |
+| ('dim_lights_50', 'dim_lights_80')           |       3 |
+| ('lights_off', 'play')                       |       2 |
+| ('lights_off', 'unknown')                    |       2 |
+| ('volume_up', 'call_jane')                   |       2 |
+| ('set_timer_10', 'set_timer_1')              |       2 |
+| ('lights_on', 'party')                       |       2 |
+| ('set_temperature_22', 'set_temperature_18') |       2 |
+| ('set_timer_1', 'set_alarm_9pm')             |       2 |
+| ('dim_lights_20', 'dim_lights_50')           |       1 |
+| ('dim_lights_20', 'dim_lights_80')           |       1 |
+
+## Most frequent confusions (without owner data)
+
+|                                   |   clips |
+|:----------------------------------|--------:|
+| ('next', 'unknown')               |       4 |
+| ('pause', 'unknown')              |       4 |
+| ('lights_off', 'unknown')         |       4 |
+| ('stop', 'unknown')               |       4 |
+| ('time', 'unknown')               |       4 |
+| ('set_temperature_22', 'unknown') |       4 |
+| ('play_music', 'unknown')         |       4 |
+| ('remind_trash', 'unknown')       |       3 |
+| ('set_temperature_18', 'unknown') |       3 |
+| ('weather', 'unknown')            |       3 |
+| ('set_temperature_26', 'unknown') |       3 |
+| ('list_reminders', 'unknown')     |       3 |
+| ('volume_down', 'unknown')        |       3 |
+| ('dim_lights_20', 'unknown')      |       2 |
+| ('call_jane', 'unknown')          |       2 |
+
+(probe report: model/runs/probes/probe_report.md)
+=== 5 full training: BC-ResNet tau 3 and tau 6, side by side 21:30:42
+=== 6 phase 4 evaluation 23:03:05
+bcresnet3: cutoffs {'cautious': 0.935, 'balanced': 0.64}
+bcresnet6: cutoffs {'cautious': 0.885, 'balanced': 0.345}
+# Command classifier: test results
+
+Cutoffs chosen on validation; test clips were never used for any choice. Command rates are macro averages over classes: **correct**, **wrong command** (the harmful error), **rejected** (answered 'unknown' = asks again).
+
+## bcresnet3 (55,914 parameters, best epoch 53)
+
+Cutoffs: cautious 0.935, balanced 0.640
+
+| rule | who | clips | correct | wrong command | rejected |
+|---|---|---|---|---|---|
+| argmax | owner | 73 | 98.7% | 1.3% | 0.0% |
+| argmax | speaker2 | 73 | 97.6% | 1.7% | 0.7% |
+| argmax | web | 845 | 81.5% | 3.1% | 15.4% |
+| argmax | synthetic | 1111 | 98.8% | 0.4% | 0.8% |
+| cautious | owner | 73 | 75.4% | 0.0% | 24.6% |
+| cautious | speaker2 | 73 | 78.5% | 0.0% | 21.5% |
+| cautious | web | 845 | 47.3% | 0.0% | 52.7% |
+| cautious | synthetic | 1111 | 88.3% | 0.0% | 11.7% |
+| balanced | owner | 73 | 93.0% | 1.3% | 5.8% |
+| balanced | speaker2 | 73 | 94.1% | 0.0% | 5.9% |
+| balanced | web | 845 | 73.6% | 0.9% | 25.5% |
+| balanced | synthetic | 1111 | 97.9% | 0.2% | 1.9% |
+
+Unknown clips that trigger a command (test):
+
+| rule | fragments | owner | reuse_fleurs | reuse_mswc | reuse_musan | reuse_owner | synthetic | web | mean |
+|---|---|---|---|---|---|---|---|---|---|
+| argmax | 7.7% | 16.7% | 0.0% | 10.4% | 1.6% | 4.5% | 17.8% | 10.4% | 8.6% |
+| cautious | 0.4% | 0.0% | 0.0% | 2.1% | 0.0% | 0.0% | 0.0% | 0.7% | 0.4% |
+| balanced | 3.6% | 0.0% | 0.0% | 2.1% | 0.5% | 0.0% | 4.8% | 4.0% | 1.9% |
+
+## bcresnet6 (191,286 parameters, best epoch 49)
+
+Cutoffs: cautious 0.885, balanced 0.345
+
+| rule | who | clips | correct | wrong command | rejected |
+|---|---|---|---|---|---|
+| argmax | owner | 73 | 100.0% | 0.0% | 0.0% |
+| argmax | speaker2 | 73 | 100.0% | 0.0% | 0.0% |
+| argmax | web | 845 | 88.0% | 1.5% | 10.5% |
+| argmax | synthetic | 1111 | 99.3% | 0.2% | 0.5% |
+| cautious | owner | 73 | 93.6% | 0.0% | 6.4% |
+| cautious | speaker2 | 73 | 92.6% | 0.0% | 7.4% |
+| cautious | web | 845 | 74.1% | 0.0% | 25.9% |
+| cautious | synthetic | 1111 | 96.7% | 0.0% | 3.4% |
+| balanced | owner | 73 | 100.0% | 0.0% | 0.0% |
+| balanced | speaker2 | 73 | 100.0% | 0.0% | 0.0% |
+| balanced | web | 845 | 88.0% | 1.3% | 10.7% |
+| balanced | synthetic | 1111 | 99.2% | 0.2% | 0.6% |
+
+Unknown clips that trigger a command (test):
+
+| rule | fragments | owner | reuse_fleurs | reuse_mswc | reuse_musan | reuse_owner | synthetic | web | mean |
+|---|---|---|---|---|---|---|---|---|---|
+| argmax | 6.6% | 16.7% | 0.0% | 12.5% | 1.0% | 0.9% | 5.5% | 3.3% | 5.8% |
+| cautious | 2.2% | 0.0% | 0.0% | 0.0% | 0.5% | 0.0% | 0.0% | 0.2% | 0.4% |
+| balanced | 6.6% | 16.7% | 0.0% | 12.5% | 1.0% | 0.9% | 5.5% | 3.3% | 5.8% |
+
+{
+ "model": "bcresnet3",
+ "streams": 40,
+ "hours": 0.667,
+ "cutoffs": {
+  "cautious": 0.935,
+  "balanced": 0.64
+ },
+ "by_kind": {
+  "clone": {
+   "events": 108,
+   "woke": 0.417,
+   "argmax": {
+    "command_correct": 0.947,
+    "command_wrong": 0.026,
+    "command_rejected": 0.026,
+    "offlist_triggered_action": 0.286,
+    "end_to_end_correct": 0.379
+   },
+   "cautious": {
+    "command_correct": 0.658,
+    "command_wrong": 0.0,
+    "command_rejected": 0.342,
+    "offlist_triggered_action": 0.0,
+    "end_to_end_correct": 0.263
+   },
+   "balanced": {
+    "command_correct": 0.921,
+    "command_wrong": 0.0,
+    "command_rejected": 0.079,
+    "offlist_triggered_action": 0.143,
+    "end_to_end_correct": 0.368
+   }
+  },
+  "distractor": {
+   "events": 32,
+   "woke": 0.0
+  },
+  "owner": {
+   "events": 74,
+   "woke": 0.824,
+   "argmax": {
+    "command_correct": 0.541,
+    "command_wrong": 0.066,
+    "command_rejected": 0.393,
+    "offlist_triggered_action": null,
+    "end_to_end_correct": 0.446
+   },
+   "cautious": {
+    "command_correct": 0.262,
+    "command_wrong": 0.0,
+    "command_rejected": 0.738,
+    "offlist_triggered_action": null,
+    "end_to_end_correct": 0.216
+   },
+   "balanced": {
+    "command_correct": 0.443,
+    "command_wrong": 0.016,
+    "command_rejected": 0.541,
+    "offlist_triggered_action": null,
+    "end_to_end_correct": 0.365
+   }
+  }
+ },
+ "false_wakeups_per_hour": 34.5,
+ "false_wakeup_actions_per_hour": {
+  "argmax": 18.0,
+  "cautious": 6.0,
+  "balanced": 12.0
+ },
+ "distractor_woke_rate": 0.0
+}
+{
+ "model": "bcresnet6",
+ "streams": 40,
+ "hours": 0.667,
+ "cutoffs": {
+  "cautious": 0.885,
+  "balanced": 0.345
+ },
+ "by_kind": {
+  "clone": {
+   "events": 108,
+   "woke": 0.417,
+   "argmax": {
+    "command_correct": 0.947,
+    "command_wrong": 0.0,
+    "command_rejected": 0.053,
+    "offlist_triggered_action": 0.143,
+    "end_to_end_correct": 0.379
+   },
+   "cautious": {
+    "command_correct": 0.842,
+    "command_wrong": 0.0,
+    "command_rejected": 0.158,
+    "offlist_triggered_action": 0.0,
+    "end_to_end_correct": 0.337
+   },
+   "balanced": {
+    "command_correct": 0.947,
+    "command_wrong": 0.0,
+    "command_rejected": 0.053,
+    "offlist_triggered_action": 0.143,
+    "end_to_end_correct": 0.379
+   }
+  },
+  "distractor": {
+   "events": 32,
+   "woke": 0.0
+  },
+  "owner": {
+   "events": 74,
+   "woke": 0.824,
+   "argmax": {
+    "command_correct": 0.623,
+    "command_wrong": 0.016,
+    "command_rejected": 0.361,
+    "offlist_triggered_action": null,
+    "end_to_end_correct": 0.514
+   },
+   "cautious": {
+    "command_correct": 0.475,
+    "command_wrong": 0.0,
+    "command_rejected": 0.525,
+    "offlist_triggered_action": null,
+    "end_to_end_correct": 0.392
+   },
+   "balanced": {
+    "command_correct": 0.623,
+    "command_wrong": 0.016,
+    "command_rejected": 0.361,
+    "offlist_triggered_action": null,
+    "end_to_end_correct": 0.514
+   }
+  }
+ },
+ "false_wakeups_per_hour": 34.5,
+ "false_wakeup_actions_per_hour": {
+  "argmax": 16.5,
+  "cautious": 10.5,
+  "balanced": 16.5
+ },
+ "distractor_woke_rate": 0.0
+}
+# Command classifier: phase 4 summary
+
+Recommended model: **bcresnet6** (validation selection score 0.950; bcresnet3 0.919, bcresnet6 0.950). Test results never chose anything.
+
+## bcresnet3: 55,914 parameters, best epoch 53
+
+Cutoffs (validation): cautious 0.935 (unknown -> action <= 2%), balanced 0.640 (<= 5%)
+
+| rule | owner correct / wrong / asks again | speaker2 correct / wrong / asks again | public | synthetic | unknown -> action |
+|---|---|---|---|---|---|
+| argmax | 98.7% / 1.3% / 0.0% | 97.6% / 1.7% / 0.7% | 81.5% | 98.8% | 8.6% |
+| cautious | 75.4% / 0.0% / 24.6% | 78.5% / 0.0% / 21.5% | 47.3% | 88.3% | 0.4% |
+| balanced | 93.0% / 1.3% / 5.8% | 94.1% / 0.0% / 5.9% | 73.6% | 97.9% | 1.9% |
+
+Streaming (40 streams, 40 min; whole Pi path):
+
+| events | woke | rule | command correct | wrong | asks again | off-list -> action | end-to-end correct |
+|---|---|---|---|---|---|---|---|
+| clone (108) | 42% | argmax | 94.7% | 2.6% | 2.6% | 28.6% | 37.9% |
+| clone (108) | 42% | cautious | 65.8% | 0.0% | 34.2% | 0.0% | 26.3% |
+| clone (108) | 42% | balanced | 92.1% | 0.0% | 7.9% | 14.3% | 36.8% |
+| distractor (32) | 0% | - | - | - | - | - | - |
+| owner (74) | 82% | argmax | 54.1% | 6.6% | 39.3% | - | 44.6% |
+| owner (74) | 82% | cautious | 26.2% | 0.0% | 73.8% | - | 21.6% |
+| owner (74) | 82% | balanced | 44.3% | 1.6% | 54.1% | - | 36.5% |
+
+False wake-ups: 34.5/hour; actions they caused per hour: {'argmax': 18.0, 'cautious': 6.0, 'balanced': 12.0}
+
+## bcresnet6: 191,286 parameters, best epoch 49
+
+Cutoffs (validation): cautious 0.885 (unknown -> action <= 2%), balanced 0.345 (<= 5%)
+
+| rule | owner correct / wrong / asks again | speaker2 correct / wrong / asks again | public | synthetic | unknown -> action |
+|---|---|---|---|---|---|
+| argmax | 100.0% / 0.0% / 0.0% | 100.0% / 0.0% / 0.0% | 88.0% | 99.3% | 5.8% |
+| cautious | 93.6% / 0.0% / 6.4% | 92.6% / 0.0% / 7.4% | 74.1% | 96.7% | 0.4% |
+| balanced | 100.0% / 0.0% / 0.0% | 100.0% / 0.0% / 0.0% | 88.0% | 99.2% | 5.8% |
+
+Streaming (40 streams, 40 min; whole Pi path):
+
+| events | woke | rule | command correct | wrong | asks again | off-list -> action | end-to-end correct |
+|---|---|---|---|---|---|---|---|
+| clone (108) | 42% | argmax | 94.7% | 0.0% | 5.3% | 14.3% | 37.9% |
+| clone (108) | 42% | cautious | 84.2% | 0.0% | 15.8% | 0.0% | 33.7% |
+| clone (108) | 42% | balanced | 94.7% | 0.0% | 5.3% | 14.3% | 37.9% |
+| distractor (32) | 0% | - | - | - | - | - | - |
+| owner (74) | 82% | argmax | 62.3% | 1.6% | 36.1% | - | 51.4% |
+| owner (74) | 82% | cautious | 47.5% | 0.0% | 52.5% | - | 39.2% |
+| owner (74) | 82% | balanced | 62.3% | 1.6% | 36.1% | - | 51.4% |
+
+False wake-ups: 34.5/hour; actions they caused per hour: {'argmax': 16.5, 'cautious': 10.5, 'balanced': 16.5}
+
+---
+
+Small-scale test: see `model/runs/probes/probe_report.md` and `model/runs/probes/shortcuts.json`.
+=== ALL DONE 23:07:25
+EXIT=0

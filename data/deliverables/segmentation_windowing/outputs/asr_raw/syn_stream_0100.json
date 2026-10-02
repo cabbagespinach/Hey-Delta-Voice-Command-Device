@@ -1,0 +1,248 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0100.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:29:24+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8981017470359802,
+ "chunks": [
+  {
+   "chunk_start": 2.548,
+   "chunk_end": 8.524,
+   "text": "This recording is only being used as synthetic data.",
+   "words": [
+    {
+     "word": "This",
+     "start": 2.548,
+     "end": 2.908,
+     "probability": 0.7778
+    },
+    {
+     "word": "recording",
+     "start": 2.908,
+     "end": 3.408,
+     "probability": 0.9951
+    },
+    {
+     "word": "is",
+     "start": 3.408,
+     "end": 3.748,
+     "probability": 0.9961
+    },
+    {
+     "word": "only",
+     "start": 3.748,
+     "end": 4.028,
+     "probability": 0.9883
+    },
+    {
+     "word": "being",
+     "start": 4.028,
+     "end": 4.388,
+     "probability": 0.9873
+    },
+    {
+     "word": "used",
+     "start": 4.388,
+     "end": 4.848,
+     "probability": 0.998
+    },
+    {
+     "word": "as",
+     "start": 4.848,
+     "end": 5.228,
+     "probability": 0.9697
+    },
+    {
+     "word": "synthetic",
+     "start": 5.228,
+     "end": 5.668,
+     "probability": 0.9629
+    },
+    {
+     "word": "data.",
+     "start": 5.668,
+     "end": 6.268,
+     "probability": 0.9927
+    }
+   ]
+  },
+  {
+   "chunk_start": 11.252,
+   "chunk_end": 12.556,
+   "text": "Hey Delta!",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 11.252,
+     "end": 11.612,
+     "probability": 0.6855
+    },
+    {
+     "word": "Delta!",
+     "start": 11.612,
+     "end": 11.872,
+     "probability": 0.4741
+    }
+   ]
+  },
+  {
+   "chunk_start": 15.988,
+   "chunk_end": 18.636,
+   "text": "Let us compare the two options carefully.",
+   "words": [
+    {
+     "word": "Let",
+     "start": 15.988,
+     "end": 16.308,
+     "probability": 0.8857
+    },
+    {
+     "word": "us",
+     "start": 16.308,
+     "end": 16.448,
+     "probability": 0.9736
+    },
+    {
+     "word": "compare",
+     "start": 16.448,
+     "end": 16.788,
+     "probability": 0.9951
+    },
+    {
+     "word": "the",
+     "start": 16.788,
+     "end": 17.028,
+     "probability": 0.9961
+    },
+    {
+     "word": "two",
+     "start": 17.028,
+     "end": 17.188,
+     "probability": 0.9673
+    },
+    {
+     "word": "options",
+     "start": 17.188,
+     "end": 17.548,
+     "probability": 0.9961
+    },
+    {
+     "word": "carefully.",
+     "start": 17.548,
+     "end": 17.968,
+     "probability": 0.9922
+    }
+   ]
+  },
+  {
+   "chunk_start": 18.676,
+   "chunk_end": 21.296,
+   "text": "That sounds like a reasonable idea to me.",
+   "words": [
+    {
+     "word": "That",
+     "start": 18.676,
+     "end": 19.016,
+     "probability": 0.873
+    },
+    {
+     "word": "sounds",
+     "start": 19.016,
+     "end": 19.296,
+     "probability": 0.9951
+    },
+    {
+     "word": "like",
+     "start": 19.296,
+     "end": 19.456,
+     "probability": 0.998
+    },
+    {
+     "word": "a",
+     "start": 19.456,
+     "end": 19.516,
+     "probability": 0.9985
+    },
+    {
+     "word": "reasonable",
+     "start": 19.516,
+     "end": 19.896,
+     "probability": 0.9941
+    },
+    {
+     "word": "idea",
+     "start": 19.896,
+     "end": 20.296,
+     "probability": 0.9966
+    },
+    {
+     "word": "to",
+     "start": 20.296,
+     "end": 20.576,
+     "probability": 0.9966
+    },
+    {
+     "word": "me.",
+     "start": 20.576,
+     "end": 20.756,
+     "probability": 0.9995
+    }
+   ]
+  },
+  {
+   "chunk_start": 21.296,
+   "chunk_end": 26.604,
+   "text": "There are several things we need to discuss.",
+   "words": [
+    {
+     "word": "There",
+     "start": 23.156,
+     "end": 23.716,
+     "probability": 0.1218
+    },
+    {
+     "word": "are",
+     "start": 23.716,
+     "end": 23.956,
+     "probability": 0.9956
+    },
+    {
+     "word": "several",
+     "start": 23.956,
+     "end": 24.356,
+     "probability": 0.9922
+    },
+    {
+     "word": "things",
+     "start": 24.356,
+     "end": 24.796,
+     "probability": 0.9956
+    },
+    {
+     "word": "we",
+     "start": 24.796,
+     "end": 25.076,
+     "probability": 0.9824
+    },
+    {
+     "word": "need",
+     "start": 25.076,
+     "end": 25.316,
+     "probability": 0.9961
+    },
+    {
+     "word": "to",
+     "start": 25.316,
+     "end": 25.496,
+     "probability": 0.9995
+    },
+    {
+     "word": "discuss.",
+     "start": 25.496,
+     "end": 25.896,
+     "probability": 0.9971
+    }
+   ]
+  }
+ ]
+}

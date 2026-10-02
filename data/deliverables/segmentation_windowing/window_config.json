@@ -1,0 +1,188 @@
+{
+  "schema_version": "1.0",
+  "task": "long_recording_segmentation_and_window_generation",
+  "wakeword": {
+    "text": "Hey Delta",
+    "first_token": "hey",
+    "second_token": "delta",
+    "fuzzy_pair_max_edit_ratio": 0.34,
+    "fuzzy_word_max_edit_ratio": 0.4,
+    "min_occurrence_duration_sec": 0.25,
+    "max_occurrence_duration_sec": 1.6
+  },
+  "paths": {
+    "project_root": "../../..",
+    "manifest": "manifest.csv",
+    "normalized_manifest": "data/deliverables/dataset_split/normalized_manifest.csv",
+    "split_assignments": "data/deliverables/dataset_split/split_assignments.csv",
+    "streaming_eval_manifest": "data/logs/streaming_eval_manifest.csv",
+    "output_dir": "outputs",
+    "review_dir": "review"
+  },
+  "sources": {
+    "real_recording_sources": [
+      "manual_recording"
+    ],
+    "tts_positive_sources": [
+      "tts_synth"
+    ],
+    "sliced_long_synthetic_sources": [
+      "tts_synthetic_continuous_speech"
+    ],
+    "sliced_clip_len_sec": 1.5,
+    "include_generation_label_clips": true,
+    "include_streaming_eval": true,
+    "streaming_eval_split": "streaming_eval_holdout"
+  },
+  "split_extension": {
+    "description": "Recordings present in manifest.csv but absent from the frozen dataset_split deliverable get a split here. Existing assignments are never modified.",
+    "seed": 20260925,
+    "ratios": {
+      "train": 0.8,
+      "validation": 0.1,
+      "test": 0.1
+    },
+    "unit": "source_group",
+    "source_group_rule": "parent recording_id if parent_filepath is set, else recording_id (same rule as dataset_split)",
+    "method": "per canonical_category x device stratum, largest-duration-first greedy assignment to the split with the largest absolute duration deficit; ties broken by sha256(seed|source_group|split)",
+    "stratify_by": [
+      "canonical_category",
+      "device"
+    ],
+    "device_regex": "^Manual-[^-]+-([A-Za-z]+?)\\d*\\.wav$",
+    "device_note": "Device (Macmic / Phonemic / RPI) is parsed from manual-recording filenames only to stratify; source_group remains recording_id, consistent with dataset_split."
+  },
+  "asr": {
+    "engine": "faster-whisper",
+    "model": "large-v3",
+    "device": "auto",
+    "compute_type_cuda": "float16",
+    "compute_type_cpu": "int8",
+    "language": "en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "condition_on_previous_text": false,
+    "initial_prompt": null,
+    "hotwords": null,
+    "decode_unit": "whole_file_if_short_else_vad_chunk",
+    "decode_unit_rationale": "Decoding whole 25-60 s recordings of repeated 'Hey Delta' produced repetition loops with zero-length word timestamps; decoding each VAD speech chunk independently does not. Short clips (<= whole_file_max_sec) are decoded whole because Silero VAD misses or clips quiet onsets in them.",
+    "input_sample_rate": 16000,
+    "peak_normalize_to": null,
+    "vad": {
+      "threshold": 0.35,
+      "min_speech_duration_ms": 150,
+      "min_silence_duration_ms": 300,
+      "speech_pad_ms": 300
+    },
+    "quality_gates": {
+      "min_word_probability": 0.3,
+      "max_inter_word_gap_sec": 0.35,
+      "min_word_duration_sec": 0.04
+    },
+    "run_crosscheck_on_synthetic_ground_truth": true,
+    "model_note": "large-v3 recovered 28/71 short real clips vs ~21 for 'small' in a pilot on this corpus; many RPI clips are at -46..-50 dBFS RMS and remain unrecognised by either model (they are flagged for human review).",
+    "whole_file_max_sec": 8.0,
+    "peak_normalize_note": "Disabled: in a pilot, peak normalisation changed transcripts in both directions with no net gain.",
+    "boundary_refinement": {
+      "frame_sec": 0.01,
+      "rel_db": 25.0,
+      "local_context_sec": 1.0,
+      "local_floor_percentile": 20,
+      "floor_margin_db": 10.0,
+      "max_end_extension_sec": 0.7,
+      "max_start_shift_sec": 0.6,
+      "min_silence_sec": 0.08,
+      "note": "Deterministic energy snapping of ASR word bounds (see refine_bounds). Output stays an ASR candidate; raw Whisper bounds are kept in raw_start_sec/raw_end_sec. Parameters chosen by a sweep that kept the TTS calibration requirement low while giving plausible (~0.8 s median) spans on real recordings; a global noise floor extended real spans into room background.",
+      "min_onset_run_sec": 0.08
+    }
+  },
+  "synthetic_ground_truth": {
+    "streaming_eval": "wakeword_metadata insertion start_sec/end_sec are used verbatim.",
+    "tts_positive_whole_clip": {
+      "description": "Each TTS positive clip is one complete, ASR-verified 'Hey Delta' utterance generated in isolation. The ground truth is clip-level; the span is the clip trimmed of leading/trailing near-silence by a deterministic energy rule (no ASR involved).",
+      "frame_sec": 0.01,
+      "top_db": 40.0
+    }
+  },
+  "annotation_policy": {
+    "asr_unreviewed_positive_policy": "allow_flagged",
+    "asr_unreviewed_positive_policy_options": {
+      "allow_flagged": "ASR 'complete' candidates that pass quality gates may produce positive windows, labelled label_source=asr_candidate_unreviewed.",
+      "require_review": "ASR candidates produce positives only after a confirm_complete review override."
+    },
+    "boundary_tolerance_sec": {
+      "verified_bounds": {
+        "pre": 0.0,
+        "post": 0.0
+      },
+      "asr_energy_refined": {
+        "pre": 0.09,
+        "post": 0.4
+      },
+      "asr_raw": {
+        "pre": 0.1,
+        "post": 0.55
+      },
+      "note": "Applied as [start - pre, end + post]. verified_bounds = synthetic GT, human-added, or human-corrected bounds; ASR bounds keep their tolerance even after confirm_complete. Calibrated on outputs/asr_boundary_calibration.json (energy-trimmed TTS positives): raw Whisper word ends were up to 0.51 s early (median 0.35 s); energy-refined bounds need pre 0.08 / post 0.38. validate_windows.py fails if a tolerance is below the requirement in the current calibration. The calibration uses synthetic speech; real-recording error is unmeasured until reviewed bounds exist."
+    },
+    "flag_unmatched_speech_in_positive_recordings": true,
+    "flag_positive_recordings_without_complete_detection": true
+  },
+  "window": {
+    "duration_sec": 1.5,
+    "duration_rationale": "Matches clip_len_sec=1.5 used for every fixed-length clip already in the corpus.",
+    "output_sample_rate": 16000,
+    "pad_mode": "zeros",
+    "max_pad_fraction": 0.6,
+    "id_format": "{file_id}@{start_ms}ms_{label_initial}",
+    "output_sample_rate_rationale": "Only used by 'materialize'. Headers show 1,249 manifest rows are 16/22.05/24 kHz although manifest.csv lists 48 kHz (all TTS positives and confusables). Exporting every window at 16 kHz removes a bandwidth cue that would otherwise separate band-limited TTS positives from full-band negatives."
+  },
+  "positive": {
+    "rule": "A window is positive iff it fully contains [start - tol_pre, end + tol_post] of exactly one positive-eligible annotation (match_type=complete, status in {ground_truth, candidate, reviewed}, origin allowed by asr_unreviewed_positive_policy), with at least min_pre_context_sec before and min_post_context_sec after, and overlaps no other non-removed wakeword-like annotation (also tolerance-expanded).",
+    "alignment": "end_anchored",
+    "post_roll_offsets_sec": [
+      0.1,
+      0.25,
+      0.4
+    ],
+    "min_pre_context_sec": 0.05,
+    "min_post_context_sec": 0.05,
+    "max_windows_per_occurrence": 3,
+    "min_shift_between_windows_sec": 0.15,
+    "fallback_alignment": "center",
+    "fallback_note": "Used only when the tolerance-expanded span fits in the window with both minimum margins but none of the post_roll offsets does; yields at most one extra window per occurrence."
+  },
+  "partial_negative": {
+    "enabled": true,
+    "fragment_coverage": 0.35,
+    "max_coverage_fraction": 0.5,
+    "positions": [
+      "head",
+      "tail"
+    ],
+    "allowed_label_sources": [
+      "synthetic_ground_truth",
+      "human",
+      "asr_candidate_reviewed"
+    ],
+    "rationale": "Fragment windows need accurate wakeword bounds to guarantee the rest of the wakeword is excluded; unverified ASR bounds do not qualify.",
+    "require_verified_bounds": true,
+    "exclude_boundary_methods": [
+      "human_clip_extent"
+    ],
+    "exclude_note": "human_clip_extent spans ([0, duration] from a clip_level_positive override) contain the wakeword but are not tight: a 35% 'fragment' of the clip could hold the whole word, so no fragments are cut from them."
+  },
+  "negative": {
+    "hop_sec": 0.75,
+    "guard_sec": 0.5,
+    "vad_chunk_guard_sec": 0.1,
+    "speech_policy_in_positive_recordings": "non_speech_only",
+    "block_recordings_with_unresolved_recording_flag": true,
+    "min_tail_fraction": 0.67,
+    "short_clip_policy": "single_centered_window",
+    "max_windows_per_recording": 700,
+    "max_windows_note": "Raised from 120 to 700 on 2026-09-28 when Manual-BG-RPI16..19 (up to 473 s) were added: at 120 the longest kept ~38% of its audio. Only these recordings reached the cap. Dominance of one recording is handled by the training sampler's source-group weighting (dataloading, weight ~ n_windows^-0.5)."
+  },
+  "hold_recordings": {},
+  "_hold_recordings": "Recordings listed here produce no windows (logged as held_recording) and get no owner rows until released by removing them from this list after their timings are added."
+}

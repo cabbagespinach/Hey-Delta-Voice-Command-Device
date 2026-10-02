@@ -1,0 +1,223 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0040.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:27:51+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8894627094268799,
+ "chunks": [
+  {
+   "chunk_start": 5.652,
+   "chunk_end": 8.236,
+   "text": "The meeting starts in about 10 minutes.",
+   "words": [
+    {
+     "word": "The",
+     "start": 5.652,
+     "end": 6.012,
+     "probability": 0.9497
+    },
+    {
+     "word": "meeting",
+     "start": 6.012,
+     "end": 6.232,
+     "probability": 0.9912
+    },
+    {
+     "word": "starts",
+     "start": 6.232,
+     "end": 6.492,
+     "probability": 0.9961
+    },
+    {
+     "word": "in",
+     "start": 6.492,
+     "end": 6.752,
+     "probability": 0.9971
+    },
+    {
+     "word": "about",
+     "start": 6.752,
+     "end": 6.972,
+     "probability": 0.9941
+    },
+    {
+     "word": "10",
+     "start": 6.972,
+     "end": 7.212,
+     "probability": 0.8779
+    },
+    {
+     "word": "minutes.",
+     "start": 7.212,
+     "end": 7.512,
+     "probability": 0.9751
+    }
+   ]
+  },
+  {
+   "chunk_start": 9.652,
+   "chunk_end": 10.924,
+   "text": "Hey Delta!",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 9.652,
+     "end": 10.012,
+     "probability": 0.8901
+    },
+    {
+     "word": "Delta!",
+     "start": 10.012,
+     "end": 10.252,
+     "probability": 0.8647
+    }
+   ]
+  },
+  {
+   "chunk_start": 14.292,
+   "chunk_end": 17.804,
+   "text": "We should probably take the Cedula first.",
+   "words": [
+    {
+     "word": "We",
+     "start": 14.292,
+     "end": 14.612,
+     "probability": 0.2048
+    },
+    {
+     "word": "should",
+     "start": 14.612,
+     "end": 14.772,
+     "probability": 0.2354
+    },
+    {
+     "word": "probably",
+     "start": 14.772,
+     "end": 15.412,
+     "probability": 0.7998
+    },
+    {
+     "word": "take",
+     "start": 15.412,
+     "end": 15.972,
+     "probability": 0.9038
+    },
+    {
+     "word": "the",
+     "start": 15.972,
+     "end": 16.292,
+     "probability": 0.3882
+    },
+    {
+     "word": "Cedula",
+     "start": 16.292,
+     "end": 16.932,
+     "probability": 0.6311
+    },
+    {
+     "word": "first.",
+     "start": 16.932,
+     "end": 17.232,
+     "probability": 0.9077
+    }
+   ]
+  },
+  {
+   "chunk_start": 22.292,
+   "chunk_end": 28.78,
+   "text": "The weather is changing things up to me. Take battery code 1-4-0-0.",
+   "words": [
+    {
+     "word": "The",
+     "start": 22.292,
+     "end": 22.512,
+     "probability": 0.6494
+    },
+    {
+     "word": "weather",
+     "start": 22.512,
+     "end": 22.792,
+     "probability": 0.9858
+    },
+    {
+     "word": "is",
+     "start": 22.792,
+     "end": 23.032,
+     "probability": 0.98
+    },
+    {
+     "word": "changing",
+     "start": 23.032,
+     "end": 23.432,
+     "probability": 0.9082
+    },
+    {
+     "word": "things",
+     "start": 23.432,
+     "end": 24.012,
+     "probability": 0.1653
+    },
+    {
+     "word": "up",
+     "start": 24.012,
+     "end": 24.132,
+     "probability": 0.979
+    },
+    {
+     "word": "to",
+     "start": 24.132,
+     "end": 24.332,
+     "probability": 0.8691
+    },
+    {
+     "word": "me.",
+     "start": 24.332,
+     "end": 25.112,
+     "probability": 0.7778
+    },
+    {
+     "word": "Take",
+     "start": 25.332,
+     "end": 25.652,
+     "probability": 0.3821
+    },
+    {
+     "word": "battery",
+     "start": 25.652,
+     "end": 26.092,
+     "probability": 0.5786
+    },
+    {
+     "word": "code",
+     "start": 26.092,
+     "end": 26.572,
+     "probability": 0.1785
+    },
+    {
+     "word": "1",
+     "start": 26.572,
+     "end": 26.892,
+     "probability": 0.1037
+    },
+    {
+     "word": "-4",
+     "start": 26.892,
+     "end": 27.252,
+     "probability": 0.8013
+    },
+    {
+     "word": "-0",
+     "start": 27.252,
+     "end": 27.552,
+     "probability": 0.5266
+    },
+    {
+     "word": "-0.",
+     "start": 27.552,
+     "end": 27.892,
+     "probability": 0.7344
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/positives/en_US-lessac-medium_spd1.15_pit2.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:26:45+00:00",
+ "duration_sec": 0.6849886621315193,
+ "input_peak": 0.5988311767578125,
+ "chunks": [
+  {
+   "chunk_start": 0.0,
+   "chunk_end": 0.685,
+   "text": "Hey Delta",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 0.0,
+     "end": 0.18,
+     "probability": 0.8032
+    },
+    {
+     "word": "Delta",
+     "start": 0.18,
+     "end": 0.3,
+     "probability": 0.7837
+    }
+   ]
+  }
+ ]
+}

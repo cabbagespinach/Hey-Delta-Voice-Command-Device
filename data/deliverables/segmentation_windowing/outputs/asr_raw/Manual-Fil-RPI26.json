@@ -1,0 +1,28 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/positives/Manual-Fil-RPI26.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:26:30+00:00",
+ "duration_sec": 1.8026666666666666,
+ "input_peak": 0.11072394251823425,
+ "chunks": [
+  {
+   "chunk_start": 0.0,
+   "chunk_end": 1.803,
+   "text": "Hey, Delta.",
+   "words": [
+    {
+     "word": "Hey,",
+     "start": 0.0,
+     "end": 0.58,
+     "probability": 0.7524
+    },
+    {
+     "word": "Delta.",
+     "start": 0.58,
+     "end": 0.8,
+     "probability": 0.8208
+    }
+   ]
+  }
+ ]
+}

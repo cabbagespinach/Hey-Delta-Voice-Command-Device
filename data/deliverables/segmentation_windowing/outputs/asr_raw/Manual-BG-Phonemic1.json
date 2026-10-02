@@ -1,0 +1,123 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/negatives_general/Manual-BG-Phonemic1.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-29T10:33:12+00:00",
+ "duration_sec": 31.850666666666665,
+ "input_peak": 0.5388443470001221,
+ "chunks": [
+  {
+   "chunk_start": 15.06,
+   "chunk_end": 16.556,
+   "text": "Hey Delia!",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 15.06,
+     "end": 15.36,
+     "probability": 0.8203
+    },
+    {
+     "word": "Delia!",
+     "start": 15.36,
+     "end": 15.84,
+     "probability": 0.8694
+    }
+   ]
+  },
+  {
+   "chunk_start": 18.452,
+   "chunk_end": 20.012,
+   "text": "Hey Michelle!",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 18.452,
+     "end": 18.772,
+     "probability": 0.7578
+    },
+    {
+     "word": "Michelle!",
+     "start": 18.772,
+     "end": 19.132,
+     "probability": 0.6064
+    }
+   ]
+  },
+  {
+   "chunk_start": 21.652,
+   "chunk_end": 23.308,
+   "text": "Hey Martha.",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 21.652,
+     "end": 22.032,
+     "probability": 0.814
+    },
+    {
+     "word": "Martha.",
+     "start": 22.032,
+     "end": 22.312,
+     "probability": 0.5977
+    }
+   ]
+  },
+  {
+   "chunk_start": 25.172,
+   "chunk_end": 26.764,
+   "text": "Hey Delia!",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 25.172,
+     "end": 25.512,
+     "probability": 0.8291
+    },
+    {
+     "word": "Delia!",
+     "start": 25.512,
+     "end": 26.012,
+     "probability": 0.8452
+    }
+   ]
+  },
+  {
+   "chunk_start": 27.06,
+   "chunk_end": 28.62,
+   "text": "Hey Michelle!",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 27.06,
+     "end": 27.42,
+     "probability": 0.8022
+    },
+    {
+     "word": "Michelle!",
+     "start": 27.42,
+     "end": 27.68,
+     "probability": 0.5083
+    }
+   ]
+  },
+  {
+   "chunk_start": 28.948,
+   "chunk_end": 30.892,
+   "text": "Hey, Marian.",
+   "words": [
+    {
+     "word": "Hey,",
+     "start": 28.948,
+     "end": 29.348,
+     "probability": 0.7036
+    },
+    {
+     "word": "Marian.",
+     "start": 29.348,
+     "end": 29.768,
+     "probability": 0.7861
+    }
+   ]
+  }
+ ]
+}

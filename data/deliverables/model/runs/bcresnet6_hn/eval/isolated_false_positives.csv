@@ -1,0 +1,4 @@
+window_id,split,filepath,file_id,start_sec,end_sec,label,window_type,eval_subset,device,source,source_group,category,score,y,predicted
+Manual-Fil-RPI13@-131ms_n,validation,data/positives/Manual-Fil-RPI13.wav,Manual-Fil-RPI13,-0.1313,1.3687,negative,negative_confusable,real_device_rpi,RPI,manual_recording,Manual-Fil-RPI13,negatives_confusable,0.9309477210044861,0,1
+conf_00540@-367ms_n,validation,data/negatives_confusable/conf_00540.wav,conf_00540,-0.3669,1.1331,negative,negative_confusable,synthetic,synthetic,tts_synthetic_phonetic_nearmiss,syn_conf_00540,negatives_confusable,0.9058910012245178,0,1
+Ext-FLEURS-fil_ph-12209205521111310702@3000ms_n,validation,data/negatives_general/Ext-FLEURS-fil_ph-12209205521111310702.wav,Ext-FLEURS-fil_ph-12209205521111310702,3.0,4.5,negative,negative_general_speech,real_external,external,ext_fleurs,fleurs-fil_ph-355,negatives_general,0.7781417965888977,0,1

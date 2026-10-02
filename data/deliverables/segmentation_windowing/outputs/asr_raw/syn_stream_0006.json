@@ -1,0 +1,295 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0006.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:27:02+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.9023433923721313,
+ "chunks": [
+  {
+   "chunk_start": 4.884,
+   "chunk_end": 8.812,
+   "text": "We ordered dinner and waited near the entrance.",
+   "words": [
+    {
+     "word": "We",
+     "start": 4.884,
+     "end": 5.444,
+     "probability": 0.8936
+    },
+    {
+     "word": "ordered",
+     "start": 5.444,
+     "end": 5.724,
+     "probability": 0.9897
+    },
+    {
+     "word": "dinner",
+     "start": 5.724,
+     "end": 6.144,
+     "probability": 0.9883
+    },
+    {
+     "word": "and",
+     "start": 6.144,
+     "end": 6.484,
+     "probability": 0.9678
+    },
+    {
+     "word": "waited",
+     "start": 6.484,
+     "end": 6.844,
+     "probability": 0.9966
+    },
+    {
+     "word": "near",
+     "start": 6.844,
+     "end": 7.264,
+     "probability": 0.9927
+    },
+    {
+     "word": "the",
+     "start": 7.264,
+     "end": 7.504,
+     "probability": 0.9927
+    },
+    {
+     "word": "entrance.",
+     "start": 7.504,
+     "end": 7.764,
+     "probability": 0.9912
+    }
+   ]
+  },
+  {
+   "chunk_start": 9.076,
+   "chunk_end": 11.82,
+   "text": "I forgot where I put the keys this morning.",
+   "words": [
+    {
+     "word": "I",
+     "start": 9.076,
+     "end": 9.396,
+     "probability": 0.8657
+    },
+    {
+     "word": "forgot",
+     "start": 9.396,
+     "end": 9.716,
+     "probability": 0.98
+    },
+    {
+     "word": "where",
+     "start": 9.716,
+     "end": 10.076,
+     "probability": 0.9941
+    },
+    {
+     "word": "I",
+     "start": 10.076,
+     "end": 10.176,
+     "probability": 0.9556
+    },
+    {
+     "word": "put",
+     "start": 10.176,
+     "end": 10.316,
+     "probability": 0.9795
+    },
+    {
+     "word": "the",
+     "start": 10.316,
+     "end": 10.496,
+     "probability": 0.9956
+    },
+    {
+     "word": "keys",
+     "start": 10.496,
+     "end": 10.696,
+     "probability": 0.9941
+    },
+    {
+     "word": "this",
+     "start": 10.696,
+     "end": 10.916,
+     "probability": 0.9966
+    },
+    {
+     "word": "morning.",
+     "start": 10.916,
+     "end": 11.276,
+     "probability": 0.9985
+    }
+   ]
+  },
+  {
+   "chunk_start": 13.3,
+   "chunk_end": 17.932,
+   "text": "Hey Delta, I forgot where I put the keys this morning.",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 13.3,
+     "end": 13.68,
+     "probability": 0.6816
+    },
+    {
+     "word": "Delta,",
+     "start": 13.68,
+     "end": 13.88,
+     "probability": 0.686
+    },
+    {
+     "word": "I",
+     "start": 14.12,
+     "end": 14.58,
+     "probability": 0.9111
+    },
+    {
+     "word": "forgot",
+     "start": 14.58,
+     "end": 14.84,
+     "probability": 0.7134
+    },
+    {
+     "word": "where",
+     "start": 14.84,
+     "end": 16.18,
+     "probability": 0.9976
+    },
+    {
+     "word": "I",
+     "start": 16.18,
+     "end": 16.34,
+     "probability": 0.9912
+    },
+    {
+     "word": "put",
+     "start": 16.34,
+     "end": 16.5,
+     "probability": 0.9966
+    },
+    {
+     "word": "the",
+     "start": 16.5,
+     "end": 16.68,
+     "probability": 0.9971
+    },
+    {
+     "word": "keys",
+     "start": 16.68,
+     "end": 16.86,
+     "probability": 0.6948
+    },
+    {
+     "word": "this",
+     "start": 16.86,
+     "end": 17.04,
+     "probability": 0.998
+    },
+    {
+     "word": "morning.",
+     "start": 17.04,
+     "end": 17.38,
+     "probability": 0.9995
+    }
+   ]
+  },
+  {
+   "chunk_start": 17.972,
+   "chunk_end": 22.636,
+   "text": "I was looking for a quiet place to work as store closes earlier on weekends.",
+   "words": [
+    {
+     "word": "I",
+     "start": 17.972,
+     "end": 18.312,
+     "probability": 0.8945
+    },
+    {
+     "word": "was",
+     "start": 18.312,
+     "end": 18.452,
+     "probability": 0.9961
+    },
+    {
+     "word": "looking",
+     "start": 18.452,
+     "end": 18.672,
+     "probability": 0.9971
+    },
+    {
+     "word": "for",
+     "start": 18.672,
+     "end": 18.912,
+     "probability": 0.9976
+    },
+    {
+     "word": "a",
+     "start": 18.912,
+     "end": 18.992,
+     "probability": 0.9834
+    },
+    {
+     "word": "quiet",
+     "start": 18.992,
+     "end": 19.272,
+     "probability": 0.9839
+    },
+    {
+     "word": "place",
+     "start": 19.272,
+     "end": 19.532,
+     "probability": 0.9976
+    },
+    {
+     "word": "to",
+     "start": 19.532,
+     "end": 19.812,
+     "probability": 0.9966
+    },
+    {
+     "word": "work",
+     "start": 19.812,
+     "end": 20.052,
+     "probability": 0.9956
+    },
+    {
+     "word": "as",
+     "start": 20.052,
+     "end": 20.212,
+     "probability": 0.4775
+    },
+    {
+     "word": "store",
+     "start": 20.212,
+     "end": 20.452,
+     "probability": 0.7954
+    },
+    {
+     "word": "closes",
+     "start": 20.452,
+     "end": 20.692,
+     "probability": 0.9878
+    },
+    {
+     "word": "earlier",
+     "start": 20.692,
+     "end": 21.152,
+     "probability": 0.937
+    },
+    {
+     "word": "on",
+     "start": 21.152,
+     "end": 21.492,
+     "probability": 0.9951
+    },
+    {
+     "word": "weekends.",
+     "start": 21.492,
+     "end": 21.832,
+     "probability": 0.9844
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,367 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0112.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:29:46+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8843649625778198,
+ "chunks": [
+  {
+   "chunk_start": 1.556,
+   "chunk_end": 4.172,
+   "text": "Can you send me the address when you arrive?",
+   "words": [
+    {
+     "word": "Can",
+     "start": 1.556,
+     "end": 1.876,
+     "probability": 0.7534
+    },
+    {
+     "word": "you",
+     "start": 1.876,
+     "end": 2.056,
+     "probability": 0.9956
+    },
+    {
+     "word": "send",
+     "start": 2.056,
+     "end": 2.236,
+     "probability": 0.9922
+    },
+    {
+     "word": "me",
+     "start": 2.236,
+     "end": 2.396,
+     "probability": 0.9878
+    },
+    {
+     "word": "the",
+     "start": 2.396,
+     "end": 2.536,
+     "probability": 0.9937
+    },
+    {
+     "word": "address",
+     "start": 2.536,
+     "end": 2.836,
+     "probability": 0.9951
+    },
+    {
+     "word": "when",
+     "start": 2.836,
+     "end": 3.176,
+     "probability": 0.9653
+    },
+    {
+     "word": "you",
+     "start": 3.176,
+     "end": 3.296,
+     "probability": 0.9985
+    },
+    {
+     "word": "arrive?",
+     "start": 3.296,
+     "end": 3.496,
+     "probability": 0.9966
+    }
+   ]
+  },
+  {
+   "chunk_start": 9.268,
+   "chunk_end": 12.268,
+   "text": "The children are playing outside in the garden.",
+   "words": [
+    {
+     "word": "The",
+     "start": 9.268,
+     "end": 9.588,
+     "probability": 0.9619
+    },
+    {
+     "word": "children",
+     "start": 9.588,
+     "end": 9.888,
+     "probability": 0.9971
+    },
+    {
+     "word": "are",
+     "start": 9.888,
+     "end": 10.188,
+     "probability": 0.9995
+    },
+    {
+     "word": "playing",
+     "start": 10.188,
+     "end": 10.448,
+     "probability": 1.0
+    },
+    {
+     "word": "outside",
+     "start": 10.448,
+     "end": 10.988,
+     "probability": 0.9995
+    },
+    {
+     "word": "in",
+     "start": 10.988,
+     "end": 11.288,
+     "probability": 0.9971
+    },
+    {
+     "word": "the",
+     "start": 11.288,
+     "end": 11.388,
+     "probability": 0.9995
+    },
+    {
+     "word": "garden.",
+     "start": 11.388,
+     "end": 11.708,
+     "probability": 0.999
+    }
+   ]
+  },
+  {
+   "chunk_start": 12.788,
+   "chunk_end": 16.492,
+   "text": "The next episode starts after the commercial.",
+   "words": [
+    {
+     "word": "The",
+     "start": 12.788,
+     "end": 13.128,
+     "probability": 0.771
+    },
+    {
+     "word": "next",
+     "start": 13.128,
+     "end": 13.428,
+     "probability": 0.9961
+    },
+    {
+     "word": "episode",
+     "start": 13.428,
+     "end": 14.008,
+     "probability": 0.9946
+    },
+    {
+     "word": "starts",
+     "start": 14.008,
+     "end": 14.388,
+     "probability": 0.9897
+    },
+    {
+     "word": "after",
+     "start": 14.388,
+     "end": 15.088,
+     "probability": 0.9897
+    },
+    {
+     "word": "the",
+     "start": 15.088,
+     "end": 15.328,
+     "probability": 0.9951
+    },
+    {
+     "word": "commercial.",
+     "start": 15.328,
+     "end": 15.668,
+     "probability": 0.998
+    }
+   ]
+  },
+  {
+   "chunk_start": 19.988,
+   "chunk_end": 29.708,
+   "text": "If you're going to Heria, you can take this money. You can take the money and send me the address when you arrive. Here's my money. I love you. Thank you.",
+   "words": [
+    {
+     "word": "If",
+     "start": 19.988,
+     "end": 20.408,
+     "probability": 0.4944
+    },
+    {
+     "word": "you're",
+     "start": 20.408,
+     "end": 20.608,
+     "probability": 0.3463
+    },
+    {
+     "word": "going",
+     "start": 20.608,
+     "end": 20.788,
+     "probability": 0.8286
+    },
+    {
+     "word": "to",
+     "start": 20.788,
+     "end": 21.048,
+     "probability": 0.9893
+    },
+    {
+     "word": "Heria,",
+     "start": 21.048,
+     "end": 21.428,
+     "probability": 0.3163
+    },
+    {
+     "word": "you",
+     "start": 21.528,
+     "end": 21.548,
+     "probability": 0.5947
+    },
+    {
+     "word": "can",
+     "start": 21.548,
+     "end": 21.768,
+     "probability": 0.5767
+    },
+    {
+     "word": "take",
+     "start": 21.768,
+     "end": 21.988,
+     "probability": 0.5449
+    },
+    {
+     "word": "this",
+     "start": 21.988,
+     "end": 22.368,
+     "probability": 0.1986
+    },
+    {
+     "word": "money.",
+     "start": 22.368,
+     "end": 22.608,
+     "probability": 0.3528
+    },
+    {
+     "word": "You",
+     "start": 22.628,
+     "end": 22.628,
+     "probability": 0.2876
+    },
+    {
+     "word": "can",
+     "start": 22.628,
+     "end": 22.708,
+     "probability": 0.9897
+    },
+    {
+     "word": "take",
+     "start": 22.708,
+     "end": 22.868,
+     "probability": 0.6348
+    },
+    {
+     "word": "the",
+     "start": 22.868,
+     "end": 23.068,
+     "probability": 0.3477
+    },
+    {
+     "word": "money",
+     "start": 23.068,
+     "end": 23.288,
+     "probability": 0.9014
+    },
+    {
+     "word": "and",
+     "start": 23.288,
+     "end": 23.468,
+     "probability": 0.2688
+    },
+    {
+     "word": "send",
+     "start": 23.468,
+     "end": 23.748,
+     "probability": 0.9644
+    },
+    {
+     "word": "me",
+     "start": 23.748,
+     "end": 23.868,
+     "probability": 0.9629
+    },
+    {
+     "word": "the",
+     "start": 23.868,
+     "end": 23.908,
+     "probability": 0.9907
+    },
+    {
+     "word": "address",
+     "start": 23.908,
+     "end": 24.188,
+     "probability": 0.9995
+    },
+    {
+     "word": "when",
+     "start": 24.188,
+     "end": 24.588,
+     "probability": 0.9541
+    },
+    {
+     "word": "you",
+     "start": 24.588,
+     "end": 24.808,
+     "probability": 0.999
+    },
+    {
+     "word": "arrive.",
+     "start": 24.808,
+     "end": 24.948,
+     "probability": 0.9756
+    },
+    {
+     "word": "Here's",
+     "start": 25.208,
+     "end": 25.348,
+     "probability": 0.5061
+    },
+    {
+     "word": "my",
+     "start": 25.348,
+     "end": 25.528,
+     "probability": 0.9946
+    },
+    {
+     "word": "money.",
+     "start": 25.528,
+     "end": 25.888,
+     "probability": 0.8457
+    },
+    {
+     "word": "I",
+     "start": 26.208,
+     "end": 26.348,
+     "probability": 0.707
+    },
+    {
+     "word": "love",
+     "start": 26.348,
+     "end": 26.588,
+     "probability": 0.832
+    },
+    {
+     "word": "you.",
+     "start": 26.588,
+     "end": 26.608,
+     "probability": 0.8926
+    },
+    {
+     "word": "Thank",
+     "start": 26.628,
+     "end": 26.708,
+     "probability": 0.8149
+    },
+    {
+     "word": "you.",
+     "start": 26.708,
+     "end": 26.708,
+     "probability": 1.0
+    }
+   ]
+  }
+ ]
+}

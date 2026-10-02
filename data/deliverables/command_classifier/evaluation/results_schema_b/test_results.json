@@ -1,0 +1,370 @@
+{
+ "bcresnet6_schema_b": {
+  "tau": 6.0,
+  "best_epoch": 51,
+  "validation": {
+   "owner_macro_acc": 0.9285714285714286,
+   "web_macro_acc": 0.8685438610684876,
+   "synthetic_macro_acc": 0.9789024491414028,
+   "classmates_macro_acc": 0.9728614569243541,
+   "unknown_false_action": 0.06705539358600583,
+   "unknown_false_action_by_group": {
+    "classmates": 1.0,
+    "fragments": 0.0714,
+    "gsc": 0.0595,
+    "owner": 0.0667,
+    "reuse_fleurs": 0.0351,
+    "reuse_mswc": 0.0357,
+    "reuse_musan": 0.0105,
+    "reuse_owner": 0.0341,
+    "synthetic": 0.0633,
+    "web": 0.1109
+   },
+   "selection_score": 0.9363647604239336,
+   "epoch": 51,
+   "train_loss": 0.9608,
+   "minutes": 1.1
+  },
+  "cutoffs": {
+   "cautious": 0.99,
+   "balanced": 0.945
+  },
+  "params": 191672,
+  "test": {
+   "argmax": {
+    "classmates": {
+     "clips": 1793,
+     "classes": 31,
+     "correct": 0.9803,
+     "wrong_command": 0.0097,
+     "rejected": 0.01
+    },
+    "owner": {
+     "clips": 59,
+     "classes": 21,
+     "correct": 0.9841,
+     "wrong_command": 0.0,
+     "rejected": 0.0159
+    },
+    "speaker2": {
+     "clips": 48,
+     "classes": 21,
+     "correct": 1.0,
+     "wrong_command": 0.0,
+     "rejected": 0.0
+    },
+    "synthetic": {
+     "clips": 834,
+     "classes": 21,
+     "correct": 0.9845,
+     "wrong_command": 0.0,
+     "rejected": 0.0155
+    },
+    "web": {
+     "clips": 1339,
+     "classes": 13,
+     "correct": 0.8704,
+     "wrong_command": 0.0428,
+     "rejected": 0.0868
+    },
+    "unknown_false_action_by_group": {
+     "classmates": 0.7333,
+     "fragments": 0.0639,
+     "gsc": 0.0585,
+     "owner": 0.0196,
+     "reuse_fleurs": 0.0,
+     "reuse_mswc": 0.0625,
+     "reuse_musan": 0.0155,
+     "reuse_owner": 0.0536,
+     "synthetic": 0.0843,
+     "web": 0.0733
+    },
+    "unknown_false_action_mean": 0.1164
+   },
+   "cautious": {
+    "classmates": {
+     "clips": 1793,
+     "classes": 31,
+     "correct": 0.4447,
+     "wrong_command": 0.0,
+     "rejected": 0.5553
+    },
+    "owner": {
+     "clips": 59,
+     "classes": 21,
+     "correct": 0.3952,
+     "wrong_command": 0.0,
+     "rejected": 0.6048
+    },
+    "speaker2": {
+     "clips": 48,
+     "classes": 21,
+     "correct": 0.5437,
+     "wrong_command": 0.0,
+     "rejected": 0.4563
+    },
+    "synthetic": {
+     "clips": 834,
+     "classes": 21,
+     "correct": 0.5181,
+     "wrong_command": 0.0,
+     "rejected": 0.4819
+    },
+    "web": {
+     "clips": 1339,
+     "classes": 13,
+     "correct": 0.29,
+     "wrong_command": 0.0,
+     "rejected": 0.71
+    },
+    "unknown_false_action_by_group": {
+     "classmates": 0.0,
+     "fragments": 0.0038,
+     "gsc": 0.0,
+     "owner": 0.0,
+     "reuse_fleurs": 0.0,
+     "reuse_mswc": 0.0,
+     "reuse_musan": 0.0,
+     "reuse_owner": 0.0,
+     "synthetic": 0.0023,
+     "web": 0.0
+    },
+    "unknown_false_action_mean": 0.0006
+   },
+   "balanced": {
+    "classmates": {
+     "clips": 1793,
+     "classes": 31,
+     "correct": 0.8348,
+     "wrong_command": 0.0,
+     "rejected": 0.1652
+    },
+    "owner": {
+     "clips": 59,
+     "classes": 21,
+     "correct": 0.9048,
+     "wrong_command": 0.0,
+     "rejected": 0.0952
+    },
+    "speaker2": {
+     "clips": 48,
+     "classes": 21,
+     "correct": 0.8651,
+     "wrong_command": 0.0,
+     "rejected": 0.1349
+    },
+    "synthetic": {
+     "clips": 834,
+     "classes": 21,
+     "correct": 0.8974,
+     "wrong_command": 0.0,
+     "rejected": 0.1026
+    },
+    "web": {
+     "clips": 1339,
+     "classes": 13,
+     "correct": 0.6329,
+     "wrong_command": 0.0,
+     "rejected": 0.3671
+    },
+    "unknown_false_action_by_group": {
+     "classmates": 0.0,
+     "fragments": 0.015,
+     "gsc": 0.0035,
+     "owner": 0.0,
+     "reuse_fleurs": 0.0,
+     "reuse_mswc": 0.0,
+     "reuse_musan": 0.0,
+     "reuse_owner": 0.0,
+     "synthetic": 0.0047,
+     "web": 0.0016
+    },
+    "unknown_false_action_mean": 0.0025
+   }
+  }
+ },
+ "dscnn_schema_b": {
+  "tau": 3,
+  "best_epoch": 35,
+  "validation": {
+   "owner_macro_acc": 0.7670068027210885,
+   "web_macro_acc": 0.5637544394141788,
+   "synthetic_macro_acc": 0.9433513850016427,
+   "classmates_macro_acc": 0.8887570085558794,
+   "unknown_false_action": 0.15048217089033417,
+   "unknown_false_action_by_group": {
+    "classmates": 0.9333,
+    "fragments": 0.0969,
+    "gsc": 0.0785,
+    "owner": 0.0333,
+    "reuse_fleurs": 0.0175,
+    "reuse_mswc": 0.0179,
+    "reuse_musan": 0.0314,
+    "reuse_owner": 0.0114,
+    "synthetic": 0.3018,
+    "web": 0.1459
+   },
+   "selection_score": 0.8024774929604911,
+   "epoch": 35,
+   "train_loss": 1.4018,
+   "minutes": 1.17
+  },
+  "cutoffs": {
+   "cautious": 0.92,
+   "balanced": 0.72
+  },
+  "params": 194888,
+  "test": {
+   "argmax": {
+    "classmates": {
+     "clips": 1793,
+     "classes": 31,
+     "correct": 0.9203,
+     "wrong_command": 0.0449,
+     "rejected": 0.0348
+    },
+    "owner": {
+     "clips": 59,
+     "classes": 21,
+     "correct": 0.7214,
+     "wrong_command": 0.0873,
+     "rejected": 0.1913
+    },
+    "speaker2": {
+     "clips": 48,
+     "classes": 21,
+     "correct": 0.881,
+     "wrong_command": 0.0238,
+     "rejected": 0.0952
+    },
+    "synthetic": {
+     "clips": 834,
+     "classes": 21,
+     "correct": 0.9375,
+     "wrong_command": 0.0191,
+     "rejected": 0.0434
+    },
+    "web": {
+     "clips": 1339,
+     "classes": 13,
+     "correct": 0.6192,
+     "wrong_command": 0.0697,
+     "rejected": 0.3111
+    },
+    "unknown_false_action_by_group": {
+     "classmates": 0.4,
+     "fragments": 0.109,
+     "gsc": 0.0825,
+     "owner": 0.098,
+     "reuse_fleurs": 0.0926,
+     "reuse_mswc": 0.0208,
+     "reuse_musan": 0.0206,
+     "reuse_owner": 0.0446,
+     "synthetic": 0.2459,
+     "web": 0.1248
+    },
+    "unknown_false_action_mean": 0.1239
+   },
+   "cautious": {
+    "classmates": {
+     "clips": 1793,
+     "classes": 31,
+     "correct": 0.5999,
+     "wrong_command": 0.0073,
+     "rejected": 0.3928
+    },
+    "owner": {
+     "clips": 59,
+     "classes": 21,
+     "correct": 0.1825,
+     "wrong_command": 0.0,
+     "rejected": 0.8175
+    },
+    "speaker2": {
+     "clips": 48,
+     "classes": 21,
+     "correct": 0.5437,
+     "wrong_command": 0.0,
+     "rejected": 0.4563
+    },
+    "synthetic": {
+     "clips": 834,
+     "classes": 21,
+     "correct": 0.668,
+     "wrong_command": 0.0,
+     "rejected": 0.332
+    },
+    "web": {
+     "clips": 1339,
+     "classes": 13,
+     "correct": 0.3006,
+     "wrong_command": 0.0068,
+     "rejected": 0.6926
+    },
+    "unknown_false_action_by_group": {
+     "classmates": 0.0,
+     "fragments": 0.0113,
+     "gsc": 0.006,
+     "owner": 0.0,
+     "reuse_fleurs": 0.0,
+     "reuse_mswc": 0.0,
+     "reuse_musan": 0.0,
+     "reuse_owner": 0.0,
+     "synthetic": 0.0047,
+     "web": 0.014
+    },
+    "unknown_false_action_mean": 0.0036
+   },
+   "balanced": {
+    "classmates": {
+     "clips": 1793,
+     "classes": 31,
+     "correct": 0.7968,
+     "wrong_command": 0.0127,
+     "rejected": 0.1905
+    },
+    "owner": {
+     "clips": 59,
+     "classes": 21,
+     "correct": 0.4167,
+     "wrong_command": 0.0159,
+     "rejected": 0.5675
+    },
+    "speaker2": {
+     "clips": 48,
+     "classes": 21,
+     "correct": 0.75,
+     "wrong_command": 0.0,
+     "rejected": 0.25
+    },
+    "synthetic": {
+     "clips": 834,
+     "classes": 21,
+     "correct": 0.8446,
+     "wrong_command": 0.0039,
+     "rejected": 0.1514
+    },
+    "web": {
+     "clips": 1339,
+     "classes": 13,
+     "correct": 0.4578,
+     "wrong_command": 0.0211,
+     "rejected": 0.5211
+    },
+    "unknown_false_action_by_group": {
+     "classmates": 0.1333,
+     "fragments": 0.015,
+     "gsc": 0.0185,
+     "owner": 0.0,
+     "reuse_fleurs": 0.0,
+     "reuse_mswc": 0.0,
+     "reuse_musan": 0.0,
+     "reuse_owner": 0.0179,
+     "synthetic": 0.0398,
+     "web": 0.0374
+    },
+    "unknown_false_action_mean": 0.0262
+   }
+  }
+ }
+}

@@ -1,0 +1,357 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0075.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:28:46+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8900980949401855,
+ "chunks": [
+  {
+   "chunk_start": 2.356,
+   "chunk_end": 5.484,
+   "text": "Let us compare the two options carefully.",
+   "words": [
+    {
+     "word": "Let",
+     "start": 2.356,
+     "end": 2.736,
+     "probability": 0.8628
+    },
+    {
+     "word": "us",
+     "start": 2.736,
+     "end": 2.916,
+     "probability": 0.979
+    },
+    {
+     "word": "compare",
+     "start": 2.916,
+     "end": 3.256,
+     "probability": 0.9971
+    },
+    {
+     "word": "the",
+     "start": 3.256,
+     "end": 3.536,
+     "probability": 0.9966
+    },
+    {
+     "word": "two",
+     "start": 3.536,
+     "end": 3.696,
+     "probability": 0.9609
+    },
+    {
+     "word": "options",
+     "start": 3.696,
+     "end": 4.196,
+     "probability": 0.9951
+    },
+    {
+     "word": "carefully.",
+     "start": 4.196,
+     "end": 4.696,
+     "probability": 0.9956
+    }
+   ]
+  },
+  {
+   "chunk_start": 8.052,
+   "chunk_end": 11.724,
+   "text": "Hey, dear, can you send me the address when you arrive?",
+   "words": [
+    {
+     "word": "Hey,",
+     "start": 8.052,
+     "end": 8.472,
+     "probability": 0.7061
+    },
+    {
+     "word": "dear,",
+     "start": 8.492,
+     "end": 8.852,
+     "probability": 0.0387
+    },
+    {
+     "word": "can",
+     "start": 8.992,
+     "end": 9.272,
+     "probability": 0.9844
+    },
+    {
+     "word": "you",
+     "start": 9.272,
+     "end": 9.452,
+     "probability": 0.9961
+    },
+    {
+     "word": "send",
+     "start": 9.452,
+     "end": 9.672,
+     "probability": 0.9951
+    },
+    {
+     "word": "me",
+     "start": 9.672,
+     "end": 9.892,
+     "probability": 0.9497
+    },
+    {
+     "word": "the",
+     "start": 9.892,
+     "end": 10.012,
+     "probability": 0.9404
+    },
+    {
+     "word": "address",
+     "start": 10.012,
+     "end": 10.312,
+     "probability": 0.8799
+    },
+    {
+     "word": "when",
+     "start": 10.312,
+     "end": 10.672,
+     "probability": 0.8994
+    },
+    {
+     "word": "you",
+     "start": 10.672,
+     "end": 10.812,
+     "probability": 0.9976
+    },
+    {
+     "word": "arrive?",
+     "start": 10.812,
+     "end": 11.032,
+     "probability": 0.9893
+    }
+   ]
+  },
+  {
+   "chunk_start": 11.828,
+   "chunk_end": 15.212,
+   "text": "We can take the train after lunch The weather is changing again this afternoon",
+   "words": [
+    {
+     "word": "We",
+     "start": 11.828,
+     "end": 12.168,
+     "probability": 0.644
+    },
+    {
+     "word": "can",
+     "start": 12.168,
+     "end": 12.288,
+     "probability": 0.978
+    },
+    {
+     "word": "take",
+     "start": 12.288,
+     "end": 12.488,
+     "probability": 0.9946
+    },
+    {
+     "word": "the",
+     "start": 12.488,
+     "end": 12.628,
+     "probability": 0.9951
+    },
+    {
+     "word": "train",
+     "start": 12.628,
+     "end": 12.888,
+     "probability": 0.9893
+    },
+    {
+     "word": "after",
+     "start": 12.888,
+     "end": 13.068,
+     "probability": 0.9141
+    },
+    {
+     "word": "lunch",
+     "start": 13.068,
+     "end": 13.088,
+     "probability": 0.9795
+    },
+    {
+     "word": "The",
+     "start": 13.088,
+     "end": 13.088,
+     "probability": 0.0647
+    },
+    {
+     "word": "weather",
+     "start": 13.088,
+     "end": 13.108,
+     "probability": 0.9927
+    },
+    {
+     "word": "is",
+     "start": 13.108,
+     "end": 13.328,
+     "probability": 0.9473
+    },
+    {
+     "word": "changing",
+     "start": 13.328,
+     "end": 13.568,
+     "probability": 0.9976
+    },
+    {
+     "word": "again",
+     "start": 13.568,
+     "end": 13.968,
+     "probability": 0.9829
+    },
+    {
+     "word": "this",
+     "start": 13.968,
+     "end": 14.168,
+     "probability": 0.9951
+    },
+    {
+     "word": "afternoon",
+     "start": 14.168,
+     "end": 14.508,
+     "probability": 0.9961
+    }
+   ]
+  },
+  {
+   "chunk_start": 15.636,
+   "chunk_end": 19.052,
+   "text": "This recording is only being used as synthetic data.",
+   "words": [
+    {
+     "word": "This",
+     "start": 15.636,
+     "end": 16.016,
+     "probability": 0.8418
+    },
+    {
+     "word": "recording",
+     "start": 16.016,
+     "end": 16.476,
+     "probability": 0.9956
+    },
+    {
+     "word": "is",
+     "start": 16.476,
+     "end": 16.736,
+     "probability": 0.9985
+    },
+    {
+     "word": "only",
+     "start": 16.736,
+     "end": 16.976,
+     "probability": 0.9937
+    },
+    {
+     "word": "being",
+     "start": 16.976,
+     "end": 17.256,
+     "probability": 0.9907
+    },
+    {
+     "word": "used",
+     "start": 17.256,
+     "end": 17.496,
+     "probability": 0.998
+    },
+    {
+     "word": "as",
+     "start": 17.496,
+     "end": 17.756,
+     "probability": 0.981
+    },
+    {
+     "word": "synthetic",
+     "start": 17.756,
+     "end": 18.056,
+     "probability": 0.916
+    },
+    {
+     "word": "data.",
+     "start": 18.056,
+     "end": 18.476,
+     "probability": 0.9971
+    }
+   ]
+  },
+  {
+   "chunk_start": 21.396,
+   "chunk_end": 22.668,
+   "text": "Hey Delta!",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 21.396,
+     "end": 21.756,
+     "probability": 0.8848
+    },
+    {
+     "word": "Delta!",
+     "start": 21.756,
+     "end": 22.016,
+     "probability": 0.8174
+    }
+   ]
+  },
+  {
+   "chunk_start": 27.316,
+   "chunk_end": 30.0,
+   "text": "The road was busy because of the rain.",
+   "words": [
+    {
+     "word": "The",
+     "start": 27.316,
+     "end": 27.456,
+     "probability": 0.7959
+    },
+    {
+     "word": "road",
+     "start": 27.456,
+     "end": 27.796,
+     "probability": 0.9878
+    },
+    {
+     "word": "was",
+     "start": 27.796,
+     "end": 28.076,
+     "probability": 0.9976
+    },
+    {
+     "word": "busy",
+     "start": 28.076,
+     "end": 28.456,
+     "probability": 0.9932
+    },
+    {
+     "word": "because",
+     "start": 28.456,
+     "end": 28.756,
+     "probability": 0.9888
+    },
+    {
+     "word": "of",
+     "start": 28.756,
+     "end": 29.056,
+     "probability": 0.999
+    },
+    {
+     "word": "the",
+     "start": 29.056,
+     "end": 29.216,
+     "probability": 0.9976
+    },
+    {
+     "word": "rain.",
+     "start": 29.216,
+     "end": 29.496,
+     "probability": 0.9966
+    }
+   ]
+  }
+ ]
+}

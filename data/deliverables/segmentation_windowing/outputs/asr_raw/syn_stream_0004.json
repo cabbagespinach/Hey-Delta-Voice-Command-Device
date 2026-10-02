@@ -1,0 +1,229 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0004.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:26:57+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.886130690574646,
+ "chunks": [
+  {
+   "chunk_start": 2.228,
+   "chunk_end": 5.452,
+   "text": "I forgot where I put the keys this morning.",
+   "words": [
+    {
+     "word": "I",
+     "start": 2.228,
+     "end": 2.568,
+     "probability": 0.8022
+    },
+    {
+     "word": "forgot",
+     "start": 2.568,
+     "end": 2.888,
+     "probability": 0.9814
+    },
+    {
+     "word": "where",
+     "start": 2.888,
+     "end": 3.308,
+     "probability": 0.9966
+    },
+    {
+     "word": "I",
+     "start": 3.308,
+     "end": 3.468,
+     "probability": 0.9473
+    },
+    {
+     "word": "put",
+     "start": 3.468,
+     "end": 3.668,
+     "probability": 0.9976
+    },
+    {
+     "word": "the",
+     "start": 3.668,
+     "end": 3.808,
+     "probability": 0.9961
+    },
+    {
+     "word": "keys",
+     "start": 3.808,
+     "end": 4.088,
+     "probability": 0.9976
+    },
+    {
+     "word": "this",
+     "start": 4.088,
+     "end": 4.348,
+     "probability": 0.9966
+    },
+    {
+     "word": "morning.",
+     "start": 4.348,
+     "end": 4.748,
+     "probability": 0.9985
+    }
+   ]
+  },
+  {
+   "chunk_start": 10.804,
+   "chunk_end": 16.876,
+   "text": "Hey Delta, the battery should last for another hour.",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 11.764,
+     "end": 12.364,
+     "probability": 0.5166
+    },
+    {
+     "word": "Delta,",
+     "start": 12.364,
+     "end": 12.724,
+     "probability": 0.8955
+    },
+    {
+     "word": "the",
+     "start": 13.004,
+     "end": 14.564,
+     "probability": 0.7139
+    },
+    {
+     "word": "battery",
+     "start": 14.564,
+     "end": 14.984,
+     "probability": 0.9062
+    },
+    {
+     "word": "should",
+     "start": 14.984,
+     "end": 15.244,
+     "probability": 0.9951
+    },
+    {
+     "word": "last",
+     "start": 15.244,
+     "end": 15.544,
+     "probability": 0.999
+    },
+    {
+     "word": "for",
+     "start": 15.544,
+     "end": 15.724,
+     "probability": 0.9912
+    },
+    {
+     "word": "another",
+     "start": 15.724,
+     "end": 15.924,
+     "probability": 0.9951
+    },
+    {
+     "word": "hour.",
+     "start": 15.924,
+     "end": 16.224,
+     "probability": 0.9956
+    }
+   ]
+  },
+  {
+   "chunk_start": 17.78,
+   "chunk_end": 20.524,
+   "text": "We can take the train after lunch.",
+   "words": [
+    {
+     "word": "We",
+     "start": 17.78,
+     "end": 18.14,
+     "probability": 0.8584
+    },
+    {
+     "word": "can",
+     "start": 18.14,
+     "end": 18.34,
+     "probability": 0.9976
+    },
+    {
+     "word": "take",
+     "start": 18.34,
+     "end": 18.64,
+     "probability": 0.9976
+    },
+    {
+     "word": "the",
+     "start": 18.64,
+     "end": 18.78,
+     "probability": 0.8608
+    },
+    {
+     "word": "train",
+     "start": 18.78,
+     "end": 19.08,
+     "probability": 0.9976
+    },
+    {
+     "word": "after",
+     "start": 19.08,
+     "end": 19.5,
+     "probability": 0.9976
+    },
+    {
+     "word": "lunch.",
+     "start": 19.5,
+     "end": 19.86,
+     "probability": 0.9985
+    }
+   ]
+  },
+  {
+   "chunk_start": 20.788,
+   "chunk_end": 24.012,
+   "text": "The meeting starts in about 10 minutes.",
+   "words": [
+    {
+     "word": "The",
+     "start": 20.788,
+     "end": 21.208,
+     "probability": 0.161
+    },
+    {
+     "word": "meeting",
+     "start": 21.208,
+     "end": 21.788,
+     "probability": 0.9697
+    },
+    {
+     "word": "starts",
+     "start": 21.788,
+     "end": 22.188,
+     "probability": 0.9712
+    },
+    {
+     "word": "in",
+     "start": 22.188,
+     "end": 22.488,
+     "probability": 0.9863
+    },
+    {
+     "word": "about",
+     "start": 22.488,
+     "end": 22.668,
+     "probability": 0.8872
+    },
+    {
+     "word": "10",
+     "start": 22.668,
+     "end": 22.948,
+     "probability": 0.7354
+    },
+    {
+     "word": "minutes.",
+     "start": 22.948,
+     "end": 23.308,
+     "probability": 0.9902
+    }
+   ]
+  }
+ ]
+}

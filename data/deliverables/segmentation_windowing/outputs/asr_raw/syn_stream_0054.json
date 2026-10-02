@@ -1,0 +1,211 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0054.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:28:14+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.902312695980072,
+ "chunks": [
+  {
+   "chunk_start": 1.684,
+   "chunk_end": 5.932,
+   "text": "That sounds like reasonable idea to me.",
+   "words": [
+    {
+     "word": "That",
+     "start": 1.684,
+     "end": 2.044,
+     "probability": 0.8203
+    },
+    {
+     "word": "sounds",
+     "start": 2.044,
+     "end": 2.304,
+     "probability": 0.9961
+    },
+    {
+     "word": "like",
+     "start": 2.304,
+     "end": 2.604,
+     "probability": 0.9951
+    },
+    {
+     "word": "reasonable",
+     "start": 2.604,
+     "end": 2.924,
+     "probability": 0.542
+    },
+    {
+     "word": "idea",
+     "start": 2.924,
+     "end": 3.464,
+     "probability": 0.4253
+    },
+    {
+     "word": "to",
+     "start": 3.464,
+     "end": 3.704,
+     "probability": 0.3933
+    },
+    {
+     "word": "me.",
+     "start": 3.704,
+     "end": 3.824,
+     "probability": 0.9893
+    }
+   ]
+  },
+  {
+   "chunk_start": 9.62,
+   "chunk_end": 13.9,
+   "text": "Please remember to bring the documents tomorrow.",
+   "words": [
+    {
+     "word": "Please",
+     "start": 9.62,
+     "end": 10.92,
+     "probability": 0.5078
+    },
+    {
+     "word": "remember",
+     "start": 10.92,
+     "end": 11.44,
+     "probability": 0.9834
+    },
+    {
+     "word": "to",
+     "start": 11.44,
+     "end": 11.76,
+     "probability": 0.9971
+    },
+    {
+     "word": "bring",
+     "start": 11.76,
+     "end": 11.98,
+     "probability": 0.9995
+    },
+    {
+     "word": "the",
+     "start": 11.98,
+     "end": 12.16,
+     "probability": 0.9893
+    },
+    {
+     "word": "documents",
+     "start": 12.16,
+     "end": 12.64,
+     "probability": 0.9937
+    },
+    {
+     "word": "tomorrow.",
+     "start": 12.64,
+     "end": 13.1,
+     "probability": 0.9873
+    }
+   ]
+  },
+  {
+   "chunk_start": 17.524,
+   "chunk_end": 20.396,
+   "text": "The machine makes a strange sound sometimes.",
+   "words": [
+    {
+     "word": "The",
+     "start": 17.524,
+     "end": 17.884,
+     "probability": 0.8359
+    },
+    {
+     "word": "machine",
+     "start": 17.884,
+     "end": 18.124,
+     "probability": 0.9502
+    },
+    {
+     "word": "makes",
+     "start": 18.124,
+     "end": 18.444,
+     "probability": 0.9927
+    },
+    {
+     "word": "a",
+     "start": 18.444,
+     "end": 18.524,
+     "probability": 0.9595
+    },
+    {
+     "word": "strange",
+     "start": 18.524,
+     "end": 18.884,
+     "probability": 0.998
+    },
+    {
+     "word": "sound",
+     "start": 18.884,
+     "end": 19.184,
+     "probability": 0.9741
+    },
+    {
+     "word": "sometimes.",
+     "start": 19.184,
+     "end": 19.584,
+     "probability": 0.9897
+    }
+   ]
+  },
+  {
+   "chunk_start": 22.804,
+   "chunk_end": 26.988,
+   "text": "We ordered dinner and waited near the entrance.",
+   "words": [
+    {
+     "word": "We",
+     "start": 22.804,
+     "end": 23.184,
+     "probability": 0.8198
+    },
+    {
+     "word": "ordered",
+     "start": 23.184,
+     "end": 23.504,
+     "probability": 0.7666
+    },
+    {
+     "word": "dinner",
+     "start": 23.504,
+     "end": 24.464,
+     "probability": 0.9854
+    },
+    {
+     "word": "and",
+     "start": 24.464,
+     "end": 24.804,
+     "probability": 0.9653
+    },
+    {
+     "word": "waited",
+     "start": 24.804,
+     "end": 25.144,
+     "probability": 0.9951
+    },
+    {
+     "word": "near",
+     "start": 25.144,
+     "end": 25.504,
+     "probability": 0.9917
+    },
+    {
+     "word": "the",
+     "start": 25.504,
+     "end": 25.764,
+     "probability": 0.9951
+    },
+    {
+     "word": "entrance.",
+     "start": 25.764,
+     "end": 26.024,
+     "probability": 0.9922
+    }
+   ]
+  }
+ ]
+}

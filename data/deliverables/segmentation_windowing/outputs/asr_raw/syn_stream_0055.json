@@ -1,0 +1,295 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0055.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:28:15+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8860942125320435,
+ "chunks": [
+  {
+   "chunk_start": 0.724,
+   "chunk_end": 5.932,
+   "text": "There is enough time to finish this today. Can you send me the address when you arrive?",
+   "words": [
+    {
+     "word": "There",
+     "start": 0.724,
+     "end": 1.164,
+     "probability": 0.8086
+    },
+    {
+     "word": "is",
+     "start": 1.164,
+     "end": 1.364,
+     "probability": 0.9922
+    },
+    {
+     "word": "enough",
+     "start": 1.364,
+     "end": 1.624,
+     "probability": 0.9951
+    },
+    {
+     "word": "time",
+     "start": 1.624,
+     "end": 2.004,
+     "probability": 0.999
+    },
+    {
+     "word": "to",
+     "start": 2.004,
+     "end": 2.284,
+     "probability": 0.9961
+    },
+    {
+     "word": "finish",
+     "start": 2.284,
+     "end": 2.604,
+     "probability": 0.9966
+    },
+    {
+     "word": "this",
+     "start": 2.604,
+     "end": 2.904,
+     "probability": 0.9551
+    },
+    {
+     "word": "today.",
+     "start": 2.904,
+     "end": 2.964,
+     "probability": 0.6626
+    },
+    {
+     "word": "Can",
+     "start": 2.964,
+     "end": 3.084,
+     "probability": 0.5864
+    },
+    {
+     "word": "you",
+     "start": 3.084,
+     "end": 3.104,
+     "probability": 0.9976
+    },
+    {
+     "word": "send",
+     "start": 3.104,
+     "end": 3.404,
+     "probability": 0.998
+    },
+    {
+     "word": "me",
+     "start": 3.404,
+     "end": 3.544,
+     "probability": 0.9961
+    },
+    {
+     "word": "the",
+     "start": 3.544,
+     "end": 3.724,
+     "probability": 0.9976
+    },
+    {
+     "word": "address",
+     "start": 3.724,
+     "end": 4.024,
+     "probability": 0.9985
+    },
+    {
+     "word": "when",
+     "start": 4.024,
+     "end": 4.364,
+     "probability": 0.7764
+    },
+    {
+     "word": "you",
+     "start": 4.364,
+     "end": 4.464,
+     "probability": 0.9985
+    },
+    {
+     "word": "arrive?",
+     "start": 4.464,
+     "end": 4.764,
+     "probability": 0.9966
+    }
+   ]
+  },
+  {
+   "chunk_start": 8.276,
+   "chunk_end": 14.124,
+   "text": "The meeting starts in about 10 minutes. Hey Delta!",
+   "words": [
+    {
+     "word": "The",
+     "start": 8.276,
+     "end": 8.536,
+     "probability": 0.1321
+    },
+    {
+     "word": "meeting",
+     "start": 8.536,
+     "end": 8.796,
+     "probability": 0.7852
+    },
+    {
+     "word": "starts",
+     "start": 8.796,
+     "end": 9.336,
+     "probability": 0.9912
+    },
+    {
+     "word": "in",
+     "start": 9.336,
+     "end": 9.636,
+     "probability": 0.9932
+    },
+    {
+     "word": "about",
+     "start": 9.636,
+     "end": 9.996,
+     "probability": 0.9199
+    },
+    {
+     "word": "10",
+     "start": 9.996,
+     "end": 10.396,
+     "probability": 0.6465
+    },
+    {
+     "word": "minutes.",
+     "start": 10.396,
+     "end": 10.696,
+     "probability": 0.9639
+    },
+    {
+     "word": "Hey",
+     "start": 11.076,
+     "end": 11.216,
+     "probability": 0.6597
+    },
+    {
+     "word": "Delta!",
+     "start": 11.216,
+     "end": 12.056,
+     "probability": 0.5674
+    }
+   ]
+  },
+  {
+   "chunk_start": 17.428,
+   "chunk_end": 20.748,
+   "text": "The children are playing outside in the garden. Hey Delta.",
+   "words": [
+    {
+     "word": "The",
+     "start": 17.428,
+     "end": 17.728,
+     "probability": 0.5386
+    },
+    {
+     "word": "children",
+     "start": 17.728,
+     "end": 17.988,
+     "probability": 0.978
+    },
+    {
+     "word": "are",
+     "start": 17.988,
+     "end": 18.208,
+     "probability": 0.9971
+    },
+    {
+     "word": "playing",
+     "start": 18.208,
+     "end": 18.448,
+     "probability": 0.999
+    },
+    {
+     "word": "outside",
+     "start": 18.448,
+     "end": 18.928,
+     "probability": 0.9951
+    },
+    {
+     "word": "in",
+     "start": 18.928,
+     "end": 19.188,
+     "probability": 0.9878
+    },
+    {
+     "word": "the",
+     "start": 19.188,
+     "end": 19.268,
+     "probability": 0.998
+    },
+    {
+     "word": "garden.",
+     "start": 19.268,
+     "end": 19.548,
+     "probability": 0.9756
+    },
+    {
+     "word": "Hey",
+     "start": 19.608,
+     "end": 19.728,
+     "probability": 0.8804
+    },
+    {
+     "word": "Delta.",
+     "start": 19.728,
+     "end": 20.008,
+     "probability": 0.7407
+    }
+   ]
+  },
+  {
+   "chunk_start": 23.604,
+   "chunk_end": 25.964,
+   "text": "We can take the train after lunch.",
+   "words": [
+    {
+     "word": "We",
+     "start": 23.604,
+     "end": 23.944,
+     "probability": 0.8276
+    },
+    {
+     "word": "can",
+     "start": 23.944,
+     "end": 24.084,
+     "probability": 0.9941
+    },
+    {
+     "word": "take",
+     "start": 24.084,
+     "end": 24.324,
+     "probability": 0.9951
+    },
+    {
+     "word": "the",
+     "start": 24.324,
+     "end": 24.404,
+     "probability": 0.9927
+    },
+    {
+     "word": "train",
+     "start": 24.404,
+     "end": 24.684,
+     "probability": 0.9932
+    },
+    {
+     "word": "after",
+     "start": 24.684,
+     "end": 24.944,
+     "probability": 0.9941
+    },
+    {
+     "word": "lunch.",
+     "start": 24.944,
+     "end": 25.344,
+     "probability": 0.9985
+    }
+   ]
+  }
+ ]
+}

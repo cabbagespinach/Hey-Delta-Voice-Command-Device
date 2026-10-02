@@ -1,0 +1,28 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/positives/tts2_en_US-l2arctic-medium_spk14_pos0.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-29T13:39:16+00:00",
+ "duration_sec": 0.8359183673469388,
+ "input_peak": 1.0053707361221313,
+ "chunks": [
+  {
+   "chunk_start": 0.0,
+   "chunk_end": 0.836,
+   "text": "Hey Delta.",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 0.0,
+     "end": 0.14,
+     "probability": 0.856
+    },
+    {
+     "word": "Delta.",
+     "start": 0.14,
+     "end": 0.38,
+     "probability": 0.7451
+    }
+   ]
+  }
+ ]
+}

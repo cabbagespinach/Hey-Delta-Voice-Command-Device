@@ -1,0 +1,104 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/negatives_general/Manual-BG-RPI20.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-29T03:03:05+00:00",
+ "duration_sec": 370.12266666666665,
+ "input_peak": 0.17489050328731537,
+ "chunks": [
+  {
+   "chunk_start": 210.132,
+   "chunk_end": 211.212,
+   "text": "Hey, Michelle.",
+   "words": [
+    {
+     "word": "Hey,",
+     "start": 210.132,
+     "end": 210.232,
+     "probability": 0.3105
+    },
+    {
+     "word": "Michelle.",
+     "start": 210.232,
+     "end": 210.472,
+     "probability": 0.8286
+    }
+   ]
+  },
+  {
+   "chunk_start": 211.54,
+   "chunk_end": 212.684,
+   "text": "Hey, Bobby.",
+   "words": [
+    {
+     "word": "Hey,",
+     "start": 211.54,
+     "end": 211.92,
+     "probability": 0.7349
+    },
+    {
+     "word": "Bobby.",
+     "start": 211.92,
+     "end": 212.1,
+     "probability": 0.877
+    }
+   ]
+  },
+  {
+   "chunk_start": 214.708,
+   "chunk_end": 216.076,
+   "text": "Hey Martha.",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 214.708,
+     "end": 215.028,
+     "probability": 0.7378
+    },
+    {
+     "word": "Martha.",
+     "start": 215.028,
+     "end": 215.308,
+     "probability": 0.7422
+    }
+   ]
+  },
+  {
+   "chunk_start": 225.94,
+   "chunk_end": 227.084,
+   "text": "Hey Marta.",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 225.94,
+     "end": 226.14,
+     "probability": 0.7305
+    },
+    {
+     "word": "Marta.",
+     "start": 226.14,
+     "end": 226.58,
+     "probability": 0.6744
+    }
+   ]
+  },
+  {
+   "chunk_start": 228.692,
+   "chunk_end": 230.06,
+   "text": "Hey Marta.",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 228.692,
+     "end": 229.052,
+     "probability": 0.6362
+    },
+    {
+     "word": "Marta.",
+     "start": 229.052,
+     "end": 229.512,
+     "probability": 0.6517
+    }
+   ]
+  }
+ ]
+}

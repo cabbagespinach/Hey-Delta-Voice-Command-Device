@@ -1,0 +1,259 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0018.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:27:18+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8981707692146301,
+ "chunks": [
+  {
+   "chunk_start": 6.74,
+   "chunk_end": 11.76,
+   "text": "I think the blue one is slightly cheaper.",
+   "words": [
+    {
+     "word": "I",
+     "start": 8.42,
+     "end": 8.9,
+     "probability": 0.6816
+    },
+    {
+     "word": "think",
+     "start": 8.9,
+     "end": 8.92,
+     "probability": 0.9883
+    },
+    {
+     "word": "the",
+     "start": 8.92,
+     "end": 9.12,
+     "probability": 0.9683
+    },
+    {
+     "word": "blue",
+     "start": 9.12,
+     "end": 9.3,
+     "probability": 0.9468
+    },
+    {
+     "word": "one",
+     "start": 9.3,
+     "end": 9.6,
+     "probability": 0.9697
+    },
+    {
+     "word": "is",
+     "start": 9.6,
+     "end": 10.46,
+     "probability": 0.98
+    },
+    {
+     "word": "slightly",
+     "start": 10.46,
+     "end": 10.5,
+     "probability": 0.9805
+    },
+    {
+     "word": "cheaper.",
+     "start": 10.5,
+     "end": 11.12,
+     "probability": 0.9985
+    }
+   ]
+  },
+  {
+   "chunk_start": 11.76,
+   "chunk_end": 14.956,
+   "text": "The weather is changing again this afternoon.",
+   "words": [
+    {
+     "word": "The",
+     "start": 11.76,
+     "end": 12.1,
+     "probability": 0.8608
+    },
+    {
+     "word": "weather",
+     "start": 12.1,
+     "end": 12.42,
+     "probability": 0.9971
+    },
+    {
+     "word": "is",
+     "start": 12.42,
+     "end": 12.68,
+     "probability": 0.998
+    },
+    {
+     "word": "changing",
+     "start": 12.68,
+     "end": 13.08,
+     "probability": 0.999
+    },
+    {
+     "word": "again",
+     "start": 13.08,
+     "end": 13.52,
+     "probability": 0.9985
+    },
+    {
+     "word": "this",
+     "start": 13.52,
+     "end": 13.76,
+     "probability": 0.9961
+    },
+    {
+     "word": "afternoon.",
+     "start": 13.76,
+     "end": 14.14,
+     "probability": 0.9985
+    }
+   ]
+  },
+  {
+   "chunk_start": 18.068,
+   "chunk_end": 22.092,
+   "text": "The weather is changing again this afternoon. There are several things we need to discuss.",
+   "words": [
+    {
+     "word": "The",
+     "start": 18.068,
+     "end": 18.388,
+     "probability": 0.73
+    },
+    {
+     "word": "weather",
+     "start": 18.388,
+     "end": 18.588,
+     "probability": 0.9946
+    },
+    {
+     "word": "is",
+     "start": 18.588,
+     "end": 18.748,
+     "probability": 0.9961
+    },
+    {
+     "word": "changing",
+     "start": 18.748,
+     "end": 19.048,
+     "probability": 0.998
+    },
+    {
+     "word": "again",
+     "start": 19.048,
+     "end": 19.468,
+     "probability": 0.9912
+    },
+    {
+     "word": "this",
+     "start": 19.468,
+     "end": 19.668,
+     "probability": 0.7393
+    },
+    {
+     "word": "afternoon.",
+     "start": 19.668,
+     "end": 19.688,
+     "probability": 0.8857
+    },
+    {
+     "word": "There",
+     "start": 19.708,
+     "end": 19.788,
+     "probability": 0.9702
+    },
+    {
+     "word": "are",
+     "start": 19.788,
+     "end": 19.808,
+     "probability": 0.998
+    },
+    {
+     "word": "several",
+     "start": 19.808,
+     "end": 20.128,
+     "probability": 0.9956
+    },
+    {
+     "word": "things",
+     "start": 20.128,
+     "end": 20.428,
+     "probability": 0.998
+    },
+    {
+     "word": "we",
+     "start": 20.428,
+     "end": 20.748,
+     "probability": 0.9917
+    },
+    {
+     "word": "need",
+     "start": 20.748,
+     "end": 20.968,
+     "probability": 0.9976
+    },
+    {
+     "word": "to",
+     "start": 20.968,
+     "end": 21.108,
+     "probability": 0.999
+    },
+    {
+     "word": "discuss.",
+     "start": 21.108,
+     "end": 21.388,
+     "probability": 0.999
+    }
+   ]
+  },
+  {
+   "chunk_start": 24.276,
+   "chunk_end": 28.428,
+   "text": "The next episode starts after the commercial.",
+   "words": [
+    {
+     "word": "The",
+     "start": 24.276,
+     "end": 25.236,
+     "probability": 0.6431
+    },
+    {
+     "word": "next",
+     "start": 25.236,
+     "end": 25.556,
+     "probability": 0.9697
+    },
+    {
+     "word": "episode",
+     "start": 25.556,
+     "end": 25.596,
+     "probability": 0.9697
+    },
+    {
+     "word": "starts",
+     "start": 25.596,
+     "end": 26.476,
+     "probability": 0.9873
+    },
+    {
+     "word": "after",
+     "start": 26.476,
+     "end": 27.116,
+     "probability": 0.9927
+    },
+    {
+     "word": "the",
+     "start": 27.116,
+     "end": 27.376,
+     "probability": 0.9927
+    },
+    {
+     "word": "commercial.",
+     "start": 27.376,
+     "end": 27.656,
+     "probability": 0.9927
+    }
+   ]
+  }
+ ]
+}

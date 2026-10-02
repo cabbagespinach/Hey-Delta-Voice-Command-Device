@@ -1,0 +1,351 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0063.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:28:28+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8855563402175903,
+ "chunks": [
+  {
+   "chunk_start": 0.692,
+   "chunk_end": 4.556,
+   "text": "We'll order a dinner un-waited near TN Francais.",
+   "words": [
+    {
+     "word": "We'll",
+     "start": 0.692,
+     "end": 1.132,
+     "probability": 0.4182
+    },
+    {
+     "word": "order",
+     "start": 1.132,
+     "end": 1.412,
+     "probability": 0.916
+    },
+    {
+     "word": "a",
+     "start": 1.412,
+     "end": 1.652,
+     "probability": 0.7202
+    },
+    {
+     "word": "dinner",
+     "start": 1.652,
+     "end": 2.032,
+     "probability": 0.98
+    },
+    {
+     "word": "un",
+     "start": 2.032,
+     "end": 2.372,
+     "probability": 0.203
+    },
+    {
+     "word": "-waited",
+     "start": 2.372,
+     "end": 2.872,
+     "probability": 0.7571
+    },
+    {
+     "word": "near",
+     "start": 2.872,
+     "end": 3.092,
+     "probability": 0.8325
+    },
+    {
+     "word": "TN",
+     "start": 3.092,
+     "end": 3.572,
+     "probability": 0.6917
+    },
+    {
+     "word": "Francais.",
+     "start": 3.572,
+     "end": 4.072,
+     "probability": 0.5301
+    }
+   ]
+  },
+  {
+   "chunk_start": 6.068,
+   "chunk_end": 7.276,
+   "text": "Hey, Delta.",
+   "words": [
+    {
+     "word": "Hey,",
+     "start": 6.068,
+     "end": 6.408,
+     "probability": 0.8179
+    },
+    {
+     "word": "Delta.",
+     "start": 6.468,
+     "end": 6.688,
+     "probability": 0.9463
+    }
+   ]
+  },
+  {
+   "chunk_start": 9.588,
+   "chunk_end": 12.972,
+   "text": "Please remember to bring the documents tomorrow.",
+   "words": [
+    {
+     "word": "Please",
+     "start": 9.588,
+     "end": 9.948,
+     "probability": 0.9146
+    },
+    {
+     "word": "remember",
+     "start": 9.948,
+     "end": 10.328,
+     "probability": 0.9912
+    },
+    {
+     "word": "to",
+     "start": 10.328,
+     "end": 10.668,
+     "probability": 0.9985
+    },
+    {
+     "word": "bring",
+     "start": 10.668,
+     "end": 10.888,
+     "probability": 0.9995
+    },
+    {
+     "word": "the",
+     "start": 10.888,
+     "end": 11.108,
+     "probability": 0.9961
+    },
+    {
+     "word": "documents",
+     "start": 11.108,
+     "end": 11.608,
+     "probability": 0.9956
+    },
+    {
+     "word": "tomorrow.",
+     "start": 11.608,
+     "end": 12.148,
+     "probability": 0.9897
+    }
+   ]
+  },
+  {
+   "chunk_start": 14.26,
+   "chunk_end": 20.268,
+   "text": "I think the blue one is slightly cheaper. Please remember to bring the documents tomorrow. Hey, Delta!",
+   "words": [
+    {
+     "word": "I",
+     "start": 14.26,
+     "end": 14.56,
+     "probability": 0.584
+    },
+    {
+     "word": "think",
+     "start": 14.56,
+     "end": 14.8,
+     "probability": 0.9912
+    },
+    {
+     "word": "the",
+     "start": 14.8,
+     "end": 14.94,
+     "probability": 0.9888
+    },
+    {
+     "word": "blue",
+     "start": 14.94,
+     "end": 15.16,
+     "probability": 0.9902
+    },
+    {
+     "word": "one",
+     "start": 15.16,
+     "end": 15.38,
+     "probability": 0.9897
+    },
+    {
+     "word": "is",
+     "start": 15.38,
+     "end": 15.62,
+     "probability": 0.9829
+    },
+    {
+     "word": "slightly",
+     "start": 15.62,
+     "end": 15.84,
+     "probability": 0.9829
+    },
+    {
+     "word": "cheaper.",
+     "start": 15.84,
+     "end": 16.24,
+     "probability": 0.9795
+    },
+    {
+     "word": "Please",
+     "start": 16.46,
+     "end": 16.48,
+     "probability": 0.3528
+    },
+    {
+     "word": "remember",
+     "start": 16.48,
+     "end": 16.86,
+     "probability": 0.98
+    },
+    {
+     "word": "to",
+     "start": 16.86,
+     "end": 17.14,
+     "probability": 0.9829
+    },
+    {
+     "word": "bring",
+     "start": 17.14,
+     "end": 17.44,
+     "probability": 0.9971
+    },
+    {
+     "word": "the",
+     "start": 17.44,
+     "end": 17.66,
+     "probability": 0.9614
+    },
+    {
+     "word": "documents",
+     "start": 17.66,
+     "end": 18.08,
+     "probability": 0.7046
+    },
+    {
+     "word": "tomorrow.",
+     "start": 18.08,
+     "end": 18.36,
+     "probability": 0.4504
+    },
+    {
+     "word": "Hey,",
+     "start": 18.38,
+     "end": 18.42,
+     "probability": 0.6758
+    },
+    {
+     "word": "Delta!",
+     "start": 18.44,
+     "end": 18.68,
+     "probability": 0.8232
+    }
+   ]
+  },
+  {
+   "chunk_start": 22.612,
+   "chunk_end": 26.412,
+   "text": "We ordered dinner and waited near the entrance.",
+   "words": [
+    {
+     "word": "We",
+     "start": 22.612,
+     "end": 22.952,
+     "probability": 0.8862
+    },
+    {
+     "word": "ordered",
+     "start": 22.952,
+     "end": 23.232,
+     "probability": 0.9912
+    },
+    {
+     "word": "dinner",
+     "start": 23.232,
+     "end": 23.552,
+     "probability": 0.9932
+    },
+    {
+     "word": "and",
+     "start": 23.552,
+     "end": 23.932,
+     "probability": 0.9185
+    },
+    {
+     "word": "waited",
+     "start": 23.932,
+     "end": 24.192,
+     "probability": 0.9976
+    },
+    {
+     "word": "near",
+     "start": 24.192,
+     "end": 24.432,
+     "probability": 0.9917
+    },
+    {
+     "word": "the",
+     "start": 24.432,
+     "end": 24.592,
+     "probability": 0.9897
+    },
+    {
+     "word": "entrance.",
+     "start": 24.592,
+     "end": 24.912,
+     "probability": 0.9971
+    }
+   ]
+  },
+  {
+   "chunk_start": 26.772,
+   "chunk_end": 29.324,
+   "text": "The weather is changing again this afternoon.",
+   "words": [
+    {
+     "word": "The",
+     "start": 26.772,
+     "end": 27.092,
+     "probability": 0.9224
+    },
+    {
+     "word": "weather",
+     "start": 27.092,
+     "end": 27.292,
+     "probability": 0.9976
+    },
+    {
+     "word": "is",
+     "start": 27.292,
+     "end": 27.472,
+     "probability": 0.9985
+    },
+    {
+     "word": "changing",
+     "start": 27.472,
+     "end": 27.772,
+     "probability": 0.9995
+    },
+    {
+     "word": "again",
+     "start": 27.772,
+     "end": 28.092,
+     "probability": 0.999
+    },
+    {
+     "word": "this",
+     "start": 28.092,
+     "end": 28.372,
+     "probability": 0.9966
+    },
+    {
+     "word": "afternoon.",
+     "start": 28.372,
+     "end": 28.712,
+     "probability": 0.9995
+    }
+   ]
+  }
+ ]
+}

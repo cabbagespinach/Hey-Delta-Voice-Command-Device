@@ -1,0 +1,755 @@
+{
+  "definitions": "(all on a 150-4000 Hz band-pass, 20 ms frames, dB re full scale):\n  peak_db            98th percentile frame level (speech-dominated frames)\n  floor_db           20th percentile frame level (background-dominated frames)\n  peak_over_floor_db peak_db - floor_db. Defined for every file, including files where\n                     the wakeword is not located, so all groups are comparable. It is\n                     NOT a conventional RMS SNR; the augmentation config uses the same\n                     definition so targets and measurements stay comparable.\n  span_level_db      90th percentile frame level inside a located wakeword span\n  span_over_floor_db span_level_db - 20th percentile frame level outside all spans\nManual recordings skip the first 80 ms (device start click, measured separately).",
+  "groups": {
+    "real Macmic negative | wakeword=n/a": {
+      "fullband_rms_dbfs": {
+        "n": 1.0,
+        "min": -35.53,
+        "p10": -35.53,
+        "median": -35.53,
+        "p90": -35.53,
+        "max": -35.53
+      },
+      "peak_db": {
+        "n": 1.0,
+        "min": -34.22,
+        "p10": -34.22,
+        "median": -34.22,
+        "p90": -34.22,
+        "max": -34.22
+      },
+      "floor_db": {
+        "n": 1.0,
+        "min": -45.07,
+        "p10": -45.07,
+        "median": -45.07,
+        "p90": -45.07,
+        "max": -45.07
+      },
+      "peak_over_floor_db": {
+        "n": 1.0,
+        "min": 10.85,
+        "p10": 10.85,
+        "median": 10.85,
+        "p90": 10.85,
+        "max": 10.85
+      },
+      "start_click_over_median_db": {
+        "n": 1.0,
+        "min": -10.91,
+        "p10": -10.91,
+        "median": -10.91,
+        "p90": -10.91,
+        "max": -10.91
+      }
+    },
+    "real Macmic positive | wakeword=located": {
+      "fullband_rms_dbfs": {
+        "n": 2.0,
+        "min": -36.89,
+        "p10": -36.04,
+        "median": -32.67,
+        "p90": -29.3,
+        "max": -28.45
+      },
+      "peak_db": {
+        "n": 2.0,
+        "min": -25.83,
+        "p10": -25.15,
+        "median": -22.4,
+        "p90": -19.66,
+        "max": -18.97
+      },
+      "floor_db": {
+        "n": 2.0,
+        "min": -61.95,
+        "p10": -60.53,
+        "median": -54.84,
+        "p90": -49.16,
+        "max": -47.74
+      },
+      "peak_over_floor_db": {
+        "n": 2.0,
+        "min": 28.76,
+        "p10": 29.5,
+        "median": 32.44,
+        "p90": 35.38,
+        "max": 36.12
+      },
+      "span_level_db": {
+        "n": 2.0,
+        "min": -26.21,
+        "p10": -25.69,
+        "median": -23.61,
+        "p90": -21.53,
+        "max": -21.02
+      },
+      "span_over_floor_db": {
+        "n": 2.0,
+        "min": 27.04,
+        "p10": 27.98,
+        "median": 31.74,
+        "p90": 35.51,
+        "max": 36.45
+      },
+      "start_click_over_median_db": {
+        "n": 2.0,
+        "min": -3.95,
+        "p10": -2.32,
+        "median": 4.21,
+        "p90": 10.74,
+        "max": 12.37
+      }
+    },
+    "real Phonemic positive | wakeword=located": {
+      "fullband_rms_dbfs": {
+        "n": 3.0,
+        "min": -34.88,
+        "p10": -34.4,
+        "median": -32.45,
+        "p90": -26.48,
+        "max": -24.99
+      },
+      "peak_db": {
+        "n": 3.0,
+        "min": -25.59,
+        "p10": -25.0,
+        "median": -22.62,
+        "p90": -19.12,
+        "max": -18.24
+      },
+      "floor_db": {
+        "n": 3.0,
+        "min": -57.54,
+        "p10": -57.4,
+        "median": -56.85,
+        "p90": -52.43,
+        "max": -51.32
+      },
+      "peak_over_floor_db": {
+        "n": 3.0,
+        "min": 31.95,
+        "p10": 32.18,
+        "median": 33.08,
+        "p90": 34.0,
+        "max": 34.23
+      },
+      "span_level_db": {
+        "n": 3.0,
+        "min": -26.95,
+        "p10": -26.11,
+        "median": -22.76,
+        "p90": -19.64,
+        "max": -18.86
+      },
+      "span_over_floor_db": {
+        "n": 3.0,
+        "min": 31.55,
+        "p10": 31.68,
+        "median": 32.17,
+        "p90": 34.08,
+        "max": 34.56
+      },
+      "start_click_over_median_db": {
+        "n": 3.0,
+        "min": -5.25,
+        "p10": -5.06,
+        "median": -4.29,
+        "p90": 9.53,
+        "max": 12.99
+      }
+    },
+    "real RPI negative | wakeword=n/a": {
+      "fullband_rms_dbfs": {
+        "n": 17.0,
+        "min": -52.5,
+        "p10": -50.35,
+        "median": -41.17,
+        "p90": -34.32,
+        "max": -32.1
+      },
+      "peak_db": {
+        "n": 17.0,
+        "min": -53.55,
+        "p10": -47.37,
+        "median": -37.22,
+        "p90": -30.33,
+        "max": -25.93
+      },
+      "floor_db": {
+        "n": 17.0,
+        "min": -62.24,
+        "p10": -56.73,
+        "median": -51.9,
+        "p90": -43.76,
+        "max": -42.72
+      },
+      "peak_over_floor_db": {
+        "n": 17.0,
+        "min": 2.87,
+        "p10": 4.84,
+        "median": 12.93,
+        "p90": 20.31,
+        "max": 28.13
+      },
+      "start_click_over_median_db": {
+        "n": 17.0,
+        "min": -29.53,
+        "p10": -15.09,
+        "median": -2.54,
+        "p90": 7.92,
+        "max": 23.01
+      }
+    },
+    "real RPI negative (relabelled) | wakeword=n/a": {
+      "fullband_rms_dbfs": {
+        "n": 4.0,
+        "min": -240.0,
+        "p10": -240.0,
+        "median": -144.88,
+        "p90": -39.06,
+        "max": -34.47
+      },
+      "peak_db": {
+        "n": 4.0,
+        "min": -180.0,
+        "p10": -180.0,
+        "median": -111.96,
+        "p90": -32.25,
+        "max": -27.26
+      },
+      "floor_db": {
+        "n": 4.0,
+        "min": -180.0,
+        "p10": -180.0,
+        "median": -119.8,
+        "p90": -56.13,
+        "max": -54.65
+      },
+      "peak_over_floor_db": {
+        "n": 4.0,
+        "min": 0.0,
+        "p10": 0.0,
+        "median": 7.84,
+        "p90": 23.88,
+        "max": 27.39
+      },
+      "start_click_over_median_db": {
+        "n": 4.0,
+        "min": -0.37,
+        "p10": -0.26,
+        "median": 0.0,
+        "p90": 8.95,
+        "max": 12.79
+      }
+    },
+    "real RPI positive | wakeword=located": {
+      "fullband_rms_dbfs": {
+        "n": 54.0,
+        "min": -61.23,
+        "p10": -52.59,
+        "median": -47.07,
+        "p90": -31.89,
+        "max": -25.45
+      },
+      "peak_db": {
+        "n": 54.0,
+        "min": -59.38,
+        "p10": -49.77,
+        "median": -40.39,
+        "p90": -27.89,
+        "max": -18.76
+      },
+      "floor_db": {
+        "n": 54.0,
+        "min": -65.57,
+        "p10": -58.21,
+        "median": -54.67,
+        "p90": -51.93,
+        "max": -51.14
+      },
+      "peak_over_floor_db": {
+        "n": 54.0,
+        "min": 3.42,
+        "p10": 5.63,
+        "median": 14.53,
+        "p90": 24.63,
+        "max": 36.38
+      },
+      "span_level_db": {
+        "n": 54.0,
+        "min": -60.93,
+        "p10": -51.73,
+        "median": -42.77,
+        "p90": -29.83,
+        "max": -19.82
+      },
+      "span_over_floor_db": {
+        "n": 54.0,
+        "min": 2.12,
+        "p10": 4.24,
+        "median": 11.64,
+        "p90": 22.74,
+        "max": 37.03
+      },
+      "start_click_over_median_db": {
+        "n": 54.0,
+        "min": -22.99,
+        "p10": -5.16,
+        "median": -0.21,
+        "p90": 22.74,
+        "max": 33.94
+      }
+    },
+    "real RPI positive | wakeword=owner_confirmed_unlocated": {
+      "fullband_rms_dbfs": {
+        "n": 8.0,
+        "min": -48.39,
+        "p10": -48.25,
+        "median": -41.11,
+        "p90": -32.18,
+        "max": -28.92
+      },
+      "peak_db": {
+        "n": 8.0,
+        "min": -45.52,
+        "p10": -45.27,
+        "median": -36.25,
+        "p90": -25.3,
+        "max": -23.03
+      },
+      "floor_db": {
+        "n": 8.0,
+        "min": -56.57,
+        "p10": -56.25,
+        "median": -51.05,
+        "p90": -48.88,
+        "max": -48.74
+      },
+      "peak_over_floor_db": {
+        "n": 8.0,
+        "min": 4.42,
+        "p10": 4.94,
+        "median": 17.7,
+        "p90": 27.07,
+        "max": 27.14
+      },
+      "start_click_over_median_db": {
+        "n": 8.0,
+        "min": -21.17,
+        "p10": -18.25,
+        "median": -6.39,
+        "p90": 5.38,
+        "max": 16.12
+      }
+    },
+    "synthetic TTS positive | wakeword=located": {
+      "fullband_rms_dbfs": {
+        "n": 50.0,
+        "min": -23.87,
+        "p10": -22.97,
+        "median": -17.05,
+        "p90": -14.52,
+        "max": -12.87
+      },
+      "peak_db": {
+        "n": 50.0,
+        "min": -19.2,
+        "p10": -14.22,
+        "median": -10.85,
+        "p90": -7.95,
+        "max": -6.57
+      },
+      "floor_db": {
+        "n": 50.0,
+        "min": -180.0,
+        "p10": -102.05,
+        "median": -47.37,
+        "p90": -32.72,
+        "max": -29.14
+      },
+      "peak_over_floor_db": {
+        "n": 50.0,
+        "min": 17.8,
+        "p10": 21.6,
+        "median": 39.84,
+        "p90": 89.67,
+        "max": 167.08
+      },
+      "span_level_db": {
+        "n": 42.0,
+        "min": -19.89,
+        "p10": -15.54,
+        "median": -12.61,
+        "p90": -9.25,
+        "max": -8.7
+      },
+      "span_over_floor_db": {
+        "n": 42.0,
+        "min": 44.09,
+        "p10": 55.5,
+        "median": 74.71,
+        "p90": 89.67,
+        "max": 166.74
+      }
+    },
+    "synthetic negative_confusable | wakeword=n/a": {
+      "fullband_rms_dbfs": {
+        "n": 150.0,
+        "min": -27.27,
+        "p10": -25.13,
+        "median": -17.78,
+        "p90": -14.8,
+        "max": -10.9
+      },
+      "peak_db": {
+        "n": 150.0,
+        "min": -20.08,
+        "p10": -16.23,
+        "median": -11.19,
+        "p90": -7.97,
+        "max": -6.72
+      },
+      "floor_db": {
+        "n": 150.0,
+        "min": -148.35,
+        "p10": -102.02,
+        "median": -45.37,
+        "p90": -32.35,
+        "max": -22.6
+      },
+      "peak_over_floor_db": {
+        "n": 150.0,
+        "min": 12.4,
+        "p10": 21.0,
+        "median": 35.21,
+        "p90": 86.71,
+        "max": 133.64
+      }
+    },
+    "synthetic negative_general_speech | wakeword=n/a": {
+      "fullband_rms_dbfs": {
+        "n": 150.0,
+        "min": -35.06,
+        "p10": -26.4,
+        "median": -19.64,
+        "p90": -16.13,
+        "max": -13.35
+      },
+      "peak_db": {
+        "n": 150.0,
+        "min": -26.07,
+        "p10": -20.13,
+        "median": -13.71,
+        "p90": -9.23,
+        "max": -6.55
+      },
+      "floor_db": {
+        "n": 150.0,
+        "min": -180.0,
+        "p10": -180.0,
+        "median": -35.76,
+        "p90": -27.5,
+        "max": -23.13
+      },
+      "peak_over_floor_db": {
+        "n": 150.0,
+        "min": 8.86,
+        "p10": 13.9,
+        "median": 22.16,
+        "p90": 154.76,
+        "max": 166.7
+      }
+    },
+    "synthetic negative_media | wakeword=n/a": {
+      "fullband_rms_dbfs": {
+        "n": 150.0,
+        "min": -33.35,
+        "p10": -24.01,
+        "median": -19.81,
+        "p90": -16.74,
+        "max": -14.99
+      },
+      "peak_db": {
+        "n": 150.0,
+        "min": -26.45,
+        "p10": -18.2,
+        "median": -13.62,
+        "p90": -10.75,
+        "max": -9.15
+      },
+      "floor_db": {
+        "n": 150.0,
+        "min": -49.11,
+        "p10": -42.84,
+        "median": -32.54,
+        "p90": -26.7,
+        "max": -24.31
+      },
+      "peak_over_floor_db": {
+        "n": 150.0,
+        "min": 9.97,
+        "p10": 12.86,
+        "median": 18.06,
+        "p90": 27.12,
+        "max": 37.37
+      }
+    },
+    "synthetic negative_partial_wakeword | wakeword=n/a": {
+      "fullband_rms_dbfs": {
+        "n": 150.0,
+        "min": -96.9,
+        "p10": -36.72,
+        "median": -25.84,
+        "p90": -21.66,
+        "max": -19.49
+      },
+      "peak_db": {
+        "n": 150.0,
+        "min": -101.07,
+        "p10": -26.8,
+        "median": -14.65,
+        "p90": -10.0,
+        "max": -8.57
+      },
+      "floor_db": {
+        "n": 150.0,
+        "min": -180.0,
+        "p10": -180.0,
+        "median": -180.0,
+        "p90": -180.0,
+        "max": -180.0
+      },
+      "peak_over_floor_db": {
+        "n": 150.0,
+        "min": 78.93,
+        "p10": 153.2,
+        "median": 165.35,
+        "p90": 170.0,
+        "max": 171.43
+      }
+    },
+    "synthetic negative_silence_noise | wakeword=n/a": {
+      "fullband_rms_dbfs": {
+        "n": 150.0,
+        "min": -78.25,
+        "p10": -62.64,
+        "median": -52.91,
+        "p90": -40.83,
+        "max": -36.54
+      },
+      "peak_db": {
+        "n": 150.0,
+        "min": -82.07,
+        "p10": -68.92,
+        "median": -57.0,
+        "p90": -49.48,
+        "max": -43.56
+      },
+      "floor_db": {
+        "n": 150.0,
+        "min": -88.03,
+        "p10": -74.82,
+        "median": -61.52,
+        "p90": -50.85,
+        "max": -44.81
+      },
+      "peak_over_floor_db": {
+        "n": 150.0,
+        "min": 0.79,
+        "p10": 0.8,
+        "median": 1.79,
+        "p90": 12.03,
+        "max": 12.39
+      }
+    }
+  },
+  "owner_verified_audible_low_signal": [
+    {
+      "file_id": "Manual-Fil-RPI19",
+      "split": "validation",
+      "peak_db": -45.17,
+      "peak_over_floor_db": 5.16
+    },
+    {
+      "file_id": "Manual-Fil-RPI20",
+      "split": "test",
+      "peak_db": -45.52,
+      "peak_over_floor_db": 4.42
+    },
+    {
+      "file_id": "Manual-Fil-RPI21",
+      "split": "test",
+      "peak_db": -37.28,
+      "peak_over_floor_db": 11.66
+    }
+  ],
+  "rpi_positive_peak_db_range": {
+    "n": 62.0,
+    "min": -59.38,
+    "p10": -49.74,
+    "median": -39.77,
+    "p90": -27.5,
+    "max": -18.76
+  },
+  "rpi_positive_peak_over_floor_range": {
+    "n": 62.0,
+    "min": 3.42,
+    "p10": 5.41,
+    "median": 14.75,
+    "p90": 25.7,
+    "max": 36.38
+  },
+  "rpi_positive_floor_db_range": {
+    "n": 62.0,
+    "min": -65.57,
+    "p10": -58.06,
+    "median": -54.2,
+    "p90": -51.36,
+    "max": -48.74
+  },
+  "level_gap_db": {
+    "tts_positive_peak_median": -10.85,
+    "rpi_positive_peak_median": -39.77
+  },
+  "clipping": {
+    "files_with_any_clipped_sample": 69,
+    "max_clipped_fraction": 0.0004951584507042253
+  },
+  "header_sample_rates": {
+    "real Macmic negative": [
+      48000
+    ],
+    "real Macmic positive": [
+      48000
+    ],
+    "real Phonemic positive": [
+      48000
+    ],
+    "real RPI negative": [
+      48000
+    ],
+    "real RPI negative (relabelled)": [
+      48000
+    ],
+    "real RPI positive": [
+      48000
+    ],
+    "synthetic TTS positive": [
+      22050,
+      24000
+    ],
+    "synthetic negative_confusable": [
+      16000,
+      22050,
+      24000
+    ],
+    "synthetic negative_general_speech": [
+      48000
+    ],
+    "synthetic negative_media": [
+      48000
+    ],
+    "synthetic negative_partial_wakeword": [
+      48000
+    ],
+    "synthetic negative_silence_noise": [
+      48000
+    ]
+  },
+  "speech_spectrum_shape_by_device_db": {
+    "RPI": {
+      "oct_125_db": -20.2,
+      "oct_250_db": -9.6,
+      "oct_500_db": -6.3,
+      "oct_1000_db": -5.6,
+      "oct_2000_db": -9.8,
+      "oct_4000_db": -14.8
+    },
+    "Macmic": {
+      "oct_125_db": -29.1,
+      "oct_250_db": -9.0,
+      "oct_500_db": -5.1,
+      "oct_1000_db": -4.7,
+      "oct_2000_db": -12.2,
+      "oct_4000_db": -13.9
+    },
+    "Phonemic": {
+      "oct_125_db": -37.0,
+      "oct_250_db": -4.7,
+      "oct_500_db": -3.5,
+      "oct_1000_db": -12.2,
+      "oct_2000_db": -14.8,
+      "oct_4000_db": -16.6
+    }
+  },
+  "real_noise_bank": {
+    "windows": 1257,
+    "files": [
+      "Manual-BG-Macmic1",
+      "Manual-BG-RPI10",
+      "Manual-BG-RPI11",
+      "Manual-BG-RPI13",
+      "Manual-BG-RPI14",
+      "Manual-BG-RPI15",
+      "Manual-BG-RPI18",
+      "Manual-BG-RPI19",
+      "Manual-BG-RPI3",
+      "Manual-BG-RPI5",
+      "Manual-BG-RPI6"
+    ],
+    "excluded_non_train_files": [
+      "Manual-BG-RPI12",
+      "Manual-BG-RPI16",
+      "Manual-BG-RPI17",
+      "Manual-BG-RPI4",
+      "Manual-BG-RPI7",
+      "Manual-BG-RPI8",
+      "Manual-BG-RPI9"
+    ],
+    "excluded_all_zero_files": [
+      "Manual-BG-RPI1",
+      "Manual-BG-RPI2"
+    ]
+  },
+  "all_zero_recordings": [
+    {
+      "file_id": "Manual-BG-RPI1",
+      "split": "validation",
+      "label": "negative"
+    },
+    {
+      "file_id": "Manual-BG-RPI2",
+      "split": "train",
+      "label": "negative"
+    }
+  ],
+  "start_click_over_10db": {
+    "real Macmic negative": "0/1",
+    "real Macmic positive": "1/2",
+    "real Phonemic positive": "1/3",
+    "real RPI negative": "2/17",
+    "real RPI negative (relabelled)": "1/4",
+    "real RPI positive": "8/62"
+  },
+  "digital_silence_floor": {
+    "real Macmic negative": "0/1",
+    "real Macmic positive": "0/2",
+    "real Phonemic positive": "0/3",
+    "real RPI negative": "0/17",
+    "real RPI negative (relabelled)": "2/4",
+    "real RPI positive": "0/62",
+    "synthetic TTS positive": "17/50",
+    "synthetic negative_confusable": "33/150",
+    "synthetic negative_general_speech": "20/150",
+    "synthetic negative_media": "0/150",
+    "synthetic negative_partial_wakeword": "150/150",
+    "synthetic negative_silence_noise": "0/150"
+  },
+  "clipped_files_by_group": {
+    "synthetic TTS positive": 16,
+    "synthetic negative_confusable": 14,
+    "synthetic negative_general_speech": 4,
+    "synthetic negative_partial_wakeword": 35
+  }
+}

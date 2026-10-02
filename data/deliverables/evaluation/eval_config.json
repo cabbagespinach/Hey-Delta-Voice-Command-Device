@@ -1,0 +1,62 @@
+{
+  "_description": "Evaluation configuration. Keys starting with '_' are documentation.",
+
+  "isolated": {
+    "split": "validation",
+    "manifest": "isolated_set/isolated_validation_manifest.csv",
+    "_split": "The fixed isolated set is every validation window (unsampled, unaugmented, natural mix). It is the only set used to choose the operating threshold. The test split is reserved for the final isolated test (isolated_eval.py --split test) and is not read by streaming evaluation."
+  },
+
+  "streaming_set_b": {
+    "seed": 20260929,
+    "audio_dir": "data/streaming_eval_composed",
+    "voices": ["en_US-lessac-medium", "en_US-amy-medium", "en_US-ryan-medium", "en_GB-alan-medium",
+               "en_GB-alba-medium", "vi_VN-vivos-x_low", "id_ID-news_tts-medium"],
+    "_voices": "The 7 local Piper voices. The two edge-tts voices (fil-PH) need network access and are not used.",
+    "stream_sec": 60.0,
+    "streams_per_condition": 10,
+    "speed_range": [0.8, 1.25],
+    "_speed_range": "Wakewords avoid the training positive grid (0.85 / 1.0 / 1.15, +-0.02); pitch shifts are non-integer semitones (training used -2 / 0 / +2).",
+    "device_floor_db": [-58.2, -51.4],
+    "environmental_floor_db": [-50.0, -38.0],
+    "_environmental_floor_db": "Louder-than-device background for noisy conditions. Not measured on the device: an assumption, reported per condition.",
+    "bed_speech_over_floor_db": [8.0, 22.0],
+    "event_peak_over_floor_db": [5.4, 25.7],
+    "_event_peak_over_floor_db": "Measured p10-p90 peak-over-floor of real RPI positives (augmentation_config.json).",
+    "events_per_stream": {
+      "wakeword": [0, 1, 1, 2, 2, 3],
+      "confusable": [2, 4],
+      "partial": [1, 3],
+      "speech_snippet": [1, 3]
+    },
+    "embedded_wakeword_fraction": 0.3,
+    "min_gap_around_wakeword_sec": 2.5,
+    "min_gap_between_events_sec": 0.5,
+    "_gaps": "Placement is uniform over the whole stream; the gaps only keep events separable. 2.5 s around wakewords exceeds the 1.5 s hit zone, so a false accept on a nearby confusable is never absorbed into a wakeword's hit zone."
+  },
+
+  "detection": {
+    "threshold_policy": {"mode": "per_category_fpr", "target_fpr": 0.01, "exclude_subsets": ["real_external"], "min_category_n": 100},
+    "_threshold_policy": "Operating threshold (owner-approved 2026-09-29): the lowest threshold at which EVERY negative category of deployment-like validation audio (our device recordings + synthetic; public-corpus real_external excluded) has FPR <= target_fpr. Categories with fewer than min_category_n windows are pooled into one 'other' group. Public-corpus negatives are reported separately at that threshold. Streaming data never influences it. Before 2026-09-29 (mode validation_fpr) the threshold was the lowest with FPR <= target over all validation negatives pooled; once ~2,500 easy public-corpus negatives joined validation, that let the pooled rate hide 2.7% on real device background.",
+    "k_of_n": [2, 3],
+    "_k_of_n": "Streaming trigger rule: fire when at least k of the last n window scores (100 ms apart) reach the threshold, then stay silent for refractory_sec. Fixed a priori (a wakeword ending 0.10-0.40 s before a window end is inside several consecutive windows), never tuned on streaming data; results for the plain rule (1 of 1) are reported alongside.",
+    "smoothing_windows": 1,
+    "refractory_sec": 1.0,
+    "hit_zone": {"before_start_sec": 0.0, "after_end_sec": 1.5},
+    "_hit_zone": "A trigger at time t (end of the triggering 1.5 s window) detects a wakeword if wake_start - before <= t <= wake_end + after. The first trigger in the zone is the detection (latency = t - wake_end); later ones in the zone are duplicates, not false accepts. Triggers outside every zone are false accepts.",
+    "fa_attribution_window_sec": 1.5,
+    "sweep_points": 60,
+    "stream_chunk_sec": 0.5,
+    "_stream_chunk_sec": "Audio is fed to StreamingPreprocessor in 0.5 s chunks, as a live capture loop would; results are identical for any chunk size."
+  },
+
+  "baseline": {
+    "epochs": 8,
+    "batch_size": 128,
+    "num_workers": 16,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "seed": 20260929,
+    "_description": "Pipeline-check baseline only: a small CNN trained on the train split with the dataloading layer (augmented, bucket-quota sampling). It exists so the evaluators produce real numbers; replace it with the trained model."
+  }
+}

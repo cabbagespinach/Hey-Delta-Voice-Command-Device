@@ -1,0 +1,295 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0093.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:29:12+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.9021372199058533,
+ "chunks": [
+  {
+   "chunk_start": 1.588,
+   "chunk_end": 9.516,
+   "text": "I left the package beside the front door and waited near the entrance. The next episode starts after the commercial.",
+   "words": [
+    {
+     "word": "I",
+     "start": 1.588,
+     "end": 1.928,
+     "probability": 0.8169
+    },
+    {
+     "word": "left",
+     "start": 1.928,
+     "end": 2.208,
+     "probability": 0.9961
+    },
+    {
+     "word": "the",
+     "start": 2.208,
+     "end": 2.428,
+     "probability": 0.9922
+    },
+    {
+     "word": "package",
+     "start": 2.428,
+     "end": 2.768,
+     "probability": 0.9966
+    },
+    {
+     "word": "beside",
+     "start": 2.768,
+     "end": 3.328,
+     "probability": 0.9854
+    },
+    {
+     "word": "the",
+     "start": 3.328,
+     "end": 3.668,
+     "probability": 0.9966
+    },
+    {
+     "word": "front",
+     "start": 3.668,
+     "end": 3.908,
+     "probability": 0.9951
+    },
+    {
+     "word": "door",
+     "start": 3.908,
+     "end": 4.288,
+     "probability": 0.9814
+    },
+    {
+     "word": "and",
+     "start": 4.288,
+     "end": 4.728,
+     "probability": 0.8096
+    },
+    {
+     "word": "waited",
+     "start": 4.728,
+     "end": 5.028,
+     "probability": 0.9297
+    },
+    {
+     "word": "near",
+     "start": 5.028,
+     "end": 5.308,
+     "probability": 0.981
+    },
+    {
+     "word": "the",
+     "start": 5.308,
+     "end": 5.548,
+     "probability": 0.9985
+    },
+    {
+     "word": "entrance.",
+     "start": 5.548,
+     "end": 6.028,
+     "probability": 0.998
+    },
+    {
+     "word": "The",
+     "start": 6.448,
+     "end": 6.928,
+     "probability": 0.8555
+    },
+    {
+     "word": "next",
+     "start": 6.928,
+     "end": 7.208,
+     "probability": 0.999
+    },
+    {
+     "word": "episode",
+     "start": 7.208,
+     "end": 7.608,
+     "probability": 0.9951
+    },
+    {
+     "word": "starts",
+     "start": 7.608,
+     "end": 7.948,
+     "probability": 0.9985
+    },
+    {
+     "word": "after",
+     "start": 7.948,
+     "end": 8.348,
+     "probability": 0.999
+    },
+    {
+     "word": "the",
+     "start": 8.348,
+     "end": 8.568,
+     "probability": 0.9976
+    },
+    {
+     "word": "commercial.",
+     "start": 8.568,
+     "end": 8.808,
+     "probability": 0.998
+    }
+   ]
+  },
+  {
+   "chunk_start": 12.052,
+   "chunk_end": 18.188,
+   "text": "The machine makes a strange sound sometimes.",
+   "words": [
+    {
+     "word": "The",
+     "start": 15.232,
+     "end": 15.832,
+     "probability": 0.6245
+    },
+    {
+     "word": "machine",
+     "start": 15.832,
+     "end": 15.892,
+     "probability": 0.8921
+    },
+    {
+     "word": "makes",
+     "start": 15.892,
+     "end": 16.372,
+     "probability": 0.9902
+    },
+    {
+     "word": "a",
+     "start": 16.372,
+     "end": 16.452,
+     "probability": 0.5674
+    },
+    {
+     "word": "strange",
+     "start": 16.452,
+     "end": 16.712,
+     "probability": 0.9629
+    },
+    {
+     "word": "sound",
+     "start": 16.712,
+     "end": 17.052,
+     "probability": 0.9692
+    },
+    {
+     "word": "sometimes.",
+     "start": 17.052,
+     "end": 17.412,
+     "probability": 0.9878
+    }
+   ]
+  },
+  {
+   "chunk_start": 19.412,
+   "chunk_end": 22.892,
+   "text": "Hey Delta, the store closes earlier on weekends.",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 19.412,
+     "end": 19.752,
+     "probability": 0.7646
+    },
+    {
+     "word": "Delta,",
+     "start": 19.752,
+     "end": 20.012,
+     "probability": 0.7939
+    },
+    {
+     "word": "the",
+     "start": 20.272,
+     "end": 20.672,
+     "probability": 0.9297
+    },
+    {
+     "word": "store",
+     "start": 20.672,
+     "end": 20.932,
+     "probability": 0.998
+    },
+    {
+     "word": "closes",
+     "start": 20.932,
+     "end": 21.252,
+     "probability": 0.9941
+    },
+    {
+     "word": "earlier",
+     "start": 21.252,
+     "end": 21.592,
+     "probability": 0.9683
+    },
+    {
+     "word": "on",
+     "start": 21.592,
+     "end": 21.892,
+     "probability": 0.999
+    },
+    {
+     "word": "weekends.",
+     "start": 21.892,
+     "end": 22.172,
+     "probability": 0.9976
+    }
+   ]
+  },
+  {
+   "chunk_start": 27.124,
+   "chunk_end": 29.484,
+   "text": "There is enough time to finish this today.",
+   "words": [
+    {
+     "word": "There",
+     "start": 27.124,
+     "end": 27.424,
+     "probability": 0.8457
+    },
+    {
+     "word": "is",
+     "start": 27.424,
+     "end": 27.544,
+     "probability": 0.9873
+    },
+    {
+     "word": "enough",
+     "start": 27.544,
+     "end": 27.744,
+     "probability": 0.9971
+    },
+    {
+     "word": "time",
+     "start": 27.744,
+     "end": 27.964,
+     "probability": 0.9995
+    },
+    {
+     "word": "to",
+     "start": 27.964,
+     "end": 28.164,
+     "probability": 0.998
+    },
+    {
+     "word": "finish",
+     "start": 28.164,
+     "end": 28.404,
+     "probability": 0.9985
+    },
+    {
+     "word": "this",
+     "start": 28.404,
+     "end": 28.664,
+     "probability": 0.998
+    },
+    {
+     "word": "today.",
+     "start": 28.664,
+     "end": 28.884,
+     "probability": 0.9966
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,162 @@
+[
+ {
+  "owner_macro_acc": 0.0,
+  "web_macro_acc": 0.0,
+  "synthetic_macro_acc": 0.0,
+  "unknown_false_action": 0.0,
+  "unknown_false_action_by_group": {
+   "fragments": 0.0,
+   "owner": 0.0,
+   "reuse_fleurs": 0.0,
+   "reuse_mswc": 0.0,
+   "reuse_musan": 0.0,
+   "reuse_owner": 0.0,
+   "synthetic": 0.0,
+   "web": 0.0
+  },
+  "selection_score": 0.25,
+  "epoch": 0,
+  "train_loss": 3.2973,
+  "minutes": 1.17
+ },
+ {
+  "owner_macro_acc": 0.018518518518518517,
+  "web_macro_acc": 0.011904761904761904,
+  "synthetic_macro_acc": 0.04155614500442087,
+  "unknown_false_action": 0.33624801271860094,
+  "unknown_false_action_by_group": {
+   "fragments": 0.1238,
+   "owner": 0.125,
+   "reuse_fleurs": 0.4211,
+   "reuse_mswc": 0.0,
+   "reuse_musan": 0.2199,
+   "reuse_owner": 0.0682,
+   "synthetic": 0.0774,
+   "web": 0.6248
+  },
+  "selection_score": 0.1839328531772751,
+  "epoch": 1,
+  "train_loss": 3.0963,
+  "minutes": 0.64
+ },
+ {
+  "owner_macro_acc": 0.037037037037037035,
+  "web_macro_acc": 0.005208333333333333,
+  "synthetic_macro_acc": 0.04208033345964381,
+  "unknown_false_action": 0.294912559618442,
+  "unknown_false_action_by_group": {
+   "fragments": 0.2129,
+   "owner": 0.125,
+   "reuse_fleurs": 0.4561,
+   "reuse_mswc": 0.0179,
+   "reuse_musan": 0.1675,
+   "reuse_owner": 0.0341,
+   "synthetic": 0.1097,
+   "web": 0.495
+  },
+  "selection_score": 0.19735328605289304,
+  "epoch": 2,
+  "train_loss": 2.9495,
+  "minutes": 0.87
+ },
+ {
+  "owner_macro_acc": 0.19135802469135801,
+  "web_macro_acc": 0.13684041184041185,
+  "synthetic_macro_acc": 0.1829609793312153,
+  "unknown_false_action": 0.15659777424483307,
+  "unknown_false_action_by_group": {
+   "fragments": 0.2723,
+   "owner": 0.25,
+   "reuse_fleurs": 0.3333,
+   "reuse_mswc": 0.0179,
+   "reuse_musan": 0.0785,
+   "reuse_owner": 0.0,
+   "synthetic": 0.0645,
+   "web": 0.1896
+  },
+  "selection_score": 0.338640410404538,
+  "epoch": 3,
+  "train_loss": 2.7579,
+  "minutes": 0.77
+ },
+ {
+  "owner_macro_acc": 0.35185185185185186,
+  "web_macro_acc": 0.0667570622886471,
+  "synthetic_macro_acc": 0.4214219192057752,
+  "unknown_false_action": 0.28060413354531,
+  "unknown_false_action_by_group": {
+   "fragments": 0.5099,
+   "owner": 0.375,
+   "reuse_fleurs": 0.5088,
+   "reuse_mswc": 0.0714,
+   "reuse_musan": 0.0838,
+   "reuse_owner": 0.1023,
+   "synthetic": 0.2323,
+   "web": 0.3054
+  },
+  "selection_score": 0.389856674950241,
+  "epoch": 4,
+  "train_loss": 2.4956,
+  "minutes": 0.85
+ },
+ {
+  "owner_macro_acc": 0.42592592592592593,
+  "web_macro_acc": 0.2221756810891851,
+  "synthetic_macro_acc": 0.5203909415990062,
+  "unknown_false_action": 0.29968203497615264,
+  "unknown_false_action_by_group": {
+   "fragments": 0.495,
+   "owner": 0.375,
+   "reuse_fleurs": 0.4211,
+   "reuse_mswc": 0.2857,
+   "reuse_musan": 0.0628,
+   "reuse_owner": 0.0568,
+   "synthetic": 0.3613,
+   "web": 0.3214
+  },
+  "selection_score": 0.46720262840949117,
+  "epoch": 5,
+  "train_loss": 2.3105,
+  "minutes": 0.86
+ },
+ {
+  "owner_macro_acc": 0.4506172839506173,
+  "web_macro_acc": 0.23949745241860745,
+  "synthetic_macro_acc": 0.588935157137535,
+  "unknown_false_action": 0.28139904610492844,
+  "unknown_false_action_by_group": {
+   "fragments": 0.4901,
+   "owner": 0.375,
+   "reuse_fleurs": 0.3158,
+   "reuse_mswc": 0.2143,
+   "reuse_musan": 0.0628,
+   "reuse_owner": 0.0455,
+   "synthetic": 0.3548,
+   "web": 0.3014
+  },
+  "selection_score": 0.4994127118504578,
+  "epoch": 6,
+  "train_loss": 2.1898,
+  "minutes": 0.71
+ },
+ {
+  "owner_macro_acc": 0.4506172839506173,
+  "web_macro_acc": 0.26132340575188256,
+  "synthetic_macro_acc": 0.5815831988186144,
+  "unknown_false_action": 0.2957074721780604,
+  "unknown_false_action_by_group": {
+   "fragments": 0.5149,
+   "owner": 0.375,
+   "reuse_fleurs": 0.2982,
+   "reuse_mswc": 0.2679,
+   "reuse_musan": 0.0628,
+   "reuse_owner": 0.0568,
+   "synthetic": 0.3871,
+   "web": 0.3114
+  },
+  "selection_score": 0.49945410408576346,
+  "epoch": 7,
+  "train_loss": 2.1417,
+  "minutes": 0.62
+ }
+]

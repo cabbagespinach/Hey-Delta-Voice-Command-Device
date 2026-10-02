@@ -1,0 +1,204 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0028.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:27:32+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.9015038013458252,
+ "chunks": [
+  {
+   "chunk_start": 0.98,
+   "chunk_end": 11.884,
+   "text": "I think the blue one is slightly cheaper. I forgot where I put the keys this morning.",
+   "words": [
+    {
+     "word": "I",
+     "start": 1.76,
+     "end": 2.36,
+     "probability": 0.7573
+    },
+    {
+     "word": "think",
+     "start": 2.36,
+     "end": 2.66,
+     "probability": 0.9746
+    },
+    {
+     "word": "the",
+     "start": 2.66,
+     "end": 2.92,
+     "probability": 0.9873
+    },
+    {
+     "word": "blue",
+     "start": 2.92,
+     "end": 3.16,
+     "probability": 0.9736
+    },
+    {
+     "word": "one",
+     "start": 3.16,
+     "end": 3.46,
+     "probability": 0.9868
+    },
+    {
+     "word": "is",
+     "start": 3.46,
+     "end": 3.74,
+     "probability": 0.9961
+    },
+    {
+     "word": "slightly",
+     "start": 3.74,
+     "end": 4.06,
+     "probability": 0.9707
+    },
+    {
+     "word": "cheaper.",
+     "start": 4.06,
+     "end": 4.54,
+     "probability": 0.998
+    },
+    {
+     "word": "I",
+     "start": 8.8,
+     "end": 9.4,
+     "probability": 0.3022
+    },
+    {
+     "word": "forgot",
+     "start": 9.4,
+     "end": 9.7,
+     "probability": 0.9253
+    },
+    {
+     "word": "where",
+     "start": 9.7,
+     "end": 10.12,
+     "probability": 0.9961
+    },
+    {
+     "word": "I",
+     "start": 10.12,
+     "end": 10.24,
+     "probability": 0.9658
+    },
+    {
+     "word": "put",
+     "start": 10.24,
+     "end": 10.42,
+     "probability": 0.9941
+    },
+    {
+     "word": "the",
+     "start": 10.42,
+     "end": 10.54,
+     "probability": 0.9927
+    },
+    {
+     "word": "keys",
+     "start": 10.54,
+     "end": 10.76,
+     "probability": 0.9897
+    },
+    {
+     "word": "this",
+     "start": 10.76,
+     "end": 10.98,
+     "probability": 0.9927
+    },
+    {
+     "word": "morning.",
+     "start": 10.98,
+     "end": 11.36,
+     "probability": 0.9985
+    }
+   ]
+  },
+  {
+   "chunk_start": 17.812,
+   "chunk_end": 19.084,
+   "text": "He dealt her.",
+   "words": [
+    {
+     "word": "He",
+     "start": 17.812,
+     "end": 18.152,
+     "probability": 0.8877
+    },
+    {
+     "word": "dealt",
+     "start": 18.152,
+     "end": 18.352,
+     "probability": 0.9331
+    },
+    {
+     "word": "her.",
+     "start": 18.352,
+     "end": 18.612,
+     "probability": 0.9858
+    }
+   ]
+  },
+  {
+   "chunk_start": 21.204,
+   "chunk_end": 24.044,
+   "text": "There is enough time to finish this D-Delta.",
+   "words": [
+    {
+     "word": "There",
+     "start": 21.204,
+     "end": 21.524,
+     "probability": 0.6772
+    },
+    {
+     "word": "is",
+     "start": 21.524,
+     "end": 21.664,
+     "probability": 0.9956
+    },
+    {
+     "word": "enough",
+     "start": 21.664,
+     "end": 21.924,
+     "probability": 0.9961
+    },
+    {
+     "word": "time",
+     "start": 21.924,
+     "end": 22.164,
+     "probability": 0.9995
+    },
+    {
+     "word": "to",
+     "start": 22.164,
+     "end": 22.384,
+     "probability": 0.9985
+    },
+    {
+     "word": "finish",
+     "start": 22.384,
+     "end": 22.664,
+     "probability": 0.9985
+    },
+    {
+     "word": "this",
+     "start": 22.664,
+     "end": 22.924,
+     "probability": 0.9922
+    },
+    {
+     "word": "D",
+     "start": 22.924,
+     "end": 23.064,
+     "probability": 0.1516
+    },
+    {
+     "word": "-Delta.",
+     "start": 23.064,
+     "end": 23.564,
+     "probability": 0.7583
+    }
+   ]
+  }
+ ]
+}

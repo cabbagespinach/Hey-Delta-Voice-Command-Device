@@ -1,0 +1,367 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0008.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:27:05+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.9065892100334167,
+ "chunks": [
+  {
+   "chunk_start": 1.396,
+   "chunk_end": 7.724,
+   "text": "I will call you when I get back home. I will call you when I get back home. There are several things we need to discuss.",
+   "words": [
+    {
+     "word": "I",
+     "start": 1.396,
+     "end": 1.736,
+     "probability": 0.9004
+    },
+    {
+     "word": "will",
+     "start": 1.736,
+     "end": 1.856,
+     "probability": 0.9326
+    },
+    {
+     "word": "call",
+     "start": 1.856,
+     "end": 2.076,
+     "probability": 0.999
+    },
+    {
+     "word": "you",
+     "start": 2.076,
+     "end": 2.216,
+     "probability": 0.9985
+    },
+    {
+     "word": "when",
+     "start": 2.216,
+     "end": 2.336,
+     "probability": 0.9956
+    },
+    {
+     "word": "I",
+     "start": 2.336,
+     "end": 2.396,
+     "probability": 0.9814
+    },
+    {
+     "word": "get",
+     "start": 2.396,
+     "end": 2.556,
+     "probability": 0.9995
+    },
+    {
+     "word": "back",
+     "start": 2.556,
+     "end": 2.716,
+     "probability": 0.999
+    },
+    {
+     "word": "home.",
+     "start": 2.716,
+     "end": 3.036,
+     "probability": 0.999
+    },
+    {
+     "word": "I",
+     "start": 3.176,
+     "end": 3.376,
+     "probability": 0.45
+    },
+    {
+     "word": "will",
+     "start": 3.376,
+     "end": 3.576,
+     "probability": 0.9829
+    },
+    {
+     "word": "call",
+     "start": 3.576,
+     "end": 3.816,
+     "probability": 0.9985
+    },
+    {
+     "word": "you",
+     "start": 3.816,
+     "end": 4.036,
+     "probability": 0.9995
+    },
+    {
+     "word": "when",
+     "start": 4.036,
+     "end": 4.196,
+     "probability": 0.999
+    },
+    {
+     "word": "I",
+     "start": 4.196,
+     "end": 4.356,
+     "probability": 0.9985
+    },
+    {
+     "word": "get",
+     "start": 4.356,
+     "end": 4.656,
+     "probability": 0.999
+    },
+    {
+     "word": "back",
+     "start": 4.656,
+     "end": 4.856,
+     "probability": 0.9946
+    },
+    {
+     "word": "home.",
+     "start": 4.856,
+     "end": 5.216,
+     "probability": 0.999
+    },
+    {
+     "word": "There",
+     "start": 5.336,
+     "end": 5.376,
+     "probability": 0.9966
+    },
+    {
+     "word": "are",
+     "start": 5.376,
+     "end": 5.496,
+     "probability": 0.9995
+    },
+    {
+     "word": "several",
+     "start": 5.496,
+     "end": 5.836,
+     "probability": 0.9995
+    },
+    {
+     "word": "things",
+     "start": 5.836,
+     "end": 6.116,
+     "probability": 0.9995
+    },
+    {
+     "word": "we",
+     "start": 6.116,
+     "end": 6.396,
+     "probability": 0.9976
+    },
+    {
+     "word": "need",
+     "start": 6.396,
+     "end": 6.556,
+     "probability": 0.9995
+    },
+    {
+     "word": "to",
+     "start": 6.556,
+     "end": 6.696,
+     "probability": 1.0
+    },
+    {
+     "word": "discuss.",
+     "start": 6.696,
+     "end": 6.956,
+     "probability": 0.9995
+    }
+   ]
+  },
+  {
+   "chunk_start": 9.78,
+   "chunk_end": 12.364,
+   "text": "I forgot where I put the keys this morning.",
+   "words": [
+    {
+     "word": "I",
+     "start": 9.78,
+     "end": 10.08,
+     "probability": 0.897
+    },
+    {
+     "word": "forgot",
+     "start": 10.08,
+     "end": 10.3,
+     "probability": 0.9927
+    },
+    {
+     "word": "where",
+     "start": 10.3,
+     "end": 10.54,
+     "probability": 0.9492
+    },
+    {
+     "word": "I",
+     "start": 10.54,
+     "end": 10.72,
+     "probability": 0.9795
+    },
+    {
+     "word": "put",
+     "start": 10.72,
+     "end": 10.9,
+     "probability": 0.9868
+    },
+    {
+     "word": "the",
+     "start": 10.9,
+     "end": 11.04,
+     "probability": 0.9839
+    },
+    {
+     "word": "keys",
+     "start": 11.04,
+     "end": 11.22,
+     "probability": 0.9971
+    },
+    {
+     "word": "this",
+     "start": 11.22,
+     "end": 11.46,
+     "probability": 0.9932
+    },
+    {
+     "word": "morning.",
+     "start": 11.46,
+     "end": 11.76,
+     "probability": 0.999
+    }
+   ]
+  },
+  {
+   "chunk_start": 18.164,
+   "chunk_end": 21.504,
+   "text": "Can you send me the address when you arrive? Hey Delta.",
+   "words": [
+    {
+     "word": "Can",
+     "start": 18.164,
+     "end": 18.444,
+     "probability": 0.7739
+    },
+    {
+     "word": "you",
+     "start": 18.444,
+     "end": 18.584,
+     "probability": 0.9961
+    },
+    {
+     "word": "send",
+     "start": 18.584,
+     "end": 18.784,
+     "probability": 0.9976
+    },
+    {
+     "word": "me",
+     "start": 18.784,
+     "end": 18.944,
+     "probability": 0.998
+    },
+    {
+     "word": "the",
+     "start": 18.944,
+     "end": 19.064,
+     "probability": 0.9971
+    },
+    {
+     "word": "address",
+     "start": 19.064,
+     "end": 19.324,
+     "probability": 0.9956
+    },
+    {
+     "word": "when",
+     "start": 19.324,
+     "end": 19.604,
+     "probability": 0.9946
+    },
+    {
+     "word": "you",
+     "start": 19.604,
+     "end": 19.724,
+     "probability": 0.9985
+    },
+    {
+     "word": "arrive?",
+     "start": 19.724,
+     "end": 20.004,
+     "probability": 0.9907
+    },
+    {
+     "word": "Hey",
+     "start": 20.284,
+     "end": 20.664,
+     "probability": 0.8774
+    },
+    {
+     "word": "Delta.",
+     "start": 20.664,
+     "end": 20.904,
+     "probability": 0.6763
+    }
+   ]
+  },
+  {
+   "chunk_start": 21.504,
+   "chunk_end": 24.972,
+   "text": "This recording is only being used as synthetic data.",
+   "words": [
+    {
+     "word": "This",
+     "start": 21.504,
+     "end": 21.784,
+     "probability": 0.9639
+    },
+    {
+     "word": "recording",
+     "start": 21.784,
+     "end": 22.184,
+     "probability": 0.9966
+    },
+    {
+     "word": "is",
+     "start": 22.184,
+     "end": 22.584,
+     "probability": 0.9985
+    },
+    {
+     "word": "only",
+     "start": 22.584,
+     "end": 22.844,
+     "probability": 0.9976
+    },
+    {
+     "word": "being",
+     "start": 22.844,
+     "end": 23.084,
+     "probability": 0.9893
+    },
+    {
+     "word": "used",
+     "start": 23.084,
+     "end": 23.384,
+     "probability": 0.998
+    },
+    {
+     "word": "as",
+     "start": 23.384,
+     "end": 23.664,
+     "probability": 0.9907
+    },
+    {
+     "word": "synthetic",
+     "start": 23.664,
+     "end": 23.984,
+     "probability": 0.874
+    },
+    {
+     "word": "data.",
+     "start": 23.984,
+     "end": 24.264,
+     "probability": 0.9497
+    }
+   ]
+  }
+ ]
+}

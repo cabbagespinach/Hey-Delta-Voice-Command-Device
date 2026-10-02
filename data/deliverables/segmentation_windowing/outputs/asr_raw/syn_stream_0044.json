@@ -1,0 +1,241 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0044.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:27:59+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8819780349731445,
+ "chunks": [
+  {
+   "chunk_start": 7.028,
+   "chunk_end": 10.444,
+   "text": "I was looking for a quiet place to work. Hey Delta.",
+   "words": [
+    {
+     "word": "I",
+     "start": 7.028,
+     "end": 7.348,
+     "probability": 0.646
+    },
+    {
+     "word": "was",
+     "start": 7.348,
+     "end": 7.548,
+     "probability": 0.9897
+    },
+    {
+     "word": "looking",
+     "start": 7.548,
+     "end": 7.848,
+     "probability": 0.9971
+    },
+    {
+     "word": "for",
+     "start": 7.848,
+     "end": 8.148,
+     "probability": 0.999
+    },
+    {
+     "word": "a",
+     "start": 8.148,
+     "end": 8.288,
+     "probability": 0.9956
+    },
+    {
+     "word": "quiet",
+     "start": 8.288,
+     "end": 8.628,
+     "probability": 0.9912
+    },
+    {
+     "word": "place",
+     "start": 8.628,
+     "end": 8.988,
+     "probability": 0.998
+    },
+    {
+     "word": "to",
+     "start": 8.988,
+     "end": 9.268,
+     "probability": 0.9746
+    },
+    {
+     "word": "work.",
+     "start": 9.268,
+     "end": 9.508,
+     "probability": 0.9097
+    },
+    {
+     "word": "Hey",
+     "start": 9.548,
+     "end": 9.668,
+     "probability": 0.7358
+    },
+    {
+     "word": "Delta.",
+     "start": 9.668,
+     "end": 9.828,
+     "probability": 0.8501
+    }
+   ]
+  },
+  {
+   "chunk_start": 10.676,
+   "chunk_end": 14.604,
+   "text": "The report contains several useful examples.",
+   "words": [
+    {
+     "word": "The",
+     "start": 10.676,
+     "end": 10.856,
+     "probability": 0.8843
+    },
+    {
+     "word": "report",
+     "start": 10.856,
+     "end": 11.176,
+     "probability": 0.9805
+    },
+    {
+     "word": "contains",
+     "start": 11.176,
+     "end": 11.736,
+     "probability": 0.9834
+    },
+    {
+     "word": "several",
+     "start": 11.736,
+     "end": 12.376,
+     "probability": 0.9985
+    },
+    {
+     "word": "useful",
+     "start": 12.376,
+     "end": 12.836,
+     "probability": 0.998
+    },
+    {
+     "word": "examples.",
+     "start": 12.836,
+     "end": 13.516,
+     "probability": 0.9985
+    }
+   ]
+  },
+  {
+   "chunk_start": 18.548,
+   "chunk_end": 19.884,
+   "text": "Hey Delta.",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 18.548,
+     "end": 18.908,
+     "probability": 0.8271
+    },
+    {
+     "word": "Delta.",
+     "start": 18.908,
+     "end": 19.188,
+     "probability": 0.6577
+    }
+   ]
+  },
+  {
+   "chunk_start": 19.988,
+   "chunk_end": 28.46,
+   "text": "The children are playing outside in the garden. We should probably check the schedule first.",
+   "words": [
+    {
+     "word": "The",
+     "start": 19.988,
+     "end": 20.308,
+     "probability": 0.6621
+    },
+    {
+     "word": "children",
+     "start": 20.308,
+     "end": 20.608,
+     "probability": 0.9937
+    },
+    {
+     "word": "are",
+     "start": 20.608,
+     "end": 20.908,
+     "probability": 0.9849
+    },
+    {
+     "word": "playing",
+     "start": 20.908,
+     "end": 21.188,
+     "probability": 0.9932
+    },
+    {
+     "word": "outside",
+     "start": 21.188,
+     "end": 21.688,
+     "probability": 0.6592
+    },
+    {
+     "word": "in",
+     "start": 21.688,
+     "end": 22.128,
+     "probability": 0.5747
+    },
+    {
+     "word": "the",
+     "start": 22.128,
+     "end": 22.168,
+     "probability": 0.7773
+    },
+    {
+     "word": "garden.",
+     "start": 22.168,
+     "end": 22.388,
+     "probability": 0.7764
+    },
+    {
+     "word": "We",
+     "start": 23.048,
+     "end": 23.148,
+     "probability": 0.8965
+    },
+    {
+     "word": "should",
+     "start": 23.148,
+     "end": 23.928,
+     "probability": 0.9971
+    },
+    {
+     "word": "probably",
+     "start": 23.928,
+     "end": 24.268,
+     "probability": 0.9546
+    },
+    {
+     "word": "check",
+     "start": 24.268,
+     "end": 24.748,
+     "probability": 0.9976
+    },
+    {
+     "word": "the",
+     "start": 24.748,
+     "end": 24.988,
+     "probability": 0.9956
+    },
+    {
+     "word": "schedule",
+     "start": 24.988,
+     "end": 25.328,
+     "probability": 0.9966
+    },
+    {
+     "word": "first.",
+     "start": 25.328,
+     "end": 25.708,
+     "probability": 0.9932
+    }
+   ]
+  }
+ ]
+}

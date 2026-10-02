@@ -1,0 +1,246 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0107.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:29:38+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.898566722869873,
+ "chunks": [
+  {
+   "chunk_start": 7.668,
+   "chunk_end": 11.852,
+   "text": "There is enough time to finish this game.",
+   "words": [
+    {
+     "word": "There",
+     "start": 7.668,
+     "end": 8.308,
+     "probability": 0.3933
+    },
+    {
+     "word": "is",
+     "start": 8.308,
+     "end": 8.488,
+     "probability": 0.9614
+    },
+    {
+     "word": "enough",
+     "start": 8.488,
+     "end": 8.888,
+     "probability": 0.9658
+    },
+    {
+     "word": "time",
+     "start": 8.888,
+     "end": 9.208,
+     "probability": 0.9829
+    },
+    {
+     "word": "to",
+     "start": 9.208,
+     "end": 9.588,
+     "probability": 0.9712
+    },
+    {
+     "word": "finish",
+     "start": 9.588,
+     "end": 9.908,
+     "probability": 0.9966
+    },
+    {
+     "word": "this",
+     "start": 9.908,
+     "end": 10.148,
+     "probability": 0.8672
+    },
+    {
+     "word": "game.",
+     "start": 10.148,
+     "end": 10.448,
+     "probability": 0.3899
+    }
+   ]
+  },
+  {
+   "chunk_start": 12.404,
+   "chunk_end": 19.372,
+   "text": "I think the blue one is like a G. Hey, Delta. That sounds like a reasonable idea to me.",
+   "words": [
+    {
+     "word": "I",
+     "start": 12.404,
+     "end": 12.704,
+     "probability": 0.6538
+    },
+    {
+     "word": "think",
+     "start": 12.704,
+     "end": 12.964,
+     "probability": 0.9917
+    },
+    {
+     "word": "the",
+     "start": 12.964,
+     "end": 13.084,
+     "probability": 0.9775
+    },
+    {
+     "word": "blue",
+     "start": 13.084,
+     "end": 13.244,
+     "probability": 0.9756
+    },
+    {
+     "word": "one",
+     "start": 13.244,
+     "end": 13.504,
+     "probability": 0.9888
+    },
+    {
+     "word": "is",
+     "start": 13.504,
+     "end": 13.664,
+     "probability": 0.9746
+    },
+    {
+     "word": "like",
+     "start": 13.664,
+     "end": 13.844,
+     "probability": 0.1648
+    },
+    {
+     "word": "a",
+     "start": 13.844,
+     "end": 14.104,
+     "probability": 0.5532
+    },
+    {
+     "word": "G.",
+     "start": 14.104,
+     "end": 14.144,
+     "probability": 0.0804
+    },
+    {
+     "word": "Hey,",
+     "start": 14.244,
+     "end": 14.324,
+     "probability": 0.5435
+    },
+    {
+     "word": "Delta.",
+     "start": 14.404,
+     "end": 14.624,
+     "probability": 0.9116
+    },
+    {
+     "word": "That",
+     "start": 16.364,
+     "end": 16.804,
+     "probability": 0.9727
+    },
+    {
+     "word": "sounds",
+     "start": 16.804,
+     "end": 17.164,
+     "probability": 0.998
+    },
+    {
+     "word": "like",
+     "start": 17.164,
+     "end": 17.444,
+     "probability": 0.9976
+    },
+    {
+     "word": "a",
+     "start": 17.444,
+     "end": 17.544,
+     "probability": 0.7397
+    },
+    {
+     "word": "reasonable",
+     "start": 17.544,
+     "end": 17.984,
+     "probability": 0.9956
+    },
+    {
+     "word": "idea",
+     "start": 17.984,
+     "end": 18.484,
+     "probability": 0.9995
+    },
+    {
+     "word": "to",
+     "start": 18.484,
+     "end": 18.704,
+     "probability": 0.9976
+    },
+    {
+     "word": "me.",
+     "start": 18.704,
+     "end": 18.904,
+     "probability": 1.0
+    }
+   ]
+  },
+  {
+   "chunk_start": 22.132,
+   "chunk_end": 26.284,
+   "text": "This recording is only being used as synthetic data.",
+   "words": [
+    {
+     "word": "This",
+     "start": 22.132,
+     "end": 22.492,
+     "probability": 0.8325
+    },
+    {
+     "word": "recording",
+     "start": 22.492,
+     "end": 22.972,
+     "probability": 0.9946
+    },
+    {
+     "word": "is",
+     "start": 22.972,
+     "end": 23.292,
+     "probability": 0.9971
+    },
+    {
+     "word": "only",
+     "start": 23.292,
+     "end": 23.552,
+     "probability": 0.9912
+    },
+    {
+     "word": "being",
+     "start": 23.552,
+     "end": 23.852,
+     "probability": 0.9897
+    },
+    {
+     "word": "used",
+     "start": 23.852,
+     "end": 24.272,
+     "probability": 0.998
+    },
+    {
+     "word": "as",
+     "start": 24.272,
+     "end": 24.592,
+     "probability": 0.9922
+    },
+    {
+     "word": "synthetic",
+     "start": 24.592,
+     "end": 25.072,
+     "probability": 0.9678
+    },
+    {
+     "word": "data.",
+     "start": 25.072,
+     "end": 25.512,
+     "probability": 0.9976
+    }
+   ]
+  }
+ ]
+}

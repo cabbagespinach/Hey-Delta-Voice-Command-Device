@@ -1,0 +1,155 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0076.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:28:47+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.9010093212127686,
+ "chunks": [
+  {
+   "chunk_start": 1.972,
+   "chunk_end": 6.22,
+   "text": "We can take a tweet order here and write it near the entrance.",
+   "words": [
+    {
+     "word": "We",
+     "start": 1.972,
+     "end": 2.332,
+     "probability": 0.6294
+    },
+    {
+     "word": "can",
+     "start": 2.332,
+     "end": 2.432,
+     "probability": 0.6167
+    },
+    {
+     "word": "take",
+     "start": 2.432,
+     "end": 2.732,
+     "probability": 0.9819
+    },
+    {
+     "word": "a",
+     "start": 2.732,
+     "end": 2.792,
+     "probability": 0.1274
+    },
+    {
+     "word": "tweet",
+     "start": 2.792,
+     "end": 3.172,
+     "probability": 0.3337
+    },
+    {
+     "word": "order",
+     "start": 3.172,
+     "end": 3.532,
+     "probability": 0.3958
+    },
+    {
+     "word": "here",
+     "start": 3.532,
+     "end": 3.932,
+     "probability": 0.5225
+    },
+    {
+     "word": "and",
+     "start": 3.932,
+     "end": 4.352,
+     "probability": 0.7798
+    },
+    {
+     "word": "write",
+     "start": 4.352,
+     "end": 4.432,
+     "probability": 0.4331
+    },
+    {
+     "word": "it",
+     "start": 4.432,
+     "end": 4.592,
+     "probability": 0.9707
+    },
+    {
+     "word": "near",
+     "start": 4.592,
+     "end": 4.832,
+     "probability": 0.9922
+    },
+    {
+     "word": "the",
+     "start": 4.832,
+     "end": 5.012,
+     "probability": 0.998
+    },
+    {
+     "word": "entrance.",
+     "start": 5.012,
+     "end": 5.372,
+     "probability": 0.9976
+    }
+   ]
+  },
+  {
+   "chunk_start": 19.956,
+   "chunk_end": 23.404,
+   "text": "The machine makes a strange sound sometimes. Hey Delta!",
+   "words": [
+    {
+     "word": "The",
+     "start": 19.956,
+     "end": 20.176,
+     "probability": 0.6396
+    },
+    {
+     "word": "machine",
+     "start": 20.176,
+     "end": 20.416,
+     "probability": 0.9648
+    },
+    {
+     "word": "makes",
+     "start": 20.416,
+     "end": 20.756,
+     "probability": 0.9932
+    },
+    {
+     "word": "a",
+     "start": 20.756,
+     "end": 20.936,
+     "probability": 0.9834
+    },
+    {
+     "word": "strange",
+     "start": 20.936,
+     "end": 21.216,
+     "probability": 0.998
+    },
+    {
+     "word": "sound",
+     "start": 21.216,
+     "end": 21.656,
+     "probability": 0.9927
+    },
+    {
+     "word": "sometimes.",
+     "start": 21.656,
+     "end": 22.176,
+     "probability": 0.9868
+    },
+    {
+     "word": "Hey",
+     "start": 22.396,
+     "end": 22.476,
+     "probability": 0.6274
+    },
+    {
+     "word": "Delta!",
+     "start": 22.476,
+     "end": 22.736,
+     "probability": 0.7173
+    }
+   ]
+  }
+ ]
+}

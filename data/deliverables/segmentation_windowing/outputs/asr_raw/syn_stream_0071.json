@@ -1,0 +1,278 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0071.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:28:40+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8877986073493958,
+ "chunks": [
+  {
+   "chunk_start": 0.756,
+   "chunk_end": 8.364,
+   "text": "The meeting starts in about 10 minutes. I left the package beside the front door.",
+   "words": [
+    {
+     "word": "The",
+     "start": 0.756,
+     "end": 1.156,
+     "probability": 0.7144
+    },
+    {
+     "word": "meeting",
+     "start": 1.156,
+     "end": 1.396,
+     "probability": 0.7695
+    },
+    {
+     "word": "starts",
+     "start": 1.396,
+     "end": 2.016,
+     "probability": 0.9868
+    },
+    {
+     "word": "in",
+     "start": 2.016,
+     "end": 2.236,
+     "probability": 0.9878
+    },
+    {
+     "word": "about",
+     "start": 2.236,
+     "end": 2.596,
+     "probability": 0.9819
+    },
+    {
+     "word": "10",
+     "start": 2.596,
+     "end": 2.856,
+     "probability": 0.6973
+    },
+    {
+     "word": "minutes.",
+     "start": 2.856,
+     "end": 3.076,
+     "probability": 0.9424
+    },
+    {
+     "word": "I",
+     "start": 4.476,
+     "end": 5.156,
+     "probability": 0.9419
+    },
+    {
+     "word": "left",
+     "start": 5.156,
+     "end": 5.836,
+     "probability": 0.9956
+    },
+    {
+     "word": "the",
+     "start": 5.836,
+     "end": 6.076,
+     "probability": 0.9917
+    },
+    {
+     "word": "package",
+     "start": 6.076,
+     "end": 6.436,
+     "probability": 0.9961
+    },
+    {
+     "word": "beside",
+     "start": 6.436,
+     "end": 6.876,
+     "probability": 0.9819
+    },
+    {
+     "word": "the",
+     "start": 6.876,
+     "end": 7.216,
+     "probability": 0.999
+    },
+    {
+     "word": "front",
+     "start": 7.216,
+     "end": 7.436,
+     "probability": 0.9971
+    },
+    {
+     "word": "door.",
+     "start": 7.436,
+     "end": 7.776,
+     "probability": 0.9976
+    }
+   ]
+  },
+  {
+   "chunk_start": 9.396,
+   "chunk_end": 14.828,
+   "text": "The next episode starts after the commercial.",
+   "words": [
+    {
+     "word": "The",
+     "start": 9.396,
+     "end": 9.756,
+     "probability": 0.8511
+    },
+    {
+     "word": "next",
+     "start": 9.756,
+     "end": 10.076,
+     "probability": 0.5132
+    },
+    {
+     "word": "episode",
+     "start": 10.076,
+     "end": 11.396,
+     "probability": 0.9746
+    },
+    {
+     "word": "starts",
+     "start": 11.396,
+     "end": 11.616,
+     "probability": 0.9722
+    },
+    {
+     "word": "after",
+     "start": 11.616,
+     "end": 11.956,
+     "probability": 0.9897
+    },
+    {
+     "word": "the",
+     "start": 11.956,
+     "end": 12.156,
+     "probability": 0.998
+    },
+    {
+     "word": "commercial.",
+     "start": 12.156,
+     "end": 12.416,
+     "probability": 0.9976
+    }
+   ]
+  },
+  {
+   "chunk_start": 15.828,
+   "chunk_end": 17.196,
+   "text": "Hey Delta.",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 15.828,
+     "end": 16.168,
+     "probability": 0.8442
+    },
+    {
+     "word": "Delta.",
+     "start": 16.168,
+     "end": 16.468,
+     "probability": 0.917
+    }
+   ]
+  },
+  {
+   "chunk_start": 19.124,
+   "chunk_end": 21.804,
+   "text": "The battery should last for another hour.",
+   "words": [
+    {
+     "word": "The",
+     "start": 19.124,
+     "end": 19.444,
+     "probability": 0.8091
+    },
+    {
+     "word": "battery",
+     "start": 19.444,
+     "end": 19.784,
+     "probability": 0.9893
+    },
+    {
+     "word": "should",
+     "start": 19.784,
+     "end": 20.024,
+     "probability": 0.9985
+    },
+    {
+     "word": "last",
+     "start": 20.024,
+     "end": 20.324,
+     "probability": 0.9995
+    },
+    {
+     "word": "for",
+     "start": 20.324,
+     "end": 20.584,
+     "probability": 0.998
+    },
+    {
+     "word": "another",
+     "start": 20.584,
+     "end": 20.844,
+     "probability": 0.9961
+    },
+    {
+     "word": "hour.",
+     "start": 20.844,
+     "end": 21.204,
+     "probability": 0.9971
+    }
+   ]
+  },
+  {
+   "chunk_start": 25.172,
+   "chunk_end": 28.364,
+   "text": "There are several things we need to discuss.",
+   "words": [
+    {
+     "word": "There",
+     "start": 25.172,
+     "end": 25.552,
+     "probability": 0.6426
+    },
+    {
+     "word": "are",
+     "start": 25.552,
+     "end": 25.752,
+     "probability": 0.9976
+    },
+    {
+     "word": "several",
+     "start": 25.752,
+     "end": 26.112,
+     "probability": 0.9966
+    },
+    {
+     "word": "things",
+     "start": 26.112,
+     "end": 26.532,
+     "probability": 0.9966
+    },
+    {
+     "word": "we",
+     "start": 26.532,
+     "end": 26.832,
+     "probability": 0.9858
+    },
+    {
+     "word": "need",
+     "start": 26.832,
+     "end": 27.052,
+     "probability": 0.9971
+    },
+    {
+     "word": "to",
+     "start": 27.052,
+     "end": 27.252,
+     "probability": 0.999
+    },
+    {
+     "word": "discuss.",
+     "start": 27.252,
+     "end": 27.652,
+     "probability": 0.9956
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,194 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0016.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:27:15+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8896906971931458,
+ "chunks": [
+  {
+   "chunk_start": 0.756,
+   "chunk_end": 3.308,
+   "text": "Let us compare the two options carefully.",
+   "words": [
+    {
+     "word": "Let",
+     "start": 0.756,
+     "end": 1.156,
+     "probability": 0.4065
+    },
+    {
+     "word": "us",
+     "start": 1.156,
+     "end": 1.276,
+     "probability": 0.9331
+    },
+    {
+     "word": "compare",
+     "start": 1.276,
+     "end": 1.536,
+     "probability": 0.9072
+    },
+    {
+     "word": "the",
+     "start": 1.536,
+     "end": 1.656,
+     "probability": 0.7627
+    },
+    {
+     "word": "two",
+     "start": 1.656,
+     "end": 1.796,
+     "probability": 0.9609
+    },
+    {
+     "word": "options",
+     "start": 1.796,
+     "end": 2.096,
+     "probability": 0.9961
+    },
+    {
+     "word": "carefully.",
+     "start": 2.096,
+     "end": 2.456,
+     "probability": 0.9692
+    }
+   ]
+  },
+  {
+   "chunk_start": 10.548,
+   "chunk_end": 13.804,
+   "text": "We can take the train after lunch.",
+   "words": [
+    {
+     "word": "We",
+     "start": 10.548,
+     "end": 11.228,
+     "probability": 0.1798
+    },
+    {
+     "word": "can",
+     "start": 11.228,
+     "end": 11.388,
+     "probability": 0.9966
+    },
+    {
+     "word": "take",
+     "start": 11.388,
+     "end": 11.728,
+     "probability": 0.9951
+    },
+    {
+     "word": "the",
+     "start": 11.728,
+     "end": 11.908,
+     "probability": 0.9951
+    },
+    {
+     "word": "train",
+     "start": 11.908,
+     "end": 12.308,
+     "probability": 0.9946
+    },
+    {
+     "word": "after",
+     "start": 12.308,
+     "end": 12.328,
+     "probability": 0.9624
+    },
+    {
+     "word": "lunch.",
+     "start": 12.328,
+     "end": 13.068,
+     "probability": 0.9985
+    }
+   ]
+  },
+  {
+   "chunk_start": 15.06,
+   "chunk_end": 16.428,
+   "text": "Hey Delta.",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 15.06,
+     "end": 15.46,
+     "probability": 0.6768
+    },
+    {
+     "word": "Delta.",
+     "start": 15.46,
+     "end": 15.76,
+     "probability": 0.7529
+    }
+   ]
+  },
+  {
+   "chunk_start": 16.5,
+   "chunk_end": 17.772,
+   "text": "Hey Delta!",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 16.5,
+     "end": 16.86,
+     "probability": 0.9009
+    },
+    {
+     "word": "Delta!",
+     "start": 16.86,
+     "end": 17.08,
+     "probability": 0.8428
+    }
+   ]
+  },
+  {
+   "chunk_start": 23.188,
+   "chunk_end": 27.02,
+   "text": "The weather is changing again this afternoon.",
+   "words": [
+    {
+     "word": "The",
+     "start": 23.188,
+     "end": 24.008,
+     "probability": 0.3232
+    },
+    {
+     "word": "weather",
+     "start": 24.008,
+     "end": 24.448,
+     "probability": 0.9956
+    },
+    {
+     "word": "is",
+     "start": 24.448,
+     "end": 24.688,
+     "probability": 0.9976
+    },
+    {
+     "word": "changing",
+     "start": 24.688,
+     "end": 25.088,
+     "probability": 0.9985
+    },
+    {
+     "word": "again",
+     "start": 25.088,
+     "end": 25.528,
+     "probability": 0.999
+    },
+    {
+     "word": "this",
+     "start": 25.528,
+     "end": 25.828,
+     "probability": 0.9976
+    },
+    {
+     "word": "afternoon.",
+     "start": 25.828,
+     "end": 26.268,
+     "probability": 0.9985
+    }
+   ]
+  }
+ ]
+}

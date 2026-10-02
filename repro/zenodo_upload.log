@@ -1,0 +1,32 @@
+262350 files shared (0 new, 14 removed), 9417 never-shared files skipped
+audio referenced by tracked CSVs but NOT shared (and not an optional dataset):
+  external_raw/mswc_en/selection.csv: 300 e.g. ['data/common_voice_en_13765774.opus', 'data/common_voice_en_1425689.opus']
+f: /home/arvir.jane.redondo/AI231_ME2_reproduce
+ drwxr-xr-x /
+wakeword_positives.tar: 0.09 GB
+wakeword_negatives_confusable.tar: 0.31 GB
+wakeword_negatives_general.tar: 1.31 GB
+wakeword_negatives_media.tar: 0.68 GB
+wakeword_negatives_partial.tar: 0.14 GB
+wakeword_negatives_silence.tar: 0.35 GB
+wakeword_rir.tar: 0.00 GB
+wakeword_streaming_eval.tar: 0.58 GB
+owner_command_recordings.tar: 0.08 GB
+commands_synthetic.tar: 1.12 GB
+commands_variants.tar: 3.01 GB
+commands_voice_converted.tar: 0.49 GB
+commands_fragments_and_unknown.tar: 0.42 GB
+commands_public_slurp_tas.tar: 0.35 GB
+commands_google_speech_commands.tar: 2.89 GB
+commands_syntts.tar: 1.38 GB
+commands_snips_multisensor.tar: 0.14 GB
+total 13.3 GB in /mnt/jfs_hpc/home/arvir.jane.redondo/zenodo_staging
+{
+  "id": 23093493,
+  "doi": "10.5281/zenodo.23093493",
+  "bucket": "https://zenodo.org/api/files/492b0d22-3989-4852-a7eb-50801ddee208",
+  "html": "https://zenodo.org/deposit/23093493",
+  "record_url": "https://zenodo.org/records/23093493",
+  "published": false
+}
+commands_fragments_and_unknown.tar: uploaded 0.42 GB

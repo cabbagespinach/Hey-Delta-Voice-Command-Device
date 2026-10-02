@@ -1,0 +1,331 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0051.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:28:10+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.9024442434310913,
+ "chunks": [
+  {
+   "chunk_start": 2.74,
+   "chunk_end": 12.684,
+   "text": "This recording is only being used as synthetic data. The weather is changing again this afternoon. The store closes earlier on weekends. Hey Delta.",
+   "words": [
+    {
+     "word": "This",
+     "start": 3.84,
+     "end": 4.44,
+     "probability": 0.1078
+    },
+    {
+     "word": "recording",
+     "start": 4.44,
+     "end": 4.82,
+     "probability": 0.9272
+    },
+    {
+     "word": "is",
+     "start": 4.82,
+     "end": 5.42,
+     "probability": 0.9736
+    },
+    {
+     "word": "only",
+     "start": 5.42,
+     "end": 5.66,
+     "probability": 0.9819
+    },
+    {
+     "word": "being",
+     "start": 5.66,
+     "end": 5.94,
+     "probability": 0.9751
+    },
+    {
+     "word": "used",
+     "start": 5.94,
+     "end": 6.24,
+     "probability": 0.998
+    },
+    {
+     "word": "as",
+     "start": 6.24,
+     "end": 6.48,
+     "probability": 0.9609
+    },
+    {
+     "word": "synthetic",
+     "start": 6.48,
+     "end": 6.78,
+     "probability": 0.4763
+    },
+    {
+     "word": "data.",
+     "start": 6.78,
+     "end": 7.16,
+     "probability": 0.8652
+    },
+    {
+     "word": "The",
+     "start": 7.24,
+     "end": 7.4,
+     "probability": 0.9614
+    },
+    {
+     "word": "weather",
+     "start": 7.4,
+     "end": 7.62,
+     "probability": 0.9629
+    },
+    {
+     "word": "is",
+     "start": 7.62,
+     "end": 7.9,
+     "probability": 0.9976
+    },
+    {
+     "word": "changing",
+     "start": 7.9,
+     "end": 8.3,
+     "probability": 0.999
+    },
+    {
+     "word": "again",
+     "start": 8.3,
+     "end": 8.74,
+     "probability": 0.9941
+    },
+    {
+     "word": "this",
+     "start": 8.74,
+     "end": 8.98,
+     "probability": 0.9429
+    },
+    {
+     "word": "afternoon.",
+     "start": 8.98,
+     "end": 9.24,
+     "probability": 0.9932
+    },
+    {
+     "word": "The",
+     "start": 9.24,
+     "end": 9.34,
+     "probability": 0.6479
+    },
+    {
+     "word": "store",
+     "start": 9.34,
+     "end": 9.52,
+     "probability": 0.9712
+    },
+    {
+     "word": "closes",
+     "start": 9.52,
+     "end": 9.86,
+     "probability": 0.9409
+    },
+    {
+     "word": "earlier",
+     "start": 9.86,
+     "end": 10.26,
+     "probability": 0.9834
+    },
+    {
+     "word": "on",
+     "start": 10.26,
+     "end": 10.62,
+     "probability": 0.999
+    },
+    {
+     "word": "weekends.",
+     "start": 10.62,
+     "end": 10.98,
+     "probability": 0.9966
+    },
+    {
+     "word": "Hey",
+     "start": 11.32,
+     "end": 11.68,
+     "probability": 0.5576
+    },
+    {
+     "word": "Delta.",
+     "start": 11.68,
+     "end": 12.0,
+     "probability": 0.8535
+    }
+   ]
+  },
+  {
+   "chunk_start": 16.66,
+   "chunk_end": 19.564,
+   "text": "We ordered dinner and waited near the entrance.",
+   "words": [
+    {
+     "word": "We",
+     "start": 16.66,
+     "end": 16.98,
+     "probability": 0.895
+    },
+    {
+     "word": "ordered",
+     "start": 16.98,
+     "end": 17.24,
+     "probability": 0.9941
+    },
+    {
+     "word": "dinner",
+     "start": 17.24,
+     "end": 17.56,
+     "probability": 0.9956
+    },
+    {
+     "word": "and",
+     "start": 17.56,
+     "end": 17.82,
+     "probability": 0.9927
+    },
+    {
+     "word": "waited",
+     "start": 17.82,
+     "end": 18.06,
+     "probability": 0.998
+    },
+    {
+     "word": "near",
+     "start": 18.06,
+     "end": 18.36,
+     "probability": 0.9976
+    },
+    {
+     "word": "the",
+     "start": 18.36,
+     "end": 18.48,
+     "probability": 0.9946
+    },
+    {
+     "word": "entrance.",
+     "start": 18.48,
+     "end": 18.8,
+     "probability": 0.9971
+    }
+   ]
+  },
+  {
+   "chunk_start": 22.26,
+   "chunk_end": 24.94,
+   "text": "I forgot where I put the keys this morning.",
+   "words": [
+    {
+     "word": "I",
+     "start": 22.26,
+     "end": 22.58,
+     "probability": 0.8232
+    },
+    {
+     "word": "forgot",
+     "start": 22.58,
+     "end": 22.82,
+     "probability": 0.9863
+    },
+    {
+     "word": "where",
+     "start": 22.82,
+     "end": 23.08,
+     "probability": 0.9971
+    },
+    {
+     "word": "I",
+     "start": 23.08,
+     "end": 23.22,
+     "probability": 0.957
+    },
+    {
+     "word": "put",
+     "start": 23.22,
+     "end": 23.4,
+     "probability": 0.9922
+    },
+    {
+     "word": "the",
+     "start": 23.4,
+     "end": 23.56,
+     "probability": 0.9941
+    },
+    {
+     "word": "keys",
+     "start": 23.56,
+     "end": 23.78,
+     "probability": 0.9956
+    },
+    {
+     "word": "this",
+     "start": 23.78,
+     "end": 24.04,
+     "probability": 0.9966
+    },
+    {
+     "word": "morning.",
+     "start": 24.04,
+     "end": 24.38,
+     "probability": 0.998
+    }
+   ]
+  },
+  {
+   "chunk_start": 25.076,
+   "chunk_end": 29.132,
+   "text": "There is enough time to finish this today.",
+   "words": [
+    {
+     "word": "There",
+     "start": 25.076,
+     "end": 26.216,
+     "probability": 0.3079
+    },
+    {
+     "word": "is",
+     "start": 26.216,
+     "end": 26.316,
+     "probability": 0.9312
+    },
+    {
+     "word": "enough",
+     "start": 26.316,
+     "end": 26.576,
+     "probability": 0.9873
+    },
+    {
+     "word": "time",
+     "start": 26.576,
+     "end": 26.896,
+     "probability": 0.9941
+    },
+    {
+     "word": "to",
+     "start": 26.896,
+     "end": 26.916,
+     "probability": 0.5977
+    },
+    {
+     "word": "finish",
+     "start": 26.916,
+     "end": 27.536,
+     "probability": 0.4722
+    },
+    {
+     "word": "this",
+     "start": 27.536,
+     "end": 28.196,
+     "probability": 0.9878
+    },
+    {
+     "word": "today.",
+     "start": 28.196,
+     "end": 28.536,
+     "probability": 0.9883
+    }
+   ]
+  }
+ ]
+}

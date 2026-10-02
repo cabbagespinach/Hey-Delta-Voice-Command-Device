@@ -1,0 +1,336 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0046.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:28:02+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.9005759954452515,
+ "chunks": [
+  {
+   "chunk_start": 1.62,
+   "chunk_end": 6.348,
+   "text": "I forgot where I put the keys this morning.",
+   "words": [
+    {
+     "word": "I",
+     "start": 3.44,
+     "end": 3.88,
+     "probability": 0.5166
+    },
+    {
+     "word": "forgot",
+     "start": 3.88,
+     "end": 4.16,
+     "probability": 0.9634
+    },
+    {
+     "word": "where",
+     "start": 4.16,
+     "end": 4.52,
+     "probability": 0.9888
+    },
+    {
+     "word": "I",
+     "start": 4.52,
+     "end": 4.64,
+     "probability": 0.9634
+    },
+    {
+     "word": "put",
+     "start": 4.64,
+     "end": 4.84,
+     "probability": 0.9858
+    },
+    {
+     "word": "the",
+     "start": 4.84,
+     "end": 5.0,
+     "probability": 0.9897
+    },
+    {
+     "word": "keys",
+     "start": 5.0,
+     "end": 5.2,
+     "probability": 0.9932
+    },
+    {
+     "word": "this",
+     "start": 5.2,
+     "end": 5.44,
+     "probability": 0.9839
+    },
+    {
+     "word": "morning.",
+     "start": 5.44,
+     "end": 5.74,
+     "probability": 0.9956
+    }
+   ]
+  },
+  {
+   "chunk_start": 6.388,
+   "chunk_end": 12.236,
+   "text": "The machine makes a strange sound, so let us know where the two options go from here.",
+   "words": [
+    {
+     "word": "The",
+     "start": 6.388,
+     "end": 6.748,
+     "probability": 0.5044
+    },
+    {
+     "word": "machine",
+     "start": 6.748,
+     "end": 7.108,
+     "probability": 0.9224
+    },
+    {
+     "word": "makes",
+     "start": 7.108,
+     "end": 7.628,
+     "probability": 0.625
+    },
+    {
+     "word": "a",
+     "start": 7.628,
+     "end": 7.668,
+     "probability": 0.7549
+    },
+    {
+     "word": "strange",
+     "start": 7.668,
+     "end": 8.148,
+     "probability": 0.9893
+    },
+    {
+     "word": "sound,",
+     "start": 8.148,
+     "end": 8.708,
+     "probability": 0.8315
+    },
+    {
+     "word": "so",
+     "start": 8.728,
+     "end": 9.048,
+     "probability": 0.5679
+    },
+    {
+     "word": "let",
+     "start": 9.048,
+     "end": 9.168,
+     "probability": 0.8911
+    },
+    {
+     "word": "us",
+     "start": 9.168,
+     "end": 9.168,
+     "probability": 0.873
+    },
+    {
+     "word": "know",
+     "start": 9.168,
+     "end": 9.188,
+     "probability": 0.109
+    },
+    {
+     "word": "where",
+     "start": 9.188,
+     "end": 9.468,
+     "probability": 0.9238
+    },
+    {
+     "word": "the",
+     "start": 9.468,
+     "end": 9.728,
+     "probability": 0.9014
+    },
+    {
+     "word": "two",
+     "start": 9.728,
+     "end": 9.748,
+     "probability": 0.3867
+    },
+    {
+     "word": "options",
+     "start": 9.748,
+     "end": 10.188,
+     "probability": 0.9482
+    },
+    {
+     "word": "go",
+     "start": 10.188,
+     "end": 10.508,
+     "probability": 0.9619
+    },
+    {
+     "word": "from",
+     "start": 10.508,
+     "end": 10.528,
+     "probability": 0.4006
+    },
+    {
+     "word": "here.",
+     "start": 10.528,
+     "end": 10.528,
+     "probability": 0.7168
+    }
+   ]
+  },
+  {
+   "chunk_start": 19.86,
+   "chunk_end": 29.356,
+   "text": "The meeting starts in about 10 minutes. This recording is only being used as synthetic data. We'll order a dinner un-waited near TN Ranchi.",
+   "words": [
+    {
+     "word": "The",
+     "start": 19.86,
+     "end": 20.2,
+     "probability": 0.8252
+    },
+    {
+     "word": "meeting",
+     "start": 20.2,
+     "end": 20.48,
+     "probability": 0.9912
+    },
+    {
+     "word": "starts",
+     "start": 20.48,
+     "end": 20.92,
+     "probability": 0.9951
+    },
+    {
+     "word": "in",
+     "start": 20.92,
+     "end": 21.32,
+     "probability": 0.9966
+    },
+    {
+     "word": "about",
+     "start": 21.32,
+     "end": 21.58,
+     "probability": 0.9961
+    },
+    {
+     "word": "10",
+     "start": 21.58,
+     "end": 21.96,
+     "probability": 0.6387
+    },
+    {
+     "word": "minutes.",
+     "start": 21.96,
+     "end": 22.44,
+     "probability": 0.9854
+    },
+    {
+     "word": "This",
+     "start": 22.76,
+     "end": 23.18,
+     "probability": 0.8486
+    },
+    {
+     "word": "recording",
+     "start": 23.18,
+     "end": 23.5,
+     "probability": 0.9961
+    },
+    {
+     "word": "is",
+     "start": 23.5,
+     "end": 23.86,
+     "probability": 0.9976
+    },
+    {
+     "word": "only",
+     "start": 23.86,
+     "end": 24.02,
+     "probability": 0.9937
+    },
+    {
+     "word": "being",
+     "start": 24.02,
+     "end": 24.26,
+     "probability": 0.9927
+    },
+    {
+     "word": "used",
+     "start": 24.26,
+     "end": 24.68,
+     "probability": 0.999
+    },
+    {
+     "word": "as",
+     "start": 24.68,
+     "end": 24.98,
+     "probability": 0.9961
+    },
+    {
+     "word": "synthetic",
+     "start": 24.98,
+     "end": 25.24,
+     "probability": 0.9766
+    },
+    {
+     "word": "data.",
+     "start": 25.24,
+     "end": 25.7,
+     "probability": 0.9976
+    },
+    {
+     "word": "We'll",
+     "start": 25.9,
+     "end": 26.18,
+     "probability": 0.5813
+    },
+    {
+     "word": "order",
+     "start": 26.18,
+     "end": 26.4,
+     "probability": 0.3848
+    },
+    {
+     "word": "a",
+     "start": 26.4,
+     "end": 26.6,
+     "probability": 0.644
+    },
+    {
+     "word": "dinner",
+     "start": 26.6,
+     "end": 26.9,
+     "probability": 0.9917
+    },
+    {
+     "word": "un",
+     "start": 26.9,
+     "end": 27.24,
+     "probability": 0.4053
+    },
+    {
+     "word": "-waited",
+     "start": 27.24,
+     "end": 27.74,
+     "probability": 0.7851
+    },
+    {
+     "word": "near",
+     "start": 27.74,
+     "end": 27.94,
+     "probability": 0.8657
+    },
+    {
+     "word": "TN",
+     "start": 27.94,
+     "end": 28.38,
+     "probability": 0.5951
+    },
+    {
+     "word": "Ranchi.",
+     "start": 28.38,
+     "end": 28.82,
+     "probability": 0.7317
+    }
+   ]
+  }
+ ]
+}

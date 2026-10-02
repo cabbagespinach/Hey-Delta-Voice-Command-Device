@@ -1,0 +1,276 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0080.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:28:52+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8876541256904602,
+ "chunks": [
+  {
+   "chunk_start": 5.076,
+   "chunk_end": 16.844,
+   "text": "I forgot where I put the keys this morning. Hey, Sheila. I forgot where I put the keys this morning. Do you think that we will only easily flee the upper?",
+   "words": [
+    {
+     "word": "I",
+     "start": 5.076,
+     "end": 5.416,
+     "probability": 0.4597
+    },
+    {
+     "word": "forgot",
+     "start": 5.416,
+     "end": 5.636,
+     "probability": 0.9722
+    },
+    {
+     "word": "where",
+     "start": 5.636,
+     "end": 5.976,
+     "probability": 0.9453
+    },
+    {
+     "word": "I",
+     "start": 5.976,
+     "end": 6.316,
+     "probability": 0.4609
+    },
+    {
+     "word": "put",
+     "start": 6.316,
+     "end": 6.456,
+     "probability": 0.9312
+    },
+    {
+     "word": "the",
+     "start": 6.456,
+     "end": 6.796,
+     "probability": 0.9331
+    },
+    {
+     "word": "keys",
+     "start": 6.796,
+     "end": 6.796,
+     "probability": 0.9902
+    },
+    {
+     "word": "this",
+     "start": 6.796,
+     "end": 6.976,
+     "probability": 0.9404
+    },
+    {
+     "word": "morning.",
+     "start": 6.976,
+     "end": 7.516,
+     "probability": 0.9893
+    },
+    {
+     "word": "Hey,",
+     "start": 7.836,
+     "end": 8.236,
+     "probability": 0.0859
+    },
+    {
+     "word": "Sheila.",
+     "start": 8.236,
+     "end": 9.156,
+     "probability": 0.6001
+    },
+    {
+     "word": "I",
+     "start": 9.376,
+     "end": 9.836,
+     "probability": 0.8804
+    },
+    {
+     "word": "forgot",
+     "start": 9.836,
+     "end": 11.156,
+     "probability": 0.9937
+    },
+    {
+     "word": "where",
+     "start": 11.156,
+     "end": 11.356,
+     "probability": 0.9634
+    },
+    {
+     "word": "I",
+     "start": 11.356,
+     "end": 11.536,
+     "probability": 0.9937
+    },
+    {
+     "word": "put",
+     "start": 11.536,
+     "end": 11.736,
+     "probability": 0.9961
+    },
+    {
+     "word": "the",
+     "start": 11.736,
+     "end": 11.856,
+     "probability": 0.9927
+    },
+    {
+     "word": "keys",
+     "start": 11.856,
+     "end": 12.096,
+     "probability": 0.999
+    },
+    {
+     "word": "this",
+     "start": 12.096,
+     "end": 12.276,
+     "probability": 0.9766
+    },
+    {
+     "word": "morning.",
+     "start": 12.276,
+     "end": 12.516,
+     "probability": 0.9961
+    },
+    {
+     "word": "Do",
+     "start": 12.956,
+     "end": 13.436,
+     "probability": 0.121
+    },
+    {
+     "word": "you",
+     "start": 13.436,
+     "end": 13.576,
+     "probability": 0.9985
+    },
+    {
+     "word": "think",
+     "start": 13.576,
+     "end": 14.196,
+     "probability": 0.9971
+    },
+    {
+     "word": "that",
+     "start": 14.196,
+     "end": 14.416,
+     "probability": 0.5625
+    },
+    {
+     "word": "we",
+     "start": 14.416,
+     "end": 14.716,
+     "probability": 0.5112
+    },
+    {
+     "word": "will",
+     "start": 14.716,
+     "end": 14.896,
+     "probability": 0.3484
+    },
+    {
+     "word": "only",
+     "start": 14.896,
+     "end": 15.136,
+     "probability": 0.9805
+    },
+    {
+     "word": "easily",
+     "start": 15.136,
+     "end": 15.416,
+     "probability": 0.8335
+    },
+    {
+     "word": "flee",
+     "start": 15.416,
+     "end": 15.736,
+     "probability": 0.2495
+    },
+    {
+     "word": "the",
+     "start": 15.736,
+     "end": 15.956,
+     "probability": 0.2598
+    },
+    {
+     "word": "upper?",
+     "start": 15.956,
+     "end": 16.156,
+     "probability": 0.5322
+    }
+   ]
+  },
+  {
+   "chunk_start": 18.164,
+   "chunk_end": 19.436,
+   "text": "Hey Delta!",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 18.164,
+     "end": 18.524,
+     "probability": 0.8687
+    },
+    {
+     "word": "Delta!",
+     "start": 18.524,
+     "end": 18.724,
+     "probability": 0.8506
+    }
+   ]
+  },
+  {
+   "chunk_start": 19.764,
+   "chunk_end": 22.604,
+   "text": "There are several things we need to discuss.",
+   "words": [
+    {
+     "word": "There",
+     "start": 19.764,
+     "end": 20.124,
+     "probability": 0.71
+    },
+    {
+     "word": "are",
+     "start": 20.124,
+     "end": 20.244,
+     "probability": 0.9976
+    },
+    {
+     "word": "several",
+     "start": 20.244,
+     "end": 20.564,
+     "probability": 0.9985
+    },
+    {
+     "word": "things",
+     "start": 20.564,
+     "end": 20.884,
+     "probability": 0.998
+    },
+    {
+     "word": "we",
+     "start": 20.884,
+     "end": 21.264,
+     "probability": 0.9912
+    },
+    {
+     "word": "need",
+     "start": 21.264,
+     "end": 21.484,
+     "probability": 0.998
+    },
+    {
+     "word": "to",
+     "start": 21.484,
+     "end": 21.564,
+     "probability": 0.9951
+    },
+    {
+     "word": "discuss.",
+     "start": 21.564,
+     "end": 21.924,
+     "probability": 0.9971
+    }
+   ]
+  }
+ ]
+}

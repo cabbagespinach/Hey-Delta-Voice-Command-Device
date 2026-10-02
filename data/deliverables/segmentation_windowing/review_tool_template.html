@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hey Delta annotation review</title>
+<style>
+:root{--bg:#f7f7f5;--panel:#fff;--ink:#1d1d1b;--muted:#6b6b66;--line:#e2e1dc;--accent:#2f5d8a;
+--gt:#2e7d4f;--cand:#d98a1c;--review:#c0392b;--partial:#7b4fa0;--unmatched:#8a8a85;--human:#1f6fb2;--removed:#bbb}
+*{box-sizing:border-box}
+body{margin:0;font:14px/1.45 system-ui,-apple-system,Segoe UI,sans-serif;background:var(--bg);color:var(--ink)}
+header{padding:12px 20px;border-bottom:1px solid var(--line);background:var(--panel);display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+header h1{font-size:16px;margin:0}
+header .meta{color:var(--muted);font-size:12px}
+header .sp{flex:1}
+button{font:inherit;border:1px solid var(--line);background:#fff;border-radius:6px;padding:4px 10px;cursor:pointer}
+button:hover{border-color:var(--accent)}
+button.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+main{display:grid;grid-template-columns:280px 1fr;min-height:calc(100vh - 56px)}
+@media (max-width:800px){main{grid-template-columns:1fr}}
+#list{border-right:1px solid var(--line);overflow:auto;max-height:calc(100vh - 56px);background:var(--panel)}
+#list input{width:calc(100% - 16px);margin:8px;padding:6px;border:1px solid var(--line);border-radius:6px}
+.rec{padding:8px 12px;border-bottom:1px solid var(--line);cursor:pointer}
+.rec.sel{background:#eef3f8}
+.rec .id{font-weight:600;font-family:ui-monospace,monospace;font-size:12px}
+.rec .sub{color:var(--muted);font-size:12px}
+.badge{display:inline-block;font-size:11px;padding:0 6px;border-radius:9px;margin-left:4px;color:#fff}
+.b-review{background:var(--review)}.b-flag{background:#000}.b-ok{background:var(--gt)}
+#detail{padding:16px 20px;overflow:auto;max-height:calc(100vh - 56px)}
+canvas{width:100%;height:140px;border:1px solid var(--line);border-radius:6px;background:#fff;cursor:crosshair;display:block}
+.legend span{display:inline-block;margin-right:12px;font-size:12px}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:4px;vertical-align:-1px}
+table{border-collapse:collapse;width:100%;margin-top:12px;font-size:13px}
+th,td{border-bottom:1px solid var(--line);padding:5px 6px;text-align:left;vertical-align:top}
+th{font-size:12px;color:var(--muted);font-weight:500}
+td input[type=number]{width:74px}
+.tag{font-size:11px;padding:1px 6px;border-radius:4px;color:#fff;white-space:nowrap}
+.row-actions button{padding:2px 6px;font-size:12px;margin:1px}
+.pending{background:#fff8e6}
+.flagbox{background:#fbeaea;border:1px solid #efc2bd;padding:8px 12px;border-radius:6px;margin:10px 0}
+.addbox{margin-top:10px;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+#ovpanel{margin-top:22px}
+#ovpanel pre{background:#fff;border:1px solid var(--line);padding:8px;max-height:200px;overflow:auto;font-size:12px}
+.muted{color:var(--muted)}
+</style>
+</head>
+<body>
+<header>
+  <h1>Hey Delta · annotation review</h1>
+  <span class="meta" id="meta"></span>
+  <span class="sp"></span>
+  <label class="meta">Reviewer <input id="reviewer" size="10" placeholder="initials"></label>
+  <button id="export" class="primary">Export review_overrides.csv</button>
+</header>
+<main>
+  <nav id="list"><input id="filter" placeholder="filter file_id…"></nav>
+  <section id="detail"><p class="muted">Select a recording.</p></section>
+</main>
+<script>
+const DATA = /*__DATA__*/null;
+function esc(v){ return String(v==null?'':v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+function annColor(a){
+  if(a.st==='removed'||a.mt==='non_wakeword') return '#bbb';
+  if(a.src==='human') return '#1f6fb2';
+  if(a.st==='needs_review') return '#c0392b';
+  if(a.mt==='partial_fragment') return '#7b4fa0';
+  if(a.mt==='unmatched_speech') return '#8a8a85';
+  if(a.src==='asr_candidate_reviewed') return '#2e7d4f';
+  return '#d98a1c';
+}
+let pending = [];
+try { pending = JSON.parse(localStorage.getItem('hd_review_pending')||'[]'); } catch(e) {}
+try { document.getElementById('reviewer').value = localStorage.getItem('hd_reviewer')||''; } catch(e) {}
+function save(){ try{localStorage.setItem('hd_review_pending',JSON.stringify(pending));localStorage.setItem('hd_reviewer',document.getElementById('reviewer').value);}catch(e){} }
+document.getElementById('meta').textContent =
+  `${DATA.recordings.length} real recordings · ASR = candidate annotations, not ground truth · generated ${DATA.generated_at} · config ${DATA.config_hash}`;
+
+let current = null, sel = null, audio = new Audio(), stopAt = null;
+audio.addEventListener('timeupdate',()=>{ if(stopAt!==null && audio.currentTime>=stopAt){audio.pause();stopAt=null;} drawCursor(); });
+
+function nReview(r){ return r.anns.filter(a=>a.st==='needs_review').length; }
+function renderList(){
+  const f = document.getElementById('filter').value.toLowerCase();
+  const nav = document.getElementById('list');
+  nav.querySelectorAll('.rec').forEach(e=>e.remove());
+  DATA.recordings.filter(r=>r.file_id.toLowerCase().includes(f)).forEach(r=>{
+    const d = document.createElement('div'); d.className='rec'+(current===r?' sel':'');
+    const nr = nReview(r), nc = r.anns.filter(a=>a.mt==='complete'&&a.st!=='removed').length;
+    d.innerHTML = `<div class="id">${r.file_id}${r.flag?'<span class="badge b-flag">flag</span>':''}${nr?`<span class="badge b-review">${nr}</span>`:''}</div>
+      <div class="sub">${r.label} · ${r.split} · ${r.duration.toFixed(1)} s · ${nc} complete</div>`;
+    d.onclick=()=>{current=r;sel=null;audio.src=r.audio;renderList();renderDetail();};
+    nav.appendChild(d);
+  });
+}
+document.getElementById('filter').oninput = renderList;
+
+function pendingFor(id){ return pending.filter(p=>p.annotation_id===id); }
+function addOverride(o){
+  o.override_id = 'o'+Date.now().toString(36)+Math.floor(Math.random()*1e4);
+  o.reviewer = document.getElementById('reviewer').value || 'unknown';
+  o.reviewed_at = new Date().toISOString();
+  pending.push(o); save(); renderDetail(); renderOv();
+}
+function play(s,e){ audio.currentTime=Math.max(0,s); stopAt=e; audio.play(); }
+
+let canvas, ctx, drag=null;
+function renderDetail(){
+  const r = current, el = document.getElementById('detail');
+  if(!r){return;}
+  el.innerHTML = `<h2 style="margin:0 0 4px;font-size:16px;font-family:ui-monospace,monospace">${r.file_id}</h2>
+   <div class="muted">${r.label} recording · split <b>${r.split}</b> · ${r.duration.toFixed(2)} s · <code>${r.audio}</code></div>
+   ${r.flag?`<div class="flagbox"><b>Recording flag:</b> ${r.flag}. Negatives are blocked for this recording until the flag is cleared.
+     <button id="clearflag">Clear flag (reviewed)</button></div>`:''}
+   <div class="legend" style="margin:10px 0 6px">
+     <span><i style="background:#d98a1c"></i>ASR candidate (unreviewed)</span><span><i style="background:#c0392b"></i>needs review</span>
+     <span><i style="background:#7b4fa0"></i>partial</span><span><i style="background:#8a8a85"></i>unmatched speech</span>
+     <span><i style="background:#2e7d4f"></i>ASR reviewed</span><span><i style="background:#1f6fb2"></i>human</span>
+     <span><i style="background:#e8e8e4"></i>VAD chunk</span></div>
+   <canvas id="wave" width="1600" height="280"></canvas>
+   <div class="addbox"><span class="muted">Drag on the waveform to select a span.</span>
+     <span id="selinfo"></span>
+     <select id="addtype"><option value="complete">complete</option><option value="partial_fragment">partial_fragment</option></select>
+     <button id="playsel">▶ selection</button><button id="addbtn">Add annotation</button></div>
+   <table><thead><tr><th>annotation</th><th>type / status</th><th>source</th><th>start</th><th>end</th><th>ASR text · reasons</th><th>actions</th></tr></thead><tbody id="tb"></tbody></table>`;
+  canvas = document.getElementById('wave'); ctx = canvas.getContext('2d');
+  canvas.onmousedown = e=>{ drag={a:xToT(e)}; sel=null; };
+  canvas.onmousemove = e=>{ if(drag){ sel={s:Math.min(drag.a,xToT(e)),e:Math.max(drag.a,xToT(e))}; draw(); } };
+  canvas.onmouseup = e=>{ if(drag){ const t=xToT(e); if(Math.abs(t-drag.a)<0.02){ sel=null; play(t, t+1.5);} drag=null; draw(); showSel(); } };
+  if(r.flag) document.getElementById('clearflag').onclick=()=>addOverride({action:'clear_recording_flag',annotation_id:'',file_id:r.file_id,new_start_sec:'',new_end_sec:'',new_match_type:'',note:'recording reviewed'});
+  document.getElementById('playsel').onclick=()=>{ if(sel) play(sel.s, sel.e); };
+  document.getElementById('addbtn').onclick=()=>{ if(!sel) return; addOverride({action:'add',annotation_id:'',file_id:r.file_id,
+     new_start_sec:sel.s.toFixed(3),new_end_sec:sel.e.toFixed(3),new_match_type:document.getElementById('addtype').value,note:''}); };
+  const tb = document.getElementById('tb');
+  r.anns.slice().sort((a,b)=>a.s-b.s).forEach(a=>{
+    const tr = document.createElement('tr'); const pd = pendingFor(a.id); if(pd.length) tr.className='pending';
+    tr.innerHTML = `<td><code>${a.id.split('#')[1]}</code></td>
+      <td><span class="tag" style="background:${annColor(a)}">${a.mt}</span><br><span class="muted">${a.st}</span></td>
+      <td>${a.src}</td>
+      <td><input type="number" step="0.01" value="${a.s.toFixed(3)}" data-k="s"></td>
+      <td><input type="number" step="0.01" value="${a.e.toFixed(3)}" data-k="e"></td>
+      <td>${a.txt?`“${esc(a.txt)}”`:''}<br><span class="muted">${esc(a.why)}</span>${pd.length?`<br><b>pending:</b> ${pd.map(p=>p.action).join(', ')}`:''}</td>
+      <td class="row-actions"></td>`;
+    const acts = tr.querySelector('.row-actions');
+    const inS = tr.querySelector('[data-k=s]'), inE = tr.querySelector('[data-k=e]');
+    const mk=(label,fn)=>{const b=document.createElement('button');b.textContent=label;b.onclick=fn;acts.appendChild(b);};
+    mk('▶',()=>play(+inS.value-0.3,+inE.value+0.3));
+    const bounds=()=>{ const ns=+inS.value, ne=+inE.value; const changed=Math.abs(ns-a.s)>1e-4||Math.abs(ne-a.e)>1e-4;
+       return changed?{new_start_sec:ns.toFixed(3),new_end_sec:ne.toFixed(3)}:{new_start_sec:'',new_end_sec:''}; };
+    const base=()=>({annotation_id:a.id,file_id:r.file_id,new_match_type:'',note:''});
+    mk('✓ complete',()=>addOverride({...base(),...bounds(),action:'confirm_complete'}));
+    mk('bounds',()=>addOverride({...base(),...bounds(),action:'correct_bounds'}));
+    mk('partial',()=>addOverride({...base(),new_start_sec:'',new_end_sec:'',action:'mark_partial'}));
+    mk('not wakeword',()=>addOverride({...base(),new_start_sec:'',new_end_sec:'',action:'mark_not_wakeword'}));
+    mk('remove',()=>addOverride({...base(),new_start_sec:'',new_end_sec:'',action:'remove'}));
+    tb.appendChild(tr);
+  });
+  draw();
+}
+function xToT(e){ const b=canvas.getBoundingClientRect(); return Math.max(0,Math.min(current.duration,(e.clientX-b.left)/b.width*current.duration)); }
+function tToX(t){ return t/current.duration*canvas.width; }
+function showSel(){ const s=document.getElementById('selinfo'); if(s) s.textContent = sel?`selection ${sel.s.toFixed(2)}–${sel.e.toFixed(2)} s`:''; }
+function draw(){
+  const r=current, W=canvas.width, H=canvas.height; ctx.clearRect(0,0,W,H);
+  ctx.fillStyle='#e8e8e4'; r.chunks.forEach(c=>ctx.fillRect(tToX(c.s),0,tToX(c.e)-tToX(c.s),H));
+  r.anns.forEach(a=>{ ctx.globalAlpha=0.35; ctx.fillStyle=annColor(a); ctx.fillRect(tToX(a.s),H*0.08,Math.max(2,tToX(a.e)-tToX(a.s)),H*0.84); ctx.globalAlpha=1; });
+  pending.filter(p=>p.file_id===r.file_id&&p.action==='add').forEach(p=>{ctx.strokeStyle='#1f6fb2';ctx.lineWidth=3;ctx.strokeRect(tToX(+p.new_start_sec),4,tToX(+p.new_end_sec)-tToX(+p.new_start_sec),H-8);});
+  ctx.fillStyle='#1d1d1b'; const n=r.env.length;
+  for(let i=0;i<n;i++){ const x=i/n*W, h=r.env[i]*H*0.45; ctx.fillRect(x,H/2-h,Math.max(1,W/n),2*h); }
+  if(sel){ ctx.fillStyle='rgba(47,93,138,.25)'; ctx.fillRect(tToX(sel.s),0,tToX(sel.e)-tToX(sel.s),H); }
+  ctx.fillStyle='#6b6b66'; ctx.font='20px system-ui';
+  for(let t=0;t<=r.duration;t+=Math.max(1,Math.round(r.duration/15))) ctx.fillText(t+'s',tToX(t)+3,H-6);
+  drawCursor(true);
+}
+function drawCursor(skip){ if(!current||!canvas||!document.body.contains(canvas)) return; if(!skip){draw();return;}
+  if(!audio.paused){ ctx.fillStyle='#c0392b'; ctx.fillRect(tToX(audio.currentTime),0,2,canvas.height); } }
+function csvEsc(v){ v = v==null?'':String(v); return /[",\n]/.test(v)?'"'+v.replace(/"/g,'""')+'"':v; }
+const COLS=['override_id','action','annotation_id','file_id','new_start_sec','new_end_sec','new_match_type','reviewer','reviewed_at','note'];
+function allOverrides(){ return DATA.overrides.concat(pending); }
+function renderOv(){
+  let p=document.getElementById('ovpanel'); if(!p){p=document.createElement('div');p.id='ovpanel';document.getElementById('detail').appendChild(p);}
+  p.innerHTML=`<h3 style="font-size:14px">Overrides: ${DATA.overrides.length} already in review_overrides.csv, ${pending.length} new in this browser
+    <button id="undo">undo last</button> <button id="clearp">discard new</button></h3>
+    <pre>${esc([COLS.join(',')].concat(allOverrides().map(o=>COLS.map(c=>csvEsc(o[c])).join(','))).join('\n'))}</pre>`;
+  document.getElementById('undo').onclick=()=>{pending.pop();save();renderDetail();renderOv();};
+  document.getElementById('clearp').onclick=()=>{pending=[];save();renderDetail();renderOv();};
+}
+document.getElementById('export').onclick=()=>{
+  const csv=[COLS.join(',')].concat(allOverrides().map(o=>COLS.map(c=>csvEsc(o[c])).join(','))).join('\n')+'\n';
+  const a=document.createElement('a'); a.href=URL.createObjectURL(new Blob([csv],{type:'text/csv'}));
+  a.download='review_overrides.csv'; a.click();
+};
+document.getElementById('reviewer').oninput=save;
+const _rd=renderDetail; renderDetail=function(){_rd();renderOv();};
+renderList(); if(DATA.recordings.length){ current=DATA.recordings[0]; audio.src=current.audio; renderList(); renderDetail(); }
+</script>
+</body>
+</html>

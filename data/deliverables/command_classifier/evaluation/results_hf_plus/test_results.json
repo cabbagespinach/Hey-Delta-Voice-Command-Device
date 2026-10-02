@@ -1,0 +1,95 @@
+{
+ "bcresnet6_hf_plus": {
+  "tau": 6.0,
+  "best_epoch": 43,
+  "validation": {
+   "owner_macro_acc": NaN,
+   "web_macro_acc": 0.9894642857142857,
+   "synthetic_macro_acc": 0.9776626999803798,
+   "classmates_macro_acc": NaN,
+   "unknown_false_action": 0.0478272049370018,
+   "unknown_false_action_by_group": {
+    "fragments": 0.0095,
+    "gsc": 0.0415,
+    "owner": 0.125,
+    "reuse_fleurs": 0.0351,
+    "reuse_mswc": 0.0179,
+    "reuse_musan": 0.0157,
+    "reuse_owner": 0.0,
+    "synthetic": 0.0617,
+    "web": 0.1944
+   },
+   "selection_score": 0.9730999269192212,
+   "epoch": 43,
+   "train_loss": 1.0529,
+   "minutes": 1.69
+  },
+  "cutoffs": {
+   "cautious": 0.61,
+   "balanced": 0.34
+  },
+  "params": 191672,
+  "test": {
+   "argmax": {
+    "classmates": {
+     "clips": 3557,
+     "classes": 31,
+     "correct": 0.9571,
+     "wrong_command": 0.0118,
+     "rejected": 0.031
+    },
+    "web": {
+     "clips": 814,
+     "classes": 21,
+     "correct": 0.6391,
+     "wrong_command": 0.0941,
+     "rejected": 0.2668
+    },
+    "unknown_false_action_by_group": {
+     "web": 0.1915
+    },
+    "unknown_false_action_mean": 0.1915
+   },
+   "cautious": {
+    "classmates": {
+     "clips": 3557,
+     "classes": 31,
+     "correct": 0.9294,
+     "wrong_command": 0.0055,
+     "rejected": 0.0651
+    },
+    "web": {
+     "clips": 814,
+     "classes": 21,
+     "correct": 0.5783,
+     "wrong_command": 0.0371,
+     "rejected": 0.3847
+    },
+    "unknown_false_action_by_group": {
+     "web": 0.0851
+    },
+    "unknown_false_action_mean": 0.0851
+   },
+   "balanced": {
+    "classmates": {
+     "clips": 3557,
+     "classes": 31,
+     "correct": 0.9561,
+     "wrong_command": 0.011,
+     "rejected": 0.033
+    },
+    "web": {
+     "clips": 814,
+     "classes": 21,
+     "correct": 0.6357,
+     "wrong_command": 0.0837,
+     "rejected": 0.2806
+    },
+    "unknown_false_action_by_group": {
+     "web": 0.1702
+    },
+    "unknown_false_action_mean": 0.1702
+   }
+  }
+ }
+}

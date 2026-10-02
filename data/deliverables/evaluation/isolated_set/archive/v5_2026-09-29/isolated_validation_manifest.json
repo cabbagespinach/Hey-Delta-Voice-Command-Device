@@ -1,0 +1,7 @@
+{
+  "n_windows": 3848,
+  "n_positive": 65,
+  "manifest_sha256": "19ae1c1952fa756d9501a0a8bd8d44f6b6bbae81d012de9ad7d3ecb42ed94b3d",
+  "preprocessing_feature_hash": "e697d07bc6531278",
+  "normalization_stats_sha256": "331de9bc778501d03380bf5c3235339fa07871d6e7405a17f7ddd1cb5e464882"
+}

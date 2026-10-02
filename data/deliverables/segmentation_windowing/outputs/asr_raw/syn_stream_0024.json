@@ -1,0 +1,301 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0024.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:27:27+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8970894813537598,
+ "chunks": [
+  {
+   "chunk_start": 6.74,
+   "chunk_end": 9.228,
+   "text": "That sounds like a reasonable idea to me.",
+   "words": [
+    {
+     "word": "That",
+     "start": 6.74,
+     "end": 6.94,
+     "probability": 0.8091
+    },
+    {
+     "word": "sounds",
+     "start": 6.94,
+     "end": 7.24,
+     "probability": 0.9956
+    },
+    {
+     "word": "like",
+     "start": 7.24,
+     "end": 7.46,
+     "probability": 0.9985
+    },
+    {
+     "word": "a",
+     "start": 7.46,
+     "end": 7.54,
+     "probability": 0.999
+    },
+    {
+     "word": "reasonable",
+     "start": 7.54,
+     "end": 7.88,
+     "probability": 0.9966
+    },
+    {
+     "word": "idea",
+     "start": 7.88,
+     "end": 8.28,
+     "probability": 0.998
+    },
+    {
+     "word": "to",
+     "start": 8.28,
+     "end": 8.54,
+     "probability": 0.9971
+    },
+    {
+     "word": "me.",
+     "start": 8.54,
+     "end": 8.7,
+     "probability": 0.9995
+    }
+   ]
+  },
+  {
+   "chunk_start": 10.356,
+   "chunk_end": 15.532,
+   "text": "There's enough time to finish this today. They don't take the train after lunch.",
+   "words": [
+    {
+     "word": "There's",
+     "start": 10.356,
+     "end": 10.776,
+     "probability": 0.8296
+    },
+    {
+     "word": "enough",
+     "start": 10.776,
+     "end": 10.996,
+     "probability": 0.9873
+    },
+    {
+     "word": "time",
+     "start": 10.996,
+     "end": 11.276,
+     "probability": 0.9966
+    },
+    {
+     "word": "to",
+     "start": 11.276,
+     "end": 11.536,
+     "probability": 0.9946
+    },
+    {
+     "word": "finish",
+     "start": 11.536,
+     "end": 11.836,
+     "probability": 0.9971
+    },
+    {
+     "word": "this",
+     "start": 11.836,
+     "end": 12.096,
+     "probability": 0.9941
+    },
+    {
+     "word": "today.",
+     "start": 12.096,
+     "end": 12.396,
+     "probability": 0.9585
+    },
+    {
+     "word": "They",
+     "start": 12.436,
+     "end": 12.836,
+     "probability": 0.3567
+    },
+    {
+     "word": "don't",
+     "start": 12.836,
+     "end": 13.216,
+     "probability": 0.7134
+    },
+    {
+     "word": "take",
+     "start": 13.216,
+     "end": 13.216,
+     "probability": 0.6719
+    },
+    {
+     "word": "the",
+     "start": 13.216,
+     "end": 13.676,
+     "probability": 0.9971
+    },
+    {
+     "word": "train",
+     "start": 13.676,
+     "end": 13.976,
+     "probability": 0.9976
+    },
+    {
+     "word": "after",
+     "start": 13.976,
+     "end": 14.476,
+     "probability": 0.9946
+    },
+    {
+     "word": "lunch.",
+     "start": 14.476,
+     "end": 14.816,
+     "probability": 0.9995
+    }
+   ]
+  },
+  {
+   "chunk_start": 17.684,
+   "chunk_end": 22.572,
+   "text": "We should probably check the schedule first. The meeting starts in about ten minutes.",
+   "words": [
+    {
+     "word": "We",
+     "start": 17.684,
+     "end": 18.024,
+     "probability": 0.8979
+    },
+    {
+     "word": "should",
+     "start": 18.024,
+     "end": 18.204,
+     "probability": 0.999
+    },
+    {
+     "word": "probably",
+     "start": 18.204,
+     "end": 18.464,
+     "probability": 0.9971
+    },
+    {
+     "word": "check",
+     "start": 18.464,
+     "end": 18.824,
+     "probability": 0.9995
+    },
+    {
+     "word": "the",
+     "start": 18.824,
+     "end": 19.004,
+     "probability": 0.999
+    },
+    {
+     "word": "schedule",
+     "start": 19.004,
+     "end": 19.264,
+     "probability": 0.9995
+    },
+    {
+     "word": "first.",
+     "start": 19.264,
+     "end": 19.684,
+     "probability": 0.999
+    },
+    {
+     "word": "The",
+     "start": 19.924,
+     "end": 20.224,
+     "probability": 0.9941
+    },
+    {
+     "word": "meeting",
+     "start": 20.224,
+     "end": 20.464,
+     "probability": 0.9995
+    },
+    {
+     "word": "starts",
+     "start": 20.464,
+     "end": 20.764,
+     "probability": 0.9995
+    },
+    {
+     "word": "in",
+     "start": 20.764,
+     "end": 21.064,
+     "probability": 0.999
+    },
+    {
+     "word": "about",
+     "start": 21.064,
+     "end": 21.264,
+     "probability": 0.999
+    },
+    {
+     "word": "ten",
+     "start": 21.264,
+     "end": 21.544,
+     "probability": 0.585
+    },
+    {
+     "word": "minutes.",
+     "start": 21.544,
+     "end": 21.884,
+     "probability": 0.9995
+    }
+   ]
+  },
+  {
+   "chunk_start": 22.804,
+   "chunk_end": 25.164,
+   "text": "The road was busy because of the rain.",
+   "words": [
+    {
+     "word": "The",
+     "start": 22.804,
+     "end": 23.144,
+     "probability": 0.8833
+    },
+    {
+     "word": "road",
+     "start": 23.144,
+     "end": 23.324,
+     "probability": 0.9697
+    },
+    {
+     "word": "was",
+     "start": 23.324,
+     "end": 23.464,
+     "probability": 0.9829
+    },
+    {
+     "word": "busy",
+     "start": 23.464,
+     "end": 23.744,
+     "probability": 0.9897
+    },
+    {
+     "word": "because",
+     "start": 23.744,
+     "end": 24.024,
+     "probability": 0.9805
+    },
+    {
+     "word": "of",
+     "start": 24.024,
+     "end": 24.264,
+     "probability": 0.9976
+    },
+    {
+     "word": "the",
+     "start": 24.264,
+     "end": 24.364,
+     "probability": 0.9971
+    },
+    {
+     "word": "rain.",
+     "start": 24.364,
+     "end": 24.604,
+     "probability": 0.9956
+    }
+   ]
+  }
+ ]
+}

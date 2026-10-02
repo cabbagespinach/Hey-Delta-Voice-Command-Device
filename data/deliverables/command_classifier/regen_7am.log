@@ -1,0 +1,105 @@
+=== STEP 1/4 clone: add set_alarm_7am to the 60 cloned voices 15:44:58
+600 candidate references; picked 60 (genders: 29 male / 31 female)
+voice 1/60 fleursfil00_m already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 2/60 fleursfil01_f already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 3/60 fleursfil02_f already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 4/60 fleursfil03_m already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 5/60 fleursfil04_f already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 6/60 fleursfil05_f already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 7/60 fleursfil06_m already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 8/60 fleursfil07_f already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 9/60 fleursfil08_m already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 10/60 fleursfil09_m already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 11/60 fleursfil10_m already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 12/60 fleursfil11_f already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 13/60 fleursfil12_m already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 14/60 fleursfil13_f already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 15/60 fleursfil14_f already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 16/60 fleursfil15_f already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 17/60 fleursfil16_m already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 18/60 fleursfil17_m already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 19/60 fleursfil18_f already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 20/60 fleursfil19_m already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 21/60 fleursfil20_m already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 22/60 fleursfil21_f already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 23/60 fleursfil22_f already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 24/60 fleursfil23_f already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 25/60 fleursfil24_m already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 26/60 fleursfil25_f already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 27/60 fleursfil26_f already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 28/60 fleursfil27_m already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 29/60 fleursfil28_f already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 30/60 fleursfil29_m already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 31/60 fleursfil30_m already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 32/60 fleursfil31_f already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 33/60 fleursfil32_f already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 34/60 fleursfil33_f already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 35/60 fleursfil34_m already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 36/60 fleursfil35_m already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 37/60 fleursfil36_m already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 38/60 fleursfil37_f already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 39/60 fleursfil38_f already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 40/60 fleursfil39_m already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 41/60 fleursfil40_m already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 42/60 fleursfil41_m already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 43/60 fleursfil42_m already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 44/60 fleursfil43_m already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 45/60 fleursfil44_f already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 46/60 fleursfil45_f already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 47/60 fleursfil46_f already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 48/60 fleursfil47_f already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 49/60 fleursfil48_f already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 50/60 fleursfil49_m already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 51/60 fleursfil50_f already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 52/60 fleursfil51_f already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 53/60 fleursfil52_m already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 54/60 fleursfil53_f already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 55/60 fleursfil54_m already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 56/60 fleursfil55_f already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 57/60 fleursfil56_f already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 58/60 fleursfil57_m already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 59/60 fleursfil58_m already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+voice 60/60 fleursfil59_m already done; dropped ['set_alarm_730am'], added ['set_alarm_7am']
+=== STEP 2/4 ph tier: set_alarm_7am for the 36 Philippine-accent voices 15:47:55
+tier ph: 36 voices x (1 commands + 0 unknown sentences + 1 silent)
+synthesized 72 of 72 utterances (0 failed)
+wrote 36 clips (ph); rejected 0 by Whisper; manifest now 1194 rows
+=== STEP 3/4 clone tier: assemble + Whisper-check all 60 cloned voices 15:48:26
+tier clone: 60 voices x (29 commands + 3 unknown sentences + 1 silent)
+synthesized 3180 of 3180 utterances (0 failed)
+wrote 1903 clips (clone); rejected 77 by Whisper; manifest now 3043 rows
+label
+text_jane         18
+unknown_other     14
+call_jane          9
+skip               7
+lights_on          6
+weather            4
+dim_lights_20      3
+stop               3
+time               3
+list_reminders     3
+=== STEP 4/4 real web clips: Timers and Such + SLURP with the 7 AM mapping 15:56:19
+  tas: 1561 clips; unknown 1500, set_timer_5 16, set_timer_1 15, set_alarm_6am 12, set_alarm_7am 12, set_alarm_9pm 6
+  slurp: 2488 clips; unknown 1500, time 218, lights_off 183, volume_up 140, volume_down 114, weather 93, play_music 57, louder 50, stop 37, next 37, lights_on 21, skip 18, set_alarm_6am 8, pause 5, list_reminders 3, set_alarm_9pm 2, set_alarm_7am 2
+manifest: 10328 clips -> /mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/commands_real_web/manifest.csv
+class
+lights_off         820
+lights_on          668
+list_reminders       3
+next                55
+pause              320
+play_music         587
+set_alarm_6am       20
+set_alarm_7am       14
+set_alarm_9pm        8
+set_timer_1         15
+set_timer_5         16
+stop               408
+time               218
+unknown           4500
+volume_down       1229
+volume_up         1354
+weather             93
+=== ALL DONE 15:57:37
+EXIT=0

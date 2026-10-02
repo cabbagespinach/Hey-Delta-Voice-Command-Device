@@ -1,0 +1,313 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0045.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:28:00+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8915128111839294,
+ "chunks": [
+  {
+   "chunk_start": 2.164,
+   "chunk_end": 6.38,
+   "text": "We should probably check the schedule first.",
+   "words": [
+    {
+     "word": "We",
+     "start": 2.164,
+     "end": 2.584,
+     "probability": 0.8062
+    },
+    {
+     "word": "should",
+     "start": 2.584,
+     "end": 2.784,
+     "probability": 0.9897
+    },
+    {
+     "word": "probably",
+     "start": 2.784,
+     "end": 3.104,
+     "probability": 0.9775
+    },
+    {
+     "word": "check",
+     "start": 3.104,
+     "end": 3.524,
+     "probability": 0.9956
+    },
+    {
+     "word": "the",
+     "start": 3.524,
+     "end": 3.604,
+     "probability": 0.9805
+    },
+    {
+     "word": "schedule",
+     "start": 3.604,
+     "end": 3.904,
+     "probability": 0.9971
+    },
+    {
+     "word": "first.",
+     "start": 3.904,
+     "end": 4.244,
+     "probability": 0.9922
+    }
+   ]
+  },
+  {
+   "chunk_start": 9.3,
+   "chunk_end": 13.324,
+   "text": "Hey Delta, I left the package beside the front door.",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 9.3,
+     "end": 9.82,
+     "probability": 0.6118
+    },
+    {
+     "word": "Delta,",
+     "start": 9.82,
+     "end": 10.1,
+     "probability": 0.8467
+    },
+    {
+     "word": "I",
+     "start": 10.28,
+     "end": 10.54,
+     "probability": 0.8281
+    },
+    {
+     "word": "left",
+     "start": 10.54,
+     "end": 10.66,
+     "probability": 0.9624
+    },
+    {
+     "word": "the",
+     "start": 10.66,
+     "end": 10.96,
+     "probability": 0.9941
+    },
+    {
+     "word": "package",
+     "start": 10.96,
+     "end": 11.3,
+     "probability": 0.9976
+    },
+    {
+     "word": "beside",
+     "start": 11.3,
+     "end": 11.8,
+     "probability": 0.9897
+    },
+    {
+     "word": "the",
+     "start": 11.8,
+     "end": 12.16,
+     "probability": 0.999
+    },
+    {
+     "word": "front",
+     "start": 12.16,
+     "end": 12.38,
+     "probability": 0.9971
+    },
+    {
+     "word": "door.",
+     "start": 12.38,
+     "end": 12.76,
+     "probability": 0.999
+    }
+   ]
+  },
+  {
+   "chunk_start": 16.02,
+   "chunk_end": 19.628,
+   "text": "I forgot where I put the keys this morning. Hey Delta.",
+   "words": [
+    {
+     "word": "I",
+     "start": 16.02,
+     "end": 16.36,
+     "probability": 0.9058
+    },
+    {
+     "word": "forgot",
+     "start": 16.36,
+     "end": 16.64,
+     "probability": 0.9824
+    },
+    {
+     "word": "where",
+     "start": 16.64,
+     "end": 16.96,
+     "probability": 0.9995
+    },
+    {
+     "word": "I",
+     "start": 16.96,
+     "end": 17.14,
+     "probability": 0.9907
+    },
+    {
+     "word": "put",
+     "start": 17.14,
+     "end": 17.38,
+     "probability": 0.9995
+    },
+    {
+     "word": "the",
+     "start": 17.38,
+     "end": 17.5,
+     "probability": 0.998
+    },
+    {
+     "word": "keys",
+     "start": 17.5,
+     "end": 17.8,
+     "probability": 0.999
+    },
+    {
+     "word": "this",
+     "start": 17.8,
+     "end": 18.04,
+     "probability": 0.9985
+    },
+    {
+     "word": "morning.",
+     "start": 18.04,
+     "end": 18.44,
+     "probability": 0.9878
+    },
+    {
+     "word": "Hey",
+     "start": 18.56,
+     "end": 18.68,
+     "probability": 0.9551
+    },
+    {
+     "word": "Delta.",
+     "start": 18.68,
+     "end": 18.96,
+     "probability": 0.8345
+    }
+   ]
+  },
+  {
+   "chunk_start": 22.388,
+   "chunk_end": 27.308,
+   "text": "The next episode starts after the commercial. I think I forgot where I put the keys this morning.",
+   "words": [
+    {
+     "word": "The",
+     "start": 22.388,
+     "end": 22.708,
+     "probability": 0.5483
+    },
+    {
+     "word": "next",
+     "start": 22.708,
+     "end": 22.908,
+     "probability": 0.9863
+    },
+    {
+     "word": "episode",
+     "start": 22.908,
+     "end": 23.308,
+     "probability": 0.98
+    },
+    {
+     "word": "starts",
+     "start": 23.308,
+     "end": 23.668,
+     "probability": 0.9946
+    },
+    {
+     "word": "after",
+     "start": 23.668,
+     "end": 24.048,
+     "probability": 0.9907
+    },
+    {
+     "word": "the",
+     "start": 24.048,
+     "end": 24.208,
+     "probability": 0.9854
+    },
+    {
+     "word": "commercial.",
+     "start": 24.208,
+     "end": 24.448,
+     "probability": 0.9639
+    },
+    {
+     "word": "I",
+     "start": 24.808,
+     "end": 24.808,
+     "probability": 0.9331
+    },
+    {
+     "word": "think",
+     "start": 24.808,
+     "end": 24.808,
+     "probability": 0.9321
+    },
+    {
+     "word": "I",
+     "start": 24.808,
+     "end": 25.068,
+     "probability": 0.5215
+    },
+    {
+     "word": "forgot",
+     "start": 25.068,
+     "end": 25.368,
+     "probability": 0.9937
+    },
+    {
+     "word": "where",
+     "start": 25.368,
+     "end": 25.708,
+     "probability": 0.9946
+    },
+    {
+     "word": "I",
+     "start": 25.708,
+     "end": 25.728,
+     "probability": 0.9883
+    },
+    {
+     "word": "put",
+     "start": 25.728,
+     "end": 25.868,
+     "probability": 0.9946
+    },
+    {
+     "word": "the",
+     "start": 25.868,
+     "end": 25.948,
+     "probability": 0.9956
+    },
+    {
+     "word": "keys",
+     "start": 25.948,
+     "end": 26.028,
+     "probability": 0.9941
+    },
+    {
+     "word": "this",
+     "start": 26.028,
+     "end": 26.448,
+     "probability": 0.9956
+    },
+    {
+     "word": "morning.",
+     "start": 26.448,
+     "end": 26.808,
+     "probability": 0.999
+    }
+   ]
+  }
+ ]
+}

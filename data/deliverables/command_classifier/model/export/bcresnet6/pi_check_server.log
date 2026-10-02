@@ -1,0 +1,18 @@
+model command_bcresnet6.onnx  rule cautious  cutoff 0.885
+max |prob difference| vs server: 1.01e-06   same top class: 16/16   21 ms per capture
+  true play_music             -> play_music             0.988
+  true unknown                -> unknown                0.986
+  true volume_down            -> volume_down            0.987
+  true volume_down            -> volume_down            0.997
+  true stop                   -> stop                   0.987
+  true lights_off             -> unknown                0.556
+  true unknown                -> unknown                0.971
+  true unknown                -> unknown                0.999
+  true unknown                -> unknown                0.516
+  true next                   -> next                   0.978
+  true set_timer_1            -> set_timer_1            0.910
+  true set_timer_10           -> set_timer_10           0.977
+  true set_temperature_18     -> set_temperature_18     0.981
+  true next                   -> next                   0.975
+  true unknown                -> unknown                0.964
+  true unknown                -> unknown                0.899

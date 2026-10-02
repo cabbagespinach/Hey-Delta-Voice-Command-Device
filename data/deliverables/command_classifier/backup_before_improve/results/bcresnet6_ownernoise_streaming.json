@@ -1,0 +1,72 @@
+{
+ "model": "bcresnet6_ownernoise",
+ "streams": 40,
+ "hours": 0.667,
+ "cutoffs": {
+  "cautious": 0.945,
+  "balanced": 0.575
+ },
+ "by_kind": {
+  "clone": {
+   "events": 108,
+   "woke": 0.417,
+   "argmax": {
+    "command_correct": 0.947,
+    "command_wrong": 0.0,
+    "command_rejected": 0.053,
+    "offlist_triggered_action": 0.143,
+    "end_to_end_correct": 0.379
+   },
+   "cautious": {
+    "command_correct": 0.711,
+    "command_wrong": 0.0,
+    "command_rejected": 0.289,
+    "offlist_triggered_action": 0.0,
+    "end_to_end_correct": 0.284
+   },
+   "balanced": {
+    "command_correct": 0.921,
+    "command_wrong": 0.0,
+    "command_rejected": 0.079,
+    "offlist_triggered_action": 0.143,
+    "end_to_end_correct": 0.368
+   }
+  },
+  "distractor": {
+   "events": 32,
+   "woke": 0.0
+  },
+  "owner": {
+   "events": 74,
+   "woke": 0.824,
+   "argmax": {
+    "command_correct": 0.656,
+    "command_wrong": 0.016,
+    "command_rejected": 0.328,
+    "offlist_triggered_action": null,
+    "end_to_end_correct": 0.541
+   },
+   "cautious": {
+    "command_correct": 0.41,
+    "command_wrong": 0.0,
+    "command_rejected": 0.59,
+    "offlist_triggered_action": null,
+    "end_to_end_correct": 0.338
+   },
+   "balanced": {
+    "command_correct": 0.607,
+    "command_wrong": 0.016,
+    "command_rejected": 0.377,
+    "offlist_triggered_action": null,
+    "end_to_end_correct": 0.5
+   }
+  }
+ },
+ "false_wakeups_per_hour": 34.5,
+ "false_wakeup_actions_per_hour": {
+  "argmax": 19.5,
+  "cautious": 10.5,
+  "balanced": 19.5
+ },
+ "distractor_woke_rate": 0.0
+}

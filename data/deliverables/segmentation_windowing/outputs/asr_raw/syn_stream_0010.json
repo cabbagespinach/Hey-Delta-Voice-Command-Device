@@ -1,0 +1,319 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0010.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:27:07+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8921359777450562,
+ "chunks": [
+  {
+   "chunk_start": 0.564,
+   "chunk_end": 7.34,
+   "text": "That sounds like a reasonable idea to me. There are several things we need to discuss. The report contains several useful examples.",
+   "words": [
+    {
+     "word": "That",
+     "start": 0.564,
+     "end": 0.904,
+     "probability": 0.7993
+    },
+    {
+     "word": "sounds",
+     "start": 0.904,
+     "end": 1.364,
+     "probability": 0.9917
+    },
+    {
+     "word": "like",
+     "start": 1.364,
+     "end": 1.644,
+     "probability": 0.998
+    },
+    {
+     "word": "a",
+     "start": 1.644,
+     "end": 1.784,
+     "probability": 0.9971
+    },
+    {
+     "word": "reasonable",
+     "start": 1.784,
+     "end": 2.264,
+     "probability": 0.9922
+    },
+    {
+     "word": "idea",
+     "start": 2.264,
+     "end": 2.824,
+     "probability": 0.9946
+    },
+    {
+     "word": "to",
+     "start": 2.824,
+     "end": 3.064,
+     "probability": 0.9141
+    },
+    {
+     "word": "me.",
+     "start": 3.064,
+     "end": 3.184,
+     "probability": 0.937
+    },
+    {
+     "word": "There",
+     "start": 3.184,
+     "end": 3.264,
+     "probability": 0.4751
+    },
+    {
+     "word": "are",
+     "start": 3.264,
+     "end": 3.384,
+     "probability": 0.998
+    },
+    {
+     "word": "several",
+     "start": 3.384,
+     "end": 3.684,
+     "probability": 0.998
+    },
+    {
+     "word": "things",
+     "start": 3.684,
+     "end": 3.924,
+     "probability": 0.9946
+    },
+    {
+     "word": "we",
+     "start": 3.924,
+     "end": 4.144,
+     "probability": 0.981
+    },
+    {
+     "word": "need",
+     "start": 4.144,
+     "end": 4.304,
+     "probability": 0.998
+    },
+    {
+     "word": "to",
+     "start": 4.304,
+     "end": 4.444,
+     "probability": 0.9966
+    },
+    {
+     "word": "discuss.",
+     "start": 4.444,
+     "end": 4.704,
+     "probability": 0.9961
+    },
+    {
+     "word": "The",
+     "start": 4.744,
+     "end": 4.764,
+     "probability": 0.9648
+    },
+    {
+     "word": "report",
+     "start": 4.764,
+     "end": 4.784,
+     "probability": 0.9961
+    },
+    {
+     "word": "contains",
+     "start": 4.784,
+     "end": 5.284,
+     "probability": 0.9961
+    },
+    {
+     "word": "several",
+     "start": 5.284,
+     "end": 5.724,
+     "probability": 0.999
+    },
+    {
+     "word": "useful",
+     "start": 5.724,
+     "end": 6.064,
+     "probability": 0.9985
+    },
+    {
+     "word": "examples.",
+     "start": 6.064,
+     "end": 6.484,
+     "probability": 0.9995
+    }
+   ]
+  },
+  {
+   "chunk_start": 10.292,
+   "chunk_end": 11.5,
+   "text": "Hey Delta!",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 10.292,
+     "end": 10.652,
+     "probability": 0.8164
+    },
+    {
+     "word": "Delta!",
+     "start": 10.652,
+     "end": 10.832,
+     "probability": 0.9258
+    }
+   ]
+  },
+  {
+   "chunk_start": 14.74,
+   "chunk_end": 22.7,
+   "text": "The machine makes a strange sound sometimes. That sounds like a reasonable idea, Tommy. The meeting starts in about 10 minutes.",
+   "words": [
+    {
+     "word": "The",
+     "start": 14.74,
+     "end": 15.08,
+     "probability": 0.8052
+    },
+    {
+     "word": "machine",
+     "start": 15.08,
+     "end": 15.34,
+     "probability": 0.8105
+    },
+    {
+     "word": "makes",
+     "start": 15.34,
+     "end": 15.82,
+     "probability": 0.8198
+    },
+    {
+     "word": "a",
+     "start": 15.82,
+     "end": 15.94,
+     "probability": 0.9165
+    },
+    {
+     "word": "strange",
+     "start": 15.94,
+     "end": 16.38,
+     "probability": 0.9961
+    },
+    {
+     "word": "sound",
+     "start": 16.38,
+     "end": 16.86,
+     "probability": 0.9482
+    },
+    {
+     "word": "sometimes.",
+     "start": 16.86,
+     "end": 17.42,
+     "probability": 0.9712
+    },
+    {
+     "word": "That",
+     "start": 17.7,
+     "end": 17.72,
+     "probability": 0.146
+    },
+    {
+     "word": "sounds",
+     "start": 17.72,
+     "end": 18.06,
+     "probability": 0.9702
+    },
+    {
+     "word": "like",
+     "start": 18.06,
+     "end": 18.4,
+     "probability": 0.9976
+    },
+    {
+     "word": "a",
+     "start": 18.4,
+     "end": 18.56,
+     "probability": 0.9761
+    },
+    {
+     "word": "reasonable",
+     "start": 18.56,
+     "end": 18.98,
+     "probability": 0.8755
+    },
+    {
+     "word": "idea,",
+     "start": 18.98,
+     "end": 19.74,
+     "probability": 0.9814
+    },
+    {
+     "word": "Tommy.",
+     "start": 19.88,
+     "end": 20.26,
+     "probability": 0.9023
+    },
+    {
+     "word": "The",
+     "start": 20.4,
+     "end": 20.58,
+     "probability": 0.9868
+    },
+    {
+     "word": "meeting",
+     "start": 20.58,
+     "end": 20.78,
+     "probability": 0.9893
+    },
+    {
+     "word": "starts",
+     "start": 20.78,
+     "end": 21.06,
+     "probability": 0.9976
+    },
+    {
+     "word": "in",
+     "start": 21.06,
+     "end": 21.3,
+     "probability": 0.998
+    },
+    {
+     "word": "about",
+     "start": 21.3,
+     "end": 21.5,
+     "probability": 0.998
+    },
+    {
+     "word": "10",
+     "start": 21.5,
+     "end": 21.74,
+     "probability": 0.5537
+    },
+    {
+     "word": "minutes.",
+     "start": 21.74,
+     "end": 22.02,
+     "probability": 0.9937
+    }
+   ]
+  },
+  {
+   "chunk_start": 22.804,
+   "chunk_end": 24.204,
+   "text": "Hey Delta.",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 22.804,
+     "end": 23.224,
+     "probability": 0.8574
+    },
+    {
+     "word": "Delta.",
+     "start": 23.224,
+     "end": 23.424,
+     "probability": 0.8008
+    }
+   ]
+  }
+ ]
+}

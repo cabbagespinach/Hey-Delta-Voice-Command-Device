@@ -1,0 +1,308 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0101.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:29:26+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8714045286178589,
+ "chunks": [
+  {
+   "chunk_start": 0.116,
+   "chunk_end": 3.084,
+   "text": "The store closes earlier on weekends.",
+   "words": [
+    {
+     "word": "The",
+     "start": 0.116,
+     "end": 0.456,
+     "probability": 0.7891
+    },
+    {
+     "word": "store",
+     "start": 0.456,
+     "end": 0.696,
+     "probability": 0.9873
+    },
+    {
+     "word": "closes",
+     "start": 0.696,
+     "end": 1.036,
+     "probability": 0.9741
+    },
+    {
+     "word": "earlier",
+     "start": 1.036,
+     "end": 1.496,
+     "probability": 0.9062
+    },
+    {
+     "word": "on",
+     "start": 1.496,
+     "end": 1.876,
+     "probability": 0.9951
+    },
+    {
+     "word": "weekends.",
+     "start": 1.876,
+     "end": 2.256,
+     "probability": 0.9907
+    }
+   ]
+  },
+  {
+   "chunk_start": 7.06,
+   "chunk_end": 9.452,
+   "text": "I was looking for a quiet place to work.",
+   "words": [
+    {
+     "word": "I",
+     "start": 7.06,
+     "end": 7.34,
+     "probability": 0.9282
+    },
+    {
+     "word": "was",
+     "start": 7.34,
+     "end": 7.5,
+     "probability": 0.9971
+    },
+    {
+     "word": "looking",
+     "start": 7.5,
+     "end": 7.76,
+     "probability": 0.9971
+    },
+    {
+     "word": "for",
+     "start": 7.76,
+     "end": 8.0,
+     "probability": 0.9995
+    },
+    {
+     "word": "a",
+     "start": 8.0,
+     "end": 8.06,
+     "probability": 0.937
+    },
+    {
+     "word": "quiet",
+     "start": 8.06,
+     "end": 8.3,
+     "probability": 0.9814
+    },
+    {
+     "word": "place",
+     "start": 8.3,
+     "end": 8.56,
+     "probability": 0.999
+    },
+    {
+     "word": "to",
+     "start": 8.56,
+     "end": 8.74,
+     "probability": 0.999
+    },
+    {
+     "word": "work.",
+     "start": 8.74,
+     "end": 8.98,
+     "probability": 0.999
+    }
+   ]
+  },
+  {
+   "chunk_start": 13.268,
+   "chunk_end": 17.12,
+   "text": "The children are playing outside in the gardens, hey Delta.",
+   "words": [
+    {
+     "word": "The",
+     "start": 13.268,
+     "end": 13.468,
+     "probability": 0.5122
+    },
+    {
+     "word": "children",
+     "start": 13.468,
+     "end": 13.788,
+     "probability": 0.9868
+    },
+    {
+     "word": "are",
+     "start": 13.788,
+     "end": 13.988,
+     "probability": 0.9956
+    },
+    {
+     "word": "playing",
+     "start": 13.988,
+     "end": 14.248,
+     "probability": 0.9023
+    },
+    {
+     "word": "outside",
+     "start": 14.248,
+     "end": 14.788,
+     "probability": 0.9971
+    },
+    {
+     "word": "in",
+     "start": 14.788,
+     "end": 15.068,
+     "probability": 0.9087
+    },
+    {
+     "word": "the",
+     "start": 15.068,
+     "end": 15.168,
+     "probability": 0.9556
+    },
+    {
+     "word": "gardens,",
+     "start": 15.168,
+     "end": 15.488,
+     "probability": 0.4529
+    },
+    {
+     "word": "hey",
+     "start": 15.608,
+     "end": 15.988,
+     "probability": 0.3037
+    },
+    {
+     "word": "Delta.",
+     "start": 15.988,
+     "end": 16.428,
+     "probability": 0.8115
+    }
+   ]
+  },
+  {
+   "chunk_start": 17.12,
+   "chunk_end": 20.908,
+   "text": "I was looking for a quiet house to work in.",
+   "words": [
+    {
+     "word": "I",
+     "start": 17.12,
+     "end": 17.4,
+     "probability": 0.6211
+    },
+    {
+     "word": "was",
+     "start": 17.4,
+     "end": 17.54,
+     "probability": 0.9624
+    },
+    {
+     "word": "looking",
+     "start": 17.54,
+     "end": 17.96,
+     "probability": 0.9858
+    },
+    {
+     "word": "for",
+     "start": 17.96,
+     "end": 18.36,
+     "probability": 0.9951
+    },
+    {
+     "word": "a",
+     "start": 18.36,
+     "end": 18.36,
+     "probability": 0.7842
+    },
+    {
+     "word": "quiet",
+     "start": 18.36,
+     "end": 18.7,
+     "probability": 0.769
+    },
+    {
+     "word": "house",
+     "start": 18.7,
+     "end": 19.18,
+     "probability": 0.1281
+    },
+    {
+     "word": "to",
+     "start": 19.18,
+     "end": 19.24,
+     "probability": 0.9868
+    },
+    {
+     "word": "work",
+     "start": 19.24,
+     "end": 19.58,
+     "probability": 0.2185
+    },
+    {
+     "word": "in.",
+     "start": 19.58,
+     "end": 19.6,
+     "probability": 0.3005
+    }
+   ]
+  },
+  {
+   "chunk_start": 25.108,
+   "chunk_end": 29.836,
+   "text": "Can you send me the address when you arrive?",
+   "words": [
+    {
+     "word": "Can",
+     "start": 25.108,
+     "end": 25.928,
+     "probability": 0.3159
+    },
+    {
+     "word": "you",
+     "start": 25.928,
+     "end": 26.848,
+     "probability": 0.9951
+    },
+    {
+     "word": "send",
+     "start": 26.848,
+     "end": 27.068,
+     "probability": 0.9888
+    },
+    {
+     "word": "me",
+     "start": 27.068,
+     "end": 27.268,
+     "probability": 0.8901
+    },
+    {
+     "word": "the",
+     "start": 27.268,
+     "end": 27.488,
+     "probability": 0.9761
+    },
+    {
+     "word": "address",
+     "start": 27.488,
+     "end": 27.888,
+     "probability": 0.9976
+    },
+    {
+     "word": "when",
+     "start": 27.888,
+     "end": 28.308,
+     "probability": 0.9849
+    },
+    {
+     "word": "you",
+     "start": 28.308,
+     "end": 28.448,
+     "probability": 0.9976
+    },
+    {
+     "word": "arrive?",
+     "start": 28.448,
+     "end": 28.788,
+     "probability": 0.9912
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,416 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0103.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:29:30+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8811848163604736,
+ "chunks": [
+  {
+   "chunk_start": 1.716,
+   "chunk_end": 4.876,
+   "text": "We ordered dinner and waited near the entrance.",
+   "words": [
+    {
+     "word": "We",
+     "start": 1.716,
+     "end": 2.056,
+     "probability": 0.9023
+    },
+    {
+     "word": "ordered",
+     "start": 2.056,
+     "end": 2.356,
+     "probability": 0.9971
+    },
+    {
+     "word": "dinner",
+     "start": 2.356,
+     "end": 2.696,
+     "probability": 0.9976
+    },
+    {
+     "word": "and",
+     "start": 2.696,
+     "end": 2.976,
+     "probability": 0.9956
+    },
+    {
+     "word": "waited",
+     "start": 2.976,
+     "end": 3.236,
+     "probability": 0.999
+    },
+    {
+     "word": "near",
+     "start": 3.236,
+     "end": 3.536,
+     "probability": 0.998
+    },
+    {
+     "word": "the",
+     "start": 3.536,
+     "end": 3.716,
+     "probability": 0.999
+    },
+    {
+     "word": "entrance.",
+     "start": 3.716,
+     "end": 4.016,
+     "probability": 0.998
+    }
+   ]
+  },
+  {
+   "chunk_start": 6.804,
+   "chunk_end": 14.092,
+   "text": "This recording is only being used as synthetic data. This building is only being used as synthetic data.",
+   "words": [
+    {
+     "word": "This",
+     "start": 6.804,
+     "end": 7.144,
+     "probability": 0.8008
+    },
+    {
+     "word": "recording",
+     "start": 7.144,
+     "end": 7.624,
+     "probability": 0.9878
+    },
+    {
+     "word": "is",
+     "start": 7.624,
+     "end": 7.824,
+     "probability": 0.9956
+    },
+    {
+     "word": "only",
+     "start": 7.824,
+     "end": 8.004,
+     "probability": 0.9985
+    },
+    {
+     "word": "being",
+     "start": 8.004,
+     "end": 8.304,
+     "probability": 0.9985
+    },
+    {
+     "word": "used",
+     "start": 8.304,
+     "end": 8.764,
+     "probability": 0.9995
+    },
+    {
+     "word": "as",
+     "start": 8.764,
+     "end": 9.064,
+     "probability": 0.9961
+    },
+    {
+     "word": "synthetic",
+     "start": 9.064,
+     "end": 9.304,
+     "probability": 0.9824
+    },
+    {
+     "word": "data.",
+     "start": 9.304,
+     "end": 9.844,
+     "probability": 0.9961
+    },
+    {
+     "word": "This",
+     "start": 10.284,
+     "end": 10.404,
+     "probability": 0.8955
+    },
+    {
+     "word": "building",
+     "start": 10.404,
+     "end": 10.824,
+     "probability": 0.5537
+    },
+    {
+     "word": "is",
+     "start": 10.824,
+     "end": 11.324,
+     "probability": 0.9985
+    },
+    {
+     "word": "only",
+     "start": 11.324,
+     "end": 11.684,
+     "probability": 0.9995
+    },
+    {
+     "word": "being",
+     "start": 11.684,
+     "end": 12.024,
+     "probability": 0.999
+    },
+    {
+     "word": "used",
+     "start": 12.024,
+     "end": 12.404,
+     "probability": 0.9976
+    },
+    {
+     "word": "as",
+     "start": 12.404,
+     "end": 12.604,
+     "probability": 0.9897
+    },
+    {
+     "word": "synthetic",
+     "start": 12.604,
+     "end": 12.884,
+     "probability": 0.9844
+    },
+    {
+     "word": "data.",
+     "start": 12.884,
+     "end": 13.584,
+     "probability": 0.9995
+    }
+   ]
+  },
+  {
+   "chunk_start": 15.38,
+   "chunk_end": 18.732,
+   "text": "Temi Mesa Saint-Sa\u00ebns-Saint-Denis",
+   "words": [
+    {
+     "word": "Temi",
+     "start": 15.38,
+     "end": 16.06,
+     "probability": 0.2903
+    },
+    {
+     "word": "Mesa",
+     "start": 16.06,
+     "end": 16.52,
+     "probability": 0.5786
+    },
+    {
+     "word": "Saint",
+     "start": 16.52,
+     "end": 17.18,
+     "probability": 0.3789
+    },
+    {
+     "word": "-Sa\u00ebns",
+     "start": 17.18,
+     "end": 17.54,
+     "probability": 0.7144
+    },
+    {
+     "word": "-Saint",
+     "start": 17.54,
+     "end": 17.92,
+     "probability": 0.4006
+    },
+    {
+     "word": "-Denis",
+     "start": 17.92,
+     "end": 18.18,
+     "probability": 0.8221
+    }
+   ]
+  },
+  {
+   "chunk_start": 19.06,
+   "chunk_end": 24.396,
+   "text": "The meeting starts in about 10 minutes. I was looking for a quiet place. I forgot where I put the keys this morning.",
+   "words": [
+    {
+     "word": "The",
+     "start": 19.06,
+     "end": 19.42,
+     "probability": 0.8872
+    },
+    {
+     "word": "meeting",
+     "start": 19.42,
+     "end": 19.66,
+     "probability": 0.998
+    },
+    {
+     "word": "starts",
+     "start": 19.66,
+     "end": 19.9,
+     "probability": 0.9985
+    },
+    {
+     "word": "in",
+     "start": 19.9,
+     "end": 20.2,
+     "probability": 0.998
+    },
+    {
+     "word": "about",
+     "start": 20.2,
+     "end": 20.42,
+     "probability": 0.9971
+    },
+    {
+     "word": "10",
+     "start": 20.42,
+     "end": 20.66,
+     "probability": 0.7427
+    },
+    {
+     "word": "minutes.",
+     "start": 20.66,
+     "end": 20.92,
+     "probability": 0.9917
+    },
+    {
+     "word": "I",
+     "start": 20.98,
+     "end": 21.02,
+     "probability": 0.9453
+    },
+    {
+     "word": "was",
+     "start": 21.02,
+     "end": 21.08,
+     "probability": 0.8833
+    },
+    {
+     "word": "looking",
+     "start": 21.08,
+     "end": 21.38,
+     "probability": 0.9995
+    },
+    {
+     "word": "for",
+     "start": 21.38,
+     "end": 21.6,
+     "probability": 0.998
+    },
+    {
+     "word": "a",
+     "start": 21.6,
+     "end": 21.68,
+     "probability": 0.5176
+    },
+    {
+     "word": "quiet",
+     "start": 21.68,
+     "end": 21.9,
+     "probability": 0.9561
+    },
+    {
+     "word": "place.",
+     "start": 21.9,
+     "end": 22.18,
+     "probability": 0.9692
+    },
+    {
+     "word": "I",
+     "start": 22.18,
+     "end": 22.2,
+     "probability": 0.8486
+    },
+    {
+     "word": "forgot",
+     "start": 22.2,
+     "end": 22.3,
+     "probability": 0.9819
+    },
+    {
+     "word": "where",
+     "start": 22.3,
+     "end": 22.6,
+     "probability": 0.999
+    },
+    {
+     "word": "I",
+     "start": 22.6,
+     "end": 22.78,
+     "probability": 0.9995
+    },
+    {
+     "word": "put",
+     "start": 22.78,
+     "end": 22.94,
+     "probability": 0.999
+    },
+    {
+     "word": "the",
+     "start": 22.94,
+     "end": 23.1,
+     "probability": 0.9995
+    },
+    {
+     "word": "keys",
+     "start": 23.1,
+     "end": 23.3,
+     "probability": 1.0
+    },
+    {
+     "word": "this",
+     "start": 23.3,
+     "end": 23.52,
+     "probability": 0.9995
+    },
+    {
+     "word": "morning.",
+     "start": 23.52,
+     "end": 23.8,
+     "probability": 1.0
+    }
+   ]
+  },
+  {
+   "chunk_start": 25.684,
+   "chunk_end": 28.972,
+   "text": "We should probably take a sedula first.",
+   "words": [
+    {
+     "word": "We",
+     "start": 25.684,
+     "end": 26.004,
+     "probability": 0.6191
+    },
+    {
+     "word": "should",
+     "start": 26.004,
+     "end": 26.244,
+     "probability": 0.7144
+    },
+    {
+     "word": "probably",
+     "start": 26.244,
+     "end": 26.784,
+     "probability": 0.9604
+    },
+    {
+     "word": "take",
+     "start": 26.784,
+     "end": 27.224,
+     "probability": 0.428
+    },
+    {
+     "word": "a",
+     "start": 27.224,
+     "end": 27.324,
+     "probability": 0.2285
+    },
+    {
+     "word": "sedula",
+     "start": 27.324,
+     "end": 28.124,
+     "probability": 0.3871
+    },
+    {
+     "word": "first.",
+     "start": 28.124,
+     "end": 28.384,
+     "probability": 0.9478
+    }
+   ]
+  }
+ ]
+}

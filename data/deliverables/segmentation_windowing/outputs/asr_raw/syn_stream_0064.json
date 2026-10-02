@@ -1,0 +1,368 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0064.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:28:30+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8897191882133484,
+ "chunks": [
+  {
+   "chunk_start": 0.756,
+   "chunk_end": 7.148,
+   "text": "That sounds like a reasonable idea to me. When ordered dinner un-waited near TN Pranc\u00e9.",
+   "words": [
+    {
+     "word": "That",
+     "start": 0.756,
+     "end": 1.096,
+     "probability": 0.5151
+    },
+    {
+     "word": "sounds",
+     "start": 1.096,
+     "end": 1.436,
+     "probability": 0.9849
+    },
+    {
+     "word": "like",
+     "start": 1.436,
+     "end": 1.676,
+     "probability": 0.9946
+    },
+    {
+     "word": "a",
+     "start": 1.676,
+     "end": 1.696,
+     "probability": 0.9629
+    },
+    {
+     "word": "reasonable",
+     "start": 1.696,
+     "end": 2.056,
+     "probability": 0.9844
+    },
+    {
+     "word": "idea",
+     "start": 2.056,
+     "end": 2.576,
+     "probability": 0.9976
+    },
+    {
+     "word": "to",
+     "start": 2.576,
+     "end": 2.816,
+     "probability": 0.9492
+    },
+    {
+     "word": "me.",
+     "start": 2.816,
+     "end": 2.976,
+     "probability": 0.9976
+    },
+    {
+     "word": "When",
+     "start": 3.296,
+     "end": 3.576,
+     "probability": 0.561
+    },
+    {
+     "word": "ordered",
+     "start": 3.576,
+     "end": 3.936,
+     "probability": 0.7642
+    },
+    {
+     "word": "dinner",
+     "start": 3.936,
+     "end": 4.476,
+     "probability": 0.9458
+    },
+    {
+     "word": "un",
+     "start": 4.476,
+     "end": 4.996,
+     "probability": 0.2202
+    },
+    {
+     "word": "-waited",
+     "start": 4.996,
+     "end": 5.416,
+     "probability": 0.6011
+    },
+    {
+     "word": "near",
+     "start": 5.416,
+     "end": 5.636,
+     "probability": 0.9653
+    },
+    {
+     "word": "TN",
+     "start": 5.636,
+     "end": 6.136,
+     "probability": 0.769
+    },
+    {
+     "word": "Pranc\u00e9.",
+     "start": 6.136,
+     "end": 6.636,
+     "probability": 0.3431
+    }
+   ]
+  },
+  {
+   "chunk_start": 8.084,
+   "chunk_end": 10.732,
+   "text": "Let us compare the two options carefully.",
+   "words": [
+    {
+     "word": "Let",
+     "start": 8.084,
+     "end": 8.464,
+     "probability": 0.9478
+    },
+    {
+     "word": "us",
+     "start": 8.464,
+     "end": 8.604,
+     "probability": 0.9917
+    },
+    {
+     "word": "compare",
+     "start": 8.604,
+     "end": 8.924,
+     "probability": 0.9976
+    },
+    {
+     "word": "the",
+     "start": 8.924,
+     "end": 9.124,
+     "probability": 0.998
+    },
+    {
+     "word": "two",
+     "start": 9.124,
+     "end": 9.264,
+     "probability": 0.9087
+    },
+    {
+     "word": "options",
+     "start": 9.264,
+     "end": 9.644,
+     "probability": 0.9961
+    },
+    {
+     "word": "carefully.",
+     "start": 9.644,
+     "end": 10.044,
+     "probability": 0.9985
+    }
+   ]
+  },
+  {
+   "chunk_start": 15.508,
+   "chunk_end": 18.156,
+   "text": "We turn packet A prime after LUN.",
+   "words": [
+    {
+     "word": "We",
+     "start": 15.508,
+     "end": 15.788,
+     "probability": 0.626
+    },
+    {
+     "word": "turn",
+     "start": 15.788,
+     "end": 16.028,
+     "probability": 0.2101
+    },
+    {
+     "word": "packet",
+     "start": 16.028,
+     "end": 16.328,
+     "probability": 0.3657
+    },
+    {
+     "word": "A",
+     "start": 16.328,
+     "end": 16.588,
+     "probability": 0.3508
+    },
+    {
+     "word": "prime",
+     "start": 16.588,
+     "end": 16.888,
+     "probability": 0.8076
+    },
+    {
+     "word": "after",
+     "start": 16.888,
+     "end": 17.268,
+     "probability": 0.9717
+    },
+    {
+     "word": "LUN.",
+     "start": 17.268,
+     "end": 17.668,
+     "probability": 0.6538
+    }
+   ]
+  },
+  {
+   "chunk_start": 20.564,
+   "chunk_end": 24.816,
+   "text": "The children are playing outside in the garden. We can take the train after lunch.",
+   "words": [
+    {
+     "word": "The",
+     "start": 20.564,
+     "end": 20.844,
+     "probability": 0.8203
+    },
+    {
+     "word": "children",
+     "start": 20.844,
+     "end": 21.124,
+     "probability": 0.9932
+    },
+    {
+     "word": "are",
+     "start": 21.124,
+     "end": 21.384,
+     "probability": 0.999
+    },
+    {
+     "word": "playing",
+     "start": 21.384,
+     "end": 21.624,
+     "probability": 0.9995
+    },
+    {
+     "word": "outside",
+     "start": 21.624,
+     "end": 22.104,
+     "probability": 0.998
+    },
+    {
+     "word": "in",
+     "start": 22.104,
+     "end": 22.384,
+     "probability": 0.9146
+    },
+    {
+     "word": "the",
+     "start": 22.384,
+     "end": 22.384,
+     "probability": 0.9912
+    },
+    {
+     "word": "garden.",
+     "start": 22.384,
+     "end": 22.424,
+     "probability": 0.9961
+    },
+    {
+     "word": "We",
+     "start": 22.424,
+     "end": 22.524,
+     "probability": 0.9546
+    },
+    {
+     "word": "can",
+     "start": 22.524,
+     "end": 22.604,
+     "probability": 0.9961
+    },
+    {
+     "word": "take",
+     "start": 22.604,
+     "end": 22.964,
+     "probability": 0.9976
+    },
+    {
+     "word": "the",
+     "start": 22.964,
+     "end": 23.104,
+     "probability": 0.9878
+    },
+    {
+     "word": "train",
+     "start": 23.104,
+     "end": 23.404,
+     "probability": 0.998
+    },
+    {
+     "word": "after",
+     "start": 23.404,
+     "end": 23.844,
+     "probability": 0.9976
+    },
+    {
+     "word": "lunch.",
+     "start": 23.844,
+     "end": 24.184,
+     "probability": 0.999
+    }
+   ]
+  },
+  {
+   "chunk_start": 24.816,
+   "chunk_end": 27.884,
+   "text": "I was looking for a quiet place to work.",
+   "words": [
+    {
+     "word": "I",
+     "start": 24.816,
+     "end": 25.116,
+     "probability": 0.9668
+    },
+    {
+     "word": "was",
+     "start": 25.116,
+     "end": 25.336,
+     "probability": 0.9971
+    },
+    {
+     "word": "looking",
+     "start": 25.336,
+     "end": 25.616,
+     "probability": 0.9976
+    },
+    {
+     "word": "for",
+     "start": 25.616,
+     "end": 25.896,
+     "probability": 0.999
+    },
+    {
+     "word": "a",
+     "start": 25.896,
+     "end": 26.056,
+     "probability": 0.9976
+    },
+    {
+     "word": "quiet",
+     "start": 26.056,
+     "end": 26.376,
+     "probability": 0.9971
+    },
+    {
+     "word": "place",
+     "start": 26.376,
+     "end": 26.676,
+     "probability": 0.9985
+    },
+    {
+     "word": "to",
+     "start": 26.676,
+     "end": 26.956,
+     "probability": 0.9985
+    },
+    {
+     "word": "work.",
+     "start": 26.956,
+     "end": 27.256,
+     "probability": 0.9995
+    }
+   ]
+  }
+ ]
+}

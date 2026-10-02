@@ -1,0 +1,15 @@
+dimension,status,evidence,interpretation
+Speaker diversity,underrepresented,"50 TTS positives from 7 voices, plus 68 real positive recordings (after review) whose speaker metadata is absent; the number of real speakers is undocumented.",Still the main gap: real speakers cannot be synthesised by augmentation.
+Pitch,partially represented,TTS grid of -2/0/+2 plus natural pitch in the real recordings (unmeasured).,Designed grid plus limited natural variation.
+Speaking rate,partially represented,TTS grid of 0.85/1.0/1.15 plus natural rate in the real recordings.,Natural rate diversity limited to the real recordings.
+Level / loudness,measured: underrepresented at device level,"RPI wakeword peaks median -39.8 dB (p10 -49.7, p90 -27.5) vs TTS positives -10.9 dB (deployment_level_summary.json).",Device-level speech is rare in training -> device_level_gain.
+Signal over background,measured: underrepresented,RPI peak-over-floor median 14.9 dB (p10 5.4); lowest owner-verified audible positive 4.42 dB; synthetic 18-40 dB or over digital silence.,-> background_noise_mixing at measured targets.
+Microphone / device,partially represented,"83 real recordings from 3 devices (Macmic, Phonemic, RPI; parsed from filenames); the RPI is the deployment device.",Device response not isolable yet -> microphone simulation deferred.
+Room acoustics,missing,No room metadata; real recordings come from undocumented rooms.,RIR augmentation approximates this; real rooms still needed.
+Reverberation,missing,No RIR metadata or measured RT60.,RIR augmentation cannot replace real rooms.
+Background noise,partially represented,"1,000 synthetic noise clips plus 7 usable train-split real background recordings (6 RPI, 1 Macmic; 278 vetted windows). Manual-BG-RPI1 and Manual-BG-RPI2 are all-zero and relabelled negatives_silence.",Real device background now available as a noise source.
+Environmental sounds,partially represented,Synthetic fan/clicks/hum; real RPI background content undocumented.,Real soundscapes still limited.
+Recording quality / channel chain,measured,Header sample rates 16/22.05/24/48 kHz (manifest lists 48 kHz); digital silence in synthetic data but not real; no clipping in real recordings; device start click >10 dB in 9/63 RPI positives and 1/13 RPI negatives.,"-> 16 kHz preprocessing and device_noise_floor; click is a minor, cross-label artefact."
+Near/far field,unknown,No distance metadata for the real recordings.,Cannot infer distance from level alone.
+Hard negatives,well represented (synthetic); sparse (real),"1,199 confusables and 800 partial negatives (synthetic); real: Manual-Fil-RPI13 ('Delta') and one 'Hey, Michelle.'",Real device hard negatives are needed.
+Real acoustic recordings,partially represented,"83 manual recordings (68 positive, 15 negative after review); 32 RPI positives still lack wakeword timing.",Principal remaining limitation: few speakers and unlocated device positives.

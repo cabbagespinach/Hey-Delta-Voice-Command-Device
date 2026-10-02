@@ -1,0 +1,320 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0000.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:26:52+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8897599577903748,
+ "chunks": [
+  {
+   "chunk_start": 0.0,
+   "chunk_end": 2.7,
+   "text": "I think the blue one is slightly cheaper.",
+   "words": [
+    {
+     "word": "I",
+     "start": 0.0,
+     "end": 0.16,
+     "probability": 0.8623
+    },
+    {
+     "word": "think",
+     "start": 0.16,
+     "end": 0.34,
+     "probability": 0.9966
+    },
+    {
+     "word": "the",
+     "start": 0.34,
+     "end": 0.52,
+     "probability": 0.9941
+    },
+    {
+     "word": "blue",
+     "start": 0.52,
+     "end": 0.72,
+     "probability": 0.9771
+    },
+    {
+     "word": "one",
+     "start": 0.72,
+     "end": 0.96,
+     "probability": 0.9873
+    },
+    {
+     "word": "is",
+     "start": 0.96,
+     "end": 1.22,
+     "probability": 0.9941
+    },
+    {
+     "word": "slightly",
+     "start": 1.22,
+     "end": 1.5,
+     "probability": 0.9829
+    },
+    {
+     "word": "cheaper.",
+     "start": 1.5,
+     "end": 1.98,
+     "probability": 0.999
+    }
+   ]
+  },
+  {
+   "chunk_start": 4.596,
+   "chunk_end": 7.852,
+   "text": "We ordered dinner and waited near the entrance.",
+   "words": [
+    {
+     "word": "We",
+     "start": 4.596,
+     "end": 4.896,
+     "probability": 0.9375
+    },
+    {
+     "word": "ordered",
+     "start": 4.896,
+     "end": 5.216,
+     "probability": 0.9946
+    },
+    {
+     "word": "dinner",
+     "start": 5.216,
+     "end": 5.536,
+     "probability": 0.9946
+    },
+    {
+     "word": "and",
+     "start": 5.536,
+     "end": 6.076,
+     "probability": 0.9194
+    },
+    {
+     "word": "waited",
+     "start": 6.076,
+     "end": 6.356,
+     "probability": 0.9976
+    },
+    {
+     "word": "near",
+     "start": 6.356,
+     "end": 6.616,
+     "probability": 0.998
+    },
+    {
+     "word": "the",
+     "start": 6.616,
+     "end": 6.716,
+     "probability": 0.9971
+    },
+    {
+     "word": "entrance.",
+     "start": 6.716,
+     "end": 7.056,
+     "probability": 0.9956
+    }
+   ]
+  },
+  {
+   "chunk_start": 15.412,
+   "chunk_end": 21.452,
+   "text": "There's enough time to finish this today. I was looking for a quiet place to work.",
+   "words": [
+    {
+     "word": "There's",
+     "start": 15.412,
+     "end": 15.832,
+     "probability": 0.6487
+    },
+    {
+     "word": "enough",
+     "start": 15.832,
+     "end": 16.052,
+     "probability": 0.9951
+    },
+    {
+     "word": "time",
+     "start": 16.052,
+     "end": 16.272,
+     "probability": 0.999
+    },
+    {
+     "word": "to",
+     "start": 16.272,
+     "end": 16.432,
+     "probability": 0.9746
+    },
+    {
+     "word": "finish",
+     "start": 16.432,
+     "end": 16.732,
+     "probability": 0.9854
+    },
+    {
+     "word": "this",
+     "start": 16.732,
+     "end": 16.912,
+     "probability": 0.9917
+    },
+    {
+     "word": "today.",
+     "start": 16.912,
+     "end": 16.912,
+     "probability": 0.9395
+    },
+    {
+     "word": "I",
+     "start": 16.932,
+     "end": 16.932,
+     "probability": 0.6772
+    },
+    {
+     "word": "was",
+     "start": 16.932,
+     "end": 16.932,
+     "probability": 0.9946
+    },
+    {
+     "word": "looking",
+     "start": 16.932,
+     "end": 17.092,
+     "probability": 0.998
+    },
+    {
+     "word": "for",
+     "start": 17.092,
+     "end": 17.372,
+     "probability": 0.999
+    },
+    {
+     "word": "a",
+     "start": 17.372,
+     "end": 17.532,
+     "probability": 0.9971
+    },
+    {
+     "word": "quiet",
+     "start": 17.532,
+     "end": 17.792,
+     "probability": 0.998
+    },
+    {
+     "word": "place",
+     "start": 17.792,
+     "end": 18.132,
+     "probability": 0.999
+    },
+    {
+     "word": "to",
+     "start": 18.132,
+     "end": 18.352,
+     "probability": 0.9961
+    },
+    {
+     "word": "work.",
+     "start": 18.352,
+     "end": 18.672,
+     "probability": 0.9976
+    }
+   ]
+  },
+  {
+   "chunk_start": 23.604,
+   "chunk_end": 25.968,
+   "text": "There is enough time to finish this today.",
+   "words": [
+    {
+     "word": "There",
+     "start": 23.604,
+     "end": 23.944,
+     "probability": 0.8926
+    },
+    {
+     "word": "is",
+     "start": 23.944,
+     "end": 24.024,
+     "probability": 0.9214
+    },
+    {
+     "word": "enough",
+     "start": 24.024,
+     "end": 24.264,
+     "probability": 0.9966
+    },
+    {
+     "word": "time",
+     "start": 24.264,
+     "end": 24.524,
+     "probability": 0.9995
+    },
+    {
+     "word": "to",
+     "start": 24.524,
+     "end": 24.704,
+     "probability": 0.9985
+    },
+    {
+     "word": "finish",
+     "start": 24.704,
+     "end": 24.944,
+     "probability": 0.9985
+    },
+    {
+     "word": "this",
+     "start": 24.944,
+     "end": 25.184,
+     "probability": 0.9971
+    },
+    {
+     "word": "today.",
+     "start": 25.184,
+     "end": 25.444,
+     "probability": 0.9976
+    }
+   ]
+  },
+  {
+   "chunk_start": 25.968,
+   "chunk_end": 29.164,
+   "text": "The report contains several useful examples.",
+   "words": [
+    {
+     "word": "The",
+     "start": 25.968,
+     "end": 26.228,
+     "probability": 0.9448
+    },
+    {
+     "word": "report",
+     "start": 26.228,
+     "end": 26.468,
+     "probability": 0.9873
+    },
+    {
+     "word": "contains",
+     "start": 26.468,
+     "end": 26.848,
+     "probability": 0.981
+    },
+    {
+     "word": "several",
+     "start": 26.848,
+     "end": 27.468,
+     "probability": 0.9971
+    },
+    {
+     "word": "useful",
+     "start": 27.468,
+     "end": 27.848,
+     "probability": 0.9971
+    },
+    {
+     "word": "examples.",
+     "start": 27.848,
+     "end": 28.328,
+     "probability": 0.9985
+    }
+   ]
+  }
+ ]
+}

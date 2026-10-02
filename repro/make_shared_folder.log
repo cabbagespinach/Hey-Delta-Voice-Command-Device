@@ -1,0 +1,13 @@
+262364 files shared (89610 new, 0 removed), 9403 never-shared files skipped
+audio referenced by tracked CSVs but NOT shared (and not an optional dataset):
+  external_raw/mswc_en/selection.csv: 300 e.g. ['data/common_voice_en_13765774.opus', 'data/common_voice_en_1425689.opus']
+f: /home/arvir.jane.redondo/AI231_ME2_reproduce
+ drwxr-xr-x /
+ lrwxrwxrwx home -> /mnt/jfs_hpc/home
+   drwxr-xr-x /
+   drwxr-xr-x mnt
+   drwxrwxrwx jfs_hpc
+   drwxr-xr-x home
+ drwxr-xr-x arvir.jane.redondo
+ drwxr-xr-x AI231_ME2_reproduce
+

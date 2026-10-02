@@ -1,0 +1,53 @@
+{
+  "note": "Thresholds chosen on isolated validation (per-category FPR <= 1% on deployment-like negatives); trigger rule and refractory period as in the server evaluation.",
+  "models": [
+    {
+      "name": "bcresnet1",
+      "file": "models/bcresnet1.onnx",
+      "parameters": 8869,
+      "threshold": 0.94379460811615,
+      "k_of_n": [
+        2,
+        3
+      ],
+      "refractory_sec": 1.0,
+      "parity_max_abs_diff_vs_pytorch": 0.00012511014938354492
+    },
+    {
+      "name": "bcresnet3",
+      "file": "models/bcresnet3.onnx",
+      "parameters": 53101,
+      "threshold": 0.8152867555618287,
+      "k_of_n": [
+        2,
+        3
+      ],
+      "refractory_sec": 1.0,
+      "parity_max_abs_diff_vs_pytorch": 1.8805265426635742e-05
+    },
+    {
+      "name": "bcresnet6",
+      "file": "models/bcresnet6.onnx",
+      "parameters": 185689,
+      "threshold": 0.733501970767975,
+      "k_of_n": [
+        2,
+        3
+      ],
+      "refractory_sec": 1.0,
+      "parity_max_abs_diff_vs_pytorch": 1.4640390872955322e-05
+    },
+    {
+      "name": "bcresnet6_hn",
+      "file": "models/bcresnet6_hn.onnx",
+      "parameters": 185689,
+      "threshold": 0.45301145315170294,
+      "k_of_n": [
+        2,
+        3
+      ],
+      "refractory_sec": 1.0,
+      "parity_max_abs_diff_vs_pytorch": 6.22868537902832e-06
+    }
+  ]
+}

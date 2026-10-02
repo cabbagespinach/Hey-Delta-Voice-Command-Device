@@ -1,0 +1,222 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0086.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:29:01+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8924404382705688,
+ "chunks": [
+  {
+   "chunk_start": 2.868,
+   "chunk_end": 11.82,
+   "text": "You think the blue one is slightly cheaper, but the report contains several useful examples.",
+   "words": [
+    {
+     "word": "You",
+     "start": 2.868,
+     "end": 3.228,
+     "probability": 0.2959
+    },
+    {
+     "word": "think",
+     "start": 3.228,
+     "end": 3.508,
+     "probability": 0.9507
+    },
+    {
+     "word": "the",
+     "start": 3.508,
+     "end": 3.728,
+     "probability": 0.4714
+    },
+    {
+     "word": "blue",
+     "start": 3.728,
+     "end": 3.988,
+     "probability": 0.896
+    },
+    {
+     "word": "one",
+     "start": 3.988,
+     "end": 4.128,
+     "probability": 0.7686
+    },
+    {
+     "word": "is",
+     "start": 4.128,
+     "end": 4.428,
+     "probability": 0.9897
+    },
+    {
+     "word": "slightly",
+     "start": 4.428,
+     "end": 4.808,
+     "probability": 0.8755
+    },
+    {
+     "word": "cheaper,",
+     "start": 4.808,
+     "end": 7.688,
+     "probability": 0.9912
+    },
+    {
+     "word": "but",
+     "start": 7.968,
+     "end": 8.128,
+     "probability": 0.4568
+    },
+    {
+     "word": "the",
+     "start": 8.128,
+     "end": 8.128,
+     "probability": 0.4409
+    },
+    {
+     "word": "report",
+     "start": 8.128,
+     "end": 8.348,
+     "probability": 0.8726
+    },
+    {
+     "word": "contains",
+     "start": 8.348,
+     "end": 9.008,
+     "probability": 0.9858
+    },
+    {
+     "word": "several",
+     "start": 9.008,
+     "end": 9.628,
+     "probability": 0.9888
+    },
+    {
+     "word": "useful",
+     "start": 9.628,
+     "end": 10.108,
+     "probability": 0.9912
+    },
+    {
+     "word": "examples.",
+     "start": 10.108,
+     "end": 10.768,
+     "probability": 0.998
+    }
+   ]
+  },
+  {
+   "chunk_start": 13.268,
+   "chunk_end": 14.636,
+   "text": "Hey DILTA!",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 13.268,
+     "end": 13.648,
+     "probability": 0.7285
+    },
+    {
+     "word": "DILTA!",
+     "start": 13.648,
+     "end": 14.028,
+     "probability": 0.5598
+    }
+   ]
+  },
+  {
+   "chunk_start": 17.908,
+   "chunk_end": 25.004,
+   "text": "Please remember to bring the documents tomorrow. We ordered dinner and waited near the entrance.",
+   "words": [
+    {
+     "word": "Please",
+     "start": 17.908,
+     "end": 18.808,
+     "probability": 0.1613
+    },
+    {
+     "word": "remember",
+     "start": 18.808,
+     "end": 19.388,
+     "probability": 0.9834
+    },
+    {
+     "word": "to",
+     "start": 19.388,
+     "end": 19.728,
+     "probability": 0.9956
+    },
+    {
+     "word": "bring",
+     "start": 19.728,
+     "end": 19.888,
+     "probability": 0.999
+    },
+    {
+     "word": "the",
+     "start": 19.888,
+     "end": 20.248,
+     "probability": 0.8833
+    },
+    {
+     "word": "documents",
+     "start": 20.248,
+     "end": 20.608,
+     "probability": 0.9927
+    },
+    {
+     "word": "tomorrow.",
+     "start": 20.608,
+     "end": 21.168,
+     "probability": 0.9858
+    },
+    {
+     "word": "We",
+     "start": 21.388,
+     "end": 21.808,
+     "probability": 0.9805
+    },
+    {
+     "word": "ordered",
+     "start": 21.808,
+     "end": 22.168,
+     "probability": 0.9761
+    },
+    {
+     "word": "dinner",
+     "start": 22.168,
+     "end": 22.508,
+     "probability": 0.9902
+    },
+    {
+     "word": "and",
+     "start": 22.508,
+     "end": 22.788,
+     "probability": 0.9912
+    },
+    {
+     "word": "waited",
+     "start": 22.788,
+     "end": 23.088,
+     "probability": 0.9976
+    },
+    {
+     "word": "near",
+     "start": 23.088,
+     "end": 23.468,
+     "probability": 0.9961
+    },
+    {
+     "word": "the",
+     "start": 23.468,
+     "end": 23.708,
+     "probability": 0.9985
+    },
+    {
+     "word": "entrance.",
+     "start": 23.708,
+     "end": 24.028,
+     "probability": 0.9966
+    }
+   ]
+  }
+ ]
+}

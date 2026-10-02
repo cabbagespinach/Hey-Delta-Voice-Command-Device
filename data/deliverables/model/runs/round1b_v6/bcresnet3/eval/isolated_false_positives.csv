@@ -1,0 +1,4 @@
+window_id,split,filepath,file_id,start_sec,end_sec,label,window_type,eval_subset,device,source,source_group,category,score,y,predicted
+Manual-Fil-RPI13@-131ms_n,validation,data/positives/Manual-Fil-RPI13.wav,Manual-Fil-RPI13,-0.1313,1.3687,negative,negative_confusable,real_device_rpi,RPI,manual_recording,Manual-Fil-RPI13,negatives_confusable,0.9707706570625305,0,1
+Manual-BG-RPI16@93000ms_n,validation,data/negatives_general/Manual-BG-RPI16.wav,Manual-BG-RPI16,93.0,94.5,negative,negative_real_background,real_device_rpi,RPI,manual_recording,Manual-BG-RPI16,negatives_general,0.86402428150177,0,1
+conf_00539@-361ms_n,validation,data/negatives_confusable/conf_00539.wav,conf_00539,-0.3611,1.1389,negative,negative_confusable,synthetic,synthetic,tts_synthetic_phonetic_nearmiss,syn_conf_00539,negatives_confusable,0.692835807800293,0,1

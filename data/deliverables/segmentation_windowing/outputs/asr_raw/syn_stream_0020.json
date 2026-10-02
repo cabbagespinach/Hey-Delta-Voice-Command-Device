@@ -1,0 +1,313 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0020.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:27:21+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8998692631721497,
+ "chunks": [
+  {
+   "chunk_start": 2.964,
+   "chunk_end": 7.82,
+   "text": "The store closes earlier on weekends. I left the package beside the front door.",
+   "words": [
+    {
+     "word": "The",
+     "start": 2.964,
+     "end": 3.244,
+     "probability": 0.5312
+    },
+    {
+     "word": "store",
+     "start": 3.244,
+     "end": 3.544,
+     "probability": 0.9888
+    },
+    {
+     "word": "closes",
+     "start": 3.544,
+     "end": 3.824,
+     "probability": 0.9507
+    },
+    {
+     "word": "earlier",
+     "start": 3.824,
+     "end": 4.204,
+     "probability": 0.8833
+    },
+    {
+     "word": "on",
+     "start": 4.204,
+     "end": 4.524,
+     "probability": 0.9956
+    },
+    {
+     "word": "weekends.",
+     "start": 4.524,
+     "end": 4.824,
+     "probability": 0.981
+    },
+    {
+     "word": "I",
+     "start": 4.864,
+     "end": 5.064,
+     "probability": 0.9619
+    },
+    {
+     "word": "left",
+     "start": 5.064,
+     "end": 5.344,
+     "probability": 0.9966
+    },
+    {
+     "word": "the",
+     "start": 5.344,
+     "end": 5.544,
+     "probability": 0.9902
+    },
+    {
+     "word": "package",
+     "start": 5.544,
+     "end": 5.944,
+     "probability": 0.9961
+    },
+    {
+     "word": "beside",
+     "start": 5.944,
+     "end": 6.344,
+     "probability": 0.9785
+    },
+    {
+     "word": "the",
+     "start": 6.344,
+     "end": 6.664,
+     "probability": 0.999
+    },
+    {
+     "word": "front",
+     "start": 6.664,
+     "end": 6.864,
+     "probability": 0.9937
+    },
+    {
+     "word": "door.",
+     "start": 6.864,
+     "end": 7.204,
+     "probability": 0.998
+    }
+   ]
+  },
+  {
+   "chunk_start": 9.844,
+   "chunk_end": 14.54,
+   "text": "That sounds like a reasonable idea to me. The children are playing outside in the garden.",
+   "words": [
+    {
+     "word": "That",
+     "start": 9.844,
+     "end": 10.164,
+     "probability": 0.8496
+    },
+    {
+     "word": "sounds",
+     "start": 10.164,
+     "end": 10.484,
+     "probability": 0.998
+    },
+    {
+     "word": "like",
+     "start": 10.484,
+     "end": 10.644,
+     "probability": 0.998
+    },
+    {
+     "word": "a",
+     "start": 10.644,
+     "end": 10.704,
+     "probability": 0.999
+    },
+    {
+     "word": "reasonable",
+     "start": 10.704,
+     "end": 11.104,
+     "probability": 0.9976
+    },
+    {
+     "word": "idea",
+     "start": 11.104,
+     "end": 11.424,
+     "probability": 0.9976
+    },
+    {
+     "word": "to",
+     "start": 11.424,
+     "end": 11.604,
+     "probability": 0.9888
+    },
+    {
+     "word": "me.",
+     "start": 11.604,
+     "end": 11.924,
+     "probability": 0.9985
+    },
+    {
+     "word": "The",
+     "start": 12.024,
+     "end": 12.104,
+     "probability": 0.915
+    },
+    {
+     "word": "children",
+     "start": 12.104,
+     "end": 12.104,
+     "probability": 0.9961
+    },
+    {
+     "word": "are",
+     "start": 12.104,
+     "end": 12.144,
+     "probability": 0.9985
+    },
+    {
+     "word": "playing",
+     "start": 12.144,
+     "end": 12.504,
+     "probability": 0.9995
+    },
+    {
+     "word": "outside",
+     "start": 12.504,
+     "end": 13.064,
+     "probability": 0.999
+    },
+    {
+     "word": "in",
+     "start": 13.064,
+     "end": 13.484,
+     "probability": 0.9971
+    },
+    {
+     "word": "the",
+     "start": 13.484,
+     "end": 13.544,
+     "probability": 0.9995
+    },
+    {
+     "word": "garden.",
+     "start": 13.544,
+     "end": 13.884,
+     "probability": 0.999
+    }
+   ]
+  },
+  {
+   "chunk_start": 21.14,
+   "chunk_end": 23.756,
+   "text": "The children are playing outside in the garden.",
+   "words": [
+    {
+     "word": "The",
+     "start": 21.14,
+     "end": 21.46,
+     "probability": 0.7666
+    },
+    {
+     "word": "children",
+     "start": 21.46,
+     "end": 21.72,
+     "probability": 0.9736
+    },
+    {
+     "word": "are",
+     "start": 21.72,
+     "end": 21.9,
+     "probability": 0.9961
+    },
+    {
+     "word": "playing",
+     "start": 21.9,
+     "end": 22.14,
+     "probability": 0.9985
+    },
+    {
+     "word": "outside",
+     "start": 22.14,
+     "end": 22.58,
+     "probability": 0.9951
+    },
+    {
+     "word": "in",
+     "start": 22.58,
+     "end": 22.92,
+     "probability": 0.665
+    },
+    {
+     "word": "the",
+     "start": 22.92,
+     "end": 23.0,
+     "probability": 0.9971
+    },
+    {
+     "word": "garden.",
+     "start": 23.0,
+     "end": 23.24,
+     "probability": 0.9941
+    }
+   ]
+  },
+  {
+   "chunk_start": 27.604,
+   "chunk_end": 30.0,
+   "text": "There are several things we need to discuss.",
+   "words": [
+    {
+     "word": "There",
+     "start": 27.604,
+     "end": 27.944,
+     "probability": 0.7925
+    },
+    {
+     "word": "are",
+     "start": 27.944,
+     "end": 28.064,
+     "probability": 0.998
+    },
+    {
+     "word": "several",
+     "start": 28.064,
+     "end": 28.404,
+     "probability": 0.9976
+    },
+    {
+     "word": "things",
+     "start": 28.404,
+     "end": 28.644,
+     "probability": 0.9971
+    },
+    {
+     "word": "we",
+     "start": 28.644,
+     "end": 28.964,
+     "probability": 0.9863
+    },
+    {
+     "word": "need",
+     "start": 28.964,
+     "end": 29.144,
+     "probability": 0.9971
+    },
+    {
+     "word": "to",
+     "start": 29.144,
+     "end": 29.264,
+     "probability": 0.999
+    },
+    {
+     "word": "discuss.",
+     "start": 29.264,
+     "end": 29.584,
+     "probability": 0.9971
+    }
+   ]
+  }
+ ]
+}

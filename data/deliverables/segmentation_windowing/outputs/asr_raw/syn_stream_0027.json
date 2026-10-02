@@ -1,0 +1,119 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0027.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:27:31+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8905047178268433,
+ "chunks": [
+  {
+   "chunk_start": 1.556,
+   "chunk_end": 6.028,
+   "text": "The meeting starts in about 10 minutes or closes earlier on weekends.",
+   "words": [
+    {
+     "word": "The",
+     "start": 1.556,
+     "end": 1.976,
+     "probability": 0.5063
+    },
+    {
+     "word": "meeting",
+     "start": 1.976,
+     "end": 2.096,
+     "probability": 0.9883
+    },
+    {
+     "word": "starts",
+     "start": 2.096,
+     "end": 2.436,
+     "probability": 0.9893
+    },
+    {
+     "word": "in",
+     "start": 2.436,
+     "end": 2.736,
+     "probability": 0.9922
+    },
+    {
+     "word": "about",
+     "start": 2.736,
+     "end": 2.956,
+     "probability": 0.9912
+    },
+    {
+     "word": "10",
+     "start": 2.956,
+     "end": 3.216,
+     "probability": 0.7534
+    },
+    {
+     "word": "minutes",
+     "start": 3.216,
+     "end": 3.516,
+     "probability": 0.9404
+    },
+    {
+     "word": "or",
+     "start": 3.516,
+     "end": 3.816,
+     "probability": 0.095
+    },
+    {
+     "word": "closes",
+     "start": 3.816,
+     "end": 4.096,
+     "probability": 0.9907
+    },
+    {
+     "word": "earlier",
+     "start": 4.096,
+     "end": 4.516,
+     "probability": 0.9697
+    },
+    {
+     "word": "on",
+     "start": 4.516,
+     "end": 4.896,
+     "probability": 0.9971
+    },
+    {
+     "word": "weekends.",
+     "start": 4.896,
+     "end": 5.156,
+     "probability": 0.9966
+    }
+   ]
+  },
+  {
+   "chunk_start": 21.3,
+   "chunk_end": 25.708,
+   "text": "Let us compare them.",
+   "words": [
+    {
+     "word": "Let",
+     "start": 21.3,
+     "end": 21.68,
+     "probability": 0.8315
+    },
+    {
+     "word": "us",
+     "start": 21.68,
+     "end": 21.8,
+     "probability": 0.9697
+    },
+    {
+     "word": "compare",
+     "start": 21.8,
+     "end": 22.2,
+     "probability": 0.9966
+    },
+    {
+     "word": "them.",
+     "start": 22.2,
+     "end": 22.46,
+     "probability": 0.7212
+    }
+   ]
+  }
+ ]
+}

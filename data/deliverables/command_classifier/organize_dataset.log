@@ -1,0 +1,116 @@
+excluded: {'fragments_web_slurp': 321, 'fragments_web_tas': 61, 'other_speakers': 158, 'reuse_mswc': 666, 'web_fsc': 6403, 'web_slurp': 2483, 'web_tas': 1561}
+label
+alarm_6am                  837
+alarm_9pm                  860
+brightness_20              842
+call                       818
+create_reminder_study      759
+light_off                 1366
+light_on                  1348
+list_reminders             836
+message                    768
+next                      1483
+pause                      706
+play_music                 884
+stop                       639
+temperature_18             885
+temperature_22             882
+temperature_26             831
+time                       861
+timer_1min                 892
+unknown                  14502
+volume_down                962
+volume_up                 1392
+weather                    994
+total 34347
+source          description                   
+fleurs          speech                             594
+musan           music                              400
+                noise                              930
+                speech                             193
+owner                                              403
+                fragment                           279
+                nearmiss-dim-lights-50              17
+                nearmiss-dim-lights-80              19
+                nearmiss-party                      22
+                nearmiss-play                       24
+                nearmiss-remind-trash               18
+                nearmiss-set-alarm-7am              18
+                nearmiss-set-timer-10               19
+                nearmiss-set-timer-5                17
+                other                               26
+                room                               861
+                silent                              25
+owner-vc                                          1089
+                nearmiss-dim-lights-50              78
+                nearmiss-dim-lights-80              89
+                nearmiss-remind-trash               47
+                nearmiss-set-alarm-7am              58
+                nearmiss-set-timer-10              105
+                nearmiss-set-timer-5               112
+tts-chatterbox                                    3315
+                fragment                           323
+                nearmiss-dim-lights-50             145
+                nearmiss-dim-lights-80             142
+                nearmiss-party                     150
+                nearmiss-play                      138
+                nearmiss-remind-trash              149
+                nearmiss-set-alarm-7am             150
+                nearmiss-set-timer-10              150
+                nearmiss-set-timer-5               150
+                other                              382
+                silent                             150
+                variant                           1766
+                variant-nearmiss-dim-lights-50      69
+                variant-nearmiss-dim-lights-80      72
+                variant-nearmiss-party              69
+                variant-nearmiss-play               62
+                variant-nearmiss-remind-trash       50
+                variant-nearmiss-set-alarm-7am      69
+                variant-nearmiss-set-timer-10       81
+                variant-nearmiss-set-timer-5        72
+                variant-other                      593
+tts-edge                                           790
+                fragment                           328
+                nearmiss-dim-lights-50              36
+                nearmiss-dim-lights-80              36
+                nearmiss-party                      36
+                nearmiss-play                       22
+                nearmiss-remind-trash               36
+                nearmiss-set-alarm-7am              36
+                nearmiss-set-timer-10               36
+                nearmiss-set-timer-5                36
+                other                               95
+                silent                              36
+                variant                           3104
+                variant-nearmiss-dim-lights-50     120
+                variant-nearmiss-dim-lights-80     120
+                variant-nearmiss-party             120
+                variant-nearmiss-play              140
+                variant-nearmiss-remind-trash       90
+                variant-nearmiss-set-alarm-7am     112
+                variant-nearmiss-set-timer-10      120
+                variant-nearmiss-set-timer-5       120
+                variant-other                      623
+tts-piper                                         3161
+                fragment                           325
+                nearmiss-dim-lights-50             145
+                nearmiss-dim-lights-80             146
+                nearmiss-party                     144
+                nearmiss-play                      135
+                nearmiss-remind-trash              148
+                nearmiss-set-alarm-7am             148
+                nearmiss-set-timer-10              150
+                nearmiss-set-timer-5               150
+                other                              401
+                silent                             150
+                variant                           6171
+                variant-nearmiss-dim-lights-50     238
+                variant-nearmiss-dim-lights-80     234
+                variant-nearmiss-party             232
+                variant-nearmiss-play              251
+                variant-nearmiss-remind-trash      178
+                variant-nearmiss-set-alarm-7am     238
+                variant-nearmiss-set-timer-10      240
+                variant-nearmiss-set-timer-5       238
+                variant-other                     1242

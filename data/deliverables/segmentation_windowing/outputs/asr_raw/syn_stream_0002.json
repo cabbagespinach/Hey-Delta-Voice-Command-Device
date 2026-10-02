@@ -1,0 +1,278 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0002.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:26:55+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8883765935897827,
+ "chunks": [
+  {
+   "chunk_start": 1.972,
+   "chunk_end": 5.452,
+   "text": "I left the package beside the front door.",
+   "words": [
+    {
+     "word": "I",
+     "start": 2.632,
+     "end": 3.152,
+     "probability": 0.4438
+    },
+    {
+     "word": "left",
+     "start": 3.152,
+     "end": 3.452,
+     "probability": 0.9849
+    },
+    {
+     "word": "the",
+     "start": 3.452,
+     "end": 3.492,
+     "probability": 0.959
+    },
+    {
+     "word": "package",
+     "start": 3.492,
+     "end": 3.832,
+     "probability": 0.5913
+    },
+    {
+     "word": "beside",
+     "start": 3.832,
+     "end": 4.272,
+     "probability": 0.9722
+    },
+    {
+     "word": "the",
+     "start": 4.272,
+     "end": 4.472,
+     "probability": 0.9985
+    },
+    {
+     "word": "front",
+     "start": 4.472,
+     "end": 4.712,
+     "probability": 0.9946
+    },
+    {
+     "word": "door.",
+     "start": 4.712,
+     "end": 4.972,
+     "probability": 0.998
+    }
+   ]
+  },
+  {
+   "chunk_start": 9.46,
+   "chunk_end": 14.348,
+   "text": "There are several things we need to discuss.",
+   "words": [
+    {
+     "word": "There",
+     "start": 9.46,
+     "end": 9.82,
+     "probability": 0.7295
+    },
+    {
+     "word": "are",
+     "start": 9.82,
+     "end": 9.94,
+     "probability": 0.9971
+    },
+    {
+     "word": "several",
+     "start": 9.94,
+     "end": 10.32,
+     "probability": 0.9971
+    },
+    {
+     "word": "things",
+     "start": 10.32,
+     "end": 10.68,
+     "probability": 0.9961
+    },
+    {
+     "word": "we",
+     "start": 10.68,
+     "end": 11.04,
+     "probability": 0.9863
+    },
+    {
+     "word": "need",
+     "start": 11.04,
+     "end": 11.36,
+     "probability": 0.9976
+    },
+    {
+     "word": "to",
+     "start": 11.36,
+     "end": 11.58,
+     "probability": 0.9961
+    },
+    {
+     "word": "discuss.",
+     "start": 11.58,
+     "end": 11.78,
+     "probability": 0.9946
+    }
+   ]
+  },
+  {
+   "chunk_start": 14.516,
+   "chunk_end": 17.388,
+   "text": "There are several things we need to discuss.",
+   "words": [
+    {
+     "word": "There",
+     "start": 14.516,
+     "end": 14.916,
+     "probability": 0.8262
+    },
+    {
+     "word": "are",
+     "start": 14.916,
+     "end": 15.056,
+     "probability": 0.9995
+    },
+    {
+     "word": "several",
+     "start": 15.056,
+     "end": 15.416,
+     "probability": 0.999
+    },
+    {
+     "word": "things",
+     "start": 15.416,
+     "end": 15.716,
+     "probability": 0.9995
+    },
+    {
+     "word": "we",
+     "start": 15.716,
+     "end": 15.996,
+     "probability": 0.9956
+    },
+    {
+     "word": "need",
+     "start": 15.996,
+     "end": 16.176,
+     "probability": 0.9995
+    },
+    {
+     "word": "to",
+     "start": 16.176,
+     "end": 16.296,
+     "probability": 1.0
+    },
+    {
+     "word": "discuss.",
+     "start": 16.296,
+     "end": 16.596,
+     "probability": 0.9995
+    }
+   ]
+  },
+  {
+   "chunk_start": 18.196,
+   "chunk_end": 21.968,
+   "text": "We ordered dinner and waited near the entrance.",
+   "words": [
+    {
+     "word": "We",
+     "start": 18.196,
+     "end": 18.956,
+     "probability": 0.0442
+    },
+    {
+     "word": "ordered",
+     "start": 18.956,
+     "end": 19.256,
+     "probability": 0.9902
+    },
+    {
+     "word": "dinner",
+     "start": 19.256,
+     "end": 19.736,
+     "probability": 0.9932
+    },
+    {
+     "word": "and",
+     "start": 19.736,
+     "end": 20.036,
+     "probability": 0.978
+    },
+    {
+     "word": "waited",
+     "start": 20.036,
+     "end": 20.316,
+     "probability": 0.9976
+    },
+    {
+     "word": "near",
+     "start": 20.316,
+     "end": 20.616,
+     "probability": 0.9946
+    },
+    {
+     "word": "the",
+     "start": 20.616,
+     "end": 20.836,
+     "probability": 0.9985
+    },
+    {
+     "word": "entrance.",
+     "start": 20.836,
+     "end": 21.196,
+     "probability": 0.9961
+    }
+   ]
+  },
+  {
+   "chunk_start": 21.968,
+   "chunk_end": 24.652,
+   "text": "We never thought we'd have one today.",
+   "words": [
+    {
+     "word": "We",
+     "start": 21.968,
+     "end": 22.248,
+     "probability": 0.0396
+    },
+    {
+     "word": "never",
+     "start": 22.248,
+     "end": 22.608,
+     "probability": 0.1409
+    },
+    {
+     "word": "thought",
+     "start": 22.608,
+     "end": 23.108,
+     "probability": 0.541
+    },
+    {
+     "word": "we'd",
+     "start": 23.108,
+     "end": 23.408,
+     "probability": 0.9165
+    },
+    {
+     "word": "have",
+     "start": 23.408,
+     "end": 23.688,
+     "probability": 0.811
+    },
+    {
+     "word": "one",
+     "start": 23.688,
+     "end": 24.168,
+     "probability": 0.1748
+    },
+    {
+     "word": "today.",
+     "start": 24.168,
+     "end": 24.528,
+     "probability": 0.2612
+    }
+   ]
+  }
+ ]
+}

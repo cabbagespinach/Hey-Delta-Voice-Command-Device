@@ -1,0 +1,34 @@
+# Recording prompts: label | words to say. The label becomes the folder name; label_map.csv gives the class.
+play_music | Play music
+weather | What's the weather?
+time | What time is it?
+lights_on | Turn on lights
+lights_off | Turn off lights
+dim_lights_20 | Dim lights to 20%
+dim_lights_50 | Dim lights to 50%
+dim_lights_80 | Dim lights to 80%
+set_timer_1 | Set a timer for 1 minute
+set_timer_5 | Set a timer for 5 minutes
+set_timer_10 | Set a timer for 10 minutes
+set_alarm_6am | Set an alarm at 6 AM
+set_alarm_7am | Set an alarm at 7 AM
+set_alarm_9pm | Set an alarm at 9 PM
+set_temperature_18 | Set temperature to 18 degrees
+set_temperature_22 | Set temperature to 22 degrees
+set_temperature_26 | Set temperature to 26 degrees
+pause | Pause
+stop | Stop
+next | Next
+skip | Skip
+volume_up | Volume up
+louder | Louder
+volume_down | Volume down
+remind_trash | Remind me to take out the trash
+remind_study | Remind me to study for my exam
+list_reminders | What are my reminders?
+call_jane | Call Jane
+text_jane | Text Jane
+play | Play
+party | Party party
+unknown_silent | (say nothing after Hey Delta)
+unknown_other | (say something that is NOT a command)

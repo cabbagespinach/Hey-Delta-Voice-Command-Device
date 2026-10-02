@@ -1,0 +1,39 @@
+{
+  "reference": "gt_whole_clip (energy-trimmed TTS positives)",
+  "n": 39,
+  "excluded_not_speech_tight": 559,
+  "asr_recall_exact": {
+    "gt_insertions": "59/128",
+    "gt_whole_clip": "598/675"
+  },
+  "asr_raw": {
+    "n": 39,
+    "required_pre_sec": 0.0,
+    "required_post_sec": 0.5078,
+    "start_error_quantiles": {
+      "0.05": -0.281,
+      "0.5": -0.0798,
+      "0.95": -0.02
+    },
+    "end_error_quantiles": {
+      "0.05": -0.439,
+      "0.5": -0.3583,
+      "0.95": -0.2799
+    }
+  },
+  "asr_energy_refined": {
+    "n": 39,
+    "required_pre_sec": 0.0802,
+    "required_post_sec": 0.3778,
+    "start_error_quantiles": {
+      "0.05": 0.0202,
+      "0.5": 0.04,
+      "0.95": 0.0621
+    },
+    "end_error_quantiles": {
+      "0.05": -0.3297,
+      "0.5": -0.04,
+      "0.95": -0.0186
+    }
+  }
+}

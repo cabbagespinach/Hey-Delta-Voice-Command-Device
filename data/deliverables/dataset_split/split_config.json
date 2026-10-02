@@ -1,0 +1,15 @@
+{
+  "seed": 20260925,
+  "ratios": {
+    "train": 0.8,
+    "validation": 0.1,
+    "test": 0.1
+  },
+  "input": "manifestfile(1).csv",
+  "split_unit": "source_group",
+  "source_group_rule": "If parent_filepath is present, source_group is the parent's recording_id; otherwise source_group is the row's recording_id.",
+  "positive_group_policy": "Largest positive source group -> test; second-largest -> validation; remaining positive source groups -> train.",
+  "remaining_group_policy": "Deterministic largest-first greedy assignment minimizing normalized deviation from overall and per-category targets.",
+  "session_id_policy": "NA: no session_id field exists in the input manifest.",
+  "speaker_policy": "Preserve speaker_id exactly after whitespace normalization; composite IDs remain composite. Speaker-level separation is reported but not forced because the available composite speaker IDs form one connected component."
+}

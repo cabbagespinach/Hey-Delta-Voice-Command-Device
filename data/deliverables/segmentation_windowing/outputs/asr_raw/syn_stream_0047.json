@@ -1,0 +1,381 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0047.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:28:04+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.9009182453155518,
+ "chunks": [
+  {
+   "chunk_start": 4.148,
+   "chunk_end": 8.64,
+   "text": "The meeting starts in about 10 minutes. The weather is changing again this afternoon.",
+   "words": [
+    {
+     "word": "The",
+     "start": 4.148,
+     "end": 4.468,
+     "probability": 0.8486
+    },
+    {
+     "word": "meeting",
+     "start": 4.468,
+     "end": 4.708,
+     "probability": 0.9932
+    },
+    {
+     "word": "starts",
+     "start": 4.708,
+     "end": 5.048,
+     "probability": 0.998
+    },
+    {
+     "word": "in",
+     "start": 5.048,
+     "end": 5.348,
+     "probability": 0.9976
+    },
+    {
+     "word": "about",
+     "start": 5.348,
+     "end": 5.588,
+     "probability": 0.9951
+    },
+    {
+     "word": "10",
+     "start": 5.588,
+     "end": 5.948,
+     "probability": 0.8838
+    },
+    {
+     "word": "minutes.",
+     "start": 5.948,
+     "end": 6.228,
+     "probability": 0.9893
+    },
+    {
+     "word": "The",
+     "start": 6.308,
+     "end": 6.448,
+     "probability": 0.9888
+    },
+    {
+     "word": "weather",
+     "start": 6.448,
+     "end": 6.608,
+     "probability": 0.999
+    },
+    {
+     "word": "is",
+     "start": 6.608,
+     "end": 6.788,
+     "probability": 0.999
+    },
+    {
+     "word": "changing",
+     "start": 6.788,
+     "end": 7.068,
+     "probability": 0.9995
+    },
+    {
+     "word": "again",
+     "start": 7.068,
+     "end": 7.448,
+     "probability": 0.9985
+    },
+    {
+     "word": "this",
+     "start": 7.448,
+     "end": 7.688,
+     "probability": 0.998
+    },
+    {
+     "word": "afternoon.",
+     "start": 7.688,
+     "end": 8.008,
+     "probability": 0.9995
+    }
+   ]
+  },
+  {
+   "chunk_start": 8.64,
+   "chunk_end": 10.064,
+   "text": "Hey, shake that.",
+   "words": [
+    {
+     "word": "Hey,",
+     "start": 8.64,
+     "end": 9.02,
+     "probability": 0.4849
+    },
+    {
+     "word": "shake",
+     "start": 9.04,
+     "end": 9.32,
+     "probability": 0.0493
+    },
+    {
+     "word": "that.",
+     "start": 9.32,
+     "end": 9.68,
+     "probability": 0.5864
+    }
+   ]
+  },
+  {
+   "chunk_start": 10.064,
+   "chunk_end": 12.044,
+   "text": "We can take the train after lunch.",
+   "words": [
+    {
+     "word": "We",
+     "start": 10.064,
+     "end": 10.264,
+     "probability": 0.688
+    },
+    {
+     "word": "can",
+     "start": 10.264,
+     "end": 10.404,
+     "probability": 0.9961
+    },
+    {
+     "word": "take",
+     "start": 10.404,
+     "end": 10.584,
+     "probability": 0.9961
+    },
+    {
+     "word": "the",
+     "start": 10.584,
+     "end": 10.724,
+     "probability": 0.9902
+    },
+    {
+     "word": "train",
+     "start": 10.724,
+     "end": 10.904,
+     "probability": 0.9902
+    },
+    {
+     "word": "after",
+     "start": 10.904,
+     "end": 11.164,
+     "probability": 0.9961
+    },
+    {
+     "word": "lunch.",
+     "start": 11.164,
+     "end": 11.444,
+     "probability": 0.9961
+    }
+   ]
+  },
+  {
+   "chunk_start": 12.276,
+   "chunk_end": 18.252,
+   "text": "There are several things we need to discuss. The meeting starts in about 10 minutes.",
+   "words": [
+    {
+     "word": "There",
+     "start": 12.276,
+     "end": 12.716,
+     "probability": 0.2479
+    },
+    {
+     "word": "are",
+     "start": 12.716,
+     "end": 13.576,
+     "probability": 0.9717
+    },
+    {
+     "word": "several",
+     "start": 13.576,
+     "end": 14.036,
+     "probability": 0.9775
+    },
+    {
+     "word": "things",
+     "start": 14.036,
+     "end": 14.316,
+     "probability": 0.9961
+    },
+    {
+     "word": "we",
+     "start": 14.316,
+     "end": 14.616,
+     "probability": 0.9712
+    },
+    {
+     "word": "need",
+     "start": 14.616,
+     "end": 14.836,
+     "probability": 0.9858
+    },
+    {
+     "word": "to",
+     "start": 14.836,
+     "end": 14.936,
+     "probability": 0.999
+    },
+    {
+     "word": "discuss.",
+     "start": 14.936,
+     "end": 15.296,
+     "probability": 0.9985
+    },
+    {
+     "word": "The",
+     "start": 15.316,
+     "end": 15.416,
+     "probability": 0.9648
+    },
+    {
+     "word": "meeting",
+     "start": 15.416,
+     "end": 15.756,
+     "probability": 0.9717
+    },
+    {
+     "word": "starts",
+     "start": 15.756,
+     "end": 16.296,
+     "probability": 0.9937
+    },
+    {
+     "word": "in",
+     "start": 16.296,
+     "end": 16.596,
+     "probability": 0.9028
+    },
+    {
+     "word": "about",
+     "start": 16.596,
+     "end": 16.876,
+     "probability": 0.9922
+    },
+    {
+     "word": "10",
+     "start": 16.876,
+     "end": 17.136,
+     "probability": 0.6812
+    },
+    {
+     "word": "minutes.",
+     "start": 17.136,
+     "end": 17.216,
+     "probability": 0.9941
+    }
+   ]
+  },
+  {
+   "chunk_start": 18.58,
+   "chunk_end": 23.212,
+   "text": "This recording is only being used as synthetic data.",
+   "words": [
+    {
+     "word": "This",
+     "start": 18.58,
+     "end": 18.96,
+     "probability": 0.7432
+    },
+    {
+     "word": "recording",
+     "start": 18.96,
+     "end": 19.5,
+     "probability": 0.9927
+    },
+    {
+     "word": "is",
+     "start": 19.5,
+     "end": 19.84,
+     "probability": 0.998
+    },
+    {
+     "word": "only",
+     "start": 19.84,
+     "end": 20.12,
+     "probability": 0.9932
+    },
+    {
+     "word": "being",
+     "start": 20.12,
+     "end": 20.46,
+     "probability": 0.9873
+    },
+    {
+     "word": "used",
+     "start": 20.46,
+     "end": 20.92,
+     "probability": 0.9985
+    },
+    {
+     "word": "as",
+     "start": 20.92,
+     "end": 21.28,
+     "probability": 0.9868
+    },
+    {
+     "word": "synthetic",
+     "start": 21.28,
+     "end": 21.78,
+     "probability": 0.9595
+    },
+    {
+     "word": "data.",
+     "start": 21.78,
+     "end": 22.24,
+     "probability": 0.9609
+    }
+   ]
+  },
+  {
+   "chunk_start": 24.628,
+   "chunk_end": 27.404,
+   "text": "Please remember to bring the documents tomorrow.",
+   "words": [
+    {
+     "word": "Please",
+     "start": 24.628,
+     "end": 25.008,
+     "probability": 0.9346
+    },
+    {
+     "word": "remember",
+     "start": 25.008,
+     "end": 25.348,
+     "probability": 0.9829
+    },
+    {
+     "word": "to",
+     "start": 25.348,
+     "end": 25.628,
+     "probability": 0.9966
+    },
+    {
+     "word": "bring",
+     "start": 25.628,
+     "end": 25.788,
+     "probability": 0.9995
+    },
+    {
+     "word": "the",
+     "start": 25.788,
+     "end": 25.928,
+     "probability": 0.9922
+    },
+    {
+     "word": "documents",
+     "start": 25.928,
+     "end": 26.328,
+     "probability": 0.9932
+    },
+    {
+     "word": "tomorrow.",
+     "start": 26.328,
+     "end": 26.748,
+     "probability": 0.9912
+    }
+   ]
+  }
+ ]
+}

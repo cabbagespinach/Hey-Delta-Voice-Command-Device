@@ -1,0 +1,345 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0090.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:29:08+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.9006996154785156,
+ "chunks": [
+  {
+   "chunk_start": 0.0,
+   "chunk_end": 5.932,
+   "text": "A battery should last for another hour.",
+   "words": [
+    {
+     "word": "A",
+     "start": 0.0,
+     "end": 0.26,
+     "probability": 0.0412
+    },
+    {
+     "word": "battery",
+     "start": 0.26,
+     "end": 3.34,
+     "probability": 0.9561
+    },
+    {
+     "word": "should",
+     "start": 3.34,
+     "end": 3.76,
+     "probability": 0.979
+    },
+    {
+     "word": "last",
+     "start": 3.76,
+     "end": 4.14,
+     "probability": 0.9976
+    },
+    {
+     "word": "for",
+     "start": 4.14,
+     "end": 4.48,
+     "probability": 0.9883
+    },
+    {
+     "word": "another",
+     "start": 4.48,
+     "end": 4.76,
+     "probability": 0.9937
+    },
+    {
+     "word": "hour.",
+     "start": 4.76,
+     "end": 5.28,
+     "probability": 0.9976
+    }
+   ]
+  },
+  {
+   "chunk_start": 6.388,
+   "chunk_end": 7.788,
+   "text": "Hey, Delta.",
+   "words": [
+    {
+     "word": "Hey,",
+     "start": 6.388,
+     "end": 6.788,
+     "probability": 0.5938
+    },
+    {
+     "word": "Delta.",
+     "start": 6.868,
+     "end": 7.108,
+     "probability": 0.4858
+    }
+   ]
+  },
+  {
+   "chunk_start": 13.268,
+   "chunk_end": 16.94,
+   "text": "I forgot where I put the cheese this morning. You should probably check the schedule first.",
+   "words": [
+    {
+     "word": "I",
+     "start": 13.268,
+     "end": 13.588,
+     "probability": 0.8384
+    },
+    {
+     "word": "forgot",
+     "start": 13.588,
+     "end": 13.828,
+     "probability": 0.9697
+    },
+    {
+     "word": "where",
+     "start": 13.828,
+     "end": 14.128,
+     "probability": 0.9961
+    },
+    {
+     "word": "I",
+     "start": 14.128,
+     "end": 14.228,
+     "probability": 0.9683
+    },
+    {
+     "word": "put",
+     "start": 14.228,
+     "end": 14.348,
+     "probability": 0.9922
+    },
+    {
+     "word": "the",
+     "start": 14.348,
+     "end": 14.508,
+     "probability": 0.9893
+    },
+    {
+     "word": "cheese",
+     "start": 14.508,
+     "end": 14.748,
+     "probability": 0.8423
+    },
+    {
+     "word": "this",
+     "start": 14.748,
+     "end": 14.948,
+     "probability": 0.9873
+    },
+    {
+     "word": "morning.",
+     "start": 14.948,
+     "end": 15.308,
+     "probability": 0.9663
+    },
+    {
+     "word": "You",
+     "start": 15.388,
+     "end": 15.388,
+     "probability": 0.366
+    },
+    {
+     "word": "should",
+     "start": 15.388,
+     "end": 15.388,
+     "probability": 0.9731
+    },
+    {
+     "word": "probably",
+     "start": 15.388,
+     "end": 15.388,
+     "probability": 0.9956
+    },
+    {
+     "word": "check",
+     "start": 15.388,
+     "end": 15.388,
+     "probability": 0.9956
+    },
+    {
+     "word": "the",
+     "start": 15.388,
+     "end": 15.588,
+     "probability": 0.9927
+    },
+    {
+     "word": "schedule",
+     "start": 15.588,
+     "end": 15.948,
+     "probability": 0.999
+    },
+    {
+     "word": "first.",
+     "start": 15.948,
+     "end": 16.228,
+     "probability": 0.999
+    }
+   ]
+  },
+  {
+   "chunk_start": 17.556,
+   "chunk_end": 20.428,
+   "text": "There are several things we need to discuss.",
+   "words": [
+    {
+     "word": "There",
+     "start": 17.556,
+     "end": 17.876,
+     "probability": 0.8423
+    },
+    {
+     "word": "are",
+     "start": 17.876,
+     "end": 17.976,
+     "probability": 0.9941
+    },
+    {
+     "word": "several",
+     "start": 17.976,
+     "end": 18.236,
+     "probability": 0.999
+    },
+    {
+     "word": "things",
+     "start": 18.236,
+     "end": 18.576,
+     "probability": 0.998
+    },
+    {
+     "word": "we",
+     "start": 18.576,
+     "end": 18.996,
+     "probability": 0.9839
+    },
+    {
+     "word": "need",
+     "start": 18.996,
+     "end": 19.216,
+     "probability": 0.998
+    },
+    {
+     "word": "to",
+     "start": 19.216,
+     "end": 19.376,
+     "probability": 0.9995
+    },
+    {
+     "word": "discuss.",
+     "start": 19.376,
+     "end": 19.696,
+     "probability": 0.998
+    }
+   ]
+  },
+  {
+   "chunk_start": 21.044,
+   "chunk_end": 22.284,
+   "text": "Hey Delta!",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 21.044,
+     "end": 21.404,
+     "probability": 0.8682
+    },
+    {
+     "word": "Delta!",
+     "start": 21.404,
+     "end": 21.624,
+     "probability": 0.9355
+    }
+   ]
+  },
+  {
+   "chunk_start": 23.86,
+   "chunk_end": 29.42,
+   "text": "The store closes earlier on the weekends. The next episode starts after Tatum Merciel.",
+   "words": [
+    {
+     "word": "The",
+     "start": 23.86,
+     "end": 24.12,
+     "probability": 0.7173
+    },
+    {
+     "word": "store",
+     "start": 24.12,
+     "end": 24.44,
+     "probability": 0.7349
+    },
+    {
+     "word": "closes",
+     "start": 24.44,
+     "end": 24.96,
+     "probability": 0.9907
+    },
+    {
+     "word": "earlier",
+     "start": 24.96,
+     "end": 25.48,
+     "probability": 0.958
+    },
+    {
+     "word": "on",
+     "start": 25.48,
+     "end": 25.94,
+     "probability": 0.9805
+    },
+    {
+     "word": "the",
+     "start": 25.94,
+     "end": 26.04,
+     "probability": 0.585
+    },
+    {
+     "word": "weekends.",
+     "start": 26.04,
+     "end": 26.48,
+     "probability": 0.9688
+    },
+    {
+     "word": "The",
+     "start": 26.54,
+     "end": 26.6,
+     "probability": 0.915
+    },
+    {
+     "word": "next",
+     "start": 26.6,
+     "end": 26.6,
+     "probability": 0.9907
+    },
+    {
+     "word": "episode",
+     "start": 26.6,
+     "end": 26.98,
+     "probability": 0.9761
+    },
+    {
+     "word": "starts",
+     "start": 26.98,
+     "end": 27.24,
+     "probability": 0.9419
+    },
+    {
+     "word": "after",
+     "start": 27.24,
+     "end": 27.84,
+     "probability": 0.9961
+    },
+    {
+     "word": "Tatum",
+     "start": 27.84,
+     "end": 28.44,
+     "probability": 0.6733
+    },
+    {
+     "word": "Merciel.",
+     "start": 28.44,
+     "end": 28.94,
+     "probability": 0.3147
+    }
+   ]
+  }
+ ]
+}

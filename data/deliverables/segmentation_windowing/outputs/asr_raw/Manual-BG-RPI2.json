@@ -1,0 +1,28 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/negatives_general/Manual-BG-RPI2.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:26:08+00:00",
+ "duration_sec": 3.082666666666667,
+ "input_peak": 0.0,
+ "chunks": [
+  {
+   "chunk_start": 0.0,
+   "chunk_end": 3.083,
+   "text": "Thank you.",
+   "words": [
+    {
+     "word": "Thank",
+     "start": 1.66,
+     "end": 3.06,
+     "probability": 0.2046
+    },
+    {
+     "word": "you.",
+     "start": 3.06,
+     "end": 3.06,
+     "probability": 0.999
+    }
+   ]
+  }
+ ]
+}

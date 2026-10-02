@@ -1,0 +1,288 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0098.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:29:22+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.9000611901283264,
+ "chunks": [
+  {
+   "chunk_start": 6.772,
+   "chunk_end": 16.908,
+   "text": "The battery should last for another hour. There are several things we need to discuss for a quiet place to work. Let us compare the two options carefully.",
+   "words": [
+    {
+     "word": "The",
+     "start": 6.772,
+     "end": 7.072,
+     "probability": 0.2249
+    },
+    {
+     "word": "battery",
+     "start": 7.072,
+     "end": 7.412,
+     "probability": 0.9531
+    },
+    {
+     "word": "should",
+     "start": 7.412,
+     "end": 7.872,
+     "probability": 0.3884
+    },
+    {
+     "word": "last",
+     "start": 7.872,
+     "end": 8.192,
+     "probability": 0.9644
+    },
+    {
+     "word": "for",
+     "start": 8.192,
+     "end": 8.372,
+     "probability": 0.894
+    },
+    {
+     "word": "another",
+     "start": 8.372,
+     "end": 8.572,
+     "probability": 0.8755
+    },
+    {
+     "word": "hour.",
+     "start": 8.572,
+     "end": 9.032,
+     "probability": 0.9956
+    },
+    {
+     "word": "There",
+     "start": 9.672,
+     "end": 9.932,
+     "probability": 0.6294
+    },
+    {
+     "word": "are",
+     "start": 9.932,
+     "end": 9.932,
+     "probability": 0.9868
+    },
+    {
+     "word": "several",
+     "start": 9.932,
+     "end": 10.172,
+     "probability": 0.9229
+    },
+    {
+     "word": "things",
+     "start": 10.172,
+     "end": 10.632,
+     "probability": 0.9956
+    },
+    {
+     "word": "we",
+     "start": 10.632,
+     "end": 11.012,
+     "probability": 0.9766
+    },
+    {
+     "word": "need",
+     "start": 11.012,
+     "end": 11.252,
+     "probability": 0.9941
+    },
+    {
+     "word": "to",
+     "start": 11.252,
+     "end": 11.532,
+     "probability": 0.999
+    },
+    {
+     "word": "discuss",
+     "start": 11.532,
+     "end": 11.952,
+     "probability": 0.9829
+    },
+    {
+     "word": "for",
+     "start": 11.952,
+     "end": 12.232,
+     "probability": 0.0434
+    },
+    {
+     "word": "a",
+     "start": 12.232,
+     "end": 12.252,
+     "probability": 0.9932
+    },
+    {
+     "word": "quiet",
+     "start": 12.252,
+     "end": 12.492,
+     "probability": 0.9854
+    },
+    {
+     "word": "place",
+     "start": 12.492,
+     "end": 12.772,
+     "probability": 0.999
+    },
+    {
+     "word": "to",
+     "start": 12.772,
+     "end": 13.112,
+     "probability": 0.9976
+    },
+    {
+     "word": "work.",
+     "start": 13.112,
+     "end": 13.412,
+     "probability": 0.9995
+    },
+    {
+     "word": "Let",
+     "start": 13.612,
+     "end": 13.792,
+     "probability": 0.8081
+    },
+    {
+     "word": "us",
+     "start": 13.792,
+     "end": 13.972,
+     "probability": 0.5332
+    },
+    {
+     "word": "compare",
+     "start": 13.972,
+     "end": 14.372,
+     "probability": 0.4609
+    },
+    {
+     "word": "the",
+     "start": 14.372,
+     "end": 14.692,
+     "probability": 0.2754
+    },
+    {
+     "word": "two",
+     "start": 14.692,
+     "end": 14.952,
+     "probability": 0.7939
+    },
+    {
+     "word": "options",
+     "start": 14.952,
+     "end": 15.452,
+     "probability": 0.9917
+    },
+    {
+     "word": "carefully.",
+     "start": 15.452,
+     "end": 15.912,
+     "probability": 0.1737
+    }
+   ]
+  },
+  {
+   "chunk_start": 19.252,
+   "chunk_end": 22.412,
+   "text": "The road was busy because of the rain.",
+   "words": [
+    {
+     "word": "The",
+     "start": 19.252,
+     "end": 19.592,
+     "probability": 0.9204
+    },
+    {
+     "word": "road",
+     "start": 19.592,
+     "end": 19.872,
+     "probability": 0.9937
+    },
+    {
+     "word": "was",
+     "start": 19.872,
+     "end": 20.232,
+     "probability": 0.9985
+    },
+    {
+     "word": "busy",
+     "start": 20.232,
+     "end": 20.572,
+     "probability": 0.9951
+    },
+    {
+     "word": "because",
+     "start": 20.572,
+     "end": 20.952,
+     "probability": 0.9956
+    },
+    {
+     "word": "of",
+     "start": 20.952,
+     "end": 21.272,
+     "probability": 0.999
+    },
+    {
+     "word": "the",
+     "start": 21.272,
+     "end": 21.412,
+     "probability": 0.9985
+    },
+    {
+     "word": "rain.",
+     "start": 21.412,
+     "end": 21.772,
+     "probability": 0.998
+    }
+   ]
+  },
+  {
+   "chunk_start": 24.66,
+   "chunk_end": 27.244,
+   "text": "The meeting starts in about 10 minutes.",
+   "words": [
+    {
+     "word": "The",
+     "start": 24.66,
+     "end": 24.86,
+     "probability": 0.6968
+    },
+    {
+     "word": "meeting",
+     "start": 24.86,
+     "end": 25.08,
+     "probability": 0.9907
+    },
+    {
+     "word": "starts",
+     "start": 25.08,
+     "end": 25.4,
+     "probability": 0.9946
+    },
+    {
+     "word": "in",
+     "start": 25.4,
+     "end": 25.74,
+     "probability": 0.9961
+    },
+    {
+     "word": "about",
+     "start": 25.74,
+     "end": 25.94,
+     "probability": 0.9893
+    },
+    {
+     "word": "10",
+     "start": 25.94,
+     "end": 26.2,
+     "probability": 0.8638
+    },
+    {
+     "word": "minutes.",
+     "start": 26.2,
+     "end": 26.54,
+     "probability": 0.9805
+    }
+   ]
+  }
+ ]
+}

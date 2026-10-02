@@ -1,0 +1,6 @@
+file_id,new_label,new_category,reviewer,reviewed_at,note
+Manual-Fil-RPI13,negative,negatives_confusable,recording_owner,2026-09-25T00:00:00Z,"owner listened: recording timing cut the 'Hey'; audio is only 'Delta' (confusable, not a complete wakeword)"
+Manual-BG-RPI1,negative,negatives_silence,recording_owner,2026-09-25T00:00:00Z,"every sample is exactly zero (device captured no audio); owner: keep as silence negative, not background speech"
+Manual-Fil-RPI40,negative,negatives_confusable,recording_owner,2026-09-28T00:00:00Z,"owner listened: not a complete Hey Delta; moved to confusable negatives"
+Manual-BG-RPI2,negative,negatives_silence,recording_owner,2026-09-25T00:00:00Z,"every sample is exactly zero (device captured no audio); owner: keep as silence negative, not background speech"
+Manual-Fil-RPI69,negative,negatives_media,recording_owner,2026-09-29T00:00:00Z,owner listened: no Hey Delta; media background with some negative confusables; moved to negatives

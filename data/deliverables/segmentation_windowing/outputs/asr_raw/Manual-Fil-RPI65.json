@@ -1,0 +1,267 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/positives/Manual-Fil-RPI65.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-29T03:03:54+00:00",
+ "duration_sec": 27.413333333333334,
+ "input_peak": 0.178376704454422,
+ "chunks": [
+  {
+   "chunk_start": 0.084,
+   "chunk_end": 5.836,
+   "text": "Hey, Delta. Hey, Delta.",
+   "words": [
+    {
+     "word": "Hey,",
+     "start": 0.084,
+     "end": 0.724,
+     "probability": 0.5259
+    },
+    {
+     "word": "Delta.",
+     "start": 0.824,
+     "end": 1.084,
+     "probability": 0.8896
+    },
+    {
+     "word": "Hey,",
+     "start": 1.524,
+     "end": 2.464,
+     "probability": 0.9692
+    },
+    {
+     "word": "Delta.",
+     "start": 3.424,
+     "end": 4.304,
+     "probability": 0.9961
+    }
+   ]
+  },
+  {
+   "chunk_start": 5.876,
+   "chunk_end": 11.532,
+   "text": "Hey Delta In your words Hey Delta",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 5.876,
+     "end": 6.756,
+     "probability": 0.2722
+    },
+    {
+     "word": "Delta",
+     "start": 6.756,
+     "end": 6.876,
+     "probability": 0.7686
+    },
+    {
+     "word": "In",
+     "start": 6.876,
+     "end": 7.596,
+     "probability": 0.0014
+    },
+    {
+     "word": "your",
+     "start": 7.596,
+     "end": 8.176,
+     "probability": 0.8447
+    },
+    {
+     "word": "words",
+     "start": 8.176,
+     "end": 8.476,
+     "probability": 0.9521
+    },
+    {
+     "word": "Hey",
+     "start": 8.476,
+     "end": 9.036,
+     "probability": 0.1427
+    },
+    {
+     "word": "Delta",
+     "start": 9.036,
+     "end": 10.016,
+     "probability": 0.9771
+    }
+   ]
+  },
+  {
+   "chunk_start": 11.572,
+   "chunk_end": 13.968,
+   "text": "Okay.",
+   "words": [
+    {
+     "word": "Okay.",
+     "start": 11.572,
+     "end": 12.052,
+     "probability": 0.3755
+    }
+   ]
+  },
+  {
+   "chunk_start": 13.968,
+   "chunk_end": 17.42,
+   "text": "Of course, I'm Katie's mother. Thank you.",
+   "words": [
+    {
+     "word": "Of",
+     "start": 13.968,
+     "end": 14.228,
+     "probability": 0.2847
+    },
+    {
+     "word": "course,",
+     "start": 14.228,
+     "end": 14.408,
+     "probability": 0.9604
+    },
+    {
+     "word": "I'm",
+     "start": 14.508,
+     "end": 15.028,
+     "probability": 0.467
+    },
+    {
+     "word": "Katie's",
+     "start": 15.028,
+     "end": 15.928,
+     "probability": 0.8523
+    },
+    {
+     "word": "mother.",
+     "start": 15.928,
+     "end": 15.928,
+     "probability": 0.7075
+    },
+    {
+     "word": "Thank",
+     "start": 15.948,
+     "end": 15.948,
+     "probability": 0.0579
+    },
+    {
+     "word": "you.",
+     "start": 15.948,
+     "end": 16.288,
+     "probability": 0.9854
+    }
+   ]
+  },
+  {
+   "chunk_start": 17.492,
+   "chunk_end": 22.988,
+   "text": "Hey Delta! Hey Delta! Hey Delta!",
+   "words": [
+    {
+     "word": "Hey",
+     "start": 17.492,
+     "end": 17.872,
+     "probability": 0.4163
+    },
+    {
+     "word": "Delta!",
+     "start": 17.872,
+     "end": 18.172,
+     "probability": 0.856
+    },
+    {
+     "word": "Hey",
+     "start": 18.812,
+     "end": 19.492,
+     "probability": 0.603
+    },
+    {
+     "word": "Delta!",
+     "start": 19.492,
+     "end": 21.052,
+     "probability": 0.979
+    },
+    {
+     "word": "Hey",
+     "start": 21.292,
+     "end": 21.552,
+     "probability": 0.0837
+    },
+    {
+     "word": "Delta!",
+     "start": 21.552,
+     "end": 22.192,
+     "probability": 0.8574
+    }
+   ]
+  },
+  {
+   "chunk_start": 23.316,
+   "chunk_end": 27.413,
+   "text": "This is enough. Hey, daughter. It's okay. Let's just do it.",
+   "words": [
+    {
+     "word": "This",
+     "start": 23.316,
+     "end": 23.596,
+     "probability": 0.0925
+    },
+    {
+     "word": "is",
+     "start": 23.596,
+     "end": 23.596,
+     "probability": 0.9287
+    },
+    {
+     "word": "enough.",
+     "start": 23.596,
+     "end": 23.696,
+     "probability": 0.7671
+    },
+    {
+     "word": "Hey,",
+     "start": 24.136,
+     "end": 24.556,
+     "probability": 0.324
+    },
+    {
+     "word": "daughter.",
+     "start": 24.596,
+     "end": 24.856,
+     "probability": 0.2754
+    },
+    {
+     "word": "It's",
+     "start": 25.076,
+     "end": 25.296,
+     "probability": 0.5602
+    },
+    {
+     "word": "okay.",
+     "start": 25.296,
+     "end": 25.616,
+     "probability": 0.478
+    },
+    {
+     "word": "Let's",
+     "start": 26.436,
+     "end": 26.716,
+     "probability": 0.8291
+    },
+    {
+     "word": "just",
+     "start": 26.716,
+     "end": 26.736,
+     "probability": 0.6143
+    },
+    {
+     "word": "do",
+     "start": 26.736,
+     "end": 26.736,
+     "probability": 0.8789
+    },
+    {
+     "word": "it.",
+     "start": 26.736,
+     "end": 26.876,
+     "probability": 0.8838
+    }
+   ]
+  }
+ ]
+}

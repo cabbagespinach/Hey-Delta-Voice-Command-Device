@@ -1,0 +1,245 @@
+=== 0 back up current evaluation results 09:13:14
+=== 1 train bcresnet6_ownernoise (tau 6, owner extra background) 09:13:14
+ep 59 loss 0.766 | owner 0.911 web 0.936 synth 0.992 unk-false 0.055 | score 0.946 (1.62 min)
+best selection score 0.952 -> /mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/deliverables/command_classifier/model/runs/bcresnet6_ownernoise/best.pt
+=== 2 test results (bcresnet3, bcresnet6, bcresnet6_ownernoise) 10:44:12
+bcresnet3: cutoffs {'cautious': 0.935, 'balanced': 0.64}
+bcresnet6: cutoffs {'cautious': 0.885, 'balanced': 0.345}
+bcresnet6_ownernoise: cutoffs {'cautious': 0.945, 'balanced': 0.575}
+# Command classifier: test results
+
+Cutoffs chosen on validation; test clips were never used for any choice. Command rates are macro averages over classes: **correct**, **wrong command** (the harmful error), **rejected** (answered 'unknown' = asks again).
+
+## bcresnet3 (55,914 parameters, best epoch 53)
+
+Cutoffs: cautious 0.935, balanced 0.640
+
+| rule | who | clips | correct | wrong command | rejected |
+|---|---|---|---|---|---|
+| argmax | owner | 73 | 98.7% | 1.3% | 0.0% |
+| argmax | speaker2 | 73 | 97.6% | 1.7% | 0.7% |
+| argmax | web | 845 | 81.5% | 3.1% | 15.4% |
+| argmax | synthetic | 1111 | 98.8% | 0.4% | 0.8% |
+| cautious | owner | 73 | 75.4% | 0.0% | 24.6% |
+| cautious | speaker2 | 73 | 78.5% | 0.0% | 21.5% |
+| cautious | web | 845 | 47.3% | 0.0% | 52.7% |
+| cautious | synthetic | 1111 | 88.3% | 0.0% | 11.7% |
+| balanced | owner | 73 | 93.0% | 1.3% | 5.8% |
+| balanced | speaker2 | 73 | 94.1% | 0.0% | 5.9% |
+| balanced | web | 845 | 73.6% | 0.9% | 25.5% |
+| balanced | synthetic | 1111 | 97.9% | 0.2% | 1.9% |
+
+Unknown clips that trigger a command (test):
+
+| rule | fragments | owner | reuse_fleurs | reuse_mswc | reuse_musan | reuse_owner | synthetic | web | mean |
+|---|---|---|---|---|---|---|---|---|---|
+| argmax | 7.7% | 16.7% | 0.0% | 10.4% | 1.6% | 4.5% | 17.8% | 10.4% | 8.6% |
+| cautious | 0.4% | 0.0% | 0.0% | 2.1% | 0.0% | 0.0% | 0.0% | 0.7% | 0.4% |
+| balanced | 3.6% | 0.0% | 0.0% | 2.1% | 0.5% | 0.0% | 4.8% | 4.0% | 1.9% |
+
+## bcresnet6 (191,286 parameters, best epoch 49)
+
+Cutoffs: cautious 0.885, balanced 0.345
+
+| rule | who | clips | correct | wrong command | rejected |
+|---|---|---|---|---|---|
+| argmax | owner | 73 | 100.0% | 0.0% | 0.0% |
+| argmax | speaker2 | 73 | 100.0% | 0.0% | 0.0% |
+| argmax | web | 845 | 88.0% | 1.5% | 10.5% |
+| argmax | synthetic | 1111 | 99.3% | 0.2% | 0.5% |
+| cautious | owner | 73 | 93.6% | 0.0% | 6.4% |
+| cautious | speaker2 | 73 | 92.6% | 0.0% | 7.4% |
+| cautious | web | 845 | 74.1% | 0.0% | 25.9% |
+| cautious | synthetic | 1111 | 96.7% | 0.0% | 3.4% |
+| balanced | owner | 73 | 100.0% | 0.0% | 0.0% |
+| balanced | speaker2 | 73 | 100.0% | 0.0% | 0.0% |
+| balanced | web | 845 | 88.0% | 1.3% | 10.7% |
+| balanced | synthetic | 1111 | 99.2% | 0.2% | 0.6% |
+
+Unknown clips that trigger a command (test):
+
+| rule | fragments | owner | reuse_fleurs | reuse_mswc | reuse_musan | reuse_owner | synthetic | web | mean |
+|---|---|---|---|---|---|---|---|---|---|
+| argmax | 6.6% | 16.7% | 0.0% | 12.5% | 1.0% | 0.9% | 5.5% | 3.3% | 5.8% |
+| cautious | 2.2% | 0.0% | 0.0% | 0.0% | 0.5% | 0.0% | 0.0% | 0.2% | 0.4% |
+| balanced | 6.6% | 16.7% | 0.0% | 12.5% | 1.0% | 0.9% | 5.5% | 3.3% | 5.8% |
+
+## bcresnet6_ownernoise (191,286 parameters, best epoch 53)
+
+Cutoffs: cautious 0.945, balanced 0.575
+
+| rule | who | clips | correct | wrong command | rejected |
+|---|---|---|---|---|---|
+| argmax | owner | 73 | 98.7% | 1.3% | 0.0% |
+| argmax | speaker2 | 73 | 100.0% | 0.0% | 0.0% |
+| argmax | web | 845 | 87.8% | 3.7% | 8.5% |
+| argmax | synthetic | 1111 | 99.1% | 0.2% | 0.7% |
+| cautious | owner | 73 | 78.6% | 0.0% | 21.4% |
+| cautious | speaker2 | 73 | 66.7% | 0.0% | 33.3% |
+| cautious | web | 845 | 53.5% | 0.0% | 46.5% |
+| cautious | synthetic | 1111 | 90.6% | 0.0% | 9.4% |
+| balanced | owner | 73 | 98.7% | 0.0% | 1.3% |
+| balanced | speaker2 | 73 | 98.3% | 0.0% | 1.7% |
+| balanced | web | 845 | 78.2% | 0.9% | 20.8% |
+| balanced | synthetic | 1111 | 98.8% | 0.1% | 1.1% |
+
+Unknown clips that trigger a command (test):
+
+| rule | fragments | owner | reuse_fleurs | reuse_mswc | reuse_musan | reuse_owner | synthetic | web | mean |
+|---|---|---|---|---|---|---|---|---|---|
+| argmax | 8.8% | 25.0% | 0.0% | 12.5% | 1.0% | 3.6% | 5.5% | 5.3% | 7.7% |
+| cautious | 0.7% | 0.0% | 0.0% | 4.2% | 0.0% | 0.0% | 0.0% | 0.2% | 0.6% |
+| balanced | 4.4% | 0.0% | 0.0% | 8.3% | 0.5% | 1.8% | 1.4% | 2.0% | 2.3% |
+
+=== 3 streaming test 10:44:49
+stream 1/40: 4 events, 3 wake-ups
+stream 2/40: 6 events, 3 wake-ups
+stream 3/40: 7 events, 3 wake-ups
+stream 4/40: 6 events, 2 wake-ups
+stream 5/40: 3 events, 4 wake-ups
+stream 6/40: 5 events, 3 wake-ups
+stream 7/40: 6 events, 4 wake-ups
+stream 8/40: 6 events, 5 wake-ups
+stream 9/40: 3 events, 4 wake-ups
+stream 10/40: 6 events, 1 wake-ups
+stream 11/40: 6 events, 4 wake-ups
+stream 12/40: 6 events, 2 wake-ups
+stream 13/40: 6 events, 5 wake-ups
+stream 14/40: 5 events, 5 wake-ups
+stream 15/40: 5 events, 4 wake-ups
+stream 16/40: 5 events, 3 wake-ups
+stream 17/40: 6 events, 4 wake-ups
+stream 18/40: 5 events, 4 wake-ups
+stream 19/40: 5 events, 3 wake-ups
+stream 20/40: 7 events, 5 wake-ups
+stream 21/40: 6 events, 3 wake-ups
+stream 22/40: 6 events, 4 wake-ups
+stream 23/40: 5 events, 2 wake-ups
+stream 24/40: 7 events, 1 wake-ups
+stream 25/40: 5 events, 5 wake-ups
+stream 26/40: 5 events, 3 wake-ups
+stream 27/40: 6 events, 4 wake-ups
+stream 28/40: 6 events, 2 wake-ups
+stream 29/40: 7 events, 3 wake-ups
+stream 30/40: 3 events, 6 wake-ups
+stream 31/40: 5 events, 1 wake-ups
+stream 32/40: 4 events, 1 wake-ups
+stream 33/40: 3 events, 5 wake-ups
+stream 34/40: 7 events, 1 wake-ups
+stream 35/40: 5 events, 1 wake-ups
+stream 36/40: 4 events, 5 wake-ups
+stream 37/40: 7 events, 2 wake-ups
+stream 38/40: 6 events, 1 wake-ups
+stream 39/40: 3 events, 5 wake-ups
+stream 40/40: 6 events, 3 wake-ups
+{
+ "model": "bcresnet6_ownernoise",
+ "streams": 40,
+ "hours": 0.667,
+ "cutoffs": {
+  "cautious": 0.945,
+  "balanced": 0.575
+ },
+ "by_kind": {
+  "clone": {
+   "events": 108,
+   "woke": 0.417,
+   "argmax": {
+    "command_correct": 0.947,
+    "command_wrong": 0.0,
+    "command_rejected": 0.053,
+    "offlist_triggered_action": 0.143,
+    "end_to_end_correct": 0.379
+   },
+   "cautious": {
+    "command_correct": 0.711,
+    "command_wrong": 0.0,
+    "command_rejected": 0.289,
+    "offlist_triggered_action": 0.0,
+    "end_to_end_correct": 0.284
+   },
+   "balanced": {
+    "command_correct": 0.921,
+    "command_wrong": 0.0,
+    "command_rejected": 0.079,
+    "offlist_triggered_action": 0.143,
+    "end_to_end_correct": 0.368
+   }
+  },
+  "distractor": {
+   "events": 32,
+   "woke": 0.0
+  },
+  "owner": {
+   "events": 74,
+   "woke": 0.824,
+   "argmax": {
+    "command_correct": 0.656,
+    "command_wrong": 0.016,
+    "command_rejected": 0.328,
+    "offlist_triggered_action": null,
+    "end_to_end_correct": 0.541
+   },
+   "cautious": {
+    "command_correct": 0.41,
+    "command_wrong": 0.0,
+    "command_rejected": 0.59,
+    "offlist_triggered_action": null,
+    "end_to_end_correct": 0.338
+   },
+   "balanced": {
+    "command_correct": 0.607,
+    "command_wrong": 0.016,
+    "command_rejected": 0.377,
+    "offlist_triggered_action": null,
+    "end_to_end_correct": 0.5
+   }
+  }
+ },
+ "false_wakeups_per_hour": 34.5,
+ "false_wakeup_actions_per_hour": {
+  "argmax": 19.5,
+  "cautious": 10.5,
+  "balanced": 19.5
+ },
+ "distractor_woke_rate": 0.0
+}
+=== 4 streaming-gap test (compare with bcresnet6: owner commands under room noise) 10:47:11
+219 trials, 73 commands
+A_clip           n=219 | argmax: ok 99% wrong 1% ask 0% | cautious: ok 77% wrong 0% ask 23% | balanced: ok 99% wrong 0% ask 1%
+B_trimmed        n=219 | argmax: ok 99% wrong 1% ask 0% | cautious: ok 77% wrong 0% ask 23% | balanced: ok 99% wrong 0% ask 1%
+C1_prefix_no_bed n=219 | argmax: ok 99% wrong 1% ask 0% | cautious: ok 65% wrong 0% ask 35% | balanced: ok 98% wrong 0% ask 2%
+C2_bed_no_prefix n=219 | argmax: ok 93% wrong 1% ask 5% | cautious: ok 61% wrong 0% ask 39% | balanced: ok 89% wrong 0% ask 11%
+C_ideal_capture  n=219 | argmax: ok 85% wrong 9% ask 5% | cautious: ok 45% wrong 0% ask 55% | balanced: ok 78% wrong 3% ask 19%
+D_listener       n=174 | argmax: ok 86% wrong 10% ask 5% | cautious: ok 46% wrong 0% ask 54% | balanced: ok 79% wrong 2% ask 19%
+listener by reason: {'end_of_speech': '96% of 106', 'max_length': '68% of 65', 'no_speech_detected': '100% of 3'}
+capture length (s): {'count': 174.0, 'mean': 6.08, 'std': 1.0, 'min': 2.6, '25%': 5.4, '50%': 5.9, '75%': 7.0, 'max': 7.7} ideal: {'count': 219.0, 'mean': 5.38, 'std': 0.55, 'min': 4.14, '25%': 5.05, '50%': 5.4, '75%': 5.59, 'max': 7.34}
+room level in owner clips (dB): {'count': 219.0, 'mean': -43.0, 'std': 2.2, 'min': -46.4, '25%': -44.5, '50%': -43.2, '75%': -41.8, 'max': -33.8}
+added bed level (dB): {'count': 219.0, 'mean': -50.3, 'std': 6.1, 'min': -59.7, '25%': -55.5, '50%': -51.4, '75%': -46.4, 'max': -34.2}
+=== 5 export bcresnet6_ownernoise for the Pi 10:49:51
+  torch.onnx.export(full, torch.zeros(1, N), str(onnx_path), input_names=["audio"], output_names=["probs"],
+{
+ "run": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/deliverables/command_classifier/model/runs/bcresnet6_ownernoise",
+ "best_epoch": 53,
+ "tau": 6.0,
+ "classes": 30,
+ "opset": 17,
+ "input": "audio float32 [B, 80000] @16 kHz",
+ "output": "probs float32 [B, 30]",
+ "check_clips": 600,
+ "cutoffs": {
+  "cautious": 0.945,
+  "balanced": 0.575
+ },
+ "frontend_max_abs_diff_normalised_units": 0.00024199485778808594,
+ "prob_max_abs_diff_onnx_vs_torch": 9.357929229736328e-06,
+ "decisions_changed_argmax": 0,
+ "accuracy_argmax_onnx": 0.96,
+ "decisions_changed_cautious": 0,
+ "accuracy_cautious_onnx": 0.865,
+ "decisions_changed_balanced": 0,
+ "accuracy_balanced_onnx": 0.9583333333333334,
+ "file_bytes": 2001783
+}
+=== ALL DONE 10:51:41
+EXIT=0

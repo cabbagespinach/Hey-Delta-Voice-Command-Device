@@ -1,0 +1,112 @@
+{
+ "args": {
+  "config": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/deliverables/command_classifier/model/train_config.json",
+  "tau": 6.0,
+  "epochs": null,
+  "epoch_draws": null,
+  "exclude_groups": [],
+  "no_augment": false,
+  "out": "runs/bcresnet6"
+ },
+ "train_config": {
+  "_description": "Training recipe for the BC-ResNet command classifier (2026-09-30), adapted from the wakeword recipe (../../model/train_config.json). Keys starting with '_' are documentation.",
+  "seed": 20260930,
+  "epochs": 60,
+  "_epochs": "60 x 375 steps = 22,500 steps. Measured 2026-09-30 over 300 steps from scratch: training loss 3.1 -> 2.0 on clean clips, 3.2 -> 2.8 with the Pi-like augmentation, 3.2 -> 2.9 with augmentation + SpecAugment: the augmentation makes each example harder, so it needs many more steps than the clean data would.",
+  "optimizer": {
+   "name": "AdamW",
+   "lr": 0.002,
+   "weight_decay": 0.001
+  },
+  "schedule": {
+   "warmup_epochs": 2,
+   "then": "cosine to 0"
+  },
+  "label_smoothing": 0.05,
+  "spec_augment": {
+   "freq_masks": 2,
+   "max_freq_bins": 6,
+   "time_masks": 2,
+   "max_time_frames": 15,
+   "probability": 0.8
+  },
+  "_spec_augment": "Time masks up to 150 ms: shorter than any deciding word (a number, 'Jane', 'up'/'down'), so a mask cannot turn a command into another one; it can hide a syllable.",
+  "selection": "mean of owner / public / synthetic command macro accuracy and 1 - unknown false-action rate on validation (argmax)",
+  "_selection": "Validation only. The owner validation clips are one session of one speaker (13:36-13:55), so the selection is not tuned to speaker2 or to the test session."
+ },
+ "loader_config": {
+  "_description": "Command-classifier dataset and loader (2026-09-30). Keys starting with '_' are documentation.",
+  "clips_csv": "data/commands_all.csv",
+  "seed": 20260930,
+  "epoch_draws": 48000,
+  "_epoch_draws": "An epoch is a fixed number of weighted draws, not a pass over the clips: the sources differ in size by 100x, so a pass would be dominated by the public datasets. 48,000 draws = 375 steps of 128. (First probe, 2026-09-30: 8 epochs x 6,000 draws = 376 steps in total did not learn at all under the full augmentation; a fixed batch of 256 clean clips is memorised in 300 steps, so model and features were fine and the step count was too small.)",
+  "unknown_share": 0.2,
+  "_unknown_share": "About 1 in 5 training examples is `unknown` (owner-approved: sample unknown down).",
+  "command_class_sampling": "uniform",
+  "_command_class_sampling": "Each command class is drawn equally often, whatever its clip count (volume_up has 1,201 train clips, text_jane 58).",
+  "command_source_weights": {
+   "owner": 0.25,
+   "web": 0.25,
+   "synthetic": 0.5
+  },
+  "_command_source_weights": "Within a class, the source group is drawn with these weights, renormalised over the groups the class has (12 classes have no public clips). owner = the owner's own recordings; web = FSC / SLURP / Timers and Such; synthetic = Philippine-accent TTS, cloned FLEURS voices, Piper voices and voice-converted owner recordings.",
+  "unknown_source_weights": {
+   "owner": 0.1,
+   "reuse_owner": 0.15,
+   "reuse_musan": 0.15,
+   "reuse_fleurs": 0.1,
+   "reuse_mswc": 0.05,
+   "web": 0.15,
+   "synthetic": 0.1,
+   "fragments": 0.2
+  },
+  "_unknown_source_weights": "Within unknown: the owner's unknown prompts, the owner's room recordings, MUSAN noise/music/speech, FLEURS Filipino/English speech, MSWC single words, public-dataset off-list requests, synthetic off-list sentences and silences, and cut-off commands (fragments).",
+  "format_alignment": {
+   "datasets_without_delta_tail": [
+    "web_",
+    "reuse_",
+    "fragments_web_"
+   ],
+   "probability": 1.0
+  },
+  "_format_alignment": "Every real capture starts with the tail of 'Delta', the chime gap and a pause. Public clips and reused unknowns are trimmed speech without it, so the model could learn 'no tail -> public dataset'. Each of them gets a real prefix prepended (train: random; validation/test: fixed per clip), drawn from a bank of TRAIN-split prefixes: owner recordings before the first command word, and synthetic clips' 'Delta' tail + pause.",
+  "augment": true,
+  "_augment": "Train only: ../augment_commands.py (wakeword augmentation v4, same for every class; owner recordings never get room echo).",
+  "batch_size": 128,
+  "num_workers": 12,
+  "_num_workers": "Shared server with a high CPU load: 12 workers for one training run."
+ },
+ "classes": [
+  "play_music",
+  "weather",
+  "time",
+  "lights_on",
+  "lights_off",
+  "dim_lights_20",
+  "dim_lights_50",
+  "dim_lights_80",
+  "set_timer_1",
+  "set_timer_5",
+  "set_timer_10",
+  "set_alarm_6am",
+  "set_alarm_7am",
+  "set_alarm_9pm",
+  "set_temperature_18",
+  "set_temperature_22",
+  "set_temperature_26",
+  "pause",
+  "stop",
+  "next",
+  "volume_up",
+  "volume_down",
+  "remind_trash",
+  "remind_study",
+  "list_reminders",
+  "call_jane",
+  "text_jane",
+  "play",
+  "party",
+  "unknown"
+ ],
+ "params": 191286
+}

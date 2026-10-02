@@ -1,0 +1,22 @@
+{
+  "models": [
+    {
+      "name": "bcresnet6",
+      "config": "bcresnet6.json",
+      "cutoffs": {
+        "cautious": 0.885,
+        "balanced": 0.345
+      },
+      "best_epoch": 49
+    },
+    {
+      "name": "bcresnet6_ownernoise",
+      "config": "bcresnet6_ownernoise.json",
+      "cutoffs": {
+        "cautious": 0.945,
+        "balanced": 0.575
+      },
+      "best_epoch": 53
+    }
+  ]
+}

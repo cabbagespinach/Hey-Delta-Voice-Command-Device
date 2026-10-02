@@ -1,0 +1,13 @@
+0 unknown_other {'full_window': True, 'kind': 'talk', 'speech_over_bed_db': 5.8}
+1 set_timer_1 {'full_window': True, 'kind': 'talk', 'speech_over_bed_db': 8.1}
+2 call_jane {'kind': 'talk', 'speech_over_bed_db': 5.1}
+3 volume_down {'full_window': True, 'kind': 'talk', 'speech_over_bed_db': 13.8}
+4 remind_trash {'full_window': True, 'kind': 'talk', 'speech_over_bed_db': 5.2}
+5 set_timer_5 {'full_window': True, 'kind': 'talk', 'speech_over_bed_db': 13.7}
+6 dim_lights_50 {'full_window': True, 'kind': 'music', 'speech_over_bed_db': 3.2}
+7 unknown_other {'kind': 'talk', 'speech_over_bed_db': 15.1}
+8 set_temperature_26 {'full_window': True, 'kind': 'music', 'speech_over_bed_db': 13.9}
+9 set_timer_5 {'kind': 'talk', 'speech_over_bed_db': 10.3}
+10 list_reminders {'full_window': True, 'kind': 'talk', 'speech_over_bed_db': 12.5}
+11 set_alarm_7am {'kind': 'talk', 'speech_over_bed_db': 6.5}
+preview: /mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/commands_aug_preview/talk

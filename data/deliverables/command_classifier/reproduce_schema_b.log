@@ -1,0 +1,462 @@
+=== 1 label the classmates' datasets -> data/commands_classmates/ 10-01 22:52:05
+optionb: 17851 kept, 749 flagged left out
+gsc: 89610 kept (3872 STOP), 16225 eval unknowns over the cap
+snips: 192 kept, 5694 dropped
+vcm: 1574 kept, 35048 not used
+  syntts Free_ST_English/Hang_up: +844
+  syntts Free_ST_English/Alexa: +855
+  syntts Free_ST_English/Hey_Google: +854
+  syntts Free_ST_English/Hey_Siri: +855
+  syntts Free_ST_English/Hi_Bixby: +855
+  syntts Free_ST_English/Answer_call: +852
+  syntts Free_ST_English/Decline_call: +852
+  syntts Free_ST_English/Jump_to_first_track: +855
+  syntts Free_ST_English/Next_track: +855
+  syntts Free_ST_English/Play: +534
+  syntts Free_ST_English/Pause: +855
+  syntts Free_ST_English/Last_song: +855
+  syntts Free_ST_English/Previous_track: +855
+  syntts Free_ST_English/OK_Google: +855
+  syntts Free_ST_English/Play_from_start: +854
+  syntts Free_ST_English/Repeat_song: +855
+  syntts Free_ST_English/Volume_down: +855
+  syntts Free_ST_English/Resume: +851
+  syntts Free_ST_English/Skip_song: +843
+  syntts Free_ST_English/Volume_up: +854
+  syntts VoxCeleb12_English/Pause: +1500
+  syntts VoxCeleb12_English/Pause: +1500
+  syntts VoxCeleb12_English/Next_track: +1245
+  syntts VoxCeleb12_English/Next_track: +1500
+  syntts VoxCeleb12_English/Next_track: +1500
+  syntts VoxCeleb12_English/Next_track: +1500
+  syntts VoxCeleb12_English/Next_track: +1500
+  syntts VoxCeleb12_English/Pause: +1500
+  syntts VoxCeleb12_English/Pause: +1245
+  syntts VoxCeleb12_English/Pause: +1500
+  syntts VoxCeleb12_English/Volume_down: +1500
+  syntts VoxCeleb12_English/Skip_song: +1240
+  syntts VoxCeleb12_English/Skip_song: +1500
+  syntts VoxCeleb12_English/Skip_song: +1500
+  syntts VoxCeleb12_English/Skip_song: +1500
+  syntts VoxCeleb12_English/Skip_song: +1500
+  syntts VoxCeleb12_English/Volume_down: +1500
+  syntts VoxCeleb12_English/Volume_down: +1500
+  syntts VoxCeleb12_English/Volume_down: +1244
+  syntts VoxCeleb12_English/Volume_down: +1500
+  syntts VoxCeleb12_English/Volume_up: +1500
+  syntts VoxCeleb12_English/Volume_up: +1500
+  syntts VoxCeleb12_English/Volume_up: +1500
+  syntts VoxCeleb12_English/Volume_up: +1500
+  syntts VoxCeleb12_English/Volume_up: +1245
+syntts: 52962 kept, 3 dropped rows
+  t["total"] = t.sum(1)
+dataset                      classmate_optionb  classmate_syntts  classmate_vcm_piper  classmate_vcm_real  web_gsc  web_multisensor  web_snips  total
+class                                                                                                                                                
+PLAY_MUSIC                                 590                 0                    0                   0        0                0          0    590
+WEATHER                                    539                 0                    0                   0        0                0          0    539
+TIME                                       544                 0                    0                   0        0                0          0    544
+LIGHT_ON                                   566                 0                    0                   0        0                0         16    582
+LIGHT_OFF                                  551                 0                    0                   0        0                0         22    573
+PAUSE                                      554              8100                    0                   0        0                0          0   8654
+STOP                                       548                 0                    0                   0     3872                0          0   4420
+NEXT                                       589             16183                    0                   0        0             1192          0  17964
+VOLUME_UP                                  561              8099                    0                   0        0                0          0   8660
+VOLUME_DOWN                                575              8099                    0                   0        0                0          0   8674
+CALL                                       537                 0                    0                   0        0                0          0    537
+MESSAGE                                    525                 0                    0                   0        0                0          0    525
+LIST_REMINDERS                             552                 0                    0                   0        0                0          0    552
+TIMER_10S                                  587                 0                    0                   0        0                0          0    587
+TIMER_30S                                  592                 0                    0                   0        0                0          0    592
+TIMER_1MIN                                 562                 0                    0                   0        0                0          0    562
+ALARM_6AM                                  583                 0                    0                   0        0                0          0    583
+ALARM_8AM                                  583                 0                    0                   0        0                0          0    583
+ALARM_9PM                                  581                 0                    0                   0        0                0          0    581
+TEMPERATURE_18                             598                 0                    0                   0        0                0          0    598
+TEMPERATURE_22                             599                 0                   21                  10        0                0          0    630
+TEMPERATURE_26                             598                 0                   21                  10        0                0          0    629
+BRIGHTNESS_20                              595                 0                    0                   0        0                0          6    601
+BRIGHTNESS_60                              595                 0                    0                   0        0                0          0    595
+BRIGHTNESS_100                             597                 0                    0                   0        0                0          0    597
+COLOR_RED                                  595                 0                    0                   0        0                0         24    619
+COLOR_BLUE                                 598                 0                    0                   0        0                0         32    630
+COLOR_GREEN                                596                 0                    0                   0        0                0         24    620
+CREATE_REMINDER_DRINK_WATER                596                 0                    0                   0        0                0          0    596
+CREATE_REMINDER_STUDY                      575                 0                    0                   0        0                0          0    575
+CREATE_REMINDER_EXERCISE                   590                 0                    0                   0        0                0          0    590
+unknown                                      0             12481                  245                  75    85738                0         68  98607
+split                test  train  validation
+dataset                                     
+classmate_optionb    1789  14256        1806
+classmate_syntts        0  52962           0
+classmate_vcm_piper     0    287           0
+classmate_vcm_real     19     57          19
+web_gsc              2411  84849        2350
+web_multisensor       120    956         116
+web_snips               0    192           0
+manifest 162189 clips -> /mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/commands_classmates/manifest.csv; dropped/not used 56971 rows
+=== 2 combined schema-B clip list -> data/commands_schema_b_all.csv 10-01 23:01:17
+split                        test   train  validation
+class                                                
+PLAY_MUSIC                    181    1615         267
+WEATHER                       130    1325         173
+TIME                          140    1331         154
+LIGHT_ON                      182    2092         326
+LIGHT_OFF                     224    2231         306
+PAUSE                         136    9371         179
+STOP                          549    4389         531
+NEXT                          298   18848         368
+VOLUME_UP                     295   10705         409
+VOLUME_DOWN                   235   10291         340
+CALL                           95    1113         164
+MESSAGE                        90    1044         161
+LIST_REMINDERS                102    1130         161
+TIMER_10S                      60     467          60
+TIMER_30S                      60     475          58
+TIMER_1MIN                    100    1205         168
+ALARM_6AM                     104    1179         164
+ALARM_8AM                      56     475          61
+ALARM_9PM                     100    1196         160
+TEMPERATURE_18                103    1215         166
+TEMPERATURE_22                105    1238         170
+TEMPERATURE_26                105    1189         167
+BRIGHTNESS_20                 100    1188         163
+BRIGHTNESS_60                  60     481          60
+BRIGHTNESS_100                 60     483          60
+COLOR_RED                      60     512          60
+COLOR_BLUE                     60     521          60
+COLOR_GREEN                    60     511          60
+CREATE_REMINDER_DRINK_WATER    60     478          58
+CREATE_REMINDER_STUDY         103    1091         142
+CREATE_REMINDER_EXERCISE       60     471          59
+unknown                      3808  110554        4459
+split                       test  train  validation
+dataset                                            
+classmate_optionb           1789  14256        1806
+classmate_syntts               0  52962           0
+classmate_vcm_piper            0    287           0
+classmate_vcm_real            19     57          19
+converted_owner                0   1578           0
+fragments_owner_recordings    77    140          62
+fragments_synthetic_clone     35    252          36
+fragments_synthetic_ph        85    222          21
+fragments_synthetic_piper      7    267          51
+fragments_web_slurp           63    233          25
+fragments_web_tas              7     47           7
+other_speakers                 0    158           0
+owner_recordings             158    335         115
+reuse_fleurs                  54    483          57
+reuse_mswc                    48    562          56
+reuse_musan                  194   1138         191
+reuse_owner                  112    661          88
+synthetic_clone              600   3925         496
+synthetic_ph                 204    927          64
+synthetic_piper              449   3717         712
+variants_clone                 0   2431         472
+variants_ph                    0   4357         312
+variants_piper                 0   7579        1683
+web_fsc                      809   4921         673
+web_gsc                     2411  84849        2350
+web_multisensor              120    956         116
+web_slurp                    473   1730         280
+web_snips                      0    192           0
+web_tas                      167   1192         202
+speakers in both train and validation: 2 e.g. ['owner', 'owner-room']
+speakers in both train and test: 2 e.g. ['owner', 'owner-room']
+speakers in both validation and test: 2 e.g. ['owner', 'owner-room']
+208189 clips -> /mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/commands_schema_b_all.csv
+=== 3 dataset inventory -> data/command_dataset/dataset_inventory.csv 10-01 23:02:50
+                         dataset           origin  clips   train  validation   test  command_classes  speakers  used_in_training
+                owner_recordings       owner (me)    608   335.0       115.0  158.0             21.0       2.0 yes (train split)
+                         web_tas classmates' list   1561  1192.0       202.0  167.0              5.0      94.0 yes (train split)
+                         web_fsc classmates' list   6403  4921.0       673.0  809.0              7.0      96.0 yes (train split)
+                       web_slurp classmates' list   2483  1730.0       280.0  473.0             13.0    2061.0 yes (train split)
+                    reuse_fleurs       owner (me)    594   483.0        57.0   54.0              0.0     594.0 yes (train split)
+                     reuse_musan       owner (me)   1523  1138.0       191.0  194.0              0.0    1323.0 yes (train split)
+                      reuse_mswc       owner (me)    666   562.0        56.0   48.0              0.0     664.0 yes (train split)
+                     reuse_owner       owner (me)    861   661.0        88.0  112.0              0.0       1.0 yes (train split)
+                    synthetic_ph       owner (me)   1195   927.0        64.0  204.0             21.0      36.0 yes (train split)
+                 synthetic_clone       owner (me)   5021  3925.0       496.0  600.0             21.0     150.0 yes (train split)
+                 synthetic_piper       owner (me)   4878  3717.0       712.0  449.0             21.0     150.0 yes (train split)
+                 converted_owner       owner (me)   1578  1578.0         0.0    0.0             13.0      20.0 yes (train split)
+      fragments_owner_recordings       owner (me)    279   140.0        62.0   77.0              1.0     279.0 yes (train split)
+       fragments_synthetic_clone       owner (me)    323   252.0        36.0   35.0              1.0     323.0 yes (train split)
+          fragments_synthetic_ph       owner (me)    328   222.0        21.0   85.0              1.0     328.0 yes (train split)
+       fragments_synthetic_piper       owner (me)    325   267.0        51.0    7.0              1.0     325.0 yes (train split)
+               fragments_web_tas classmates' list     61    47.0         7.0    7.0              0.0      61.0 yes (train split)
+             fragments_web_slurp classmates' list    321   233.0        25.0   63.0              0.0     321.0 yes (train split)
+                     variants_ph       owner (me)   4669  4357.0       312.0    0.0             21.0      30.0 yes (train split)
+                  variants_piper       owner (me)   9262  7579.0      1683.0    0.0             21.0      60.0 yes (train split)
+                  variants_clone       owner (me)   2903  2431.0       472.0    0.0             21.0      30.0 yes (train split)
+                  other_speakers classmates' list    158   158.0         0.0    0.0             27.0       4.0 yes (train split)
+               classmate_optionb classmates' list  17851 14256.0      1806.0 1789.0             31.0     100.0 yes (train split)
+                         web_gsc classmates' list  89610 84849.0      2350.0 2411.0              1.0    2593.0 yes (train split)
+                       web_snips classmates' list    192   192.0         0.0    0.0              6.0      22.0 yes (train split)
+                 web_multisensor classmates' list   1192   956.0       116.0  120.0              1.0      20.0 yes (train split)
+              classmate_vcm_real classmates' list     95    57.0        19.0   19.0              2.0       5.0 yes (train split)
+             classmate_vcm_piper classmates' list    287   287.0         0.0    0.0              2.0      30.0 yes (train split)
+                classmate_syntts classmates' list  52962 52962.0         0.0    0.0              4.0    8100.0 yes (train split)
+kaggle_synthetic_speech_commands classmates' list      0     NaN         NaN    NaN              NaN       NaN                no
+             common_voice_kaggle classmates' list      0     NaN         NaN    NaN              NaN       NaN                no
+           mlend_spoken_numerals classmates' list      0     NaN         NaN    NaN              NaN       NaN                no
+               fsc_kaggle_mirror classmates' list      0     NaN         NaN    NaN              NaN       NaN                no
+               vcm_fsc_slurp_tas classmates' list      0     NaN         NaN    NaN              NaN       NaN                no
+                 vcm_gsc_silence classmates' list      0     NaN         NaN    NaN              NaN       NaN                no
+       classmate_optionb_flagged classmates' list      0     NaN         NaN    NaN              NaN       NaN                no
+         qualcomm_keyword_speech       owner (me)      0     NaN         NaN    NaN              NaN       NaN                no
+                       hey_snips       owner (me)      0     NaN         NaN    NaN              NaN       NaN                no
+                          mit_ir       owner (me)      0     NaN         NaN    NaN              NaN       NaN                no
+-> /mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/command_dataset/dataset_inventory.csv
+=== 4 normalisation statistics (training draws only) -> /mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/deliverables/command_classifier/preprocessing/normalization_stats_schema_b.json 10-01 23:02:53
+4000 draws, 1988000 frames; mean -20.2 dB, std 13.5 dB -> /mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/deliverables/command_classifier/preprocessing/normalization_stats_schema_b.json
+=== STOPPED after step 4 (STOP_AFTER=4) 10-01 23:03:48
+=== 5 train bcresnet6_schema_b (BC-ResNet tau 6, current recipe) on GPU 2 10-01 23:31:24
+ep 59 loss 0.962 | owner 0.910 web 0.863 synth 0.976 unk-false 0.068 | score 0.931 (1.21 min)
+best selection score 0.936 -> /mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/deliverables/command_classifier/model/runs/bcresnet6_schema_b/best.pt
+=== 6 train dscnn_schema_b (DS-CNN baseline, ~195k parameters, same data and recipe) 10-02 00:41:00
+ep 59 loss 1.328 | owner 0.723 web 0.560 synth 0.941 unk-false 0.124 | score 0.799 (1.06 min)
+best selection score 0.802 -> /mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/deliverables/command_classifier/model/runs/dscnn_schema_b/best.pt
+=== 7 held-out test set (all + unseen speakers) -> /mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/deliverables/command_classifier/evaluation/results_schema_b 10-02 01:50:46
+bcresnet6_schema_b: cutoffs {'cautious': 0.99, 'balanced': 0.945}
+dscnn_schema_b: cutoffs {'cautious': 0.92, 'balanced': 0.72}
+# Command classifier: test results
+
+Cutoffs chosen on validation; test clips were never used for any choice. Command rates are macro averages over classes: **correct**, **wrong command** (the harmful error), **rejected** (answered 'unknown' = asks again).
+
+## bcresnet6_schema_b (191,672 parameters, best epoch 51)
+
+Cutoffs: cautious 0.990, balanced 0.945
+
+| rule | who | clips | correct | wrong command | rejected |
+|---|---|---|---|---|---|
+| argmax | owner | 59 | 98.4% | 0.0% | 1.6% |
+| argmax | speaker2 | 48 | 100.0% | 0.0% | 0.0% |
+| argmax | web | 1339 | 87.0% | 4.3% | 8.7% |
+| argmax | synthetic | 834 | 98.5% | 0.0% | 1.6% |
+| argmax | classmates | 1793 | 98.0% | 1.0% | 1.0% |
+| cautious | owner | 59 | 39.5% | 0.0% | 60.5% |
+| cautious | speaker2 | 48 | 54.4% | 0.0% | 45.6% |
+| cautious | web | 1339 | 29.0% | 0.0% | 71.0% |
+| cautious | synthetic | 834 | 51.8% | 0.0% | 48.2% |
+| cautious | classmates | 1793 | 44.5% | 0.0% | 55.5% |
+| balanced | owner | 59 | 90.5% | 0.0% | 9.5% |
+| balanced | speaker2 | 48 | 86.5% | 0.0% | 13.5% |
+| balanced | web | 1339 | 63.3% | 0.0% | 36.7% |
+| balanced | synthetic | 834 | 89.7% | 0.0% | 10.3% |
+| balanced | classmates | 1793 | 83.5% | 0.0% | 16.5% |
+
+Unknown clips that trigger a command (test):
+
+| rule | classmates | fragments | gsc | owner | reuse_fleurs | reuse_mswc | reuse_musan | reuse_owner | synthetic | web | mean |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| argmax | 73.3% | 6.4% | 5.9% | 2.0% | 0.0% | 6.2% | 1.6% | 5.4% | 8.4% | 7.3% | 11.6% |
+| cautious | 0.0% | 0.4% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.2% | 0.0% | 0.1% |
+| balanced | 0.0% | 1.5% | 0.4% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.5% | 0.2% | 0.2% |
+
+## dscnn_schema_b (194,888 parameters, best epoch 35)
+
+Cutoffs: cautious 0.920, balanced 0.720
+
+| rule | who | clips | correct | wrong command | rejected |
+|---|---|---|---|---|---|
+| argmax | owner | 59 | 72.1% | 8.7% | 19.1% |
+| argmax | speaker2 | 48 | 88.1% | 2.4% | 9.5% |
+| argmax | web | 1339 | 61.9% | 7.0% | 31.1% |
+| argmax | synthetic | 834 | 93.8% | 1.9% | 4.3% |
+| argmax | classmates | 1793 | 92.0% | 4.5% | 3.5% |
+| cautious | owner | 59 | 18.2% | 0.0% | 81.8% |
+| cautious | speaker2 | 48 | 54.4% | 0.0% | 45.6% |
+| cautious | web | 1339 | 30.1% | 0.7% | 69.3% |
+| cautious | synthetic | 834 | 66.8% | 0.0% | 33.2% |
+| cautious | classmates | 1793 | 60.0% | 0.7% | 39.3% |
+| balanced | owner | 59 | 41.7% | 1.6% | 56.8% |
+| balanced | speaker2 | 48 | 75.0% | 0.0% | 25.0% |
+| balanced | web | 1339 | 45.8% | 2.1% | 52.1% |
+| balanced | synthetic | 834 | 84.5% | 0.4% | 15.1% |
+| balanced | classmates | 1793 | 79.7% | 1.3% | 19.1% |
+
+Unknown clips that trigger a command (test):
+
+| rule | classmates | fragments | gsc | owner | reuse_fleurs | reuse_mswc | reuse_musan | reuse_owner | synthetic | web | mean |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| argmax | 40.0% | 10.9% | 8.2% | 9.8% | 9.3% | 2.1% | 2.1% | 4.5% | 24.6% | 12.5% | 12.4% |
+| cautious | 0.0% | 1.1% | 0.6% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.5% | 1.4% | 0.4% |
+| balanced | 13.3% | 1.5% | 1.8% | 0.0% | 0.0% | 0.0% | 0.0% | 1.8% | 4.0% | 3.7% | 2.6% |
+
+# Test results on unseen speakers
+
+Only test clips whose speaker never appears in the training split. Command rates are macro averages over classes; `unknown_false_action` = share of unknown clips that trigger a command.
+
+| model              | rule     | dataset                    |   unseen_speakers |   command_clips |   command_classes |   correct |   wrong_command |   unknown_clips |   unknown_false_action |
+|:-------------------|:---------|:---------------------------|------------------:|----------------:|------------------:|----------:|----------------:|----------------:|-----------------------:|
+| bcresnet6_schema_b | argmax   | classmate_optionb          |                10 |            1789 |                31 |    0.9803 |          0.0097 |               0 |               nan      |
+| bcresnet6_schema_b | argmax   | classmate_vcm_real         |                 1 |               4 |                 2 |    1      |          0      |              15 |                 0.7333 |
+| bcresnet6_schema_b | argmax   | fragments_owner_recordings |                77 |               1 |                 1 |    0      |          0      |              76 |                 0.0263 |
+| bcresnet6_schema_b | argmax   | fragments_synthetic_clone  |                35 |               2 |                 1 |    0      |          0      |              33 |                 0.0303 |
+| bcresnet6_schema_b | argmax   | fragments_synthetic_ph     |                85 |               3 |                 1 |    0      |          0      |              82 |                 0.0122 |
+| bcresnet6_schema_b | argmax   | fragments_synthetic_piper  |                 7 |               2 |                 1 |    0      |          0      |               5 |                 0      |
+| bcresnet6_schema_b | argmax   | fragments_web_slurp        |                63 |               0 |                 0 |  nan      |        nan      |              63 |                 0.1905 |
+| bcresnet6_schema_b | argmax   | fragments_web_tas          |                 7 |               0 |                 0 |  nan      |        nan      |               7 |                 0.1429 |
+| bcresnet6_schema_b | argmax   | owner_recordings           |                 1 |              48 |                21 |    1      |          0      |              31 |                 0      |
+| bcresnet6_schema_b | argmax   | reuse_fleurs               |                54 |               0 |                 0 |  nan      |        nan      |              54 |                 0      |
+| bcresnet6_schema_b | argmax   | reuse_mswc                 |                48 |               0 |                 0 |  nan      |        nan      |              48 |                 0.0625 |
+| bcresnet6_schema_b | argmax   | reuse_musan                |               174 |               0 |                 0 |  nan      |        nan      |             194 |                 0.0155 |
+| bcresnet6_schema_b | argmax   | synthetic_clone            |                18 |             397 |                21 |    0.9902 |          0      |             203 |                 0.0936 |
+| bcresnet6_schema_b | argmax   | synthetic_ph               |                 6 |             137 |                21 |    0.996  |          0      |              67 |                 0.0896 |
+| bcresnet6_schema_b | argmax   | synthetic_piper            |                14 |             292 |                21 |    0.9982 |          0      |             157 |                 0.0701 |
+| bcresnet6_schema_b | argmax   | web_fsc                    |                10 |             627 |                 7 |    0.949  |          0.0385 |             182 |                 0.033  |
+| bcresnet6_schema_b | argmax   | web_gsc                    |               237 |             411 |                 1 |    0.9586 |          0      |            2000 |                 0.0585 |
+| bcresnet6_schema_b | argmax   | web_multisensor            |                 2 |             120 |                 1 |    1      |          0      |               0 |               nan      |
+| bcresnet6_schema_b | argmax   | web_slurp                  |               409 |             180 |                 7 |    0.722  |          0.0711 |             293 |                 0.0785 |
+| bcresnet6_schema_b | argmax   | web_tas                    |                10 |               1 |                 1 |    1      |          0      |             166 |                 0.1084 |
+| bcresnet6_schema_b | cautious | classmate_optionb          |                10 |            1789 |                31 |    0.4456 |          0      |               0 |               nan      |
+| bcresnet6_schema_b | cautious | classmate_vcm_real         |                 1 |               4 |                 2 |    0      |          0      |              15 |                 0      |
+| bcresnet6_schema_b | cautious | fragments_owner_recordings |                77 |               1 |                 1 |    0      |          0      |              76 |                 0      |
+| bcresnet6_schema_b | cautious | fragments_synthetic_clone  |                35 |               2 |                 1 |    0      |          0      |              33 |                 0      |
+| bcresnet6_schema_b | cautious | fragments_synthetic_ph     |                85 |               3 |                 1 |    0      |          0      |              82 |                 0      |
+| bcresnet6_schema_b | cautious | fragments_synthetic_piper  |                 7 |               2 |                 1 |    0      |          0      |               5 |                 0      |
+| bcresnet6_schema_b | cautious | fragments_web_slurp        |                63 |               0 |                 0 |  nan      |        nan      |              63 |                 0.0159 |
+| bcresnet6_schema_b | cautious | fragments_web_tas          |                 7 |               0 |                 0 |  nan      |        nan      |               7 |                 0      |
+| bcresnet6_schema_b | cautious | owner_recordings           |                 1 |              48 |                21 |    0.5437 |          0      |              31 |                 0      |
+| bcresnet6_schema_b | cautious | reuse_fleurs               |                54 |               0 |                 0 |  nan      |        nan      |              54 |                 0      |
+| bcresnet6_schema_b | cautious | reuse_mswc                 |                48 |               0 |                 0 |  nan      |        nan      |              48 |                 0      |
+| bcresnet6_schema_b | cautious | reuse_musan                |               174 |               0 |                 0 |  nan      |        nan      |             194 |                 0      |
+| bcresnet6_schema_b | cautious | synthetic_clone            |                18 |             397 |                21 |    0.5544 |          0      |             203 |                 0.0049 |
+| bcresnet6_schema_b | cautious | synthetic_ph               |                 6 |             137 |                21 |    0.508  |          0      |              67 |                 0      |
+| bcresnet6_schema_b | cautious | synthetic_piper            |                14 |             292 |                21 |    0.4889 |          0      |             157 |                 0      |
+| bcresnet6_schema_b | cautious | web_fsc                    |                10 |             627 |                 7 |    0.3604 |          0      |             182 |                 0      |
+| bcresnet6_schema_b | cautious | web_gsc                    |               237 |             411 |                 1 |    0.1995 |          0      |            2000 |                 0      |
+| bcresnet6_schema_b | cautious | web_multisensor            |                 2 |             120 |                 1 |    0.9    |          0      |               0 |               nan      |
+| bcresnet6_schema_b | cautious | web_slurp                  |               409 |             180 |                 7 |    0.162  |          0      |             293 |                 0      |
+| bcresnet6_schema_b | cautious | web_tas                    |                10 |               1 |                 1 |    0      |          0      |             166 |                 0      |
+| bcresnet6_schema_b | balanced | classmate_optionb          |                10 |            1789 |                31 |    0.835  |          0      |               0 |               nan      |
+| bcresnet6_schema_b | balanced | classmate_vcm_real         |                 1 |               4 |                 2 |    0.75   |          0      |              15 |                 0      |
+| bcresnet6_schema_b | balanced | fragments_owner_recordings |                77 |               1 |                 1 |    0      |          0      |              76 |                 0      |
+| bcresnet6_schema_b | balanced | fragments_synthetic_clone  |                35 |               2 |                 1 |    0      |          0      |              33 |                 0      |
+| bcresnet6_schema_b | balanced | fragments_synthetic_ph     |                85 |               3 |                 1 |    0      |          0      |              82 |                 0      |
+| bcresnet6_schema_b | balanced | fragments_synthetic_piper  |                 7 |               2 |                 1 |    0      |          0      |               5 |                 0      |
+| bcresnet6_schema_b | balanced | fragments_web_slurp        |                63 |               0 |                 0 |  nan      |        nan      |              63 |                 0.0476 |
+| bcresnet6_schema_b | balanced | fragments_web_tas          |                 7 |               0 |                 0 |  nan      |        nan      |               7 |                 0.1429 |
+| bcresnet6_schema_b | balanced | owner_recordings           |                 1 |              48 |                21 |    0.8651 |          0      |              31 |                 0      |
+| bcresnet6_schema_b | balanced | reuse_fleurs               |                54 |               0 |                 0 |  nan      |        nan      |              54 |                 0      |
+| bcresnet6_schema_b | balanced | reuse_mswc                 |                48 |               0 |                 0 |  nan      |        nan      |              48 |                 0      |
+| bcresnet6_schema_b | balanced | reuse_musan                |               174 |               0 |                 0 |  nan      |        nan      |             194 |                 0      |
+| bcresnet6_schema_b | balanced | synthetic_clone            |                18 |             397 |                21 |    0.8654 |          0      |             203 |                 0.0049 |
+| bcresnet6_schema_b | balanced | synthetic_ph               |                 6 |             137 |                21 |    0.9361 |          0      |              67 |                 0      |
+| bcresnet6_schema_b | balanced | synthetic_piper            |                14 |             292 |                21 |    0.9447 |          0      |             157 |                 0.0064 |
+| bcresnet6_schema_b | balanced | web_fsc                    |                10 |             627 |                 7 |    0.6759 |          0      |             182 |                 0      |
+| bcresnet6_schema_b | balanced | web_gsc                    |               237 |             411 |                 1 |    0.7835 |          0      |            2000 |                 0.0035 |
+| bcresnet6_schema_b | balanced | web_multisensor            |                 2 |             120 |                 1 |    0.95   |          0      |               0 |               nan      |
+| bcresnet6_schema_b | balanced | web_slurp                  |               409 |             180 |                 7 |    0.392  |          0      |             293 |                 0      |
+| bcresnet6_schema_b | balanced | web_tas                    |                10 |               1 |                 1 |    1      |          0      |             166 |                 0.006  |
+| dscnn_schema_b     | argmax   | classmate_optionb          |                10 |            1789 |                31 |    0.9219 |          0.0439 |               0 |               nan      |
+| dscnn_schema_b     | argmax   | classmate_vcm_real         |                 1 |               4 |                 2 |    0.25   |          0.5    |              15 |                 0.4    |
+| dscnn_schema_b     | argmax   | fragments_owner_recordings |                77 |               1 |                 1 |    0      |          0      |              76 |                 0.1053 |
+| dscnn_schema_b     | argmax   | fragments_synthetic_clone  |                35 |               2 |                 1 |    0      |          0      |              33 |                 0.1515 |
+| dscnn_schema_b     | argmax   | fragments_synthetic_ph     |                85 |               3 |                 1 |    0      |          0      |              82 |                 0.122  |
+| dscnn_schema_b     | argmax   | fragments_synthetic_piper  |                 7 |               2 |                 1 |    0      |          0      |               5 |                 0.2    |
+| dscnn_schema_b     | argmax   | fragments_web_slurp        |                63 |               0 |                 0 |  nan      |        nan      |              63 |                 0.0635 |
+| dscnn_schema_b     | argmax   | fragments_web_tas          |                 7 |               0 |                 0 |  nan      |        nan      |               7 |                 0.1429 |
+| dscnn_schema_b     | argmax   | owner_recordings           |                 1 |              48 |                21 |    0.881  |          0.0238 |              31 |                 0.129  |
+| dscnn_schema_b     | argmax   | reuse_fleurs               |                54 |               0 |                 0 |  nan      |        nan      |              54 |                 0.0926 |
+| dscnn_schema_b     | argmax   | reuse_mswc                 |                48 |               0 |                 0 |  nan      |        nan      |              48 |                 0.0208 |
+| dscnn_schema_b     | argmax   | reuse_musan                |               174 |               0 |                 0 |  nan      |        nan      |             194 |                 0.0206 |
+| dscnn_schema_b     | argmax   | synthetic_clone            |                18 |             397 |                21 |    0.9119 |          0.0295 |             203 |                 0.3054 |
+| dscnn_schema_b     | argmax   | synthetic_ph               |                 6 |             137 |                21 |    0.9921 |          0      |              67 |                 0.1642 |
+| dscnn_schema_b     | argmax   | synthetic_piper            |                14 |             292 |                21 |    0.9735 |          0.0136 |             157 |                 0.2038 |
+| dscnn_schema_b     | argmax   | web_fsc                    |                10 |             627 |                 7 |    0.7176 |          0.1526 |             182 |                 0.0934 |
+| dscnn_schema_b     | argmax   | web_gsc                    |               237 |             411 |                 1 |    0.7518 |          0.0049 |            2000 |                 0.0825 |
+| dscnn_schema_b     | argmax   | web_multisensor            |                 2 |             120 |                 1 |    0.95   |          0      |               0 |               nan      |
+| dscnn_schema_b     | argmax   | web_slurp                  |               409 |             180 |                 7 |    0.326  |          0.0177 |             293 |                 0.0887 |
+| dscnn_schema_b     | argmax   | web_tas                    |                10 |               1 |                 1 |    1      |          0      |             166 |                 0.2229 |
+| dscnn_schema_b     | cautious | classmate_optionb          |                10 |            1789 |                31 |    0.6013 |          0.0073 |               0 |               nan      |
+| dscnn_schema_b     | cautious | classmate_vcm_real         |                 1 |               4 |                 2 |    0      |          0      |              15 |                 0      |
+| dscnn_schema_b     | cautious | fragments_owner_recordings |                77 |               1 |                 1 |    0      |          0      |              76 |                 0      |
+| dscnn_schema_b     | cautious | fragments_synthetic_clone  |                35 |               2 |                 1 |    0      |          0      |              33 |                 0      |
+| dscnn_schema_b     | cautious | fragments_synthetic_ph     |                85 |               3 |                 1 |    0      |          0      |              82 |                 0.0122 |
+| dscnn_schema_b     | cautious | fragments_synthetic_piper  |                 7 |               2 |                 1 |    0      |          0      |               5 |                 0      |
+| dscnn_schema_b     | cautious | fragments_web_slurp        |                63 |               0 |                 0 |  nan      |        nan      |              63 |                 0.0159 |
+| dscnn_schema_b     | cautious | fragments_web_tas          |                 7 |               0 |                 0 |  nan      |        nan      |               7 |                 0.1429 |
+| dscnn_schema_b     | cautious | owner_recordings           |                 1 |              48 |                21 |    0.5437 |          0      |              31 |                 0      |
+| dscnn_schema_b     | cautious | reuse_fleurs               |                54 |               0 |                 0 |  nan      |        nan      |              54 |                 0      |
+| dscnn_schema_b     | cautious | reuse_mswc                 |                48 |               0 |                 0 |  nan      |        nan      |              48 |                 0      |
+| dscnn_schema_b     | cautious | reuse_musan                |               174 |               0 |                 0 |  nan      |        nan      |             194 |                 0      |
+| dscnn_schema_b     | cautious | synthetic_clone            |                18 |             397 |                21 |    0.5535 |          0      |             203 |                 0.0049 |
+| dscnn_schema_b     | cautious | synthetic_ph               |                 6 |             137 |                21 |    0.7781 |          0      |              67 |                 0.0149 |
+| dscnn_schema_b     | cautious | synthetic_piper            |                14 |             292 |                21 |    0.7931 |          0      |             157 |                 0      |
+| dscnn_schema_b     | cautious | web_fsc                    |                10 |             627 |                 7 |    0.2283 |          0.0126 |             182 |                 0.022  |
+| dscnn_schema_b     | cautious | web_gsc                    |               237 |             411 |                 1 |    0.3358 |          0      |            2000 |                 0.006  |
+| dscnn_schema_b     | cautious | web_multisensor            |                 2 |             120 |                 1 |    0.7417 |          0      |               0 |               nan      |
+| dscnn_schema_b     | cautious | web_slurp                  |               409 |             180 |                 7 |    0.1242 |          0      |             293 |                 0.0068 |
+| dscnn_schema_b     | cautious | web_tas                    |                10 |               1 |                 1 |    1      |          0      |             166 |                 0.0181 |
+| dscnn_schema_b     | balanced | classmate_optionb          |                10 |            1789 |                31 |    0.7982 |          0.0127 |               0 |               nan      |
+| dscnn_schema_b     | balanced | classmate_vcm_real         |                 1 |               4 |                 2 |    0.25   |          0      |              15 |                 0.1333 |
+| dscnn_schema_b     | balanced | fragments_owner_recordings |                77 |               1 |                 1 |    0      |          0      |              76 |                 0      |
+| dscnn_schema_b     | balanced | fragments_synthetic_clone  |                35 |               2 |                 1 |    0      |          0      |              33 |                 0      |
+| dscnn_schema_b     | balanced | fragments_synthetic_ph     |                85 |               3 |                 1 |    0      |          0      |              82 |                 0.0244 |
+| dscnn_schema_b     | balanced | fragments_synthetic_piper  |                 7 |               2 |                 1 |    0      |          0      |               5 |                 0      |
+| dscnn_schema_b     | balanced | fragments_web_slurp        |                63 |               0 |                 0 |  nan      |        nan      |              63 |                 0.0159 |
+| dscnn_schema_b     | balanced | fragments_web_tas          |                 7 |               0 |                 0 |  nan      |        nan      |               7 |                 0.1429 |
+| dscnn_schema_b     | balanced | owner_recordings           |                 1 |              48 |                21 |    0.75   |          0      |              31 |                 0      |
+| dscnn_schema_b     | balanced | reuse_fleurs               |                54 |               0 |                 0 |  nan      |        nan      |              54 |                 0      |
+| dscnn_schema_b     | balanced | reuse_mswc                 |                48 |               0 |                 0 |  nan      |        nan      |              48 |                 0      |
+| dscnn_schema_b     | balanced | reuse_musan                |               174 |               0 |                 0 |  nan      |        nan      |             194 |                 0      |
+| dscnn_schema_b     | balanced | synthetic_clone            |                18 |             397 |                21 |    0.7849 |          0.0056 |             203 |                 0.0443 |
+| dscnn_schema_b     | balanced | synthetic_ph               |                 6 |             137 |                21 |    0.9376 |          0      |              67 |                 0.0597 |
+| dscnn_schema_b     | balanced | synthetic_piper            |                14 |             292 |                21 |    0.9019 |          0.0034 |             157 |                 0.0255 |
+| dscnn_schema_b     | balanced | web_fsc                    |                10 |             627 |                 7 |    0.4509 |          0.0445 |             182 |                 0.044  |
+| dscnn_schema_b     | balanced | web_gsc                    |               237 |             411 |                 1 |    0.5523 |          0.0024 |            2000 |                 0.0185 |
+| dscnn_schema_b     | balanced | web_multisensor            |                 2 |             120 |                 1 |    0.85   |          0      |               0 |               nan      |
+| dscnn_schema_b     | balanced | web_slurp                  |               409 |             180 |                 7 |    0.2138 |          0      |             293 |                 0.0239 |
+| dscnn_schema_b     | balanced | web_tas                    |                10 |               1 |                 1 |    1      |          0      |             166 |                 0.0542 |
+=== 8 ONNX export (for the Pi 5 latency benchmark) 10-02 01:51:39
+  torch.onnx.export(full, torch.zeros(1, N), str(onnx_path), input_names=["audio"], output_names=["probs"],
+{
+ "run": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/deliverables/command_classifier/model/runs/bcresnet6_schema_b",
+ "best_epoch": 51,
+ "tau": 6.0,
+ "classes": 32,
+ "opset": 17,
+ "input": "audio float32 [B, 80000] @16 kHz",
+ "output": "probs float32 [B, 32]",
+ "check_clips": 600,
+ "cutoffs": {
+  "cautious": 0.99,
+  "balanced": 0.945
+ },
+ "frontend_max_abs_diff_normalised_units": 0.00018525123596191406,
+ "prob_max_abs_diff_onnx_vs_torch": 3.3974647521972656e-06,
+ "decisions_changed_argmax": 0,
+ "accuracy_argmax_onnx": 0.955,
+ "decisions_changed_cautious": 0,
+ "accuracy_cautious_onnx": 0.7033333333333334,
+ "decisions_changed_balanced": 0,
+ "accuracy_balanced_onnx": 0.8916666666666667,
+ "file_bytes": 2003328
+}
+  torch.onnx.export(full, torch.zeros(1, N), str(onnx_path), input_names=["audio"], output_names=["probs"],
+{
+ "run": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/deliverables/command_classifier/model/runs/dscnn_schema_b",
+ "best_epoch": 35,
+ "tau": 3,
+ "classes": 32,
+ "opset": 17,
+ "input": "audio float32 [B, 80000] @16 kHz",
+ "output": "probs float32 [B, 32]",
+ "check_clips": 600,
+ "cutoffs": {
+  "cautious": 0.92,
+  "balanced": 0.72
+ },
+ "frontend_max_abs_diff_normalised_units": 0.00018525123596191406,
+ "prob_max_abs_diff_onnx_vs_torch": 5.424022674560547e-06,
+ "decisions_changed_argmax": 0,
+ "accuracy_argmax_onnx": 0.8566666666666667,
+ "decisions_changed_cautious": 0,
+ "accuracy_cautious_onnx": 0.7533333333333333,
+ "decisions_changed_balanced": 0,
+ "accuracy_balanced_onnx": 0.8266666666666667,
+ "file_bytes": 1873318
+}
+=== 9 commit code, logs, checkpoints and results to the local git repository (no push) 10-02 01:54:11
+30e00be Schema-B command classifier: bcresnet6_schema_b + dscnn_schema_b baseline (trained 2026-10-02)
+=== ALL DONE 10-02 01:54:15

@@ -1,0 +1,361 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0074.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:28:44+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8936638832092285,
+ "chunks": [
+  {
+   "chunk_start": 7.06,
+   "chunk_end": 10.06,
+   "text": "The weather is changing again this afternoon. The Delta.",
+   "words": [
+    {
+     "word": "The",
+     "start": 7.06,
+     "end": 7.36,
+     "probability": 0.7617
+    },
+    {
+     "word": "weather",
+     "start": 7.36,
+     "end": 7.6,
+     "probability": 0.9873
+    },
+    {
+     "word": "is",
+     "start": 7.6,
+     "end": 7.8,
+     "probability": 0.9922
+    },
+    {
+     "word": "changing",
+     "start": 7.8,
+     "end": 8.1,
+     "probability": 0.9956
+    },
+    {
+     "word": "again",
+     "start": 8.1,
+     "end": 8.58,
+     "probability": 0.9873
+    },
+    {
+     "word": "this",
+     "start": 8.58,
+     "end": 8.76,
+     "probability": 0.9585
+    },
+    {
+     "word": "afternoon.",
+     "start": 8.76,
+     "end": 9.0,
+     "probability": 0.8511
+    },
+    {
+     "word": "The",
+     "start": 9.06,
+     "end": 9.22,
+     "probability": 0.334
+    },
+    {
+     "word": "Delta.",
+     "start": 9.22,
+     "end": 9.44,
+     "probability": 0.6567
+    }
+   ]
+  },
+  {
+   "chunk_start": 10.068,
+   "chunk_end": 14.38,
+   "text": "I left a package beside the front door. There's enough time to finish this today.",
+   "words": [
+    {
+     "word": "I",
+     "start": 10.068,
+     "end": 10.388,
+     "probability": 0.5947
+    },
+    {
+     "word": "left",
+     "start": 10.388,
+     "end": 10.568,
+     "probability": 0.9912
+    },
+    {
+     "word": "a",
+     "start": 10.568,
+     "end": 10.748,
+     "probability": 0.6079
+    },
+    {
+     "word": "package",
+     "start": 10.748,
+     "end": 11.008,
+     "probability": 0.9971
+    },
+    {
+     "word": "beside",
+     "start": 11.008,
+     "end": 11.408,
+     "probability": 0.9604
+    },
+    {
+     "word": "the",
+     "start": 11.408,
+     "end": 11.648,
+     "probability": 0.9878
+    },
+    {
+     "word": "front",
+     "start": 11.648,
+     "end": 11.808,
+     "probability": 0.9956
+    },
+    {
+     "word": "door.",
+     "start": 11.808,
+     "end": 12.148,
+     "probability": 0.9937
+    },
+    {
+     "word": "There's",
+     "start": 12.248,
+     "end": 12.388,
+     "probability": 0.7625
+    },
+    {
+     "word": "enough",
+     "start": 12.388,
+     "end": 12.648,
+     "probability": 0.9941
+    },
+    {
+     "word": "time",
+     "start": 12.648,
+     "end": 12.888,
+     "probability": 0.999
+    },
+    {
+     "word": "to",
+     "start": 12.888,
+     "end": 13.068,
+     "probability": 0.9976
+    },
+    {
+     "word": "finish",
+     "start": 13.068,
+     "end": 13.308,
+     "probability": 0.9985
+    },
+    {
+     "word": "this",
+     "start": 13.308,
+     "end": 13.528,
+     "probability": 0.9961
+    },
+    {
+     "word": "today.",
+     "start": 13.528,
+     "end": 13.768,
+     "probability": 0.9907
+    }
+   ]
+  },
+  {
+   "chunk_start": 16.052,
+   "chunk_end": 19.18,
+   "text": "The meeting starts in about 10 minutes.",
+   "words": [
+    {
+     "word": "The",
+     "start": 16.052,
+     "end": 16.392,
+     "probability": 0.8926
+    },
+    {
+     "word": "meeting",
+     "start": 16.392,
+     "end": 16.712,
+     "probability": 0.9746
+    },
+    {
+     "word": "starts",
+     "start": 16.712,
+     "end": 16.992,
+     "probability": 0.9634
+    },
+    {
+     "word": "in",
+     "start": 16.992,
+     "end": 17.452,
+     "probability": 0.9927
+    },
+    {
+     "word": "about",
+     "start": 17.452,
+     "end": 17.692,
+     "probability": 0.9912
+    },
+    {
+     "word": "10",
+     "start": 17.692,
+     "end": 17.932,
+     "probability": 0.6753
+    },
+    {
+     "word": "minutes.",
+     "start": 17.932,
+     "end": 18.392,
+     "probability": 0.9878
+    }
+   ]
+  },
+  {
+   "chunk_start": 22.644,
+   "chunk_end": 29.388,
+   "text": "The machine makes a strange sound sometimes. The children are playing outside in the garden. The road was busy because of the rain.",
+   "words": [
+    {
+     "word": "The",
+     "start": 22.644,
+     "end": 22.924,
+     "probability": 0.7476
+    },
+    {
+     "word": "machine",
+     "start": 22.924,
+     "end": 23.184,
+     "probability": 0.8926
+    },
+    {
+     "word": "makes",
+     "start": 23.184,
+     "end": 23.544,
+     "probability": 0.9927
+    },
+    {
+     "word": "a",
+     "start": 23.544,
+     "end": 23.684,
+     "probability": 0.9849
+    },
+    {
+     "word": "strange",
+     "start": 23.684,
+     "end": 24.004,
+     "probability": 0.9971
+    },
+    {
+     "word": "sound",
+     "start": 24.004,
+     "end": 24.364,
+     "probability": 0.9858
+    },
+    {
+     "word": "sometimes.",
+     "start": 24.364,
+     "end": 24.824,
+     "probability": 0.9233
+    },
+    {
+     "word": "The",
+     "start": 24.844,
+     "end": 25.084,
+     "probability": 0.9146
+    },
+    {
+     "word": "children",
+     "start": 25.084,
+     "end": 25.304,
+     "probability": 0.9512
+    },
+    {
+     "word": "are",
+     "start": 25.304,
+     "end": 25.624,
+     "probability": 0.9932
+    },
+    {
+     "word": "playing",
+     "start": 25.624,
+     "end": 25.904,
+     "probability": 0.999
+    },
+    {
+     "word": "outside",
+     "start": 25.904,
+     "end": 26.524,
+     "probability": 0.9937
+    },
+    {
+     "word": "in",
+     "start": 26.524,
+     "end": 26.644,
+     "probability": 0.9302
+    },
+    {
+     "word": "the",
+     "start": 26.644,
+     "end": 26.644,
+     "probability": 0.9902
+    },
+    {
+     "word": "garden.",
+     "start": 26.644,
+     "end": 26.664,
+     "probability": 0.9863
+    },
+    {
+     "word": "The",
+     "start": 26.664,
+     "end": 26.704,
+     "probability": 0.9624
+    },
+    {
+     "word": "road",
+     "start": 26.704,
+     "end": 27.044,
+     "probability": 0.8042
+    },
+    {
+     "word": "was",
+     "start": 27.044,
+     "end": 27.324,
+     "probability": 0.7832
+    },
+    {
+     "word": "busy",
+     "start": 27.324,
+     "end": 27.724,
+     "probability": 0.9966
+    },
+    {
+     "word": "because",
+     "start": 27.724,
+     "end": 27.984,
+     "probability": 0.9951
+    },
+    {
+     "word": "of",
+     "start": 27.984,
+     "end": 28.344,
+     "probability": 0.9995
+    },
+    {
+     "word": "the",
+     "start": 28.344,
+     "end": 28.504,
+     "probability": 0.999
+    },
+    {
+     "word": "rain.",
+     "start": 28.504,
+     "end": 28.784,
+     "probability": 0.9985
+    }
+   ]
+  }
+ ]
+}

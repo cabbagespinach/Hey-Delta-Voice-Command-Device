@@ -1,0 +1,324 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0092.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:29:11+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.8899600505828857,
+ "chunks": [
+  {
+   "chunk_start": 5.524,
+   "chunk_end": 15.884,
+   "text": "I think the blue one is slightly cheaper. The weather is changing again this afternoon. I think the blue one is slightly cheaper. We can take the train after lunch.",
+   "words": [
+    {
+     "word": "I",
+     "start": 5.524,
+     "end": 5.884,
+     "probability": 0.6274
+    },
+    {
+     "word": "think",
+     "start": 5.884,
+     "end": 6.184,
+     "probability": 0.9858
+    },
+    {
+     "word": "the",
+     "start": 6.184,
+     "end": 6.384,
+     "probability": 0.9839
+    },
+    {
+     "word": "blue",
+     "start": 6.384,
+     "end": 6.604,
+     "probability": 0.8223
+    },
+    {
+     "word": "one",
+     "start": 6.604,
+     "end": 6.884,
+     "probability": 0.979
+    },
+    {
+     "word": "is",
+     "start": 6.884,
+     "end": 7.144,
+     "probability": 0.978
+    },
+    {
+     "word": "slightly",
+     "start": 7.144,
+     "end": 7.144,
+     "probability": 0.9668
+    },
+    {
+     "word": "cheaper.",
+     "start": 7.144,
+     "end": 7.164,
+     "probability": 0.9941
+    },
+    {
+     "word": "The",
+     "start": 7.164,
+     "end": 7.164,
+     "probability": 0.3362
+    },
+    {
+     "word": "weather",
+     "start": 7.164,
+     "end": 7.524,
+     "probability": 0.9956
+    },
+    {
+     "word": "is",
+     "start": 7.524,
+     "end": 7.864,
+     "probability": 0.9941
+    },
+    {
+     "word": "changing",
+     "start": 7.864,
+     "end": 8.224,
+     "probability": 0.998
+    },
+    {
+     "word": "again",
+     "start": 8.224,
+     "end": 8.724,
+     "probability": 0.9907
+    },
+    {
+     "word": "this",
+     "start": 8.724,
+     "end": 8.984,
+     "probability": 0.9629
+    },
+    {
+     "word": "afternoon.",
+     "start": 8.984,
+     "end": 9.344,
+     "probability": 0.999
+    },
+    {
+     "word": "I",
+     "start": 9.584,
+     "end": 9.964,
+     "probability": 0.312
+    },
+    {
+     "word": "think",
+     "start": 9.964,
+     "end": 11.504,
+     "probability": 0.998
+    },
+    {
+     "word": "the",
+     "start": 11.504,
+     "end": 11.864,
+     "probability": 0.9976
+    },
+    {
+     "word": "blue",
+     "start": 11.864,
+     "end": 12.084,
+     "probability": 0.9976
+    },
+    {
+     "word": "one",
+     "start": 12.084,
+     "end": 12.404,
+     "probability": 0.9976
+    },
+    {
+     "word": "is",
+     "start": 12.404,
+     "end": 12.704,
+     "probability": 0.9995
+    },
+    {
+     "word": "slightly",
+     "start": 12.704,
+     "end": 12.924,
+     "probability": 0.998
+    },
+    {
+     "word": "cheaper.",
+     "start": 12.924,
+     "end": 13.424,
+     "probability": 0.9995
+    },
+    {
+     "word": "We",
+     "start": 13.724,
+     "end": 14.044,
+     "probability": 0.9722
+    },
+    {
+     "word": "can",
+     "start": 14.044,
+     "end": 14.184,
+     "probability": 0.9985
+    },
+    {
+     "word": "take",
+     "start": 14.184,
+     "end": 14.404,
+     "probability": 0.9976
+    },
+    {
+     "word": "the",
+     "start": 14.404,
+     "end": 14.504,
+     "probability": 0.9976
+    },
+    {
+     "word": "train",
+     "start": 14.504,
+     "end": 14.724,
+     "probability": 0.9971
+    },
+    {
+     "word": "after",
+     "start": 14.724,
+     "end": 14.964,
+     "probability": 0.9941
+    },
+    {
+     "word": "lunch.",
+     "start": 14.964,
+     "end": 15.264,
+     "probability": 0.999
+    }
+   ]
+  },
+  {
+   "chunk_start": 18.964,
+   "chunk_end": 21.42,
+   "text": "We can take the train after lunch.",
+   "words": [
+    {
+     "word": "We",
+     "start": 18.964,
+     "end": 19.284,
+     "probability": 0.8784
+    },
+    {
+     "word": "can",
+     "start": 19.284,
+     "end": 19.404,
+     "probability": 0.9604
+    },
+    {
+     "word": "take",
+     "start": 19.404,
+     "end": 19.624,
+     "probability": 0.998
+    },
+    {
+     "word": "the",
+     "start": 19.624,
+     "end": 19.764,
+     "probability": 0.9971
+    },
+    {
+     "word": "train",
+     "start": 19.764,
+     "end": 20.024,
+     "probability": 0.9951
+    },
+    {
+     "word": "after",
+     "start": 20.024,
+     "end": 20.384,
+     "probability": 0.9971
+    },
+    {
+     "word": "lunch.",
+     "start": 20.384,
+     "end": 20.764,
+     "probability": 0.999
+    }
+   ]
+  },
+  {
+   "chunk_start": 23.7,
+   "chunk_end": 28.108,
+   "text": "This retorgy is only for children after they excite in the garden.",
+   "words": [
+    {
+     "word": "This",
+     "start": 23.7,
+     "end": 24.06,
+     "probability": 0.7017
+    },
+    {
+     "word": "retorgy",
+     "start": 24.06,
+     "end": 24.62,
+     "probability": 0.4176
+    },
+    {
+     "word": "is",
+     "start": 24.62,
+     "end": 24.86,
+     "probability": 0.9956
+    },
+    {
+     "word": "only",
+     "start": 24.86,
+     "end": 25.12,
+     "probability": 0.9644
+    },
+    {
+     "word": "for",
+     "start": 25.12,
+     "end": 25.3,
+     "probability": 0.6362
+    },
+    {
+     "word": "children",
+     "start": 25.3,
+     "end": 25.68,
+     "probability": 0.9629
+    },
+    {
+     "word": "after",
+     "start": 25.68,
+     "end": 26.18,
+     "probability": 0.4824
+    },
+    {
+     "word": "they",
+     "start": 26.18,
+     "end": 26.42,
+     "probability": 0.9419
+    },
+    {
+     "word": "excite",
+     "start": 26.42,
+     "end": 27.0,
+     "probability": 0.3831
+    },
+    {
+     "word": "in",
+     "start": 27.0,
+     "end": 27.12,
+     "probability": 0.9854
+    },
+    {
+     "word": "the",
+     "start": 27.12,
+     "end": 27.22,
+     "probability": 0.98
+    },
+    {
+     "word": "garden.",
+     "start": 27.22,
+     "end": 27.54,
+     "probability": 0.9712
+    }
+   ]
+  }
+ ]
+}

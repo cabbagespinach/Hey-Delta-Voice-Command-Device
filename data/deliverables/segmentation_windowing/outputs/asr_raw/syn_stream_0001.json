@@ -1,0 +1,162 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/streaming_eval/syn_stream_0001.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-25T10:26:53+00:00",
+ "duration_sec": 30.0,
+ "input_peak": 0.9051772356033325,
+ "chunks": [
+  {
+   "chunk_start": 6.164,
+   "chunk_end": 9.388,
+   "text": "The weather is changing again this afternoon.",
+   "words": [
+    {
+     "word": "The",
+     "start": 6.164,
+     "end": 6.464,
+     "probability": 0.8164
+    },
+    {
+     "word": "weather",
+     "start": 6.464,
+     "end": 6.724,
+     "probability": 0.9956
+    },
+    {
+     "word": "is",
+     "start": 6.724,
+     "end": 6.964,
+     "probability": 0.9971
+    },
+    {
+     "word": "changing",
+     "start": 6.964,
+     "end": 7.344,
+     "probability": 0.999
+    },
+    {
+     "word": "again",
+     "start": 7.344,
+     "end": 7.824,
+     "probability": 0.9971
+    },
+    {
+     "word": "this",
+     "start": 7.824,
+     "end": 8.144,
+     "probability": 0.9941
+    },
+    {
+     "word": "afternoon.",
+     "start": 8.144,
+     "end": 8.664,
+     "probability": 0.9976
+    }
+   ]
+  },
+  {
+   "chunk_start": 10.388,
+   "chunk_end": 13.388,
+   "text": "We ordered dinner and waited through the entrance.",
+   "words": [
+    {
+     "word": "We",
+     "start": 10.388,
+     "end": 10.708,
+     "probability": 0.542
+    },
+    {
+     "word": "ordered",
+     "start": 10.708,
+     "end": 10.968,
+     "probability": 0.5615
+    },
+    {
+     "word": "dinner",
+     "start": 10.968,
+     "end": 11.248,
+     "probability": 0.9741
+    },
+    {
+     "word": "and",
+     "start": 11.248,
+     "end": 11.348,
+     "probability": 0.9199
+    },
+    {
+     "word": "waited",
+     "start": 11.348,
+     "end": 11.788,
+     "probability": 0.9824
+    },
+    {
+     "word": "through",
+     "start": 11.788,
+     "end": 12.028,
+     "probability": 0.5947
+    },
+    {
+     "word": "the",
+     "start": 12.028,
+     "end": 12.228,
+     "probability": 0.9932
+    },
+    {
+     "word": "entrance.",
+     "start": 12.228,
+     "end": 12.528,
+     "probability": 0.9204
+    }
+   ]
+  },
+  {
+   "chunk_start": 20.18,
+   "chunk_end": 25.708,
+   "text": "Let us compare the two options carefully.",
+   "words": [
+    {
+     "word": "Let",
+     "start": 20.18,
+     "end": 20.54,
+     "probability": 0.8838
+    },
+    {
+     "word": "us",
+     "start": 20.54,
+     "end": 20.68,
+     "probability": 0.9883
+    },
+    {
+     "word": "compare",
+     "start": 20.68,
+     "end": 21.1,
+     "probability": 0.9971
+    },
+    {
+     "word": "the",
+     "start": 21.1,
+     "end": 21.38,
+     "probability": 0.9966
+    },
+    {
+     "word": "two",
+     "start": 21.38,
+     "end": 21.56,
+     "probability": 0.9854
+    },
+    {
+     "word": "options",
+     "start": 21.56,
+     "end": 22.12,
+     "probability": 0.9985
+    },
+    {
+     "word": "carefully.",
+     "start": 22.12,
+     "end": 22.58,
+     "probability": 0.9868
+    }
+   ]
+  }
+ ]
+}

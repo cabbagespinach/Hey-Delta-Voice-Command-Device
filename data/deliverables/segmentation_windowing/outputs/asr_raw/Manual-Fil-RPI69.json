@@ -1,0 +1,2077 @@
+{
+ "filepath": "/mnt/jfs_hpc/home/arvir.jane.redondo/sandbox/AI231/ME2 v2/data/positives/Manual-Fil-RPI69.wav",
+ "asr_config_hash": "baf2eadb537d",
+ "created_at": "2026-09-29T03:04:07+00:00",
+ "duration_sec": 115.02933333333333,
+ "input_peak": 0.32047054171562195,
+ "chunks": [
+  {
+   "chunk_start": 2.42,
+   "chunk_end": 11.376,
+   "text": "another trip and that was to do my shower and if you see my old showers before it's not too different but I just didn't it's just a little bit more refined",
+   "words": [
+    {
+     "word": "another",
+     "start": 2.42,
+     "end": 2.6,
+     "probability": 0.1737
+    },
+    {
+     "word": "trip",
+     "start": 2.6,
+     "end": 2.9,
+     "probability": 0.9663
+    },
+    {
+     "word": "and",
+     "start": 2.9,
+     "end": 3.08,
+     "probability": 0.7026
+    },
+    {
+     "word": "that",
+     "start": 3.08,
+     "end": 3.24,
+     "probability": 0.9927
+    },
+    {
+     "word": "was",
+     "start": 3.24,
+     "end": 3.44,
+     "probability": 0.9849
+    },
+    {
+     "word": "to",
+     "start": 3.44,
+     "end": 3.62,
+     "probability": 0.9868
+    },
+    {
+     "word": "do",
+     "start": 3.62,
+     "end": 3.78,
+     "probability": 0.978
+    },
+    {
+     "word": "my",
+     "start": 3.78,
+     "end": 3.9,
+     "probability": 0.9961
+    },
+    {
+     "word": "shower",
+     "start": 3.9,
+     "end": 4.32,
+     "probability": 0.9463
+    },
+    {
+     "word": "and",
+     "start": 4.32,
+     "end": 4.94,
+     "probability": 0.3899
+    },
+    {
+     "word": "if",
+     "start": 4.94,
+     "end": 5.2,
+     "probability": 0.8477
+    },
+    {
+     "word": "you",
+     "start": 5.2,
+     "end": 5.36,
+     "probability": 0.9971
+    },
+    {
+     "word": "see",
+     "start": 5.36,
+     "end": 5.64,
+     "probability": 0.6797
+    },
+    {
+     "word": "my",
+     "start": 5.64,
+     "end": 5.84,
+     "probability": 0.9766
+    },
+    {
+     "word": "old",
+     "start": 5.84,
+     "end": 6.08,
+     "probability": 0.9028
+    },
+    {
+     "word": "showers",
+     "start": 6.08,
+     "end": 6.56,
+     "probability": 0.9868
+    },
+    {
+     "word": "before",
+     "start": 6.56,
+     "end": 6.84,
+     "probability": 0.9771
+    },
+    {
+     "word": "it's",
+     "start": 6.84,
+     "end": 7.28,
+     "probability": 0.8342
+    },
+    {
+     "word": "not",
+     "start": 7.28,
+     "end": 7.44,
+     "probability": 0.9971
+    },
+    {
+     "word": "too",
+     "start": 7.44,
+     "end": 7.62,
+     "probability": 0.9878
+    },
+    {
+     "word": "different",
+     "start": 7.62,
+     "end": 7.98,
+     "probability": 0.9956
+    },
+    {
+     "word": "but",
+     "start": 7.98,
+     "end": 8.2,
+     "probability": 0.9429
+    },
+    {
+     "word": "I",
+     "start": 8.2,
+     "end": 8.3,
+     "probability": 0.5356
+    },
+    {
+     "word": "just",
+     "start": 8.3,
+     "end": 8.52,
+     "probability": 0.9932
+    },
+    {
+     "word": "didn't",
+     "start": 8.52,
+     "end": 8.94,
+     "probability": 0.7169
+    },
+    {
+     "word": "it's",
+     "start": 8.94,
+     "end": 9.56,
+     "probability": 0.8945
+    },
+    {
+     "word": "just",
+     "start": 9.56,
+     "end": 9.66,
+     "probability": 0.9937
+    },
+    {
+     "word": "a",
+     "start": 9.66,
+     "end": 9.82,
+     "probability": 0.9985
+    },
+    {
+     "word": "little",
+     "start": 9.82,
+     "end": 10.0,
+     "probability": 0.999
+    },
+    {
+     "word": "bit",
+     "start": 10.0,
+     "end": 10.18,
+     "probability": 0.9849
+    },
+    {
+     "word": "more",
+     "start": 10.18,
+     "end": 10.36,
+     "probability": 0.9932
+    },
+    {
+     "word": "refined",
+     "start": 10.36,
+     "end": 10.56,
+     "probability": 0.8457
+    }
+   ]
+  },
+  {
+   "chunk_start": 11.376,
+   "chunk_end": 20.556,
+   "text": "I have this rope now that holds up all the shadows and they all hook on. I'll show you how they hook on and hook off in a second and if you come over here and look.",
+   "words": [
+    {
+     "word": "I",
+     "start": 11.376,
+     "end": 11.516,
+     "probability": 0.6562
+    },
+    {
+     "word": "have",
+     "start": 11.516,
+     "end": 11.756,
+     "probability": 0.9619
+    },
+    {
+     "word": "this",
+     "start": 11.756,
+     "end": 11.996,
+     "probability": 0.9351
+    },
+    {
+     "word": "rope",
+     "start": 11.996,
+     "end": 12.336,
+     "probability": 0.9536
+    },
+    {
+     "word": "now",
+     "start": 12.336,
+     "end": 12.676,
+     "probability": 0.8979
+    },
+    {
+     "word": "that",
+     "start": 12.676,
+     "end": 13.096,
+     "probability": 0.8047
+    },
+    {
+     "word": "holds",
+     "start": 13.096,
+     "end": 13.576,
+     "probability": 0.8979
+    },
+    {
+     "word": "up",
+     "start": 13.576,
+     "end": 13.916,
+     "probability": 0.9194
+    },
+    {
+     "word": "all",
+     "start": 13.916,
+     "end": 14.296,
+     "probability": 0.877
+    },
+    {
+     "word": "the",
+     "start": 14.296,
+     "end": 14.416,
+     "probability": 0.9331
+    },
+    {
+     "word": "shadows",
+     "start": 14.416,
+     "end": 14.716,
+     "probability": 0.5151
+    },
+    {
+     "word": "and",
+     "start": 14.716,
+     "end": 14.916,
+     "probability": 0.5615
+    },
+    {
+     "word": "they",
+     "start": 14.916,
+     "end": 15.036,
+     "probability": 0.9717
+    },
+    {
+     "word": "all",
+     "start": 15.036,
+     "end": 15.196,
+     "probability": 0.9878
+    },
+    {
+     "word": "hook",
+     "start": 15.196,
+     "end": 15.396,
+     "probability": 0.9844
+    },
+    {
+     "word": "on.",
+     "start": 15.396,
+     "end": 15.596,
+     "probability": 0.9688
+    },
+    {
+     "word": "I'll",
+     "start": 15.796,
+     "end": 16.156,
+     "probability": 0.9546
+    },
+    {
+     "word": "show",
+     "start": 16.156,
+     "end": 16.296,
+     "probability": 0.9985
+    },
+    {
+     "word": "you",
+     "start": 16.296,
+     "end": 16.436,
+     "probability": 0.9883
+    },
+    {
+     "word": "how",
+     "start": 16.436,
+     "end": 16.556,
+     "probability": 0.9888
+    },
+    {
+     "word": "they",
+     "start": 16.556,
+     "end": 16.676,
+     "probability": 0.8872
+    },
+    {
+     "word": "hook",
+     "start": 16.676,
+     "end": 16.816,
+     "probability": 0.7417
+    },
+    {
+     "word": "on",
+     "start": 16.816,
+     "end": 16.976,
+     "probability": 0.9419
+    },
+    {
+     "word": "and",
+     "start": 16.976,
+     "end": 17.116,
+     "probability": 0.3125
+    },
+    {
+     "word": "hook",
+     "start": 17.116,
+     "end": 17.296,
+     "probability": 0.6992
+    },
+    {
+     "word": "off",
+     "start": 17.296,
+     "end": 17.556,
+     "probability": 0.9663
+    },
+    {
+     "word": "in",
+     "start": 17.556,
+     "end": 17.676,
+     "probability": 0.9497
+    },
+    {
+     "word": "a",
+     "start": 17.676,
+     "end": 17.796,
+     "probability": 0.9888
+    },
+    {
+     "word": "second",
+     "start": 17.796,
+     "end": 18.076,
+     "probability": 0.9941
+    },
+    {
+     "word": "and",
+     "start": 18.076,
+     "end": 18.716,
+     "probability": 0.0505
+    },
+    {
+     "word": "if",
+     "start": 18.716,
+     "end": 18.916,
+     "probability": 0.8223
+    },
+    {
+     "word": "you",
+     "start": 18.916,
+     "end": 19.016,
+     "probability": 0.9971
+    },
+    {
+     "word": "come",
+     "start": 19.016,
+     "end": 19.216,
+     "probability": 0.9741
+    },
+    {
+     "word": "over",
+     "start": 19.216,
+     "end": 19.376,
+     "probability": 0.9834
+    },
+    {
+     "word": "here",
+     "start": 19.376,
+     "end": 19.556,
+     "probability": 0.9844
+    },
+    {
+     "word": "and",
+     "start": 19.556,
+     "end": 19.696,
+     "probability": 0.9907
+    },
+    {
+     "word": "look.",
+     "start": 19.696,
+     "end": 19.896,
+     "probability": 0.9971
+    }
+   ]
+  },
+  {
+   "chunk_start": 21.14,
+   "chunk_end": 22.38,
+   "text": "I still have...",
+   "words": [
+    {
+     "word": "I",
+     "start": 21.14,
+     "end": 21.24,
+     "probability": 0.6538
+    },
+    {
+     "word": "still",
+     "start": 21.24,
+     "end": 21.44,
+     "probability": 0.9873
+    },
+    {
+     "word": "have...",
+     "start": 21.44,
+     "end": 21.94,
+     "probability": 0.71
+    }
+   ]
+  },
+  {
+   "chunk_start": 22.516,
+   "chunk_end": 26.16,
+   "text": "my bench and my little platform.",
+   "words": [
+    {
+     "word": "my",
+     "start": 22.516,
+     "end": 22.856,
+     "probability": 0.4507
+    },
+    {
+     "word": "bench",
+     "start": 22.856,
+     "end": 23.216,
+     "probability": 0.9678
+    },
+    {
+     "word": "and",
+     "start": 23.216,
+     "end": 23.756,
+     "probability": 0.77
+    },
+    {
+     "word": "my",
+     "start": 23.756,
+     "end": 24.696,
+     "probability": 0.9341
+    },
+    {
+     "word": "little",
+     "start": 24.696,
+     "end": 24.876,
+     "probability": 0.915
+    },
+    {
+     "word": "platform.",
+     "start": 24.876,
+     "end": 25.296,
+     "probability": 0.9966
+    }
+   ]
+  },
+  {
+   "chunk_start": 26.16,
+   "chunk_end": 38.624,
+   "text": "and there's the drain engine that's the platform you can sit on when uh when you're taking a shower that way your feet are not sitting in dirty water and i'll climb in here",
+   "words": [
+    {
+     "word": "and",
+     "start": 26.16,
+     "end": 26.48,
+     "probability": 0.1962
+    },
+    {
+     "word": "there's",
+     "start": 26.48,
+     "end": 26.7,
+     "probability": 0.8918
+    },
+    {
+     "word": "the",
+     "start": 26.7,
+     "end": 26.78,
+     "probability": 0.9941
+    },
+    {
+     "word": "drain",
+     "start": 26.78,
+     "end": 27.08,
+     "probability": 0.8901
+    },
+    {
+     "word": "engine",
+     "start": 27.08,
+     "end": 27.38,
+     "probability": 0.6094
+    },
+    {
+     "word": "that's",
+     "start": 27.38,
+     "end": 27.86,
+     "probability": 0.4058
+    },
+    {
+     "word": "the",
+     "start": 27.86,
+     "end": 27.86,
+     "probability": 0.4504
+    },
+    {
+     "word": "platform",
+     "start": 27.86,
+     "end": 28.2,
+     "probability": 0.9072
+    },
+    {
+     "word": "you",
+     "start": 28.2,
+     "end": 29.02,
+     "probability": 0.2001
+    },
+    {
+     "word": "can",
+     "start": 29.02,
+     "end": 29.3,
+     "probability": 0.9102
+    },
+    {
+     "word": "sit",
+     "start": 29.3,
+     "end": 29.66,
+     "probability": 0.9092
+    },
+    {
+     "word": "on",
+     "start": 29.66,
+     "end": 29.94,
+     "probability": 0.9487
+    },
+    {
+     "word": "when",
+     "start": 29.94,
+     "end": 30.26,
+     "probability": 0.9448
+    },
+    {
+     "word": "uh",
+     "start": 30.26,
+     "end": 30.42,
+     "probability": 0.4968
+    },
+    {
+     "word": "when",
+     "start": 30.42,
+     "end": 31.32,
+     "probability": 0.9595
+    },
+    {
+     "word": "you're",
+     "start": 31.32,
+     "end": 31.48,
+     "probability": 0.9983
+    },
+    {
+     "word": "taking",
+     "start": 31.48,
+     "end": 31.68,
+     "probability": 0.9995
+    },
+    {
+     "word": "a",
+     "start": 31.68,
+     "end": 31.84,
+     "probability": 0.9995
+    },
+    {
+     "word": "shower",
+     "start": 31.84,
+     "end": 32.18,
+     "probability": 0.9985
+    },
+    {
+     "word": "that",
+     "start": 32.18,
+     "end": 32.36,
+     "probability": 0.9624
+    },
+    {
+     "word": "way",
+     "start": 32.36,
+     "end": 32.58,
+     "probability": 0.999
+    },
+    {
+     "word": "your",
+     "start": 32.58,
+     "end": 32.8,
+     "probability": 0.8916
+    },
+    {
+     "word": "feet",
+     "start": 32.8,
+     "end": 33.62,
+     "probability": 0.5957
+    },
+    {
+     "word": "are",
+     "start": 33.62,
+     "end": 33.9,
+     "probability": 0.998
+    },
+    {
+     "word": "not",
+     "start": 33.9,
+     "end": 34.04,
+     "probability": 0.998
+    },
+    {
+     "word": "sitting",
+     "start": 34.04,
+     "end": 34.34,
+     "probability": 0.9966
+    },
+    {
+     "word": "in",
+     "start": 34.34,
+     "end": 34.6,
+     "probability": 0.9834
+    },
+    {
+     "word": "dirty",
+     "start": 34.6,
+     "end": 35.28,
+     "probability": 0.3904
+    },
+    {
+     "word": "water",
+     "start": 35.28,
+     "end": 35.64,
+     "probability": 0.9888
+    },
+    {
+     "word": "and",
+     "start": 35.64,
+     "end": 35.86,
+     "probability": 0.3315
+    },
+    {
+     "word": "i'll",
+     "start": 35.86,
+     "end": 36.1,
+     "probability": 0.8027
+    },
+    {
+     "word": "climb",
+     "start": 36.1,
+     "end": 36.3,
+     "probability": 0.9941
+    },
+    {
+     "word": "in",
+     "start": 36.3,
+     "end": 36.54,
+     "probability": 0.6626
+    },
+    {
+     "word": "here",
+     "start": 36.54,
+     "end": 36.68,
+     "probability": 0.9917
+    }
+   ]
+  },
+  {
+   "chunk_start": 38.624,
+   "chunk_end": 40.172,
+   "text": "There it is.",
+   "words": [
+    {
+     "word": "There",
+     "start": 38.624,
+     "end": 39.184,
+     "probability": 0.6465
+    },
+    {
+     "word": "it",
+     "start": 39.184,
+     "end": 39.264,
+     "probability": 0.9004
+    },
+    {
+     "word": "is.",
+     "start": 39.264,
+     "end": 39.424,
+     "probability": 0.9995
+    }
+   ]
+  },
+  {
+   "chunk_start": 40.916,
+   "chunk_end": 44.62,
+   "text": "So basically, this is going to be covered up over here.",
+   "words": [
+    {
+     "word": "So",
+     "start": 40.916,
+     "end": 41.196,
+     "probability": 0.7007
+    },
+    {
+     "word": "basically,",
+     "start": 41.196,
+     "end": 41.596,
+     "probability": 0.8882
+    },
+    {
+     "word": "this",
+     "start": 41.796,
+     "end": 42.096,
+     "probability": 0.834
+    },
+    {
+     "word": "is",
+     "start": 42.096,
+     "end": 42.316,
+     "probability": 0.9917
+    },
+    {
+     "word": "going",
+     "start": 42.316,
+     "end": 42.456,
+     "probability": 0.6406
+    },
+    {
+     "word": "to",
+     "start": 42.456,
+     "end": 42.656,
+     "probability": 0.9927
+    },
+    {
+     "word": "be",
+     "start": 42.656,
+     "end": 42.856,
+     "probability": 0.9697
+    },
+    {
+     "word": "covered",
+     "start": 42.856,
+     "end": 43.176,
+     "probability": 0.9805
+    },
+    {
+     "word": "up",
+     "start": 43.176,
+     "end": 43.436,
+     "probability": 0.9858
+    },
+    {
+     "word": "over",
+     "start": 43.436,
+     "end": 43.636,
+     "probability": 0.9883
+    },
+    {
+     "word": "here.",
+     "start": 43.636,
+     "end": 43.936,
+     "probability": 0.9971
+    }
+   ]
+  },
+  {
+   "chunk_start": 44.884,
+   "chunk_end": 48.016,
+   "text": "Keep everything nice and dry, but I'm just going to hold it out.",
+   "words": [
+    {
+     "word": "Keep",
+     "start": 44.884,
+     "end": 45.204,
+     "probability": 0.2487
+    },
+    {
+     "word": "everything",
+     "start": 45.204,
+     "end": 45.404,
+     "probability": 0.9741
+    },
+    {
+     "word": "nice",
+     "start": 45.404,
+     "end": 45.744,
+     "probability": 0.9902
+    },
+    {
+     "word": "and",
+     "start": 45.744,
+     "end": 45.864,
+     "probability": 0.9927
+    },
+    {
+     "word": "dry,",
+     "start": 45.864,
+     "end": 46.124,
+     "probability": 0.9966
+    },
+    {
+     "word": "but",
+     "start": 46.224,
+     "end": 46.324,
+     "probability": 0.8936
+    },
+    {
+     "word": "I'm",
+     "start": 46.324,
+     "end": 46.464,
+     "probability": 0.9031
+    },
+    {
+     "word": "just",
+     "start": 46.464,
+     "end": 46.584,
+     "probability": 0.9458
+    },
+    {
+     "word": "going",
+     "start": 46.584,
+     "end": 46.704,
+     "probability": 0.5444
+    },
+    {
+     "word": "to",
+     "start": 46.704,
+     "end": 46.824,
+     "probability": 0.9985
+    },
+    {
+     "word": "hold",
+     "start": 46.824,
+     "end": 46.984,
+     "probability": 0.9707
+    },
+    {
+     "word": "it",
+     "start": 46.984,
+     "end": 47.104,
+     "probability": 0.9854
+    },
+    {
+     "word": "out.",
+     "start": 47.104,
+     "end": 47.264,
+     "probability": 0.9019
+    }
+   ]
+  },
+  {
+   "chunk_start": 48.016,
+   "chunk_end": 64.704,
+   "text": "just for the demo and for the water i this is a one liter bottle this is the nozzle that i showed you guys earlier it provides a good amount of uh stream you just squeeze it a little bit this is a one liter you run out of water this is",
+   "words": [
+    {
+     "word": "just",
+     "start": 48.016,
+     "end": 48.296,
+     "probability": 0.1606
+    },
+    {
+     "word": "for",
+     "start": 48.296,
+     "end": 48.376,
+     "probability": 0.9702
+    },
+    {
+     "word": "the",
+     "start": 48.376,
+     "end": 48.536,
+     "probability": 0.9893
+    },
+    {
+     "word": "demo",
+     "start": 48.536,
+     "end": 48.856,
+     "probability": 0.9868
+    },
+    {
+     "word": "and",
+     "start": 48.856,
+     "end": 49.616,
+     "probability": 0.6636
+    },
+    {
+     "word": "for",
+     "start": 49.616,
+     "end": 49.836,
+     "probability": 0.9888
+    },
+    {
+     "word": "the",
+     "start": 49.836,
+     "end": 50.076,
+     "probability": 0.9951
+    },
+    {
+     "word": "water",
+     "start": 50.076,
+     "end": 50.516,
+     "probability": 0.9468
+    },
+    {
+     "word": "i",
+     "start": 50.516,
+     "end": 50.916,
+     "probability": 0.439
+    },
+    {
+     "word": "this",
+     "start": 50.916,
+     "end": 51.576,
+     "probability": 0.9883
+    },
+    {
+     "word": "is",
+     "start": 51.576,
+     "end": 51.776,
+     "probability": 0.9995
+    },
+    {
+     "word": "a",
+     "start": 51.776,
+     "end": 51.876,
+     "probability": 0.998
+    },
+    {
+     "word": "one",
+     "start": 51.876,
+     "end": 52.056,
+     "probability": 0.9595
+    },
+    {
+     "word": "liter",
+     "start": 52.056,
+     "end": 52.316,
+     "probability": 0.9932
+    },
+    {
+     "word": "bottle",
+     "start": 52.316,
+     "end": 52.616,
+     "probability": 0.999
+    },
+    {
+     "word": "this",
+     "start": 52.616,
+     "end": 52.956,
+     "probability": 0.9629
+    },
+    {
+     "word": "is",
+     "start": 52.956,
+     "end": 53.096,
+     "probability": 1.0
+    },
+    {
+     "word": "the",
+     "start": 53.096,
+     "end": 53.236,
+     "probability": 0.9995
+    },
+    {
+     "word": "nozzle",
+     "start": 53.236,
+     "end": 53.536,
+     "probability": 0.9995
+    },
+    {
+     "word": "that",
+     "start": 53.536,
+     "end": 53.756,
+     "probability": 0.999
+    },
+    {
+     "word": "i",
+     "start": 53.756,
+     "end": 53.836,
+     "probability": 0.9922
+    },
+    {
+     "word": "showed",
+     "start": 53.836,
+     "end": 54.096,
+     "probability": 0.9985
+    },
+    {
+     "word": "you",
+     "start": 54.096,
+     "end": 54.256,
+     "probability": 0.9995
+    },
+    {
+     "word": "guys",
+     "start": 54.256,
+     "end": 54.496,
+     "probability": 0.9985
+    },
+    {
+     "word": "earlier",
+     "start": 54.496,
+     "end": 55.636,
+     "probability": 0.7988
+    },
+    {
+     "word": "it",
+     "start": 55.636,
+     "end": 56.076,
+     "probability": 0.7207
+    },
+    {
+     "word": "provides",
+     "start": 56.076,
+     "end": 57.076,
+     "probability": 0.9932
+    },
+    {
+     "word": "a",
+     "start": 57.076,
+     "end": 57.376,
+     "probability": 0.9995
+    },
+    {
+     "word": "good",
+     "start": 57.376,
+     "end": 57.496,
+     "probability": 1.0
+    },
+    {
+     "word": "amount",
+     "start": 57.496,
+     "end": 57.716,
+     "probability": 0.9995
+    },
+    {
+     "word": "of",
+     "start": 57.716,
+     "end": 57.976,
+     "probability": 0.999
+    },
+    {
+     "word": "uh",
+     "start": 57.976,
+     "end": 58.156,
+     "probability": 0.5869
+    },
+    {
+     "word": "stream",
+     "start": 58.156,
+     "end": 59.016,
+     "probability": 0.8535
+    },
+    {
+     "word": "you",
+     "start": 59.016,
+     "end": 59.476,
+     "probability": 0.98
+    },
+    {
+     "word": "just",
+     "start": 59.476,
+     "end": 59.716,
+     "probability": 0.9976
+    },
+    {
+     "word": "squeeze",
+     "start": 59.716,
+     "end": 60.056,
+     "probability": 0.999
+    },
+    {
+     "word": "it",
+     "start": 60.056,
+     "end": 60.256,
+     "probability": 0.9917
+    },
+    {
+     "word": "a",
+     "start": 60.256,
+     "end": 60.356,
+     "probability": 0.9985
+    },
+    {
+     "word": "little",
+     "start": 60.356,
+     "end": 60.496,
+     "probability": 0.9995
+    },
+    {
+     "word": "bit",
+     "start": 60.496,
+     "end": 60.736,
+     "probability": 0.9907
+    },
+    {
+     "word": "this",
+     "start": 60.736,
+     "end": 61.316,
+     "probability": 0.9819
+    },
+    {
+     "word": "is",
+     "start": 61.316,
+     "end": 61.416,
+     "probability": 0.999
+    },
+    {
+     "word": "a",
+     "start": 61.416,
+     "end": 61.536,
+     "probability": 0.6133
+    },
+    {
+     "word": "one",
+     "start": 61.536,
+     "end": 61.776,
+     "probability": 0.8052
+    },
+    {
+     "word": "liter",
+     "start": 61.776,
+     "end": 61.996,
+     "probability": 0.8271
+    },
+    {
+     "word": "you",
+     "start": 61.996,
+     "end": 62.896,
+     "probability": 0.9609
+    },
+    {
+     "word": "run",
+     "start": 62.896,
+     "end": 63.116,
+     "probability": 0.9834
+    },
+    {
+     "word": "out",
+     "start": 63.116,
+     "end": 63.296,
+     "probability": 0.9839
+    },
+    {
+     "word": "of",
+     "start": 63.296,
+     "end": 63.416,
+     "probability": 0.9946
+    },
+    {
+     "word": "water",
+     "start": 63.416,
+     "end": 63.636,
+     "probability": 0.9995
+    },
+    {
+     "word": "this",
+     "start": 63.636,
+     "end": 64.016,
+     "probability": 0.9976
+    },
+    {
+     "word": "is",
+     "start": 64.016,
+     "end": 64.156,
+     "probability": 0.999
+    }
+   ]
+  },
+  {
+   "chunk_start": 64.704,
+   "chunk_end": 69.548,
+   "text": "It's about the same diameter, but it's taller, so it's one and a half liter. Oops.",
+   "words": [
+    {
+     "word": "It's",
+     "start": 64.704,
+     "end": 65.044,
+     "probability": 0.7874
+    },
+    {
+     "word": "about",
+     "start": 65.044,
+     "end": 65.184,
+     "probability": 0.9907
+    },
+    {
+     "word": "the",
+     "start": 65.184,
+     "end": 65.364,
+     "probability": 0.9976
+    },
+    {
+     "word": "same",
+     "start": 65.364,
+     "end": 65.564,
+     "probability": 0.999
+    },
+    {
+     "word": "diameter,",
+     "start": 65.564,
+     "end": 65.964,
+     "probability": 0.9951
+    },
+    {
+     "word": "but",
+     "start": 66.164,
+     "end": 66.364,
+     "probability": 0.9951
+    },
+    {
+     "word": "it's",
+     "start": 66.364,
+     "end": 66.524,
+     "probability": 0.9753
+    },
+    {
+     "word": "taller,",
+     "start": 66.524,
+     "end": 66.824,
+     "probability": 0.9976
+    },
+    {
+     "word": "so",
+     "start": 66.924,
+     "end": 67.024,
+     "probability": 0.9927
+    },
+    {
+     "word": "it's",
+     "start": 67.024,
+     "end": 67.204,
+     "probability": 0.9917
+    },
+    {
+     "word": "one",
+     "start": 67.204,
+     "end": 67.284,
+     "probability": 0.3943
+    },
+    {
+     "word": "and",
+     "start": 67.284,
+     "end": 67.464,
+     "probability": 0.9531
+    },
+    {
+     "word": "a",
+     "start": 67.464,
+     "end": 67.544,
+     "probability": 0.9775
+    },
+    {
+     "word": "half",
+     "start": 67.544,
+     "end": 67.724,
+     "probability": 0.9971
+    },
+    {
+     "word": "liter.",
+     "start": 67.724,
+     "end": 68.004,
+     "probability": 0.4705
+    },
+    {
+     "word": "Oops.",
+     "start": 68.524,
+     "end": 68.884,
+     "probability": 0.8604
+    }
+   ]
+  },
+  {
+   "chunk_start": 70.036,
+   "chunk_end": 72.78,
+   "text": "Let's put that cap on before I squeeze it.",
+   "words": [
+    {
+     "word": "Let's",
+     "start": 70.036,
+     "end": 70.356,
+     "probability": 0.7471
+    },
+    {
+     "word": "put",
+     "start": 70.356,
+     "end": 70.556,
+     "probability": 0.9863
+    },
+    {
+     "word": "that",
+     "start": 70.556,
+     "end": 70.836,
+     "probability": 0.9688
+    },
+    {
+     "word": "cap",
+     "start": 70.836,
+     "end": 71.076,
+     "probability": 0.8877
+    },
+    {
+     "word": "on",
+     "start": 71.076,
+     "end": 71.256,
+     "probability": 0.8687
+    },
+    {
+     "word": "before",
+     "start": 71.256,
+     "end": 71.496,
+     "probability": 0.9448
+    },
+    {
+     "word": "I",
+     "start": 71.496,
+     "end": 71.716,
+     "probability": 0.895
+    },
+    {
+     "word": "squeeze",
+     "start": 71.716,
+     "end": 72.016,
+     "probability": 0.9956
+    },
+    {
+     "word": "it.",
+     "start": 72.016,
+     "end": 72.216,
+     "probability": 0.9956
+    }
+   ]
+  },
+  {
+   "chunk_start": 75.06,
+   "chunk_end": 76.172,
+   "text": "Thank you.",
+   "words": [
+    {
+     "word": "Thank",
+     "start": 75.06,
+     "end": 75.32,
+     "probability": 0.3462
+    },
+    {
+     "word": "you.",
+     "start": 75.32,
+     "end": 75.38,
+     "probability": 0.9692
+    }
+   ]
+  },
+  {
+   "chunk_start": 77.364,
+   "chunk_end": 78.86,
+   "text": "is to put it on tighter.",
+   "words": [
+    {
+     "word": "is",
+     "start": 77.364,
+     "end": 77.504,
+     "probability": 0.1421
+    },
+    {
+     "word": "to",
+     "start": 77.504,
+     "end": 77.524,
+     "probability": 0.9116
+    },
+    {
+     "word": "put",
+     "start": 77.524,
+     "end": 77.624,
+     "probability": 0.978
+    },
+    {
+     "word": "it",
+     "start": 77.624,
+     "end": 77.724,
+     "probability": 0.9639
+    },
+    {
+     "word": "on",
+     "start": 77.724,
+     "end": 77.804,
+     "probability": 0.9893
+    },
+    {
+     "word": "tighter.",
+     "start": 77.804,
+     "end": 78.104,
+     "probability": 0.7261
+    }
+   ]
+  },
+  {
+   "chunk_start": 79.06,
+   "chunk_end": 82.124,
+   "text": "Okay, this is all drained down to the bottom",
+   "words": [
+    {
+     "word": "Okay,",
+     "start": 79.06,
+     "end": 79.54,
+     "probability": 0.2323
+    },
+    {
+     "word": "this",
+     "start": 79.56,
+     "end": 79.98,
+     "probability": 0.8042
+    },
+    {
+     "word": "is",
+     "start": 79.98,
+     "end": 80.2,
+     "probability": 0.9888
+    },
+    {
+     "word": "all",
+     "start": 80.2,
+     "end": 80.34,
+     "probability": 0.981
+    },
+    {
+     "word": "drained",
+     "start": 80.34,
+     "end": 80.62,
+     "probability": 0.6001
+    },
+    {
+     "word": "down",
+     "start": 80.62,
+     "end": 80.92,
+     "probability": 0.9282
+    },
+    {
+     "word": "to",
+     "start": 80.92,
+     "end": 81.04,
+     "probability": 0.9932
+    },
+    {
+     "word": "the",
+     "start": 81.04,
+     "end": 81.2,
+     "probability": 0.999
+    },
+    {
+     "word": "bottom",
+     "start": 81.2,
+     "end": 81.48,
+     "probability": 0.9995
+    }
+   ]
+  },
+  {
+   "chunk_start": 83.316,
+   "chunk_end": 84.62,
+   "text": "But also...",
+   "words": [
+    {
+     "word": "But",
+     "start": 83.316,
+     "end": 83.576,
+     "probability": 0.377
+    },
+    {
+     "word": "also...",
+     "start": 83.576,
+     "end": 84.116,
+     "probability": 0.715
+    }
+   ]
+  },
+  {
+   "chunk_start": 86.004,
+   "chunk_end": 87.216,
+   "text": "There's",
+   "words": [
+    {
+     "word": "There's",
+     "start": 86.004,
+     "end": 86.624,
+     "probability": 0.5619
+    }
+   ]
+  },
+  {
+   "chunk_start": 87.216,
+   "chunk_end": 89.836,
+   "text": "the old pump method if you want to do this.",
+   "words": [
+    {
+     "word": "the",
+     "start": 87.216,
+     "end": 87.496,
+     "probability": 0.4446
+    },
+    {
+     "word": "old",
+     "start": 87.496,
+     "end": 87.656,
+     "probability": 0.9556
+    },
+    {
+     "word": "pump",
+     "start": 87.656,
+     "end": 87.916,
+     "probability": 0.9775
+    },
+    {
+     "word": "method",
+     "start": 87.916,
+     "end": 88.236,
+     "probability": 0.9912
+    },
+    {
+     "word": "if",
+     "start": 88.236,
+     "end": 88.496,
+     "probability": 0.8101
+    },
+    {
+     "word": "you",
+     "start": 88.496,
+     "end": 88.576,
+     "probability": 0.9985
+    },
+    {
+     "word": "want",
+     "start": 88.576,
+     "end": 88.736,
+     "probability": 0.8447
+    },
+    {
+     "word": "to",
+     "start": 88.736,
+     "end": 88.856,
+     "probability": 0.9971
+    },
+    {
+     "word": "do",
+     "start": 88.856,
+     "end": 88.976,
+     "probability": 0.9971
+    },
+    {
+     "word": "this.",
+     "start": 88.976,
+     "end": 89.176,
+     "probability": 0.9976
+    }
+   ]
+  },
+  {
+   "chunk_start": 90.324,
+   "chunk_end": 95.148,
+   "text": "This guy will hold more water, and it probably will give you a little bit more pressure.",
+   "words": [
+    {
+     "word": "This",
+     "start": 90.324,
+     "end": 90.624,
+     "probability": 0.6743
+    },
+    {
+     "word": "guy",
+     "start": 90.624,
+     "end": 90.824,
+     "probability": 0.9272
+    },
+    {
+     "word": "will",
+     "start": 90.824,
+     "end": 91.004,
+     "probability": 0.9941
+    },
+    {
+     "word": "hold",
+     "start": 91.004,
+     "end": 91.264,
+     "probability": 0.9961
+    },
+    {
+     "word": "more",
+     "start": 91.264,
+     "end": 91.484,
+     "probability": 0.9834
+    },
+    {
+     "word": "water,",
+     "start": 91.484,
+     "end": 91.924,
+     "probability": 0.998
+    },
+    {
+     "word": "and",
+     "start": 92.004,
+     "end": 92.264,
+     "probability": 0.9805
+    },
+    {
+     "word": "it",
+     "start": 92.264,
+     "end": 92.424,
+     "probability": 0.9028
+    },
+    {
+     "word": "probably",
+     "start": 92.424,
+     "end": 92.844,
+     "probability": 0.7368
+    },
+    {
+     "word": "will",
+     "start": 92.844,
+     "end": 93.164,
+     "probability": 0.9888
+    },
+    {
+     "word": "give",
+     "start": 93.164,
+     "end": 93.364,
+     "probability": 0.9951
+    },
+    {
+     "word": "you",
+     "start": 93.364,
+     "end": 93.524,
+     "probability": 0.9951
+    },
+    {
+     "word": "a",
+     "start": 93.524,
+     "end": 93.624,
+     "probability": 0.9829
+    },
+    {
+     "word": "little",
+     "start": 93.624,
+     "end": 93.724,
+     "probability": 0.9937
+    },
+    {
+     "word": "bit",
+     "start": 93.724,
+     "end": 93.904,
+     "probability": 0.9014
+    },
+    {
+     "word": "more",
+     "start": 93.904,
+     "end": 94.084,
+     "probability": 0.9956
+    },
+    {
+     "word": "pressure.",
+     "start": 94.084,
+     "end": 94.444,
+     "probability": 0.999
+    }
+   ]
+  },
+  {
+   "chunk_start": 95.508,
+   "chunk_end": 101.196,
+   "text": "So if you have to wash your hair or something like that, you might want something like this.",
+   "words": [
+    {
+     "word": "So",
+     "start": 95.508,
+     "end": 96.068,
+     "probability": 0.3298
+    },
+    {
+     "word": "if",
+     "start": 96.068,
+     "end": 96.208,
+     "probability": 0.3618
+    },
+    {
+     "word": "you",
+     "start": 96.208,
+     "end": 96.348,
+     "probability": 0.9912
+    },
+    {
+     "word": "have",
+     "start": 96.348,
+     "end": 96.468,
+     "probability": 0.957
+    },
+    {
+     "word": "to",
+     "start": 96.468,
+     "end": 96.568,
+     "probability": 0.9961
+    },
+    {
+     "word": "wash",
+     "start": 96.568,
+     "end": 96.808,
+     "probability": 0.9868
+    },
+    {
+     "word": "your",
+     "start": 96.808,
+     "end": 96.988,
+     "probability": 0.9722
+    },
+    {
+     "word": "hair",
+     "start": 96.988,
+     "end": 97.268,
+     "probability": 0.9976
+    },
+    {
+     "word": "or",
+     "start": 97.268,
+     "end": 97.488,
+     "probability": 0.8789
+    },
+    {
+     "word": "something",
+     "start": 97.488,
+     "end": 97.768,
+     "probability": 0.9907
+    },
+    {
+     "word": "like",
+     "start": 97.768,
+     "end": 98.048,
+     "probability": 0.9663
+    },
+    {
+     "word": "that,",
+     "start": 98.048,
+     "end": 98.208,
+     "probability": 0.9888
+    },
+    {
+     "word": "you",
+     "start": 98.228,
+     "end": 98.348,
+     "probability": 0.8501
+    },
+    {
+     "word": "might",
+     "start": 98.348,
+     "end": 98.448,
+     "probability": 0.8989
+    },
+    {
+     "word": "want",
+     "start": 98.448,
+     "end": 99.808,
+     "probability": 0.9937
+    },
+    {
+     "word": "something",
+     "start": 99.808,
+     "end": 100.068,
+     "probability": 0.9893
+    },
+    {
+     "word": "like",
+     "start": 100.068,
+     "end": 100.388,
+     "probability": 0.9995
+    },
+    {
+     "word": "this.",
+     "start": 100.388,
+     "end": 100.688,
+     "probability": 0.9966
+    }
+   ]
+  },
+  {
+   "chunk_start": 101.268,
+   "chunk_end": 108.684,
+   "text": "Hey, Michelle. And I'm not going to take a shower. I'm just going to run the water a little bit. After all that's done...",
+   "words": [
+    {
+     "word": "Hey,",
+     "start": 101.268,
+     "end": 101.628,
+     "probability": 0.6411
+    },
+    {
+     "word": "Michelle.",
+     "start": 101.648,
+     "end": 101.968,
+     "probability": 0.7129
+    },
+    {
+     "word": "And",
+     "start": 102.268,
+     "end": 102.668,
+     "probability": 0.5122
+    },
+    {
+     "word": "I'm",
+     "start": 102.668,
+     "end": 103.028,
+     "probability": 0.9763
+    },
+    {
+     "word": "not",
+     "start": 103.028,
+     "end": 103.168,
+     "probability": 0.9956
+    },
+    {
+     "word": "going",
+     "start": 103.168,
+     "end": 103.268,
+     "probability": 0.6284
+    },
+    {
+     "word": "to",
+     "start": 103.268,
+     "end": 103.388,
+     "probability": 0.9971
+    },
+    {
+     "word": "take",
+     "start": 103.388,
+     "end": 103.528,
+     "probability": 0.9937
+    },
+    {
+     "word": "a",
+     "start": 103.528,
+     "end": 103.668,
+     "probability": 0.9922
+    },
+    {
+     "word": "shower.",
+     "start": 103.668,
+     "end": 104.008,
+     "probability": 0.9995
+    },
+    {
+     "word": "I'm",
+     "start": 104.148,
+     "end": 104.268,
+     "probability": 0.9688
+    },
+    {
+     "word": "just",
+     "start": 104.268,
+     "end": 104.468,
+     "probability": 0.9995
+    },
+    {
+     "word": "going",
+     "start": 104.468,
+     "end": 104.788,
+     "probability": 0.9995
+    },
+    {
+     "word": "to",
+     "start": 104.788,
+     "end": 105.028,
+     "probability": 0.999
+    },
+    {
+     "word": "run",
+     "start": 105.028,
+     "end": 105.288,
+     "probability": 0.8789
+    },
+    {
+     "word": "the",
+     "start": 105.288,
+     "end": 105.408,
+     "probability": 0.7056
+    },
+    {
+     "word": "water",
+     "start": 105.408,
+     "end": 105.648,
+     "probability": 0.9922
+    },
+    {
+     "word": "a",
+     "start": 105.648,
+     "end": 105.808,
+     "probability": 0.3987
+    },
+    {
+     "word": "little",
+     "start": 105.808,
+     "end": 105.988,
+     "probability": 0.9971
+    },
+    {
+     "word": "bit.",
+     "start": 105.988,
+     "end": 106.148,
+     "probability": 1.0
+    },
+    {
+     "word": "After",
+     "start": 106.548,
+     "end": 106.988,
+     "probability": 0.9697
+    },
+    {
+     "word": "all",
+     "start": 106.988,
+     "end": 107.248,
+     "probability": 0.9995
+    },
+    {
+     "word": "that's",
+     "start": 107.248,
+     "end": 107.588,
+     "probability": 0.9978
+    },
+    {
+     "word": "done...",
+     "start": 107.588,
+     "end": 108.048,
+     "probability": 0.7377
+    }
+   ]
+  },
+  {
+   "chunk_start": 108.98,
+   "chunk_end": 109.964,
+   "text": "",
+   "words": []
+  },
+  {
+   "chunk_start": 109.972,
+   "chunk_end": 111.948,
+   "text": "It rather worked a little bit.",
+   "words": [
+    {
+     "word": "It",
+     "start": 109.972,
+     "end": 110.252,
+     "probability": 0.2484
+    },
+    {
+     "word": "rather",
+     "start": 110.252,
+     "end": 110.512,
+     "probability": 0.3623
+    },
+    {
+     "word": "worked",
+     "start": 110.512,
+     "end": 110.792,
+     "probability": 0.6543
+    },
+    {
+     "word": "a",
+     "start": 110.792,
+     "end": 110.932,
+     "probability": 0.4956
+    },
+    {
+     "word": "little",
+     "start": 110.932,
+     "end": 111.132,
+     "probability": 0.9756
+    },
+    {
+     "word": "bit.",
+     "start": 111.132,
+     "end": 111.332,
+     "probability": 0.9937
+    }
+   ]
+  },
+  {
+   "chunk_start": 113.14,
+   "chunk_end": 115.029,
+   "text": "I'm not going to take a shower.",
+   "words": [
+    {
+     "word": "I'm",
+     "start": 113.14,
+     "end": 113.32,
+     "probability": 0.6281
+    },
+    {
+     "word": "not",
+     "start": 113.32,
+     "end": 113.46,
+     "probability": 0.9873
+    },
+    {
+     "word": "going",
+     "start": 113.46,
+     "end": 113.56,
+     "probability": 0.4238
+    },
+    {
+     "word": "to",
+     "start": 113.56,
+     "end": 113.68,
+     "probability": 0.9951
+    },
+    {
+     "word": "take",
+     "start": 113.68,
+     "end": 113.82,
+     "probability": 0.978
+    },
+    {
+     "word": "a",
+     "start": 113.82,
+     "end": 113.94,
+     "probability": 0.8442
+    },
+    {
+     "word": "shower.",
+     "start": 113.94,
+     "end": 114.22,
+     "probability": 0.9985
+    }
+   ]
+  }
+ ]
+}
