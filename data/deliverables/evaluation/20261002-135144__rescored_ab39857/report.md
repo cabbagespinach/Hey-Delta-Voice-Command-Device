@@ -1,6 +1,22 @@
-# VCM benchmark - Arvir Jane R. Redondo - 20261002-135144
+# VCM benchmark - Arvir Jane R. Redondo (hf_plus, cautious) - 20261002-135144
 
 Wake word: **Hey Delta** - trials: 202 with the wake word + 16 without - shuffle seed: 79276 - connection: ssh - holdout: huggingface
+
+## At a glance
+
+|                                   | overall     | real voice  | synthetic voice |
+|-----------------------------------|-------------|-------------|-----------------|
+| intent accuracy (19)              | 69.8%       | 52.1%       | 85.8%           |
+| command accuracy (93)             | 69.3%       | 51.0%       | 85.8%           |
+| false accept (out of scope fired) | 6.2% (1/16) | 0.0% (0/10) | 16.7% (1/6)     |
+| false reject (command ignored)    | 31.2%       | 52.3%       | 13.0%           |
+| false wake (no wake word, fired)  | 0.0% (0/16) | 0.0% (0/7)  | 0.0% (0/9)      |
+| slot exact                        | 98.7%       | 95.0%       | 100.0%          |
+| latency p95                       | 4.93 s      | 4.88 s      | 4.98 s          |
+
+**Pi:** real-time factor 0.013 (p95 0.014), inference 67 ms, CPU temp max 57.3 C, runtime CPU 13% mean, runtime RAM 111 MB peak, 416 MFLOP per inference
+
+# Detailed metrics
 
 ## Classification
 
@@ -21,10 +37,28 @@ Wake word: **Hey Delta** - trials: 202 with the wake word + 16 without - shuffle
 
 Responses: 98.0% of trials fired a command; no response: 4; extra fires: 0; wake detect rate: 98.5%
 
-| voice           | n   | intent acc | command acc |
-|-----------------|-----|------------|-------------|
-| real voice      | 96  | 52.1%      | 51.0%       |
-| synthetic voice | 106 | 85.8%      | 85.8%       |
+## Overall vs real vs synthetic voices
+
+Each group is scored on its own. '-' = the group has no clips of that kind. The holdout's 10 out-of-scope clips are all real recordings (none are synthetic), so there is no false accept rate for synthetic voices.
+
+| metric                         | overall        | real voice     | synthetic voice |
+|--------------------------------|----------------|----------------|-----------------|
+| clips (with wake word)         | 202            | 96             | 106             |
+| **19 intents** accuracy        | 69.8% [63-76%] | 52.1% [42-62%] | 85.8% [78-91%]  |
+| balanced accuracy              | 66.4%          | 51.5%          | 79.2%           |
+| F1 (macro)                     | 72.6%          | 55.0%          | 81.1%           |
+| F2 (macro)                     | 67.6%          | 51.5%          | 79.4%           |
+| false accept rate              | 6.2% (1/16)    | 0.0% (0/10)    | 16.7% (1/6)     |
+| false reject rate              | 31.2%          | 52.3%          | 13.0%           |
+| misfire rate                   | 1.1%           | 1.2%           | 1.0%            |
+| **93 commands** accuracy       | 69.3%          | 51.0%          | 85.8%           |
+| balanced accuracy              | 67.5%          | 46.0%          | 85.5%           |
+| F1 (macro)                     | 74.0%          | 44.8%          | 84.8%           |
+| F2 (macro)                     | 69.4%          | 45.2%          | 85.1%           |
+| misfire rate                   | 1.6%           | 2.3%           | 1.0%            |
+| slot exact (intent right)      | 98.7% (n=78)   | 95.0% (n=20)   | 100.0% (n=58)   |
+| latency p50 / p95              | 1.42 / 4.93 s  | 1.40 / 4.88 s  | 1.45 / 4.98 s   |
+| false wake rate (no wake word) | 0.0% (0/16)    | 0.0% (0/7)     | 0.0% (0/9)      |
 
 ## Slot values (slotted intents, intent right)
 
@@ -42,7 +76,7 @@ abs error = Manhattan (L1) distance in the slot's unit (alarm: minutes, circular
 
 ## Raspberry Pi
 
-- **Raspberry Pi 5 Model B Rev 1.1** (Hey-Delta), 4 cores  up to 2400.0 MHz, RAM 4049.1 MB, Debian GNU/Linux 13 (trixie), kernel 6.18.50+rpt-rpi-2712, Python 3.13.5
+- **Raspberry Pi 5 Model B Rev 1.1**, 4 cores  up to 2400.0 MHz, RAM 4049.1 MB, Debian GNU/Linux 13 (trixie), kernel 6.18.50+rpt-rpi-2712, Python 3.13.5
 - packages: numpy 2.2.4, sounddevice 0.5.6
 
 | metric                                      | mean / p95 / max         |
@@ -58,7 +92,7 @@ abs error = Manhattan (L1) distance in the slot's unit (alarm: minutes, circular
 | RAM used, whole Pi                          | 648.4 / 653.9 / 666.6 MB |
 | CPU clock                                   | 1850 / 2400 / 2400 MHz   |
 | load average (1 min)                        | 0.23 / 0.43 / 0.79       |
-| runtime CPU-seconds per second of speech    | 1.281                    |
+| runtime CPU-seconds per second of speech    | 1.280                    |
 | runtime CPU share of wall time              | 12.7%                    |
 | throttling flags seen                       | none                     |
 | test wall time                              | 60.5 min                 |

@@ -1,0 +1,30 @@
+{
+  "type": "specs",
+  "t": 1790985172.3384728,
+  "hostname": "Hey-Delta",
+  "model": "Raspberry Pi 5 Model B Rev 1.1",
+  "os": "Debian GNU/Linux 13 (trixie)",
+  "kernel": "6.18.50+rpt-rpi-2712",
+  "arch": "aarch64",
+  "cpu_model": null,
+  "cores": 4,
+  "max_freq_mhz": 2400.0,
+  "ram_mb": 4049.1,
+  "swap_mb": 2048.0,
+  "disk_free_gb": 46.96,
+  "python": "3.13.5",
+  "packages": {
+    "onnxruntime": null,
+    "tflite_runtime": null,
+    "tensorflow": null,
+    "torch": null,
+    "numpy": "2.2.4",
+    "sounddevice": "0.5.6",
+    "pyaudio": null,
+    "vosk": null
+  },
+  "audio_inputs": "**** List of CAPTURE Hardware Devices ****\ncard 2: Device [USB PnP Sound Device], device 0: USB Audio [USB Audio]\n  Subdevices: 0/1\n  Subdevice #0: subdevice #0",
+  "audio_outputs": "**** List of PLAYBACK Hardware Devices ****\ncard 0: vc4hdmi0 [vc4-hdmi-0], device 0: MAI PCM i2s-hifi-0 [MAI PCM i2s-hifi-0]\n  Subdevices: 1/1\n  Subdevice #0: subdevice #0\ncard 1: vc4hdmi1 [vc4-hdmi-1], device 0: MAI PCM i2s-hifi-0 [MAI PCM i2s-hifi-0]\n  Subdevices: 1/1\n  Subdevice #0: subdevice #0\ncard 3: CD002AUDIO [CD002-AUDIO], device 0: USB Audio [USB Audio]\n  Subdevices: 0/1\n  Subdevice #0: subdevice #0",
+  "throttled": "0x0",
+  "uptime_s": 2465.87
+}

@@ -12,6 +12,7 @@ device. Both models are BC-ResNet networks running in ONNX Runtime on a Raspberr
 | Baseline of comparable size | DS-CNN (195k parameters), same data and recipe | 62–94% (argmax): BC-ResNet better everywhere | same folder |
 | Class benchmark | BC-ResNet-6 on the class Hugging Face set alone vs with our data | `data/deliverables/command_classifier/evaluation/results_hf_compare.md` | |
 | Class benchmark on the Pi (airimonda/vcm-benchmark) | BC-ResNet-6, HF + our data (`bcresnet6_hf_plus`), cautious cutoff, live on the Raspberry Pi 5 | 202 holdout trials: intent accuracy 69.8%, false accept 6.2%, false wake 0%, inference 66.5 ms | `data/deliverables/evaluation/20261002-135144/report.md` |
+| Class benchmark on the Pi, side by side (2026-10-02 / 03) | `bcresnet6_hf_plus` vs `bcresnet6_hf_only`, cautious and balanced cutoffs, same captures on 2026-10-03, + the 2026-10-02 run | intent accuracy (Oct 3): hf_plus balanced 84.7% / cautious 75.2%, hf_only balanced 50.5% / cautious 35.6%; false wake 0% | `data/deliverables/evaluation/benchmark_comparison.md` |
 
 ## Reproduce
 
