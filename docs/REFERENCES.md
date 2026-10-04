@@ -9,8 +9,10 @@ the publisher before formal citation.
 
 - Redondo, A. J. R. (2026). *Hey Delta: wakeword + voice-command classifier for a Raspberry Pi 5* (AI231 ME2).
   Code: https://github.com/cabbagespinach/Hey-Delta-Voice-Command-Device (MIT; model weights CC BY-NC 4.0).
-- Audio used for training and evaluation (own recordings, synthetic voices, prepared public clips): Zenodo,
-  restricted access, doi:[10.5281/zenodo.23093493](https://doi.org/10.5281/zenodo.23093493).
+- Audio used for training and evaluation, two Zenodo records: public part (synthetic voices and openly licensed
+  clips, CC BY-NC 4.0) doi:[10.5281/zenodo.23132588](https://doi.org/10.5281/zenodo.23132588); full set including
+  the author's real recordings (restricted, custom terms: no redistribution, request access)
+  doi:[10.5281/zenodo.23093493](https://doi.org/10.5281/zenodo.23093493).
 
 ## Models and training methods
 

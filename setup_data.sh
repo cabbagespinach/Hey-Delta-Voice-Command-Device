@@ -21,5 +21,10 @@ echo "== rebuilding clips of datasets you obtained yourself (if any)"
 echo "== datasets that cannot be shared"
 "$PY" repro/optional_data.py check || exit 1
 echo
+echo "== audio outside this server (Zenodo)"
+echo "  public part (synthetic voices + openly licensed public clips, CC BY-NC 4.0): https://doi.org/10.5281/zenodo.23132588"
+echo "  full set incl. the owner's real voice recordings: restricted record https://doi.org/10.5281/zenodo.23093493"
+echo "  -> to use the private version, request access from the owner on that Zenodo page (academic use, no redistribution)."
+echo
 echo "Setup done. Next:  bash reproduce.sh            (everything, ~6 h on one GPU; it also runs this setup itself)"
 echo "                   bash reproduce.sh wakeword   |  commands  |  hf     (one part)"

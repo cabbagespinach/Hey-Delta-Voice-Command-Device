@@ -28,7 +28,8 @@ ours, ...): **[docs/ABLATIONS.md](docs/ABLATIONS.md)**. Papers, datasets and sof
 
 All datasets, with licence, citation and DOI: `external_raw/README.md`; per-dataset clip counts and splits:
 `data/command_dataset/dataset_inventory.csv`. Audio is not in this repository: our own recordings and prepared clips
-are on Zenodo (restricted access, DOI in docs/REPRODUCE.md) and in a read-only folder on the HPC server; datasets whose
+are on Zenodo (a public record with the synthetic and openly licensed clips, and a restricted record with the
+real voice recordings, access on request; DOIs in docs/REPRODUCE.md) and in a read-only folder on the HPC server; datasets whose
 licences forbid redistribution (Sonos "Hey Snips", Qualcomm Keyword Speech, Fluent Speech Commands) must be obtained
 from their owners (instructions printed by `setup_data.sh`). Classmates are named by neutral labels (Classmate A–F).
 

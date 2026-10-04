@@ -31,8 +31,8 @@ output = probabilities. Thresholds / cutoffs are in the `command_config.json` ne
 ## Reproduce
 
 `git clone` → `bash reproduce.sh` (one command) on the course HPC server (docs/REPRODUCE.md;
-hardware, wall-clock times and seeds in docs/COMPUTE.md). Audio: Zenodo, restricted access,
-doi:10.5281/zenodo.23093493, plus a read-only folder on the server.
+hardware, wall-clock times and seeds in docs/COMPUTE.md). Audio: Zenodo, public part doi:10.5281/zenodo.23132588
+(CC BY-NC 4.0) and full set doi:10.5281/zenodo.23093493 (restricted, request access), plus a read-only folder on the server.
 
 ## Licences
 
