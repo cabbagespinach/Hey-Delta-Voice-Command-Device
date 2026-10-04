@@ -33,7 +33,7 @@ weights: CC BY-NC 4.0 (`MODEL_LICENSE.md`).
 ## Checking the deployment
 
 - **Latency of every model on the Pi:** `python3 data/deliverables/evaluation/pi_latency.py` from a clone on the Pi
-  (`numpy` + `onnxruntime` only); results in [`COMPUTE.md`](COMPUTE.md).
+  (`numpy` + `onnxruntime` only; writes its own report). Live numbers measured on the Pi: [`COMPUTE.md`](COMPUTE.md).
 - **Class benchmark on the Pi** (the laptop plays the class holdout, the Pi answers):
   `python3 data/deliverables/command_classifier/model/make_bench_kit.py`, then
   `data/deliverables/command_classifier/model/bench_kit_src/README_BENCH.md`.

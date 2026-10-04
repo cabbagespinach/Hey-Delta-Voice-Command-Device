@@ -59,7 +59,8 @@ model `bcresnet6_hf_plus`, wakeword listener running all the time; `data/deliver
 
 The response time is mostly the listener waiting for the end of speech, not the model. The process CPU is mostly the
 wakeword listener (one 1.5 s window every 100 ms) plus audio capture; the wakeword model's own time per window on the
-Pi is measured separately by `pi_latency.py` (below; on one server core: 4.8 ms per window).
+Pi was not measured on its own for this report: `pi_latency.py` (below) does it on any Pi 5; on one server core it
+is 4.8 ms per window.
 
 Scripts (run on the Pi, from a clone of this repository):
 

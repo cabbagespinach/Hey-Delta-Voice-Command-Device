@@ -31,7 +31,7 @@ never overwritten.
 Each part retrains from the prepared data with the same code, configuration and seeds, recomputes the normalisation
 statistics (and checks them against the reported file), evaluates exactly as reported, and exports the ONNX model
 used on the Raspberry Pi 5. Pi latency (every deployed model, on the Pi): `python3 data/deliverables/evaluation/pi_latency.py`;
-results and the live benchmark numbers in `docs/COMPUTE.md`.
+writes its own report; the live benchmark numbers measured on the Pi are in `docs/COMPUTE.md`.
 
 Exact equality of every digit is not expected (GPU arithmetic and data-loading order differ slightly between
 runs); with all datasets present the numbers agree within a few points.
