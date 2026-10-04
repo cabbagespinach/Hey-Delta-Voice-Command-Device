@@ -106,7 +106,8 @@ def main():
     pc = model.front.cfg
     (out / "command_config.json").write_text(json.dumps(dict(
         model_file=onnx_path.name, run=run.name, tau=ck["tau"], best_epoch=ck["epoch"], classes=classes,
-        cutoffs=cut, default_rule="cautious",
+        # class-benchmark models deploy with balanced (owner 2026-10-04: Pi benchmark 84.7% vs 75.2% correct, 14% vs 25% ignored)
+        cutoffs=cut, default_rule="balanced" if run.name.startswith("bcresnet6_hf_") else "cautious",
         rule="take the most likely class; if it is a command and its probability is below the cutoff, answer unknown",
         _cutoffs="chosen on validation: cautious = at most 2% of unknown clips trigger a command, balanced = at most 5%",
         sample_rate=pc.sample_rate, num_samples=N, pad_noise_dbfs=pc.pad_noise_dbfs,

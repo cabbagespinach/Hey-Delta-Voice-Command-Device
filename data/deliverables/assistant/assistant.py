@@ -37,7 +37,7 @@ MODELS = {"hf_plus": "bcresnet6_hf_plus", "hf_only": "bcresnet6_hf_only"}
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--model", choices=sorted(MODELS), default="hf_plus")
-    ap.add_argument("--rule", choices=["argmax", "cautious", "balanced"], help="default: the model's (cautious)")
+    ap.add_argument("--rule", choices=["argmax", "cautious", "balanced"], help="default: the model's (balanced)")
     ap.add_argument("--music", default=str(Path.home() / "Music/Party Music"), help="folder with songs (.wav .flac .ogg .mp3)")
     ap.add_argument("--config", default=str(devices.CONFIG), help="private settings (location, Tapo, contact)")
     ap.add_argument("--init-config", action="store_true", help="create the private settings file and exit")

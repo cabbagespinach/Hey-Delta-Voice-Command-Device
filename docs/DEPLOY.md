@@ -25,7 +25,7 @@ scp <kit>.zip <user>@<pi-ip>:~
 | Part | Model | File in the repository |
 |---|---|---|
 | Wakeword | BC-ResNet-6, threshold 0.7335, fires on 2 of 3 windows (100 ms apart) | `data/deliverables/model/deploy/heydelta_bcresnet6.onnx` + `deploy_config.json` |
-| Commands (default) | BC-ResNet-6 on the class Hugging Face data + our data, cautious rule | `data/deliverables/command_classifier/model/export/bcresnet6_hf_plus/` |
+| Commands (default) | BC-ResNet-6 on the class Hugging Face data + our data, balanced rule | `data/deliverables/command_classifier/model/export/bcresnet6_hf_plus/` |
 | Commands (comparison) | the same model on the class data only | `.../export/bcresnet6_hf_only/` |
 
 Each ONNX file holds the front end and the network: raw 16 kHz audio in, probabilities out. Licence of the

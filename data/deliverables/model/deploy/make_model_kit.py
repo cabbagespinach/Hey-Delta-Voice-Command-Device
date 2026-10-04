@@ -30,7 +30,7 @@ unzip -o AI231ME2RedondoModelDeploy.zip && bash AI231ME2RedondoModelDeploy/insta
 `~/AI231ME2RedondoHeyDelta` (numpy, onnxruntime, sounddevice, scipy), checks that every model loads and that there is a microphone,
 then starts listening. Run `bash AI231ME2RedondoModelDeploy/install.sh` again to start it later (nothing is installed twice);
 `--no-run` only installs and checks, `hf_only` picks the other model, further options go to `command_pi.py`
-(e.g. `bash AI231ME2RedondoModelDeploy/install.sh hf_plus --rule balanced`).
+(e.g. `bash AI231ME2RedondoModelDeploy/install.sh hf_plus --rule cautious`).
 
 By hand instead: `sudo apt install libportaudio2`, `python3 -m venv ~/AI231ME2RedondoHeyDelta && source ~/AI231ME2RedondoHeyDelta/bin/activate`,
 `pip install numpy onnxruntime sounddevice scipy`, then the commands below.
@@ -40,7 +40,7 @@ By hand instead: `sudo apt install libportaudio2`, `python3 -m venv ~/AI231ME2Re
 ```bash
 python3 models/bcresnet6_hf_plus/command_pi.py live --deploy listener     # Ctrl+C to quit
 python3 models/bcresnet6_hf_only/command_pi.py live --deploy listener     # the other model
-python3 models/bcresnet6_hf_plus/command_pi.py live --deploy listener --rule balanced   # argmax | cautious | balanced
+python3 models/bcresnet6_hf_plus/command_pi.py live --deploy listener --rule cautious   # argmax | cautious | balanced (default: balanced)
 python3 models/bcresnet6_hf_plus/command_pi.py wav my_command.wav         # classify 16 kHz mono WAV files
 ```
 
@@ -52,7 +52,7 @@ listener's settings (threshold 0.7335, 2 of 3 windows, chimes, end-of-speech rul
 | Folder | What |
 |---|---|
 | `listener/` | wakeword model `heydelta_bcresnet6.onnx` (BC-ResNet-6), `deploy_config.json`, `heydelta_listener.py`, `README_DEPLOY.md` |
-| `models/bcresnet6_hf_plus/` | command model trained on the class Hugging Face data + our data (default rule: cautious) |
+| `models/bcresnet6_hf_plus/` | command model trained on the class Hugging Face data + our data (default rule: balanced) |
 | `models/bcresnet6_hf_only/` | the same model trained on the class data only (for comparison) |
 
 Speed of every model on the Pi: run `python3 data/deliverables/evaluation/pi_latency.py` from a clone of the

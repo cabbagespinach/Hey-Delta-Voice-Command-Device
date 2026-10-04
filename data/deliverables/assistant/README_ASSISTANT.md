@@ -1,7 +1,7 @@
 # "Hey Delta" assistant: the commands, actually carried out
 
 Say **"Hey Delta"**, wait for the rising chime, say a command. The Pi recognises it (BC-ResNet-6, HF + our data,
-cautious rule by default), carries it out with your real devices where you have them (Tapo bulb, phone over
+balanced rule by default), carries it out with your real devices where you have them (Tapo bulb, phone over
 Bluetooth, Open-Meteo weather, music in `~/Music/Party Music`) and a simulated home for the rest (thermostat), and
 answers out loud with an offline voice (Piper, "Amy"). The home's state is shown live in a browser on your laptop.
 

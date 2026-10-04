@@ -8,7 +8,7 @@
 # Running it again is quick (nothing is installed twice) and is also the way to start the kit later.
 #   bash AI231ME2RedondoModelDeploy/install.sh --no-run                 install + check only
 #   bash AI231ME2RedondoModelDeploy/install.sh hf_only                  the model trained on the class data only
-#   bash AI231ME2RedondoModelDeploy/install.sh hf_plus --rule balanced  further options go to command_pi.py (argmax|cautious|balanced)
+#   bash AI231ME2RedondoModelDeploy/install.sh hf_plus --rule cautious  further options go to command_pi.py (default rule: balanced)
 # Asks for your password once if a system package is missing (sudo apt-get).
 set -e
 KIT="$(cd "$(dirname "$0")" && pwd)"

@@ -41,7 +41,7 @@
     "cautious": 0.89,
     "balanced": 0.67
   },
-  "default_rule": "cautious",
+  "default_rule": "balanced",
   "rule": "take the most likely class; if it is a command and its probability is below the cutoff, answer unknown",
   "_cutoffs": "chosen on validation: cautious = at most 2% of unknown clips trigger a command, balanced = at most 5%",
   "sample_rate": 16000,
