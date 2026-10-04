@@ -1,18 +1,18 @@
 #!/bin/bash
-# One line on the Raspberry Pi 5 (Raspberry Pi OS 64-bit), after copying model_kit.zip to the Pi's home folder:
+# One line on the Raspberry Pi 5 (Raspberry Pi OS 64-bit), after copying AI231ME2RedondoModelDeploy.zip to the Pi's home folder:
 #
-#   unzip -o model_kit.zip && bash model_kit/install.sh
+#   unzip -o AI231ME2RedondoModelDeploy.zip && bash AI231ME2RedondoModelDeploy/install.sh
 #
-# Installs what the kit needs (the PortAudio library, a Python environment in ~/heydelta), checks that the models
+# Installs what the kit needs (the PortAudio library, a Python environment in ~/AI231ME2RedondoHeyDelta), checks that the models
 # load and that there is a microphone, then starts listening: say "Hey Delta", wait for the chime, say a command.
 # Running it again is quick (nothing is installed twice) and is also the way to start the kit later.
-#   bash model_kit/install.sh --no-run                 install + check only
-#   bash model_kit/install.sh hf_only                  the model trained on the class data only
-#   bash model_kit/install.sh hf_plus --rule balanced  further options go to command_pi.py (argmax|cautious|balanced)
+#   bash AI231ME2RedondoModelDeploy/install.sh --no-run                 install + check only
+#   bash AI231ME2RedondoModelDeploy/install.sh hf_only                  the model trained on the class data only
+#   bash AI231ME2RedondoModelDeploy/install.sh hf_plus --rule balanced  further options go to command_pi.py (argmax|cautious|balanced)
 # Asks for your password once if a system package is missing (sudo apt-get).
 set -e
 KIT="$(cd "$(dirname "$0")" && pwd)"
-VENV="${HEYDELTA_VENV:-$HOME/heydelta}"
+VENV="${HEYDELTA_VENV:-$HOME/AI231ME2RedondoHeyDelta}"
 RUN=1; MODEL=hf_plus
 [ "$1" = "--no-run" ] && { RUN=0; shift; }
 case "$1" in hf_plus|hf_only) MODEL=$1; shift;; esac

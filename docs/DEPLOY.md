@@ -8,9 +8,9 @@ training, no GPU, no project audio needed). Copy the zip to the Pi, then one lin
 |---|---|---|
 | What it does | "Hey Delta" → command → **prints** the recognised command | "Hey Delta" → command → **carries it out** (Tapo bulb, phone calls/texts, weather, music, timers, alarms, reminders, simulated thermostat), **spoken reply**, live dashboard in the laptop's browser |
 | Build (any computer, Python 3) | `python3 data/deliverables/model/deploy/make_model_kit.py` | `python3 data/deliverables/assistant/make_assistant_kit.py` |
-| Result | `data/deliverables/model/deploy/model_kit.zip` (~11 MB) | `data/deliverables/assistant/assistant_kit.zip` (~63 MB; downloads the Piper voice once) |
-| On the Pi: install + run, one line | `unzip -o model_kit.zip && bash model_kit/install.sh` | `unzip -o assistant_kit.zip && bash assistant_kit/install.sh` (at every boot: add `--autostart`) |
-| What `install.sh` does | PortAudio + Python environment `~/heydelta`, checks the models load and the microphone, starts listening | PortAudio, ffmpeg, gdbus + Python environment `~/assistant` (Piper), private settings file, offline tests, starts the assistant |
+| Result | `data/deliverables/model/deploy/AI231ME2RedondoModelDeploy.zip` (~11 MB) | `data/deliverables/assistant/AI231ME2RedondoAssistantDeploy.zip` (~63 MB; downloads the Piper voice once) |
+| On the Pi: install + run, one line | `unzip -o AI231ME2RedondoModelDeploy.zip && bash AI231ME2RedondoModelDeploy/install.sh` | `unzip -o AI231ME2RedondoAssistantDeploy.zip && bash AI231ME2RedondoAssistantDeploy/install.sh` (at every boot: add `--autostart`) |
+| What `install.sh` does | PortAudio + Python environment `~/AI231ME2RedondoHeyDelta`, checks the models load and the microphone, starts listening | PortAudio, ffmpeg, gdbus + Python environment `~/AI231ME2RedondoAssistant` (Piper), private settings file, offline tests, starts the assistant |
 | Full instructions | `README_MODEL_KIT.md` inside the kit | `README_ASSISTANT.md` inside the kit / [`data/deliverables/assistant/README_ASSISTANT.md`](../data/deliverables/assistant/README_ASSISTANT.md) |
 | Personal settings | none | one private file on the Pi, `~/.heydelta/config.json` (anything left empty stays simulated) |
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Assemble the assistant kit for the Raspberry Pi (assistant_kit/ + assistant_kit.zip, 2026-10-02):
+Assemble the assistant kit for the Raspberry Pi (AI231ME2RedondoAssistantDeploy/ + AI231ME2RedondoAssistantDeploy.zip, 2026-10-02):
 assistant code, command models (official cutoffs), wake-word listener, Piper voice, empty music folder.
 
     python data/deliverables/assistant/make_assistant_kit.py
@@ -34,7 +34,7 @@ def fetch_voice():
 
 def main():
     fetch_voice()
-    out = HERE / "assistant_kit"
+    out = HERE / "AI231ME2RedondoAssistantDeploy"
     if out.exists():
         shutil.rmtree(out)
     out.mkdir()
@@ -64,7 +64,7 @@ def main():
         shutil.copy(f, out / "voices" / f.name)
     (out / "music").mkdir()
     (out / "music/PUT_SONGS_HERE.txt").write_text("Put .wav .flac .ogg or .mp3 files in this folder.\n")
-    z = shutil.make_archive(str(HERE / "assistant_kit"), "zip", root_dir=HERE, base_dir="assistant_kit")
+    z = shutil.make_archive(str(HERE / "AI231ME2RedondoAssistantDeploy"), "zip", root_dir=HERE, base_dir="AI231ME2RedondoAssistantDeploy")
     print(f"{z}: {Path(z).stat().st_size / 1e6:.1f} MB")
 
 

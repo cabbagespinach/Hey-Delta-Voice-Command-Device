@@ -1,20 +1,20 @@
 #!/bin/bash
-# One line on the Raspberry Pi 5 (Raspberry Pi OS 64-bit), after copying assistant_kit.zip to the Pi's home folder:
+# One line on the Raspberry Pi 5 (Raspberry Pi OS 64-bit), after copying AI231ME2RedondoAssistantDeploy.zip to the Pi's home folder:
 #
-#   unzip -o assistant_kit.zip && bash assistant_kit/install.sh
+#   unzip -o AI231ME2RedondoAssistantDeploy.zip && bash AI231ME2RedondoAssistantDeploy/install.sh
 #
-# Installs what the assistant needs (PortAudio, ffmpeg, gdbus; a Python environment in ~/assistant with Piper),
+# Installs what the assistant needs (PortAudio, ffmpeg, gdbus; a Python environment in ~/AI231ME2RedondoAssistant with Piper),
 # creates the private settings file ~/.heydelta/config.json if there is none (empty = everything simulated), runs
 # the offline tests, then starts the assistant (the dashboard address is printed in a box).
 # Running it again is quick (nothing is installed twice) and is also the way to start the assistant later.
-#   bash assistant_kit/install.sh --no-run       install + tests only
-#   bash assistant_kit/install.sh --autostart    install + tests, then start at every boot (install_autostart.sh)
-#   bash assistant_kit/install.sh --model hf_only   further options go to assistant.py
+#   bash AI231ME2RedondoAssistantDeploy/install.sh --no-run       install + tests only
+#   bash AI231ME2RedondoAssistantDeploy/install.sh --autostart    install + tests, then start at every boot (install_autostart.sh)
+#   bash AI231ME2RedondoAssistantDeploy/install.sh --model hf_only   further options go to assistant.py
 # Asks for your password once if a system package is missing (sudo apt-get). Calls and texts need the one-time
 # phone setup in README_ASSISTANT.md ("Phone"); devices are set in ~/.heydelta/config.json ("Your devices").
 set -e
 KIT="$(cd "$(dirname "$0")" && pwd)"
-VENV="${HEYDELTA_VENV:-$HOME/assistant}"
+VENV="${HEYDELTA_VENV:-$HOME/AI231ME2RedondoAssistant}"
 MODE=run
 case "$1" in --no-run) MODE=none; shift;; --autostart) MODE=autostart; shift;; esac
 step() { echo; echo "== $*"; }

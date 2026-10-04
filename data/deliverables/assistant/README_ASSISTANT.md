@@ -36,8 +36,8 @@ listens and answers. For the class benchmark, use the separate `vcm_bench_kit` (
 
 ```bash
 git clone https://github.com/cabbagespinach/Hey-Delta-Voice-Command-Device.git && cd Hey-Delta-Voice-Command-Device
-python3 data/deliverables/assistant/make_assistant_kit.py     # -> data/deliverables/assistant/assistant_kit.zip
-scp data/deliverables/assistant/assistant_kit.zip <user>@<pi-ip>:~     # <pi-ip>: run  hostname -I  on the Pi (first number)
+python3 data/deliverables/assistant/make_assistant_kit.py     # -> data/deliverables/assistant/AI231ME2RedondoAssistantDeploy.zip
+scp data/deliverables/assistant/AI231ME2RedondoAssistantDeploy.zip <user>@<pi-ip>:~     # <pi-ip>: run  hostname -I  on the Pi (first number)
 ```
 
 The kit uses the trained models committed in the repository (wake word `data/deliverables/model/deploy/`, commands
@@ -68,12 +68,12 @@ Nothing in the code. Everything personal goes in one private file on the Pi, nev
 ## Install and run: one line (Pi 5, Raspberry Pi OS 64-bit)
 
 ```bash
-unzip -o assistant_kit.zip && bash assistant_kit/install.sh
+unzip -o AI231ME2RedondoAssistantDeploy.zip && bash AI231ME2RedondoAssistantDeploy/install.sh
 ```
 
 `install.sh` installs PortAudio, ffmpeg and gdbus (asks for your password once if missing) and a Python environment
-in `~/assistant`, creates `~/.heydelta/config.json` if there is none (empty = everything simulated), runs the
-offline tests, then starts the assistant. Run `bash assistant_kit/install.sh` again to start it later (nothing is
+in `~/AI231ME2RedondoAssistant`, creates `~/.heydelta/config.json` if there is none (empty = everything simulated), runs the
+offline tests, then starts the assistant. Run `bash AI231ME2RedondoAssistantDeploy/install.sh` again to start it later (nothing is
 installed twice); `--no-run` only installs and tests, `--autostart` makes it start at every boot instead (see
 "Start at every boot"), further options go to `assistant.py` (e.g. `--model hf_only`). Your devices and the phone
 are set up separately (below).
@@ -81,8 +81,8 @@ are set up separately (below).
 By hand instead:
 
 ```bash
-unzip assistant_kit.zip && cd assistant_kit
-python3 -m venv ~/assistant && source ~/assistant/bin/activate   # or activate your own environment (e.g. conda); use the same one later
+unzip AI231ME2RedondoAssistantDeploy.zip && cd AI231ME2RedondoAssistantDeploy
+python3 -m venv ~/AI231ME2RedondoAssistant && source ~/AI231ME2RedondoAssistant/bin/activate   # or activate your own environment (e.g. conda); use the same one later
 pip install numpy scipy soundfile sounddevice onnxruntime piper-tts==1.8.0 python-kasa
 which gdbus || sudo apt install libglib2.0-bin       # used for the phone (oFono / obexd over D-Bus); calls/texts: see Phone below
 which ffmpeg || sudo apt install ffmpeg             # songs in .m4a / .aac (e.g. from Apple Music) and odd .mp3 files
@@ -160,8 +160,8 @@ Once everything works by hand, make the assistant start by itself whenever the P
 monitor needed; it also restarts if it ever stops):
 
 ```bash
-cd ~/assistant_kit                      # wherever the kit is
-source ~/assistant/bin/activate         # the same Python environment you installed into (conda: conda activate <env>)
+cd ~/AI231ME2RedondoAssistantDeploy                      # wherever the kit is
+source ~/AI231ME2RedondoAssistant/bin/activate         # the same Python environment you installed into (conda: conda activate <env>)
 bash install_autostart.sh               # asks for your password once; options go to assistant.py, e.g. --model hf_only
 ```
 

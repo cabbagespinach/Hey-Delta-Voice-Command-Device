@@ -1,8 +1,8 @@
 #!/bin/bash
 # One-time setup: the assistant starts by itself at every boot (no login, no monitor) and restarts if it stops.
 #
-#   cd ~/assistantv2/assistant_kit
-#   conda activate <your env>            # or: source ~/assistant/bin/activate  (the Python that runs the assistant)
+#   cd ~/AI231ME2RedondoAssistantDeploy
+#   conda activate <your env>            # or: source ~/AI231ME2RedondoAssistant/bin/activate  (the Python that runs the assistant)
 #   bash install_autostart.sh            # options are passed to assistant.py, e.g.: bash install_autostart.sh --model hf_only
 #   bash install_autostart.sh --remove   # undo: no more autostart
 #

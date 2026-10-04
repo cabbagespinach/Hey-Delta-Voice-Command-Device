@@ -54,9 +54,9 @@ __pycache__/
 !/README.md
 !/LICENSE
 !/MODEL_LICENSE.md
-/data/deliverables/assistant/assistant_kit/
-/data/deliverables/assistant/assistant_kit.zip
+/data/deliverables/assistant/AI231ME2RedondoAssistantDeploy/
+/data/deliverables/assistant/AI231ME2RedondoAssistantDeploy.zip
 /data/deliverables/command_classifier/model/vcm_bench_kit/
 /data/deliverables/command_classifier/model/vcm_bench_kit.zip
-/data/deliverables/model/deploy/model_kit/
-/data/deliverables/model/deploy/model_kit.zip
+/data/deliverables/model/deploy/AI231ME2RedondoModelDeploy/
+/data/deliverables/model/deploy/AI231ME2RedondoModelDeploy.zip
