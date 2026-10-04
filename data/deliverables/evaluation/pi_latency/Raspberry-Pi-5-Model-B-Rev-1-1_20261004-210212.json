@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-04T21:01:32",
+  "device": {
+    "host": "Hey-Delta",
+    "python": "3.14.7",
+    "onnxruntime": "1.30.0",
+    "numpy": "2.5.3",
+    "machine": "aarch64",
+    "platform": "Linux-6.18.50+rpt-rpi-2712-aarch64-with-glibc2.41",
+    "device": "Raspberry Pi 5 Model B Rev 1.1"
+  },
+  "threads": 1,
+  "quick": false,
+  "temp_c_start": 36.4,
+  "throttled_start": "throttled=0x0",
+  "models": {
+    "wakeword_bcresnet6": {
+      "ms_median": 12.06,
+      "ms_p95": 14.49,
+      "ms_max": 22.61,
+      "cpu_ms_per_run": 12.44,
+      "real_time_factor": 0.008,
+      "runs": 600,
+      "onnx_mb": 1.98,
+      "share_of_one_core_pct": 12.4,
+      "file": "data/deliverables/model/deploy/heydelta_bcresnet6.onnx",
+      "input_s": 1.5,
+      "runs_every_ms": 100
+    },
+    "bcresnet6_hf_plus": {
+      "ms_median": 50.53,
+      "ms_p95": 59.71,
+      "ms_max": 69.96,
+      "cpu_ms_per_run": 53.3,
+      "real_time_factor": 0.0101,
+      "runs": 100,
+      "onnx_mb": 2.0,
+      "file": "data/deliverables/command_classifier/model/export/bcresnet6_hf_plus/command_bcresnet6_hf_plus.onnx",
+      "input_s": 5.0
+    },
+    "bcresnet6_hf_only": {
+      "ms_median": 50.65,
+      "ms_p95": 62.91,
+      "ms_max": 80.46,
+      "cpu_ms_per_run": 52.35,
+      "real_time_factor": 0.0101,
+      "runs": 100,
+      "onnx_mb": 2.0,
+      "file": "data/deliverables/command_classifier/model/export/bcresnet6_hf_only/command_bcresnet6_hf_only.onnx",
+      "input_s": 5.0
+    },
+    "bcresnet6_schema_b": {
+      "ms_median": 50.63,
+      "ms_p95": 66.6,
+      "ms_max": 83.01,
+      "cpu_ms_per_run": 53.28,
+      "real_time_factor": 0.0101,
+      "runs": 100,
+      "onnx_mb": 2.0,
+      "file": "data/deliverables/command_classifier/model/export/bcresnet6_schema_b/command_bcresnet6_schema_b.onnx",
+      "input_s": 5.0
+    },
+    "dscnn_schema_b": {
+      "ms_median": 88.97,
+      "ms_p95": 102.3,
+      "ms_max": 112.27,
+      "cpu_ms_per_run": 91.08,
+      "real_time_factor": 0.0178,
+      "runs": 100,
+      "onnx_mb": 1.87,
+      "file": "data/deliverables/command_classifier/model/export/dscnn_schema_b/command_dscnn_schema_b.onnx",
+      "input_s": 5.0
+    }
+  },
+  "temp_c_end": 40.8,
+  "throttled_end": "throttled=0x0",
+  "peak_memory_mb_all_models_loaded": 99.0
+}

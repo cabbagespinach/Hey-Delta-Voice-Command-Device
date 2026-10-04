@@ -58,9 +58,23 @@ model `bcresnet6_hf_plus`, wakeword listener running all the time; `data/deliver
 | false wakes (trials without the wake word) | 0 / 16 | 0 / 16 |
 
 The response time is mostly the listener waiting for the end of speech, not the model. The process CPU is mostly the
-wakeword listener (one 1.5 s window every 100 ms) plus audio capture; the wakeword model's own time per window on the
-Pi was not measured on its own for this report: `pi_latency.py` (below) does it on any Pi 5; on one server core it
-is 4.8 ms per window.
+wakeword listener (one 1.5 s window every 100 ms) plus audio capture; the wakeword model on its own takes 12.1 ms
+per window on the Pi (12.4% of one core), measured with `pi_latency.py` (below).
+
+**Measured with `pi_latency.py`** (each model on its own, no microphone; Raspberry Pi 5 Model B Rev 1.1, ONNX Runtime
+1.30.0, one thread, 2026-10-04; 20 warm-up runs, then 600 wakeword / 100 runs per command model; no throttling,
+CPU 36.4 -> 40.8 C; report [`data/deliverables/evaluation/pi_latency/Raspberry-Pi-5-Model-B-Rev-1-1_20261004-210212.md`](../data/deliverables/evaluation/pi_latency/Raspberry-Pi-5-Model-B-Rev-1-1_20261004-210212.md)):
+
+| Model | Input | Median | p95 | Max | Real-time factor |
+|---|---|---:|---:|---:|---:|
+| Wakeword BC-ResNet-6 | 1.5 s window | 12.06 ms | 14.49 ms | 22.61 ms | 0.008 |
+| Commands BC-ResNet-6 `hf_plus` (deployed) | 5 s capture | 50.53 ms | 59.71 ms | 69.96 ms | 0.0101 |
+| Commands BC-ResNet-6 `hf_only` | 5 s capture | 50.65 ms | 62.91 ms | 80.46 ms | 0.0101 |
+| Commands BC-ResNet-6 schema B | 5 s capture | 50.63 ms | 66.60 ms | 83.01 ms | 0.0101 |
+| Commands DS-CNN schema B (baseline) | 5 s capture | 88.97 ms | 102.30 ms | 112.27 ms | 0.0178 |
+
+Peak memory with all five models loaded: 99.0 MB. The live command times above (57.7–66.5 ms mean) are a little
+higher than this model-only time because the listener runs at the same time.
 
 Scripts (run on the Pi, from a clone of this repository):
 
