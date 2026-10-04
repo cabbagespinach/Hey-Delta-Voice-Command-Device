@@ -36,3 +36,30 @@ All training and evaluation ran on the course HPC server; the deployment target 
 
 Every epoch's draws are seeded from (seed, epoch, draw index), so a run is the same for any number of loader workers.
 GPU arithmetic is not bit-exact between runs, so a reproduction matches the reported numbers closely, not digit for digit.
+
+## Raspberry Pi 5 latency
+
+Deployment target: Raspberry Pi 5 (4 GB), ONNX Runtime on the CPU, **one thread** per model. Each ONNX file holds
+the front end and the network, so the times are audio in -> probabilities out.
+
+**Measured live on the Pi during the class benchmark** (command model `bcresnet6_hf_plus`, wakeword listener running
+all the time; `data/deliverables/evaluation/benchmark_comparison.md`, raw samples in each run's `pi_metrics.csv`):
+
+| | Oct 2 run (hf_plus only) | Oct 3 run (several models answered each capture; hf_plus column) |
+|---|---|---|
+| command inference per 5 s capture (mean / p95 / max) | 66.5 / 71.9 / 75.0 ms | 57.7 / 72.1 / 95.3 ms |
+| real-time factor (inference / audio) | 0.013 / 0.014 / 0.015 | 0.012 / 0.014 / 0.019 |
+| CPU use of the whole Pi, listener + model (mean / p95 / max) | 5.2 / 7.8 / 13.4 % | 10.8 / 26.9 / 35.9 % (several models per capture) |
+| CPU temperature (mean / p95 / max) | 54.5 / 55.6 / 57.3 C | 54.6 / 56.2 / 57.9 C |
+| response time, end of command -> Pi answer (p50 / p95) | 1.42 / 4.93 s | 1.45 / 3.25 s |
+
+The response time is mostly the listener waiting for the end of speech, not the model.
+
+Scripts (run on the Pi, from a clone of this repository):
+
+- `python3 data/deliverables/evaluation/pi_latency.py`: times every deployed model on its own (wakeword per 1.5 s
+  window, which runs every 100 ms, and each command model per 5 s capture) and writes
+  `data/deliverables/evaluation/pi_latency/<device>_<date>.{json,md}`. Needs only `numpy` and `onnxruntime`.
+- `data/deliverables/command_classifier/model/make_bench_kit.py` -> `vcm_bench_assistant.py`: the live pipeline used
+  for the class benchmark (README in `bench_kit_src/README_BENCH.md`).
+

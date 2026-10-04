@@ -56,3 +56,5 @@ __pycache__/
 !/MODEL_LICENSE.md
 /data/deliverables/assistant/assistant_kit/
 /data/deliverables/assistant/assistant_kit.zip
+/data/deliverables/command_classifier/model/vcm_bench_kit/
+/data/deliverables/command_classifier/model/vcm_bench_kit.zip

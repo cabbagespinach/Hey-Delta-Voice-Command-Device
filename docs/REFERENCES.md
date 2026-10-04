@@ -51,7 +51,9 @@ the publisher before formal citation.
 
 - **Class dataset** (AI231 ME2 voice commands, schema "Option B"): Hugging Face
   [`airimonda/ai231-me2-voice-commands`](https://huggingface.co/datasets/airimonda/ai231-me2-voice-commands),
-  revision da92a79 for the class benchmark; class benchmark tool: https://github.com/airimonda/vcm-benchmark.
+  doi:[10.57967/hf/10723](https://doi.org/10.57967/hf/10723). Public; licence "per-source research-only" (research and
+  education use; each source keeps its own licence, see the dataset's `LICENSE.md`). Revision da92a79 for the class
+  benchmark; class benchmark tool: https://github.com/airimonda/vcm-benchmark.
 - **Fluent Speech Commands**: Lugosch, L. et al. (2019). Speech Model Pre-training for End-to-End Spoken Language
   Understanding. *Interspeech 2019*. arXiv:1904.03670, doi:10.48550/arXiv.1904.03670. FSC licence: no sharing of the
   audio.

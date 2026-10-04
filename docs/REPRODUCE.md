@@ -26,7 +26,8 @@ never overwritten.
 
 Each part retrains from the prepared data with the same code, configuration and seeds, recomputes the normalisation
 statistics (and checks them against the reported file), evaluates exactly as reported, and exports the ONNX model
-used on the Raspberry Pi 5. Pi latency: `data/deliverables/model/pi_kit/heydelta_pi.py bench` (wakeword) on the Pi.
+used on the Raspberry Pi 5. Pi latency (every deployed model, on the Pi): `python3 data/deliverables/evaluation/pi_latency.py`;
+results and the live benchmark numbers in `docs/COMPUTE.md`.
 
 Exact equality of every digit is not expected (GPU arithmetic and data-loading order differ slightly between
 runs); with all datasets present the numbers agree within a few points.
@@ -37,6 +38,7 @@ runs); with all datasets present the numbers agree within a few points.
 |---|---|
 | The owner's recordings, synthetic voices, prepared clips of the public datasets, the class Hugging Face set | **Shared folder** `/home/arvir.jane.redondo/AI231_ME2_reproduce/` (read-only), linked by `setup_data.sh --server` |
 | The same audio, for citation and for use outside this server | **Zenodo, restricted access: doi:[10.5281/zenodo.23093493](https://doi.org/10.5281/zenodo.23093493)**. Request access on the record page (academic use; the owner approves). Extract each tar file in the repository root. Classmate A's and Classmate F's sets and the class HF set are not in it (cited by their own links; the HF set is fetched by `hf_extract.py`). |
+| The class Hugging Face dataset (for citation and use outside this server) | **Public, no login:** [airimonda/ai231-me2-voice-commands](https://huggingface.co/datasets/airimonda/ai231-me2-voice-commands), doi:[10.57967/hf/10723](https://doi.org/10.57967/hf/10723). Licence "per-source research-only": research and education use, each source keeps its own licence (the dataset's `LICENSE.md`). We use revision `da92a79` (the class benchmark's pinned version). |
 | Python environment | The owner's environment is used read-only by default (exact versions). Your own: `pip install -r repro/requirements-frozen.txt`, then `PY=/path/to/python bash setup_data.sh --server` |
 | Code, configurations, clip lists, splits, logs, checkpoints, results | This repository |
 
