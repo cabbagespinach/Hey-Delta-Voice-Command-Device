@@ -38,7 +38,7 @@ def main():
     if out.exists():
         shutil.rmtree(out)
     out.mkdir()
-    for f in ("assistant.py", "actions.py", "devices.py", "map_send.py", "dashboard.py", "audio_out.py", "tts.py", "test_assistant.py", "start_assistant.sh", "install_autostart.sh",
+    for f in ("assistant.py", "actions.py", "devices.py", "map_send.py", "dashboard.py", "audio_out.py", "tts.py", "test_assistant.py", "start_assistant.sh", "install_autostart.sh", "install.sh",
               "README_ASSISTANT.md"):
         shutil.copy(HERE / f, out / f)
     shutil.copy(DEPLOY / "label_map_schema_b.csv", out / "label_map_schema_b.csv")

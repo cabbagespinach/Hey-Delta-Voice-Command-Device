@@ -65,7 +65,20 @@ Nothing in the code. Everything personal goes in one private file on the Pi, nev
 `python3 assistant.py --init-config` writes the file with empty fields (readable only by you); details in
 "Your devices" below. Anything left empty stays simulated, so the assistant also runs with no devices at all.
 
-## Install (Pi 5, Raspberry Pi OS 64-bit)
+## Install and run: one line (Pi 5, Raspberry Pi OS 64-bit)
+
+```bash
+unzip -o assistant_kit.zip && bash assistant_kit/install.sh
+```
+
+`install.sh` installs PortAudio, ffmpeg and gdbus (asks for your password once if missing) and a Python environment
+in `~/assistant`, creates `~/.heydelta/config.json` if there is none (empty = everything simulated), runs the
+offline tests, then starts the assistant. Run `bash assistant_kit/install.sh` again to start it later (nothing is
+installed twice); `--no-run` only installs and tests, `--autostart` makes it start at every boot instead (see
+"Start at every boot"), further options go to `assistant.py` (e.g. `--model hf_only`). Your devices and the phone
+are set up separately (below).
+
+By hand instead:
 
 ```bash
 unzip assistant_kit.zip && cd assistant_kit

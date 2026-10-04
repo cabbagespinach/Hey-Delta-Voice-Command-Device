@@ -20,16 +20,22 @@ README = """# "Hey Delta" model kit: wakeword + command classifier on the Raspbe
 Say "Hey Delta", wait for the rising chime, say a command: the Pi prints what it recognised. Nothing is carried out
 (for lights, music, calls, spoken replies...: the assistant kit, `data/deliverables/assistant/` in the repository).
 
-## Install (Pi 5, Raspberry Pi OS 64-bit)
+## Install and run: one line (Pi 5, Raspberry Pi OS 64-bit)
 
 ```bash
-unzip model_kit.zip && cd model_kit
-sudo apt install libportaudio2                     # skip if  python3 -c "import sounddevice"  already works
-python3 -m venv ~/heydelta && source ~/heydelta/bin/activate
-pip install numpy onnxruntime sounddevice scipy
+unzip -o model_kit.zip && bash model_kit/install.sh
 ```
 
-## Run
+`install.sh` installs the PortAudio library (asks for your password once if missing) and a Python environment in
+`~/heydelta` (numpy, onnxruntime, sounddevice, scipy), checks that every model loads and that there is a microphone,
+then starts listening. Run `bash model_kit/install.sh` again to start it later (nothing is installed twice);
+`--no-run` only installs and checks, `hf_only` picks the other model, further options go to `command_pi.py`
+(e.g. `bash model_kit/install.sh hf_plus --rule balanced`).
+
+By hand instead: `sudo apt install libportaudio2`, `python3 -m venv ~/heydelta && source ~/heydelta/bin/activate`,
+`pip install numpy onnxruntime sounddevice scipy`, then the commands below.
+
+## Run (with `source ~/heydelta/bin/activate` first)
 
 ```bash
 python3 models/bcresnet6_hf_plus/command_pi.py live --deploy listener     # Ctrl+C to quit
@@ -71,6 +77,7 @@ def main():
                 shutil.copy(ex / f, d / f)
         print(f"{run}: cutoffs {cfg['cutoffs']}, default rule {cfg['default_rule']}")
     (out / "README_MODEL_KIT.md").write_text(README)
+    shutil.copy(HERE / "install_model_kit.sh", out / "install.sh")
     z = shutil.make_archive(str(HERE / "model_kit"), "zip", root_dir=HERE, base_dir="model_kit")
     print(f"{z}: {Path(z).stat().st_size / 1e6:.1f} MB")
 

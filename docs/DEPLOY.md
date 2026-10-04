@@ -1,15 +1,16 @@
 # Deploying on a Raspberry Pi 5
 
 Two setups, both built from a clone of this repository with one command, using only the committed models (no
-training, no GPU, no project audio needed). Copy the zip to the Pi, unzip, install, run.
+training, no GPU, no project audio needed). Copy the zip to the Pi, then one line installs and starts it
+(running the same line again starts it later; nothing is installed twice).
 
 | | 1. Model deployment | 2. Model + assistant deployment |
 |---|---|---|
 | What it does | "Hey Delta" → command → **prints** the recognised command | "Hey Delta" → command → **carries it out** (Tapo bulb, phone calls/texts, weather, music, timers, alarms, reminders, simulated thermostat), **spoken reply**, live dashboard in the laptop's browser |
 | Build (any computer, Python 3) | `python3 data/deliverables/model/deploy/make_model_kit.py` | `python3 data/deliverables/assistant/make_assistant_kit.py` |
 | Result | `data/deliverables/model/deploy/model_kit.zip` (~11 MB) | `data/deliverables/assistant/assistant_kit.zip` (~63 MB; downloads the Piper voice once) |
-| On the Pi | `pip install numpy onnxruntime sounddevice scipy` | + `piper-tts python-kasa` and the device setup |
-| Run | `python3 models/bcresnet6_hf_plus/command_pi.py live --deploy listener` | `python3 assistant.py` (or at every boot: `bash install_autostart.sh`) |
+| On the Pi: install + run, one line | `unzip -o model_kit.zip && bash model_kit/install.sh` | `unzip -o assistant_kit.zip && bash assistant_kit/install.sh` (at every boot: add `--autostart`) |
+| What `install.sh` does | PortAudio + Python environment `~/heydelta`, checks the models load and the microphone, starts listening | PortAudio, ffmpeg, gdbus + Python environment `~/assistant` (Piper), private settings file, offline tests, starts the assistant |
 | Full instructions | `README_MODEL_KIT.md` inside the kit | `README_ASSISTANT.md` inside the kit / [`data/deliverables/assistant/README_ASSISTANT.md`](../data/deliverables/assistant/README_ASSISTANT.md) |
 | Personal settings | none | one private file on the Pi, `~/.heydelta/config.json` (anything left empty stays simulated) |
 
