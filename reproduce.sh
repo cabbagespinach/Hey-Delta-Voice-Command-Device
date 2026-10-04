@@ -3,7 +3,7 @@
 # If the data is not set up yet, it first runs  bash setup_data.sh --server  itself (SHARED_DIR=<dir> for another
 # shared folder); run setup_data.sh again by hand only after adding a dataset you obtained yourself.
 #   bash reproduce.sh [all|wakeword|commands|hf]          GPU=<index> picks the GPU (default 0)
-#   SMOKE=1 bash reproduce.sh ...                          a few minutes: tiny training, checks that everything runs
+#   SMOKE=1 bash reproduce.sh ...                          ~2.5 h: tiny training, checks that everything runs
 # Trains every model again from the data, evaluates it the same way and writes, next to the reported results,
 # repro_outputs/REPRODUCTION_REPORT.md (reported vs reproduced). Reproduced runs get the suffix _repro; the reported
 # runs, checkpoints and results in this repository are never overwritten. Run it inside tmux.

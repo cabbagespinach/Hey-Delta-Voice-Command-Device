@@ -13,7 +13,7 @@ that cannot be shared). Run `setup_data.sh --server` by hand only after adding a
 Deploying the trained models on a Raspberry Pi (model only, or model + assistant) is separate: `docs/DEPLOY.md`.
 
 Pick a free GPU with `GPU=<index> bash reproduce.sh`. One part only: `bash reproduce.sh wakeword` (~45 min),
-`commands` (~2.5 h) or `hf` (~2.5 h). `SMOKE=1 bash reproduce.sh` runs everything at toy size in a few minutes to
+`commands` (~2.5 h) or `hf` (~2.5 h). `SMOKE=1 bash reproduce.sh` runs everything at toy size (about 2.5 h, most of it the wakeword part) to
 check the setup.
 
 The result is `repro_outputs/REPRODUCTION_REPORT.md`: the reported numbers next to the reproduced ones. Reproduced
