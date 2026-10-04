@@ -26,6 +26,7 @@ output = probabilities. Thresholds / cutoffs are in the `command_config.json` ne
 - **Class benchmark (HF test split):** adding our data to the class Hugging Face set cuts wrong commands from 7.7%
   to 1.2% on the classmates' voices and raises public-recording accuracy from 53% to 64%
   (`.../evaluation/results_hf_compare.md`).
+- **Ablations** (what each change did, one page): [ABLATIONS.md](ABLATIONS.md). **References:** [REFERENCES.md](REFERENCES.md).
 
 ## Reproduce
 
