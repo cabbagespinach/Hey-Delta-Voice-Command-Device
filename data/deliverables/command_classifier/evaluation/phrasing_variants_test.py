@@ -91,7 +91,7 @@ def test_voices():
     test = set(a[(a.split == "test") & a.dataset.isin(["synthetic_ph", "synthetic_piper"])].speaker)
     m = pd.read_csv(gs.OUT / "manifest.csv")
     m = m[m.tier.isin(["ph", "piper"]) & m.voice.isin(test)].drop_duplicates("voice")
-    sys.path.insert(0, str(ROOT))
+    sys.path.insert(0, str(ROOT / "scripts"))
     import generate_tts_voices_v2 as g
     jobs = []
     for r in m.itertuples(index=False):

@@ -22,7 +22,7 @@ Labels and groups: positives -> source tts_synth (clip-level ground truth, gt_wh
 source tts_synthetic_phonetic_nearmiss (negatives_confusable). recording_id = "<voice>-spk<id>", so every
 speaker is one source group and lands in exactly one split (append-only split extension).
 
-Usage: CUDA_VISIBLE_DEVICES=<one gpu> python generate_tts_voices_v2.py [--dry-run]
+Usage: CUDA_VISIBLE_DEVICES=<one gpu> python scripts/generate_tts_voices_v2.py [--dry-run]
 """
 from concurrent.futures import ProcessPoolExecutor
 from datetime import datetime, timezone
@@ -32,7 +32,7 @@ import argparse, json, re, shutil, sys, wave
 import numpy as np
 import pandas as pd
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / "voices/piper_raw"
 STAGE = ROOT / "external_raw/tts_v2_stage"
 SEED = 20260929

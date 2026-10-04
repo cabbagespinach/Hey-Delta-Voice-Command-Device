@@ -4,7 +4,7 @@ First public release of the AI231 ME2 project: an offline voice-command device f
 wakeword model wakes the device; a command classifier then maps the spoken command to one of the class benchmark's
 31 commands (schema "Option B") or `unknown`.
 
-## Model weights (licence: CC BY-NC 4.0, see MODEL_LICENSE.md)
+## Model weights (licence: CC BY-NC 4.0, see ../MODEL_LICENSE.md)
 
 | Model | Checkpoint (PyTorch) | ONNX (for the Pi) | Parameters |
 |---|---|---|---|
@@ -29,8 +29,8 @@ output = probabilities. Thresholds / cutoffs are in the `command_config.json` ne
 
 ## Reproduce
 
-`git clone` → `bash setup_data.sh --server` → `bash reproduce.sh` on the course HPC server (REPRODUCE.md;
-hardware, wall-clock times and seeds in COMPUTE.md). Audio: Zenodo, restricted access,
+`git clone` → `bash setup_data.sh --server` → `bash reproduce.sh` on the course HPC server (docs/REPRODUCE.md;
+hardware, wall-clock times and seeds in docs/COMPUTE.md). Audio: Zenodo, restricted access,
 doi:10.5281/zenodo.23093493, plus a read-only folder on the server.
 
 ## Licences

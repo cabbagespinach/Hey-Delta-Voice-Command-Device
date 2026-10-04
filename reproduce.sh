@@ -1,5 +1,5 @@
 #!/bin/bash
-# Step 2 of reproducing this project (after setup_data.sh; see REPRODUCE.md). ONE GPU.
+# Step 2 of reproducing this project (after setup_data.sh; see docs/REPRODUCE.md). ONE GPU.
 #   bash reproduce.sh [all|wakeword|commands|hf]          GPU=<index> picks the GPU (default 0)
 #   SMOKE=1 bash reproduce.sh ...                          a few minutes: tiny training, checks that everything runs
 # Trains every model again from the data, evaluates it the same way and writes, next to the reported results,
@@ -17,7 +17,7 @@ mkdir -p repro_outputs; LOG="$ROOT/repro_outputs/reproduce.log"
 step() { echo "=== $1 $(date '+%m-%d %H:%M:%S')" | tee -a "$LOG"; }
 run() { "$@" 2>&1 | grep --line-buffered -v -i "warn" | tee -a "$LOG"; }
 if [ -n "$SMOKE" ]; then SFX=_smoke; export TRAIN_ARGS="--epochs 1 --epoch-draws 512" STATS_DRAWS=200; fi
-case "$ROOT" in */sandbox/AI231/*) [ -n "$REPRO_ALLOW_HERE" ] || { echo "This is the owner's working copy: reproduce in a fresh clone (REPRODUCE.md)."; exit 1; };; esac
+case "$ROOT" in */sandbox/AI231/*) [ -n "$REPRO_ALLOW_HERE" ] || { echo "This is the owner's working copy: reproduce in a fresh clone (docs/REPRODUCE.md)."; exit 1; };; esac
 [ -f repro_outputs/optional_data.json ] || { echo "run: bash setup_data.sh --server   first"; exit 1; }
 
 step "0 match the clip lists to the audio present (missing datasets are left out and reported)"

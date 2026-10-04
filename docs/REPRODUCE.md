@@ -67,5 +67,5 @@ exact.
 
 Rebuilding the datasets themselves from raw downloads (TTS generation, Whisper segmentation, voice conversion) is
 not part of `reproduce.sh`: it takes many GPU hours and the TTS/voice-conversion steps are not bit-exact. Their
-scripts are in the repository (`generate_tts_voices_v2.py`, `data/deliverables/segmentation_windowing/`,
+scripts are in the repository (`scripts/generate_tts_voices_v2.py`, `data/deliverables/segmentation_windowing/`,
 `data/deliverables/command_classifier/generate_*.py`, `label_classmate_datasets.py`, `hf_extract.py`).

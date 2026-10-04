@@ -16,14 +16,14 @@ device. Both models are BC-ResNet networks running in ONNX Runtime on a Raspberr
 
 ## Reproduce
 
-See **[REPRODUCE.md](REPRODUCE.md)**: `git clone` → `bash setup_data.sh --server` → `bash reproduce.sh`, on the
-course HPC server (one A100). Compute details, wall-clock times and seeds: **[COMPUTE.md](COMPUTE.md)**.
+See **[docs/REPRODUCE.md](docs/REPRODUCE.md)**: `git clone` → `bash setup_data.sh --server` → `bash reproduce.sh`, on the
+course HPC server (one A100). Compute details, wall-clock times and seeds: **[docs/COMPUTE.md](docs/COMPUTE.md)**.
 
 ## Data
 
 All datasets, with licence, citation and DOI: `external_raw/README.md`; per-dataset clip counts and splits:
 `data/command_dataset/dataset_inventory.csv`. Audio is not in this repository: our own recordings and prepared clips
-are on Zenodo (restricted access, DOI in REPRODUCE.md) and in a read-only folder on the HPC server; datasets whose
+are on Zenodo (restricted access, DOI in docs/REPRODUCE.md) and in a read-only folder on the HPC server; datasets whose
 licences forbid redistribution (Sonos "Hey Snips", Qualcomm Keyword Speech, Fluent Speech Commands) must be obtained
 from their owners (instructions printed by `setup_data.sh`). Classmates are named by neutral labels (Classmate A–F).
 
@@ -41,4 +41,9 @@ from their owners (instructions printed by `setup_data.sh`). Classmates are name
 | `data/deliverables/` | wakeword pipeline: `dataset_split/`, `segmentation_windowing/`, `preprocessing/`, `dataloading/`, `deployment_driven_augmentation_strategy/`, `model/` (training, ONNX export, Pi kit, deployment module), `evaluation/` |
 | `data/deliverables/command_classifier/` | command classifier: data building, `preprocessing/`, `dataloading/`, `model/`, `evaluation/`, pipelines `reproduce_schema_b.sh`, `run_hf_compare.sh` |
 | `data/*.csv` | clip lists (training / validation / test membership of every clip) |
-| `repro/`, `setup_data.sh`, `reproduce.sh` | reproduction tools |
+| `setup_data.sh`, `reproduce.sh` | the two reproduction steps (run from the repository root) |
+| `repro/` | reproduction helpers used by those two scripts |
+| `docs/` | `REPRODUCE.md`, `COMPUTE.md`, `RELEASE_NOTES.md`, `slides/` (presentation deck) |
+| `scripts/` | one-off data-building scripts (new TTS voices, public-corpus negatives, manual recordings in the manifest) |
+| `notebooks/` | the original wakeword data pipeline notebooks (paths relative to the repository root) |
+| `external_raw/` | dataset sources, licences, download scripts (no audio) |

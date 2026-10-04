@@ -41,7 +41,7 @@ python segment_annotate.py materialize --split validation --limit 50
 Requires `faster-whisper` (1.2.1 tested; model `large-v3`), `soundfile`, `scipy`, `pandas`, `numpy`.
 ASR results are cached per file under `outputs/asr_raw/`, keyed by a hash of the `asr` config section.
 
-**Added 2026-09-29: public-corpus negatives** (`../../../integrate_external_datasets.py`; raw data and licences in
+**Added 2026-09-29: public-corpus negatives** (`../../../scripts/integrate_external_datasets.py`; raw data and licences in
 `external_raw/README.md`). There are 9,253 files, all negative and all in `generation_label` mode:
 - MSWC near-miss words: 6,663 confusables and 660 partials ("hey", "hay", "delta").
 - FLEURS read speech, 600 files (fil_ph and en_us).
@@ -51,7 +51,7 @@ Split groups are the MSWC speaker, the FLEURS sentence id (FLEURS has no speaker
 append-only extension assigned 6,934 new groups. No earlier window changed its label or split. These files add 19,559
 windows: train 15,737, validation 1,910, test 1,912.
 
-**Added 2026-09-29 (night): 405 new synthetic speakers** (`../../../generate_tts_voices_v2.py`). BC-ResNet baselines
+**Added 2026-09-29 (night): 405 new synthetic speakers** (`../../../scripts/generate_tts_voices_v2.py`). BC-ResNet baselines
 had memorised the 5 training TTS voices (validation synthetic detection 10–40%, real RPI 100%). New offline Piper
 voices, none already in the dataset or in streaming Set B, add 2 "Hey Delta" + 2 near-miss clips per speaker:
 - LibriTTS-R (220 speakers), VCTK (109), L2-ARCTIC (24 non-native), ARCTIC (18), ARU (12), SEMAINE (4) and 18

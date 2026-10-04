@@ -29,7 +29,7 @@ sys.path.insert(0, str(HERE))
 import build_commands_all as bca                                  # noqa: E402
 from generate_synthetic_commands import norm                      # noqa: E402
 
-SCHEMA = ROOT / "Dataset Schema - Option B.csv"
+SCHEMA = HERE / "dataset_schema_option_b.csv"
 
 OLD_TO_NEW = {
     "play_music": "PLAY_MUSIC", "weather": "WEATHER", "time": "TIME", "lights_on": "LIGHT_ON", "lights_off": "LIGHT_OFF",

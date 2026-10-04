@@ -1,5 +1,5 @@
 #!/bin/bash
-# Step 1 of reproducing this project on the AI231 HPC server (see REPRODUCE.md).
+# Step 1 of reproducing this project on the AI231 HPC server (see docs/REPRODUCE.md).
 #   bash setup_data.sh --server [SHARED_DIR]      default SHARED_DIR: /home/arvir.jane.redondo/AI231_ME2_reproduce
 # Links the shared, read-only audio folder into this clone (nothing is copied), rebuilds the clips of any
 # non-shareable dataset you obtained yourself (Hey Snips, Fluent Speech Commands), and prints how to obtain the

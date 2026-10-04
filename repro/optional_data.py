@@ -73,7 +73,7 @@ def check():
 
 
 def restore():
-    sys.path.insert(0, str(REPO))
+    sys.path.insert(0, str(REPO / "scripts"))
     sys.path.insert(0, str(REPO / "data/deliverables/command_classifier"))
     if present("hey_snips"):
         import integrate_external_datasets as ied

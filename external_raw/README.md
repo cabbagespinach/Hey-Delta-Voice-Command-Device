@@ -1,7 +1,7 @@
 # External datasets (downloaded 2026-09-29)
 
 Raw downloads from public corpora, kept unmodified for provenance. The clips actually used are converted
-and listed in `manifest.csv` by `../integrate_external_datasets.py` (sources `ext_*`, all **negative**;
+and listed in `manifest.csv` by `../scripts/integrate_external_datasets.py` (sources `ext_*`, all **negative**;
 no public corpus contains "Hey Delta"). RIRs are used through `data/rir/rir_bank.csv`
 (`data/deliverables/deployment_driven_augmentation_strategy/build_rir_bank.py`).
 

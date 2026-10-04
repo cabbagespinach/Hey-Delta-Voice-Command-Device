@@ -29,7 +29,7 @@ All training and evaluation ran on the course HPC server; the deployment target 
 | Wakeword split (source-level, frozen) | 20260925 | `data/deliverables/dataset_split/split_config.json` |
 | Wakeword data loading / augmentation | 20260928 | `data/deliverables/dataloading/dataloader_config.json` |
 | Wakeword training | 20260929 | `data/deliverables/model/train_config.json` |
-| External negatives (MSWC, FLEURS, MUSAN, Hey Snips) | 20260929 | `integrate_external_datasets.py` |
+| External negatives (MSWC, FLEURS, MUSAN, Hey Snips) | 20260929 | `scripts/integrate_external_datasets.py` |
 | Command training and data loading | 20260930 | `command_classifier/model/train_config.json`, `dataloading/dataloader_config*.json` |
 | Command data generation (synthetic voices, fragments, reused unknowns, public datasets) | 20260930 | `command_classifier/generate_synthetic_commands.py`, `build_fragments.py`, `build_unknown_reuse.py`, `prepare_real_commands.py`, `convert_owner_voices.py`, `clone_fleurs_voices.py` |
 | Other wordings, classmates' datasets | 20261001 | `generate_phrasing_variants.py`, `label_classmate_datasets.py` |

@@ -161,7 +161,7 @@ def ph_jobs():
 
 
 def piper_jobs(n, rng):
-    sys.path.insert(0, str(ROOT))
+    sys.path.insert(0, str(ROOT / "scripts"))
     import generate_tts_voices_v2 as g                                   # reuse the voice list / downloads
     jobs = []
     for v in list(g.MULTI) + g.SINGLE:

@@ -8,7 +8,7 @@ USAGE:
     (i.e. the folder such that BASE_DIR / <filepath from manifest> is a
     real file on disk). Then run:
 
-        python update_manifest_with_manual_recordings.py
+        python scripts/update_manifest_with_manual_recordings.py
 
 WHAT GETS FILLED IN AUTOMATICALLY:
     - filepath        : relative path (matches manifest convention)

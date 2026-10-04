@@ -2,9 +2,9 @@
 # Never audio, archives, raw downloads or environments (licences forbid redistributing several corpora).
 /*
 !/.gitignore
-!/*.py
-!/*.ipynb
-!/Dataset Schema - Option B.csv
+!/docs/
+!/scripts/
+!/notebooks/
 !/data/
 /data/*
 !/data/deliverables/
@@ -42,7 +42,6 @@ __pycache__/
 !/data/commands_hf/manifest.csv
 !/setup_data.sh
 !/reproduce.sh
-!/REPRODUCE.md
 !/repro/
 !/external_raw/hey_snips/
 /external_raw/hey_snips/*
@@ -55,5 +54,3 @@ __pycache__/
 !/README.md
 !/LICENSE
 !/MODEL_LICENSE.md
-!/COMPUTE.md
-!/RELEASE_NOTES.md

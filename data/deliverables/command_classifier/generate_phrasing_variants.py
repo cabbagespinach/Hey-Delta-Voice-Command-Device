@@ -138,7 +138,7 @@ def ph_piper_jobs(n_piper):
     m = m[m.tier.isin(["ph", "piper"]) & m.voice.isin(keep)].drop_duplicates("voice")
     ph, pi = m[m.tier == "ph"], m[m.tier == "piper"]
     pi = pi.sample(min(n_piper, len(pi)), random_state=SEED)
-    sys.path.insert(0, str(ROOT))
+    sys.path.insert(0, str(ROOT / "scripts"))
     import generate_tts_voices_v2 as g
     jobs = []
     for r in ph.itertuples(index=False):

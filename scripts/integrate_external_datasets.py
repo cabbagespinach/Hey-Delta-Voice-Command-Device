@@ -23,7 +23,7 @@ Split groups (recording_id -> source_group): MSWC = speaker; Hey Snips = speaker
 no speaker ids, so the same sentence never crosses splits); MUSAN = source file. Splits are
 then assigned by segmentation_windowing's append-only split extension.
 
-Usage: python integrate_external_datasets.py   (a source already in the manifest is skipped, never added twice)
+Usage: python scripts/integrate_external_datasets.py   (a source already in the manifest is skipped, never added twice)
 """
 from datetime import datetime, timezone
 from pathlib import Path
@@ -33,7 +33,7 @@ import pandas as pd
 import soundfile as sf
 from scipy.signal import resample_poly
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / "external_raw"
 SR = 16000
 EXCERPT = 6.0

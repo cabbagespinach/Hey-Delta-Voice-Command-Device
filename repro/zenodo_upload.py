@@ -48,7 +48,7 @@ DESCRIPTION = """
 the project owner's own recordings, synthetic voices made for the project, and prepared clips of openly licensed
 public datasets, exactly as used for training and evaluation. Code, clip lists, splits, logs, model weights and
 reproduction instructions: <a href="https://github.com/cabbagespinach/Hey-Delta-Voice-Command-Device">github.com/cabbagespinach/Hey-Delta-Voice-Command-Device</a>
-(REPRODUCE.md). Each tar file holds folders under <code>data/</code>; extract them in the repository root.</p>
+(docs/REPRODUCE.md). Each tar file holds folders under <code>data/</code>; extract them in the repository root.</p>
 <p><b>Not included</b> (obtain from their owners; the repository's setup_data.sh prints how): Sonos "Hey Snips",
 Qualcomm Keyword Speech Dataset, Fluent Speech Commands, classmates' own recordings, the classmates' voice-cloned
 "Option B" set and VCM collection (public: github.com/markandrian30/AI231, MEX2/Data; Google Drive link in the
