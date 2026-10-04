@@ -42,8 +42,8 @@ GPU arithmetic is not bit-exact between runs, so a reproduction matches the repo
 Deployment target: Raspberry Pi 5 (4 GB), ONNX Runtime on the CPU, **one thread** per model. Each ONNX file holds
 the front end and the network, so the times are audio in -> probabilities out.
 
-**Measured live on the Pi during the class benchmark** (command model `bcresnet6_hf_plus`, wakeword listener running
-all the time; `data/deliverables/evaluation/benchmark_comparison.md`, raw samples in each run's `pi_metrics.csv`):
+**Measured live on the Pi during the class benchmark** (Raspberry Pi 5 Model B, 4 GB, Debian 13, no throttling; command
+model `bcresnet6_hf_plus`, wakeword listener running all the time; `data/deliverables/evaluation/benchmark_comparison.md`, raw samples in each run's `pi_metrics.csv`):
 
 | | Oct 2 run (hf_plus only) | Oct 3 run (several models answered each capture; hf_plus column) |
 |---|---|---|
@@ -52,8 +52,14 @@ all the time; `data/deliverables/evaluation/benchmark_comparison.md`, raw sample
 | CPU use of the whole Pi, listener + model (mean / p95 / max) | 5.2 / 7.8 / 13.4 % | 10.8 / 26.9 / 35.9 % (several models per capture) |
 | CPU temperature (mean / p95 / max) | 54.5 / 55.6 / 57.3 C | 54.6 / 56.2 / 57.9 C |
 | response time, end of command -> Pi answer (p50 / p95) | 1.42 / 4.93 s | 1.45 / 3.25 s |
+| assistant process CPU, share of wall time (wakeword listening all the time + command model) | 12.7 % | 12.3 % |
+| assistant process RAM (mean / p95 / max) | 108.7 / 109.8 / 110.7 MB | 144.8 / 145.0 / 145.8 MB (several models loaded) |
+| wakeword detection (trials with "Hey Delta" in which it woke up) | 98.5 % | 100 % (202 / 202) |
+| false wakes (trials without the wake word) | 0 / 16 | 0 / 16 |
 
-The response time is mostly the listener waiting for the end of speech, not the model.
+The response time is mostly the listener waiting for the end of speech, not the model. The process CPU is mostly the
+wakeword listener (one 1.5 s window every 100 ms) plus audio capture; the wakeword model's own time per window on the
+Pi is measured separately by `pi_latency.py` (below; on one server core: 4.8 ms per window).
 
 Scripts (run on the Pi, from a clone of this repository):
 
