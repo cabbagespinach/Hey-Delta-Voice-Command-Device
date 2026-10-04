@@ -4,7 +4,7 @@ One command after cloning, under your own account on the same server as the proj
 training):
 
 ```bash
-git clone https://github.com/cabbagespinach/Hey-Delta-Voice-Command-Device.git ai231-me2 && cd ai231-me2
+git clone https://github.com/cabbagespinach/Hey-Delta-Voice-Command-Device.git AI231ME2RedondoTrainRepro && cd AI231ME2RedondoTrainRepro
 tmux new -s repro "bash reproduce.sh"     # sets up the data, then trains, evaluates and exports every model (~6 h, one GPU)
 ```
 
