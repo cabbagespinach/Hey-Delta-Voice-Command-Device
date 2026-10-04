@@ -40,6 +40,7 @@ from their owners (instructions printed by `setup_data.sh`). Classmates are name
 |---|---|
 | `data/deliverables/` | wakeword pipeline: `dataset_split/`, `segmentation_windowing/`, `preprocessing/`, `dataloading/`, `deployment_driven_augmentation_strategy/`, `model/` (training, ONNX export, Pi kit, deployment module), `evaluation/` |
 | `data/deliverables/command_classifier/` | command classifier: data building, `preprocessing/`, `dataloading/`, `model/`, `evaluation/`, pipelines `reproduce_schema_b.sh`, `run_hf_compare.sh` |
+| `data/deliverables/assistant/` | the working assistant on the Pi: carries out each command (Tapo bulb, phone calls/texts over Bluetooth, weather, music, timers, simulated thermostat), spoken replies, live dashboard; build and setup in `README_ASSISTANT.md` |
 | `data/*.csv` | clip lists (training / validation / test membership of every clip) |
 | `setup_data.sh`, `reproduce.sh` | the two reproduction steps (run from the repository root) |
 | `repro/` | reproduction helpers used by those two scripts |
