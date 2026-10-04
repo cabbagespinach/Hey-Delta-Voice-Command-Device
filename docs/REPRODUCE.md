@@ -1,12 +1,16 @@
 # Reproducing this project on the AI231 HPC server
 
-Three commands, run under your own account on the same server as the project owner (a GPU is needed for training):
+One command after cloning, under your own account on the same server as the project owner (a GPU is needed for
+training):
 
 ```bash
-git clone <this repository> ai231-me2 && cd ai231-me2
-bash setup_data.sh --server        # links the shared audio, checks the datasets that cannot be shared
-tmux new -s repro "bash reproduce.sh"     # trains, evaluates and exports every model again (~6 h on one GPU)
+git clone https://github.com/cabbagespinach/Hey-Delta-Voice-Command-Device.git ai231-me2 && cd ai231-me2
+tmux new -s repro "bash reproduce.sh"     # sets up the data, then trains, evaluates and exports every model (~6 h, one GPU)
 ```
+
+`reproduce.sh` first runs `bash setup_data.sh --server` by itself (links the shared audio and checks the datasets
+that cannot be shared). Run `setup_data.sh --server` by hand only after adding a dataset you obtained yourself.
+Deploying the trained models on a Raspberry Pi (model only, or model + assistant) is separate: `docs/DEPLOY.md`.
 
 Pick a free GPU with `GPU=<index> bash reproduce.sh`. One part only: `bash reproduce.sh wakeword` (~45 min),
 `commands` (~2.5 h) or `hf` (~2.5 h). `SMOKE=1 bash reproduce.sh` runs everything at toy size in a few minutes to

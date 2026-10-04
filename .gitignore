@@ -58,3 +58,5 @@ __pycache__/
 /data/deliverables/assistant/assistant_kit.zip
 /data/deliverables/command_classifier/model/vcm_bench_kit/
 /data/deliverables/command_classifier/model/vcm_bench_kit.zip
+/data/deliverables/model/deploy/model_kit/
+/data/deliverables/model/deploy/model_kit.zip

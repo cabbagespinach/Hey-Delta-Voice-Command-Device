@@ -16,8 +16,10 @@ device. Both models are BC-ResNet networks running in ONNX Runtime on a Raspberr
 
 ## Reproduce
 
-See **[docs/REPRODUCE.md](docs/REPRODUCE.md)**: `git clone` → `bash setup_data.sh --server` → `bash reproduce.sh`, on the
+See **[docs/REPRODUCE.md](docs/REPRODUCE.md)**: `git clone` → `bash reproduce.sh` (one command; it sets up the data itself), on the
 course HPC server (one A100). Compute details, wall-clock times and seeds: **[docs/COMPUTE.md](docs/COMPUTE.md)**.
+
+Deploying on a Raspberry Pi 5 (model only, or model + assistant), one build command each: **[docs/DEPLOY.md](docs/DEPLOY.md)**.
 
 What made the difference (5 → 405 TTS voices for the wakeword, BC-ResNet vs DS-CNN, class data with and without
 ours, ...): **[docs/ABLATIONS.md](docs/ABLATIONS.md)**. Papers, datasets and software: **[docs/REFERENCES.md](docs/REFERENCES.md)**.
@@ -47,7 +49,7 @@ from their owners (instructions printed by `setup_data.sh`). Classmates are name
 | `data/*.csv` | clip lists (training / validation / test membership of every clip) |
 | `setup_data.sh`, `reproduce.sh` | the two reproduction steps (run from the repository root) |
 | `repro/` | reproduction helpers used by those two scripts |
-| `docs/` | `REPRODUCE.md`, `COMPUTE.md`, `ABLATIONS.md`, `REFERENCES.md`, `RELEASE_NOTES.md`, `slides/` (presentation deck) |
+| `docs/` | `REPRODUCE.md`, `DEPLOY.md`, `COMPUTE.md`, `ABLATIONS.md`, `REFERENCES.md`, `RELEASE_NOTES.md`, `slides/` (presentation deck) |
 | `scripts/` | one-off data-building scripts (new TTS voices, public-corpus negatives, manual recordings in the manifest) |
 | `notebooks/` | the original wakeword data pipeline notebooks (paths relative to the repository root) |
 | `external_raw/` | dataset sources, licences, download scripts (no audio) |

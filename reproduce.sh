@@ -1,5 +1,7 @@
 #!/bin/bash
-# Step 2 of reproducing this project (after setup_data.sh; see docs/REPRODUCE.md). ONE GPU.
+# Reproduces this project in ONE command, from a fresh clone on the AI231 HPC server (see docs/REPRODUCE.md). ONE GPU.
+# If the data is not set up yet, it first runs  bash setup_data.sh --server  itself (SHARED_DIR=<dir> for another
+# shared folder); run setup_data.sh again by hand only after adding a dataset you obtained yourself.
 #   bash reproduce.sh [all|wakeword|commands|hf]          GPU=<index> picks the GPU (default 0)
 #   SMOKE=1 bash reproduce.sh ...                          a few minutes: tiny training, checks that everything runs
 # Trains every model again from the data, evaluates it the same way and writes, next to the reported results,
@@ -18,7 +20,8 @@ step() { echo "=== $1 $(date '+%m-%d %H:%M:%S')" | tee -a "$LOG"; }
 run() { "$@" 2>&1 | grep --line-buffered -v -i "warn" | tee -a "$LOG"; }
 if [ -n "$SMOKE" ]; then SFX=_smoke; export TRAIN_ARGS="--epochs 1 --epoch-draws 512" STATS_DRAWS=200; fi
 case "$ROOT" in */sandbox/AI231/*) [ -n "$REPRO_ALLOW_HERE" ] || { echo "This is the owner's working copy: reproduce in a fresh clone (docs/REPRODUCE.md)."; exit 1; };; esac
-[ -f repro_outputs/optional_data.json ] || { echo "run: bash setup_data.sh --server   first"; exit 1; }
+[ -f repro_outputs/optional_data.json ] || { step "setup: linking the shared data (bash setup_data.sh --server)"
+  bash setup_data.sh --server ${SHARED_DIR:+"$SHARED_DIR"} 2>&1 | tee -a "$LOG"; [ "${PIPESTATUS[0]}" = 0 ] || exit 1; }
 
 step "0 match the clip lists to the audio present (missing datasets are left out and reported)"
 run "$PY" repro/optional_data.py filter || exit 1

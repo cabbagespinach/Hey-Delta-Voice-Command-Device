@@ -21,5 +21,5 @@ echo "== rebuilding clips of datasets you obtained yourself (if any)"
 echo "== datasets that cannot be shared"
 "$PY" repro/optional_data.py check || exit 1
 echo
-echo "Setup done. Next:  bash reproduce.sh            (everything, ~6 h on one GPU)"
+echo "Setup done. Next:  bash reproduce.sh            (everything, ~6 h on one GPU; it also runs this setup itself)"
 echo "                   bash reproduce.sh wakeword   |  commands  |  hf     (one part)"
